@@ -51,7 +51,10 @@ def parser():
 		writer = csv.writer(listas, delimiter = ";")
 
 		for match in list_matches:
-			time = match.find('div', class_='event__time').get_text().replace(":", "")
+			try:
+				time = match.find('div', class_='event__time').get_text().replace(":", "")
+			except:
+				time = "No time"
 			home_team = match.find('div', class_='event__participant--home').get_text()
 			away_team = match.find('div', class_='event__participant--away').get_text()
 			competition = match.find_previous_sibling('div', class_ = "event__header").find('span', class_ = "event__title--name").get_text()
