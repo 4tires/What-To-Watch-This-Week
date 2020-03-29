@@ -48,12 +48,12 @@
 
 ## Backlog
 
-- Create python dictionary to remove manual correction of team and league names (Linguistic differences as stated in v9) maybe use pickle for performance reasons
-- Add automatic leg score
-- Install Grid (needs Docker) to use python in spreadsheets easily
-- (Hard) Automate round and group letter of the competition (e.g. "Semi-Final"; "Group B") as stated in v9
-- Maybe ditch the spreadsheets (probably hard because of bold matches)
-- Add more flairs (maybe use https://www.reddit.com/r/soccer/comments/f8z3sc/what_to_watch_this_week_241_march/fioh87b/)
+- [ ] Create python dictionary to remove manual correction of team and league names (Linguistic differences as stated in v9) maybe use pickle for performance reasons
+- [ ] Add automatic leg score
+- [ ] Install Grid (needs Docker) to use python in spreadsheets easily
+- [ ] (Hard) Automate round and group letter of the competition (e.g. "Semi-Final"; "Group B") as stated in v9
+- [ ] Maybe ditch the spreadsheets (probably hard because of bold matches)
+- [ ] Add more flairs (maybe use https://www.reddit.com/r/soccer/comments/f8z3sc/what_to_watch_this_week_241_march/fioh87b/)
 
 ## Technology Stack
 
