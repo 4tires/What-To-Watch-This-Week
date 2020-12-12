@@ -123,3 +123,5 @@ dmypy.json
 .pyre/
 
 login_credentials.py
+chromedriver.exe
+notes.txt
