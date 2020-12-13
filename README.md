@@ -55,7 +55,7 @@
 - parser now returns data instead of writes to csv. Parser also retrieves date, region, and competition for later use. returns date and checked matches for that day
 - Created WTWTWdict and competitionschecked dictionaries. WTWTWdict is used to store checked match data. competitionschecked tracks each region/competition from checked matches for later use.
 - WTWTW function then iterates through competitionschecked for each league, and retreives the round and aggregate for each match in that competition in WTWTWmatches using competition_matches and acha_round functions. competition_matches returns a list of all the fixtures for the competition. acha_round parses through list for the match and returns round and aggregate. WTWTW adds round and aggregate to WTWTWmatches. WTWTW function then writes data to csv
--This version completes the two checked boxes in Backlog. Not tested for competitions with group stages yet.
+- This version completes the two checked boxes in Backlog. Not tested for competitions with group stages yet.
 
 ## Backlog
 
