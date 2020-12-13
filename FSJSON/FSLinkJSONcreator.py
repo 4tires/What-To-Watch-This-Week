@@ -17,8 +17,8 @@ def country_parser():
             country_name = country.find('a',href=True).get_text()
             country_href = country.find('a', href=True)['href']
             json_dict['Competitions'].update(league_parser(country_href, country_name))
-    with open('flasklinks.json','w') as flasklinks:
-        json.dump(json_dict, flasklinks, indent=4, sort_keys=True)
+    with open('FSJSON\\fslinks.json','w') as fslinks:
+        json.dump(json_dict, fslinks, indent=4, sort_keys=True)
 
 def league_parser(href, country):
     results = requests.get(url + href)
@@ -36,4 +36,4 @@ def league_parser(href, country):
     print(country + " dictionary completed.")
     return dict
 
-#country_parser()
+country_parser()
