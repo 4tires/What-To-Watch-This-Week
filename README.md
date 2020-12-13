@@ -46,6 +46,16 @@
 - Use Selenium to automate the fetching of the data (Still needs manual correcting because of differing linguistic terms e.g. Bayern Munich != Bayern Munch)
 - Use vlookup to help with CL and EL groups
 
+### v10
+
+- Used BeautifulSoup to create a json file of links to each competition. Organized by region - country for domestic competitions, continent/region for continental competitions and international competitions. The json file is used to retrieve round and aggregate score for each match in WTWTW.py.
+
+- imported requests and json/load
+- created new function WTWTW to run entire script
+- parser now returns data instead of writes to csv. Parser also retrieves date, region, and competition for later use. returns date and checked matches for that day
+- Created WTWTWdict and competitionschecked dictionaries. WTWTWdict is used to store checked match data. competitionschecked tracks each region/competition from checked matches for later use.
+- WTWTW function then iterates through competitionschecked for each league, and retreives the round and aggregate for each match in that competition in WTWTWmatches using competition_matches and acha_round functions. competition_matches returns a list of all the fixtures for the competition. acha_round parses through list for the match and returns round and aggregate. WTWTW adds round and aggregate to WTWTWmatches. WTWTW function then writes data to csv
+
 ## Backlog
 
 - [ ] Create python dictionary to remove manual correction of team and league names (Linguistic differences as stated in v9) maybe use pickle for performance reasons
