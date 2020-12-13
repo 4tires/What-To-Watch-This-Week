@@ -7,6 +7,9 @@ from bs4 import BeautifulSoup
 import time
 import csv
 from login_credentials import username_credential, password_credential
+from string import capwords
+import requests
+from json import load
 
 
 url = "https://www.flashscore.com/"
@@ -43,9 +46,8 @@ with open ('listas.csv', 'w', newline='') as listas:
 	pass
 time.sleep(10)
 
-competitioncount = {}
-
-def parser():
+def parser(competitioncheck):
+	checkedmatches = []
 	soup = BeautifulSoup(driver.page_source, 'html.parser')
 	date = soup.find('div', class_='calendar__datepicker').get_text().split(' ')[0].replace('/', '.')
 	matches = soup.find_all('div', class_='checked')
@@ -53,53 +55,122 @@ def parser():
 	for match in matches:
 		list_of_matches.append(match.find_parent('div', class_='event__match'))
 	list_matches = list(filter(None, list_of_matches))
-
-	with open ('listas.csv', 'a', newline='') as listas:
-		writer = csv.writer(listas, delimiter = ";")
-
-		for match in list_matches:
-			try:
-				time = match.find('div', class_='event__time').get_text().replace(":", "")
-			except:
-				time = "No time"
-			home_team = match.find('div', class_='event__participant--home').get_text()
-			away_team = match.find('div', class_='event__participant--away').get_text()
-			competition = match.find_previous_sibling('div', class_ = "event__header").find('span', class_ = "event__title--name").get_text()
-			country = match.find_previous_sibling('div', class_ = "event__header").find('span', class_ = "event__title--type").get_text()
-			if (country in competitioncount):
-				if (competition in competitioncount[country]):
-					competitioncount[country][competition] += 1
-				else:
-					competitioncount[country][competition] = 1
+	for match in list_matches:
+		temp = {}
+		try:
+			time = match.find('div', class_='event__time').get_text().replace(":", "")
+		except:
+			time = "No time"
+		home_team = match.find('div', class_='event__participant--home').get_text()
+		away_team = match.find('div', class_='event__participant--away').get_text()
+		competition = match.find_previous_sibling('div', class_ = "event__header").find('span', class_ = "event__title--name").get_text()
+		region = match.find_previous_sibling('div', class_ = "event__header").find('span', class_ = "event__title--type").get_text()
+		if (region in competitioncheck):
+			if (competition in competitioncheck[region]):
+				pass
 			else:
-				competitioncount[country] = {competition: 1}
-			writer.writerow([date, time, home_team, away_team, country, competition])
-		writer.writerow([])
-        
+				competitioncheck[region].append(competition)
+		else:
+			competitioncheck[region] = [competition]		
+		temp['Time'] = time
+		temp['Home'] = home_team
+		temp['Away'] = away_team
+		temp['Region'] = region
+		temp['Competition'] = competition
+		checkedmatches.append(temp)
 	print("Completed day")
+	return date, checkedmatches
 
 def fetcher():
-	parser()
-	driver.find_element_by_class_name('calendar__direction--tomorrow').click()
-	time.sleep(2)
-	parser()
-	"""
-	driver.find_element_by_class_name('calendar__direction--tomorrow').click()
-	time.sleep(2)
-	parser()
-	driver.find_element_by_class_name('calendar__direction--tomorrow').click()
-	time.sleep(2)
-	parser()
-	driver.find_element_by_class_name('calendar__direction--tomorrow').click()
-	time.sleep(2)
-	parser()
-	driver.find_element_by_class_name('calendar__direction--tomorrow').click()
-	time.sleep(3)
-	parser()
-	driver.find_element_by_class_name('calendar__direction--tomorrow').click()
-	time.sleep(3)
-	parser()
+	WTWTWdict = {}
+	competitionschecked = {}
+	for n in range(7):
+		date, checkedmatches = parser(competitionschecked)
+		WTWTWdict[date] = checkedmatches
+		if n == 6:
+			break
+		driver.find_element_by_class_name('calendar__direction--tomorrow').click()
+		time.sleep(2)
 	print("Completed all parsers")
-	"""
-fetcher()
-print(competitioncount)
+	driver.quit()
+	return WTWTWdict, competitionschecked
+
+def competition_matches(region, competition):
+	gamelist = []
+	href = acha_competition_link(region, competition)
+	results = requests.get(url + href + 'fixtures')
+	soup = BeautifulSoup(results.text, 'html.parser')
+	matches = soup.find('div', id='tournament-page-data-fixtures').contents
+	temp = str(matches[0]).split('~')[2:]
+	muito_matches = []
+	for n in range(len(temp)):
+		if ('AE÷'  in temp[n]):
+			muito_matches.append(temp[n])
+	for match in muito_matches:
+		temp = {}
+		if (match != ''):
+			match = str(match).split('¬')
+			for item in match:
+				if (item != ''):
+					if str(item.split("÷")[0] + "÷") in ['ER÷', 'AE÷', 'AF÷', 'AM÷']:
+						temp[str(item.split("÷")[0] + "÷")] = str(item.split("÷")[1])				
+			gamelist.append(temp)
+	return gamelist
+
+def acha_competition_link(region, competition):
+	country_proper = capwords(region)
+	competition_proper = ''
+	with open('FSJSON/flasklinks.json','r') as fs:
+		fsjson = load(fs)
+		if ('-' in competition):
+			competition_name_split = competition.split(' - ')
+			for n in range(len(competition_name_split)):
+				competition_proper = ' - '.join(competition_name_split[:n+1])
+				for key in fsjson['Competitions'][country_proper]:
+					if (competition_proper == key):
+						href = fsjson['Competitions'][country_proper][competition_proper]
+						return href
+		else:
+			competition_proper = competition
+		href = fsjson['Competitions'][country_proper][competition_proper]
+		return href
+		
+
+def acha_round(home, away, gamelist):
+	round = ''
+	aggregate = ''
+	for item in gamelist:
+		try:
+			if (item['AE÷'] == home and item['AF÷'] == away):
+				round = item['ER÷']
+				if ('AM÷' in item):
+					aggregate = item['AM÷']
+				return round, aggregate
+		except:
+			print("Error Occurred at item below")
+			print(gamelist[item])
+			return "Error"
+		
+
+def WTWTW():
+	WTWTWmatches, competitionschecked = fetcher()
+	print("Adding rounds and aggregate scores")
+	for region in competitionschecked:
+		for competition in competitionschecked[region]:
+			gamelist = competition_matches(region, competition)
+			for date in WTWTWmatches:
+				for match in WTWTWmatches[date]:
+					if (match['Region'] == region and match['Competition'] == competition):
+						round, aggregate = acha_round(match['Home'], match['Away'], gamelist)
+						match['Round'] = round
+						match['Aggregate'] = aggregate
+	print("Writing listas.csv")
+	with open('listas.csv', 'a', newline='') as listas:
+		writer = csv.writer(listas, delimiter=';')
+		for date in WTWTWmatches:
+			for match in WTWTWmatches[date]:
+				writer.writerow([match['Time'], match['Home'], match['Away'], match['Competition'], match['Round'], match['Aggregate']])
+			writer.writerow([])
+	print("Finished running WTWTW")
+
+WTWTW()
