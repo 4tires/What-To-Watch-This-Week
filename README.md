@@ -48,7 +48,7 @@
 
 ### v10
 
-- Used BeautifulSoup to create a json file of links to each competition. Organized by region - country for domestic competitions, continent/region for international competitions and international competitions. The json file is used to retrieve round and aggregate score for each match in WTWTW.py.
+- Used BeautifulSoup to create a json file of links to each competition. Organized by regiong - country for domestic competitions, continent/region for international competitions. The json file is used to retrieve round and aggregate score for each match in WTWTW.py.
 - imported requests and json->load
 - created new function WTWTW to run entire script
 - parser now returns data instead of writes to csv. Parser also retrieves date and region for later use. Returns date and checked matches for that day
