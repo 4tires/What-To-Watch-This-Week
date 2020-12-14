@@ -44,10 +44,10 @@ password.send_keys(password_credential)
 driver.find_element_by_id('login').click()
 with open ('listas.csv', 'w', newline='') as listas:
 	pass
-time.sleep(10)
+time.sleep(8)
 
-def parser(competitioncheck):
-	checkedmatches = []
+def parser(competitions_dict):
+	checked_matches = []
 	soup = BeautifulSoup(driver.page_source, 'html.parser')
 	date = soup.find('div', class_='calendar__datepicker').get_text().split(' ')[0].replace('/', '.')
 	matches = soup.find_all('div', class_='checked')
@@ -65,39 +65,39 @@ def parser(competitioncheck):
 		away_team = match.find('div', class_='event__participant--away').get_text()
 		competition = match.find_previous_sibling('div', class_ = "event__header").find('span', class_ = "event__title--name").get_text()
 		region = match.find_previous_sibling('div', class_ = "event__header").find('span', class_ = "event__title--type").get_text()
-		if (region in competitioncheck):
-			if (competition in competitioncheck[region]):
+		if (region in competitions_dict):
+			if (competition in competitions_dict[region]):
 				pass
 			else:
-				competitioncheck[region].append(competition)
+				competitions_dict[region].append(competition)
 		else:
-			competitioncheck[region] = [competition]		
+			competitions_dict[region] = [competition]		
 		temp['Time'] = time
 		temp['Home'] = home_team
 		temp['Away'] = away_team
 		temp['Region'] = region
 		temp['Competition'] = competition
-		checkedmatches.append(temp)
+		checked_matches.append(temp)
 	print("Completed day")
-	return date, checkedmatches
+	return date, checked_matches
 
 def fetcher():
 	WTWTWdict = {}
-	competitionschecked = {}
+	competitions_dict = {}
 	for n in range(7):
-		date, checkedmatches = parser(competitionschecked)
-		WTWTWdict[date] = checkedmatches
+		date, checked_matches = parser(competitions_dict)
+		WTWTWdict[date] = checked_matches
 		if n == 6:
-			break
+			return WTWTWdict, competitions_dict
 		driver.find_element_by_class_name('calendar__direction--tomorrow').click()
-		time.sleep(2)
+		time.sleep(1)
 	print("Completed all parsers")
 	driver.quit()
-	return WTWTWdict, competitionschecked
+	return WTWTWdict, competitions_dict
 
 def competition_matches(region, competition):
 	gamelist = []
-	href = acha_competition_link(region, competition)
+	href, competition_proper = acha_link_e_arranja_nome(region, competition)
 	results = requests.get(url + href + 'fixtures')
 	soup = BeautifulSoup(results.text, 'html.parser')
 	matches = soup.find('div', id='tournament-page-data-fixtures').contents
@@ -115,28 +115,28 @@ def competition_matches(region, competition):
 					if str(item.split("÷")[0] + "÷") in ['ER÷', 'AE÷', 'AF÷', 'AM÷']:
 						temp[str(item.split("÷")[0] + "÷")] = str(item.split("÷")[1])				
 			gamelist.append(temp)
-	return gamelist
+	return gamelist, competition_proper
 
-def acha_competition_link(region, competition):
-	country_proper = capwords(region)
+def acha_link_e_arranja_nome(region, competition):
+	region_proper = capwords(region)
 	competition_proper = ''
-	with open('FSJSON/flasklinks.json','r') as fs:
+	with open('FSJSON/fslinks.json','r') as fs:
 		fsjson = load(fs)
 		if ('-' in competition):
 			competition_name_split = competition.split(' - ')
 			for n in range(len(competition_name_split)):
 				competition_proper = ' - '.join(competition_name_split[:n+1])
-				for key in fsjson['Competitions'][country_proper]:
+				for key in fsjson['Competitions'][region_proper]:
 					if (competition_proper == key):
-						href = fsjson['Competitions'][country_proper][competition_proper]
-						return href
+						href = fsjson['Competitions'][region_proper][competition_proper]
+						return href, competition_proper
 		else:
 			competition_proper = competition
-		href = fsjson['Competitions'][country_proper][competition_proper]
-		return href
+			href = fsjson['Competitions'][region_proper][competition_proper]
+			return href, competition_proper
 		
 
-def acha_round(home, away, gamelist):
+def acha_round_e_aggregate(home, away, gamelist):
 	round = ''
 	aggregate = ''
 	for item in gamelist:
@@ -153,17 +153,18 @@ def acha_round(home, away, gamelist):
 		
 
 def WTWTW():
-	WTWTWmatches, competitionschecked = fetcher()
+	WTWTWmatches, competitions_dict = fetcher()
 	print("Adding rounds and aggregate scores")
-	for region in competitionschecked:
-		for competition in competitionschecked[region]:
-			gamelist = competition_matches(region, competition)
+	for region in competitions_dict:
+		for competition in competitions_dict[region]:
+			gamelist, competition_proper = competition_matches(region, competition)
 			for date in WTWTWmatches:
 				for match in WTWTWmatches[date]:
 					if (match['Region'] == region and match['Competition'] == competition):
-						round, aggregate = acha_round(match['Home'], match['Away'], gamelist)
+						round, aggregate = acha_round_e_aggregate(match['Home'], match['Away'], gamelist)
 						match['Round'] = round
 						match['Aggregate'] = aggregate
+						match['Competition'] = competition_proper
 	print("Writing listas.csv")
 	with open('listas.csv', 'a', newline='') as listas:
 		writer = csv.writer(listas, delimiter=';')
