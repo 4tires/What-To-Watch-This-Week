@@ -53,8 +53,8 @@
 - created new function WTWTW to run entire script
 - parser now returns data instead of writes to csv. Parser also retrieves date and region for later use. Returns date and checked matches for that day
 - Created WTWTWmatches and competitions_dict dictionaries. WTWTWdict is used to store checked match data. competitions_dict tracks each region/competition from checked matches for later use.
-- After WTWTW runs fetcher it then iterates through competitions_dict for each league, and retreives the round and aggregate for each match in that competition in WTWTWmatches using competition_matches and acha_round functions. competition_matches returns a list of all the fixtures for that specific competition and a cleaned up competition name. acha_round parses through list for the match and returns round and aggregate. WTWTW adds round and aggregate to WTWTWmatches, and replaced the competition name with the cleaned up version. WTWTW function then writes data to csv. 
-- The competition name originally scraped from the website includes additional info. For example "Copa Diego Maradona - Losers Stage". The cleaned up competition name removes the " - Losers Stage" part. If desired it can be written for use in future versions.
+- After WTWTW runs fetcher it iterates through competitions_dict for each league, and retrieves the round and aggregate for each match in that competition in WTWTWmatches using competition_matches and acha_round functions. competition_matches returns a list of all the fixtures for that specific competition and a cleaned up competition name. acha_round parses through list for the match and returns round and aggregate. WTWTW adds round and aggregate to WTWTWmatches, and replaces the competition name with the cleaned up version. WTWTW function then writes data to csv. 
+- The competition name originally scraped from the website includes additional info. For example "Copa Diego Maradona - Losers Stage". The cleaned up competition name removes the " - Losers Stage" part.
 - This version completes the two checked boxes in Backlog. Not tested for competitions with group stages yet.
 
 ## Backlog
