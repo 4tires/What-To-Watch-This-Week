@@ -3,6 +3,9 @@ import json
 import requests
 import re
 
+"""
+Assumes you run this file from the "What-To-Watch-This-Week" folder
+"""
 
 url = "https://www.flashscore.com"
 
