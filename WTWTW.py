@@ -11,7 +11,6 @@ from string import capwords
 import requests
 from json import load
 
-
 url = "https://www.flashscore.com/"
 
 options = webdriver.ChromeOptions()
@@ -21,7 +20,6 @@ options.add_argument('--ignore-ssl-errors')
 driver = webdriver.Chrome(executable_path='C:\\Users\micha\Documents\VSCode\What-To-Watch-This-Week\chromedriver.exe', chrome_options=options)
 driver.implicitly_wait(30)
 driver.get(url)
-
 
 driver.find_element_by_id('signIn').click()
 
@@ -88,12 +86,11 @@ def fetcher():
 		date, checked_matches = parser(competitions_dict)
 		WTWTWdict[date] = checked_matches
 		if n == 6:
+			driver.quit()
+			print("Completed all parsers")
 			return WTWTWdict, competitions_dict
 		driver.find_element_by_class_name('calendar__direction--tomorrow').click()
 		time.sleep(1)
-	print("Completed all parsers")
-	driver.quit()
-	return WTWTWdict, competitions_dict
 
 def competition_matches(region, competition):
 	gamelist = []
@@ -135,7 +132,6 @@ def acha_link_e_arranja_nome(region, competition):
 			href = fsjson['Competitions'][region_proper][competition_proper]
 			return href, competition_proper
 		
-
 def acha_round_e_aggregate(home, away, gamelist):
 	round = ''
 	aggregate = ''
@@ -147,11 +143,11 @@ def acha_round_e_aggregate(home, away, gamelist):
 					aggregate = item['AM÷']
 				return round, aggregate
 		except:
-			print("Error Occurred at item below")
-			print(gamelist[item])
-			return "Error"
+			print("Error Occurred at " + home + ", " + away)
+			return "Error with gamelist.", aggregate
+	print("No results for " + home + " vs " + away + " round and aggregate score.")
+	return "no-round-data", "no-aggregate-data"
 		
-
 def WTWTW():
 	WTWTWmatches, competitions_dict = fetcher()
 	print("Adding rounds and aggregate scores")
