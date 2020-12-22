@@ -98,11 +98,11 @@ def competition_matches(region, competition):
 	soup = BeautifulSoup(results.text, 'html.parser')
 	matches = soup.find('div', id='tournament-page-data-fixtures').contents
 	temp = str(matches[0]).split('~')[2:]
-	muito_matches = []
+	muitos_matches = []
 	for n in range(len(temp)):
 		if ('AE÷'  in temp[n]):
-			muito_matches.append(temp[n])
-	for match in muito_matches:
+			muitos_matches.append(temp[n])
+	for match in muitos_matches:
 		temp = {}
 		if (match != ''):
 			match = str(match).split('¬')
