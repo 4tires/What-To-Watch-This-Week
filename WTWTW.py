@@ -7,7 +7,6 @@ from bs4 import BeautifulSoup
 import time
 import csv
 from login_credentials import username_credential, password_credential
-from string import capwords
 import requests
 from json import load
 
@@ -115,10 +114,14 @@ def competition_matches(region, competition):
 	return gamelist, competition_proper
 
 def acha_link_e_arranja_nome(region, competition):
-	region_proper = capwords(region)
+	region_proper = region
 	competition_proper = ''
 	with open('FSJSON/fslinks.json','r') as fs:
 		fsjson = load(fs)
+		for key in fsjson['Competitions']:
+			if region_proper.lower() == key.lower():
+				region_proper = key
+				break
 		if ('-' in competition):
 			competition_name_split = competition.split(' - ')
 			for n in range(len(competition_name_split)):
