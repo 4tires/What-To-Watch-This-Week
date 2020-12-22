@@ -7,10 +7,8 @@ from bs4 import BeautifulSoup
 import time
 import csv
 from login_credentials import username_credential, password_credential
-from string import capwords
 import requests
 from json import load
-
 
 url = "https://www.flashscore.com/"
 
@@ -21,7 +19,6 @@ options.add_argument('--ignore-ssl-errors')
 driver = webdriver.Chrome(executable_path='C:\\Users\micha\Documents\VSCode\What-To-Watch-This-Week\chromedriver.exe', chrome_options=options)
 driver.implicitly_wait(30)
 driver.get(url)
-
 
 driver.find_element_by_id('signIn').click()
 
@@ -88,12 +85,11 @@ def fetcher():
 		date, checked_matches = parser(competitions_dict)
 		WTWTWdict[date] = checked_matches
 		if n == 6:
+			driver.quit()
+			print("Completed all parsers")
 			return WTWTWdict, competitions_dict
 		driver.find_element_by_class_name('calendar__direction--tomorrow').click()
 		time.sleep(1)
-	print("Completed all parsers")
-	driver.quit()
-	return WTWTWdict, competitions_dict
 
 def competition_matches(region, competition):
 	gamelist = []
@@ -102,11 +98,11 @@ def competition_matches(region, competition):
 	soup = BeautifulSoup(results.text, 'html.parser')
 	matches = soup.find('div', id='tournament-page-data-fixtures').contents
 	temp = str(matches[0]).split('~')[2:]
-	muito_matches = []
+	muitos_matches = []
 	for n in range(len(temp)):
 		if ('AE÷'  in temp[n]):
-			muito_matches.append(temp[n])
-	for match in muito_matches:
+			muitos_matches.append(temp[n])
+	for match in muitos_matches:
 		temp = {}
 		if (match != ''):
 			match = str(match).split('¬')
@@ -118,10 +114,14 @@ def competition_matches(region, competition):
 	return gamelist, competition_proper
 
 def acha_link_e_arranja_nome(region, competition):
-	region_proper = capwords(region)
+	region_proper = region
 	competition_proper = ''
 	with open('FSJSON/fslinks.json','r') as fs:
 		fsjson = load(fs)
+		for key in fsjson['Competitions']:
+			if region_proper.lower() == key.lower():
+				region_proper = key
+				break
 		if ('-' in competition):
 			competition_name_split = competition.split(' - ')
 			for n in range(len(competition_name_split)):
@@ -135,7 +135,6 @@ def acha_link_e_arranja_nome(region, competition):
 			href = fsjson['Competitions'][region_proper][competition_proper]
 			return href, competition_proper
 		
-
 def acha_round_e_aggregate(home, away, gamelist):
 	round = ''
 	aggregate = ''
@@ -147,11 +146,11 @@ def acha_round_e_aggregate(home, away, gamelist):
 					aggregate = item['AM÷']
 				return round, aggregate
 		except:
-			print("Error Occurred at item below")
-			print(gamelist[item])
-			return "Error"
+			print("Error Occurred at " + home + ", " + away)
+			return "Error with gamelist.", aggregate
+	print("No results for " + home + " vs " + away + " round and aggregate score.")
+	return "no-round-data", "no-aggregate-data"
 		
-
 def WTWTW():
 	WTWTWmatches, competitions_dict = fetcher()
 	print("Adding rounds and aggregate scores")
