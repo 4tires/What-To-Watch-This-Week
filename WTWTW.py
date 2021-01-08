@@ -16,7 +16,7 @@ options = webdriver.ChromeOptions()
 options.add_argument('--ignore-certificate-errors')
 options.add_argument('--ignore-ssl-errors')
 
-driver = webdriver.Chrome(executable_path='C:\\Users\micha\Documents\VSCode\What-To-Watch-This-Week\chromedriver.exe', chrome_options=options)
+driver = webdriver.Chrome(executable_path='C:\\Users\\paulo\\OneDrive\\Documentos\\Programação\\chromedriver.exe', chrome_options=options)
 driver.implicitly_wait(30)
 driver.get(url)
 
@@ -172,5 +172,3 @@ def WTWTW():
 				writer.writerow([match['Time'], match['Home'], match['Away'], match['Competition'], match['Round'], match['Aggregate']])
 			writer.writerow([])
 	print("Finished running WTWTW")
-
-WTWTW()
