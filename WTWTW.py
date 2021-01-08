@@ -41,12 +41,24 @@ password.send_keys(password_credential)
 driver.find_element_by_id('login').click()
 with open ('listas.csv', 'w', newline='') as listas:
 	pass
-time.sleep(8)
 
 def parser(competitions_dict):
 	checked_matches = []
 	soup = BeautifulSoup(driver.page_source, 'html.parser')
-	date = soup.find('div', class_='calendar__datepicker').get_text().split(' ')[0].replace('/', '.')
+
+	n = 0
+	while n < 5:
+		if soup.find('div', class_='sportName soccer'):
+			break
+		else:
+			soup = BeautifulSoup(driver.page_source, 'html.parser')
+			n += 1
+		if n >= 5:
+			print("failure to acquire match info.")
+			break
+		time.sleep(0.5)
+
+	date = soup.find('div', class_='calendar__datepicker').get_text()#.split(' ')[0].replace('/', '.')
 	matches = soup.find_all('div', class_='checked')
 	list_of_matches = []
 	for match in matches:
@@ -79,12 +91,13 @@ def parser(competitions_dict):
 	return date, checked_matches
 
 def fetcher():
+	days = 7
 	WTWTWdict = {}
 	competitions_dict = {}
-	for n in range(7):
+	for n in range(days):
 		date, checked_matches = parser(competitions_dict)
 		WTWTWdict[date] = checked_matches
-		if n == 6:
+		if n == (days - 1):
 			driver.quit()
 			print("Completed all parsers")
 			return WTWTWdict, competitions_dict
@@ -136,12 +149,16 @@ def acha_link_e_arranja_nome(region, competition):
 			return href, competition_proper
 		
 def acha_round_e_aggregate(home, away, gamelist):
+	fs_round_translator = {'1/32-finals':'Round of 64','1/16-finals':'Round of 32', '1/8-finals':'Round of 16'}
 	round = ''
 	aggregate = ''
 	for item in gamelist:
 		try:
 			if (item['AE÷'] == home and item['AF÷'] == away):
-				round = item['ER÷']
+				if ("Round " not in item['ER÷'] and len(item['ER÷']) not in [7, 8]):
+					round = item['ER÷']
+					if round in fs_round_translator.keys():
+						round = fs_round_translator[round]
 				if ('AM÷' in item):
 					aggregate = item['AM÷']
 				return round, aggregate
@@ -150,10 +167,9 @@ def acha_round_e_aggregate(home, away, gamelist):
 			return "Error with gamelist.", aggregate
 	print("No results for " + home + " vs " + away + " round and aggregate score.")
 	return "no-round-data", "no-aggregate-data"
-		
-def WTWTW():
-	WTWTWmatches, competitions_dict = fetcher()
-	print("Adding rounds and aggregate scores")
+
+def match_details(competitions_dict, WTWTWmatches):
+	print('Adding rounds and aggregate scores')
 	for region in competitions_dict:
 		for competition in competitions_dict[region]:
 			gamelist, competition_proper = competition_matches(region, competition)
@@ -164,11 +180,20 @@ def WTWTW():
 						match['Round'] = round
 						match['Aggregate'] = aggregate
 						match['Competition'] = competition_proper
+		
+def WTWTW():
+	WTWTWmatches, competitions_dict = fetcher()
+	match_details(competitions_dict, WTWTWmatches)
+
 	print("Writing listas.csv")
-	with open('listas.csv', 'a', newline='') as listas:
+	with open('listas.csv', 'a', newline='', encoding='utf8') as listas:
 		writer = csv.writer(listas, delimiter=';')
 		for date in WTWTWmatches:
-			for match in WTWTWmatches[date]:
+			for match in sorted(WTWTWmatches[date], key=lambda i: i['Time']):
 				writer.writerow([match['Time'], match['Home'], match['Away'], match['Competition'], match['Round'], match['Aggregate']])
 			writer.writerow([])
 	print("Finished running WTWTW")
+	return WTWTWmatches
+
+input('Press Enter to Continue...')
+WTWTW()
