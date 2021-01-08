@@ -186,7 +186,7 @@ def WTWTW():
 	match_details(competitions_dict, WTWTWmatches)
 
 	print("Writing listas.csv")
-	with open('listas.csv', 'a', newline='') as listas:
+	with open('listas.csv', 'a', newline='', encoding='utf8') as listas:
 		writer = csv.writer(listas, delimiter=';')
 		for date in WTWTWmatches:
 			for match in sorted(WTWTWmatches[date], key=lambda i: i['Time']):

@@ -67,6 +67,7 @@
 - Separated some logic from WTWTW function into it's own function to clean up the code.
 - Used sorted to print each day's matches ordered by time in csv
 - WTWTW() function now returns the dictionary of the checked matches. For use in future functions or scripts.
+- Added encoding argument in listas writer to work with less common letters such as ç
 
 ## Backlog
 

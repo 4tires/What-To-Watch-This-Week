@@ -1,11 +1,3 @@
-1300;Nacional;Sporting;Primeira Liga;;
-1400;Benfica;Tondela;Primeira Liga;;
-1430;B. Monchengladbach;Bayern Munich;Bundesliga;;
-1445;Aston Villa;Liverpool;FA Cup;Round of 64;
-1445;Wolves;Crystal Palace;FA Cup;Round of 64;
-1500;Celta Vigo;Villarreal;LaLiga;;
-1600;Famalicao;FC Porto;Primeira Liga;;
-
 0700;Nurnberg;Hamburger SV;2. Bundesliga;;
 0700;St. Pauli;Holstein Kiel;2. Bundesliga;;
 0800;Sevilla;Real Sociedad;LaLiga;;
@@ -18,35 +10,36 @@
 1500;Rennes;Lyon;Ligue 1;;
 1500;Manchester Utd;Watford;FA Cup;Round of 64;
 
-0700;Nurnberg;Hamburger SV;2. Bundesliga;;
-0700;St. Pauli;Holstein Kiel;2. Bundesliga;;
-0800;Sevilla;Real Sociedad;LaLiga;;
-0930;Union Berlin;Wolfsburg;Bundesliga;;
-1015;Atl. Madrid;Ath Bilbao;LaLiga;;
-1200;Moreirense;Vitoria Guimaraes;Primeira Liga;;
-1230;RB Leipzig;Dortmund;Bundesliga;;
-1230;Granada CF;Barcelona;LaLiga;;
-1230;Arsenal;Newcastle;FA Cup;Round of 64;
-1500;Rennes;Lyon;Ligue 1;;
-1500;Manchester Utd;Watford;FA Cup;Round of 64;
+0615;Sparta Rotterdam;Feyenoord;Eredivisie;;
+0630;AS Roma;Inter;Serie A;;
+0800;Leganes;Almeria;LaLiga2;;
+1000;Aberdeen;Rangers;Premiership;;
+1045;Ajax;PSV;Eredivisie;;
+1400;Sao Paulo;Santos;Serie A;;
+1445;Juventus;Sassuolo;Serie A;;
 
 0600FRO;Belenenses B;SC Praiense;Campeonato de Portugal;;
 1445;Spezia;Sampdoria;Serie A;;
 1500;Huesca;Betis;LaLiga;;
-1615;Maritimo;Sporting;Taça de Portugal;Round of 16;
+1615;Maritimo;Sporting;TaÃ§a de Portugal;Round of 16;
 
-1300;Nacional;FC Porto;Taça de Portugal;Round of 16;
+1300;Nacional;FC Porto;TaÃ§a de Portugal;Round of 16;
 1300;Levante W;EDF Logrono W;Super Cup Women;Semi-finals;
 1445;Bayer Leverkusen;Eintracht Frankfurt;DFB Pokal;Round of 32;
 1445;AC Milan;Torino;Coppa Italia;Round of 16;
 1515;Burnley;Manchester Utd;Premier League;;
 1515;Wolves;Everton;Premier League;;
 1530;Atl. Madrid;Sevilla;LaLiga;;
-1615;Estrela;Benfica;Taça de Portugal;Round of 16;
+1615;Estrela;Benfica;TaÃ§a de Portugal;Round of 16;
 
 1515;Aston Villa;Tottenham;Premier League;;
 1930;Corinthians;Fluminense;Serie A;;
 
 1400;Twente;Ajax;Eredivisie;;
 1500;Arsenal;Crystal Palace;Premier League;;
+
+1330;Sporting;Rio Ave;Primeira Liga;;
+1430;Union Berlin;Bayer Leverkusen;Bundesliga;;
+1500;Montpellier;Monaco;Ligue 1;;
+1600;FC Porto;Benfica;Primeira Liga;;
 
