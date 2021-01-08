@@ -57,6 +57,17 @@
 - The competition name originally scraped from the website includes additional info. For example "Copa Diego Maradona - Losers Stage". The cleaned up competition name removes the " - Losers Stage" part.
 - This version completes the two checked boxes in Backlog. Not tested for competitions with group stages yet.
 
+### v11
+
+- Updated webdriver initator arguments
+- Removed sleep after webdriver initiates and replaced with keyboard input. Allows user to to select different starting day.
+- Added logic in parser to detect if dynamic data has loaded. Retries up to 5 times if not loaded.
+- Created "days" variable in fetcher to use throughout function instead of hardcoded integers.
+- Added logic to filter round info. Only returns results for cups (Round of 16, Quarter-finals, etc). Same few lines also translates web site's round names to the more commonly referred names using a hard-coded dictionary. Not yet tested for competitions with group stages.
+- Separated some logic from WTWTW function into it's own function to clean up the code.
+- Used sorted to print each day's matches ordered by time in csv
+- WTWTW() function now returns the dictionary of the checked matches. For use in future functions or scripts.
+
 ## Backlog
 
 - [ ] Create python dictionary to remove manual correction of team and league names (Linguistic differences as stated in v9) maybe use pickle for performance reasons
