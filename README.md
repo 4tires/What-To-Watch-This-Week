@@ -68,13 +68,14 @@
 - Used sorted to print each day's matches ordered by time in csv
 - WTWTW() function now returns the dictionary of the checked matches. For use in future functions or scripts.
 - Added encoding argument in listas writer to work with less common letters such as ç
+- IN WORK: TeamNames-Sprites folder added. Creating Dictionary for automatic team name correction.
 
 ## Backlog
 
 - [ ] Create python dictionary to remove manual correction of team and league names (Linguistic differences as stated in v9) maybe use pickle for performance reasons
 - [x] Add automatic leg score
 - [ ] Install Grid (needs Docker) to use python in spreadsheets easily
-- [x] (Hard) Automate round and group letter of the competition (e.g. "Semi-Final"; "Group B") as stated in v9
+- [x] (Hard) Automate round and group letter of the competition (e.g. "Semi-Final"; "Group B") as stated in v9. (Not tested for Group Stage)
 - [ ] Maybe ditch the spreadsheets (probably hard because of bold matches)
 - [ ] Add more flairs (maybe use https://www.reddit.com/r/soccer/comments/f8z3sc/what_to_watch_this_week_241_march/fioh87b/)
 
