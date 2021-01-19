@@ -271,7 +271,7 @@ for dict in [spritesDict1, spritesDict2]:
                 if item not in spritesCombinedDict[key]:
                     spritesCombinedDict[key].append(item)
 print(spritesCombinedDict['[](#sprite8-p427)'])
-with open('TeamNames-Sprites\sprites - combined.csv', 'w', encoding='utf8', newline='') as csvfile:
+with open('./TeamNames-Sprites/sprites - combined.csv', 'w', encoding='utf8', newline='') as csvfile:
     writer = csv.writer(csvfile, delimiter=';')
     for key, value in spritesCombinedDict.items():
         writer.writerow([key, value])
