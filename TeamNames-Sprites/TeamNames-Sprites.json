@@ -2640,7 +2640,11 @@
         },
         {
             "FS_TeamName": "Mouscron",
-            "Sprite?": "N"
+            "Proper Names": [
+                "Royal Excel Mouscron"
+            ],
+            "Sprite": "[](#sprite4-p215)",
+            "Sprite?": "Y"
         },
         {
             "FS_TeamName": "Thes Sport",
@@ -2667,243 +2671,358 @@
             "Sprite?": "N"
         },
         {
-            "FS_TeamName": "URSL Vise"
+            "FS_TeamName": "URSL Vise",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "OC Charleroi"
+            "FS_TeamName": "OC Charleroi",
+            "Proper Names": [
+                "Charleroi"
+            ],
+            "Sprite": "[](#sprite4-p280)",
+            "Sprite?": "Y"
         },
         {
-            "FS_TeamName": "Patro Eisden"
+            "FS_TeamName": "Patro Eisden",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Boom"
+            "FS_TeamName": "Boom",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Dender"
+            "FS_TeamName": "Dender",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Dessel"
+            "FS_TeamName": "Dessel",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "La Louviere"
+            "FS_TeamName": "La Louviere",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "KSV Roeselare"
+            "FS_TeamName": "KSV Roeselare",
+            "Proper Names": [
+                "Roeselare"
+            ],
+            "Sprite": "[](#sprite4-p251)",
+            "Sprite?": "Y"
         },
         {
-            "FS_TeamName": "St. Gilloise"
+            "FS_TeamName": "St. Gilloise",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Seraing"
+            "FS_TeamName": "Seraing",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Westerlo"
+            "FS_TeamName": "Westerlo",
+            "Proper Names": [
+                "Westerlo"
+            ],
+            "Sprite": "[](#sprite2-p310)",
+            "Sprite?": "Y"
         },
         {
-            "FS_TeamName": "Deinze"
+            "FS_TeamName": "Deinze",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "RWDM"
+            "FS_TeamName": "RWDM",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Lommel SK"
+            "FS_TeamName": "Lommel SK",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Lierse K."
+            "FS_TeamName": "Lierse K.",
+            "Proper Names": [
+                "Lierse"
+            ],
+            "Sprite": "[](#sprite2-p256)",
+            "Sprite?": "Y"
         },
         {
-            "FS_TeamName": "Tubize"
+            "FS_TeamName": "Tubize",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "RAAL La Louviere"
+            "FS_TeamName": "RAAL La Louviere",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Ganshoren"
+            "FS_TeamName": "Ganshoren",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Stockay-Warfusee"
+            "FS_TeamName": "Stockay-Warfusee",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Hamoir"
+            "FS_TeamName": "Hamoir",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Couvin-Mariembourg"
+            "FS_TeamName": "Couvin-Mariembourg",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Givry"
+            "FS_TeamName": "Givry",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Jette"
+            "FS_TeamName": "Jette",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Solieres Sport"
+            "FS_TeamName": "Solieres Sport",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Verlaine"
+            "FS_TeamName": "Verlaine",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Waremme"
+            "FS_TeamName": "Waremme",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Entente Durbuy"
+            "FS_TeamName": "Entente Durbuy",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Meux"
+            "FS_TeamName": "Meux",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Rebecquoise"
+            "FS_TeamName": "Rebecquoise",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Acren"
+            "FS_TeamName": "Acren",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Warnant"
+            "FS_TeamName": "Warnant",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Virton"
+            "FS_TeamName": "Virton",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Ninove"
+            "FS_TeamName": "Ninove",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "KRC Gent"
+            "FS_TeamName": "KRC Gent",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Oudenaarde"
+            "FS_TeamName": "Oudenaarde",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Petegem"
+            "FS_TeamName": "Petegem",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "KRC Harelbeke"
+            "FS_TeamName": "KRC Harelbeke",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Dikkelvenne"
+            "FS_TeamName": "Dikkelvenne",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Olsa Brakel"
+            "FS_TeamName": "Olsa Brakel",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Merelbeke"
+            "FS_TeamName": "Merelbeke",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Lokeren-Temse"
+            "FS_TeamName": "Lokeren-Temse",
+            "Proper Names": [
+                "Lokeren"
+            ],
+            "Sprite": "[](#sprite2-p309)",
+            "Sprite?": "Y"
         },
         {
-            "FS_TeamName": "Zelzate"
+            "FS_TeamName": "Zelzate",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Wetteren"
+            "FS_TeamName": "Wetteren",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Ronse"
+            "FS_TeamName": "Ronse",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Menen"
+            "FS_TeamName": "Menen",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Gullegem"
+            "FS_TeamName": "Gullegem",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Westhoek"
+            "FS_TeamName": "Westhoek",
+            "Proper Names": [
+                "KVK Westhoek"
+            ],
+            "Sprite": "[](#sprite4-p317)",
+            "Sprite?": "Y"
         },
         {
-            "FS_TeamName": "Bocholter"
+            "FS_TeamName": "Bocholter",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Hoogstraten"
+            "FS_TeamName": "Hoogstraten",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Lyra-Lierse Berlaar"
+            "FS_TeamName": "Lyra-Lierse Berlaar",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Hasselt"
+            "FS_TeamName": "Hasselt",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Diegem"
+            "FS_TeamName": "Diegem",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Londerzeel"
+            "FS_TeamName": "Londerzeel",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Hades"
+            "FS_TeamName": "Hades",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Pepingen"
+            "FS_TeamName": "Pepingen",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "K. Berchem Sport"
+            "FS_TeamName": "K. Berchem Sport",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Houtvenne"
+            "FS_TeamName": "Houtvenne",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Cappellen"
+            "FS_TeamName": "Cappellen",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Spouwen-Mopertingen"
+            "FS_TeamName": "Spouwen-Mopertingen",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Heur Tongeren"
+            "FS_TeamName": "Heur Tongeren",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Aalst"
+            "FS_TeamName": "Aalst",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "City Pirates"
+            "FS_TeamName": "City Pirates",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Wijgmaal"
+            "FS_TeamName": "Wijgmaal",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "RSC Anderlecht"
+            "FS_TeamName": "RSC Anderlecht",
+            "Proper Names": [
+                "Anderlecht"
+            ],
+            "Sprite": "[](#sprite1-p157)",
+            "Sprite?": "Y"
         },
         {
-            "FS_TeamName": "Club Brugge"
+            "FS_TeamName": "Club Brugge",
+            "Proper Names": [
+                "Club Brugge"
+            ],
+            "Sprite": "[](#sprite1-p217)",
+            "Sprite?": "Y"
         },
         {
-            "FS_TeamName": "Femina Woluwe"
+            "FS_TeamName": "Femina Woluwe",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Zulte Waregem"
+            "FS_TeamName": "Zulte Waregem",
+            "Proper Names": [
+                "Zulte Waregem"
+            ],
+            "Sprite": "[](#sprite2-p20)",
+            "Sprite?": "Y"
         }
     ],
     "Benin": [
         {
-            "FS_TeamName": "Ayema"
+            "FS_TeamName": "Ayema",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "FC Esae"
+            "FS_TeamName": "FC Esae",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Buffles du Borgou"
+            "FS_TeamName": "Buffles du Borgou",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Dragons"
+            "FS_TeamName": "Dragons",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Pantheres"
+            "FS_TeamName": "Pantheres",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "ASPAC"
+            "FS_TeamName": "ASPAC",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Bembereke"
+            "FS_TeamName": "Bembereke",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Tonnerre"
+            "FS_TeamName": "Tonnerre",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Energie Sports"
+            "FS_TeamName": "Energie Sports",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "JS Pob"
+            "FS_TeamName": "JS Pob",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "Real Sport"
+            "FS_TeamName": "Real Sport",
+            "Sprite?": "N"
         },
         {
-            "FS_TeamName": "ASVO"
+            "FS_TeamName": "ASVO",
+            "Sprite?": "N"
         },
         {
             "FS_TeamName": "JAC"

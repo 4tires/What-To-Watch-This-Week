@@ -78,6 +78,7 @@
 - [x] (Hard) Automate round and group letter of the competition (e.g. "Semi-Final"; "Group B") as stated in v9. (Not tested for Group Stage)
 - [ ] Maybe ditch the spreadsheets (probably hard because of bold matches)
 - [ ] Add more flairs (maybe use https://www.reddit.com/r/soccer/comments/f8z3sc/what_to_watch_this_week_241_march/fioh87b/)
+- [ ] Waits could potentially be improved with #https://selenium-python.readthedocs.io/waits.html potentially better wait logic
 
 ## Technology Stack
 

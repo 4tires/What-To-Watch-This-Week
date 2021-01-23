@@ -1,2720 +1,2720 @@
-[](#sprite1-p2);['Manchester United']
-[](#sprite1-p3);['Liverpool']
-[](#sprite1-p4);['Chelsea']
-[](#sprite1-p5);['Tottenham Hotspur']
-[](#sprite1-p6);['Barcelona']
-[](#sprite1-p8);['Bayern München']
-[](#sprite1-p9);['Real Madrid']
-[](#sprite1-p10);['Manchester City']
-[](#sprite1-p1);['Arsenal']
-[](#sprite1-p11);['Newcastle United']
-[](#sprite1-p12);['Borussia Dortmund']
-[](#sprite1-p13);['AC Milan']
-[](#sprite1-p14);['Seattle Sounders']
-[](#sprite1-p15);['Everton']
-[](#sprite1-p17);['Juventus']
-[](#sprite1-p18);['Celtic']
-[](#sprite1-p19);['Aston Villa']
-[](#sprite1-p20);['Portland Timbers']
-[](#sprite1-p21);['West Ham United']
-[](#sprite1-p22);['Ajax']
-[](#sprite1-p25);['Internazionale']
-[](#sprite1-p26);['Benfica', 'SL Benfica']
-[](#sprite1-p27);['Leeds United']
-[](#sprite1-p28);['LA Galaxy']
-[](#sprite1-p29);['Fulham']
-[](#sprite1-p31);['Sporting KC']
-[](#sprite1-p32);['Philadelphia Union']
-[](#sprite1-p34);['New York Red Bulls']
-[](#sprite1-p35);['Paris Saint-Germain']
-[](#sprite1-p36);['AS Roma']
-[](#sprite1-p37);['FC Porto']
-[](#sprite1-p38);['Southampton']
-[](#sprite1-p39);['Swansea City']
-[](#sprite1-p40);['Rangers']
-[](#sprite1-p41);['DC United']
-[](#sprite1-p42);['Galatasaray']
-[](#sprite1-p44);['Norwich City']
-[](#sprite1-p45);['Houston Dynamo']
-[](#sprite1-p46);['Sunderland']
-[](#sprite1-p47);['Chivas']
-[](#sprite1-p48);['Columbus Crew SC']
-[](#sprite1-p50);['Chicago Fire']
-[](#sprite1-p52);['Sporting Clube de Portugal', 'Sporting CP']
-[](#sprite1-p53);['Toronto FC']
-[](#sprite1-p54);['San Jose Earthquakes']
-[](#sprite1-p55);['New England Revolution']
-[](#sprite1-p57);['Queens Park Rangers']
-[](#sprite1-p61);['América']
-[](#sprite1-p64);['Werder Bremen']
-[](#sprite1-p65);['Feyenoord']
-[](#sprite1-p66);['Nottingham Forest']
-[](#sprite1-p67);['Crystal Palace']
-[](#sprite1-p68);['VfB Stuttgart']
-[](#sprite1-p69);['FC Dallas']
-[](#sprite1-p70);['Wolves']
-[](#sprite1-p73);['Reading']
-[](#sprite1-p74);['Hamburger SV']
-[](#sprite1-p56);['Vancouver Whitecaps']
-[](#sprite1-p75);['Napoli']
-[](#sprite1-p76);['Atlético Madrid']
-[](#sprite1-p77);['Real Salt Lake']
-[](#sprite1-p78);['West Bromwich Albion']
-[](#sprite1-p79);['Schalke 04', 'FC Schalke 04']
-[](#sprite1-p80);['Cardiff City']
-[](#sprite1-p81);['Stoke City']
-[](#sprite1-p82);['Detroit City FC']
-[](#sprite1-p83);['Blackburn Rovers']
-[](#sprite1-p85);['Portsmouth']
-[](#sprite1-p86);['Eintracht Frankfurt']
-[](#sprite1-p87);['Leicester City']
-[](#sprite1-p89);['Minnesota United']
-[](#sprite1-p88);['Fenerbahçe']
-[](#sprite1-p90);['Corinthians']
-[](#sprite1-p91);['Middlesbrough']
-[](#sprite1-p92);['Sheffield Wednesday']
-[](#sprite1-p93);['Colorado Rapids']
-[](#sprite1-p94);['Orlando City']
-[](#sprite1-p95);['Boca Juniors']
-[](#sprite1-p156);['Burnley']
-[](#sprite1-p157);['Anderlecht']
-[](#sprite1-p158);['Bristol City']
-[](#sprite1-p159);['Sheffield United']
-[](#sprite1-p160);['Beşiktaş']
-[](#sprite1-p161);['Monterrey']
-[](#sprite1-p96);['Montreal Impact']
-[](#sprite1-p98);['Melbourne Victory']
-[](#sprite1-p100);['Flamengo']
-[](#sprite1-p101);['São Paulo']
-[](#sprite1-p102);['Birmingham City']
-[](#sprite1-p103);['Brighton & Hove Albion']
-[](#sprite1-p104);['Bolton Wanderers']
-[](#sprite1-p106);['Olympique Lyonnais']
-[](#sprite1-p105);['Wigan Athletic']
-[](#sprite1-p107);['Valencia']
-[](#sprite1-p110);['River Plate']
-[](#sprite1-p108);['AIK']
-[](#sprite1-p111);['Cruz Azul']
-[](#sprite1-p112);['Watford']
-[](#sprite1-p113);['FC København', 'FC Copenhagen']
-[](#sprite1-p115);['Western Sydney Wanderers']
-[](#sprite1-p114);['FC St. Pauli']
-[](#sprite1-p117);['Hull City']
-[](#sprite1-p116);['Derby County']
-[](#sprite1-p118);['Ipswich Town']
-[](#sprite1-p119);['Olympique de Marseille']
-[](#sprite1-p120);['PSV Eindhoven']
-[](#sprite1-p121);['Hertha BSC', 'Hertha Berlin']
-[](#sprite1-p123);['Heart of Midlothian']
-[](#sprite1-p124);['Wellington Phoenix']
-[](#sprite1-p125);['1. FC Köln']
-[](#sprite1-p128);['Aberdeen']
-[](#sprite1-p129);['Brisbane Roar']
-[](#sprite1-p130);['Grêmio']
-[](#sprite1-p131);['Swindon Town']
-[](#sprite1-p132);['Bayer 04 Leverkusen']
-[](#sprite1-p133);['Steaua Bucureşti']
-[](#sprite1-p134);['Borussia Mönchengladbach']
-[](#sprite1-p136);['Coventry City']
-[](#sprite1-p137);['Pumas']
-[](#sprite1-p139);['Olympiacos']
-[](#sprite3-p15);['Rosenborg']
-[](#sprite1-p141);['Djurgårdens IF']
-[](#sprite1-p142);['Palmeiras']
-[](#sprite1-p145);['AFC Wimbledon']
-[](#sprite1-p146);['Blackpool']
-[](#sprite1-p147);['Charlton Athletic']
-[](#sprite1-p148);['Sydney FC']
-[](#sprite1-p149);['Fiorentina']
-[](#sprite1-p150);['Tijuana']
-[](#sprite1-p153);['Atlanta Silverbacks']
-[](#sprite1-p154);['SC Freiburg']
-[](#sprite1-p155);['Bradford City']
-[](#sprite1-p162);['FC Twente']
-[](#sprite1-p163);['Dundee United']
-[](#sprite1-p164);['Hibernian']
-[](#sprite1-p165);['Crvena Zvezda', 'Crvena Zvezda (Red Star)']
-[](#sprite1-p166);['Malmö FF']
-[](#sprite1-p167);['Gilport Lions']
-[](#sprite3-p11);['Zenit']
-[](#sprite1-p171);['Athletic Club', 'Ath. Bilbao']
-[](#sprite1-p170);['Plymouth Argyle']
-[](#sprite1-p172);['New York Cosmos']
-[](#sprite1-p173);['Tigres']
-[](#sprite1-p174);['Hammarby IF']
-[](#sprite1-p176);['1. FC Nürnberg']
-[](#sprite1-p177);['Hannover 96']
-[](#sprite1-p178);['1. FC Kaiserslautern']
-[](#sprite1-p179);['Preston North End']
-[](#sprite1-p180);['IFK Göteborg']
-[](#sprite1-p182);['Brøndby IF']
-[](#sprite1-p183);['Panathinaikos']
-[](#sprite1-p184);['Hajduk Split']
-[](#sprite1-p185);['Millwall']
-[](#sprite1-p186);['Monaco']
-[](#sprite1-p187);['Santos']
-[](#sprite1-p188);['Universidad de Chile']
-[](#sprite1-p189);['Lazio']
-[](#sprite1-p190);['Internacional']
-[](#sprite1-p191);['Oxford United']
-[](#sprite1-p192);['FC Basel']
-[](#sprite1-p193);['Rapid Wien']
-[](#sprite1-p194);['Indy Eleven']
-[](#sprite1-p195);['Adelaide United']
-[](#sprite1-p196);['Cruzeiro']
-[](#sprite1-p197);['Dinamo Zagreb']
-[](#sprite1-p198);['Brentford']
-[](#sprite1-p199);['Huddersfield Town']
-[](#sprite1-p200);['Peñarol']
-[](#sprite1-p201);['Atlético Mineiro']
-[](#sprite1-p203);['Fortuna Düsseldorf']
-[](#sprite1-p204);['North Carolina FC']
-[](#sprite1-p205);['1. FSV Mainz 05']
-[](#sprite1-p206);['Luton Town']
-[](#sprite1-p207);['Palermo']
-[](#sprite1-p209);['Pittsburgh Riverhounds']
-[](#sprite1-p211);['Bristol Rovers']
-[](#sprite1-p212);['Barnsley']
-[](#sprite1-p214);['Santos Laguna']
-[](#sprite1-p215);['Partizan']
-[](#sprite1-p217);['Club Brugge']
-[](#sprite1-p218);['Bournemouth']
-[](#sprite1-p219);['Leyton Orient']
-[](#sprite1-p220);['CSKA Moskva']
-[](#sprite1-p222);['Perth Glory']
-[](#sprite1-p226);['Central Coast Mariners']
-[](#sprite1-p228);['Fluminense']
-[](#sprite1-p229);['Sevilla']
-[](#sprite1-p230);['Legia Warszawa']
-[](#sprite1-p231);['Dynamo Kyiv']
-[](#sprite1-p232);['Atlético Nacional']
-[](#sprite1-p233);['Grimsby Town']
-[](#sprite1-p234);['Cork City']
-[](#sprite1-p235);['Austin Aztex']
-[](#sprite1-p236);['Crewe Alexandra']
-[](#sprite1-p237);['Real Sociedad']
-[](#sprite1-p239);['Yeovil Town']
-[](#sprite1-p240);['Utrecht']
-[](#sprite1-p242);['Shamrock Rovers']
-[](#sprite1-p243);['Colo-Colo']
-[](#sprite1-p244);['Aarhus GF']
-[](#sprite1-p246);['Tranmere Rovers']
-[](#sprite1-p247);['Spartak Moskva']
-[](#sprite1-p245);['Barnet']
-[](#sprite1-p248);['Motherwell']
-[](#sprite1-p249);['Charleston Battery']
-[](#sprite1-p250);['Newcastle Jets']
-[](#sprite1-p251);['Millonarios']
-[](#sprite1-p252);['Doncaster Rovers']
-[](#sprite1-p254);['TSV 1860 München']
-[](#sprite1-p255);['Oldham Athletic']
-[](#sprite1-p256);['Deportivo La Coruña']
-[](#sprite1-p257);['Monarcas Morelia']
-[](#sprite1-p258);['Young Boys']
-[](#sprite1-p259);['Sturm Graz']
-[](#sprite1-p260);['Karlsruher SC']
-[](#sprite1-p261);['Botafogo']
-[](#sprite1-p264);['Melbourne City']
-[](#sprite1-p265);['Vasco da Gama']
-[](#sprite1-p266);['Cheltenham Town']
-[](#sprite1-p267);['Exeter City']
-[](#sprite1-p268);['Gillingham']
-[](#sprite1-p269);['Peterborough United']
-[](#sprite1-p271);['Bordeaux']
-[](#sprite1-p272);['Atlas']
-[](#sprite1-p273);['Viking FK']
-[](#sprite1-p274);['Helsingborgs IF']
-[](#sprite3-p1);['Tampa Bay Rowdies']
-[](#sprite1-p278);['Scunthorpe United']
-[](#sprite1-p279);['FC Groningen']
-[](#sprite1-p280);['Wisła Kraków']
-[](#sprite1-p281);['Dinamo Bucureşti']
-[](#sprite1-p283);['AaB']
-[](#sprite1-p284);['AEK Athens']
-[](#sprite1-p285);['Universitario']
-[](#sprite1-p286);['Nacional']
-[](#sprite1-p287);['Fort Lauderdale Strikers']
-[](#sprite1-p289);['APOEL']
-[](#sprite1-p290);['Arminia Bielefeld']
-[](#sprite1-p291);['FC Augsburg']
-[](#sprite1-p292);['Málaga']
-[](#sprite1-p293);['St Johnstone']
-[](#sprite1-p294);['Shakhtar Donetsk']
-[](#sprite1-p295);['Liga de Quito']
-[](#sprite1-p296);['Real Betis']
-[](#sprite1-p297);['Greenock Morton']
-[](#sprite1-p299);['Wrexham']
-[](#sprite1-p300);['Dunfermline Athletic']
-[](#sprite1-p301);['Vålerenga IF']
-[](#sprite1-p302);['Chesterfield']
-[](#sprite1-p305);['Carlisle United']
-[](#sprite1-p304);['Hansa Rostock']
-[](#sprite1-p306);['FC United']
-[](#sprite1-p307);['Port Vale']
-[](#sprite1-p308);['York City']
-[](#sprite1-p310);['Udinese']
-[](#sprite1-p311);['SC Heerenveen']
-[](#sprite1-p312);['Cambridge United']
-[](#sprite1-p313);['Liga Deportiva Alajuelense']
-[](#sprite1-p314);['Dundee']
-[](#sprite1-p315);['Chester FC']
-[](#sprite1-p316);['Genk']
-[](#sprite1-p317);['VfL Bochum']
-[](#sprite1-p319);['HJK']
-[](#sprite1-p318);['Notts County']
-[](#sprite1-p320);['Lille OSC']
-[](#sprite1-p321);['Saint-Étienne']
-[](#sprite1-p322);['Toluca']
-[](#sprite1-p325);['Barcelona Sporting Club']
-[](#sprite1-p323);['Lech Poznań']
-[](#sprite1-p326);['Olimpia']
-[](#sprite1-p327);['Partick Thistle']
-[](#sprite1-p331);['Lincoln City']
-[](#sprite1-p332);['MK Dons']
-[](#sprite1-p333);['Southend United']
-[](#sprite1-p334);['Stevenage']
-[](#sprite1-p335);['Stockport County']
-[](#sprite1-p336);['Wycombe Wanderers']
-[](#sprite1-p337);['Montpellier']
-[](#sprite3-p2);['AZ Alkmaar']
-[](#sprite1-p339);['Vitesse']
-[](#sprite1-p340);['Tromsø']
-[](#sprite1-p341);['Alianza Lima']
-[](#sprite1-p342);['SC Braga']
-[](#sprite1-p343);['Inverness Caledonian Thistle']
-[](#sprite1-p344);['St Mirren']
-[](#sprite1-p345);['Kaizer Chiefs']
-[](#sprite1-p346);['Northampton Town']
-[](#sprite1-p347);['Rapid București']
-[](#sprite1-p348);['Richmond Kickers']
-[](#sprite1-p349);['Rochester Rhinos']
-[](#sprite1-p350);['FC Buffalo']
-[](#sprite1-p351);['Standard Liège']
-[](#sprite1-p352);['Odense BK']
-[](#sprite1-p353);['1899 Hoffenheim']
-[](#sprite1-p354);['Colchester United']
-[](#sprite1-p355);['Morecambe']
-[](#sprite1-p356);['Kilmarnock']
-[](#sprite1-p357);['Trabzonspor']
-[](#sprite1-p358);['Sligo Rovers']
-[](#sprite1-p359);['Maccabi Haifa']
-[](#sprite1-p360);['Torquay United']
-[](#sprite3-p3);['SK Brann']
-[](#sprite1-p362);['Derry City']
-[](#sprite1-p363);['Nantes']
-[](#sprite1-p364);['Austria Wien']
-[](#sprite1-p365);['IF Elfsborg']
-[](#sprite1-p366);['NEC']
-[](#sprite1-p367);['MSV Duisburg']
-[](#sprite1-p368);['Shrewsbury Town']
-[](#sprite1-p369);['Real Oviedo']
-[](#sprite1-p370);['Walsall']
-[](#sprite1-p371);['Hapoel Tel Aviv']
-[](#sprite1-p372);['León']
-[](#sprite1-p373);['ADO Den Haag']
-[](#sprite1-p374);['Örebro SK']
-[](#sprite1-p375);['Caracas FC']
-[](#sprite1-p376);['Bray Wanderers']
-[](#sprite1-p377);['The Strongest']
-[](#sprite1-p378);['Eintracht Braunschweig']
-[](#sprite1-p380);['Željezničar Sarajevo']
-[](#sprite1-p381);['Molde FK']
-[](#sprite1-p384);"[""St. Patrick's Athletic""]"
-[](#sprite1-p385);['Académica de Coimbra', 'Académica']
-[](#sprite1-p386);['Bohemians']
-[](#sprite1-p387);['Guangzhou Evergrande Taobao']
-[](#sprite1-p388);['FC Edmonton']
-[](#sprite1-p395);['Altrincham']
-[](#sprite1-p396);['América de Cali']
-[](#sprite1-p397);['Aldershot Town']
-[](#sprite1-p398);['Dynamo Dresden']
-[](#sprite1-p399);['Chattanooga FC']
-[](#sprite1-p401);['Esbjerg fB']
-[](#sprite1-p400);['Madison 56ers']
-[](#sprite1-p402);['Racing']
-[](#sprite1-p403);['Vélez Sarsfield']
-[](#sprite2-p1);['Velež Mostar']
-[](#sprite1-p405);['CSKA Sofia']
-[](#sprite1-p406);['Levski Sofia']
-[](#sprite1-p407);['Al-Ahly']
-[](#sprite1-p408);['Celta Vigo']
-[](#sprite1-p409);['Shelbourne']
-[](#sprite1-p410);['Falkirk']
-[](#sprite1-p411);['Maribor']
-[](#sprite1-p412);['Ayr United']
-[](#sprite1-p413);['PAOK']
-[](#sprite1-p414);['Alemannia Aachen']
-[](#sprite1-p415);['Limerick']
-[](#sprite1-p417);['Sporting Cristal']
-[](#sprite2-p2);['Junior']
-[](#sprite1-p421);['Sport Recife']
-[](#sprite1-p422);['Phoenix Rising FC']
-[](#sprite1-p423);['Bodø/Glimt']
-[](#sprite1-p424);['Sacramento Republic FC']
-[](#sprite1-p425);['Independiente']
-[](#sprite1-p426);['Deportivo Cali']
-[](#sprite1-p427);['VfL Wolfsburg']
-[](#sprite1-p428);['Hartlepool United']
-[](#sprite2-p3);['Þór Akureyri']
-[](#sprite1-p430);['Parma']
-[](#sprite1-p431);['Universidad Católica']
-[](#sprite1-p433);['GAIS']
-[](#sprite1-p435);['FC Seoul']
-[](#sprite1-p436);['Dayton Dutch Lions']
-[](#sprite1-p437);['Wilmington Hammerheads']
-[](#sprite1-p438);['Orlando Pirates']
-[](#sprite1-p441);"[""Newell's Old Boys""]"
-[](#sprite1-p442);['Accrington Stanley']
-[](#sprite1-p443);['Atlético Paranaense']
-[](#sprite1-p444);['Invincible Eleven']
-[](#sprite1-p445);['PEC Zwolle']
-[](#sprite1-p446);['San Lorenzo']
-[](#sprite1-p447);['Galway United']
-[](#sprite2-p4);['ChievoVerona']
-[](#sprite2-p5);['Sparta Rotterdam']
-[](#sprite1-p450);['Grasshoppers']
-[](#sprite1-p452);['Selangor FA']
-[](#sprite2-p7);['FH', 'Hafnarfjordur']
-[](#sprite1-p454);['Mohun Bagan']
-[](#sprite1-p455);['Red Bull Salzburg']
-[](#sprite2-p9);['Rayo Vallecano']
-[](#sprite1-p459);['Burton Albion']
-[](#sprite2-p10);['Emelec']
-[](#sprite1-p462);['Des Moines Menace']
-[](#sprite1-p463);['Sporting Gijón']
-[](#sprite1-p464);['Bari']
-[](#sprite1-p465);['Aalesunds FK']
-[](#sprite1-p466);['Bury']
-[](#sprite1-p467);['SC Preußen Münster']
-[](#sprite1-p468);['Rochdale AFC']
-[](#sprite1-p469);['Macclesfield Town']
-[](#sprite1-p470);['Persepolis FC']
-[](#sprite1-p471);['Saprissa']
-[](#sprite1-p472);['Ross County']
-[](#sprite1-p473);['SC Cambuur']
-[](#sprite2-p11);['Valur']
-[](#sprite2-p12);['Gamba Osaka']
-[](#sprite2-p13);['Stade Rennais']
-[](#sprite2-p14);['Zamalek SC']
-[](#sprite1-p478);['Charlotte Eagles']
-[](#sprite2-p15);['KV Mechelen']
-[](#sprite2-p16);['Lyngby BK']
-[](#sprite2-p17);['Municipal']
-[](#sprite2-p18);['Randers FC']
-[](#sprite1-p484);['FC Midtjylland']
-[](#sprite1-p485);['FC Nordsjælland']
-[](#sprite1-p486);['Torino']
-[](#sprite2-p19);['Náutico']
-[](#sprite2-p20);['Zulte Waregem']
-[](#sprite2-p21);['Slavia Praha']
-[](#sprite1-p490);['Sparta Praha']
-[](#sprite2-p22);['Espanyol']
-[](#sprite2-p23);['Tenerife']
-[](#sprite1-p493);['Real Zaragoza']
-[](#sprite2-p24);['Nagoya Grampus']
-[](#sprite2-p25);['Deportivo Wanka']
-[](#sprite2-p26);['Widzew Łódź']
-[](#sprite3-p5);['FC Zürich']
-[](#sprite2-p29);['Shanghai Greenland Shenhua']
-[](#sprite2-p30);['Barrow AFC']
-[](#sprite2-p31);['Alianza']
-[](#sprite2-p32);['Western New York Flash']
-[](#sprite1-p277);['Strømsgodset']
-[](#sprite2-p33);['FC Honka']
-[](#sprite3-p23);['1. FC Union Berlin']
-[](#sprite2-p35);['Glentoran']
-[](#sprite2-p36);['Esteghlal FC']
-[](#sprite2-p37);['KAA Gent']
-[](#sprite2-p38);['Crawley Town']
-[](#sprite2-p39);['Suwon Samsung Bluewings']
-[](#sprite1-p338);['Maccabi Tel Aviv']
-[](#sprite2-p40);['FC Anzhi Makhachkala']
-[](#sprite2-p41);['Darlington']
-[](#sprite2-p42);['NAC Breda']
-[](#sprite2-p43);['SpVgg Greuther Fürth']
-[](#sprite2-p44);['Jagiellonia Białystok']
-[](#sprite2-p45);['Royal Antwerp']
-[](#sprite2-p46);['Forest City London']
-[](#sprite2-p47);['Santa Fe']
-[](#sprite1-p404);['Rotherham United']
-[](#sprite2-p48);['Östersunds FK']
-[](#sprite2-p49);['Everton']
-[](#sprite2-p50);['Śląsk Wrocław']
-[](#sprite2-p51);['JS Kabylie']
-[](#sprite2-p52);['Redditch United']
-[](#sprite1-p429);['Metz']
-[](#sprite2-p53);['Leiknir Reykjavík']
-[](#sprite2-p54);['Beitar Jerusalem']
-[](#sprite2-p55);['FC Tokyo']
-[](#sprite2-p56);['Pachuca']
-[](#sprite1-p474);['Stabæk']
-[](#sprite2-p57);['Al-Hilal']
-[](#sprite2-p59);['BSG Chemie Leipzig']
-[](#sprite2-p60);['JJK Jyväskylä']
-[](#sprite2-p61);['Motagua']
-[](#sprite2-p62);['East Bengal Club']
-[](#sprite1-p475);['Al-Ittihad']
-[](#sprite2-p63);['Granada']
-[](#sprite2-p65);['Querétaro']
-[](#sprite2-p66);['Newport County']
-[](#sprite2-p67);['Haugesund']
-[](#sprite2-p68);['1. FC Saarbrücken']
-[](#sprite2-p69);['Incheon United']
-[](#sprite2-p70);['Jiangsu Suning']
-[](#sprite2-p71);['OGC Nice']
-[](#sprite2-p72);['Lokomotiv Moskva']
-[](#sprite2-p73);['Mumbai FC']
-[](#sprite2-p74);['Örgryte IS']
-[](#sprite1-p477);['Harrisburg City Islanders']
-[](#sprite2-p75);['St. Gallen']
-[](#sprite2-p76);['De Graafschap']
-[](#sprite2-p77);['Olimpija Ljubljana']
-[](#sprite1-p449);['KR']
-[](#sprite2-p78);['Kidderminster Harriers']
-[](#sprite2-p79);['Vitória']
-[](#sprite2-p80);['Botev Plovdiv']
-[](#sprite2-p81);['Coritiba']
-[](#sprite2-p82);['Universitatea Craiova']
-[](#sprite2-p83);['Woking']
-[](#sprite2-p84);['Olimpia']
-[](#sprite2-p85);['Cliftonville']
-[](#sprite1-p482);['LionsXII']
-[](#sprite1-p483);['Tulsa Athletics']
-[](#sprite2-p86);['Huracán']
-[](#sprite2-p87);['Osasuna']
-[](#sprite2-p88);['Racing Santander']
-[](#sprite2-p89);['SM Caen']
-[](#sprite2-p90);['Hellas Verona']
-[](#sprite2-p91);['Cerezo Osaka']
-[](#sprite2-p92);['Puebla']
-[](#sprite2-p93);['Wydad AC']
-[](#sprite2-p94);['CFR Cluj']
-[](#sprite2-p95);['Halmstads BK', 'Halmstads']
-[](#sprite2-p96);['Servette']
-[](#sprite2-p99);['Vitória de Guimarães']
-[](#sprite2-p100);['Atlético Bucaramanga']
-[](#sprite2-p101);['Nõmme Kalju']
-[](#sprite2-p102);['Slovan Bratislava']
-[](#sprite2-p104);['BK Häcken']
-[](#sprite2-p105);['Levante']
-[](#sprite2-p106);['Vegalta Sendai']
-[](#sprite2-p107);['FC Lorient']
-[](#sprite2-p108);['Toulouse']
-[](#sprite2-p109);['Austria Salzburg']
-[](#sprite2-p110);['Tiburones Rojos de Veracruz']
-[](#sprite2-p111);['Kickers Offenbach']
-[](#sprite2-p113);['Fredrikstad']
-[](#sprite2-p114);['Víkingur']
-[](#sprite2-p115);['Stjarnan']
-[](#sprite2-p116);['Finn Harps']
-[](#sprite2-p118);['Blyth Spartans']
-[](#sprite2-p119);['Silkeborg IF']
-[](#sprite2-p121);['Rijeka']
-[](#sprite2-p122);['Beira-Mar']
-[](#sprite2-p123);['Odd']
-[](#sprite2-p124);['Bangor City']
-[](#sprite2-p125);['Breiðablik']
-[](#sprite2-p127);['Go Ahead Eagles']
-[](#sprite2-p128);['Videoton']
-[](#sprite2-p129);['Bologna']
-[](#sprite2-p130);['Genoa']
-[](#sprite2-p131);['Siena']
-[](#sprite2-p132);['Linfield']
-[](#sprite2-p133);['Lisburn Distillery']
-[](#sprite2-p134);['Dinamo Moskva']
-[](#sprite2-p135);['Cádiz CF']
-[](#sprite2-p137);['AC Horsens']
-[](#sprite2-p138);['Stade Brestois 29']
-[](#sprite2-p139);['VVV-Venlo']
-[](#sprite2-p140);['Dinamo Tbilisi']
-[](#sprite2-p141);['Elgin City']
-[](#sprite2-p142);['Anorthosis Famagusta']
-[](#sprite2-p143);['Dundalk']
-[](#sprite2-p144);['Beijing Sinobo Guoan']
-[](#sprite2-p145);['Pune FC']
-[](#sprite2-p146);['Ferencváros']
-[](#sprite2-p147);['IFK Norrköping']
-[](#sprite2-p148);['Lillestrøm']
-[](#sprite2-p149);['GIF Sundsvall']
-[](#sprite2-p150);['Shooting Stars']
-[](#sprite2-p153);['Las Palmas']
-[](#sprite2-p154);['Estudiantes de La Plata']
-[](#sprite1-p488);['FC Tucson']
-[](#sprite2-p156);['FC Wacker Innsbruck']
-[](#sprite2-p158);['Rot-Weiss Essen']
-[](#sprite1-p489);['SV Darmstadt 98']
-[](#sprite2-p159);['Helmond Sport']
-[](#sprite2-p160);['Boavista']
-[](#sprite2-p161);['VPS']
-[](#sprite2-p162);['Kalmar FF']
-[](#sprite2-p164);['Corby Town']
-[](#sprite2-p165);['Hokkaido Consadole Sapporo']
-[](#sprite2-p166);['Frem']
-[](#sprite2-p167);['Bunyodkor']
-[](#sprite2-p168);['GKS Katowice']
-[](#sprite2-p169);['Droylsden']
-[](#sprite2-p170);['Wormatia Worms']
-[](#sprite2-p171);['Åtvidaberg']
-[](#sprite2-p172);['SV Waldhof Mannheim']
-[](#sprite2-p174);['Oklahoma City FC']
-[](#sprite2-p175);['Athlone Town']
-[](#sprite2-p176);['Dnipro Dnipropetrovsk', 'Dnipro']
-[](#sprite2-p177);['Arsenal', 'Arsenal Sarandí']
-[](#sprite2-p178);['NK Osijek']
-[](#sprite2-p180);['Getafe']
-[](#sprite2-p179);['Forest Green Rovers']
-[](#sprite2-p181);['Lens']
-[](#sprite2-p182);['Atalanta']
-[](#sprite2-p183);['Cagliari']
-[](#sprite2-p184);['Catania']
-[](#sprite2-p185);['US Lecce']
-[](#sprite2-p186);['Sampdoria']
-[](#sprite2-p187);['Pohang Steelers']
-[](#sprite2-p188);['FBK Kaunas']
-[](#sprite2-p189);['Atlante']
-[](#sprite2-p191);['Roda JC']
-[](#sprite2-p192);['Rostov']
-[](#sprite2-p193);['Vojvodina']
-[](#sprite2-p194);['Göztepe']
-[](#sprite2-p195);['Olimpo']
-[](#sprite2-p196);['Þróttur Reykjavík']
-[](#sprite2-p197);['Le Havre AC']
-[](#sprite2-p198);['Sochaux']
-[](#sprite2-p199);['Bursaspor']
-[](#sprite2-p200);['FC Halifax Town']
-[](#sprite2-p201);['Belenenses']
-[](#sprite2-p202);['Raja Club Athletic']
-[](#sprite2-p204);['Mamelodi Sundowns']
-[](#sprite2-p205);['AFC Rushden & Diamonds']
-[](#sprite2-p206);['UCD']
-[](#sprite2-p207);['Shillong Lajong']
-[](#sprite2-p208);['Sanfrecce Hiroshima']
-[](#sprite2-p209);['Yokohama F·Marinos']
-[](#sprite2-p210);['Hangzhou Greentown']
-[](#sprite2-p211);['AS Nancy']
-[](#sprite2-p212);['Tom Tomsk']
-[](#sprite2-p213);['MTK Budapest']
-[](#sprite2-p214);['Viktoria Plzeň']
-[](#sprite2-p215);['Al-Wehdat SC']
-[](#sprite2-p216);['Cercle Brugge']
-[](#sprite2-p217);['Gloucester City']
-[](#sprite2-p218);['Colwyn Bay']
-[](#sprite2-p219);['Keflavík']
-[](#sprite2-p220);['Fresno Fuego']
-[](#sprite2-p221);['Crusaders']
-[](#sprite2-p222);['Canberra United']
-[](#sprite2-p227);['Fylkir']
-[](#sprite2-p228);['Cerro Porteño']
-[](#sprite2-p229);['Tigre']
-[](#sprite2-p230);['Sepahan']
-[](#sprite2-p231);['SC Paderborn 07']
-[](#sprite2-p232);['Vila Nova']
-[](#sprite2-p233);['Hapoel Katamon Jerusalem']
-[](#sprite2-p234);['FC Winterthur']
-[](#sprite2-p237);['Arbroath']
-[](#sprite2-p238);['Skonto FC']
-[](#sprite2-p240);['DPMM FC']
-[](#sprite2-p241);['Pescara']
-[](#sprite2-p242);['Dagenham & Redbridge']
-[](#sprite2-p243);['FC Energie Cottbus']
-[](#sprite2-p244);['Cambridge City']
-[](#sprite2-p245);['Marítimo']
-[](#sprite2-p246);['Dover Athletic']
-[](#sprite2-p247);['Independiente Medellín']
-[](#sprite2-p248);['Mansfield Town']
-[](#sprite2-p249);['SFK Lyn']
-[](#sprite2-p253);['Platense']
-[](#sprite2-p254);['Berekum Chelsea']
-[](#sprite2-p255);['FC Santa Claus']
-[](#sprite2-p256);['Lierse']
-[](#sprite2-p257);['Sandnes Ulf']
-[](#sprite2-p258);['Knoxville Force']
-[](#sprite2-p259);['Derby City Rovers']
-[](#sprite2-p261);['Fram Reykjavík']
-[](#sprite2-p263);['Colón']
-[](#sprite2-p264);['Mallorca']
-[](#sprite2-p265);['Auxerre']
-[](#sprite2-p266);['Livorno']
-[](#sprite2-p267);['Kashima Antlers']
-[](#sprite2-p268);['Leones Negros']
-[](#sprite2-p269);['DOS Kampen']
-[](#sprite2-p270);['Cienciano']
-[](#sprite2-p271);['Polonia Warszawa']
-[](#sprite2-p272);['Rubin Kazan']
-[](#sprite2-p273);['East Fife']
-[](#sprite2-p274);['Vasco SC']
-[](#sprite2-p275);['Argentinos Juniors']
-[](#sprite2-p276);['Borac Banja Luka']
-[](#sprite2-p277);['TPS']
-[](#sprite2-p278);['Carshalton Athletic']
-[](#sprite2-p279);['AEL']
-[](#sprite2-p280);['Omonoia Nicosia']
-[](#sprite2-p281);['FC Luzern']
-[](#sprite2-p282);['Kaposvár']
-[](#sprite2-p283);['Górnik Zabrze']
-[](#sprite2-p284);['Waterford FC', 'Waterford United']
-[](#sprite2-p285);['Omiya Ardija']
-[](#sprite2-p286);['Shimizu S-Pulse']
-[](#sprite2-p287);['Urawa Red Diamonds']
-[](#sprite2-p288);['Daegu FC']
-[](#sprite2-p289);['Daejeon Citizen']
-[](#sprite2-p290);['Jeonbuk Hyundai Motors']
-[](#sprite2-p291);['Changchun Yatai']
-[](#sprite2-p292);['Evian Thonon Gaillard']
-[](#sprite2-p293);['Le Mans']
-[](#sprite2-p294);['Clermont Foot']
-[](#sprite2-p295);['Bastia']
-[](#sprite2-p296);['Guingamp']
-[](#sprite2-p297);['Amkar Perm']
-[](#sprite3-p21);['Air India FC']
-[](#sprite2-p300);['HAL']
-[](#sprite2-p301);['Salgaocar']
-[](#sprite2-p302);['Espérance']
-[](#sprite2-p303);['Aris']
-[](#sprite2-p304);['Újpest']
-[](#sprite2-p305);['Debrecen']
-[](#sprite2-p306);['Union Saint-Gilloise']
-[](#sprite2-p307);['Al-Faisaly']
-[](#sprite2-p308);['TP Mazembe']
-[](#sprite2-p309);['Lokeren']
-[](#sprite2-p310);['Westerlo']
-[](#sprite2-p311);['Histon']
-[](#sprite2-p313);['Clyde']
-[](#sprite2-p314);['Trento Calcio 1921']
-[](#sprite2-p315);['Pro Vercelli']
-[](#sprite2-p316);['Fortuna Sittard']
-[](#sprite2-p317);['Čelik Zenica']
-[](#sprite2-p320);['Comunicaciones']
-[](#sprite2-p322);['FC Hanau 93']
-[](#sprite2-p323);['OHL']
-[](#sprite2-p324);['Sabah FA']
-[](#sprite2-p326);['Sandnessjøen IL']
-[](#sprite2-p327);['AFC Totton']
-[](#sprite2-p328);['Chernomorets Burgas']
-[](#sprite2-p329);['Deportes Tolima']
-[](#sprite2-p330);['IK Sirius']
-[](#sprite2-p331);"[""Queen's Park""]"
-[](#sprite2-p332);['Lechia Gdańsk']
-[](#sprite2-p333);['SSV Ulm 1846']
-[](#sprite2-p334);['Coleraine']
-[](#sprite2-p335);['Badajoz']
-[](#sprite2-p337);['Vardar']
-[](#sprite2-p338);['Víkingur']
-[](#sprite4-p1);['Cobreloa']
-[](#sprite2-p339);['HIFK']
-[](#sprite2-p340);['Goiás']
-[](#sprite2-p341);['Larne']
-[](#sprite2-p342);['Cesena']
-[](#sprite2-p343);['Terengganu FA']
-[](#sprite4-p2);['Tyresö FF']
-[](#sprite2-p345);['Korona Kielce']
-[](#sprite2-p347);['Kettering Town']
-[](#sprite2-p348);['Once Caldas']
-[](#sprite2-p349);['SV Wacker Burghausen']
-[](#sprite4-p3);['Lausanne-Sport']
-[](#sprite4-p4);['Dorados']
-[](#sprite4-p5);['Huesca']
-[](#sprite2-p351);['Kelantan']
-[](#sprite2-p352);['Holstein Kiel']
-[](#sprite2-p354);['Ebbsfleet United']
-[](#sprite2-p355);['Sanat Naft']
-[](#sprite2-p356);['FF Jaro']
-[](#sprite4-p6);['Real España']
-[](#sprite2-p357);['Karşıyaka']
-[](#sprite2-p358);['Deportivo Morón']
-[](#sprite2-p359);['Canterbury City']
-[](#sprite2-p360);['Marine']
-[](#sprite2-p361);['Weston-super-Mare']
-[](#sprite2-p362);['Bath City']
-[](#sprite2-p363);['KV Oostende']
-[](#sprite2-p364);['Fleetwood Town']
-[](#sprite2-p365);['AC Connecticut']
-[](#sprite2-p366);['Vicenza']
-[](#sprite2-p367);['Hayes & Yeading']
-[](#sprite2-p368);['Fjölnir']
-[](#sprite2-p369);['Konyaspor']
-[](#sprite2-p370);['Paraná Clube']
-[](#sprite4-p7);['GD Chaves']
-[](#sprite2-p372);['Ceahlăul Piatra Neamț']
-[](#sprite1-p492);['Maidstone United']
-[](#sprite2-p373);['Avaí']
-[](#sprite1-p461);['Nashville SC']
-[](#sprite2-p374);['Southport']
-[](#sprite4-p8);['Northern Fury']
-[](#sprite2-p375);['SV Wehen Wiesbaden']
-[](#sprite2-p376);['Almería']
-[](#sprite2-p377);['Valladolid']
-[](#sprite4-p9);['Xerez']
-[](#sprite2-p378);['SC Goa']
-[](#sprite4-p10);['Pistoiese']
-[](#sprite4-p11);['VB Addu FC']
-[](#sprite4-p12);['Heracles Almelo']
-[](#sprite2-p379);['Bangor FC']
-[](#sprite4-p13);['IF Brommapojkarna']
-[](#sprite2-p380);['Grenoble']
-[](#sprite2-p381);['Sigma Olomouc']
-[](#sprite4-p14);['FC Volendam']
-[](#sprite2-p382);['Sivasspor']
-[](#sprite4-p15);['Asante Kotoko']
-[](#sprite2-p383);['1. FC Magdeburg']
-[](#sprite4-p16);['Belgrano']
-[](#sprite2-p385);['Drogheda United']
-[](#sprite2-p386);['Albacete']
-[](#sprite4-p18);['Albirex Niigata']
-[](#sprite4-p19);['Kashiwa Reysol']
-[](#sprite4-p20);['Kawasaki Frontale']
-[](#sprite4-p21);['Vissel Kobe']
-[](#sprite4-p22);['Gwangju FC']
-[](#sprite4-p23);['Gyeongnam FC']
-[](#sprite4-p24);['Jeju United']
-[](#sprite4-p25);['Seongnam FC']
-[](#sprite4-p26);['Ulsan Hyundai']
-[](#sprite4-p27);['Henan Jianye']
-[](#sprite2-p387);['Shanghai Shenxin']
-[](#sprite4-p28);['Guizhou Renhe']
-[](#sprite4-p29);['Luneng Taishan']
-[](#sprite4-p30);['AC Ajaccio']
-[](#sprite2-p388);['Tours']
-[](#sprite2-p389);['Stade Reims']
-[](#sprite4-p31);['Amiens SC']
-[](#sprite4-p32);['Angers SCO']
-[](#sprite4-p33);['Istres']
-[](#sprite2-p390);['PFC Spartak Nalchik']
-[](#sprite2-p391);['Terek Grozniy']
-[](#sprite4-p34);['FC Volga Nizhny Novgorod']
-[](#sprite2-p393);['MC Oran']
-[](#sprite2-p394);['ES Sétif']
-[](#sprite4-p37);['ASO Chlef']
-[](#sprite4-p38);['Ismaily']
-[](#sprite2-p395);['Club Africain']
-[](#sprite4-p39);['Stade Tunisien']
-[](#sprite2-p396);['Honvéd']
-[](#sprite4-p40);['Győr']
-[](#sprite4-p35);['United SC']
-[](#sprite4-p36);['MC Alger']
-[](#sprite2-p392);['USM Alger']
-[](#sprite4-p41);['Fath Union Sport']
-[](#sprite4-p42);['Étoile du Sahel']
-[](#sprite4-p43);['BATE']
-[](#sprite4-p44);['Puget Sound Gunners FC']
-[](#sprite4-p45);['Rekreativo Banja Luka']
-[](#sprite4-p46);['Qadsia SC']
-[](#sprite4-p47);['FC Den Bosch']
-[](#sprite2-p398);['Excelsior']
-[](#sprite4-p48);['Al-Ansar SC']
-[](#sprite4-p49);['Nejmeh SC']
-[](#sprite2-p399);['Íþróttafélag Reykjavíkur']
-[](#sprite4-p50);['Luis Ángel Firpo']
-[](#sprite2-p400);['Farnborough']
-[](#sprite4-p51);['Al-Ahli Club']
-[](#sprite2-p401);['FC Haka']
-[](#sprite2-p402);['Enyimba']
-[](#sprite2-p403);['Kano Pillars']
-[](#sprite2-p404);['Venezia']
-[](#sprite2-p405);['Moghreb Atlético Tetuán']
-[](#sprite4-p52);['JEF United Ichihara Chiba']
-[](#sprite4-p53);['Mohammedan SC']
-[](#sprite4-p54);['Podbeskidzie']
-[](#sprite4-p55);['Monagas SC']
-[](#sprite4-p56);['Mineros de Guayana']
-[](#sprite4-p57);['Domžale']
-[](#sprite4-p58);['Kedah FA']
-[](#sprite4-p59);['HB Køge']
-[](#sprite4-p60);['Tampico Madero']
-[](#sprite2-p407);['BBCU']
-[](#sprite4-p61);['Viktoria Žižkov']
-[](#sprite4-p62);['Al-Ahli SFC']
-[](#sprite4-p63);['Libertad']
-[](#sprite2-p408);['Al Ahly (Benghazi)']
-[](#sprite4-p64);['AlAhli SC']
-[](#sprite4-p65);['Pahang FA']
-[](#sprite2-p410);['Zagłębie Lubin']
-[](#sprite4-p66);['Forfar Athletic']
-[](#sprite2-p412);['Tractor']
-[](#sprite4-p67);['Xelajú MC']
-[](#sprite2-p413);['MyPa']
-[](#sprite2-p414);['VfB Oldenburg']
-[](#sprite4-p68);['KV']
-[](#sprite2-p415);['Alania Vladikavkaz']
-[](#sprite2-p416);['Hønefoss']
-[](#sprite4-p69);['Cúcuta Deportivo']
-[](#sprite4-p70);['CSMS Iași']
-[](#sprite4-p71);['Syrianska FC']
-[](#sprite2-p417);['HamKam']
-[](#sprite2-p418);['Varbergs BoIS']
-[](#sprite4-p72);['Atromitos']
-[](#sprite4-p73);['Tarxien Rainbows']
-[](#sprite2-p419);['Viitorul Constanța']
-[](#sprite4-p74);['Paulton Rovers']
-[](#sprite2-p420);['All Boys']
-[](#sprite4-p75);['Deportivo Quito']
-[](#sprite2-p421);['Landskrona BoIS']
-[](#sprite2-p424);['Defensor Sporting']
-[](#sprite4-p77);['Huachipato']
-[](#sprite4-p78);['River Plate']
-[](#sprite2-p425);"[""O'Higgins""]"
-[](#sprite2-p426);['Petrolul Ploiești']
-[](#sprite4-p79);['Willem II']
-[](#sprite4-p80);['Westfalia Herne']
-[](#sprite2-p427);['Farul Constanța']
-[](#sprite2-p428);['Arema Cronus']
-[](#sprite2-p430);['Brescia']
-[](#sprite2-p431);['FC Wil 1900']
-[](#sprite4-p81);['OFK Beograd']
-[](#sprite2-p432);['Asteras Tripolis']
-[](#sprite2-p433);['SV Babelsberg 03']
-[](#sprite2-p434);['Erzgebirge Aue']
-[](#sprite4-p82);['Chemnitzer FC']
-[](#sprite2-p435);['Bognor Regis Town']
-[](#sprite2-p436);['FC Inter Turku']
-[](#sprite4-p83);['Blau-Weiß Linz']
-[](#sprite2-p437);['Hamilton Academical']
-[](#sprite2-p438);['Hastings United']
-[](#sprite2-p439);['Sanica Boru Elazığspor']
-[](#sprite2-p440);['IK Start']
-[](#sprite2-p441);['PSMS']
-[](#sprite4-p84);['RoPS']
-[](#sprite2-p442);['Sogndal']
-[](#sprite4-p85);['Avellino']
-[](#sprite2-p443);['Kayserispor']
-[](#sprite2-p444);['Lanús']
-[](#sprite2-p445);['Oriente Petrolero']
-[](#sprite4-p86);['El Nacional']
-[](#sprite2-p446);['Santiago Wanderers']
-[](#sprite4-p87);['Banfield']
-[](#sprite2-p447);['Gefle IF']
-[](#sprite3-p22);['Club Jorge Wilstermann', 'J. Wilstermann']
-[](#sprite4-p88);['Quad City Eagles']
-[](#sprite2-p450);['Shakhter Karagandy']
-[](#sprite2-p451);['FC Brașov']
-[](#sprite2-p452);['First Vienna']
-[](#sprite2-p453);['South China']
-[](#sprite2-p454);['Airdrieonians']
-[](#sprite2-p455);['Portadown']
-[](#sprite4-p89);['1. FFC Turbine Potsdam']
-[](#sprite4-p90);['Ferro Carril Oeste']
-[](#sprite2-p456);['Washington Spirit']
-[](#sprite4-p91);['Santa Clara']
-[](#sprite4-p92);['OFK Bar']
-[](#sprite4-p93);['Avispa Fukuoka']
-[](#sprite4-p94);['Júbilo Iwata']
-[](#sprite4-p95);['Montedio Yamagata']
-[](#sprite4-p96);['Ventforet Kofu']
-[](#sprite4-p97);['Busan IPark']
-[](#sprite2-p457);['Jeonnam Dragons']
-[](#sprite4-p98);['Gangwon FC']
-[](#sprite2-p458);['Sangju Sangmu']
-[](#sprite4-p99);['Al-Sadd Club']
-[](#sprite4-p100);['Al-Ain']
-[](#sprite4-p103);['Qingdao Jonoon']
-[](#sprite4-p104);['Shenzhen']
-[](#sprite4-p105);['Tianjin Teda']
-[](#sprite2-p459);['Dijon']
-[](#sprite4-p106);['Valenciennes']
-[](#sprite4-p107);['LB Châteauroux']
-[](#sprite4-p108);['Boulogne']
-[](#sprite4-p109);['Sedan']
-[](#sprite4-p110);['Troyes AC']
-[](#sprite4-p111);['AC Arles-Avignon']
-[](#sprite4-p112);['Stade Lavallois']
-[](#sprite4-p113);['Krasnodar']
-[](#sprite4-p114);['Krylia Sovetov']
-[](#sprite4-p115);['Kuban']
-[](#sprite4-p116);['Churchill Brothers']
-[](#sprite4-p117);['Dempo SC']
-[](#sprite4-p119);['CR Belouizdad']
-[](#sprite4-p120);['NA Hussein Dey']
-[](#sprite4-p121);['ASM Oran']
-[](#sprite4-p122);['Tersana SC']
-[](#sprite4-p123);['Al-Masry Club']
-[](#sprite4-p124);['AS FAR']
-[](#sprite4-p125);['KAC de Kénitra']
-[](#sprite4-p126);['Maghrib de Fès']
-[](#sprite4-p127);['Hassania Agadir']
-[](#sprite4-p128);['CS Sfaxien']
-[](#sprite4-p129);['Wydad de Fès']
-[](#sprite4-p130);['CA Bizertin']
-[](#sprite4-p131);['US Monastirienne']
-[](#sprite4-p132);['Oțelul Galați']
-[](#sprite4-p133);['Vorskla']
-[](#sprite4-p134);['FC Vaslui']
-[](#sprite4-p135);['AEK Larnaca']
-[](#sprite4-p137);['Kuwait SC']
-[](#sprite4-p138);['Kazma SC']
-[](#sprite4-p139);['Al-Arabi SC']
-[](#sprite4-p140);['RKC Waalwijk']
-[](#sprite4-p141);['Nacional']
-[](#sprite4-p142);['Sagan Tosu']
-[](#sprite4-p143);['Deportivo Táchira']
-[](#sprite4-p144);['Deportivo Lara']
-[](#sprite4-p145);['Matsumoto Yamaga']
-[](#sprite4-p146);['FK Şahdağ Qusar']
-[](#sprite2-p462);['Montevideo Wanderers']
-[](#sprite4-p147);['Danubio']
-[](#sprite2-p463);['Unión Española']
-[](#sprite4-p148);['América']
-[](#sprite2-p464);['Baník Ostrava']
-[](#sprite4-p149);['Wuhan Zall']
-[](#sprite1-p494);['Ottawa Fury']
-[](#sprite4-p150);['Gaziantepspor']
-[](#sprite2-p465);['Harrogate Town']
-[](#sprite4-p151);['Valletta FC']
-[](#sprite3-p9);['Skeid']
-[](#sprite2-p466);['FK Sarajevo']
-[](#sprite2-p467);['Rosario Central']
-[](#sprite2-p468);['Guarani']
-[](#sprite4-p153);['Arka Gdynia']
-[](#sprite2-p470);['Queen of the South']
-[](#sprite2-p471);['Raith Rovers']
-[](#sprite1-p495);['Bengaluru FC']
-[](#sprite4-p154);['Prestatyn Town']
-[](#sprite2-p472);['Modena']
-[](#sprite2-p473);['FC Thun']
-[](#sprite2-p474);['FC Sion']
-[](#sprite1-p496);['Baltimore Bohemians']
-[](#sprite2-p476);['Alloa Athletic']
-[](#sprite4-p155);['RC Strasbourg']
-[](#sprite2-p477);['Vitória de Setúbal']
-[](#sprite2-p478);['BX Brussels']
-[](#sprite4-p156);['Admira Wacker']
-[](#sprite2-p479);['FAS']
-[](#sprite2-p480);['Bahia']
-[](#sprite4-p158);['Ruch Chorzów']
-[](#sprite4-p159);['Figueirense']
-[](#sprite4-p160);['Hércules']
-[](#sprite2-p481);['Bolívar']
-[](#sprite4-p161);['Eendracht Aalst']
-[](#sprite4-p162);['Quilmes']
-[](#sprite3-p10);['Criciúma']
-[](#sprite4-p163);['OFI']
-[](#sprite2-p482);['Tampines Rovers']
-[](#sprite4-p164);['K-W United FC']
-[](#sprite2-p483);['FC Aarau']
-[](#sprite4-p165);['KV Kortrijk']
-[](#sprite2-p484);['Pogoń Szczecin']
-[](#sprite2-p485);['KS Cracovia']
-[](#sprite4-p166);['SV Ried']
-[](#sprite4-p167);['Águila']
-[](#sprite2-p486);['Ludogorets Razgrad']
-[](#sprite2-p487);['HŠK Zrinjski Mostar']
-[](#sprite2-p488);['Chernomorets Odessa']
-[](#sprite2-p489);['Nuneaton Town']
-[](#sprite4-p168);['Sharjah SC']
-[](#sprite2-p490);['Necaxa']
-[](#sprite4-p169);['Tromsdalen UIL']
-[](#sprite4-p170);['Elche']
-[](#sprite2-p492);['Stuttgarter Kickers']
-[](#sprite4-p171);['FSV Frankfurt']
-[](#sprite2-p493);"[""Johor Darul Ta'zim FC""]"
-[](#sprite2-p494);['Nacional']
-[](#sprite4-p172);['Novara']
-[](#sprite4-p173);['Jedinstvo Bihać']
-[](#sprite2-p495);['Stranraer']
-[](#sprite4-p174);['Recreativo Huelva']
-[](#sprite2-p496);['Rio Ave']
-[](#sprite4-p175);['Panionios']
-[](#sprite4-p176);['Triglav Kranj']
-[](#sprite4-p177);['Rotor Volgograd']
-[](#sprite2-p497);['MVV']
-[](#sprite2-p498);['Correcaminos UAT']
-[](#sprite2-p499);['Al-Nassr']
-[](#sprite2-p500);['Jacksonville Armada FC']
-[](#sprite1-p497);['Oklahoma City Energy FC']
-[](#sprite1-p499);['New York City FC']
-[](#sprite4-p178);['Cobh Ramblers']
-[](#sprite1-p500);['SD Eibar']
-[](#sprite4-p179);['Chiapas']
-[](#sprite4-p180);['Tokushima Vortis']
-[](#sprite4-p186);['Erchim']
-[](#sprite3-p12);['Central FC']
-[](#sprite4-p196);['Real Jaén']
-[](#sprite4-p197);['AC Perugia']
-[](#sprite4-p198);['Sint-Truiden']
-[](#sprite4-p199);['Gençlerbirliği']
-[](#sprite4-p200);['Torpedo']
-[](#sprite4-p202);['Vaduz']
-[](#sprite4-p204);['FC Lahti']
-[](#sprite4-p205);['Samsunspor']
-[](#sprite4-p206);['Sheikh Russel KC']
-[](#sprite4-p207);['Zawisza Bydgoszcz']
-[](#sprite4-p208);['FC Dordrecht']
-[](#sprite4-p209);['Tartu Tammeka']
-[](#sprite4-p210);['Sarpsborg 08']
-[](#sprite4-p211);['Feirense']
-[](#sprite4-p212);['AFC Cleveland']
-[](#sprite4-p213);['AFC Hornchurch']
-[](#sprite4-p214);['Arsenal Tula']
-[](#sprite4-p194);['Córdoba']
-[](#sprite5-p14);['RB Leipzig']
-[](#sprite4-p215);['Royal Excel Mouscron', 'Royal Mouscron-Péruwelz']
-[](#sprite4-p216);['Diósgyőr']
-[](#sprite4-p217);['Saint Louis FC']
-[](#sprite4-p218);['Louisville City']
-[](#sprite4-p219);['FC Bordo']
-[](#sprite4-p220);['Lokomotiva', 'Lokomotiva Zagreb']
-[](#sprite4-p221);['SSV Reutlingen 05']
-[](#sprite4-p222);['Guernsey FC']
-[](#sprite4-p223);['Peel AFC']
-[](#sprite4-p224);['Basingstoke Town']
-[](#sprite4-p225);['Havant & Waterlooville']
-[](#sprite4-p226);['Eastleigh']
-[](#sprite4-p227);['Chiangmai FC']
-[](#sprite4-p228);['Houston Dash']
-[](#sprite4-p229);['Hougang United']
-[](#sprite4-p230);['B36 Tórshavn']
-[](#sprite4-p231);['Vermont Voltage']
-[](#sprite4-p232);['MFK Frýdek-Místek']
-[](#sprite4-p233);['Lleida Esportiu']
-[](#sprite4-p234);['Ajax Cape Town']
-[](#sprite4-p235);['Penafiel']
-[](#sprite4-p236);['Seattle Reign FC']
-[](#sprite4-p237);['Boston Breakers']
-[](#sprite4-p238);['Juventude']
-[](#sprite4-p239);['VfL Osnabrück']
-[](#sprite4-p240);['Zadar']
-[](#sprite4-p241);['Hyde']
-[](#sprite4-p242);['Remo']
-[](#sprite4-p244);['Mjällby AIF']
-[](#sprite4-p245);['Leamington']
-[](#sprite4-p246);['Campobasso']
-[](#sprite4-p247);['AFC Telford United']
-[](#sprite4-p248);['Wealdstone']
-[](#sprite4-p249);['Songkhla United']
-[](#sprite4-p250);['Ashington']
-[](#sprite4-p251);['Roeselare']
-[](#sprite4-p252);['Shirak']
-[](#sprite4-p253);['RC Haïtien']
-[](#sprite4-p254);['Girona FC']
-[](#sprite4-p255);['Motala AIF FK']
-[](#sprite4-p256);['Ilkeston']
-[](#sprite4-p257);['Wembley']
-[](#sprite4-p258);['Moss']
-[](#sprite4-p259);['Sliema Wanderers']
-[](#sprite4-p260);['Cincinnati Dutch Lions']
-[](#sprite4-p261);['SønderjyskE']
-[](#sprite4-p262);['Eintracht Trier']
-[](#sprite4-p264);['AmaZulu']
-[](#sprite4-p263);['SKA-Khabarovsk']
-[](#sprite4-p265);['FC Carl Zeiss Jena']
-[](#sprite4-p266);['Manta FC']
-[](#sprite4-p268);['Deportivo Walter Ferretti']
-[](#sprite4-p269);['Ural Sverdlovsk Oblast']
-[](#sprite4-p270);['Dalian Yifang']
-[](#sprite4-p271);['Al-Ahed']
-[](#sprite4-p272);['Doxa Drama']
-[](#sprite4-p273);['Envigado']
-[](#sprite4-p274);['Lekhwiya']
-[](#sprite4-p275);['Perak FA']
-[](#sprite4-p276);['Hobro IK']
-[](#sprite4-p277);['Paços de Ferreira']
-[](#sprite3-p14);['Ekenäs Idrottsförening']
-[](#sprite4-p278);['KuPS']
-[](#sprite4-p279);['Dartford']
-[](#sprite4-p280);['Charleroi']
-[](#sprite1-p140);['Delhi Dynamos']
-[](#sprite4-p281);['Paide Linnameeskond']
-[](#sprite4-p282);['FC Serres']
-[](#sprite4-p283);['1. FC Heidenheim']
-[](#sprite4-p284);['Sandhausen']
-[](#sprite4-p285);['Portland Thorns']
-[](#sprite4-p286);['Sousa']
-[](#sprite4-p287);['Assyriska FF']
-[](#sprite4-p288);['Olympique de Khouribga']
-[](#sprite4-p289);['1. FC Schweinfurt 05']
-[](#sprite4-p290);['NK Podgrmeč']
-[](#sprite4-p291);['Wexford Youths']
-[](#sprite4-p292);['Torreense']
-[](#sprite4-p293);['Hallstahammars SK']
-[](#sprite4-p294);['Deportivo Roca']
-[](#sprite4-p295);['Naval 1º de Maio']
-[](#sprite4-p297);['Gimnasia']
-[](#sprite4-p299);['Warrington Town']
-[](#sprite4-p300);['Beroe']
-[](#sprite4-p301);['Eastbourne Borough']
-[](#sprite4-p302);['Wick Academy']
-[](#sprite4-p303);['New Orleans Jesters']
-[](#sprite4-p306);['FC LVU Sonic']
-[](#sprite4-p305);['Al-Merrikh SC']
-[](#sprite4-p307);['Gateshead']
-[](#sprite4-p308);['Catanzaro']
-[](#sprite4-p309);['Mo']
-[](#sprite4-p310);['Milwaukee Bavarians']
-[](#sprite3-p16);['Yeedzin FC']
-[](#sprite4-p312);['Termoli']
-[](#sprite4-p313);['DSV Concordia']
-[](#sprite4-p314);"[""King's Lynn Town""]"
-[](#sprite4-p315);['SSV Jahn Regensburg']
-[](#sprite4-p316);['Radomiak Radom']
-[](#sprite4-p317);['KVK Westhoek']
-[](#sprite4-p318);['Fort Worth Vaqueros']
-[](#sprite4-p319);['Fort Pitt Regiment']
-[](#sprite4-p320);['Skënderbeu Korçë']
-[](#sprite4-p321);['Mineros de Zacatecas']
-[](#sprite4-p322);['Truro City']
-[](#sprite4-p323);['Lansing United']
-[](#sprite4-p324);['LASK Linz']
-[](#sprite4-p325);['Berliner FC Dynamo']
-[](#sprite4-p327);['Las Vegas Mobsters']
-[](#sprite4-p326);['Welling United']
-[](#sprite4-p328);['AC Bellinzona']
-[](#sprite4-p329);['FC Viikingit']
-[](#sprite4-p330);['ÍA']
-[](#sprite4-p331);['Cerro']
-[](#sprite4-p332);['Burscough FC']
-[](#sprite4-p333);['Cosenza']
-[](#sprite4-p334);['FC Anyang']
-[](#sprite4-p335);['KFC Uerdingen 05']
-[](#sprite4-p336);['Wuppertaler SV', 'SV Wuppertaler']
-[](#sprite4-p337);['Juventus IF']
-[](#sprite4-p338);['Deportivo Anzoátegui']
-[](#sprite4-p339);['FC Romania']
-[](#sprite4-p340);['US Sassuolo']
-[](#sprite4-p341);['Empoli']
-[](#sprite4-p342);['Qarabağ']
-[](#sprite3-p17);['Dukla Praha']
-[](#sprite4-p345);['CS Cartaginés']
-[](#sprite4-p346);['Ceará']
-[](#sprite4-p347);['Ballyclare Comrades']
-[](#sprite4-p348);['FC Eintracht Bamberg']
-[](#sprite4-p349);['Deportivo Pereira']
-[](#sprite4-p350);['NS Matrix FC']
-[](#sprite4-p351);['Sarawak']
-[](#sprite4-p352);['Hammerfest']
-[](#sprite4-p353);['London Bees']
-[](#sprite4-p354);['F91 Dudelange']
-[](#sprite4-p355);['SV Tasmania Berlin']
-[](#sprite4-p356);['ABC']
-[](#sprite4-p357);['FK Olimpic Sarajevo']
-[](#sprite4-p358);['Atlético de Kolkata']
-[](#sprite4-p359);['Chennaiyin FC']
-[](#sprite4-p360);['FC Goa']
-[](#sprite4-p361);['FC Pune City']
-[](#sprite4-p362);['Kerala Blasters']
-[](#sprite4-p363);['Mumbai City']
-[](#sprite4-p364);['NorthEast United']
-[](#sprite4-p365);['Merthyr Town']
-[](#sprite4-p366);['Boston United']
-[](#sprite4-p367);['Luch-Energiya']
-[](#sprite4-p368);['Lokomotiv Plovdiv']
-[](#sprite4-p369);['Al-Hilal Club']
-[](#sprite4-p370);['Coras Tepic']
-[](#sprite4-p371);['Haukar']
-[](#sprite4-p372);['Marsaxlokk FC']
-[](#sprite4-p373);['Sutton United']
-[](#sprite4-p374);['HK']
-[](#sprite4-p375);['Boreham Wood']
-[](#sprite4-p376);['AC Oulu']
-[](#sprite4-p377);['Fisher']
-[](#sprite4-p378);['Tulsa Roughnecks FC']
-[](#sprite4-p379);['Spennymoor Town']
-[](#sprite4-p380);['St Albans City']
-[](#sprite4-p381);['Viborg FF']
-[](#sprite4-p382);['Marathón']
-[](#sprite4-p383);['Brechin City']
-[](#sprite4-p385);['Persipura Jayapura']
-[](#sprite4-p384);['Poole Town']
-[](#sprite4-p386);['Afturelding']
-[](#sprite4-p387);['Salisbury City']
-[](#sprite4-p388);['PS Kemi']
-[](#sprite4-p389);['Chorley FC']
-[](#sprite4-p390);['Skallagrímur']
-[](#sprite4-p391);['Darfur United']
-[](#sprite4-p392);['Sloboda Tuzla']
-[](#sprite4-p393);['GKS Bełchatów']
-[](#sprite4-p395);['Sheriff Tiraspol']
-[](#sprite4-p396);['FC Cape Town']
-[](#sprite4-p397);['Chapecoense']
-[](#sprite4-p398);['Joinville']
-[](#sprite3-p18);['San Diego Flash']
-[](#sprite4-p399);['Tonbridge Angels']
-[](#sprite4-p401);['Hemel Hempstead Town']
-[](#sprite4-p402);['Alianza Petrolera']
-[](#sprite4-p403);['AFC Fylde']
-[](#sprite4-p404);['Ramsbottom United']
-[](#sprite4-p405);['Hallescher FC']
-[](#sprite4-p406);['SpVgg Unterhaching']
-[](#sprite4-p407);['Racing Club Warwick']
-[](#sprite4-p409);['Grand Rapids FC']
-[](#sprite4-p408);['Partizani Tiranë']
-[](#sprite4-p410);['El Gouna']
-[](#sprite4-p412);['Tamworth']
-[](#sprite4-p413);['Melbourne Knights']
-[](#sprite4-p414);['Ascoli']
-[](#sprite4-p411);['ÍBV Vestmannaeyjar']
-[](#sprite4-p415);['Instituto ACC']
-[](#sprite4-p416);['Clapton']
-[](#sprite4-p417);['Würzburger Kickers']
-[](#sprite4-p418);['Trafford']
-[](#sprite4-p419);['Maccabi Netanya']
-[](#sprite4-p420);['CRB']
-[](#sprite4-p421);['Real Juventud']
-[](#sprite4-p422);['Livingston']
-[](#sprite4-p423);['Sông Lam Nghệ An']
-[](#sprite4-p424);['Benevento']
-[](#sprite4-p425);['Falkenberg']
-[](#sprite4-p426);['Deportes Quindio']
-[](#sprite4-p427);['Gaz Metan Mediaș']
-[](#sprite4-p428);['Radnički Niš']
-[](#sprite4-p429);['Lunds BK']
-[](#sprite4-p430);['Wiener SK']
-[](#sprite4-p432);['Enfield Town']
-[](#sprite4-p434);['Santa Cruz']
-[](#sprite4-p433);['Taranto']
-[](#sprite4-p435);['Fredericksburg FC']
-[](#sprite4-p436);['Almere City']
-[](#sprite4-p437);['Caxias']
-[](#sprite7-p95);['Western Mass Pioneers']
-[](#sprite4-p440);['Zulia FC']
-[](#sprite4-p441);['Longford Town']
-[](#sprite4-p442);['Dumbarton']
-[](#sprite4-p443);['FC Liefering']
-[](#sprite4-p444);['Cove Rangers']
-[](#sprite4-p445);['Telstar']
-[](#sprite4-p446);['Red Star']
-[](#sprite4-p447);['Charlotte Independence']
-[](#sprite4-p448);['CS Herediano']
-[](#sprite4-p449);['Cabinteely FC']
-[](#sprite4-p450);['Litex Lovech']
-[](#sprite4-p452);['Alfreton Town']
-[](#sprite4-p453);['Akademisk Boldklub']
-[](#sprite4-p454);['SS Politehnica Timișoara']
-[](#sprite4-p455);['FC Kansas City']
-[](#sprite4-p456);['Prescot Cables']
-[](#sprite4-p458);['FK Jerv']
-[](#sprite4-p459);['Reggina']
-[](#sprite4-p460);['Paysandu']
-[](#sprite4-p457);['Frome Town']
-[](#sprite4-p461);['Berwick Rangers']
-[](#sprite4-p462);['FC Tacoma 253']
-[](#sprite4-p463);['Vysočina Jihlava']
-[](#sprite4-p464);['Lugo']
-[](#sprite4-p465);['Deportivo Cuenca']
-[](#sprite4-p466);['Kaya']
-[](#sprite4-p467);['Brønshøj BK']
-[](#sprite4-p468);['Paris']
-[](#sprite4-p469);['Yenisey']
-[](#sprite4-p470);['Workington']
-[](#sprite4-p471);['Londrina']
-[](#sprite4-p472);['Real Murcia']
-[](#sprite4-p473);['Heartland FC']
-[](#sprite4-p474);['Persija Jakarta']
-[](#sprite4-p475);['Yadanarbon FC']
-[](#sprite4-p476);['VfR Aalen']
-[](#sprite4-p477);['FC Ingolstadt']
-[](#sprite4-p478);['Aalborg Chang']
-[](#sprite4-p479);['Dulwich Hamlet']
-[](#sprite4-p480);['Yanbian Funde']
-[](#sprite4-p481);['Skive IK']
-[](#sprite4-p482);['Târgu Mureș']
-[](#sprite4-p483);['That Ras Club']
-[](#sprite4-p484);['Gosport Borough']
-[](#sprite4-p485);['Maidenhead United']
-[](#sprite4-p486);['Carpi']
-[](#sprite4-p487);['Ashdod']
-[](#sprite4-p488);['Västerås SK']
-[](#sprite4-p489);['Estoril']
-[](#sprite4-p490);['Gil Vicente']
-[](#sprite4-p491);['Glossop North End']
-[](#sprite4-p492);['Salon Palloilijat']
-[](#sprite4-p493);['Arouca']
-[](#sprite4-p494);['San Francisco City FC']
-[](#sprite4-p495);['Sheffield FC']
-[](#sprite4-p496);['Öster']
-[](#sprite4-p497);['Matlock Town']
-[](#sprite4-p498);['Brooklyn Italians']
-[](#sprite4-p499);['FK Jelgava']
-[](#sprite4-p500);['Waasland-Beveren']
-[](#sprite5-p1);['Harkemase Boys']
-[](#sprite5-p2);['AFC Ann Arbor']
-[](#sprite5-p3);['Plaza Colonia']
-[](#sprite5-p4);['Spezia']
-[](#sprite5-p5);['TuS Koblenz']
-[](#sprite5-p6);['Colorado Springs Switchbacks FC']
-[](#sprite5-p7);['Fortaleza Esporte Clube']
-[](#sprite5-p8);['Chicago Red Stars']
-[](#sprite5-p9);['Gladsaxe-Hero']
-[](#sprite5-p11);['FC Santa Coloma']
-[](#sprite5-p12);['Deportivo Alavés']
-[](#sprite5-p13);['SC Ostenland']
-[](#sprite3-p13);['Moreirense']
-[](#sprite5-p15);['CD Tondela']
-[](#sprite5-p16);['União da Madeira']
-[](#sprite5-p17);['Glenavon']
-[](#sprite5-p18);['Miami United']
-[](#sprite5-p19);['Estudiantes de Mérida']
-[](#sprite5-p20);['Godoy Cruz']
-[](#sprite5-p21);['Altınordu']
-[](#sprite5-p22);"[""Hawke's Bay United""]"
-[](#sprite5-p23);['Barry Town United']
-[](#sprite5-p24);['Hessen Kassel']
-[](#sprite5-p25);['KTP']
-[](#sprite5-p26);['Milwaukee Torrent']
-[](#sprite5-p27);['SHB-Đà Nẵng']
-[](#sprite5-p28);['Leganés']
-[](#sprite5-p29);['Crucero del Norte']
-[](#sprite5-p30);['Cherno More Varna']
-[](#sprite5-p31);['Mjøndalen']
-[](#sprite5-p34);['Atlanta United FC']
-[](#sprite5-p37);['Mosta FC']
-[](#sprite5-p36);['Hereford FC']
-[](#sprite5-p32);['Independiente Rivadavia']
-[](#sprite5-p38);['Atlético de San Luis']
-[](#sprite5-p42);['Termalica Bruk-Bet']
-[](#sprite5-p40);['KÍ Klaksvík']
-[](#sprite5-p41);['Al-Ittihad']
-[](#sprite5-p45);['KFCO Beerschot Wilrijk']
-[](#sprite5-p46);['Caldense']
-[](#sprite5-p44);['Górnik Łęczna']
-[](#sprite5-p43);['Piast Gliwice']
-[](#sprite5-p48);['Los Angeles FC']
-[](#sprite5-p49);['Orange County SC']
-[](#sprite5-p50);['Sacramento Gold']
-[](#sprite5-p51);['Sky Blue FC']
-[](#sprite5-p52);['Albion Rovers']
-[](#sprite5-p53);['Annan Athletic']
-[](#sprite5-p54);['Cowdenbeath']
-[](#sprite5-p55);['East Stirling']
-[](#sprite5-p56);['Montrose']
-[](#sprite5-p57);['Peterhead']
-[](#sprite5-p58);['Stenhousemuir']
-[](#sprite5-p59);['Stirling Albion']
-[](#sprite5-p60);['Hinckley AFC']
-[](#sprite5-p61);['UD Logroñés']
-[](#sprite5-p62);['SD Compostela']
-[](#sprite5-p63);['Tiverton Town']
-[](#sprite5-p64);['Čukarički']
-[](#sprite5-p65);['Ponferradina']
-[](#sprite5-p66);['Numancia']
-[](#sprite5-p67);['Mirandés']
-[](#sprite5-p68);['Llagostera']
-[](#sprite5-p69);['Gimnàstic de Tarragona']
-[](#sprite5-p70);['Alcorcón']
-[](#sprite5-p71);['Grêmio Esportivo Brasil']
-[](#sprite5-p72);['Al-Wasl']
-[](#sprite5-p73);['SpVgg Bayern Hof']
-[](#sprite5-p74);['Al-Jazira']
-[](#sprite5-p75);['Lewes']
-[](#sprite5-p76);['Kairat']
-[](#sprite5-p79);['East Kilbride']
-[](#sprite5-p80);['Hellerup IK', 'HIK']
-[](#sprite5-p82);['Birmingham Hammers']
-[](#sprite5-p83);['FC Ulaanbaatar']
-[](#sprite5-p84);['Birkirkara']
-[](#sprite5-p85);['FC Ilves']
-[](#sprite5-p86);['Frosinone']
-[](#sprite5-p87);['Guangzhou R&F']
-[](#sprite5-p88);['Astra Giurgiu']
-[](#sprite5-p89);['Retford United']
-[](#sprite3-p24);['Astana']
-[](#sprite5-p90);['Rheindorf Altach']
-[](#sprite5-p91);['Jablonec']
-[](#sprite5-p92);['MŠK Žilina']
-[](#sprite5-p93);['Zorya Luhansk']
-[](#sprite5-p94);['Milsami']
-[](#sprite3-p25);['Akhisar Belediye']
-[](#sprite5-p95);['Antalyaspor']
-[](#sprite5-p96);['Çaykur Rizespor']
-[](#sprite5-p97);['Eskişehirspor']
-[](#sprite5-p98);['İstanbul Başakşehir']
-[](#sprite5-p99);['Kasımpaşa']
-[](#sprite5-p100);['Mersin İdmanyurdu']
-[](#sprite5-p101);['Osmanlıspor']
-[](#sprite5-p102);['Iraklis']
-[](#sprite5-p103);['Veria']
-[](#sprite5-p104);['Xanthi']
-[](#sprite5-p105);['Platanias']
-[](#sprite5-p106);['PAS Giannina']
-[](#sprite5-p107);['Panthrakikos']
-[](#sprite5-p108);['Panetolikos']
-[](#sprite5-p109);['Levadiakos']
-[](#sprite5-p110);['Kalloni']
-[](#sprite5-p111);['Mordovia Saransk']
-[](#sprite5-p112);['FC Ufa']
-[](#sprite5-p113);['Atlético de Rafaela']
-[](#sprite5-p114);['Aldosivi']
-[](#sprite5-p115);['Unión']
-[](#sprite5-p116);['Temperley']
-[](#sprite5-p117);['Sarmiento']
-[](#sprite5-p118);['Nueva Chicago']
-[](#sprite5-p119);['Defensa y Justicia']
-[](#sprite5-p122);['Chelmsford City']
-[](#sprite5-p120);['Ponte Preta']
-[](#sprite5-p124);['Miami FC']
-[](#sprite5-p125);['Lüneburger SK Hansa']
-[](#sprite5-p126);['FC Cincinnati']
-[](#sprite5-p123);['Lane United FC']
-[](#sprite5-p127);['FC Lugano']
-[](#sprite5-p128);['Maccabi Ironi Ashdod']
-[](#sprite5-p129);['Caldas Sport Clube']
-[](#sprite5-p130);['Tokyo Verdy']
-[](#sprite5-p131);['Gazélec Ajaccio']
-[](#sprite5-p132);['Frigg Oslo FK']
-[](#sprite5-p133);['Águilas Doradas']
-[](#sprite5-p134);['Jaguares de Córdoba']
-[](#sprite5-p135);['Uniautónoma']
-[](#sprite5-p136);['Varese']
-[](#sprite5-p137);['Juventus']
-[](#sprite5-p138);['IFK Eskilstuna']
-[](#sprite5-p139);['Tai Po FC']
-[](#sprite5-p140);['Royal Wahingdoh FC']
-[](#sprite5-p141);['Grindavík']
-[](#sprite5-p142);['Auckland City']
-[](#sprite5-p143);['Nakhon Ratchasima FC']
-[](#sprite5-p144);['Al-Ahli SC']
-[](#sprite5-p145);['Al-Arabi SC']
-[](#sprite5-p146);['Al-Gharafa SC']
-[](#sprite5-p147);['Al-Kharaitiyat SC']
-[](#sprite5-p148);['Al-Khor SC']
-[](#sprite5-p149);['Al-Rayyan SC']
-[](#sprite5-p150);['Al-Sailiya SC']
-[](#sprite5-p151);['Al-Wakrah SC']
-[](#sprite3-p26);['El-Jaish SC']
-[](#sprite5-p152);['Al-Mesaimeer SC']
-[](#sprite5-p153);['Qatar SC']
-[](#sprite5-p154);['Umm-Salal SC']
-[](#sprite5-p155);['Juárez']
-[](#sprite5-p157);['Ceares']
-[](#sprite5-p158);['Bedford Town']
-[](#sprite5-p159);['Slovan Liberec']
-[](#sprite5-p160);['Qəbələ']
-[](#sprite5-p161);['Pafos FC']
-[](#sprite5-p162);['UMF Selfoss']
-[](#sprite5-p163);['Håbro IF']
-[](#sprite5-p166);['W Connection']
-[](#sprite5-p167);['San Francisco']
-[](#sprite5-p168);['Árabe Unido']
-[](#sprite5-p169);['Montego Bay United']
-[](#sprite5-p170);['Santa Tecla']
-[](#sprite5-p171);['Verdes FC']
-[](#sprite5-p172);['Isidro Metapán']
-[](#sprite5-p177);['FC Roskilde']
-[](#sprite5-p178);['Norrby IF']
-[](#sprite5-p179);['Pandurii']
-[](#sprite5-p180);['Thành phố Hồ Chí Minh']
-[](#sprite5-p216);['ACS Poli Timișoara']
-[](#sprite5-p217);['Concordia Chiajna']
-[](#sprite5-p218);['FC Botoșani']
-[](#sprite5-p219);['FC Voluntari']
-[](#sprite5-p220);['CS Universitatea Craiova']
-[](#sprite5-p221);['RNK Split']
-[](#sprite5-p222);['Istra 1961']
-[](#sprite5-p223);['Inter Zaprešić']
-[](#sprite5-p224);['Slaven Belupo']
-[](#sprite5-p225);['Zagreb']
-[](#sprite5-p226);['Mladá Boleslav']
-[](#sprite5-p227);['Slovácko']
-[](#sprite5-p228);['Zbrojovka Brno']
-[](#sprite5-p229);['Zlin']
-[](#sprite5-p230);['Teplice']
-[](#sprite5-p231);['Příbram']
-[](#sprite5-p232);['Bohemians 1905']
-[](#sprite5-p233);['Mes Kerman']
-[](#sprite5-p234);['Al Ahli Club']
-[](#sprite5-p235);['Naft Tehran']
-[](#sprite5-p236);['Pakhtakor Tashkent']
-[](#sprite5-p237);['Al-Shabab']
-[](#sprite5-p238);['Foolad']
-[](#sprite5-p239);['Lokomotiv Tashkent']
-[](#sprite5-p240);['Nasaf']
-[](#sprite5-p242);['Buriram United']
-[](#sprite5-p241);['Becamex Bình Dương']
-[](#sprite5-p243);['Dinamo Minsk']
-[](#sprite5-p244);['IK Frej']
-[](#sprite5-p245);['Mġarr United']
-[](#sprite5-p246);['Jönköpings Södra IF']
-[](#sprite5-p248);['Lobos BUAP']
-[](#sprite5-p249);['Alebrijes de Oaxaca']
-[](#sprite5-p250);['Zacatepec']
-[](#sprite5-p251);['Celaya']
-[](#sprite5-p252);['Murciélagos']
-[](#sprite5-p253);['Venados']
-[](#sprite5-p254);['Cimarrones de Sonora']
-[](#sprite5-p255);['Tapachula']
-[](#sprite5-p256);['Braintree Town']
-[](#sprite5-p257);['Bromley']
-[](#sprite5-p258);['Guiseley']
-[](#sprite5-p259);['Nest-Sotra']
-[](#sprite5-p260);['Rot-Weiß Oberhausen']
-[](#sprite5-p261);['Seoul E-Land FC']
-[](#sprite5-p262);['Szombathelyi Haladás']
-[](#sprite5-p263);['Puskás Akadémia']
-[](#sprite5-p264);['Paksi SE']
-[](#sprite5-p265);['Békéscsaba 1912 Előre SE']
-[](#sprite5-p266);['Vasas']
-[](#sprite5-p267);['Patriotas']
-[](#sprite5-p268);['Cortuluá']
-[](#sprite5-p269);['Boyacá Chicó']
-[](#sprite5-p270);['Atlético Huila']
-[](#sprite5-p271);['La Equidad']
-[](#sprite5-p272);['Deportivo Pasto']
-[](#sprite5-p273);['Stal Dniprodzerzhynsk']
-[](#sprite5-p274);['Olimpik Donetsk']
-[](#sprite5-p275);['FC Oleksandriya']
-[](#sprite5-p276);['Volyn Lutsk']
-[](#sprite5-p277);['Metalurh Zaporizhya']
-[](#sprite5-p278);['Hoverla Uzhhorod']
-[](#sprite5-p279);['Karpaty Lviv']
-[](#sprite5-p280);['ATM FA']
-[](#sprite5-p281);['Sime Darby']
-[](#sprite5-p282);['Young Lions']
-[](#sprite5-p283);['FELDA United']
-[](#sprite5-p284);['PDRM']
-[](#sprite5-p285);['Penang']
-[](#sprite5-p286);['Albirex Niigata (Singapore)']
-[](#sprite5-p287);['Balestier Khalsa']
-[](#sprite5-p288);['Warriors FC']
-[](#sprite5-p290);['Geylang United']
-[](#sprite5-p291);['Home United']
-[](#sprite5-p292);['SV Grödig']
-[](#sprite5-p293);['SV Mattersburg']
-[](#sprite5-p294);['Wolfsberger AC']
-[](#sprite5-p295);['Ballymena United']
-[](#sprite5-p296);['Carrick Rangers']
-[](#sprite5-p297);['Ballinamallard United']
-[](#sprite5-p298);['Dungannon Swifts']
-[](#sprite5-p299);['Warrenpoint Town']
-[](#sprite5-p300);['Canterbury United']
-[](#sprite5-p301);['Southern United']
-[](#sprite5-p302);['Team Wellington']
-[](#sprite5-p304);['Waitakere United']
-[](#sprite5-p305);['Spartak Subotica']
-[](#sprite5-p306);['Radnik Surdulica']
-[](#sprite5-p307);['Jagodina']
-[](#sprite5-p308);['Novi Pazar']
-[](#sprite5-p309);['Mladost Lučani']
-[](#sprite5-p310);['Voždovac']
-[](#sprite5-p311);['Metalac Gornji Milanovac']
-[](#sprite5-p312);['Rad']
-[](#sprite5-p313);['Borac Čačak']
-[](#sprite5-p314);['Javor Ivanjica']
-[](#sprite5-p315);['Sheikh Jamal Dhanmondi Club']
-[](#sprite5-p316);['Mohammedan Sporting Club']
-[](#sprite5-p317);['Abahani Limited']
-[](#sprite5-p318);['Brothers Union']
-[](#sprite5-p319);['Independiente del Valle']
-[](#sprite5-p320);['Universidad Católica']
-[](#sprite5-p321);['River Ecuador']
-[](#sprite5-p322);['Mushuc Runa']
-[](#sprite5-p323);['Aucas']
-[](#sprite5-p324);['Liga de Loja']
-[](#sprite5-p325);['Juventud']
-[](#sprite5-p326);['Racing de Montevideo']
-[](#sprite5-p327);['Rentistas']
-[](#sprite5-p328);['Fénix']
-[](#sprite5-p329);['Sud América']
-[](#sprite5-p330);['Rampla Juniors']
-[](#sprite5-p331);['Atenas']
-[](#sprite5-p332);['El Tanque Sisley']
-[](#sprite5-p333);['Tacuarembó']
-[](#sprite5-p334);['Liverpool']
-[](#sprite5-p335);['Villa Teresa']
-[](#sprite5-p336);['Trapani']
-[](#sprite5-p337);['Crotone']
-[](#sprite5-p338);['Virtus Entella']
-[](#sprite5-p339);['Virtus Lanciano']
-[](#sprite5-p340);['Latina']
-[](#sprite5-p341);['Calcio Como']
-[](#sprite5-p342);['Ternana']
-[](#sprite5-p343);['Salernitana']
-[](#sprite5-p344);['US Créteil-Lusitanos']
-[](#sprite5-p345);['Football Bourg-en-Bresse Péronnas 01']
-[](#sprite5-p346);['Chamois Niortais']
-[](#sprite5-p347);['Nîmes Olympique']
-[](#sprite5-p348);['Shkëndija']
-[](#sprite5-p349);['Renova']
-[](#sprite5-p350);['Rabotnički']
-[](#sprite5-p351);['KF Vllaznia Shkodër']
-[](#sprite5-p352);['Honduras Progreso']
-[](#sprite5-p353);['Sandefjord']
-[](#sprite5-p354);['Parsian IF']
-[](#sprite5-p356);['Guria Lanchkhuti']
-[](#sprite5-p357);['FC Tskhinvali']
-[](#sprite5-p358);['Sioni Bolnisi']
-[](#sprite5-p359);['Ulisses']
-[](#sprite5-p360);['Ararat Yerevan']
-[](#sprite5-p361);['Alashkert']
-[](#sprite5-p362);['Samtredia']
-[](#sprite5-p363);['Dila Gori']
-[](#sprite5-p364);['Belshina Bobruisk']
-[](#sprite5-p365);['Shakhtyor Soligorsk']
-[](#sprite5-p366);['Dinamo Brest']
-[](#sprite5-p367);['FC Gomel']
-[](#sprite5-p368);['Metalurg Skopje']
-[](#sprite5-p369);['Horizont Turnovo']
-[](#sprite5-p370);['Limón']
-[](#sprite5-p371);['Santos de Guápiles']
-[](#sprite5-p372);['Uruguay de Coronado']
-[](#sprite5-p373);['Pirin Blagoevgrad']
-[](#sprite5-p374);['Slavia Sofia']
-[](#sprite5-p375);['Slavija Sarajevo']
-[](#sprite5-p376);['Široki Brijeg']
-[](#sprite5-p377);['Radnik Bijeljina']
-[](#sprite5-p378);['Apollon Limassol']
-[](#sprite5-p379);['AEL Limassol']
-[](#sprite5-p380);['Audax Italiano']
-[](#sprite5-p381);['San Marcos de Arica']
-[](#sprite5-p382);['Palestino']
-[](#sprite5-p383);['Universidad de Concepción']
-[](#sprite5-p384);['Teuta Durrës']
-[](#sprite5-p385);['Kukësi']
-[](#sprite5-p386);['Bylis Ballsh']
-[](#sprite5-p387);['Tërbuni Pukë']
-[](#sprite5-p388);['Flamurtari Vlorë']
-[](#sprite5-p389);['Laçi']
-[](#sprite5-p390);['Tirana']
-[](#sprite5-p391);['Levadia Tallinn']
-[](#sprite5-p392);['Flora']
-[](#sprite5-p393);['Sillamäe Kalev']
-[](#sprite5-p394);['Infonet']
-[](#sprite5-p395);['Viljandi Tulevik']
-[](#sprite5-p396);['Pärnu Linnameeskond']
-[](#sprite5-p397);['Narva Trans']
-[](#sprite5-p398);['Bnei Yehuda']
-[](#sprite5-p399);['Bnei Sakhnin']
-[](#sprite5-p400);"[""Hapoel Ra'anana""]"
-[](#sprite5-p401);['Hapoel Akko']
-[](#sprite5-p402);['Hapoel Ironi Kiryat Shmona']
-[](#sprite5-p403);"[""Hapoel Be'er Sheva""]"
-[](#sprite5-p404);['Maccabi Petah Tikva']
-[](#sprite5-p405);['Hapoel Kfar Saba']
-[](#sprite5-p406);['Rəvan FC']
-[](#sprite5-p407);['AZAL PFK']
-[](#sprite5-p408);['Sumqayit']
-[](#sprite5-p409);['Xəzər Lənkəran']
-[](#sprite5-p410);['Neftçi']
-[](#sprite5-p411);['Kəpəz']
-[](#sprite5-p412);['İnter Bakı']
-[](#sprite5-p413);['Zirə']
-[](#sprite5-p414);['Nea Salamis Famagusta']
-[](#sprite5-p415);['Ayia Napa']
-[](#sprite5-p416);['Aris Limassol']
-[](#sprite5-p417);['Ermis Aradippou']
-[](#sprite5-p418);['Doxa Katokopia']
-[](#sprite5-p419);['Enosis Neon Paralimni']
-[](#sprite5-p420);['Ethnikos Achnas']
-[](#sprite5-p421);['Banants']
-[](#sprite5-p422);['Mika']
-[](#sprite5-p423);['Gandzasar Kapan']
-[](#sprite5-p424);['Pyunik']
-[](#sprite5-p426);['Slutsk']
-[](#sprite5-p427);['Slavia-Mozyr']
-[](#sprite5-p425);['FC Vitebsk']
-[](#sprite5-p428);['Neman Grodno']
-[](#sprite5-p429);['Naftan Novopolotsk']
-[](#sprite5-p430);['Granit Mikashevichi']
-[](#sprite5-p431);['Torpedo-BelAZ Zhodino']
-[](#sprite5-p432);['FC Minsk']
-[](#sprite5-p433);['San José']
-[](#sprite5-p434);['Trelleborgs FF']
-[](#sprite5-p435);['Dalkurd FF']
-[](#sprite5-p436);['Akropolis IF']
-[](#sprite5-p437);['Krka']
-[](#sprite5-p438);['Rudar Velenje']
-[](#sprite5-p439);['Zavrč']
-[](#sprite5-p440);['Gorica']
-[](#sprite5-p441);['Krsko']
-[](#sprite5-p442);['Celje']
-[](#sprite5-p443);['Koper']
-[](#sprite5-p444);['Senica']
-[](#sprite5-p445);['MFK Ružomberok']
-[](#sprite5-p446);['DAC Dunajská Streda']
-[](#sprite5-p447);['Spartak Myjava']
-[](#sprite5-p448);['Spartak Trnava']
-[](#sprite5-p449);['AS Trenčín']
-[](#sprite5-p450);['ŽP Šport Podbrezová']
-[](#sprite5-p451);['MFK Skalica']
-[](#sprite5-p452);['MFK Zemplín Michalovce']
-[](#sprite5-p453);['ViOn Zlaté Moravce']
-[](#sprite5-p454);['FS METTA']
-[](#sprite5-p455);['BFC Daugavpils']
-[](#sprite5-p456);['Spartaks Jūrmala']
-[](#sprite5-p457);['Ventspils']
-[](#sprite5-p458);['FK Liepāja']
-[](#sprite5-p459);['Žalgiris Vilnius']
-[](#sprite5-p460);['FK Šiauliai']
-[](#sprite5-p461);['Kruoja Pakruojis']
-[](#sprite5-p462);['Klaipėdos Granitas']
-[](#sprite5-p463);['Stumbras Kaunas']
-[](#sprite5-p464);['Utenis Utena']
-[](#sprite3-p29);['Spyris Kaunas']
-[](#sprite5-p466);['Atlantas']
-[](#sprite5-p465);['Sūduva Marijampolė', 'Suduva']
-[](#sprite5-p467);['Trakai']
-[](#sprite5-p468);['Eastern Sports Club']
-[](#sprite5-p469);['Hong Kong Pegasus']
-[](#sprite5-p470);['Dreams Metro Gallery']
-[](#sprite5-p471);['Kitchee']
-[](#sprite5-p472);['Hong Kong Rangers']
-[](#sprite5-p473);['Yuen Long']
-[](#sprite5-p474);['Southern District RSA']
-[](#sprite5-p475);['Wong Tai Sin']
-[](#sprite5-p476);['Carmelita']
-[](#sprite5-p477);['Municipal Pérez Zeledón']
-[](#sprite5-p478);['Universidad de Costa Rica']
-[](#sprite5-p479);['Puma Generaleña']
-[](#sprite5-p480);['Municipal Liberia']
-[](#sprite5-p481);['Belén']
-[](#sprite5-p482);['Kozakken Boys']
-[](#sprite5-p483);['Viktoria Köln']
-[](#sprite5-p484);['Villanovense']
-[](#sprite3-p30);"[""Excelsior '31""]"
-[](#sprite5-p485);['UD Santana']
-[](#sprite5-p486);['Alianza Atlético']
-[](#sprite5-p487);['Sport Huancayo']
-[](#sprite5-p488);['Juan Aurich']
-[](#sprite5-p489);['Universidad César Vallejo']
-[](#sprite5-p490);['Unión Comercio']
-[](#sprite5-p491);['Real Garcilaso']
-[](#sprite5-p492);['Deportivo Municipal']
-[](#sprite5-p493);['Melgar']
-[](#sprite5-p494);['Universidad de San Martín de Porres']
-[](#sprite5-p495);['Ayacucho']
-[](#sprite5-p496);['León de Huánuco']
-[](#sprite5-p497);['Sport Loreto']
-[](#sprite5-p498);['Universidad Técnica de Cajamarca']
-[](#sprite5-p499);['Blooming']
-[](#sprite5-p500);['Real Potosí']
-[](#sprite7-p1);['Universitario de Sucre']
-[](#sprite7-p2);['Sports Boys Warnes']
-[](#sprite7-p3);['Ciclón']
-[](#sprite7-p4);['Universitario de Pando']
-[](#sprite7-p5);['Petrolero']
-[](#sprite7-p6);['Nacional Potosí']
-[](#sprite7-p7);['Enugu Rangers']
-[](#sprite7-p8);['Rivers United']
-[](#sprite7-p9);['Spartak Semey']
-[](#sprite7-p11);['Irtysh Pavlodar']
-[](#sprite7-p10);['Aktobe']
-[](#sprite7-p12);['Zaria Bălți']
-[](#sprite7-p13);['Nistru Otaci']
-[](#sprite7-p15);['Zimbru Chișinău']
-[](#sprite7-p16);['Dacia Chișinău']
-[](#sprite7-p17);['Petrovac']
-[](#sprite7-p18);['Bokelj']
-[](#sprite7-p19);['Rudar Pljevlja']
-[](#sprite7-p20);['Zeta Golubovci']
-[](#sprite7-p21);['Mogren Budva']
-[](#sprite7-p22);['Sutjeska']
-[](#sprite7-p23);['Budućnost Podgorica']
-[](#sprite7-p24);['Dečić Tuzi']
-[](#sprite7-p25);['Montana']
-[](#sprite7-p26);['Club Rubio Ñu']
-[](#sprite7-p27);['Sportivo Luqueño']
-[](#sprite7-p28);['General Díaz']
-[](#sprite7-p29);['Deportivo Santaní']
-[](#sprite7-p30);['Deportivo Capiatá']
-[](#sprite7-p31);['San Lorenzo']
-[](#sprite7-p32);['Sol de América']
-[](#sprite7-p33);['Guaraní']
-[](#sprite7-p35);['SuperSport United']
-[](#sprite7-p36);['Platinum Stars']
-[](#sprite7-p37);['Engen Santos']
-[](#sprite7-p38);['Bidvest Wits']
-[](#sprite7-p39);['Free State Stars']
-[](#sprite7-p40);['Bloemfontein Celtic']
-[](#sprite7-p41);['Golden Arrows']
-[](#sprite7-p42);['Maritzburg United']
-[](#sprite7-p43);['Polokwane City']
-[](#sprite7-p44);['University of Pretoria']
-[](#sprite7-p45);['Jomo Cosmos']
-[](#sprite7-p46);['Moroka Swallows']
-[](#sprite7-p47);['Chippa United']
-[](#sprite7-p48);['Cheadle Town']
-[](#sprite7-p49);['Haras El-Hedood']
-[](#sprite7-p50);['El Moqawloon']
-[](#sprite7-p51);['Al-Ittihad Alexandria']
-[](#sprite7-p52);['ENPPI']
-[](#sprite7-p53);['Smouha']
-[](#sprite7-p54);['Ittihad Tanger']
-[](#sprite7-p55);['Chabab Rif Al Hoceima']
-[](#sprite7-p56);['Kawkab de Marrakech']
-[](#sprite7-p57);['Olympique de Safi']
-[](#sprite7-p58);['RC Arbaâ']
-[](#sprite7-p59);['RC Rélizane']
-[](#sprite7-p60);['CS Constantine']
-[](#sprite7-p61);['USM Blida']
-[](#sprite7-p62);['JS Saoura']
-[](#sprite7-p63);['MO Béjaïa']
-[](#sprite7-p64);['USM El Harrach']
-[](#sprite7-p65);['DRB Tadjenanet']
-[](#sprite7-p66);['Salford City']
-[](#sprite7-p67);['Pelotas']
-[](#sprite7-p68);['Botev Vratsa']
-[](#sprite7-p69);['Stourbridge']
-[](#sprite7-p70);['Bridlington Town']
-[](#sprite7-p71);['Ordabasy']
-[](#sprite7-p72);['Atyrau']
-[](#sprite7-p73);['Kaisar']
-[](#sprite7-p74);['Zhetysu Taldykorgan']
-[](#sprite7-p75);['Taraz']
-[](#sprite7-p76);['Tobol Kostanai']
-[](#sprite7-p77);['Okzhetpes']
-[](#sprite7-p78);['Vostok Oskemen']
-[](#sprite7-p79);['Akzhayik']
-[](#sprite7-p80);['Shanghai SIPG']
-[](#sprite7-p81);['FC Ryūkyū']
-[](#sprite7-p82);['Reus Deportiu']
-[](#sprite7-p83);['Platense']
-[](#sprite7-p84);['Juticalpa']
-[](#sprite7-p85);['Victoria']
-[](#sprite7-p86);['Real Sociedad']
-[](#sprite7-p87);['Vida']
-[](#sprite7-p88);['Holbaek']
-[](#sprite7-p89);['Skövde AIK']
-[](#sprite7-p90);['Rakvere JK Tarvas']
-[](#sprite7-p91);['Stafford Rangers']
-[](#sprite7-p92);['Chippenham Town']
-[](#sprite7-p93);['Whitehawk']
-[](#sprite7-p94);['Aberystwyth Town']
-[](#sprite3-p31);['Marconi Stallions']
-[](#sprite7-p96);['Chalatenango']
-[](#sprite7-p97);['Vejle Boldklub']
-[](#sprite7-p98);['Deportivo La Guaira']
-[](#sprite7-p99);['Aragua FC']
-[](#sprite7-p100);['Zamora FC']
-[](#sprite7-p101);['Trujillanos FC']
-[](#sprite7-p102);['Estudiantes de Caracas']
-[](#sprite7-p103);['Carabobo FC']
-[](#sprite7-p104);['Llaneros EF']
-[](#sprite7-p105);['Portuguesa FC']
-[](#sprite7-p107);['Atlético Venezuela CF']
-[](#sprite7-p108);['Ureña SC']
-[](#sprite7-p109);['Petare FC']
-[](#sprite7-p110);['Metropolitanos FC']
-[](#sprite7-p111);['Tucanes de Amazonas']
-[](#sprite7-p112);['CS Grevenmacher']
-[](#sprite7-p113);['FC Differdange 03']
-[](#sprite7-p114);['Fola Esch']
-[](#sprite7-p115);['Jeunesse Esch']
-[](#sprite7-p116);['Progrès Niederkorn']
-[](#sprite7-p117);['Lusitanos']
-[](#sprite7-p118);['Sant Julià']
-[](#sprite7-p119);['UE Santa Coloma']
-[](#sprite7-p120);['Encamp']
-[](#sprite7-p121);['Torpedo Kutaisi']
-[](#sprite7-p122);['Shukura Kobuleti']
-[](#sprite7-p123);['Chikhura Sachkhere']
-[](#sprite7-p124);['Dinamo Batumi']
-[](#sprite7-p125);['Locomotive Tbilisi']
-[](#sprite7-p127);['Kolkheti-1913 Poti']
-[](#sprite7-p128);['Zugdidi']
-[](#sprite7-p129);['FC Saburtalo']
-[](#sprite7-p130);['Erie Commodores FC']
-[](#sprite7-p131);['Tower Hamlets']
-[](#sprite7-p132);['Aswan']
-[](#sprite7-p133);['Sileks']
-[](#sprite7-p134);['Shkupi']
-[](#sprite7-p135);['Bregalnica Štip']
-[](#sprite7-p136);['Mladost Carev Dvor']
-[](#sprite3-p32);['Lothian Thistle Hutchison Vale']
-[](#sprite7-p137);['Linlithgow Rose']
-[](#sprite7-p138);['Plaza Amador']
-[](#sprite7-p139);['Chepo']
-[](#sprite7-p140);['Chorrillo']
-[](#sprite7-p141);['Atlético Chiriquí']
-[](#sprite7-p142);['Alianza']
-[](#sprite7-p143);['Atlético Nacional']
-[](#sprite7-p144);['Tauro']
-[](#sprite7-p145);['Sporting San Miguelito']
-[](#sprite7-p146);['CS Hammam-Lif']
-[](#sprite7-p147);['ES Zarzis']
-[](#sprite7-p148);['AS Marsa']
-[](#sprite7-p149);['Stade Gabèsien']
-[](#sprite7-p150);['US Ben Guerdane']
-[](#sprite7-p152);['EO Sidi Bouzid']
-[](#sprite7-p151);['JS Kairouanaise']
-[](#sprite7-p153);['ES Métlaoui']
-[](#sprite7-p154);['Marquense']
-[](#sprite7-p155);['Suchitepéquez']
-[](#sprite7-p156);['Petapa']
-[](#sprite7-p157);['Antigua GFC']
-[](#sprite7-p158);['Universidad de San Carlos']
-[](#sprite7-p159);['Mictlán']
-[](#sprite7-p160);['Cobán Imperial']
-[](#sprite7-p161);['Malacateco']
-[](#sprite7-p162);['Guastatoya']
-[](#sprite7-p163);['Coatepeque']
-[](#sprite7-p164);['Halcones FC']
-[](#sprite7-p165);['Universidad de El Salvador']
-[](#sprite7-p166);['Atlético Marte']
-[](#sprite7-p167);['Dragón']
-[](#sprite7-p168);['Juventud Independiente']
-[](#sprite7-p169);['Sonsonate']
-[](#sprite7-p170);['Pasaquina']
-[](#sprite7-p171);['Semen Padang']
-[](#sprite7-p172);['Sriwijaya FC']
-[](#sprite7-p173);['Persib Bandung']
-[](#sprite7-p174);['Persebaya Surabaya']
-[](#sprite7-p175);['Persela Lamongan']
-[](#sprite7-p176);['Persipasi Bandung Raya']
-[](#sprite7-p177);['Persegres Gresik United']
-[](#sprite7-p178);['Persiba Balikpapan']
-[](#sprite7-p179);['Mitra Kukar']
-[](#sprite7-p180);['PSM Makassar']
-[](#sprite7-p181);['Bali United Pusam']
-[](#sprite7-p182);['Persiram Raja Ampat']
-[](#sprite7-p183);['Barito Putera']
-[](#sprite7-p184);['Perseru Serui']
-[](#sprite7-p185);['Pusamania Borneo FC']
-[](#sprite7-p186);['Alessandria']
-[](#sprite7-p188);['Alecrim']
-[](#sprite7-p187);['Rot-Weiß Erfurt']
-[](#sprite7-p189);['Académico de Viseu']
-[](#sprite7-p191);['The New Saints of Oswestry Town & Llansantffraid']
-[](#sprite7-p192);['Patronato']
-[](#sprite7-p193);['Atlético Tucumán']
-[](#sprite7-p194);['San Martín de San Juan']
-[](#sprite7-p195);['Liaoning Whowin']
-[](#sprite7-p196);['Hebei China Fortune']
-[](#sprite7-p197);['Shijiazhuang Ever Bright']
-[](#sprite7-p198);['Chongqing Dangdai Lifan']
-[](#sprite7-p199);['Virginia Beach City FC']
-[](#sprite7-p200);['Newton Aycliffe']
-[](#sprite7-p201);['Hoàng Anh Gia Lai']
-[](#sprite7-p202);['Dayton Dynamo']
-[](#sprite7-p203);['Tupi']
-[](#sprite7-p204);['Cobresal']
-[](#sprite7-p205);['Paget Rangers']
-[](#sprite7-p206);['Moholms SK']
-[](#sprite7-p207);['AO Trikala']
-[](#sprite7-p208);['Shonan Bellmare']
-[](#sprite7-p209);['San Antonio FC']
-[](#sprite7-p210);['Puerto Rico FC']
-[](#sprite7-p211);['Pietà Hotspurs']
-[](#sprite7-p212);['Nykøbing FC']
-[](#sprite7-p213);['Red Bull Brasil']
-[](#sprite7-p214);['Fort William']
-[](#sprite7-p215);['Mito Hollyhock']
-[](#sprite7-p216);['VfB Lübeck']
-[](#sprite7-p217);['Victoria Highlanders']
-[](#sprite7-p218);['Rayo OKC']
-[](#sprite7-p219);['SoCal Surf']
-[](#sprite7-p220);['FC Fredericia']
-[](#sprite7-p221);['Memphis City FC']
-[](#sprite7-p222);['Skelmersdale United']
-[](#sprite7-p223);['Villa Dálmine']
-[](#sprite7-p224);['Kristiansund BK']
-[](#sprite7-p225);['Bethlehem Steel FC']
-[](#sprite7-p226);['VV Katwijk']
-[](#sprite7-p227);['Chicken Inn']
-[](#sprite7-p228);['Solihull Moors']
-[](#sprite7-p229);['Little Rock Rangers']
-[](#sprite7-p230);['Bodmin Town']
-[](#sprite7-p231);['Eskilstuna City FK']
-[](#sprite7-p232);['FC Ferreiras']
-[](#sprite7-p233);['IFK Mariehamn']
-[](#sprite7-p235);['SJK']
-[](#sprite7-p234);['PK-35 Vantaa']
-[](#sprite7-p236);['Tyumen']
-[](#sprite7-p237);['SDC Putten']
-[](#sprite7-p238);['FC Eindhoven']
-[](#sprite7-p239);['Al-Shorta']
-[](#sprite7-p240);['Weymouth']
-[](#sprite7-p241);['Albion SC']
-[](#sprite7-p242);['AC Pisa 1909']
-[](#sprite7-p243);['San Diego WFC SeaLions']
-[](#sprite7-p244);['Shepshed Dynamo']
-[](#sprite7-p245);['Zob Ahan']
-[](#sprite7-p246);['Al-Nasr SC']
-[](#sprite7-p247);['Audax']
-[](#sprite7-p248);['Denizlispor']
-[](#sprite7-p249);['Orduspor']
-[](#sprite7-p250);['Santo André']
-[](#sprite7-p251);['Arnett Gardens']
-[](#sprite7-p252);['Don Bosco']
-[](#sprite7-p253);['Tobacco Road FC']
-[](#sprite7-p254);['Roses United']
-[](#sprite7-p255);['Deportes Iquique']
-[](#sprite7-p256);['Orlando Pride']
-[](#sprite7-p257);['Gor Mahia']
-[](#sprite7-p258);['AFC Leopards']
-[](#sprite7-p259);['Mathare United']
-[](#sprite7-p260);['Abia Warriors']
-[](#sprite7-p261);['Ifeanyi Ubah']
-[](#sprite7-p262);['Lobi Stars']
-[](#sprite7-p263);['Wikki Tourists']
-[](#sprite7-p264);['Mountain Top']
-[](#sprite7-p265);['Warri Wolves']
-[](#sprite7-p266);['Akwa United']
-[](#sprite7-p267);['Plateau United']
-[](#sprite7-p268);['Sunshine Stars']
-[](#sprite7-p269);['Kongsvinger']
-[](#sprite7-p270);['Niger Tornadoes']
-[](#sprite7-p271);['El-Kanemi Warriors']
-[](#sprite7-p272);['Nasarawa United']
-[](#sprite7-p273);['Ikorodu United']
-[](#sprite3-p33);['Giwa']
-[](#sprite7-p274);['C.O.D. United']
-[](#sprite7-p275);['Kwara United']
-[](#sprite7-p276);['Zweigen Kanazawa']
-[](#sprite7-p277);['Yokohama FC']
-[](#sprite7-p278);['V-Varen Nagasaki']
-[](#sprite7-p279);['Thespakusatsu Gunma']
-[](#sprite7-p280);['Roasso Kumamoto']
-[](#sprite7-p281);['Renofa Yamaguchi FC']
-[](#sprite7-p282);['Kyoto Sanga FC']
-[](#sprite7-p283);['Kamatamare Sanuki']
-[](#sprite7-p284);['Giravanz Kitakyushu']
-[](#sprite7-p285);['Machida Zelvia']
-[](#sprite7-p286);['FC Gifu']
-[](#sprite7-p287);['Fagiano Okayama FC']
-[](#sprite7-p288);['Ehime FC']
-[](#sprite7-p289);['Ittihad El Shorta']
-[](#sprite7-p290);"[""Tala'ea El-Gaish""]"
-[](#sprite7-p291);['Petrojet']
-[](#sprite7-p292);['El-Entag El-Harby']
-[](#sprite7-p294);['El-Daklyeh']
-[](#sprite7-p295);['Wadi Degla']
-[](#sprite7-p296);['Ghazl Al-Mehalla']
-[](#sprite7-p293);['Misr Lel-Makkasa']
-[](#sprite7-p297);['Esteghlal Khuzestan']
-[](#sprite7-p298);['Esteghlal Ahvaz']
-[](#sprite7-p299);['Rah Ahan Yazdan']
-[](#sprite7-p300);['Siahjamegan']
-[](#sprite7-p301);['Malavan Bandar Anzali']
-[](#sprite7-p302);['Padideh Khorasan']
-[](#sprite7-p303);['Saipa']
-[](#sprite7-p304);['Gostaresh']
-[](#sprite7-p305);['Saba Qom']
-[](#sprite7-p306);['Ślęza Wrocław']
-[](#sprite7-p307);['Aylesbury United']
-[](#sprite7-p308);['Rio Grande Valley FC Toros']
-[](#sprite7-p309);['Gala Fairydean Rovers']
-[](#sprite7-p310);['Real Santa Cruz']
-[](#sprite7-p311);['Asker']
-[](#sprite7-p312);['SPAL 2013', 'SPAL']
-[](#sprite7-p313);['Maccabi Ahi Nazareth']
-[](#sprite7-p315);['Al-Quwa Al-Jawiya']
-[](#sprite7-p314);['Eendracht Rotem']
-[](#sprite7-p317);"[""Al-Mina'a""]"
-[](#sprite7-p318);['Al-Talaba']
-[](#sprite7-p316);['Amanat Baghdad']
-[](#sprite7-p319);['Al-Naft']
-[](#sprite7-p320);['Naft Al-Wasat']
-[](#sprite7-p321);"[""Al-Zawra'a""]"
-[](#sprite7-p322);['San Diego Zest FC']
-[](#sprite7-p323);['Shreveport Rafters FC']
-[](#sprite7-p324);['South Melbourne']
-[](#sprite7-p325);['Kingston Stockade FC']
-[](#sprite7-p326);['CE Europa']
-[](#sprite7-p329);['Aizawl']
-[](#sprite7-p362);['Harstad IL']
-[](#sprite7-p363);['Gjelleråsen IF']
-[](#sprite7-p366);['SpVgg Bayreuth']
-[](#sprite7-p367);['KF Gjilani']
-[](#sprite7-p395);['FC Prishtina']
-[](#sprite7-p396);['Newtown AFC']
-[](#sprite7-p397);['Brattvåg IL']
-[](#sprite7-p398);['Hapoel Haifa']
-[](#sprite7-p399);['Wollongong Wolves']
-[](#sprite7-p420);['SC Fürstenfeldbruck']
-[](#sprite7-p422);['Club Portugalete']
-[](#sprite7-p424);['Sportfreunde Lotte']
-[](#sprite7-p425);['Reno 1868 FC']
-[](#sprite7-p426);['Boston City FC']
-[](#sprite7-p427);['Darwin Olympic']
-[](#sprite7-p428);['Temecula FC']
-[](#sprite7-p434);['Renaissance de Berkane']
-[](#sprite7-p433);['AD Fafe']
-[](#sprite7-p435);"[""Difaâ d'El-Jadida""]"
-[](#sprite7-p436);['MC Oujda']
-[](#sprite7-p441);['Oeste']
-[](#sprite7-p442);['Atlético Goianiense']
-[](#sprite7-p443);['Bragantino']
-[](#sprite7-p444);['Sampaio Corrêa']
-[](#sprite7-p447);['Luverdense']
-[](#sprite7-p448);['Highlands Park']
-[](#sprite7-p449);['Foggia']
-[](#sprite7-p450);['Suwon FC']
-[](#sprite7-p451);['EGS Gafsa']
-[](#sprite7-p452);['AS Kasserine']
-[](#sprite7-p453);['Boca Unidos']
-[](#sprite7-p454);['Guillermo Brown']
-[](#sprite7-p455);['Douglas Haig']
-[](#sprite7-p456);['Talleres de Córdoba']
-[](#sprite7-p457);['Chacarita Juniors']
-[](#sprite7-p458);['Gimnasia de Jujuy']
-[](#sprite7-p476);['Ergotelis']
-[](#sprite8-p2);['Bucheon 1995']
-[](#sprite8-p4);['Chungju Hummel']
-[](#sprite8-p5);['Mbombela United']
-[](#sprite8-p6);['Isloch']
-[](#sprite8-p7);['Krumkachy']
-[](#sprite8-p8);['Gorodeya']
-[](#sprite8-p9);['KS Kaszubia']
-[](#sprite8-p10);['HKFC']
-[](#sprite8-p11);['Marbella']
-[](#sprite8-p12);['Alanyaspor']
-[](#sprite8-p13);['ZESCO United']
-[](#sprite8-p14);['ASEC Mimosas']
-[](#sprite8-p15);['Delfín']
-[](#sprite8-p16);['Los Andes']
-[](#sprite8-p17);['Almagro']
-[](#sprite8-p18);['Sportivo Estudiantes']
-[](#sprite8-p19);['Yakutiya Yakutsk']
-[](#sprite8-p20);['Asan Mugunghwa']
-[](#sprite8-p21);['Young Africans']
-[](#sprite8-p22);['Medeama SC']
-[](#sprite8-p24);['Juventud Unida Universitario']
-[](#sprite8-p25);['Santamarina']
-[](#sprite8-p26);['Atlético Paraná']
-[](#sprite8-p27);['Central Córdoba']
-[](#sprite8-p28);['Salus']
-[](#sprite8-p46);['Erbil SC']
-[](#sprite8-p74);['Comerciantes Unidos']
-[](#sprite8-p78);['Azam']
-[](#sprite8-p80);['Fuerza Amarilla']
-[](#sprite8-p81);['Racing Ferrol']
-[](#sprite8-p82);['Lincoln Red Imps']
-[](#sprite8-p83);['Tre Penne']
-[](#sprite8-p84);['Balzan FC']
-[](#sprite8-p85);['Havnar Bóltfelag']
-[](#sprite8-p86);['Bala Town']
-[](#sprite8-p87);['Europa FC']
-[](#sprite8-p88);['MBi Llandudno']
-[](#sprite8-p89);['SS Folgore Falciano Calcio']
-[](#sprite8-p90);['NSÍ Runavík']
-[](#sprite8-p91);"[""gap Connah's Quay Nomads""]"
-[](#sprite8-p92);['Hibernians FC']
-[](#sprite8-p93);['La Fiorita']
-[](#sprite8-p94);['Ceres–Negros']
-[](#sprite8-p95);['Global']
-[](#sprite8-p96);['Nagaworld']
-[](#sprite8-p97);['Defensor La Bocana']
-[](#sprite8-p98);['FK Osogovo']
-[](#sprite8-p99);['JS Hercules']
-[](#sprite8-p104);['Stal Mielec']
-[](#sprite8-p134);['Excursionistas']
-[](#sprite8-p138);['Fortaleza CEIF']
-[](#sprite3-p74);['Desportivo Manica']
-[](#sprite8-p140);['Eastern Suburbs AFC']
-[](#sprite8-p141);['Tasman United']
-[](#sprite8-p146);['Villa Española']
-[](#sprite8-p147);['Boston River']
-[](#sprite8-p148);['Llanelli Town AFC']
-[](#sprite8-p149);['Universitatea Cluj']
-[](#sprite8-p150);['San Francisco Deltas']
-[](#sprite8-p152);['Calcio Padova']
-[](#sprite8-p151);['Juve Stabia']
-[](#sprite8-p153);['SEF Torres 1903']
-[](#sprite8-p154);['FC Sibir Novosibirsk']
-[](#sprite8-p155);['Al-Fujairah SC']
-[](#sprite8-p156);['Inter de Lages']
-[](#sprite8-p157);['NK Veres Rivne']
-[](#sprite8-p160);['Mladost Podgorica']
-[](#sprite8-p161);['Unión San Felipe']
-[](#sprite8-p162);['Botafogo-PB']
-[](#sprite8-p163);['TSV Kleinrinderfeld']
-[](#sprite8-p164);['Nyköpings BIS']
-[](#sprite8-p165);['Albuquerque Sol']
-[](#sprite8-p166);['Wisła Płock']
-[](#sprite8-p167);['Curicó Unido']
-[](#sprite8-p168);['HNK Cibalia']
-[](#sprite8-p169);['Gyirmót FC Győr']
-[](#sprite8-p170);['Mezőkövesd-Zsóry SE']
-[](#sprite8-p171);['Potros UAEM']
-[](#sprite8-p172);['Loros de la Universidad de Colima']
-[](#sprite8-p173);['Radomlje']
-[](#sprite8-p174);['Aluminij']
-[](#sprite8-p175);['Santiago Morning']
-[](#sprite8-p176);['Zirka Kropyvnytskyi']
-[](#sprite8-p178);['Napredak Kruševac']
-[](#sprite8-p180);['Edinburgh City']
-[](#sprite8-p177);['Bačka Bačka Palanka']
-[](#sprite8-p181);['Neftekhimik Nizhnekamsk']
-[](#sprite8-p182);['Tambov']
-[](#sprite8-p183);['Tosno']
-[](#sprite8-p184);['Volgar Astrakhan']
-[](#sprite8-p185);['Shinnik Yaroslavl']
-[](#sprite8-p186);['Sokol Saratov']
-[](#sprite8-p187);['Baltika Kaliningrad']
-[](#sprite8-p188);['Fakel Voronezh']
-[](#sprite8-p189);['Khimki']
-[](#sprite8-p190);['St. Pölten']
-[](#sprite8-p191);['Al-Karamah SC']
-[](#sprite3-p76);['Ranheim Fotball']
-[](#sprite8-p192);['Cape Town City FC']
-[](#sprite8-p193);['San Luis de Quillota']
-[](#sprite8-p194);['US Orléans']
-[](#sprite8-p195);['Social Sol']
-[](#sprite8-p196);['FC Avenir Beggen']
-[](#sprite8-p197);['Hradec Králové']
-[](#sprite8-p198);['Fortuna Köln']
-[](#sprite8-p199);['MFK Karviná']
-[](#sprite8-p200);['Orenburg']
-[](#sprite8-p201);['KAS Eupen']
-[](#sprite8-p202);['FSV Zwickau']
-[](#sprite8-p203);['SG Sonnenhof Großaspach']
-[](#sprite8-p207);['Real Estelí']
-[](#sprite8-p208);['FC Wohlen']
-[](#sprite8-p209);['Deportes Antofagasta']
-[](#sprite8-p210);['FC Emmen']
-[](#sprite8-p211);['FC Oss']
-[](#sprite8-p212);"[""Achilles '29""]"
-[](#sprite8-p213);['Maceratese']
-[](#sprite8-p214);['Ashanti Gold']
-[](#sprite8-p215);['Deportes Temuco']
-[](#sprite8-p216);['CU Micaelense']
-[](#sprite8-p218);['FK Pelister']
-[](#sprite8-p219);['Adanaspor']
-[](#sprite8-p220);['Hendon']
-[](#sprite8-p221);"[""Bo'ness United""]"
-[](#sprite8-p222);['Kardemir Karabükspor']
-[](#sprite8-p223);['Guabirá']
-[](#sprite8-p224);['Al-Faisaly']
-[](#sprite8-p225);['Al-Wehda Club']
-[](#sprite8-p226);['Al-Fateh']
-[](#sprite8-p227);['Khaleej Club']
-[](#sprite8-p228);['Al-Taawoun']
-[](#sprite8-p229);['Ettifaq FC']
-[](#sprite8-p230);['Al-Batin']
-[](#sprite8-p231);['Al-Raed']
-[](#sprite8-p232);['Al-Qadisiyah']
-[](#sprite8-p233);['Rhyl']
-[](#sprite8-p234);['Police United']
-[](#sprite8-p235);['Real Unión']
-[](#sprite8-p236);['Agremiação Sportiva Arapiraquense']
-[](#sprite8-p237);['Camlough Rovers']
-[](#sprite8-p238);['Huginn Seyðisfjörður']
-[](#sprite8-p239);['SC Hauenstein']
-[](#sprite8-p240);['UCAM Murcia']
-[](#sprite8-p241);['KS Lublinianka']
-[](#sprite8-p242);['Chiangrai United']
-[](#sprite8-p243);['Muangthong United']
-[](#sprite3-p78);['Bangkok United']
-[](#sprite8-p244);['Bangkok Glass']
-[](#sprite8-p245);['Ratchaburi Mitr Phol']
-[](#sprite8-p246);['Sukhothai']
-[](#sprite8-p247);['Chonburi']
-[](#sprite8-p248);['Cittadella']
-[](#sprite8-p249);['North Ferriby United']
-[](#sprite8-p250);['Cuiabá']
-[](#sprite8-p251);['Dynamos']
-[](#sprite8-p252);['Sambenedettese']
-[](#sprite8-p254);['Lokomotive Leipzig']
-[](#sprite8-p255);['Baroka']
-[](#sprite8-p256);['Al-Jaish']
-[](#sprite8-p257);['Al-Muharraq']
-[](#sprite8-p258);['Víkingur Ólafsvík']
-[](#sprite8-p259);['El Sharkia']
-[](#sprite8-p260);['USM Bel-Abbès']
-[](#sprite8-p261);"[""Al Nasr Lel Taa'den""]"
-[](#sprite8-p263);['Sparta FC']
-[](#sprite8-p262);['Kitsap Pumas']
-[](#sprite8-p264);['Barranquilla']
-[](#sprite8-p265);['Glan Conwy']
-[](#sprite8-p266);['AOK Kerkyra']
-[](#sprite8-p271);['Al-Karkh SC']
-[](#sprite8-p272);['Melaka United']
-[](#sprite8-p273);['Tanta']
-[](#sprite8-p274);['Kalba']
-[](#sprite8-p275);['Hatta']
-[](#sprite8-p276);['Emirates']
-[](#sprite8-p277);['Dibba Al-Fujairah']
-[](#sprite8-p278);['Bani Yas']
-[](#sprite8-p279);['Al Wahda']
-[](#sprite8-p280);['Al Shabab']
-[](#sprite8-p281);['Al Dhafra']
-[](#sprite8-p283);['Nitra']
-[](#sprite8-p284);['Huntingdon Town']
-[](#sprite8-p285);['CA Batna']
-[](#sprite8-p288);['Valledupar']
-[](#sprite8-p289);['Tataouine']
-[](#sprite8-p290);['FC Schaffhausen']
-[](#sprite8-p291);['Neuchâtel Xamax']
-[](#sprite8-p292);['FC Le Mont']
-[](#sprite8-p293);['FC Chiasso']
-[](#sprite8-p294);['Flandria']
-[](#sprite8-p295);['Brown']
-[](#sprite8-p297);['San Martín de Tucumán']
-[](#sprite8-p298);['Olympique de Médéa']
-[](#sprite8-p299);['Juventud Unida']
-[](#sprite8-p300);['Deportes Valdivia']
-[](#sprite8-p301);['Minneapolis City SC']
-[](#sprite8-p302);['Riga FC']
-[](#sprite8-p303);['Rīgas Futbola skola']
-[](#sprite8-p305);['Speranța Nisporeni']
-[](#sprite8-p308);['Petrocub Hîncești']
-[](#sprite8-p307);['Academia Chișinău']
-[](#sprite8-p309);['inamo-Auto']
-[](#sprite8-p310);['Ungheni']
-[](#sprite8-p311);['Saxan Gagauz Yeri']
-[](#sprite8-p313);['Iskra Danilovgrad']
-[](#sprite8-p314);['Grbalj']
-[](#sprite8-p315);['Lovćen Cetinje']
-[](#sprite8-p316);['Jedinstvo Bijelo Polje']
-[](#sprite8-p318);['Atlético Veragüense']
-[](#sprite8-p319);['Santa Gema']
-[](#sprite8-p320);['Hamilton Wanderers']
-[](#sprite8-p321);['Hong Kong Sapling']
-[](#sprite8-p322);['Olympique de Béja']
-[](#sprite8-p323);['AFC Bridgnorth']
-[](#sprite8-p324);['Asheville City SC']
-[](#sprite8-p325);['Batman Petrolspor']
-[](#sprite8-p326);['Scarborough Athletic']
-[](#sprite8-p327);['Margate']
-[](#sprite8-p328);['Vendsyssel FF']
-[](#sprite8-p329);['Água Santa']
-[](#sprite8-p330);['DSK Shivajians']
-[](#sprite8-p331);['Chennai City']
-[](#sprite8-p332);['Minerva Punjab']
-[](#sprite8-p333);['Tianjin Quanjian']
-[](#sprite8-p334);['Guizhou Hengfeng Zhicheng']
-[](#sprite8-p335);['Croydon']
-[](#sprite8-p336);['Odra Opole']
-[](#sprite8-p337);['Degerfors']
-[](#sprite8-p338);['Alverca']
-[](#sprite8-p339);['Goytacaz']
-[](#sprite8-p340);['FC 07 Albstadt']
-[](#sprite8-p341);['FK Radnički']
-[](#sprite8-p342);['Nacional Atlético Clube']
-[](#sprite8-p343);['Hearts of Oak']
-[](#sprite8-p344);['Brisbane City']
-[](#sprite8-p345);['Famalicão']
-[](#sprite8-p346);['Tallinna Kalev']
-[](#sprite8-p347);['WSA Winnipeg']
-[](#sprite8-p348);['Sisaket']
-[](#sprite8-p349);['Sandvikens IF']
-[](#sprite8-p351);['St Helens Town AFC']
-[](#sprite8-p352);['Austria Klagenfurt']
-[](#sprite8-p353);['Rhode Island Reds']
-[](#sprite8-p354);['Lorca Deportiva']
-[](#sprite8-p355);['Treze']
-[](#sprite8-p356);['Luftëtari Gjirokastër']
-[](#sprite8-p357);['Kirby Muxloe']
-[](#sprite8-p358);['MŠK Tesla Stropkov']
-[](#sprite8-p359);['Salgueiros']
-[](#sprite8-p360);['CD Cinfães']
-[](#sprite8-p361);['Brazos Valley Cavalry FC']
-[](#sprite8-p362);['Tishreen SC']
-[](#sprite8-p363);['Fremad Amager']
-[](#sprite8-p364);['Soproni VSE']
-[](#sprite8-p365);['Carlstad United BK']
-[](#sprite8-p366);['KF Feronikeli']
-[](#sprite8-p367);['GFA FC']
-[](#sprite8-p368);['Epsom & Ewell']
-[](#sprite8-p369);['Santarcangelo Calcio']
-[](#sprite8-p370);['FK Morava Velika Plana']
-[](#sprite8-p371);['North Carolina Courage']
-[](#sprite8-p372);['Whitchurch United']
-[](#sprite8-p374);['Bendigo City']
-[](#sprite8-p373);['Fateh Hyderabad']
-[](#sprite8-p375);['Apollon Smyrni']
-[](#sprite8-p376);['GKS Tychy']
-[](#sprite8-p377);['Wagga City Wanderers']
-[](#sprite8-p378);['Espinho']
-[](#sprite8-p379);['Al-Najaf']
-[](#sprite8-p380);['Melilla']
-[](#sprite8-p381);['Ventura County Fusion']
-[](#sprite8-p382);['Leatherhead']
-[](#sprite8-p384);['Duque de Caxias']
-[](#sprite8-p385);['Triestina']
-[](#sprite8-p387);['Metalist 1925 Kharkiv']
-[](#sprite8-p388);['Northwich Victoria']
-[](#sprite8-p391);['AS Cannes']
-[](#sprite8-p390);['Kvarnby IK']
-[](#sprite8-p389);['Sydney United 58']
-[](#sprite8-p392);['UTA Arad']
-[](#sprite8-p393);['Rio Negro']
-[](#sprite8-p394);['AC Cuneo 1905']
-[](#sprite8-p395);['Pordenone']
-[](#sprite8-p396);['Mississippi Brilla']
-[](#sprite8-p397);['Hødd']
-[](#sprite8-p398);['SV Meppen']
-[](#sprite8-p399);['Cultural y Deportiva Leonesa']
-[](#sprite8-p400);['Sioux Falls Thunder FC']
-[](#sprite8-p401);['Tampere United']
-[](#sprite8-p402);['Alta']
-[](#sprite8-p403);['Cova da Piedade']
-[](#sprite8-p404);['Ansan Greeners']
-[](#sprite8-p405);['Clan Juvenil']
-[](#sprite8-p406);['Academia Deportiva Cantolao']
-[](#sprite8-p407);['Vita Club']
-[](#sprite8-p408);['Saint George SC']
-[](#sprite8-p409);['Ferroviário da Beira']
-[](#sprite8-p410);['Kampala Capital City Authority FC']
-[](#sprite8-p411);['Horoya AC']
-[](#sprite8-p412);['Mounana']
-[](#sprite8-p413);['El Hilal El Obeid']
-[](#sprite8-p414);['Mbabane Swallows']
-[](#sprite8-p415);['Coton Sport']
-[](#sprite8-p416);['CAPS United']
-[](#sprite8-p417);['Zanaco']
-[](#sprite8-p418);"[""KF Trepça'89""]"
-[](#sprite8-p419);['Oita Trinita']
-[](#sprite8-p420);['Sport Rosario']
-[](#sprite8-p421);['Macará']
-[](#sprite8-p422);['Dnepr Mogilev']
-[](#sprite8-p423);['Boa Esporte']
-[](#sprite8-p424);['Black Leopards']
-[](#sprite8-p425);['Dunav 2010']
-[](#sprite8-p426);['Floriana']
-[](#sprite8-p427);"[""St Joseph's""]"
-[](#sprite8-p428);['AFC Eskilstuna']
-[](#sprite8-p429);['Recreativo do Libolo']
-[](#sprite8-p432);['Managua FC']
-[](#sprite8-p433);['Pau FC']
-[](#sprite8-p434);['Varzim']
-[](#sprite8-p435);['SC Praiense']
-[](#sprite8-p436);['Tigres']
-[](#sprite8-p437);['FC Helsingør']
-[](#sprite8-p438);['Sandecja Nowy Sącz']
-[](#sprite8-p439);['FC Mariupol']
-[](#sprite8-p440);['Dynamo Saint Petersburg']
-[](#sprite8-p441);['Balmazújvárosi FC']
-[](#sprite8-p442);['Sepsi Sfântu Gheorghe']
-[](#sprite8-p443);['NK Rudeš']
-[](#sprite8-p444);['Portuguesa']
-[](#sprite8-p445);['Olimpiyets']
-[](#sprite8-p446);['Avangard']
-[](#sprite8-p447);['Buckie Thistle']
-[](#sprite8-p448);['Juventus București']
-[](#sprite8-p449);['Ankaran Hrvatini']
-[](#sprite8-p450);['Minnesota TwinStars']
-[](#sprite8-p451);['BSC Kickers 1900']
-[](#sprite8-p452);['Northern Tigers']
-[](#sprite8-p453);['Blacktown City']
-[](#sprite8-p454);['Hartford City FC']
-[](#sprite8-p456);['NK Rudar Labin']
-[](#sprite8-p457);['Badalona']
-[](#sprite8-p458);['Yeni Malatyaspor']
-[](#sprite8-p455);['Alpendorada']
-[](#sprite8-p459);['Cremonese']
-[](#sprite6-p3);['Algeria']
-[](#sprite6-p5);['Angola']
-[](#sprite6-p19);['Benin']
-[](#sprite6-p23);['Botswana']
-[](#sprite6-p27);['Burkina Faso']
-[](#sprite6-p28);['Burundi']
-[](#sprite6-p30);['Cameroon']
-[](#sprite6-p32);['Cape Verde']
-[](#sprite6-p33);['Central African Republic']
-[](#sprite6-p34);['Chad']
-[](#sprite6-p38);['Comoros']
-[](#sprite6-p40);['Congo']
-[](#sprite6-p42);"[""Côte d'Ivoire""]"
-[](#sprite6-p48);['Djibouti']
-[](#sprite6-p39);['DR Congo']
-[](#sprite6-p52);['Egypt']
-[](#sprite6-p54);['Equatorial Guinea']
-[](#sprite6-p55);['Eritrea']
-[](#sprite6-p57);['Ethiopia']
-[](#sprite6-p61);['Gabon']
-[](#sprite6-p62);['Gambia']
-[](#sprite6-p65);['Ghana']
-[](#sprite6-p69);['Guinea']
-[](#sprite6-p70);['Guinea-Bissau']
-[](#sprite6-p87);['Kenya']
-[](#sprite6-p96);['Lesotho']
-[](#sprite6-p97);['Liberia']
-[](#sprite6-p98);['Libya']
-[](#sprite6-p103);['Madagascar']
-[](#sprite6-p104);['Malawi']
-[](#sprite6-p107);['Mali']
-[](#sprite6-p110);['Mauritania']
-[](#sprite6-p111);['Mauritius']
-[](#sprite6-p118);['Morocco']
-[](#sprite6-p119);['Mozambique']
-[](#sprite6-p121);['Namibia']
-[](#sprite6-p127);['Niger']
-[](#sprite6-p128);['Nigeria']
-[](#sprite6-p143);['Rwanda']
-[](#sprite6-p149);['São Tomé and Príncipe']
-[](#sprite6-p151);['Senegal']
-[](#sprite6-p153);['Seychelles']
-[](#sprite6-p154);['Sierra Leone']
-[](#sprite6-p159);['Somalia']
-[](#sprite6-p160);['South Africa']
-[](#sprite6-p235);['South Sudan']
-[](#sprite6-p163);['Sudan']
-[](#sprite6-p165);['Swaziland']
-[](#sprite6-p170);['Tanzania']
-[](#sprite6-p173);['Togo']
-[](#sprite6-p176);['Tunisia']
-[](#sprite6-p180);['Uganda']
-[](#sprite6-p192);['Zambia']
-[](#sprite6-p233);['Zanzibar']
-[](#sprite6-p193);['Zimbabwe']
-[](#sprite6-p1);['Afghanistan']
-[](#sprite6-p13);['Bahrain']
-[](#sprite6-p14);['Bangladesh']
-[](#sprite6-p20);['Bhutan']
-[](#sprite6-p25);['Brunei Darussalam']
-[](#sprite6-p29);['Cambodia']
-[](#sprite6-p36);['China']
-[](#sprite6-p194);['Chinese Taipei']
-[](#sprite6-p215);['Hong Kong']
-[](#sprite6-p76);['India']
-[](#sprite6-p77);['Indonesia']
-[](#sprite6-p78);['Iran']
-[](#sprite6-p79);['Iraq']
-[](#sprite6-p84);['Japan']
-[](#sprite6-p85);['Jordan']
-[](#sprite6-p91);['Kuwait']
-[](#sprite6-p92);['Kyrgyzstan']
-[](#sprite6-p93);['Laos']
-[](#sprite6-p95);['Lebanon']
-[](#sprite6-p216);['Macau']
-[](#sprite6-p105);['Malaysia']
-[](#sprite6-p106);['Maldives']
-[](#sprite6-p116);['Mongolia']
-[](#sprite6-p120);['Myanmar']
-[](#sprite6-p123);['Nepal']
-[](#sprite6-p89);['North Korea']
-[](#sprite6-p130);['Oman']
-[](#sprite6-p131);['Pakistan']
-[](#sprite6-p227);['Palestine']
-[](#sprite6-p137);['Philippines']
-[](#sprite6-p140);['Qatar']
-[](#sprite6-p150);['Saudi Arabia']
-[](#sprite6-p155);['Singapore']
-[](#sprite6-p90);['South Korea']
-[](#sprite6-p162);['Sri Lanka']
-[](#sprite6-p168);['Syria']
-[](#sprite6-p169);['Tajikistan']
-[](#sprite6-p171);['Thailand']
-[](#sprite6-p234);['Tibet']
-[](#sprite6-p172);['Timor-Leste']
-[](#sprite6-p178);['Turkmenistan']
-[](#sprite6-p182);['United Arab Emirates']
-[](#sprite6-p186);['Uzbekistan']
-[](#sprite6-p190);['Vietnam']
-[](#sprite6-p191);['Yemen']
-[](#sprite6-p212);['American Samoa']
-[](#sprite6-p9);['Australia']
-[](#sprite6-p229);['Cook Islands']
-[](#sprite6-p58);['Fiji']
-[](#sprite6-p213);['Guam']
-[](#sprite6-p88);['Kiribati']
-[](#sprite6-p109);['Marshall Islands']
-[](#sprite6-p113);['Micronesia']
-[](#sprite6-p122);['Nauru']
-[](#sprite6-p196);['New Caledonia']
-[](#sprite6-p125);['New Zealand']
-[](#sprite6-p195);['Norfolk Island']
-[](#sprite6-p210);['Northern Mariana Islands']
-[](#sprite6-p132);['Palau']
-[](#sprite6-p134);['Papua New Guinea']
-[](#sprite6-p207);['Pitcairn Islands']
-[](#sprite6-p208);['Saint Helena']
-[](#sprite6-p147);['Samoa']
-[](#sprite6-p158);['Solomon Islands']
-[](#sprite6-p230);['Tahiti']
-[](#sprite6-p174);['Tonga']
-[](#sprite6-p179);['Tuvalu']
-[](#sprite6-p187);['Vanuatu']
-[](#sprite6-p2);['Albania']
-[](#sprite6-p4);['Andorra']
-[](#sprite6-p8);['Armenia']
-[](#sprite6-p10);['Austria']
-[](#sprite6-p11);['Azerbaijan']
-[](#sprite6-p16);['Belarus']
-[](#sprite6-p17);['Belgium']
-[](#sprite6-p22);['Bosnia-Herzegovina']
-[](#sprite6-p26);['Bulgaria']
-[](#sprite6-p231);['Catalonia']
-[](#sprite6-p43);['Croatia']
-[](#sprite6-p45);['Cyprus']
-[](#sprite6-p46);['Czech Republic']
-[](#sprite6-p47);['Denmark']
-[](#sprite6-p222);['England']
-[](#sprite6-p56);['Estonia']
-[](#sprite6-p217);['Faroe Islands']
-[](#sprite6-p59);['Finland']
-[](#sprite6-p60);['France']
-[](#sprite6-p102);['FYR Macedonia']
-[](#sprite6-p63);['Georgia']
-[](#sprite6-p64);['Germany']
-[](#sprite6-p205);['Gibraltar']
-[](#sprite6-p66);['Greece']
-[](#sprite6-p218);['Greenland']
-[](#sprite6-p197);['Guernsey']
-[](#sprite6-p74);['Hungary']
-[](#sprite6-p75);['Iceland']
-[](#sprite6-p80);['Ireland']
-[](#sprite6-p198);['Isle of Man']
-[](#sprite6-p81);['Israel']
-[](#sprite6-p82);['Italy']
-[](#sprite6-p199);['Jersey']
-[](#sprite6-p86);['Kazakhstan']
-[](#sprite6-p226);['Kosovo']
-[](#sprite6-p94);['Latvia']
-[](#sprite6-p99);['Liechtenstein']
-[](#sprite6-p100);['Lithuania']
-[](#sprite6-p101);['Luxembourg']
-[](#sprite6-p108);['Malta']
-[](#sprite6-p114);['Moldova']
-[](#sprite6-p117);['Montenegro']
-[](#sprite6-p124);['Netherlands']
-[](#sprite6-p225);['Northern Ireland']
-[](#sprite6-p129);['Norway']
-[](#sprite6-p138);['Poland']
-[](#sprite6-p139);['Portugal']
-[](#sprite6-p141);['Romania']
-[](#sprite6-p142);['Russia']
-[](#sprite6-p148);['San Marino']
-[](#sprite6-p223);['Scotland']
-[](#sprite6-p152);['Serbia']
-[](#sprite6-p156);['Slovakia']
-[](#sprite6-p157);['Slovenia']
-[](#sprite6-p161);['Spain']
-[](#sprite6-p166);['Sweden']
-[](#sprite6-p167);['Switzerland']
-[](#sprite6-p177);['Turkey']
-[](#sprite6-p181);['Ukraine']
-[](#sprite6-p183);['United Kingdom']
-[](#sprite6-p188);['Vatican City']
-[](#sprite6-p224);['Wales']
-[](#sprite6-p200);['Anguilla']
-[](#sprite6-p6);['Antigua and Barbuda']
-[](#sprite6-p220);['Aruba']
-[](#sprite6-p12);['Bahamas']
-[](#sprite6-p15);['Barbados']
-[](#sprite6-p18);['Belize']
-[](#sprite6-p201);['Bermuda']
-[](#sprite6-p202);['British Virgin Islands']
-[](#sprite6-p31);['Canada']
-[](#sprite6-p203);['Cayman Islands']
-[](#sprite6-p41);['Costa Rica']
-[](#sprite6-p44);['Cuba']
-[](#sprite6-p219);['Curaçao']
-[](#sprite6-p49);['Dominica']
-[](#sprite6-p50);['Dominican Republic']
-[](#sprite6-p53);['El Salvador']
-[](#sprite6-p67);['Grenada']
-[](#sprite6-p232);['Guadeloupe']
-[](#sprite6-p68);['Guatemala']
-[](#sprite6-p72);['Haiti']
-[](#sprite6-p73);['Honduras']
-[](#sprite6-p83);['Jamaica']
-[](#sprite6-p112);['Mexico']
-[](#sprite6-p206);['Montserrat']
-[](#sprite6-p221);['Netherlands Antilles']
-[](#sprite6-p126);['Nicaragua']
-[](#sprite6-p133);['Panama']
-[](#sprite6-p211);['Puerto Rico']
-[](#sprite6-p144);['Saint Kitts and Nevis']
-[](#sprite6-p145);['Saint Lucia']
-[](#sprite6-p146);['Saint Vincent and the Grenadines']
-[](#sprite6-p175);['Trinidad and Tobago']
-[](#sprite6-p209);['Turks and Caicos Islands']
-[](#sprite6-p184);['United States of America']
-[](#sprite6-p214);['US Virgin Islands']
-[](#sprite6-p7);['Argentina']
-[](#sprite6-p21);['Bolivia']
-[](#sprite6-p24);['Brasil']
-[](#sprite6-p35);['Chile']
-[](#sprite6-p37);['Colombia']
-[](#sprite6-p51);['Ecuador']
-[](#sprite6-p204);['Falkland Islands']
-[](#sprite6-p228);['French Guiana']
-[](#sprite6-p71);['Guyana']
-[](#sprite6-p135);['Paraguay']
-[](#sprite6-p136);['Peru']
-[](#sprite6-p164);['Suriname']
-[](#sprite6-p185);['Uruguay']
-[](#sprite6-p189);['Venezuela']
-[](#sprite1-p270);['Villarreal']
-[](#sprite2-p58);['Metalist Kharkiv']
-[](#sprite8-p469);['Portimonense']
-[](#sprite8-p481);['Leixões']
+[](#sprite1-p2);Manchester United
+[](#sprite1-p3);Liverpool
+[](#sprite1-p4);Chelsea
+[](#sprite1-p5);Tottenham Hotspur
+[](#sprite1-p6);Barcelona
+[](#sprite1-p8);Bayern München
+[](#sprite1-p9);Real Madrid
+[](#sprite1-p10);Manchester City
+[](#sprite1-p1);Arsenal
+[](#sprite1-p11);Newcastle United
+[](#sprite1-p12);Borussia Dortmund
+[](#sprite1-p13);AC Milan
+[](#sprite1-p14);Seattle Sounders
+[](#sprite1-p15);Everton
+[](#sprite1-p17);Juventus
+[](#sprite1-p18);Celtic
+[](#sprite1-p19);Aston Villa
+[](#sprite1-p20);Portland Timbers
+[](#sprite1-p21);West Ham United
+[](#sprite1-p22);Ajax
+[](#sprite1-p25);Internazionale
+[](#sprite1-p26);Benfica;SL Benfica
+[](#sprite1-p27);Leeds United
+[](#sprite1-p28);LA Galaxy
+[](#sprite1-p29);Fulham
+[](#sprite1-p31);Sporting KC
+[](#sprite1-p32);Philadelphia Union
+[](#sprite1-p34);New York Red Bulls
+[](#sprite1-p35);Paris Saint-Germain
+[](#sprite1-p36);AS Roma
+[](#sprite1-p37);FC Porto
+[](#sprite1-p38);Southampton
+[](#sprite1-p39);Swansea City
+[](#sprite1-p40);Rangers
+[](#sprite1-p41);DC United
+[](#sprite1-p42);Galatasaray
+[](#sprite1-p44);Norwich City
+[](#sprite1-p45);Houston Dynamo
+[](#sprite1-p46);Sunderland
+[](#sprite1-p47);Chivas
+[](#sprite1-p48);Columbus Crew SC
+[](#sprite1-p50);Chicago Fire
+[](#sprite1-p52);Sporting Clube de Portugal;Sporting CP
+[](#sprite1-p53);Toronto FC
+[](#sprite1-p54);San Jose Earthquakes
+[](#sprite1-p55);New England Revolution
+[](#sprite1-p57);Queens Park Rangers
+[](#sprite1-p61);América
+[](#sprite1-p64);Werder Bremen
+[](#sprite1-p65);Feyenoord
+[](#sprite1-p66);Nottingham Forest
+[](#sprite1-p67);Crystal Palace
+[](#sprite1-p68);VfB Stuttgart
+[](#sprite1-p69);FC Dallas
+[](#sprite1-p70);Wolves
+[](#sprite1-p73);Reading
+[](#sprite1-p74);Hamburger SV
+[](#sprite1-p56);Vancouver Whitecaps
+[](#sprite1-p75);Napoli
+[](#sprite1-p76);Atlético Madrid
+[](#sprite1-p77);Real Salt Lake
+[](#sprite1-p78);West Bromwich Albion
+[](#sprite1-p79);Schalke 04;FC Schalke 04
+[](#sprite1-p80);Cardiff City
+[](#sprite1-p81);Stoke City
+[](#sprite1-p82);Detroit City FC
+[](#sprite1-p83);Blackburn Rovers
+[](#sprite1-p85);Portsmouth
+[](#sprite1-p86);Eintracht Frankfurt
+[](#sprite1-p87);Leicester City
+[](#sprite1-p89);Minnesota United
+[](#sprite1-p88);Fenerbahçe
+[](#sprite1-p90);Corinthians
+[](#sprite1-p91);Middlesbrough
+[](#sprite1-p92);Sheffield Wednesday
+[](#sprite1-p93);Colorado Rapids
+[](#sprite1-p94);Orlando City
+[](#sprite1-p95);Boca Juniors
+[](#sprite1-p156);Burnley
+[](#sprite1-p157);Anderlecht
+[](#sprite1-p158);Bristol City
+[](#sprite1-p159);Sheffield United
+[](#sprite1-p160);Beşiktaş
+[](#sprite1-p161);Monterrey
+[](#sprite1-p96);Montreal Impact
+[](#sprite1-p98);Melbourne Victory
+[](#sprite1-p100);Flamengo
+[](#sprite1-p101);São Paulo
+[](#sprite1-p102);Birmingham City
+[](#sprite1-p103);Brighton & Hove Albion
+[](#sprite1-p104);Bolton Wanderers
+[](#sprite1-p106);Olympique Lyonnais
+[](#sprite1-p105);Wigan Athletic
+[](#sprite1-p107);Valencia
+[](#sprite1-p110);River Plate
+[](#sprite1-p108);AIK
+[](#sprite1-p111);Cruz Azul
+[](#sprite1-p112);Watford
+[](#sprite1-p113);FC København;FC Copenhagen
+[](#sprite1-p115);Western Sydney Wanderers
+[](#sprite1-p114);FC St. Pauli
+[](#sprite1-p117);Hull City
+[](#sprite1-p116);Derby County
+[](#sprite1-p118);Ipswich Town
+[](#sprite1-p119);Olympique de Marseille
+[](#sprite1-p120);PSV Eindhoven
+[](#sprite1-p121);Hertha BSC;Hertha Berlin
+[](#sprite1-p123);Heart of Midlothian
+[](#sprite1-p124);Wellington Phoenix
+[](#sprite1-p125);1. FC Köln
+[](#sprite1-p128);Aberdeen
+[](#sprite1-p129);Brisbane Roar
+[](#sprite1-p130);Grêmio
+[](#sprite1-p131);Swindon Town
+[](#sprite1-p132);Bayer 04 Leverkusen
+[](#sprite1-p133);Steaua Bucureşti
+[](#sprite1-p134);Borussia Mönchengladbach
+[](#sprite1-p136);Coventry City
+[](#sprite1-p137);Pumas
+[](#sprite1-p139);Olympiacos
+[](#sprite3-p15);Rosenborg
+[](#sprite1-p141);Djurgårdens IF
+[](#sprite1-p142);Palmeiras
+[](#sprite1-p145);AFC Wimbledon
+[](#sprite1-p146);Blackpool
+[](#sprite1-p147);Charlton Athletic
+[](#sprite1-p148);Sydney FC
+[](#sprite1-p149);Fiorentina
+[](#sprite1-p150);Tijuana
+[](#sprite1-p153);Atlanta Silverbacks
+[](#sprite1-p154);SC Freiburg
+[](#sprite1-p155);Bradford City
+[](#sprite1-p162);FC Twente
+[](#sprite1-p163);Dundee United
+[](#sprite1-p164);Hibernian
+[](#sprite1-p165);Crvena Zvezda;Crvena Zvezda (Red Star)
+[](#sprite1-p166);Malmö FF
+[](#sprite1-p167);Gilport Lions
+[](#sprite3-p11);Zenit
+[](#sprite1-p171);Athletic Club;Ath. Bilbao
+[](#sprite1-p170);Plymouth Argyle
+[](#sprite1-p172);New York Cosmos
+[](#sprite1-p173);Tigres
+[](#sprite1-p174);Hammarby IF
+[](#sprite1-p176);1. FC Nürnberg
+[](#sprite1-p177);Hannover 96
+[](#sprite1-p178);1. FC Kaiserslautern
+[](#sprite1-p179);Preston North End
+[](#sprite1-p180);IFK Göteborg
+[](#sprite1-p182);Brøndby IF
+[](#sprite1-p183);Panathinaikos
+[](#sprite1-p184);Hajduk Split
+[](#sprite1-p185);Millwall
+[](#sprite1-p186);Monaco
+[](#sprite1-p187);Santos
+[](#sprite1-p188);Universidad de Chile
+[](#sprite1-p189);Lazio
+[](#sprite1-p190);Internacional
+[](#sprite1-p191);Oxford United
+[](#sprite1-p192);FC Basel
+[](#sprite1-p193);Rapid Wien
+[](#sprite1-p194);Indy Eleven
+[](#sprite1-p195);Adelaide United
+[](#sprite1-p196);Cruzeiro
+[](#sprite1-p197);Dinamo Zagreb
+[](#sprite1-p198);Brentford
+[](#sprite1-p199);Huddersfield Town
+[](#sprite1-p200);Peñarol
+[](#sprite1-p201);Atlético Mineiro
+[](#sprite1-p203);Fortuna Düsseldorf
+[](#sprite1-p204);North Carolina FC
+[](#sprite1-p205);1. FSV Mainz 05
+[](#sprite1-p206);Luton Town
+[](#sprite1-p207);Palermo
+[](#sprite1-p209);Pittsburgh Riverhounds
+[](#sprite1-p211);Bristol Rovers
+[](#sprite1-p212);Barnsley
+[](#sprite1-p214);Santos Laguna
+[](#sprite1-p215);Partizan
+[](#sprite1-p217);Club Brugge
+[](#sprite1-p218);Bournemouth
+[](#sprite1-p219);Leyton Orient
+[](#sprite1-p220);CSKA Moskva
+[](#sprite1-p222);Perth Glory
+[](#sprite1-p226);Central Coast Mariners
+[](#sprite1-p228);Fluminense
+[](#sprite1-p229);Sevilla
+[](#sprite1-p230);Legia Warszawa
+[](#sprite1-p231);Dynamo Kyiv
+[](#sprite1-p232);Atlético Nacional
+[](#sprite1-p233);Grimsby Town
+[](#sprite1-p234);Cork City
+[](#sprite1-p235);Austin Aztex
+[](#sprite1-p236);Crewe Alexandra
+[](#sprite1-p237);Real Sociedad
+[](#sprite1-p239);Yeovil Town
+[](#sprite1-p240);Utrecht
+[](#sprite1-p242);Shamrock Rovers
+[](#sprite1-p243);Colo-Colo
+[](#sprite1-p244);Aarhus GF
+[](#sprite1-p246);Tranmere Rovers
+[](#sprite1-p247);Spartak Moskva
+[](#sprite1-p245);Barnet
+[](#sprite1-p248);Motherwell
+[](#sprite1-p249);Charleston Battery
+[](#sprite1-p250);Newcastle Jets
+[](#sprite1-p251);Millonarios
+[](#sprite1-p252);Doncaster Rovers
+[](#sprite1-p254);TSV 1860 München
+[](#sprite1-p255);Oldham Athletic
+[](#sprite1-p256);Deportivo La Coruña
+[](#sprite1-p257);Monarcas Morelia
+[](#sprite1-p258);Young Boys
+[](#sprite1-p259);Sturm Graz
+[](#sprite1-p260);Karlsruher SC
+[](#sprite1-p261);Botafogo
+[](#sprite1-p264);Melbourne City
+[](#sprite1-p265);Vasco da Gama
+[](#sprite1-p266);Cheltenham Town
+[](#sprite1-p267);Exeter City
+[](#sprite1-p268);Gillingham
+[](#sprite1-p269);Peterborough United
+[](#sprite1-p271);Bordeaux
+[](#sprite1-p272);Atlas
+[](#sprite1-p273);Viking FK
+[](#sprite1-p274);Helsingborgs IF
+[](#sprite3-p1);Tampa Bay Rowdies
+[](#sprite1-p278);Scunthorpe United
+[](#sprite1-p279);FC Groningen
+[](#sprite1-p280);Wisła Kraków
+[](#sprite1-p281);Dinamo Bucureşti
+[](#sprite1-p283);AaB
+[](#sprite1-p284);AEK Athens
+[](#sprite1-p285);Universitario
+[](#sprite1-p286);Nacional
+[](#sprite1-p287);Fort Lauderdale Strikers
+[](#sprite1-p289);APOEL
+[](#sprite1-p290);Arminia Bielefeld
+[](#sprite1-p291);FC Augsburg
+[](#sprite1-p292);Málaga
+[](#sprite1-p293);St Johnstone
+[](#sprite1-p294);Shakhtar Donetsk
+[](#sprite1-p295);Liga de Quito
+[](#sprite1-p296);Real Betis
+[](#sprite1-p297);Greenock Morton
+[](#sprite1-p299);Wrexham
+[](#sprite1-p300);Dunfermline Athletic
+[](#sprite1-p301);Vålerenga IF
+[](#sprite1-p302);Chesterfield
+[](#sprite1-p305);Carlisle United
+[](#sprite1-p304);Hansa Rostock
+[](#sprite1-p306);FC United
+[](#sprite1-p307);Port Vale
+[](#sprite1-p308);York City
+[](#sprite1-p310);Udinese
+[](#sprite1-p311);SC Heerenveen
+[](#sprite1-p312);Cambridge United
+[](#sprite1-p313);Liga Deportiva Alajuelense
+[](#sprite1-p314);Dundee
+[](#sprite1-p315);Chester FC
+[](#sprite1-p316);Genk
+[](#sprite1-p317);VfL Bochum
+[](#sprite1-p319);HJK
+[](#sprite1-p318);Notts County
+[](#sprite1-p320);Lille OSC
+[](#sprite1-p321);Saint-Étienne
+[](#sprite1-p322);Toluca
+[](#sprite1-p325);Barcelona Sporting Club
+[](#sprite1-p323);Lech Poznań
+[](#sprite1-p326);Olimpia
+[](#sprite1-p327);Partick Thistle
+[](#sprite1-p331);Lincoln City
+[](#sprite1-p332);MK Dons
+[](#sprite1-p333);Southend United
+[](#sprite1-p334);Stevenage
+[](#sprite1-p335);Stockport County
+[](#sprite1-p336);Wycombe Wanderers
+[](#sprite1-p337);Montpellier
+[](#sprite3-p2);AZ Alkmaar
+[](#sprite1-p339);Vitesse
+[](#sprite1-p340);Tromsø
+[](#sprite1-p341);Alianza Lima
+[](#sprite1-p342);SC Braga
+[](#sprite1-p343);Inverness Caledonian Thistle
+[](#sprite1-p344);St Mirren
+[](#sprite1-p345);Kaizer Chiefs
+[](#sprite1-p346);Northampton Town
+[](#sprite1-p347);Rapid București
+[](#sprite1-p348);Richmond Kickers
+[](#sprite1-p349);Rochester Rhinos
+[](#sprite1-p350);FC Buffalo
+[](#sprite1-p351);Standard Liège
+[](#sprite1-p352);Odense BK
+[](#sprite1-p353);1899 Hoffenheim
+[](#sprite1-p354);Colchester United
+[](#sprite1-p355);Morecambe
+[](#sprite1-p356);Kilmarnock
+[](#sprite1-p357);Trabzonspor
+[](#sprite1-p358);Sligo Rovers
+[](#sprite1-p359);Maccabi Haifa
+[](#sprite1-p360);Torquay United
+[](#sprite3-p3);SK Brann
+[](#sprite1-p362);Derry City
+[](#sprite1-p363);Nantes
+[](#sprite1-p364);Austria Wien
+[](#sprite1-p365);IF Elfsborg
+[](#sprite1-p366);NEC
+[](#sprite1-p367);MSV Duisburg
+[](#sprite1-p368);Shrewsbury Town
+[](#sprite1-p369);Real Oviedo
+[](#sprite1-p370);Walsall
+[](#sprite1-p371);Hapoel Tel Aviv
+[](#sprite1-p372);León
+[](#sprite1-p373);ADO Den Haag
+[](#sprite1-p374);Örebro SK
+[](#sprite1-p375);Caracas FC
+[](#sprite1-p376);Bray Wanderers
+[](#sprite1-p377);The Strongest
+[](#sprite1-p378);Eintracht Braunschweig
+[](#sprite1-p380);Željezničar Sarajevo
+[](#sprite1-p381);Molde FK
+[](#sprite1-p384);St. Patrick's Athletic
+[](#sprite1-p385);Académica de Coimbra;Académica
+[](#sprite1-p386);Bohemians
+[](#sprite1-p387);Guangzhou Evergrande Taobao
+[](#sprite1-p388);FC Edmonton
+[](#sprite1-p395);Altrincham
+[](#sprite1-p396);América de Cali
+[](#sprite1-p397);Aldershot Town
+[](#sprite1-p398);Dynamo Dresden
+[](#sprite1-p399);Chattanooga FC
+[](#sprite1-p401);Esbjerg fB
+[](#sprite1-p400);Madison 56ers
+[](#sprite1-p402);Racing
+[](#sprite1-p403);Vélez Sarsfield
+[](#sprite2-p1);Velež Mostar
+[](#sprite1-p405);CSKA Sofia
+[](#sprite1-p406);Levski Sofia
+[](#sprite1-p407);Al-Ahly
+[](#sprite1-p408);Celta Vigo
+[](#sprite1-p409);Shelbourne
+[](#sprite1-p410);Falkirk
+[](#sprite1-p411);Maribor
+[](#sprite1-p412);Ayr United
+[](#sprite1-p413);PAOK
+[](#sprite1-p414);Alemannia Aachen
+[](#sprite1-p415);Limerick
+[](#sprite1-p417);Sporting Cristal
+[](#sprite2-p2);Junior
+[](#sprite1-p421);Sport Recife
+[](#sprite1-p422);Phoenix Rising FC
+[](#sprite1-p423);Bodø/Glimt
+[](#sprite1-p424);Sacramento Republic FC
+[](#sprite1-p425);Independiente
+[](#sprite1-p426);Deportivo Cali
+[](#sprite1-p427);VfL Wolfsburg
+[](#sprite1-p428);Hartlepool United
+[](#sprite2-p3);Þór Akureyri
+[](#sprite1-p430);Parma
+[](#sprite1-p431);Universidad Católica
+[](#sprite1-p433);GAIS
+[](#sprite1-p435);FC Seoul
+[](#sprite1-p436);Dayton Dutch Lions
+[](#sprite1-p437);Wilmington Hammerheads
+[](#sprite1-p438);Orlando Pirates
+[](#sprite1-p441);Newell's Old Boys
+[](#sprite1-p442);Accrington Stanley
+[](#sprite1-p443);Atlético Paranaense
+[](#sprite1-p444);Invincible Eleven
+[](#sprite1-p445);PEC Zwolle
+[](#sprite1-p446);San Lorenzo
+[](#sprite1-p447);Galway United
+[](#sprite2-p4);ChievoVerona
+[](#sprite2-p5);Sparta Rotterdam
+[](#sprite1-p450);Grasshoppers
+[](#sprite1-p452);Selangor FA
+[](#sprite2-p7);FH;Hafnarfjordur
+[](#sprite1-p454);Mohun Bagan
+[](#sprite1-p455);Red Bull Salzburg
+[](#sprite2-p9);Rayo Vallecano
+[](#sprite1-p459);Burton Albion
+[](#sprite2-p10);Emelec
+[](#sprite1-p462);Des Moines Menace
+[](#sprite1-p463);Sporting Gijón
+[](#sprite1-p464);Bari
+[](#sprite1-p465);Aalesunds FK
+[](#sprite1-p466);Bury
+[](#sprite1-p467);SC Preußen Münster
+[](#sprite1-p468);Rochdale AFC
+[](#sprite1-p469);Macclesfield Town
+[](#sprite1-p470);Persepolis FC
+[](#sprite1-p471);Saprissa
+[](#sprite1-p472);Ross County
+[](#sprite1-p473);SC Cambuur
+[](#sprite2-p11);Valur
+[](#sprite2-p12);Gamba Osaka
+[](#sprite2-p13);Stade Rennais
+[](#sprite2-p14);Zamalek SC
+[](#sprite1-p478);Charlotte Eagles
+[](#sprite2-p15);KV Mechelen
+[](#sprite2-p16);Lyngby BK
+[](#sprite2-p17);Municipal
+[](#sprite2-p18);Randers FC
+[](#sprite1-p484);FC Midtjylland
+[](#sprite1-p485);FC Nordsjælland
+[](#sprite1-p486);Torino
+[](#sprite2-p19);Náutico
+[](#sprite2-p20);Zulte Waregem
+[](#sprite2-p21);Slavia Praha
+[](#sprite1-p490);Sparta Praha
+[](#sprite2-p22);Espanyol
+[](#sprite2-p23);Tenerife
+[](#sprite1-p493);Real Zaragoza
+[](#sprite2-p24);Nagoya Grampus
+[](#sprite2-p25);Deportivo Wanka
+[](#sprite2-p26);Widzew Łódź
+[](#sprite3-p5);FC Zürich
+[](#sprite2-p29);Shanghai Greenland Shenhua
+[](#sprite2-p30);Barrow AFC
+[](#sprite2-p31);Alianza
+[](#sprite2-p32);Western New York Flash
+[](#sprite1-p277);Strømsgodset
+[](#sprite2-p33);FC Honka
+[](#sprite3-p23);1. FC Union Berlin
+[](#sprite2-p35);Glentoran
+[](#sprite2-p36);Esteghlal FC
+[](#sprite2-p37);KAA Gent
+[](#sprite2-p38);Crawley Town
+[](#sprite2-p39);Suwon Samsung Bluewings
+[](#sprite1-p338);Maccabi Tel Aviv
+[](#sprite2-p40);FC Anzhi Makhachkala
+[](#sprite2-p41);Darlington
+[](#sprite2-p42);NAC Breda
+[](#sprite2-p43);SpVgg Greuther Fürth
+[](#sprite2-p44);Jagiellonia Białystok
+[](#sprite2-p45);Royal Antwerp
+[](#sprite2-p46);Forest City London
+[](#sprite2-p47);Santa Fe
+[](#sprite1-p404);Rotherham United
+[](#sprite2-p48);Östersunds FK
+[](#sprite2-p49);Everton
+[](#sprite2-p50);Śląsk Wrocław
+[](#sprite2-p51);JS Kabylie
+[](#sprite2-p52);Redditch United
+[](#sprite1-p429);Metz
+[](#sprite2-p53);Leiknir Reykjavík
+[](#sprite2-p54);Beitar Jerusalem
+[](#sprite2-p55);FC Tokyo
+[](#sprite2-p56);Pachuca
+[](#sprite1-p474);Stabæk
+[](#sprite2-p57);Al-Hilal
+[](#sprite2-p59);BSG Chemie Leipzig
+[](#sprite2-p60);JJK Jyväskylä
+[](#sprite2-p61);Motagua
+[](#sprite2-p62);East Bengal Club
+[](#sprite1-p475);Al-Ittihad
+[](#sprite2-p63);Granada
+[](#sprite2-p65);Querétaro
+[](#sprite2-p66);Newport County
+[](#sprite2-p67);Haugesund
+[](#sprite2-p68);1. FC Saarbrücken
+[](#sprite2-p69);Incheon United
+[](#sprite2-p70);Jiangsu Suning
+[](#sprite2-p71);OGC Nice
+[](#sprite2-p72);Lokomotiv Moskva
+[](#sprite2-p73);Mumbai FC
+[](#sprite2-p74);Örgryte IS
+[](#sprite1-p477);Harrisburg City Islanders
+[](#sprite2-p75);St. Gallen
+[](#sprite2-p76);De Graafschap
+[](#sprite2-p77);Olimpija Ljubljana
+[](#sprite1-p449);KR
+[](#sprite2-p78);Kidderminster Harriers
+[](#sprite2-p79);Vitória
+[](#sprite2-p80);Botev Plovdiv
+[](#sprite2-p81);Coritiba
+[](#sprite2-p82);Universitatea Craiova
+[](#sprite2-p83);Woking
+[](#sprite2-p84);Olimpia
+[](#sprite2-p85);Cliftonville
+[](#sprite1-p482);LionsXII
+[](#sprite1-p483);Tulsa Athletics
+[](#sprite2-p86);Huracán
+[](#sprite2-p87);Osasuna
+[](#sprite2-p88);Racing Santander
+[](#sprite2-p89);SM Caen
+[](#sprite2-p90);Hellas Verona
+[](#sprite2-p91);Cerezo Osaka
+[](#sprite2-p92);Puebla
+[](#sprite2-p93);Wydad AC
+[](#sprite2-p94);CFR Cluj
+[](#sprite2-p95);Halmstads BK;Halmstads
+[](#sprite2-p96);Servette
+[](#sprite2-p99);Vitória de Guimarães
+[](#sprite2-p100);Atlético Bucaramanga
+[](#sprite2-p101);Nõmme Kalju
+[](#sprite2-p102);Slovan Bratislava
+[](#sprite2-p104);BK Häcken
+[](#sprite2-p105);Levante
+[](#sprite2-p106);Vegalta Sendai
+[](#sprite2-p107);FC Lorient
+[](#sprite2-p108);Toulouse
+[](#sprite2-p109);Austria Salzburg
+[](#sprite2-p110);Tiburones Rojos de Veracruz
+[](#sprite2-p111);Kickers Offenbach
+[](#sprite2-p113);Fredrikstad
+[](#sprite2-p114);Víkingur
+[](#sprite2-p115);Stjarnan
+[](#sprite2-p116);Finn Harps
+[](#sprite2-p118);Blyth Spartans
+[](#sprite2-p119);Silkeborg IF
+[](#sprite2-p121);Rijeka
+[](#sprite2-p122);Beira-Mar
+[](#sprite2-p123);Odd
+[](#sprite2-p124);Bangor City
+[](#sprite2-p125);Breiðablik
+[](#sprite2-p127);Go Ahead Eagles
+[](#sprite2-p128);Videoton
+[](#sprite2-p129);Bologna
+[](#sprite2-p130);Genoa
+[](#sprite2-p131);Siena
+[](#sprite2-p132);Linfield
+[](#sprite2-p133);Lisburn Distillery
+[](#sprite2-p134);Dinamo Moskva
+[](#sprite2-p135);Cádiz CF
+[](#sprite2-p137);AC Horsens
+[](#sprite2-p138);Stade Brestois 29
+[](#sprite2-p139);VVV-Venlo
+[](#sprite2-p140);Dinamo Tbilisi
+[](#sprite2-p141);Elgin City
+[](#sprite2-p142);Anorthosis Famagusta
+[](#sprite2-p143);Dundalk
+[](#sprite2-p144);Beijing Sinobo Guoan
+[](#sprite2-p145);Pune FC
+[](#sprite2-p146);Ferencváros
+[](#sprite2-p147);IFK Norrköping
+[](#sprite2-p148);Lillestrøm
+[](#sprite2-p149);GIF Sundsvall
+[](#sprite2-p150);Shooting Stars
+[](#sprite2-p153);Las Palmas
+[](#sprite2-p154);Estudiantes de La Plata
+[](#sprite1-p488);FC Tucson
+[](#sprite2-p156);FC Wacker Innsbruck
+[](#sprite2-p158);Rot-Weiss Essen
+[](#sprite1-p489);SV Darmstadt 98
+[](#sprite2-p159);Helmond Sport
+[](#sprite2-p160);Boavista
+[](#sprite2-p161);VPS
+[](#sprite2-p162);Kalmar FF
+[](#sprite2-p164);Corby Town
+[](#sprite2-p165);Hokkaido Consadole Sapporo
+[](#sprite2-p166);Frem
+[](#sprite2-p167);Bunyodkor
+[](#sprite2-p168);GKS Katowice
+[](#sprite2-p169);Droylsden
+[](#sprite2-p170);Wormatia Worms
+[](#sprite2-p171);Åtvidaberg
+[](#sprite2-p172);SV Waldhof Mannheim
+[](#sprite2-p174);Oklahoma City FC
+[](#sprite2-p175);Athlone Town
+[](#sprite2-p176);Dnipro Dnipropetrovsk;Dnipro
+[](#sprite2-p177);Arsenal de Sarandí
+[](#sprite2-p178);NK Osijek
+[](#sprite2-p180);Getafe
+[](#sprite2-p179);Forest Green Rovers
+[](#sprite2-p181);Lens
+[](#sprite2-p182);Atalanta
+[](#sprite2-p183);Cagliari
+[](#sprite2-p184);Catania
+[](#sprite2-p185);US Lecce
+[](#sprite2-p186);Sampdoria
+[](#sprite2-p187);Pohang Steelers
+[](#sprite2-p188);FBK Kaunas
+[](#sprite2-p189);Atlante
+[](#sprite2-p191);Roda JC
+[](#sprite2-p192);Rostov
+[](#sprite2-p193);Vojvodina
+[](#sprite2-p194);Göztepe
+[](#sprite2-p195);Olimpo
+[](#sprite2-p196);Þróttur Reykjavík
+[](#sprite2-p197);Le Havre AC
+[](#sprite2-p198);Sochaux
+[](#sprite2-p199);Bursaspor
+[](#sprite2-p200);FC Halifax Town
+[](#sprite2-p201);Belenenses
+[](#sprite2-p202);Raja Club Athletic
+[](#sprite2-p204);Mamelodi Sundowns
+[](#sprite2-p205);AFC Rushden & Diamonds
+[](#sprite2-p206);UCD
+[](#sprite2-p207);Shillong Lajong
+[](#sprite2-p208);Sanfrecce Hiroshima
+[](#sprite2-p209);Yokohama F·Marinos
+[](#sprite2-p210);Hangzhou Greentown
+[](#sprite2-p211);AS Nancy
+[](#sprite2-p212);Tom Tomsk
+[](#sprite2-p213);MTK Budapest
+[](#sprite2-p214);Viktoria Plzeň
+[](#sprite2-p215);Al-Wehdat SC
+[](#sprite2-p216);Cercle Brugge
+[](#sprite2-p217);Gloucester City
+[](#sprite2-p218);Colwyn Bay
+[](#sprite2-p219);Keflavík
+[](#sprite2-p220);Fresno Fuego
+[](#sprite2-p221);Crusaders
+[](#sprite2-p222);Canberra United
+[](#sprite2-p227);Fylkir
+[](#sprite2-p228);Cerro Porteño
+[](#sprite2-p229);Tigre
+[](#sprite2-p230);Sepahan
+[](#sprite2-p231);SC Paderborn 07
+[](#sprite2-p232);Vila Nova
+[](#sprite2-p233);Hapoel Katamon Jerusalem
+[](#sprite2-p234);FC Winterthur
+[](#sprite2-p237);Arbroath
+[](#sprite2-p238);Skonto FC
+[](#sprite2-p240);DPMM FC
+[](#sprite2-p241);Pescara
+[](#sprite2-p242);Dagenham & Redbridge
+[](#sprite2-p243);FC Energie Cottbus
+[](#sprite2-p244);Cambridge City
+[](#sprite2-p245);Marítimo
+[](#sprite2-p246);Dover Athletic
+[](#sprite2-p247);Independiente Medellín
+[](#sprite2-p248);Mansfield Town
+[](#sprite2-p249);SFK Lyn
+[](#sprite2-p253);Platense
+[](#sprite2-p254);Berekum Chelsea
+[](#sprite2-p255);FC Santa Claus
+[](#sprite2-p256);Lierse
+[](#sprite2-p257);Sandnes Ulf
+[](#sprite2-p258);Knoxville Force
+[](#sprite2-p259);Derby City Rovers
+[](#sprite2-p261);Fram Reykjavík
+[](#sprite2-p263);Colón
+[](#sprite2-p264);Mallorca
+[](#sprite2-p265);Auxerre
+[](#sprite2-p266);Livorno
+[](#sprite2-p267);Kashima Antlers
+[](#sprite2-p268);Leones Negros
+[](#sprite2-p269);DOS Kampen
+[](#sprite2-p270);Cienciano
+[](#sprite2-p271);Polonia Warszawa
+[](#sprite2-p272);Rubin Kazan
+[](#sprite2-p273);East Fife
+[](#sprite2-p274);Vasco SC
+[](#sprite2-p275);Argentinos Juniors
+[](#sprite2-p276);Borac Banja Luka
+[](#sprite2-p277);TPS
+[](#sprite2-p278);Carshalton Athletic
+[](#sprite2-p279);AEL
+[](#sprite2-p280);Omonoia Nicosia
+[](#sprite2-p281);FC Luzern
+[](#sprite2-p282);Kaposvár
+[](#sprite2-p283);Górnik Zabrze
+[](#sprite2-p284);Waterford FC;Waterford United
+[](#sprite2-p285);Omiya Ardija
+[](#sprite2-p286);Shimizu S-Pulse
+[](#sprite2-p287);Urawa Red Diamonds
+[](#sprite2-p288);Daegu FC
+[](#sprite2-p289);Daejeon Citizen
+[](#sprite2-p290);Jeonbuk Hyundai Motors
+[](#sprite2-p291);Changchun Yatai
+[](#sprite2-p292);Evian Thonon Gaillard
+[](#sprite2-p293);Le Mans
+[](#sprite2-p294);Clermont Foot
+[](#sprite2-p295);Bastia
+[](#sprite2-p296);Guingamp
+[](#sprite2-p297);Amkar Perm
+[](#sprite3-p21);Air India FC
+[](#sprite2-p300);HAL
+[](#sprite2-p301);Salgaocar
+[](#sprite2-p302);Espérance
+[](#sprite2-p303);Aris
+[](#sprite2-p304);Újpest
+[](#sprite2-p305);Debrecen
+[](#sprite2-p306);Union Saint-Gilloise
+[](#sprite2-p307);Al-Faisaly
+[](#sprite2-p308);TP Mazembe
+[](#sprite2-p309);Lokeren
+[](#sprite2-p310);Westerlo
+[](#sprite2-p311);Histon
+[](#sprite2-p313);Clyde
+[](#sprite2-p314);Trento Calcio 1921
+[](#sprite2-p315);Pro Vercelli
+[](#sprite2-p316);Fortuna Sittard
+[](#sprite2-p317);Čelik Zenica
+[](#sprite2-p320);Comunicaciones
+[](#sprite2-p322);FC Hanau 93
+[](#sprite2-p323);OHL
+[](#sprite2-p324);Sabah FA
+[](#sprite2-p326);Sandnessjøen IL
+[](#sprite2-p327);AFC Totton
+[](#sprite2-p328);Chernomorets Burgas
+[](#sprite2-p329);Deportes Tolima
+[](#sprite2-p330);IK Sirius
+[](#sprite2-p331);Queen's Park
+[](#sprite2-p332);Lechia Gdańsk
+[](#sprite2-p333);SSV Ulm 1846
+[](#sprite2-p334);Coleraine
+[](#sprite2-p335);Badajoz
+[](#sprite2-p337);Vardar
+[](#sprite2-p338);Víkingur
+[](#sprite4-p1);Cobreloa
+[](#sprite2-p339);HIFK
+[](#sprite2-p340);Goiás
+[](#sprite2-p341);Larne
+[](#sprite2-p342);Cesena
+[](#sprite2-p343);Terengganu FA
+[](#sprite4-p2);Tyresö FF
+[](#sprite2-p345);Korona Kielce
+[](#sprite2-p347);Kettering Town
+[](#sprite2-p348);Once Caldas
+[](#sprite2-p349);SV Wacker Burghausen
+[](#sprite4-p3);Lausanne-Sport
+[](#sprite4-p4);Dorados
+[](#sprite4-p5);Huesca
+[](#sprite2-p351);Kelantan
+[](#sprite2-p352);Holstein Kiel
+[](#sprite2-p354);Ebbsfleet United
+[](#sprite2-p355);Sanat Naft
+[](#sprite2-p356);FF Jaro
+[](#sprite4-p6);Real España
+[](#sprite2-p357);Karşıyaka
+[](#sprite2-p358);Deportivo Morón
+[](#sprite2-p359);Canterbury City
+[](#sprite2-p360);Marine
+[](#sprite2-p361);Weston-super-Mare
+[](#sprite2-p362);Bath City
+[](#sprite2-p363);KV Oostende
+[](#sprite2-p364);Fleetwood Town
+[](#sprite2-p365);AC Connecticut
+[](#sprite2-p366);Vicenza
+[](#sprite2-p367);Hayes & Yeading
+[](#sprite2-p368);Fjölnir
+[](#sprite2-p369);Konyaspor
+[](#sprite2-p370);Paraná Clube
+[](#sprite4-p7);GD Chaves
+[](#sprite2-p372);Ceahlăul Piatra Neamț
+[](#sprite1-p492);Maidstone United
+[](#sprite2-p373);Avaí
+[](#sprite1-p461);Nashville SC
+[](#sprite2-p374);Southport
+[](#sprite4-p8);Northern Fury
+[](#sprite2-p375);SV Wehen Wiesbaden
+[](#sprite2-p376);Almería
+[](#sprite2-p377);Valladolid
+[](#sprite4-p9);Xerez
+[](#sprite2-p378);SC Goa
+[](#sprite4-p10);Pistoiese
+[](#sprite4-p11);VB Addu FC
+[](#sprite4-p12);Heracles Almelo
+[](#sprite2-p379);Bangor FC
+[](#sprite4-p13);IF Brommapojkarna
+[](#sprite2-p380);Grenoble
+[](#sprite2-p381);Sigma Olomouc
+[](#sprite4-p14);FC Volendam
+[](#sprite2-p382);Sivasspor
+[](#sprite4-p15);Asante Kotoko
+[](#sprite2-p383);1. FC Magdeburg
+[](#sprite4-p16);Belgrano
+[](#sprite2-p385);Drogheda United
+[](#sprite2-p386);Albacete
+[](#sprite4-p18);Albirex Niigata
+[](#sprite4-p19);Kashiwa Reysol
+[](#sprite4-p20);Kawasaki Frontale
+[](#sprite4-p21);Vissel Kobe
+[](#sprite4-p22);Gwangju FC
+[](#sprite4-p23);Gyeongnam FC
+[](#sprite4-p24);Jeju United
+[](#sprite4-p25);Seongnam FC
+[](#sprite4-p26);Ulsan Hyundai
+[](#sprite4-p27);Henan Jianye
+[](#sprite2-p387);Shanghai Shenxin
+[](#sprite4-p28);Guizhou Renhe
+[](#sprite4-p29);Luneng Taishan
+[](#sprite4-p30);AC Ajaccio
+[](#sprite2-p388);Tours
+[](#sprite2-p389);Stade Reims
+[](#sprite4-p31);Amiens SC
+[](#sprite4-p32);Angers SCO
+[](#sprite4-p33);Istres
+[](#sprite2-p390);PFC Spartak Nalchik
+[](#sprite2-p391);Terek Grozniy
+[](#sprite4-p34);FC Volga Nizhny Novgorod
+[](#sprite2-p393);MC Oran
+[](#sprite2-p394);ES Sétif
+[](#sprite4-p37);ASO Chlef
+[](#sprite4-p38);Ismaily
+[](#sprite2-p395);Club Africain
+[](#sprite4-p39);Stade Tunisien
+[](#sprite2-p396);Honvéd
+[](#sprite4-p40);Győr
+[](#sprite4-p35);United SC
+[](#sprite4-p36);MC Alger
+[](#sprite2-p392);USM Alger
+[](#sprite4-p41);Fath Union Sport
+[](#sprite4-p42);Étoile du Sahel
+[](#sprite4-p43);BATE
+[](#sprite4-p44);Puget Sound Gunners FC
+[](#sprite4-p45);Rekreativo Banja Luka
+[](#sprite4-p46);Qadsia SC
+[](#sprite4-p47);FC Den Bosch
+[](#sprite2-p398);Excelsior
+[](#sprite4-p48);Al-Ansar SC
+[](#sprite4-p49);Nejmeh SC
+[](#sprite2-p399);Íþróttafélag Reykjavíkur
+[](#sprite4-p50);Luis Ángel Firpo
+[](#sprite2-p400);Farnborough
+[](#sprite4-p51);Al-Ahli Club
+[](#sprite2-p401);FC Haka
+[](#sprite2-p402);Enyimba
+[](#sprite2-p403);Kano Pillars
+[](#sprite2-p404);Venezia
+[](#sprite2-p405);Moghreb Atlético Tetuán
+[](#sprite4-p52);JEF United Ichihara Chiba
+[](#sprite4-p53);Mohammedan SC
+[](#sprite4-p54);Podbeskidzie
+[](#sprite4-p55);Monagas SC
+[](#sprite4-p56);Mineros de Guayana
+[](#sprite4-p57);Domžale
+[](#sprite4-p58);Kedah FA
+[](#sprite4-p59);HB Køge
+[](#sprite4-p60);Tampico Madero
+[](#sprite2-p407);BBCU
+[](#sprite4-p61);Viktoria Žižkov
+[](#sprite4-p62);Al-Ahli SFC
+[](#sprite4-p63);Libertad
+[](#sprite2-p408);Al Ahly (Benghazi)
+[](#sprite4-p64);AlAhli SC
+[](#sprite4-p65);Pahang FA
+[](#sprite2-p410);Zagłębie Lubin
+[](#sprite4-p66);Forfar Athletic
+[](#sprite2-p412);Tractor
+[](#sprite4-p67);Xelajú MC
+[](#sprite2-p413);MyPa
+[](#sprite2-p414);VfB Oldenburg
+[](#sprite4-p68);KV
+[](#sprite2-p415);Alania Vladikavkaz
+[](#sprite2-p416);Hønefoss
+[](#sprite4-p69);Cúcuta Deportivo
+[](#sprite4-p70);CSMS Iași
+[](#sprite4-p71);Syrianska FC
+[](#sprite2-p417);HamKam
+[](#sprite2-p418);Varbergs BoIS
+[](#sprite4-p72);Atromitos
+[](#sprite4-p73);Tarxien Rainbows
+[](#sprite2-p419);Viitorul Constanța
+[](#sprite4-p74);Paulton Rovers
+[](#sprite2-p420);All Boys
+[](#sprite4-p75);Deportivo Quito
+[](#sprite2-p421);Landskrona BoIS
+[](#sprite2-p424);Defensor Sporting
+[](#sprite4-p77);Huachipato
+[](#sprite4-p78);River Plate
+[](#sprite2-p425);O'Higgins
+[](#sprite2-p426);Petrolul Ploiești
+[](#sprite4-p79);Willem II
+[](#sprite4-p80);Westfalia Herne
+[](#sprite2-p427);Farul Constanța
+[](#sprite2-p428);Arema Cronus
+[](#sprite2-p430);Brescia
+[](#sprite2-p431);FC Wil 1900
+[](#sprite4-p81);OFK Beograd
+[](#sprite2-p432);Asteras Tripolis
+[](#sprite2-p433);SV Babelsberg 03
+[](#sprite2-p434);Erzgebirge Aue
+[](#sprite4-p82);Chemnitzer FC
+[](#sprite2-p435);Bognor Regis Town
+[](#sprite2-p436);FC Inter Turku
+[](#sprite4-p83);Blau-Weiß Linz
+[](#sprite2-p437);Hamilton Academical
+[](#sprite2-p438);Hastings United
+[](#sprite2-p439);Sanica Boru Elazığspor
+[](#sprite2-p440);IK Start
+[](#sprite2-p441);PSMS
+[](#sprite4-p84);RoPS
+[](#sprite2-p442);Sogndal
+[](#sprite4-p85);Avellino
+[](#sprite2-p443);Kayserispor
+[](#sprite2-p444);Lanús
+[](#sprite2-p445);Oriente Petrolero
+[](#sprite4-p86);El Nacional
+[](#sprite2-p446);Santiago Wanderers
+[](#sprite4-p87);Banfield
+[](#sprite2-p447);Gefle IF
+[](#sprite3-p22);Club Jorge Wilstermann;J. Wilstermann
+[](#sprite4-p88);Quad City Eagles
+[](#sprite2-p450);Shakhter Karagandy
+[](#sprite2-p451);FC Brașov
+[](#sprite2-p452);First Vienna
+[](#sprite2-p453);South China
+[](#sprite2-p454);Airdrieonians
+[](#sprite2-p455);Portadown
+[](#sprite4-p89);1. FFC Turbine Potsdam
+[](#sprite4-p90);Ferro Carril Oeste
+[](#sprite2-p456);Washington Spirit
+[](#sprite4-p91);Santa Clara
+[](#sprite4-p92);OFK Bar
+[](#sprite4-p93);Avispa Fukuoka
+[](#sprite4-p94);Júbilo Iwata
+[](#sprite4-p95);Montedio Yamagata
+[](#sprite4-p96);Ventforet Kofu
+[](#sprite4-p97);Busan IPark
+[](#sprite2-p457);Jeonnam Dragons
+[](#sprite4-p98);Gangwon FC
+[](#sprite2-p458);Sangju Sangmu
+[](#sprite4-p99);Al-Sadd Club
+[](#sprite4-p100);Al-Ain
+[](#sprite4-p103);Qingdao Jonoon
+[](#sprite4-p104);Shenzhen
+[](#sprite4-p105);Tianjin Teda
+[](#sprite2-p459);Dijon
+[](#sprite4-p106);Valenciennes
+[](#sprite4-p107);LB Châteauroux
+[](#sprite4-p108);Boulogne
+[](#sprite4-p109);Sedan
+[](#sprite4-p110);Troyes AC
+[](#sprite4-p111);AC Arles-Avignon
+[](#sprite4-p112);Stade Lavallois
+[](#sprite4-p113);Krasnodar
+[](#sprite4-p114);Krylia Sovetov
+[](#sprite4-p115);Kuban
+[](#sprite4-p116);Churchill Brothers
+[](#sprite4-p117);Dempo SC
+[](#sprite4-p119);CR Belouizdad
+[](#sprite4-p120);NA Hussein Dey
+[](#sprite4-p121);ASM Oran
+[](#sprite4-p122);Tersana SC
+[](#sprite4-p123);Al-Masry Club
+[](#sprite4-p124);AS FAR
+[](#sprite4-p125);KAC de Kénitra
+[](#sprite4-p126);Maghrib de Fès
+[](#sprite4-p127);Hassania Agadir
+[](#sprite4-p128);CS Sfaxien
+[](#sprite4-p129);Wydad de Fès
+[](#sprite4-p130);CA Bizertin
+[](#sprite4-p131);US Monastirienne
+[](#sprite4-p132);Oțelul Galați
+[](#sprite4-p133);Vorskla
+[](#sprite4-p134);FC Vaslui
+[](#sprite4-p135);AEK Larnaca
+[](#sprite4-p137);Kuwait SC
+[](#sprite4-p138);Kazma SC
+[](#sprite4-p139);Al-Arabi SC
+[](#sprite4-p140);RKC Waalwijk
+[](#sprite4-p141);Nacional
+[](#sprite4-p142);Sagan Tosu
+[](#sprite4-p143);Deportivo Táchira
+[](#sprite4-p144);Deportivo Lara
+[](#sprite4-p145);Matsumoto Yamaga
+[](#sprite4-p146);FK Şahdağ Qusar
+[](#sprite2-p462);Montevideo Wanderers
+[](#sprite4-p147);Danubio
+[](#sprite2-p463);Unión Española
+[](#sprite4-p148);América
+[](#sprite2-p464);Baník Ostrava
+[](#sprite4-p149);Wuhan Zall
+[](#sprite1-p494);Ottawa Fury
+[](#sprite4-p150);Gaziantepspor
+[](#sprite2-p465);Harrogate Town
+[](#sprite4-p151);Valletta FC
+[](#sprite3-p9);Skeid
+[](#sprite2-p466);FK Sarajevo
+[](#sprite2-p467);Rosario Central
+[](#sprite2-p468);Guarani
+[](#sprite4-p153);Arka Gdynia
+[](#sprite2-p470);Queen of the South
+[](#sprite2-p471);Raith Rovers
+[](#sprite1-p495);Bengaluru FC
+[](#sprite4-p154);Prestatyn Town
+[](#sprite2-p472);Modena
+[](#sprite2-p473);FC Thun
+[](#sprite2-p474);FC Sion
+[](#sprite1-p496);Baltimore Bohemians
+[](#sprite2-p476);Alloa Athletic
+[](#sprite4-p155);RC Strasbourg
+[](#sprite2-p477);Vitória de Setúbal
+[](#sprite2-p478);BX Brussels
+[](#sprite4-p156);Admira Wacker
+[](#sprite2-p479);FAS
+[](#sprite2-p480);Bahia
+[](#sprite4-p158);Ruch Chorzów
+[](#sprite4-p159);Figueirense
+[](#sprite4-p160);Hércules
+[](#sprite2-p481);Bolívar
+[](#sprite4-p161);Eendracht Aalst
+[](#sprite4-p162);Quilmes
+[](#sprite3-p10);Criciúma
+[](#sprite4-p163);OFI
+[](#sprite2-p482);Tampines Rovers
+[](#sprite4-p164);K-W United FC
+[](#sprite2-p483);FC Aarau
+[](#sprite4-p165);KV Kortrijk
+[](#sprite2-p484);Pogoń Szczecin
+[](#sprite2-p485);KS Cracovia
+[](#sprite4-p166);SV Ried
+[](#sprite4-p167);Águila
+[](#sprite2-p486);Ludogorets Razgrad
+[](#sprite2-p487);HŠK Zrinjski Mostar
+[](#sprite2-p488);Chernomorets Odessa
+[](#sprite2-p489);Nuneaton Town
+[](#sprite4-p168);Sharjah SC
+[](#sprite2-p490);Necaxa
+[](#sprite4-p169);Tromsdalen UIL
+[](#sprite4-p170);Elche
+[](#sprite2-p492);Stuttgarter Kickers
+[](#sprite4-p171);FSV Frankfurt
+[](#sprite2-p493);Johor Darul Ta'zim FC
+[](#sprite2-p494);Nacional
+[](#sprite4-p172);Novara
+[](#sprite4-p173);Jedinstvo Bihać
+[](#sprite2-p495);Stranraer
+[](#sprite4-p174);Recreativo Huelva
+[](#sprite2-p496);Rio Ave
+[](#sprite4-p175);Panionios
+[](#sprite4-p176);Triglav Kranj
+[](#sprite4-p177);Rotor Volgograd
+[](#sprite2-p497);MVV
+[](#sprite2-p498);Correcaminos UAT
+[](#sprite2-p499);Al-Nassr
+[](#sprite2-p500);Jacksonville Armada FC
+[](#sprite1-p497);Oklahoma City Energy FC
+[](#sprite1-p499);New York City FC
+[](#sprite4-p178);Cobh Ramblers
+[](#sprite1-p500);SD Eibar
+[](#sprite4-p179);Chiapas
+[](#sprite4-p180);Tokushima Vortis
+[](#sprite4-p186);Erchim
+[](#sprite3-p12);Central FC
+[](#sprite4-p196);Real Jaén
+[](#sprite4-p197);AC Perugia
+[](#sprite4-p198);Sint-Truiden
+[](#sprite4-p199);Gençlerbirliği
+[](#sprite4-p200);Torpedo
+[](#sprite4-p202);Vaduz
+[](#sprite4-p204);FC Lahti
+[](#sprite4-p205);Samsunspor
+[](#sprite4-p206);Sheikh Russel KC
+[](#sprite4-p207);Zawisza Bydgoszcz
+[](#sprite4-p208);FC Dordrecht
+[](#sprite4-p209);Tartu Tammeka
+[](#sprite4-p210);Sarpsborg 08
+[](#sprite4-p211);Feirense
+[](#sprite4-p212);AFC Cleveland
+[](#sprite4-p213);AFC Hornchurch
+[](#sprite4-p214);Arsenal Tula
+[](#sprite4-p194);Córdoba
+[](#sprite5-p14);RB Leipzig
+[](#sprite4-p215);Royal Excel Mouscron
+[](#sprite4-p216);Diósgyőr
+[](#sprite4-p217);Saint Louis FC
+[](#sprite4-p218);Louisville City
+[](#sprite4-p219);FC Bordo
+[](#sprite4-p220);Lokomotiva;Lokomotiva Zagreb
+[](#sprite4-p221);SSV Reutlingen 05
+[](#sprite4-p222);Guernsey FC
+[](#sprite4-p223);Peel AFC
+[](#sprite4-p224);Basingstoke Town
+[](#sprite4-p225);Havant & Waterlooville
+[](#sprite4-p226);Eastleigh
+[](#sprite4-p227);Chiangmai FC
+[](#sprite4-p228);Houston Dash
+[](#sprite4-p229);Hougang United
+[](#sprite4-p230);B36 Tórshavn
+[](#sprite4-p231);Vermont Voltage
+[](#sprite4-p232);MFK Frýdek-Místek
+[](#sprite4-p233);Lleida Esportiu
+[](#sprite4-p234);Ajax Cape Town
+[](#sprite4-p235);Penafiel
+[](#sprite4-p236);Seattle Reign FC
+[](#sprite4-p237);Boston Breakers
+[](#sprite4-p238);Juventude
+[](#sprite4-p239);VfL Osnabrück
+[](#sprite4-p240);Zadar
+[](#sprite4-p241);Hyde
+[](#sprite4-p242);Remo
+[](#sprite4-p244);Mjällby AIF
+[](#sprite4-p245);Leamington
+[](#sprite4-p246);Campobasso
+[](#sprite4-p247);AFC Telford United
+[](#sprite4-p248);Wealdstone
+[](#sprite4-p249);Songkhla United
+[](#sprite4-p250);Ashington
+[](#sprite4-p251);Roeselare
+[](#sprite4-p252);Shirak
+[](#sprite4-p253);RC Haïtien
+[](#sprite4-p254);Girona FC
+[](#sprite4-p255);Motala AIF FK
+[](#sprite4-p256);Ilkeston
+[](#sprite4-p257);Wembley
+[](#sprite4-p258);Moss
+[](#sprite4-p259);Sliema Wanderers
+[](#sprite4-p260);Cincinnati Dutch Lions
+[](#sprite4-p261);SønderjyskE
+[](#sprite4-p262);Eintracht Trier
+[](#sprite4-p264);AmaZulu
+[](#sprite4-p263);SKA-Khabarovsk
+[](#sprite4-p265);FC Carl Zeiss Jena
+[](#sprite4-p266);Manta FC
+[](#sprite4-p268);Deportivo Walter Ferretti
+[](#sprite4-p269);Ural Sverdlovsk Oblast
+[](#sprite4-p270);Dalian Yifang
+[](#sprite4-p271);Al-Ahed
+[](#sprite4-p272);Doxa Drama
+[](#sprite4-p273);Envigado
+[](#sprite4-p274);Lekhwiya
+[](#sprite4-p275);Perak FA
+[](#sprite4-p276);Hobro IK
+[](#sprite4-p277);Paços de Ferreira
+[](#sprite3-p14);Ekenäs Idrottsförening
+[](#sprite4-p278);KuPS
+[](#sprite4-p279);Dartford
+[](#sprite4-p280);Charleroi
+[](#sprite1-p140);Delhi Dynamos
+[](#sprite4-p281);Paide Linnameeskond
+[](#sprite4-p282);FC Serres
+[](#sprite4-p283);1. FC Heidenheim
+[](#sprite4-p284);Sandhausen
+[](#sprite4-p285);Portland Thorns
+[](#sprite4-p286);Sousa
+[](#sprite4-p287);Assyriska FF
+[](#sprite4-p288);Olympique de Khouribga
+[](#sprite4-p289);1. FC Schweinfurt 05
+[](#sprite4-p290);NK Podgrmeč
+[](#sprite4-p291);Wexford Youths
+[](#sprite4-p292);Torreense
+[](#sprite4-p293);Hallstahammars SK
+[](#sprite4-p294);Deportivo Roca
+[](#sprite4-p295);Naval 1º de Maio
+[](#sprite4-p297);Gimnasia
+[](#sprite4-p299);Warrington Town
+[](#sprite4-p300);Beroe
+[](#sprite4-p301);Eastbourne Borough
+[](#sprite4-p302);Wick Academy
+[](#sprite4-p303);New Orleans Jesters
+[](#sprite4-p306);FC LVU Sonic
+[](#sprite4-p305);Al-Merrikh SC
+[](#sprite4-p307);Gateshead
+[](#sprite4-p308);Catanzaro
+[](#sprite4-p309);Mo
+[](#sprite4-p310);Milwaukee Bavarians
+[](#sprite3-p16);Yeedzin FC
+[](#sprite4-p312);Termoli
+[](#sprite4-p313);DSV Concordia
+[](#sprite4-p314);King's Lynn Town
+[](#sprite4-p315);SSV Jahn Regensburg
+[](#sprite4-p316);Radomiak Radom
+[](#sprite4-p317);KVK Westhoek
+[](#sprite4-p318);Fort Worth Vaqueros
+[](#sprite4-p319);Fort Pitt Regiment
+[](#sprite4-p320);Skënderbeu Korçë
+[](#sprite4-p321);Mineros de Zacatecas
+[](#sprite4-p322);Truro City
+[](#sprite4-p323);Lansing United
+[](#sprite4-p324);LASK Linz
+[](#sprite4-p325);Berliner FC Dynamo
+[](#sprite4-p327);Las Vegas Mobsters
+[](#sprite4-p326);Welling United
+[](#sprite4-p328);AC Bellinzona
+[](#sprite4-p329);FC Viikingit
+[](#sprite4-p330);ÍA
+[](#sprite4-p331);Cerro
+[](#sprite4-p332);Burscough FC
+[](#sprite4-p333);Cosenza
+[](#sprite4-p334);FC Anyang
+[](#sprite4-p335);KFC Uerdingen 05
+[](#sprite4-p336);Wuppertaler SV;SV Wuppertaler
+[](#sprite4-p337);Juventus IF
+[](#sprite4-p338);Deportivo Anzoátegui
+[](#sprite4-p339);FC Romania
+[](#sprite4-p340);US Sassuolo
+[](#sprite4-p341);Empoli
+[](#sprite4-p342);Qarabağ
+[](#sprite3-p17);Dukla Praha
+[](#sprite4-p345);CS Cartaginés
+[](#sprite4-p346);Ceará
+[](#sprite4-p347);Ballyclare Comrades
+[](#sprite4-p348);FC Eintracht Bamberg
+[](#sprite4-p349);Deportivo Pereira
+[](#sprite4-p350);NS Matrix FC
+[](#sprite4-p351);Sarawak
+[](#sprite4-p352);Hammerfest
+[](#sprite4-p353);London Bees
+[](#sprite4-p354);F91 Dudelange
+[](#sprite4-p355);SV Tasmania Berlin
+[](#sprite4-p356);ABC
+[](#sprite4-p357);FK Olimpic Sarajevo
+[](#sprite4-p358);Atlético de Kolkata
+[](#sprite4-p359);Chennaiyin FC
+[](#sprite4-p360);FC Goa
+[](#sprite4-p361);FC Pune City
+[](#sprite4-p362);Kerala Blasters
+[](#sprite4-p363);Mumbai City
+[](#sprite4-p364);NorthEast United
+[](#sprite4-p365);Merthyr Town
+[](#sprite4-p366);Boston United
+[](#sprite4-p367);Luch-Energiya
+[](#sprite4-p368);Lokomotiv Plovdiv
+[](#sprite4-p369);Al-Hilal Club
+[](#sprite4-p370);Coras Tepic
+[](#sprite4-p371);Haukar
+[](#sprite4-p372);Marsaxlokk FC
+[](#sprite4-p373);Sutton United
+[](#sprite4-p374);HK
+[](#sprite4-p375);Boreham Wood
+[](#sprite4-p376);AC Oulu
+[](#sprite4-p377);Fisher
+[](#sprite4-p378);Tulsa Roughnecks FC
+[](#sprite4-p379);Spennymoor Town
+[](#sprite4-p380);St Albans City
+[](#sprite4-p381);Viborg FF
+[](#sprite4-p382);Marathón
+[](#sprite4-p383);Brechin City
+[](#sprite4-p385);Persipura Jayapura
+[](#sprite4-p384);Poole Town
+[](#sprite4-p386);Afturelding
+[](#sprite4-p387);Salisbury City
+[](#sprite4-p388);PS Kemi
+[](#sprite4-p389);Chorley FC
+[](#sprite4-p390);Skallagrímur
+[](#sprite4-p391);Darfur United
+[](#sprite4-p392);Sloboda Tuzla
+[](#sprite4-p393);GKS Bełchatów
+[](#sprite4-p395);Sheriff Tiraspol
+[](#sprite4-p396);FC Cape Town
+[](#sprite4-p397);Chapecoense
+[](#sprite4-p398);Joinville
+[](#sprite3-p18);San Diego Flash
+[](#sprite4-p399);Tonbridge Angels
+[](#sprite4-p401);Hemel Hempstead Town
+[](#sprite4-p402);Alianza Petrolera
+[](#sprite4-p403);AFC Fylde
+[](#sprite4-p404);Ramsbottom United
+[](#sprite4-p405);Hallescher FC
+[](#sprite4-p406);SpVgg Unterhaching
+[](#sprite4-p407);Racing Club Warwick
+[](#sprite4-p409);Grand Rapids FC
+[](#sprite4-p408);Partizani Tiranë
+[](#sprite4-p410);El Gouna
+[](#sprite4-p412);Tamworth
+[](#sprite4-p413);Melbourne Knights
+[](#sprite4-p414);Ascoli
+[](#sprite4-p411);ÍBV Vestmannaeyjar
+[](#sprite4-p415);Instituto ACC
+[](#sprite4-p416);Clapton
+[](#sprite4-p417);Würzburger Kickers
+[](#sprite4-p418);Trafford
+[](#sprite4-p419);Maccabi Netanya
+[](#sprite4-p420);CRB
+[](#sprite4-p421);Real Juventud
+[](#sprite4-p422);Livingston
+[](#sprite4-p423);Sông Lam Nghệ An
+[](#sprite4-p424);Benevento
+[](#sprite4-p425);Falkenberg
+[](#sprite4-p426);Deportes Quindio
+[](#sprite4-p427);Gaz Metan Mediaș
+[](#sprite4-p428);Radnički Niš
+[](#sprite4-p429);Lunds BK
+[](#sprite4-p430);Wiener SK
+[](#sprite4-p432);Enfield Town
+[](#sprite4-p434);Santa Cruz
+[](#sprite4-p433);Taranto
+[](#sprite4-p435);Fredericksburg FC
+[](#sprite4-p436);Almere City
+[](#sprite4-p437);Caxias
+[](#sprite7-p95);Western Mass Pioneers
+[](#sprite4-p440);Zulia FC
+[](#sprite4-p441);Longford Town
+[](#sprite4-p442);Dumbarton
+[](#sprite4-p443);FC Liefering
+[](#sprite4-p444);Cove Rangers
+[](#sprite4-p445);Telstar
+[](#sprite4-p446);Red Star
+[](#sprite4-p447);Charlotte Independence
+[](#sprite4-p448);CS Herediano
+[](#sprite4-p449);Cabinteely FC
+[](#sprite4-p450);Litex Lovech
+[](#sprite4-p452);Alfreton Town
+[](#sprite4-p453);Akademisk Boldklub
+[](#sprite4-p454);SS Politehnica Timișoara
+[](#sprite4-p455);FC Kansas City
+[](#sprite4-p456);Prescot Cables
+[](#sprite4-p458);FK Jerv
+[](#sprite4-p459);Reggina
+[](#sprite4-p460);Paysandu
+[](#sprite4-p457);Frome Town
+[](#sprite4-p461);Berwick Rangers
+[](#sprite4-p462);FC Tacoma 253
+[](#sprite4-p463);Vysočina Jihlava
+[](#sprite4-p464);Lugo
+[](#sprite4-p465);Deportivo Cuenca
+[](#sprite4-p466);Kaya
+[](#sprite4-p467);Brønshøj BK
+[](#sprite4-p468);Paris
+[](#sprite4-p469);Yenisey
+[](#sprite4-p470);Workington
+[](#sprite4-p471);Londrina
+[](#sprite4-p472);Real Murcia
+[](#sprite4-p473);Heartland FC
+[](#sprite4-p474);Persija Jakarta
+[](#sprite4-p475);Yadanarbon FC
+[](#sprite4-p476);VfR Aalen
+[](#sprite4-p477);FC Ingolstadt
+[](#sprite4-p478);Aalborg Chang
+[](#sprite4-p479);Dulwich Hamlet
+[](#sprite4-p480);Yanbian Funde
+[](#sprite4-p481);Skive IK
+[](#sprite4-p482);Târgu Mureș
+[](#sprite4-p483);That Ras Club
+[](#sprite4-p484);Gosport Borough
+[](#sprite4-p485);Maidenhead United
+[](#sprite4-p486);Carpi
+[](#sprite4-p487);Ashdod
+[](#sprite4-p488);Västerås SK
+[](#sprite4-p489);Estoril
+[](#sprite4-p490);Gil Vicente
+[](#sprite4-p491);Glossop North End
+[](#sprite4-p492);Salon Palloilijat
+[](#sprite4-p493);Arouca
+[](#sprite4-p494);San Francisco City FC
+[](#sprite4-p495);Sheffield FC
+[](#sprite4-p496);Öster
+[](#sprite4-p497);Matlock Town
+[](#sprite4-p498);Brooklyn Italians
+[](#sprite4-p499);FK Jelgava
+[](#sprite4-p500);Waasland-Beveren
+[](#sprite5-p1);Harkemase Boys
+[](#sprite5-p2);AFC Ann Arbor
+[](#sprite5-p3);Plaza Colonia
+[](#sprite5-p4);Spezia
+[](#sprite5-p5);TuS Koblenz
+[](#sprite5-p6);Colorado Springs Switchbacks FC
+[](#sprite5-p7);Fortaleza Esporte Clube
+[](#sprite5-p8);Chicago Red Stars
+[](#sprite5-p9);Gladsaxe-Hero
+[](#sprite5-p11);FC Santa Coloma
+[](#sprite5-p12);Deportivo Alavés
+[](#sprite5-p13);SC Ostenland
+[](#sprite3-p13);Moreirense
+[](#sprite5-p15);CD Tondela
+[](#sprite5-p16);União da Madeira
+[](#sprite5-p17);Glenavon
+[](#sprite5-p18);Miami United
+[](#sprite5-p19);Estudiantes de Mérida
+[](#sprite5-p20);Godoy Cruz
+[](#sprite5-p21);Altınordu
+[](#sprite5-p22);Hawke's Bay United
+[](#sprite5-p23);Barry Town United
+[](#sprite5-p24);Hessen Kassel
+[](#sprite5-p25);KTP
+[](#sprite5-p26);Milwaukee Torrent
+[](#sprite5-p27);SHB-Đà Nẵng
+[](#sprite5-p28);Leganés
+[](#sprite5-p29);Crucero del Norte
+[](#sprite5-p30);Cherno More Varna
+[](#sprite5-p31);Mjøndalen
+[](#sprite5-p34);Atlanta United FC
+[](#sprite5-p37);Mosta FC
+[](#sprite5-p36);Hereford FC
+[](#sprite5-p32);Independiente Rivadavia
+[](#sprite5-p38);Atlético de San Luis
+[](#sprite5-p42);Termalica Bruk-Bet
+[](#sprite5-p40);KÍ Klaksvík
+[](#sprite5-p41);Al-Ittihad
+[](#sprite5-p45);KFCO Beerschot Wilrijk
+[](#sprite5-p46);Caldense
+[](#sprite5-p44);Górnik Łęczna
+[](#sprite5-p43);Piast Gliwice
+[](#sprite5-p48);Los Angeles FC
+[](#sprite5-p49);Orange County SC
+[](#sprite5-p50);Sacramento Gold
+[](#sprite5-p51);Sky Blue FC
+[](#sprite5-p52);Albion Rovers
+[](#sprite5-p53);Annan Athletic
+[](#sprite5-p54);Cowdenbeath
+[](#sprite5-p55);East Stirling
+[](#sprite5-p56);Montrose
+[](#sprite5-p57);Peterhead
+[](#sprite5-p58);Stenhousemuir
+[](#sprite5-p59);Stirling Albion
+[](#sprite5-p60);Hinckley AFC
+[](#sprite5-p61);UD Logroñés
+[](#sprite5-p62);SD Compostela
+[](#sprite5-p63);Tiverton Town
+[](#sprite5-p64);Čukarički
+[](#sprite5-p65);Ponferradina
+[](#sprite5-p66);Numancia
+[](#sprite5-p67);Mirandés
+[](#sprite5-p68);Llagostera
+[](#sprite5-p69);Gimnàstic de Tarragona
+[](#sprite5-p70);Alcorcón
+[](#sprite5-p71);Grêmio Esportivo Brasil
+[](#sprite5-p72);Al-Wasl
+[](#sprite5-p73);SpVgg Bayern Hof
+[](#sprite5-p74);Al-Jazira
+[](#sprite5-p75);Lewes
+[](#sprite5-p76);Kairat
+[](#sprite5-p79);East Kilbride
+[](#sprite5-p80);Hellerup IK;HIK
+[](#sprite5-p82);Birmingham Hammers
+[](#sprite5-p83);FC Ulaanbaatar
+[](#sprite5-p84);Birkirkara
+[](#sprite5-p85);FC Ilves
+[](#sprite5-p86);Frosinone
+[](#sprite5-p87);Guangzhou R&F
+[](#sprite5-p88);Astra Giurgiu
+[](#sprite5-p89);Retford United
+[](#sprite3-p24);Astana
+[](#sprite5-p90);Rheindorf Altach
+[](#sprite5-p91);Jablonec
+[](#sprite5-p92);MŠK Žilina
+[](#sprite5-p93);Zorya Luhansk
+[](#sprite5-p94);Milsami
+[](#sprite3-p25);Akhisar Belediye
+[](#sprite5-p95);Antalyaspor
+[](#sprite5-p96);Çaykur Rizespor
+[](#sprite5-p97);Eskişehirspor
+[](#sprite5-p98);İstanbul Başakşehir
+[](#sprite5-p99);Kasımpaşa
+[](#sprite5-p100);Mersin İdmanyurdu
+[](#sprite5-p101);Osmanlıspor
+[](#sprite5-p102);Iraklis
+[](#sprite5-p103);Veria
+[](#sprite5-p104);Xanthi
+[](#sprite5-p105);Platanias
+[](#sprite5-p106);PAS Giannina
+[](#sprite5-p107);Panthrakikos
+[](#sprite5-p108);Panetolikos
+[](#sprite5-p109);Levadiakos
+[](#sprite5-p110);Kalloni
+[](#sprite5-p111);Mordovia Saransk
+[](#sprite5-p112);FC Ufa
+[](#sprite5-p113);Atlético de Rafaela
+[](#sprite5-p114);Aldosivi
+[](#sprite5-p115);Unión
+[](#sprite5-p116);Temperley
+[](#sprite5-p117);Sarmiento
+[](#sprite5-p118);Nueva Chicago
+[](#sprite5-p119);Defensa y Justicia
+[](#sprite5-p122);Chelmsford City
+[](#sprite5-p120);Ponte Preta
+[](#sprite5-p124);Miami FC
+[](#sprite5-p125);Lüneburger SK Hansa
+[](#sprite5-p126);FC Cincinnati
+[](#sprite5-p123);Lane United FC
+[](#sprite5-p127);FC Lugano
+[](#sprite5-p128);Maccabi Ironi Ashdod
+[](#sprite5-p129);Caldas Sport Clube
+[](#sprite5-p130);Tokyo Verdy
+[](#sprite5-p131);Gazélec Ajaccio
+[](#sprite5-p132);Frigg Oslo FK
+[](#sprite5-p133);Águilas Doradas
+[](#sprite5-p134);Jaguares de Córdoba
+[](#sprite5-p135);Uniautónoma
+[](#sprite5-p136);Varese
+[](#sprite5-p137);Juventus
+[](#sprite5-p138);IFK Eskilstuna
+[](#sprite5-p139);Tai Po FC
+[](#sprite5-p140);Royal Wahingdoh FC
+[](#sprite5-p141);Grindavík
+[](#sprite5-p142);Auckland City
+[](#sprite5-p143);Nakhon Ratchasima FC
+[](#sprite5-p144);Al-Ahli SC
+[](#sprite5-p145);Al-Arabi SC
+[](#sprite5-p146);Al-Gharafa SC
+[](#sprite5-p147);Al-Kharaitiyat SC
+[](#sprite5-p148);Al-Khor SC
+[](#sprite5-p149);Al-Rayyan SC
+[](#sprite5-p150);Al-Sailiya SC
+[](#sprite5-p151);Al-Wakrah SC
+[](#sprite3-p26);El-Jaish SC
+[](#sprite5-p152);Al-Mesaimeer SC
+[](#sprite5-p153);Qatar SC
+[](#sprite5-p154);Umm-Salal SC
+[](#sprite5-p155);Juárez
+[](#sprite5-p157);Ceares
+[](#sprite5-p158);Bedford Town
+[](#sprite5-p159);Slovan Liberec
+[](#sprite5-p160);Qəbələ
+[](#sprite5-p161);Pafos FC
+[](#sprite5-p162);UMF Selfoss
+[](#sprite5-p163);Håbro IF
+[](#sprite5-p166);W Connection
+[](#sprite5-p167);San Francisco
+[](#sprite5-p168);Árabe Unido
+[](#sprite5-p169);Montego Bay United
+[](#sprite5-p170);Santa Tecla
+[](#sprite5-p171);Verdes FC
+[](#sprite5-p172);Isidro Metapán
+[](#sprite5-p177);FC Roskilde
+[](#sprite5-p178);Norrby IF
+[](#sprite5-p179);Pandurii
+[](#sprite5-p180);Thành phố Hồ Chí Minh
+[](#sprite5-p216);ACS Poli Timișoara
+[](#sprite5-p217);Concordia Chiajna
+[](#sprite5-p218);FC Botoșani
+[](#sprite5-p219);FC Voluntari
+[](#sprite5-p220);CS Universitatea Craiova
+[](#sprite5-p221);RNK Split
+[](#sprite5-p222);Istra 1961
+[](#sprite5-p223);Inter Zaprešić
+[](#sprite5-p224);Slaven Belupo
+[](#sprite5-p225);Zagreb
+[](#sprite5-p226);Mladá Boleslav
+[](#sprite5-p227);Slovácko
+[](#sprite5-p228);Zbrojovka Brno
+[](#sprite5-p229);Zlin
+[](#sprite5-p230);Teplice
+[](#sprite5-p231);Příbram
+[](#sprite5-p232);Bohemians 1905
+[](#sprite5-p233);Mes Kerman
+[](#sprite5-p234);Al Ahli Club
+[](#sprite5-p235);Naft Tehran
+[](#sprite5-p236);Pakhtakor Tashkent
+[](#sprite5-p237);Al-Shabab
+[](#sprite5-p238);Foolad
+[](#sprite5-p239);Lokomotiv Tashkent
+[](#sprite5-p240);Nasaf
+[](#sprite5-p242);Buriram United
+[](#sprite5-p241);Becamex Bình Dương
+[](#sprite5-p243);Dinamo Minsk
+[](#sprite5-p244);IK Frej
+[](#sprite5-p245);Mġarr United
+[](#sprite5-p246);Jönköpings Södra IF
+[](#sprite5-p248);Lobos BUAP
+[](#sprite5-p249);Alebrijes de Oaxaca
+[](#sprite5-p250);Zacatepec
+[](#sprite5-p251);Celaya
+[](#sprite5-p252);Murciélagos
+[](#sprite5-p253);Venados
+[](#sprite5-p254);Cimarrones de Sonora
+[](#sprite5-p255);Tapachula
+[](#sprite5-p256);Braintree Town
+[](#sprite5-p257);Bromley
+[](#sprite5-p258);Guiseley
+[](#sprite5-p259);Nest-Sotra
+[](#sprite5-p260);Rot-Weiß Oberhausen
+[](#sprite5-p261);Seoul E-Land FC
+[](#sprite5-p262);Szombathelyi Haladás
+[](#sprite5-p263);Puskás Akadémia
+[](#sprite5-p264);Paksi SE
+[](#sprite5-p265);Békéscsaba 1912 Előre SE
+[](#sprite5-p266);Vasas
+[](#sprite5-p267);Patriotas
+[](#sprite5-p268);Cortuluá
+[](#sprite5-p269);Boyacá Chicó
+[](#sprite5-p270);Atlético Huila
+[](#sprite5-p271);La Equidad
+[](#sprite5-p272);Deportivo Pasto
+[](#sprite5-p273);Stal Dniprodzerzhynsk
+[](#sprite5-p274);Olimpik Donetsk
+[](#sprite5-p275);FC Oleksandriya
+[](#sprite5-p276);Volyn Lutsk
+[](#sprite5-p277);Metalurh Zaporizhya
+[](#sprite5-p278);Hoverla Uzhhorod
+[](#sprite5-p279);Karpaty Lviv
+[](#sprite5-p280);ATM FA
+[](#sprite5-p281);Sime Darby
+[](#sprite5-p282);Young Lions
+[](#sprite5-p283);FELDA United
+[](#sprite5-p284);PDRM
+[](#sprite5-p285);Penang
+[](#sprite5-p286);Albirex Niigata (Singapore)
+[](#sprite5-p287);Balestier Khalsa
+[](#sprite5-p288);Warriors FC
+[](#sprite5-p290);Geylang United
+[](#sprite5-p291);Home United
+[](#sprite5-p292);SV Grödig
+[](#sprite5-p293);SV Mattersburg
+[](#sprite5-p294);Wolfsberger AC
+[](#sprite5-p295);Ballymena United
+[](#sprite5-p296);Carrick Rangers
+[](#sprite5-p297);Ballinamallard United
+[](#sprite5-p298);Dungannon Swifts
+[](#sprite5-p299);Warrenpoint Town
+[](#sprite5-p300);Canterbury United
+[](#sprite5-p301);Southern United
+[](#sprite5-p302);Team Wellington
+[](#sprite5-p304);Waitakere United
+[](#sprite5-p305);Spartak Subotica
+[](#sprite5-p306);Radnik Surdulica
+[](#sprite5-p307);Jagodina
+[](#sprite5-p308);Novi Pazar
+[](#sprite5-p309);Mladost Lučani
+[](#sprite5-p310);Voždovac
+[](#sprite5-p311);Metalac Gornji Milanovac
+[](#sprite5-p312);Rad
+[](#sprite5-p313);Borac Čačak
+[](#sprite5-p314);Javor Ivanjica
+[](#sprite5-p315);Sheikh Jamal Dhanmondi Club
+[](#sprite5-p316);Mohammedan Sporting Club
+[](#sprite5-p317);Abahani Limited
+[](#sprite5-p318);Brothers Union
+[](#sprite5-p319);Independiente del Valle
+[](#sprite5-p320);Universidad Católica
+[](#sprite5-p321);River Ecuador
+[](#sprite5-p322);Mushuc Runa
+[](#sprite5-p323);Aucas
+[](#sprite5-p324);Liga de Loja
+[](#sprite5-p325);Juventud
+[](#sprite5-p326);Racing de Montevideo
+[](#sprite5-p327);Rentistas
+[](#sprite5-p328);Fénix
+[](#sprite5-p329);Sud América
+[](#sprite5-p330);Rampla Juniors
+[](#sprite5-p331);Atenas
+[](#sprite5-p332);El Tanque Sisley
+[](#sprite5-p333);Tacuarembó
+[](#sprite5-p334);Liverpool (Montevideo)
+[](#sprite5-p335);Villa Teresa
+[](#sprite5-p336);Trapani
+[](#sprite5-p337);Crotone
+[](#sprite5-p338);Virtus Entella
+[](#sprite5-p339);Virtus Lanciano
+[](#sprite5-p340);Latina
+[](#sprite5-p341);Calcio Como
+[](#sprite5-p342);Ternana
+[](#sprite5-p343);Salernitana
+[](#sprite5-p344);US Créteil-Lusitanos
+[](#sprite5-p345);Football Bourg-en-Bresse Péronnas 01
+[](#sprite5-p346);Chamois Niortais
+[](#sprite5-p347);Nîmes Olympique
+[](#sprite5-p348);Shkëndija
+[](#sprite5-p349);Renova
+[](#sprite5-p350);Rabotnički
+[](#sprite5-p351);KF Vllaznia Shkodër
+[](#sprite5-p352);Honduras Progreso
+[](#sprite5-p353);Sandefjord
+[](#sprite5-p354);Parsian IF
+[](#sprite5-p356);Guria Lanchkhuti
+[](#sprite5-p357);FC Tskhinvali
+[](#sprite5-p358);Sioni Bolnisi
+[](#sprite5-p359);Ulisses
+[](#sprite5-p360);Ararat Yerevan
+[](#sprite5-p361);Alashkert
+[](#sprite5-p362);Samtredia
+[](#sprite5-p363);Dila Gori
+[](#sprite5-p364);Belshina Bobruisk
+[](#sprite5-p365);Shakhtyor Soligorsk
+[](#sprite5-p366);Dinamo Brest
+[](#sprite5-p367);FC Gomel
+[](#sprite5-p368);Metalurg Skopje
+[](#sprite5-p369);Horizont Turnovo
+[](#sprite5-p370);Limón
+[](#sprite5-p371);Santos de Guápiles
+[](#sprite5-p372);Uruguay de Coronado
+[](#sprite5-p373);Pirin Blagoevgrad
+[](#sprite5-p374);Slavia Sofia
+[](#sprite5-p375);Slavija Sarajevo
+[](#sprite5-p376);Široki Brijeg
+[](#sprite5-p377);Radnik Bijeljina
+[](#sprite5-p378);Apollon Limassol
+[](#sprite5-p379);AEL Limassol
+[](#sprite5-p380);Audax Italiano
+[](#sprite5-p381);San Marcos de Arica
+[](#sprite5-p382);Palestino
+[](#sprite5-p383);Universidad de Concepción
+[](#sprite5-p384);Teuta Durrës
+[](#sprite5-p385);Kukësi
+[](#sprite5-p386);Bylis Ballsh
+[](#sprite5-p387);Tërbuni Pukë
+[](#sprite5-p388);Flamurtari Vlorë
+[](#sprite5-p389);Laçi
+[](#sprite5-p390);Tirana
+[](#sprite5-p391);Levadia Tallinn
+[](#sprite5-p392);Flora
+[](#sprite5-p393);Sillamäe Kalev
+[](#sprite5-p394);Infonet
+[](#sprite5-p395);Viljandi Tulevik
+[](#sprite5-p396);Pärnu Linnameeskond
+[](#sprite5-p397);Narva Trans
+[](#sprite5-p398);Bnei Yehuda
+[](#sprite5-p399);Bnei Sakhnin
+[](#sprite5-p400);Hapoel Ra'anana
+[](#sprite5-p401);Hapoel Akko
+[](#sprite5-p402);Hapoel Ironi Kiryat Shmona
+[](#sprite5-p403);Hapoel Be'er Sheva
+[](#sprite5-p404);Maccabi Petah Tikva
+[](#sprite5-p405);Hapoel Kfar Saba
+[](#sprite5-p406);Rəvan FC
+[](#sprite5-p407);AZAL PFK
+[](#sprite5-p408);Sumqayit
+[](#sprite5-p409);Xəzər Lənkəran
+[](#sprite5-p410);Neftçi
+[](#sprite5-p411);Kəpəz
+[](#sprite5-p412);İnter Bakı
+[](#sprite5-p413);Zirə
+[](#sprite5-p414);Nea Salamis Famagusta
+[](#sprite5-p415);Ayia Napa
+[](#sprite5-p416);Aris Limassol
+[](#sprite5-p417);Ermis Aradippou
+[](#sprite5-p418);Doxa Katokopia
+[](#sprite5-p419);Enosis Neon Paralimni
+[](#sprite5-p420);Ethnikos Achnas
+[](#sprite5-p421);Banants
+[](#sprite5-p422);Mika
+[](#sprite5-p423);Gandzasar Kapan
+[](#sprite5-p424);Pyunik
+[](#sprite5-p426);Slutsk
+[](#sprite5-p427);Slavia-Mozyr
+[](#sprite5-p425);FC Vitebsk
+[](#sprite5-p428);Neman Grodno
+[](#sprite5-p429);Naftan Novopolotsk
+[](#sprite5-p430);Granit Mikashevichi
+[](#sprite5-p431);Torpedo-BelAZ Zhodino
+[](#sprite5-p432);FC Minsk
+[](#sprite5-p433);San José
+[](#sprite5-p434);Trelleborgs FF
+[](#sprite5-p435);Dalkurd FF
+[](#sprite5-p436);Akropolis IF
+[](#sprite5-p437);Krka
+[](#sprite5-p438);Rudar Velenje
+[](#sprite5-p439);Zavrč
+[](#sprite5-p440);Gorica
+[](#sprite5-p441);Krsko
+[](#sprite5-p442);Celje
+[](#sprite5-p443);Koper
+[](#sprite5-p444);Senica
+[](#sprite5-p445);MFK Ružomberok
+[](#sprite5-p446);DAC Dunajská Streda
+[](#sprite5-p447);Spartak Myjava
+[](#sprite5-p448);Spartak Trnava
+[](#sprite5-p449);AS Trenčín
+[](#sprite5-p450);ŽP Šport Podbrezová
+[](#sprite5-p451);MFK Skalica
+[](#sprite5-p452);MFK Zemplín Michalovce
+[](#sprite5-p453);ViOn Zlaté Moravce
+[](#sprite5-p454);FS METTA
+[](#sprite5-p455);BFC Daugavpils
+[](#sprite5-p456);Spartaks Jūrmala
+[](#sprite5-p457);Ventspils
+[](#sprite5-p458);FK Liepāja
+[](#sprite5-p459);Žalgiris Vilnius
+[](#sprite5-p460);FK Šiauliai
+[](#sprite5-p461);Kruoja Pakruojis
+[](#sprite5-p462);Klaipėdos Granitas
+[](#sprite5-p463);Stumbras Kaunas
+[](#sprite5-p464);Utenis Utena
+[](#sprite3-p29);Spyris Kaunas
+[](#sprite5-p466);Atlantas
+[](#sprite5-p465);Sūduva Marijampolė;Suduva
+[](#sprite5-p467);Trakai
+[](#sprite5-p468);Eastern Sports Club
+[](#sprite5-p469);Hong Kong Pegasus
+[](#sprite5-p470);Dreams Metro Gallery
+[](#sprite5-p471);Kitchee
+[](#sprite5-p472);Hong Kong Rangers
+[](#sprite5-p473);Yuen Long
+[](#sprite5-p474);Southern District RSA
+[](#sprite5-p475);Wong Tai Sin
+[](#sprite5-p476);Carmelita
+[](#sprite5-p477);Municipal Pérez Zeledón
+[](#sprite5-p478);Universidad de Costa Rica
+[](#sprite5-p479);Puma Generaleña
+[](#sprite5-p480);Municipal Liberia
+[](#sprite5-p481);Belén
+[](#sprite5-p482);Kozakken Boys
+[](#sprite5-p483);Viktoria Köln
+[](#sprite5-p484);Villanovense
+[](#sprite3-p30);Excelsior '31
+[](#sprite5-p485);UD Santana
+[](#sprite5-p486);Alianza Atlético
+[](#sprite5-p487);Sport Huancayo
+[](#sprite5-p488);Juan Aurich
+[](#sprite5-p489);Universidad César Vallejo
+[](#sprite5-p490);Unión Comercio
+[](#sprite5-p491);Real Garcilaso
+[](#sprite5-p492);Deportivo Municipal
+[](#sprite5-p493);Melgar
+[](#sprite5-p494);Universidad de San Martín de Porres
+[](#sprite5-p495);Ayacucho
+[](#sprite5-p496);León de Huánuco
+[](#sprite5-p497);Sport Loreto
+[](#sprite5-p498);Universidad Técnica de Cajamarca
+[](#sprite5-p499);Blooming
+[](#sprite5-p500);Real Potosí
+[](#sprite7-p1);Universitario de Sucre
+[](#sprite7-p2);Sports Boys Warnes
+[](#sprite7-p3);Ciclón
+[](#sprite7-p4);Universitario de Pando
+[](#sprite7-p5);Petrolero
+[](#sprite7-p6);Nacional Potosí
+[](#sprite7-p7);Enugu Rangers
+[](#sprite7-p8);Rivers United
+[](#sprite7-p9);Spartak Semey
+[](#sprite7-p11);Irtysh Pavlodar
+[](#sprite7-p10);Aktobe
+[](#sprite7-p12);Zaria Bălți
+[](#sprite7-p13);Nistru Otaci
+[](#sprite7-p15);Zimbru Chișinău
+[](#sprite7-p16);Dacia Chișinău
+[](#sprite7-p17);Petrovac
+[](#sprite7-p18);Bokelj
+[](#sprite7-p19);Rudar Pljevlja
+[](#sprite7-p20);Zeta Golubovci
+[](#sprite7-p21);Mogren Budva
+[](#sprite7-p22);Sutjeska
+[](#sprite7-p23);Budućnost Podgorica
+[](#sprite7-p24);Dečić Tuzi
+[](#sprite7-p25);Montana
+[](#sprite7-p26);Club Rubio Ñu
+[](#sprite7-p27);Sportivo Luqueño
+[](#sprite7-p28);General Díaz
+[](#sprite7-p29);Deportivo Santaní
+[](#sprite7-p30);Deportivo Capiatá
+[](#sprite7-p31);San Lorenzo
+[](#sprite7-p32);Sol de América
+[](#sprite7-p33);Guaraní
+[](#sprite7-p35);SuperSport United
+[](#sprite7-p36);Platinum Stars
+[](#sprite7-p37);Engen Santos
+[](#sprite7-p38);Bidvest Wits
+[](#sprite7-p39);Free State Stars
+[](#sprite7-p40);Bloemfontein Celtic
+[](#sprite7-p41);Golden Arrows
+[](#sprite7-p42);Maritzburg United
+[](#sprite7-p43);Polokwane City
+[](#sprite7-p44);University of Pretoria
+[](#sprite7-p45);Jomo Cosmos
+[](#sprite7-p46);Moroka Swallows
+[](#sprite7-p47);Chippa United
+[](#sprite7-p48);Cheadle Town
+[](#sprite7-p49);Haras El-Hedood
+[](#sprite7-p50);El Moqawloon
+[](#sprite7-p51);Al-Ittihad Alexandria
+[](#sprite7-p52);ENPPI
+[](#sprite7-p53);Smouha
+[](#sprite7-p54);Ittihad Tanger
+[](#sprite7-p55);Chabab Rif Al Hoceima
+[](#sprite7-p56);Kawkab de Marrakech
+[](#sprite7-p57);Olympique de Safi
+[](#sprite7-p58);RC Arbaâ
+[](#sprite7-p59);RC Rélizane
+[](#sprite7-p60);CS Constantine
+[](#sprite7-p61);USM Blida
+[](#sprite7-p62);JS Saoura
+[](#sprite7-p63);MO Béjaïa
+[](#sprite7-p64);USM El Harrach
+[](#sprite7-p65);DRB Tadjenanet
+[](#sprite7-p66);Salford City
+[](#sprite7-p67);Pelotas
+[](#sprite7-p68);Botev Vratsa
+[](#sprite7-p69);Stourbridge
+[](#sprite7-p70);Bridlington Town
+[](#sprite7-p71);Ordabasy
+[](#sprite7-p72);Atyrau
+[](#sprite7-p73);Kaisar
+[](#sprite7-p74);Zhetysu Taldykorgan
+[](#sprite7-p75);Taraz
+[](#sprite7-p76);Tobol Kostanai
+[](#sprite7-p77);Okzhetpes
+[](#sprite7-p78);Vostok Oskemen
+[](#sprite7-p79);Akzhayik
+[](#sprite7-p80);Shanghai SIPG
+[](#sprite7-p81);FC Ryūkyū
+[](#sprite7-p82);Reus Deportiu
+[](#sprite7-p83);Platense
+[](#sprite7-p84);Juticalpa
+[](#sprite7-p85);Victoria
+[](#sprite7-p86);Real Sociedad
+[](#sprite7-p87);Vida
+[](#sprite7-p88);Holbaek
+[](#sprite7-p89);Skövde AIK
+[](#sprite7-p90);Rakvere JK Tarvas
+[](#sprite7-p91);Stafford Rangers
+[](#sprite7-p92);Chippenham Town
+[](#sprite7-p93);Whitehawk
+[](#sprite7-p94);Aberystwyth Town
+[](#sprite3-p31);Marconi Stallions
+[](#sprite7-p96);Chalatenango
+[](#sprite7-p97);Vejle Boldklub
+[](#sprite7-p98);Deportivo La Guaira
+[](#sprite7-p99);Aragua FC
+[](#sprite7-p100);Zamora FC
+[](#sprite7-p101);Trujillanos FC
+[](#sprite7-p102);Estudiantes de Caracas
+[](#sprite7-p103);Carabobo FC
+[](#sprite7-p104);Llaneros EF
+[](#sprite7-p105);Portuguesa FC
+[](#sprite7-p107);Atlético Venezuela CF
+[](#sprite7-p108);Ureña SC
+[](#sprite7-p109);Petare FC
+[](#sprite7-p110);Metropolitanos FC
+[](#sprite7-p111);Tucanes de Amazonas
+[](#sprite7-p112);CS Grevenmacher
+[](#sprite7-p113);FC Differdange 03
+[](#sprite7-p114);Fola Esch
+[](#sprite7-p115);Jeunesse Esch
+[](#sprite7-p116);Progrès Niederkorn
+[](#sprite7-p117);Lusitanos
+[](#sprite7-p118);Sant Julià
+[](#sprite7-p119);UE Santa Coloma
+[](#sprite7-p120);Encamp
+[](#sprite7-p121);Torpedo Kutaisi
+[](#sprite7-p122);Shukura Kobuleti
+[](#sprite7-p123);Chikhura Sachkhere
+[](#sprite7-p124);Dinamo Batumi
+[](#sprite7-p125);Locomotive Tbilisi
+[](#sprite7-p127);Kolkheti-1913 Poti
+[](#sprite7-p128);Zugdidi
+[](#sprite7-p129);FC Saburtalo
+[](#sprite7-p130);Erie Commodores FC
+[](#sprite7-p131);Tower Hamlets
+[](#sprite7-p132);Aswan
+[](#sprite7-p133);Sileks
+[](#sprite7-p134);Shkupi
+[](#sprite7-p135);Bregalnica Štip
+[](#sprite7-p136);Mladost Carev Dvor
+[](#sprite3-p32);Lothian Thistle Hutchison Vale
+[](#sprite7-p137);Linlithgow Rose
+[](#sprite7-p138);Plaza Amador
+[](#sprite7-p139);Chepo
+[](#sprite7-p140);Chorrillo
+[](#sprite7-p141);Atlético Chiriquí
+[](#sprite7-p142);Alianza
+[](#sprite7-p143);Atlético Nacional
+[](#sprite7-p144);Tauro
+[](#sprite7-p145);Sporting San Miguelito
+[](#sprite7-p146);CS Hammam-Lif
+[](#sprite7-p147);ES Zarzis
+[](#sprite7-p148);AS Marsa
+[](#sprite7-p149);Stade Gabèsien
+[](#sprite7-p150);US Ben Guerdane
+[](#sprite7-p152);EO Sidi Bouzid
+[](#sprite7-p151);JS Kairouanaise
+[](#sprite7-p153);ES Métlaoui
+[](#sprite7-p154);Marquense
+[](#sprite7-p155);Suchitepéquez
+[](#sprite7-p156);Petapa
+[](#sprite7-p157);Antigua GFC
+[](#sprite7-p158);Universidad de San Carlos
+[](#sprite7-p159);Mictlán
+[](#sprite7-p160);Cobán Imperial
+[](#sprite7-p161);Malacateco
+[](#sprite7-p162);Guastatoya
+[](#sprite7-p163);Coatepeque
+[](#sprite7-p164);Halcones FC
+[](#sprite7-p165);Universidad de El Salvador
+[](#sprite7-p166);Atlético Marte
+[](#sprite7-p167);Dragón
+[](#sprite7-p168);Juventud Independiente
+[](#sprite7-p169);Sonsonate
+[](#sprite7-p170);Pasaquina
+[](#sprite7-p171);Semen Padang
+[](#sprite7-p172);Sriwijaya FC
+[](#sprite7-p173);Persib Bandung
+[](#sprite7-p174);Persebaya Surabaya
+[](#sprite7-p175);Persela Lamongan
+[](#sprite7-p176);Persipasi Bandung Raya
+[](#sprite7-p177);Persegres Gresik United
+[](#sprite7-p178);Persiba Balikpapan
+[](#sprite7-p179);Mitra Kukar
+[](#sprite7-p180);PSM Makassar
+[](#sprite7-p181);Bali United Pusam
+[](#sprite7-p182);Persiram Raja Ampat
+[](#sprite7-p183);Barito Putera
+[](#sprite7-p184);Perseru Serui
+[](#sprite7-p185);Pusamania Borneo FC
+[](#sprite7-p186);Alessandria
+[](#sprite7-p188);Alecrim
+[](#sprite7-p187);Rot-Weiß Erfurt
+[](#sprite7-p189);Académico de Viseu
+[](#sprite7-p191);The New Saints of Oswestry Town & Llansantffraid
+[](#sprite7-p192);Patronato
+[](#sprite7-p193);Atlético Tucumán
+[](#sprite7-p194);San Martín de San Juan
+[](#sprite7-p195);Liaoning Whowin
+[](#sprite7-p196);Hebei China Fortune
+[](#sprite7-p197);Shijiazhuang Ever Bright
+[](#sprite7-p198);Chongqing Dangdai Lifan
+[](#sprite7-p199);Virginia Beach City FC
+[](#sprite7-p200);Newton Aycliffe
+[](#sprite7-p201);Hoàng Anh Gia Lai
+[](#sprite7-p202);Dayton Dynamo
+[](#sprite7-p203);Tupi
+[](#sprite7-p204);Cobresal
+[](#sprite7-p205);Paget Rangers
+[](#sprite7-p206);Moholms SK
+[](#sprite7-p207);AO Trikala
+[](#sprite7-p208);Shonan Bellmare
+[](#sprite7-p209);San Antonio FC
+[](#sprite7-p210);Puerto Rico FC
+[](#sprite7-p211);Pietà Hotspurs
+[](#sprite7-p212);Nykøbing FC
+[](#sprite7-p213);Red Bull Brasil
+[](#sprite7-p214);Fort William
+[](#sprite7-p215);Mito Hollyhock
+[](#sprite7-p216);VfB Lübeck
+[](#sprite7-p217);Victoria Highlanders
+[](#sprite7-p218);Rayo OKC
+[](#sprite7-p219);SoCal Surf
+[](#sprite7-p220);FC Fredericia
+[](#sprite7-p221);Memphis City FC
+[](#sprite7-p222);Skelmersdale United
+[](#sprite7-p223);Villa Dálmine
+[](#sprite7-p224);Kristiansund BK
+[](#sprite7-p225);Bethlehem Steel FC
+[](#sprite7-p226);VV Katwijk
+[](#sprite7-p227);Chicken Inn
+[](#sprite7-p228);Solihull Moors
+[](#sprite7-p229);Little Rock Rangers
+[](#sprite7-p230);Bodmin Town
+[](#sprite7-p231);Eskilstuna City FK
+[](#sprite7-p232);FC Ferreiras
+[](#sprite7-p233);IFK Mariehamn
+[](#sprite7-p235);SJK
+[](#sprite7-p234);PK-35 Vantaa
+[](#sprite7-p236);Tyumen
+[](#sprite7-p237);SDC Putten
+[](#sprite7-p238);FC Eindhoven
+[](#sprite7-p239);Al-Shorta
+[](#sprite7-p240);Weymouth
+[](#sprite7-p241);Albion SC
+[](#sprite7-p242);AC Pisa 1909
+[](#sprite7-p243);San Diego WFC SeaLions
+[](#sprite7-p244);Shepshed Dynamo
+[](#sprite7-p245);Zob Ahan
+[](#sprite7-p246);Al-Nasr SC
+[](#sprite7-p247);Audax
+[](#sprite7-p248);Denizlispor
+[](#sprite7-p249);Orduspor
+[](#sprite7-p250);Santo André
+[](#sprite7-p251);Arnett Gardens
+[](#sprite7-p252);Don Bosco
+[](#sprite7-p253);Tobacco Road FC
+[](#sprite7-p254);Roses United
+[](#sprite7-p255);Deportes Iquique
+[](#sprite7-p256);Orlando Pride
+[](#sprite7-p257);Gor Mahia
+[](#sprite7-p258);AFC Leopards
+[](#sprite7-p259);Mathare United
+[](#sprite7-p260);Abia Warriors
+[](#sprite7-p261);Ifeanyi Ubah
+[](#sprite7-p262);Lobi Stars
+[](#sprite7-p263);Wikki Tourists
+[](#sprite7-p264);Mountain Top
+[](#sprite7-p265);Warri Wolves
+[](#sprite7-p266);Akwa United
+[](#sprite7-p267);Plateau United
+[](#sprite7-p268);Sunshine Stars
+[](#sprite7-p269);Kongsvinger
+[](#sprite7-p270);Niger Tornadoes
+[](#sprite7-p271);El-Kanemi Warriors
+[](#sprite7-p272);Nasarawa United
+[](#sprite7-p273);Ikorodu United
+[](#sprite3-p33);Giwa
+[](#sprite7-p274);C.O.D. United
+[](#sprite7-p275);Kwara United
+[](#sprite7-p276);Zweigen Kanazawa
+[](#sprite7-p277);Yokohama FC
+[](#sprite7-p278);V-Varen Nagasaki
+[](#sprite7-p279);Thespakusatsu Gunma
+[](#sprite7-p280);Roasso Kumamoto
+[](#sprite7-p281);Renofa Yamaguchi FC
+[](#sprite7-p282);Kyoto Sanga FC
+[](#sprite7-p283);Kamatamare Sanuki
+[](#sprite7-p284);Giravanz Kitakyushu
+[](#sprite7-p285);Machida Zelvia
+[](#sprite7-p286);FC Gifu
+[](#sprite7-p287);Fagiano Okayama FC
+[](#sprite7-p288);Ehime FC
+[](#sprite7-p289);Ittihad El Shorta
+[](#sprite7-p290);Tala'ea El-Gaish
+[](#sprite7-p291);Petrojet
+[](#sprite7-p292);El-Entag El-Harby
+[](#sprite7-p294);El-Daklyeh
+[](#sprite7-p295);Wadi Degla
+[](#sprite7-p296);Ghazl Al-Mehalla
+[](#sprite7-p293);Misr Lel-Makkasa
+[](#sprite7-p297);Esteghlal Khuzestan
+[](#sprite7-p298);Esteghlal Ahvaz
+[](#sprite7-p299);Rah Ahan Yazdan
+[](#sprite7-p300);Siahjamegan
+[](#sprite7-p301);Malavan Bandar Anzali
+[](#sprite7-p302);Padideh Khorasan
+[](#sprite7-p303);Saipa
+[](#sprite7-p304);Gostaresh
+[](#sprite7-p305);Saba Qom
+[](#sprite7-p306);Ślęza Wrocław
+[](#sprite7-p307);Aylesbury United
+[](#sprite7-p308);Rio Grande Valley FC Toros
+[](#sprite7-p309);Gala Fairydean Rovers
+[](#sprite7-p310);Real Santa Cruz
+[](#sprite7-p311);Asker
+[](#sprite7-p312);SPAL 2013;SPAL
+[](#sprite7-p313);Maccabi Ahi Nazareth
+[](#sprite7-p315);Al-Quwa Al-Jawiya
+[](#sprite7-p314);Eendracht Rotem
+[](#sprite7-p317);Al-Mina'a
+[](#sprite7-p318);Al-Talaba
+[](#sprite7-p316);Amanat Baghdad
+[](#sprite7-p319);Al-Naft
+[](#sprite7-p320);Naft Al-Wasat
+[](#sprite7-p321);Al-Zawra'a
+[](#sprite7-p322);San Diego Zest FC
+[](#sprite7-p323);Shreveport Rafters FC
+[](#sprite7-p324);South Melbourne
+[](#sprite7-p325);Kingston Stockade FC
+[](#sprite7-p326);CE Europa
+[](#sprite7-p329);Aizawl
+[](#sprite7-p362);Harstad IL
+[](#sprite7-p363);Gjelleråsen IF
+[](#sprite7-p366);SpVgg Bayreuth
+[](#sprite7-p367);KF Gjilani
+[](#sprite7-p395);FC Prishtina
+[](#sprite7-p396);Newtown AFC
+[](#sprite7-p397);Brattvåg IL
+[](#sprite7-p398);Hapoel Haifa
+[](#sprite7-p399);Wollongong Wolves
+[](#sprite7-p420);SC Fürstenfeldbruck
+[](#sprite7-p422);Club Portugalete
+[](#sprite7-p424);Sportfreunde Lotte
+[](#sprite7-p425);Reno 1868 FC
+[](#sprite7-p426);Boston City FC
+[](#sprite7-p427);Darwin Olympic
+[](#sprite7-p428);Temecula FC
+[](#sprite7-p434);Renaissance de Berkane
+[](#sprite7-p433);AD Fafe
+[](#sprite7-p435);Difaâ d'El-Jadida
+[](#sprite7-p436);MC Oujda
+[](#sprite7-p441);Oeste
+[](#sprite7-p442);Atlético Goianiense
+[](#sprite7-p443);Bragantino
+[](#sprite7-p444);Sampaio Corrêa
+[](#sprite7-p447);Luverdense
+[](#sprite7-p448);Highlands Park
+[](#sprite7-p449);Foggia
+[](#sprite7-p450);Suwon FC
+[](#sprite7-p451);EGS Gafsa
+[](#sprite7-p452);AS Kasserine
+[](#sprite7-p453);Boca Unidos
+[](#sprite7-p454);Guillermo Brown
+[](#sprite7-p455);Douglas Haig
+[](#sprite7-p456);Talleres de Córdoba
+[](#sprite7-p457);Chacarita Juniors
+[](#sprite7-p458);Gimnasia de Jujuy
+[](#sprite7-p476);Ergotelis
+[](#sprite8-p2);Bucheon 1995
+[](#sprite8-p4);Chungju Hummel
+[](#sprite8-p5);Mbombela United
+[](#sprite8-p6);Isloch
+[](#sprite8-p7);Krumkachy
+[](#sprite8-p8);Gorodeya
+[](#sprite8-p9);KS Kaszubia
+[](#sprite8-p10);HKFC
+[](#sprite8-p11);Marbella
+[](#sprite8-p12);Alanyaspor
+[](#sprite8-p13);ZESCO United
+[](#sprite8-p14);ASEC Mimosas
+[](#sprite8-p15);Delfín
+[](#sprite8-p16);Los Andes
+[](#sprite8-p17);Almagro
+[](#sprite8-p18);Sportivo Estudiantes
+[](#sprite8-p19);Yakutiya Yakutsk
+[](#sprite8-p20);Asan Mugunghwa
+[](#sprite8-p21);Young Africans
+[](#sprite8-p22);Medeama SC
+[](#sprite8-p24);Juventud Unida Universitario
+[](#sprite8-p25);Santamarina
+[](#sprite8-p26);Atlético Paraná
+[](#sprite8-p27);Central Córdoba
+[](#sprite8-p28);Salus
+[](#sprite8-p46);Erbil SC
+[](#sprite8-p74);Comerciantes Unidos
+[](#sprite8-p78);Azam
+[](#sprite8-p80);Fuerza Amarilla
+[](#sprite8-p81);Racing Ferrol
+[](#sprite8-p82);Lincoln Red Imps
+[](#sprite8-p83);Tre Penne
+[](#sprite8-p84);Balzan FC
+[](#sprite8-p85);Havnar Bóltfelag
+[](#sprite8-p86);Bala Town
+[](#sprite8-p87);Europa FC
+[](#sprite8-p88);MBi Llandudno
+[](#sprite8-p89);SS Folgore Falciano Calcio
+[](#sprite8-p90);NSÍ Runavík
+[](#sprite8-p91);gap Connah's Quay Nomads
+[](#sprite8-p92);Hibernians FC
+[](#sprite8-p93);La Fiorita
+[](#sprite8-p94);Ceres–Negros
+[](#sprite8-p95);Global
+[](#sprite8-p96);Nagaworld
+[](#sprite8-p97);Defensor La Bocana
+[](#sprite8-p98);FK Osogovo
+[](#sprite8-p99);JS Hercules
+[](#sprite8-p104);Stal Mielec
+[](#sprite8-p134);Excursionistas
+[](#sprite8-p138);Fortaleza CEIF
+[](#sprite3-p74);Desportivo Manica
+[](#sprite8-p140);Eastern Suburbs AFC
+[](#sprite8-p141);Tasman United
+[](#sprite8-p146);Villa Española
+[](#sprite8-p147);Boston River
+[](#sprite8-p148);Llanelli Town AFC
+[](#sprite8-p149);Universitatea Cluj
+[](#sprite8-p150);San Francisco Deltas
+[](#sprite8-p152);Calcio Padova
+[](#sprite8-p151);Juve Stabia
+[](#sprite8-p153);SEF Torres 1903
+[](#sprite8-p154);FC Sibir Novosibirsk
+[](#sprite8-p155);Al-Fujairah SC
+[](#sprite8-p156);Inter de Lages
+[](#sprite8-p157);NK Veres Rivne
+[](#sprite8-p160);Mladost Podgorica
+[](#sprite8-p161);Unión San Felipe
+[](#sprite8-p162);Botafogo-PB
+[](#sprite8-p163);TSV Kleinrinderfeld
+[](#sprite8-p164);Nyköpings BIS
+[](#sprite8-p165);Albuquerque Sol
+[](#sprite8-p166);Wisła Płock
+[](#sprite8-p167);Curicó Unido
+[](#sprite8-p168);HNK Cibalia
+[](#sprite8-p169);Gyirmót FC Győr
+[](#sprite8-p170);Mezőkövesd-Zsóry SE
+[](#sprite8-p171);Potros UAEM
+[](#sprite8-p172);Loros de la Universidad de Colima
+[](#sprite8-p173);Radomlje
+[](#sprite8-p174);Aluminij
+[](#sprite8-p175);Santiago Morning
+[](#sprite8-p176);Zirka Kropyvnytskyi
+[](#sprite8-p178);Napredak Kruševac
+[](#sprite8-p180);Edinburgh City
+[](#sprite8-p177);Bačka Bačka Palanka
+[](#sprite8-p181);Neftekhimik Nizhnekamsk
+[](#sprite8-p182);Tambov
+[](#sprite8-p183);Tosno
+[](#sprite8-p184);Volgar Astrakhan
+[](#sprite8-p185);Shinnik Yaroslavl
+[](#sprite8-p186);Sokol Saratov
+[](#sprite8-p187);Baltika Kaliningrad
+[](#sprite8-p188);Fakel Voronezh
+[](#sprite8-p189);Khimki
+[](#sprite8-p190);St. Pölten
+[](#sprite8-p191);Al-Karamah SC
+[](#sprite3-p76);Ranheim Fotball
+[](#sprite8-p192);Cape Town City FC
+[](#sprite8-p193);San Luis de Quillota
+[](#sprite8-p194);US Orléans
+[](#sprite8-p195);Social Sol
+[](#sprite8-p196);FC Avenir Beggen
+[](#sprite8-p197);Hradec Králové
+[](#sprite8-p198);Fortuna Köln
+[](#sprite8-p199);MFK Karviná
+[](#sprite8-p200);Orenburg
+[](#sprite8-p201);KAS Eupen
+[](#sprite8-p202);FSV Zwickau
+[](#sprite8-p203);SG Sonnenhof Großaspach
+[](#sprite8-p207);Real Estelí
+[](#sprite8-p208);FC Wohlen
+[](#sprite8-p209);Deportes Antofagasta
+[](#sprite8-p210);FC Emmen
+[](#sprite8-p211);FC Oss
+[](#sprite8-p212);Achilles '29
+[](#sprite8-p213);Maceratese
+[](#sprite8-p214);Ashanti Gold
+[](#sprite8-p215);Deportes Temuco
+[](#sprite8-p216);CU Micaelense
+[](#sprite8-p218);FK Pelister
+[](#sprite8-p219);Adanaspor
+[](#sprite8-p220);Hendon
+[](#sprite8-p221);Bo'ness United
+[](#sprite8-p222);Kardemir Karabükspor
+[](#sprite8-p223);Guabirá
+[](#sprite8-p224);Al-Faisaly
+[](#sprite8-p225);Al-Wehda Club
+[](#sprite8-p226);Al-Fateh
+[](#sprite8-p227);Khaleej Club
+[](#sprite8-p228);Al-Taawoun
+[](#sprite8-p229);Ettifaq FC
+[](#sprite8-p230);Al-Batin
+[](#sprite8-p231);Al-Raed
+[](#sprite8-p232);Al-Qadisiyah
+[](#sprite8-p233);Rhyl
+[](#sprite8-p234);Police United
+[](#sprite8-p235);Real Unión
+[](#sprite8-p236);Agremiação Sportiva Arapiraquense
+[](#sprite8-p237);Camlough Rovers
+[](#sprite8-p238);Huginn Seyðisfjörður
+[](#sprite8-p239);SC Hauenstein
+[](#sprite8-p240);UCAM Murcia
+[](#sprite8-p241);KS Lublinianka
+[](#sprite8-p242);Chiangrai United
+[](#sprite8-p243);Muangthong United
+[](#sprite3-p78);Bangkok United
+[](#sprite8-p244);Bangkok Glass
+[](#sprite8-p245);Ratchaburi Mitr Phol
+[](#sprite8-p246);Sukhothai
+[](#sprite8-p247);Chonburi
+[](#sprite8-p248);Cittadella
+[](#sprite8-p249);North Ferriby United
+[](#sprite8-p250);Cuiabá
+[](#sprite8-p251);Dynamos
+[](#sprite8-p252);Sambenedettese
+[](#sprite8-p254);Lokomotive Leipzig
+[](#sprite8-p255);Baroka
+[](#sprite8-p256);Al-Jaish
+[](#sprite8-p257);Al-Muharraq
+[](#sprite8-p258);Víkingur Ólafsvík
+[](#sprite8-p259);El Sharkia
+[](#sprite8-p260);USM Bel-Abbès
+[](#sprite8-p261);Al Nasr Lel Taa'den
+[](#sprite8-p263);Sparta FC
+[](#sprite8-p262);Kitsap Pumas
+[](#sprite8-p264);Barranquilla
+[](#sprite8-p265);Glan Conwy
+[](#sprite8-p266);AOK Kerkyra
+[](#sprite8-p271);Al-Karkh SC
+[](#sprite8-p272);Melaka United
+[](#sprite8-p273);Tanta
+[](#sprite8-p274);Kalba
+[](#sprite8-p275);Hatta
+[](#sprite8-p276);Emirates
+[](#sprite8-p277);Dibba Al-Fujairah
+[](#sprite8-p278);Bani Yas
+[](#sprite8-p279);Al Wahda
+[](#sprite8-p280);Al Shabab
+[](#sprite8-p281);Al Dhafra
+[](#sprite8-p283);Nitra
+[](#sprite8-p284);Huntingdon Town
+[](#sprite8-p285);CA Batna
+[](#sprite8-p288);Valledupar
+[](#sprite8-p289);Tataouine
+[](#sprite8-p290);FC Schaffhausen
+[](#sprite8-p291);Neuchâtel Xamax
+[](#sprite8-p292);FC Le Mont
+[](#sprite8-p293);FC Chiasso
+[](#sprite8-p294);Flandria
+[](#sprite8-p295);Brown
+[](#sprite8-p297);San Martín de Tucumán
+[](#sprite8-p298);Olympique de Médéa
+[](#sprite8-p299);Juventud Unida
+[](#sprite8-p300);Deportes Valdivia
+[](#sprite8-p301);Minneapolis City SC
+[](#sprite8-p302);Riga FC
+[](#sprite8-p303);Rīgas Futbola skola
+[](#sprite8-p305);Speranța Nisporeni
+[](#sprite8-p308);Petrocub Hîncești
+[](#sprite8-p307);Academia Chișinău
+[](#sprite8-p309);inamo-Auto
+[](#sprite8-p310);Ungheni
+[](#sprite8-p311);Saxan Gagauz Yeri
+[](#sprite8-p313);Iskra Danilovgrad
+[](#sprite8-p314);Grbalj
+[](#sprite8-p315);Lovćen Cetinje
+[](#sprite8-p316);Jedinstvo Bijelo Polje
+[](#sprite8-p318);Atlético Veragüense
+[](#sprite8-p319);Santa Gema
+[](#sprite8-p320);Hamilton Wanderers
+[](#sprite8-p321);Hong Kong Sapling
+[](#sprite8-p322);Olympique de Béja
+[](#sprite8-p323);AFC Bridgnorth
+[](#sprite8-p324);Asheville City SC
+[](#sprite8-p325);Batman Petrolspor
+[](#sprite8-p326);Scarborough Athletic
+[](#sprite8-p327);Margate
+[](#sprite8-p328);Vendsyssel FF
+[](#sprite8-p329);Água Santa
+[](#sprite8-p330);DSK Shivajians
+[](#sprite8-p331);Chennai City
+[](#sprite8-p332);Minerva Punjab
+[](#sprite8-p333);Tianjin Quanjian
+[](#sprite8-p334);Guizhou Hengfeng Zhicheng
+[](#sprite8-p335);Croydon
+[](#sprite8-p336);Odra Opole
+[](#sprite8-p337);Degerfors
+[](#sprite8-p338);Alverca
+[](#sprite8-p339);Goytacaz
+[](#sprite8-p340);FC 07 Albstadt
+[](#sprite8-p341);FK Radnički
+[](#sprite8-p342);Nacional Atlético Clube
+[](#sprite8-p343);Hearts of Oak
+[](#sprite8-p344);Brisbane City
+[](#sprite8-p345);Famalicão
+[](#sprite8-p346);Tallinna Kalev
+[](#sprite8-p347);WSA Winnipeg
+[](#sprite8-p348);Sisaket
+[](#sprite8-p349);Sandvikens IF
+[](#sprite8-p351);St Helens Town AFC
+[](#sprite8-p352);Austria Klagenfurt
+[](#sprite8-p353);Rhode Island Reds
+[](#sprite8-p354);Lorca Deportiva
+[](#sprite8-p355);Treze
+[](#sprite8-p356);Luftëtari Gjirokastër
+[](#sprite8-p357);Kirby Muxloe
+[](#sprite8-p358);MŠK Tesla Stropkov
+[](#sprite8-p359);Salgueiros
+[](#sprite8-p360);CD Cinfães
+[](#sprite8-p361);Brazos Valley Cavalry FC
+[](#sprite8-p362);Tishreen SC
+[](#sprite8-p363);Fremad Amager
+[](#sprite8-p364);Soproni VSE
+[](#sprite8-p365);Carlstad United BK
+[](#sprite8-p366);KF Feronikeli
+[](#sprite8-p367);GFA FC
+[](#sprite8-p368);Epsom & Ewell
+[](#sprite8-p369);Santarcangelo Calcio
+[](#sprite8-p370);FK Morava Velika Plana
+[](#sprite8-p371);North Carolina Courage
+[](#sprite8-p372);Whitchurch United
+[](#sprite8-p374);Bendigo City
+[](#sprite8-p373);Fateh Hyderabad
+[](#sprite8-p375);Apollon Smyrni
+[](#sprite8-p376);GKS Tychy
+[](#sprite8-p377);Wagga City Wanderers
+[](#sprite8-p378);Espinho
+[](#sprite8-p379);Al-Najaf
+[](#sprite8-p380);Melilla
+[](#sprite8-p381);Ventura County Fusion
+[](#sprite8-p382);Leatherhead
+[](#sprite8-p384);Duque de Caxias
+[](#sprite8-p385);Triestina
+[](#sprite8-p387);Metalist 1925 Kharkiv
+[](#sprite8-p388);Northwich Victoria
+[](#sprite8-p391);AS Cannes
+[](#sprite8-p390);Kvarnby IK
+[](#sprite8-p389);Sydney United 58
+[](#sprite8-p392);UTA Arad
+[](#sprite8-p393);Rio Negro
+[](#sprite8-p394);AC Cuneo 1905
+[](#sprite8-p395);Pordenone
+[](#sprite8-p396);Mississippi Brilla
+[](#sprite8-p397);Hødd
+[](#sprite8-p398);SV Meppen
+[](#sprite8-p399);Cultural y Deportiva Leonesa
+[](#sprite8-p400);Sioux Falls Thunder FC
+[](#sprite8-p401);Tampere United
+[](#sprite8-p402);Alta
+[](#sprite8-p403);Cova da Piedade
+[](#sprite8-p404);Ansan Greeners
+[](#sprite8-p405);Clan Juvenil
+[](#sprite8-p406);Academia Deportiva Cantolao
+[](#sprite8-p407);Vita Club
+[](#sprite8-p408);Saint George SC
+[](#sprite8-p409);Ferroviário da Beira
+[](#sprite8-p410);Kampala Capital City Authority FC
+[](#sprite8-p411);Horoya AC
+[](#sprite8-p412);Mounana
+[](#sprite8-p413);El Hilal El Obeid
+[](#sprite8-p414);Mbabane Swallows
+[](#sprite8-p415);Coton Sport
+[](#sprite8-p416);CAPS United
+[](#sprite8-p417);Zanaco
+[](#sprite8-p418);KF Trepça'89
+[](#sprite8-p419);Oita Trinita
+[](#sprite8-p420);Sport Rosario
+[](#sprite8-p421);Macará
+[](#sprite8-p422);Dnepr Mogilev
+[](#sprite8-p423);Boa Esporte
+[](#sprite8-p424);Black Leopards
+[](#sprite8-p425);Dunav 2010
+[](#sprite8-p426);Floriana
+[](#sprite8-p427);St Joseph's
+[](#sprite8-p428);AFC Eskilstuna
+[](#sprite8-p429);Recreativo do Libolo
+[](#sprite8-p432);Managua FC
+[](#sprite8-p433);Pau FC
+[](#sprite8-p434);Varzim
+[](#sprite8-p435);SC Praiense
+[](#sprite8-p436);Tigres
+[](#sprite8-p437);FC Helsingør
+[](#sprite8-p438);Sandecja Nowy Sącz
+[](#sprite8-p439);FC Mariupol
+[](#sprite8-p440);Dynamo Saint Petersburg
+[](#sprite8-p441);Balmazújvárosi FC
+[](#sprite8-p442);Sepsi Sfântu Gheorghe
+[](#sprite8-p443);NK Rudeš
+[](#sprite8-p444);Portuguesa
+[](#sprite8-p445);Olimpiyets
+[](#sprite8-p446);Avangard
+[](#sprite8-p447);Buckie Thistle
+[](#sprite8-p448);Juventus București
+[](#sprite8-p449);Ankaran Hrvatini
+[](#sprite8-p450);Minnesota TwinStars
+[](#sprite8-p451);BSC Kickers 1900
+[](#sprite8-p452);Northern Tigers
+[](#sprite8-p453);Blacktown City
+[](#sprite8-p454);Hartford City FC
+[](#sprite8-p456);NK Rudar Labin
+[](#sprite8-p457);Badalona
+[](#sprite8-p458);Yeni Malatyaspor
+[](#sprite8-p455);Alpendorada
+[](#sprite8-p459);Cremonese
+[](#sprite6-p3);Algeria
+[](#sprite6-p5);Angola
+[](#sprite6-p19);Benin
+[](#sprite6-p23);Botswana
+[](#sprite6-p27);Burkina Faso
+[](#sprite6-p28);Burundi
+[](#sprite6-p30);Cameroon
+[](#sprite6-p32);Cape Verde
+[](#sprite6-p33);Central African Republic
+[](#sprite6-p34);Chad
+[](#sprite6-p38);Comoros
+[](#sprite6-p40);Congo
+[](#sprite6-p42);Côte d'Ivoire
+[](#sprite6-p48);Djibouti
+[](#sprite6-p39);DR Congo
+[](#sprite6-p52);Egypt
+[](#sprite6-p54);Equatorial Guinea
+[](#sprite6-p55);Eritrea
+[](#sprite6-p57);Ethiopia
+[](#sprite6-p61);Gabon
+[](#sprite6-p62);Gambia
+[](#sprite6-p65);Ghana
+[](#sprite6-p69);Guinea
+[](#sprite6-p70);Guinea-Bissau
+[](#sprite6-p87);Kenya
+[](#sprite6-p96);Lesotho
+[](#sprite6-p97);Liberia
+[](#sprite6-p98);Libya
+[](#sprite6-p103);Madagascar
+[](#sprite6-p104);Malawi
+[](#sprite6-p107);Mali
+[](#sprite6-p110);Mauritania
+[](#sprite6-p111);Mauritius
+[](#sprite6-p118);Morocco
+[](#sprite6-p119);Mozambique
+[](#sprite6-p121);Namibia
+[](#sprite6-p127);Niger
+[](#sprite6-p128);Nigeria
+[](#sprite6-p143);Rwanda
+[](#sprite6-p149);São Tomé and Príncipe
+[](#sprite6-p151);Senegal
+[](#sprite6-p153);Seychelles
+[](#sprite6-p154);Sierra Leone
+[](#sprite6-p159);Somalia
+[](#sprite6-p160);South Africa
+[](#sprite6-p235);South Sudan
+[](#sprite6-p163);Sudan
+[](#sprite6-p165);Swaziland
+[](#sprite6-p170);Tanzania
+[](#sprite6-p173);Togo
+[](#sprite6-p176);Tunisia
+[](#sprite6-p180);Uganda
+[](#sprite6-p192);Zambia
+[](#sprite6-p233);Zanzibar
+[](#sprite6-p193);Zimbabwe
+[](#sprite6-p1);Afghanistan
+[](#sprite6-p13);Bahrain
+[](#sprite6-p14);Bangladesh
+[](#sprite6-p20);Bhutan
+[](#sprite6-p25);Brunei Darussalam
+[](#sprite6-p29);Cambodia
+[](#sprite6-p36);China
+[](#sprite6-p194);Chinese Taipei
+[](#sprite6-p215);Hong Kong
+[](#sprite6-p76);India
+[](#sprite6-p77);Indonesia
+[](#sprite6-p78);Iran
+[](#sprite6-p79);Iraq
+[](#sprite6-p84);Japan
+[](#sprite6-p85);Jordan
+[](#sprite6-p91);Kuwait
+[](#sprite6-p92);Kyrgyzstan
+[](#sprite6-p93);Laos
+[](#sprite6-p95);Lebanon
+[](#sprite6-p216);Macau
+[](#sprite6-p105);Malaysia
+[](#sprite6-p106);Maldives
+[](#sprite6-p116);Mongolia
+[](#sprite6-p120);Myanmar
+[](#sprite6-p123);Nepal
+[](#sprite6-p89);North Korea
+[](#sprite6-p130);Oman
+[](#sprite6-p131);Pakistan
+[](#sprite6-p227);Palestine
+[](#sprite6-p137);Philippines
+[](#sprite6-p140);Qatar
+[](#sprite6-p150);Saudi Arabia
+[](#sprite6-p155);Singapore
+[](#sprite6-p90);South Korea
+[](#sprite6-p162);Sri Lanka
+[](#sprite6-p168);Syria
+[](#sprite6-p169);Tajikistan
+[](#sprite6-p171);Thailand
+[](#sprite6-p234);Tibet
+[](#sprite6-p172);Timor-Leste
+[](#sprite6-p178);Turkmenistan
+[](#sprite6-p182);United Arab Emirates
+[](#sprite6-p186);Uzbekistan
+[](#sprite6-p190);Vietnam
+[](#sprite6-p191);Yemen
+[](#sprite6-p212);American Samoa
+[](#sprite6-p9);Australia
+[](#sprite6-p229);Cook Islands
+[](#sprite6-p58);Fiji
+[](#sprite6-p213);Guam
+[](#sprite6-p88);Kiribati
+[](#sprite6-p109);Marshall Islands
+[](#sprite6-p113);Micronesia
+[](#sprite6-p122);Nauru
+[](#sprite6-p196);New Caledonia
+[](#sprite6-p125);New Zealand
+[](#sprite6-p195);Norfolk Island
+[](#sprite6-p210);Northern Mariana Islands
+[](#sprite6-p132);Palau
+[](#sprite6-p134);Papua New Guinea
+[](#sprite6-p207);Pitcairn Islands
+[](#sprite6-p208);Saint Helena
+[](#sprite6-p147);Samoa
+[](#sprite6-p158);Solomon Islands
+[](#sprite6-p230);Tahiti
+[](#sprite6-p174);Tonga
+[](#sprite6-p179);Tuvalu
+[](#sprite6-p187);Vanuatu
+[](#sprite6-p2);Albania
+[](#sprite6-p4);Andorra
+[](#sprite6-p8);Armenia
+[](#sprite6-p10);Austria
+[](#sprite6-p11);Azerbaijan
+[](#sprite6-p16);Belarus
+[](#sprite6-p17);Belgium
+[](#sprite6-p22);Bosnia-Herzegovina
+[](#sprite6-p26);Bulgaria
+[](#sprite6-p231);Catalonia
+[](#sprite6-p43);Croatia
+[](#sprite6-p45);Cyprus
+[](#sprite6-p46);Czech Republic
+[](#sprite6-p47);Denmark
+[](#sprite6-p222);England
+[](#sprite6-p56);Estonia
+[](#sprite6-p217);Faroe Islands
+[](#sprite6-p59);Finland
+[](#sprite6-p60);France
+[](#sprite6-p102);FYR Macedonia
+[](#sprite6-p63);Georgia
+[](#sprite6-p64);Germany
+[](#sprite6-p205);Gibraltar
+[](#sprite6-p66);Greece
+[](#sprite6-p218);Greenland
+[](#sprite6-p197);Guernsey
+[](#sprite6-p74);Hungary
+[](#sprite6-p75);Iceland
+[](#sprite6-p80);Ireland
+[](#sprite6-p198);Isle of Man
+[](#sprite6-p81);Israel
+[](#sprite6-p82);Italy
+[](#sprite6-p199);Jersey
+[](#sprite6-p86);Kazakhstan
+[](#sprite6-p226);Kosovo
+[](#sprite6-p94);Latvia
+[](#sprite6-p99);Liechtenstein
+[](#sprite6-p100);Lithuania
+[](#sprite6-p101);Luxembourg
+[](#sprite6-p108);Malta
+[](#sprite6-p114);Moldova
+[](#sprite6-p117);Montenegro
+[](#sprite6-p124);Netherlands
+[](#sprite6-p225);Northern Ireland
+[](#sprite6-p129);Norway
+[](#sprite6-p138);Poland
+[](#sprite6-p139);Portugal
+[](#sprite6-p141);Romania
+[](#sprite6-p142);Russia
+[](#sprite6-p148);San Marino
+[](#sprite6-p223);Scotland
+[](#sprite6-p152);Serbia
+[](#sprite6-p156);Slovakia
+[](#sprite6-p157);Slovenia
+[](#sprite6-p161);Spain
+[](#sprite6-p166);Sweden
+[](#sprite6-p167);Switzerland
+[](#sprite6-p177);Turkey
+[](#sprite6-p181);Ukraine
+[](#sprite6-p183);United Kingdom
+[](#sprite6-p188);Vatican City
+[](#sprite6-p224);Wales
+[](#sprite6-p200);Anguilla
+[](#sprite6-p6);Antigua and Barbuda
+[](#sprite6-p220);Aruba
+[](#sprite6-p12);Bahamas
+[](#sprite6-p15);Barbados
+[](#sprite6-p18);Belize
+[](#sprite6-p201);Bermuda
+[](#sprite6-p202);British Virgin Islands
+[](#sprite6-p31);Canada
+[](#sprite6-p203);Cayman Islands
+[](#sprite6-p41);Costa Rica
+[](#sprite6-p44);Cuba
+[](#sprite6-p219);Curaçao
+[](#sprite6-p49);Dominica
+[](#sprite6-p50);Dominican Republic
+[](#sprite6-p53);El Salvador
+[](#sprite6-p67);Grenada
+[](#sprite6-p232);Guadeloupe
+[](#sprite6-p68);Guatemala
+[](#sprite6-p72);Haiti
+[](#sprite6-p73);Honduras
+[](#sprite6-p83);Jamaica
+[](#sprite6-p112);Mexico
+[](#sprite6-p206);Montserrat
+[](#sprite6-p221);Netherlands Antilles
+[](#sprite6-p126);Nicaragua
+[](#sprite6-p133);Panama
+[](#sprite6-p211);Puerto Rico
+[](#sprite6-p144);Saint Kitts and Nevis
+[](#sprite6-p145);Saint Lucia
+[](#sprite6-p146);Saint Vincent and the Grenadines
+[](#sprite6-p175);Trinidad and Tobago
+[](#sprite6-p209);Turks and Caicos Islands
+[](#sprite6-p184);United States of America
+[](#sprite6-p214);US Virgin Islands
+[](#sprite6-p7);Argentina
+[](#sprite6-p21);Bolivia
+[](#sprite6-p24);Brasil
+[](#sprite6-p35);Chile
+[](#sprite6-p37);Colombia
+[](#sprite6-p51);Ecuador
+[](#sprite6-p204);Falkland Islands
+[](#sprite6-p228);French Guiana
+[](#sprite6-p71);Guyana
+[](#sprite6-p135);Paraguay
+[](#sprite6-p136);Peru
+[](#sprite6-p164);Suriname
+[](#sprite6-p185);Uruguay
+[](#sprite6-p189);Venezuela
+[](#sprite1-p270);Villarreal
+[](#sprite2-p58);Metalist Kharkiv
+[](#sprite8-p469);Portimonense
+[](#sprite8-p481);Leixões
