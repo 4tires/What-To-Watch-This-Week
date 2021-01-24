@@ -9,6 +9,7 @@ import csv
 from login_credentials import username_credential, password_credential
 import requests
 from json import load
+import re
 
 url = "https://www.flashscore.com/"
 
@@ -98,15 +99,23 @@ def fetcher():
 		date, checked_matches = parser(competitions_dict)
 		WTWTWdict[date] = checked_matches
 		if n == (days - 1):
-			driver.quit()
+			#driver.quit()
 			print("Completed all parsers")
 			return WTWTWdict, competitions_dict
 		driver.find_element_by_class_name('calendar__direction--tomorrow').click()
 		time.sleep(1)
 
 def competition_matches(region, competition):
-	gamelist = []
+
 	href, competition_proper = acha_link_e_arranja_nome(region, competition)
+	driver.get(url + href + 'fixtures')
+	soup = BeautifulSoup(driver.page_source, 'html.parser')
+	checkedMatchesList = []
+	checkedMatches = soup.find_all('div', class_='checked')
+	for match in checkedMatches:
+		checkedMatchesList.append(match.find_parent('div', class_='event__match'))
+	return checkedMatchesList, competition_proper
+	"""
 	results = requests.get(url + href + 'fixtures')
 	soup = BeautifulSoup(results.text, 'html.parser')
 	matches = soup.find('div', id='tournament-page-data-fixtures').contents
@@ -125,7 +134,7 @@ def competition_matches(region, competition):
 						temp[str(item.split("÷")[0] + "÷")] = str(item.split("÷")[1])				
 			gamelist.append(temp)
 	return gamelist, competition_proper
-
+"""
 def acha_link_e_arranja_nome(region, competition):
 	region_proper = region
 	competition_proper = ''
@@ -153,20 +162,24 @@ def acha_round_e_aggregate(home, away, gamelist):
 	round = ''
 	aggregate = ''
 	for item in gamelist:
-		try:
-			if (item['AE÷'] == home and item['AF÷'] == away):
-				if ("Round " not in item['ER÷'] and len(item['ER÷']) not in [7, 8]):
-					round = item['ER÷']
-					if round in fs_round_translator.keys():
-						round = fs_round_translator[round]
-				if ('AM÷' in item):
-					aggregate = item['AM÷']
-				return round, aggregate
+		#try:
+		home_team = item.find('div', class_='event__participant--home').get_text()
+		away_team = item.find('div', class_='event__participant--away').get_text()
+		if (home_team == home and away_team == away):
+			round = home_team.find_previous_sibling('div', class_='event__round').get_text()
+			if ("Round " not in round and len(round) not in [7, 8]):
+				if round in fs_round_translator.keys():
+					round = fs_round_translator[round]
+			"""
+			if ('AM÷' in item):
+				aggregate = item['AM÷']"""
+			return round#, aggregate
+		"""
 		except:
 			print("Error Occurred at " + home + ", " + away)
-			return "Error with gamelist.", aggregate
+			return "Error with gamelist."#, aggregate"""
 	print("No results for " + home + " vs " + away + " round and aggregate score.")
-	return "no-round-data", "no-aggregate-data"
+	return "no-round-data"#, "no-aggregate-data"
 
 def match_details(competitions_dict, WTWTWmatches):
 	print('Adding rounds and aggregate scores')
@@ -176,21 +189,30 @@ def match_details(competitions_dict, WTWTWmatches):
 			for date in WTWTWmatches:
 				for match in WTWTWmatches[date]:
 					if (match['Region'] == region and match['Competition'] == competition):
+						"""
+						aggregate has been removed for now
 						round, aggregate = acha_round_e_aggregate(match['Home'], match['Away'], gamelist)
+						"""
+						round = acha_round_e_aggregate(match['Home'], match['Away'], gamelist)
 						match['Round'] = round
-						match['Aggregate'] = aggregate
+						#match['Aggregate'] = aggregate
 						match['Competition'] = competition_proper
 		
 def WTWTW():
 	WTWTWmatches, competitions_dict = fetcher()
 	match_details(competitions_dict, WTWTWmatches)
+	driver.quit()
 
 	print("Writing listas.csv")
 	with open('listas.csv', 'a', newline='', encoding='utf8') as listas:
 		writer = csv.writer(listas, delimiter=';')
 		for date in WTWTWmatches:
 			for match in sorted(WTWTWmatches[date], key=lambda i: i['Time']):
+				"""
+				removing aggregate for now
 				writer.writerow([match['Time'], match['Home'], match['Away'], match['Competition'], match['Round'], match['Aggregate']])
+				"""
+				writer.writerow([match['Time'], match['Home'], match['Away'], match['Competition'], match['Round']])
 			writer.writerow([])
 	print("Finished running WTWTW")
 	return WTWTWmatches
