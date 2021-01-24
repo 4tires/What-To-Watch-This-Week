@@ -65,12 +65,6 @@ def acha_team_names(url):
                     u21check = team.split(' U')[-1]
                     if (len(u21check) == 2 and u21check.isdigit()):
                         continue
-                """ 
-                Removing the ' W' for women's team's will result in later code needing to search
-                for team names without the ' W' if the team name contains it.
-                """
-                if (team.endswith(' W')):
-                    team = team[:-len(' W')]
                 TeamNames.append(team)
 
         if len(TeamNames) == 0:
