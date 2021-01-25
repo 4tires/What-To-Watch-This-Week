@@ -21,6 +21,8 @@ def main():
     for region in tNSDict:
         if region not in sBTNSDict.keys():
             continue
+        if len(sBTNSDict[region]) == 0:
+            continue
         else:
             teamNameList = list(sBTNSDict[region].keys())
         for item in tNSDict[region]:
@@ -62,11 +64,11 @@ def ResultsPrompt(fMatchList):
     numberList = []
     matchListLen = len(fMatchList)
     for n in range(matchListLen):
-        numberList.append(n)
+        numberList.append(str(n))
         print(n, ':', fMatchList[n])
     while True:
         response = input('Select correct team. Type [n, no, none] if no matches. ')
-        if (str(response).lower() in noList or int(response) in numberList):
+        if (str(response).lower() in noList or response in numberList):
             break
         else:
             print('Invalid input. Enter correct match or [n, no, none].')
