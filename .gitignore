@@ -126,3 +126,6 @@ login_credentials.py
 chromedriver.exe
 notes.txt
 sandbox.py
+Pipfile
+pipfile.lock
+.vscode/
