@@ -137,309 +137,460 @@
             "Sprite": "[](#sprite4-p37)"
         },
         {
-            "FS_TeamName": "Amal Bou Saada"
+            "FS_TeamName": "Amal Bou Saada",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Annaba"
+            "FS_TeamName": "Annaba",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Arba"
+            "FS_TeamName": "Arba",
+            "Proper": "RC Arba\u00e2",
+            "Sprite": "[](#sprite7-p58)"
         },
         {
-            "FS_TeamName": "Arzew"
+            "FS_TeamName": "Arzew",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Bejaia"
+            "FS_TeamName": "Bejaia",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Bel Abbes"
+            "FS_TeamName": "Bel Abbes",
+            "Proper": "USM Bel-Abb\u00e8s",
+            "Sprite": "[](#sprite8-p260)"
         },
         {
-            "FS_TeamName": "Biskra"
+            "FS_TeamName": "Biskra",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Bordj Bou Arreridj"
+            "FS_TeamName": "Bordj Bou Arreridj",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "CR Belouizdad"
+            "FS_TeamName": "CR Belouizdad",
+            "Proper": "CR Belouizdad",
+            "Sprite": "[](#sprite4-p119)"
         },
         {
-            "FS_TeamName": "Constantine"
+            "FS_TeamName": "Constantine",
+            "Proper": "CS Constantine",
+            "Sprite": "[](#sprite7-p60)"
         },
         {
-            "FS_TeamName": "ES Setif"
+            "FS_TeamName": "ES Setif",
+            "Proper": "ES S\u00e9tif",
+            "Sprite": "[](#sprite2-p394)"
         },
         {
-            "FS_TeamName": "Eulma"
+            "FS_TeamName": "Eulma",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Harrach"
+            "FS_TeamName": "Harrach",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Hussein Dey"
+            "FS_TeamName": "Hussein Dey",
+            "Proper": "NA Hussein Dey",
+            "Sprite": "[](#sprite4-p120)"
         },
         {
-            "FS_TeamName": "JS Kabylie"
+            "FS_TeamName": "JS Kabylie",
+            "Proper": "JS Kabylie",
+            "Sprite": "[](#sprite2-p51)"
         },
         {
-            "FS_TeamName": "Khroub"
+            "FS_TeamName": "Khroub",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "MC Alger"
+            "FS_TeamName": "MC Alger",
+            "Proper": "MC Alger",
+            "Sprite": "[](#sprite4-p36)"
         },
         {
-            "FS_TeamName": "MO Bejaia"
+            "FS_TeamName": "MO Bejaia",
+            "Proper": "MO B\u00e9ja\u00efa",
+            "Sprite": "[](#sprite7-p63)"
         },
         {
-            "FS_TeamName": "Magra"
+            "FS_TeamName": "Magra",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Medea"
+            "FS_TeamName": "Medea",
+            "Proper": "Olympique de M\u00e9d\u00e9a",
+            "Sprite": "[](#sprite8-p298)"
         },
         {
-            "FS_TeamName": "Mlila"
+            "FS_TeamName": "Mlila",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Oran"
+            "FS_TeamName": "Oran",
+            "Proper": "MC Oran",
+            "Sprite": "[](#sprite2-p393)"
         },
         {
-            "FS_TeamName": "Paradou"
+            "FS_TeamName": "Paradou",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Relizane"
+            "FS_TeamName": "Relizane",
+            "Proper": "RC R\u00e9lizane",
+            "Sprite": "[](#sprite7-p59)"
         },
         {
-            "FS_TeamName": "Saida"
+            "FS_TeamName": "Saida",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Saoura"
+            "FS_TeamName": "Saoura",
+            "Proper": "JS Saoura",
+            "Sprite": "[](#sprite7-p62)"
         },
         {
-            "FS_TeamName": "Skikda"
+            "FS_TeamName": "Skikda",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Tadjenant"
+            "FS_TeamName": "Tadjenant",
+            "Proper": "DRB Tadjenanet",
+            "Sprite": "[](#sprite7-p65)"
         },
         {
-            "FS_TeamName": "Tlemcen"
+            "FS_TeamName": "Tlemcen",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "USM Alger"
+            "FS_TeamName": "USM Alger",
+            "Proper": "USM Alger",
+            "Sprite": "[](#sprite2-p392)"
         }
     ],
     "Andorra": [
         {
-            "FS_TeamName": "Atletic Escaldes"
+            "FS_TeamName": "Atletic Escaldes",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Carroi"
+            "FS_TeamName": "Carroi",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "FC Santa Coloma"
+            "FS_TeamName": "FC Santa Coloma",
+            "Proper": "FC Santa Coloma",
+            "Sprite": "[](#sprite5-p11)"
         },
         {
-            "FS_TeamName": "Inter Escaldes"
+            "FS_TeamName": "Inter Escaldes",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Penya"
+            "FS_TeamName": "Penya",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Sant Julia"
+            "FS_TeamName": "Sant Julia",
+            "Proper": "Sant Juli\u00e0",
+            "Sprite": "[](#sprite7-p118)"
         },
         {
-            "FS_TeamName": "UE Engordany"
+            "FS_TeamName": "UE Engordany",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "UE Santa Coloma"
+            "FS_TeamName": "UE Santa Coloma",
+            "Proper": "UE Santa Coloma",
+            "Sprite": "[](#sprite7-p119)"
         }
     ],
     "Angola": [
         {
-            "FS_TeamName": "Academica"
+            "FS_TeamName": "Academica",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Baixa de Cassanje"
+            "FS_TeamName": "Baixa de Cassanje",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "C.R.D. Libolo"
+            "FS_TeamName": "C.R.D. Libolo",
+            "Proper": "Recreativo do Libolo",
+            "Sprite": "[](#sprite8-p429)"
         },
         {
-            "FS_TeamName": "Caala"
+            "FS_TeamName": "Caala",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Cuando Cubango"
+            "FS_TeamName": "Cuando Cubango",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Desportivo Huila"
+            "FS_TeamName": "Desportivo Huila",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Ferroviario do Huambo"
+            "FS_TeamName": "Ferroviario do Huambo",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Interclube"
+            "FS_TeamName": "Interclube",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Onze Bravos"
+            "FS_TeamName": "Onze Bravos",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Petro Atletico"
+            "FS_TeamName": "Petro Atletico",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Primeiro de Agosto"
+            "FS_TeamName": "Primeiro de Agosto",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Progresso"
+            "FS_TeamName": "Progresso",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Sagrada"
+            "FS_TeamName": "Sagrada",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Santa Rita"
+            "FS_TeamName": "Santa Rita",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Sporting de Cabinda"
+            "FS_TeamName": "Sporting de Cabinda",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Wiliet"
+            "FS_TeamName": "Wiliet",
+            "Sprite": null
         }
     ],
     "Argentina": [
         {
-            "FS_TeamName": "Aldosivi"
+            "FS_TeamName": "Aldosivi",
+            "Proper": "Aldosivi",
+            "Sprite": "[](#sprite5-p114)"
         },
         {
-            "FS_TeamName": "Argentinos Jrs"
+            "FS_TeamName": "Argentinos Jrs",
+            "Proper": "Argentinos Juniors",
+            "Sprite": "[](#sprite2-p275)"
         },
         {
-            "FS_TeamName": "Arsenal Sarandi"
+            "FS_TeamName": "Arsenal Sarandi",
+            "Proper": "Arsenal",
+            "Sprite": "[](#sprite2-p177)"
         },
         {
-            "FS_TeamName": "Atl. Tucuman"
+            "FS_TeamName": "Atl. Tucuman",
+            "Proper": "Atl\u00e9tico Tucum\u00e1n",
+            "Sprite": "[](#sprite7-p193)"
         },
         {
-            "FS_TeamName": "Banfield"
+            "FS_TeamName": "Banfield",
+            "Proper": "Banfield",
+            "Sprite": "[](#sprite4-p87)"
         },
         {
-            "FS_TeamName": "Boca Juniors"
+            "FS_TeamName": "Boca Juniors",
+            "Proper": "Boca Juniors",
+            "Sprite": "[](#sprite1-p95)"
         },
         {
-            "FS_TeamName": "Central Cordoba"
+            "FS_TeamName": "Central Cordoba",
+            "Proper": "Central C\u00f3rdoba",
+            "Sprite": "[](#sprite8-p27)"
         },
         {
-            "FS_TeamName": "Colon Santa FE"
+            "FS_TeamName": "Colon Santa FE",
+            "Proper": "Col\u00f3n",
+            "Sprite": "[](#sprite2-p263)"
         },
         {
-            "FS_TeamName": "Defensa y Justicia"
+            "FS_TeamName": "Defensa y Justicia",
+            "Proper": "Defensa y Justicia",
+            "Sprite": "[](#sprite5-p119)"
         },
         {
-            "FS_TeamName": "Estudiantes L.P."
+            "FS_TeamName": "Estudiantes L.P.",
+            "Proper": "Estudiantes de La Plata",
+            "Sprite": "[](#sprite2-p154)"
         },
         {
-            "FS_TeamName": "Gimnasia L.P."
+            "FS_TeamName": "Gimnasia L.P.",
+            "Proper": "Gimnasia",
+            "Sprite": "[](#sprite4-p297)"
         },
         {
-            "FS_TeamName": "Godoy Cruz"
+            "FS_TeamName": "Godoy Cruz",
+            "Proper": "Godoy Cruz",
+            "Sprite": "[](#sprite5-p20)"
         },
         {
-            "FS_TeamName": "Huracan"
+            "FS_TeamName": "Huracan",
+            "Proper": "Hurac\u00e1n",
+            "Sprite": "[](#sprite2-p86)"
         },
         {
-            "FS_TeamName": "Independiente"
+            "FS_TeamName": "Independiente",
+            "Proper": "Independiente",
+            "Sprite": "[](#sprite1-p425)"
         },
         {
-            "FS_TeamName": "Lanus"
+            "FS_TeamName": "Lanus",
+            "Proper": "Lan\u00fas",
+            "Sprite": "[](#sprite2-p444)"
         },
         {
-            "FS_TeamName": "Newells Old Boys"
+            "FS_TeamName": "Newells Old Boys",
+            "Proper": "Newell's Old Boys",
+            "Sprite": "[](#sprite1-p441)"
         },
         {
-            "FS_TeamName": "Patronato"
+            "FS_TeamName": "Patronato",
+            "Proper": "Patronato",
+            "Sprite": "[](#sprite7-p192)"
         },
         {
-            "FS_TeamName": "Racing Club"
+            "FS_TeamName": "Racing Club",
+            "Proper": "Racing",
+            "Sprite": "[](#sprite1-p402)"
         },
         {
-            "FS_TeamName": "River Plate"
+            "FS_TeamName": "River Plate",
+            "Proper": "River Plate",
+            "Sprite": "[](#sprite1-p110)"
         },
         {
-            "FS_TeamName": "Rosario Central"
+            "FS_TeamName": "Rosario Central",
+            "Proper": "Rosario Central",
+            "Sprite": "[](#sprite2-p467)"
         },
         {
-            "FS_TeamName": "San Lorenzo"
+            "FS_TeamName": "San Lorenzo",
+            "Proper": "San Lorenzo",
+            "Sprite": "[](#sprite1-p446)"
         },
         {
-            "FS_TeamName": "Talleres Cordoba"
+            "FS_TeamName": "Talleres Cordoba",
+            "Proper": "Talleres de C\u00f3rdoba",
+            "Sprite": "[](#sprite7-p456)"
         },
         {
-            "FS_TeamName": "Union de Santa Fe"
+            "FS_TeamName": "Union de Santa Fe",
+            "Proper": "Uni\u00f3n",
+            "Sprite": "[](#sprite5-p115)"
         },
         {
-            "FS_TeamName": "Velez Sarsfield"
+            "FS_TeamName": "Velez Sarsfield",
+            "Proper": "V\u00e9lez Sarsfield",
+            "Sprite": "[](#sprite1-p403)"
         }
     ],
     "Armenia": [
         {
-            "FS_TeamName": "Alashkert"
+            "FS_TeamName": "Alashkert",
+            "Proper": "Alashkert",
+            "Sprite": "[](#sprite5-p361)"
         },
         {
-            "FS_TeamName": "Alashkert 2"
+            "FS_TeamName": "Alashkert 2",
+            "Proper": "Alashkert",
+            "Sprite": "[](#sprite5-p361)"
         },
         {
-            "FS_TeamName": "Ararat Yerevan"
+            "FS_TeamName": "Ararat Yerevan",
+            "Proper": "Ararat Yerevan",
+            "Sprite": "[](#sprite5-p360)"
         },
         {
-            "FS_TeamName": "Ararat Yerevan 2"
+            "FS_TeamName": "Ararat Yerevan 2",
+            "Proper": "Ararat Yerevan",
+            "Sprite": "[](#sprite5-p360)"
         },
         {
-            "FS_TeamName": "Ararat-Armenia"
+            "FS_TeamName": "Ararat-Armenia",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Ararat-Armenia 2"
+            "FS_TeamName": "Ararat-Armenia 2",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "BKMA"
+            "FS_TeamName": "BKMA",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Gandzasar"
+            "FS_TeamName": "Gandzasar",
+            "Proper": "Gandzasar Kapan",
+            "Sprite": "[](#sprite5-p423)"
         },
         {
-            "FS_TeamName": "Lernayin Artsakh"
+            "FS_TeamName": "Lernayin Artsakh",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Lori"
+            "FS_TeamName": "Lori",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Noah"
+            "FS_TeamName": "Noah",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Noravank"
+            "FS_TeamName": "Noravank",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Pyunik Yerevan"
+            "FS_TeamName": "Pyunik Yerevan",
+            "Proper": "Pyunik",
+            "Sprite": "[](#sprite5-p424)"
         },
         {
-            "FS_TeamName": "Pyunik Yerevan 2"
+            "FS_TeamName": "Pyunik Yerevan 2",
+            "Proper": "Pyunik",
+            "Sprite": "[](#sprite5-p424)"
         },
         {
-            "FS_TeamName": "Sevan"
+            "FS_TeamName": "Sevan",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Shirak Gyumri"
+            "FS_TeamName": "Shirak Gyumri",
+            "Proper": "Shirak",
+            "Sprite": "[](#sprite4-p252)"
         },
         {
-            "FS_TeamName": "Shirak Gyumri 2"
+            "FS_TeamName": "Shirak Gyumri 2",
+            "Proper": "Shirak",
+            "Sprite": "[](#sprite4-p252)"
         },
         {
-            "FS_TeamName": "Urartu"
+            "FS_TeamName": "Urartu",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Urartu 2"
+            "FS_TeamName": "Urartu 2",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Van"
+            "FS_TeamName": "Van",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "West Armenia"
+            "FS_TeamName": "West Armenia",
+            "Sprite": null
         }
     ],
     "Aruba": [
@@ -476,1010 +627,1437 @@
     ],
     "Australia": [
         {
-            "FS_TeamName": "APIA Tigers"
+            "FS_TeamName": "APIA Tigers",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Acacia Ridge"
+            "FS_TeamName": "Acacia Ridge",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Adamstown Rosebud"
+            "FS_TeamName": "Adamstown Rosebud",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Adelaide City"
+            "FS_TeamName": "Adelaide City",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Adelaide Comets"
+            "FS_TeamName": "Adelaide Comets",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Adelaide Olympic"
+            "FS_TeamName": "Adelaide Olympic",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Adelaide Raiders"
+            "FS_TeamName": "Adelaide Raiders",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Adelaide United"
+            "FS_TeamName": "Adelaide United",
+            "Proper": "Adelaide United",
+            "Sprite": "[](#sprite1-p195)"
         },
         {
-            "FS_TeamName": "Adelaide W"
+            "FS_TeamName": "Adelaide W",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Albany Creek"
+            "FS_TeamName": "Albany Creek",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Altona Magic"
+            "FS_TeamName": "Altona Magic",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Armadale"
+            "FS_TeamName": "Armadale",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Avondale FC"
+            "FS_TeamName": "Avondale FC",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Balcatta"
+            "FS_TeamName": "Balcatta",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Bayside"
+            "FS_TeamName": "Bayside",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Bayswater"
+            "FS_TeamName": "Bayswater",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Belconnen United"
+            "FS_TeamName": "Belconnen United",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Bentleigh Greens"
+            "FS_TeamName": "Bentleigh Greens",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Blacktown City"
+            "FS_TeamName": "Blacktown City",
+            "Proper": "Blacktown City",
+            "Sprite": "[](#sprite8-p453)"
         },
         {
-            "FS_TeamName": "Blue Eagles"
+            "FS_TeamName": "Blue Eagles",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Brisbane City"
+            "FS_TeamName": "Brisbane City",
+            "Proper": "Brisbane City",
+            "Sprite": "[](#sprite8-p344)"
         },
         {
-            "FS_TeamName": "Brisbane K."
+            "FS_TeamName": "Brisbane K.",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Brisbane Roar"
+            "FS_TeamName": "Brisbane Roar",
+            "Proper": "Brisbane Roar",
+            "Sprite": "[](#sprite1-p129)"
         },
         {
-            "FS_TeamName": "Brisbane Roar W"
+            "FS_TeamName": "Brisbane Roar W",
+            "Proper": "Brisbane Roar",
+            "Sprite": "[](#sprite1-p129)"
         },
         {
-            "FS_TeamName": "Brisbane Strikers"
+            "FS_TeamName": "Brisbane Strikers",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Broadmeadow"
+            "FS_TeamName": "Broadmeadow",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Caboolture"
+            "FS_TeamName": "Caboolture",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Campbelltown City"
+            "FS_TeamName": "Campbelltown City",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Canberra Croatia"
+            "FS_TeamName": "Canberra Croatia",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Canberra Olympic"
+            "FS_TeamName": "Canberra Olympic",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Canberra W"
+            "FS_TeamName": "Canberra W",
+            "Proper": "Canberra United",
+            "Sprite": "[](#sprite2-p222)"
         },
         {
-            "FS_TeamName": "Capalaba FC"
+            "FS_TeamName": "Capalaba FC",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Centenary Stormers"
+            "FS_TeamName": "Centenary Stormers",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Central Coast Mariners"
+            "FS_TeamName": "Central Coast Mariners",
+            "Proper": "Central Coast Mariners",
+            "Sprite": "[](#sprite1-p226)"
         },
         {
-            "FS_TeamName": "Charlestown Azzurri"
+            "FS_TeamName": "Charlestown Azzurri",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Clarence Zebras"
+            "FS_TeamName": "Clarence Zebras",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Cockburn City"
+            "FS_TeamName": "Cockburn City",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Croydon Kings"
+            "FS_TeamName": "Croydon Kings",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Cumberland Utd."
+            "FS_TeamName": "Cumberland Utd.",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Dandenong City"
+            "FS_TeamName": "Dandenong City",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Dandenong Thunder"
+            "FS_TeamName": "Dandenong Thunder",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Devonport"
+            "FS_TeamName": "Devonport",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Druitt Town Rangers"
+            "FS_TeamName": "Druitt Town Rangers",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "ECU Joondalup"
+            "FS_TeamName": "ECU Joondalup",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Eastern Lions"
+            "FS_TeamName": "Eastern Lions",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Eastern Suburbs"
+            "FS_TeamName": "Eastern Suburbs",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Edgeworth E."
+            "FS_TeamName": "Edgeworth E.",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Floreat Athena"
+            "FS_TeamName": "Floreat Athena",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Glenorchy Knights"
+            "FS_TeamName": "Glenorchy Knights",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Gold Coast"
+            "FS_TeamName": "Gold Coast",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Gold Coast Knights"
+            "FS_TeamName": "Gold Coast Knights",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Grange Thistle"
+            "FS_TeamName": "Grange Thistle",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Green Gully"
+            "FS_TeamName": "Green Gully",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Gungahlin"
+            "FS_TeamName": "Gungahlin",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Gwelup Croatia SC"
+            "FS_TeamName": "Gwelup Croatia SC",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Heidelberg Utd"
+            "FS_TeamName": "Heidelberg Utd",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Hume City"
+            "FS_TeamName": "Hume City",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Inglewood Utd"
+            "FS_TeamName": "Inglewood Utd",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Kingborough Lions"
+            "FS_TeamName": "Kingborough Lions",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Lake Macquarie"
+            "FS_TeamName": "Lake Macquarie",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Lambton J."
+            "FS_TeamName": "Lambton J.",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Launceston"
+            "FS_TeamName": "Launceston",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Macarthur FC"
+            "FS_TeamName": "Macarthur FC",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Magpies Crusaders"
+            "FS_TeamName": "Magpies Crusaders",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Maitland"
+            "FS_TeamName": "Maitland",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Manly Utd"
+            "FS_TeamName": "Manly Utd",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Marconi Stallions"
+            "FS_TeamName": "Marconi Stallions",
+            "Proper": "Marconi Stallions",
+            "Sprite": "[](#sprite3-p31)"
         },
         {
-            "FS_TeamName": "Melbourne City"
+            "FS_TeamName": "Melbourne City",
+            "Proper": "Melbourne City",
+            "Sprite": "[](#sprite1-p264)"
         },
         {
-            "FS_TeamName": "Melbourne City W"
+            "FS_TeamName": "Melbourne City W",
+            "Proper": "Melbourne City",
+            "Sprite": "[](#sprite1-p264)"
         },
         {
-            "FS_TeamName": "Melbourne Knights"
+            "FS_TeamName": "Melbourne Knights",
+            "Proper": "Melbourne Knights",
+            "Sprite": "[](#sprite4-p413)"
         },
         {
-            "FS_TeamName": "Melbourne Victory"
+            "FS_TeamName": "Melbourne Victory",
+            "Proper": "Melbourne Victory",
+            "Sprite": "[](#sprite1-p98)"
         },
         {
-            "FS_TeamName": "Melbourne Victory W"
+            "FS_TeamName": "Melbourne Victory W",
+            "Proper": "Melbourne Victory",
+            "Sprite": "[](#sprite1-p98)"
         },
         {
-            "FS_TeamName": "Modbury Jets"
+            "FS_TeamName": "Modbury Jets",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Monaro Panthers"
+            "FS_TeamName": "Monaro Panthers",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Moreton Bay Utd"
+            "FS_TeamName": "Moreton Bay Utd",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "NE Metrostars"
+            "FS_TeamName": "NE Metrostars",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Newcastle Jets"
+            "FS_TeamName": "Newcastle Jets",
+            "Proper": "Newcastle Jets",
+            "Sprite": "[](#sprite1-p250)"
         },
         {
-            "FS_TeamName": "Newcastle Olympic"
+            "FS_TeamName": "Newcastle Olympic",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Newcastle W"
+            "FS_TeamName": "Newcastle W",
+            "Proper": "Newcastle Jets",
+            "Sprite": "[](#sprite1-p250)"
         },
         {
-            "FS_TeamName": "North Star"
+            "FS_TeamName": "North Star",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Northbridge Bulls"
+            "FS_TeamName": "Northbridge Bulls",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Oakleigh Cannons"
+            "FS_TeamName": "Oakleigh Cannons",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Olympia Warriors"
+            "FS_TeamName": "Olympia Warriors",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Olympic FC"
+            "FS_TeamName": "Olympic FC",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Para"
+            "FS_TeamName": "Para",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Peninsula"
+            "FS_TeamName": "Peninsula",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Perth Glory"
+            "FS_TeamName": "Perth Glory",
+            "Proper": "Perth Glory",
+            "Sprite": "[](#sprite1-p222)"
         },
         {
-            "FS_TeamName": "Perth SC"
+            "FS_TeamName": "Perth SC",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Perth W"
+            "FS_TeamName": "Perth W",
+            "Proper": "Perth Glory",
+            "Sprite": "[](#sprite1-p222)"
         },
         {
-            "FS_TeamName": "Port Melbourne Sharks"
+            "FS_TeamName": "Port Melbourne Sharks",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Queensland Lions"
+            "FS_TeamName": "Queensland Lions",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Redlands"
+            "FS_TeamName": "Redlands",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Riverside Olympic"
+            "FS_TeamName": "Riverside Olympic",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Rockdale City Suns"
+            "FS_TeamName": "Rockdale City Suns",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Rockingham City"
+            "FS_TeamName": "Rockingham City",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Sorrento"
+            "FS_TeamName": "Sorrento",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "South Hobart"
+            "FS_TeamName": "South Hobart",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "South Melbourne"
+            "FS_TeamName": "South Melbourne",
+            "Proper": "South Melbourne",
+            "Sprite": "[](#sprite7-p324)"
         },
         {
-            "FS_TeamName": "St Albans"
+            "FS_TeamName": "St Albans",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "St. George Willawong"
+            "FS_TeamName": "St. George Willawong",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Sunshine Coast Wanderers"
+            "FS_TeamName": "Sunshine Coast Wanderers",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Sutherland Sharks"
+            "FS_TeamName": "Sutherland Sharks",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Sydney FC"
+            "FS_TeamName": "Sydney FC",
+            "Proper": "Sydney FC",
+            "Sprite": "[](#sprite1-p148)"
         },
         {
-            "FS_TeamName": "Sydney Olympic"
+            "FS_TeamName": "Sydney Olympic",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Sydney Utd"
+            "FS_TeamName": "Sydney Utd",
+            "Proper": "Sydney United 58",
+            "Sprite": "[](#sprite8-p389)"
         },
         {
-            "FS_TeamName": "Sydney W"
+            "FS_TeamName": "Sydney W",
+            "Proper": "Sydney FC",
+            "Sprite": "[](#sprite1-p148)"
         },
         {
-            "FS_TeamName": "Taringa"
+            "FS_TeamName": "Taringa",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "The Gap"
+            "FS_TeamName": "The Gap",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Tigers FC"
+            "FS_TeamName": "Tigers FC",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Toowong"
+            "FS_TeamName": "Toowong",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Tuggeranong Utd"
+            "FS_TeamName": "Tuggeranong Utd",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Valentine"
+            "FS_TeamName": "Valentine",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "WS Wanderers"
+            "FS_TeamName": "WS Wanderers",
+            "Proper": "Western Sydney Wanderers",
+            "Sprite": "[](#sprite1-p115)"
         },
         {
-            "FS_TeamName": "WS Wanderers W"
+            "FS_TeamName": "WS Wanderers W",
+            "Proper": "Western Sydney Wanderers",
+            "Sprite": "[](#sprite1-p115)"
         },
         {
-            "FS_TeamName": "Wellington Phoenix"
+            "FS_TeamName": "Wellington Phoenix",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "West Canberra Wanderers"
+            "FS_TeamName": "West Canberra Wanderers",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Western United"
+            "FS_TeamName": "Western United",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Weston Workers"
+            "FS_TeamName": "Weston Workers",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Wollongong Wolves"
+            "FS_TeamName": "Wollongong Wolves",
+            "Proper": "Wollongong Wolves",
+            "Sprite": "[](#sprite7-p399)"
         }
     ],
     "Austria": [
         {
-            "FS_TeamName": "A. Klagenfurt"
+            "FS_TeamName": "A. Klagenfurt",
+            "Proper": "Austria Klagenfurt",
+            "Sprite": "[](#sprite8-p352)"
         },
         {
-            "FS_TeamName": "A. Lustenau"
+            "FS_TeamName": "A. Lustenau",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "A. Lustenau (Am)"
+            "FS_TeamName": "A. Lustenau (Am)",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "A. Salzburg"
+            "FS_TeamName": "A. Salzburg",
+            "Proper": "Austria Salzburg",
+            "Sprite": "[](#sprite2-p109)"
         },
         {
-            "FS_TeamName": "AC Wolfsberger (Am)"
+            "FS_TeamName": "AC Wolfsberger (Am)",
+            "Proper": "Wolfsberger AC",
+            "Sprite": "[](#sprite5-p294)"
         },
         {
-            "FS_TeamName": "Admira"
+            "FS_TeamName": "Admira",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Admira (Am)"
+            "FS_TeamName": "Admira (Am)",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Allerheiligen"
+            "FS_TeamName": "Allerheiligen",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Altach"
+            "FS_TeamName": "Altach",
+            "Proper": "Rheindorf Altach",
+            "Sprite": "[](#sprite5-p90)"
         },
         {
-            "FS_TeamName": "Altenmarkt W"
+            "FS_TeamName": "Altenmarkt W",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Amstetten"
+            "FS_TeamName": "Amstetten",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Austria Vienna"
+            "FS_TeamName": "Austria Vienna",
+            "Proper": "Austria Wien",
+            "Sprite": "[](#sprite1-p364)"
         },
         {
-            "FS_TeamName": "Austria Vienna II"
+            "FS_TeamName": "Austria Vienna II",
+            "Proper": "Austria Wien",
+            "Sprite": "[](#sprite1-p364)"
         },
         {
-            "FS_TeamName": "BW Linz"
+            "FS_TeamName": "BW Linz",
+            "Proper": "Blau-Wei\u00df Linz",
+            "Sprite": "[](#sprite4-p83)"
         },
         {
-            "FS_TeamName": "Bad Gleichenberg"
+            "FS_TeamName": "Bad Gleichenberg",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Bergheim W"
+            "FS_TeamName": "Bergheim W",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Bischofshofen"
+            "FS_TeamName": "Bischofshofen",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Bregenz"
+            "FS_TeamName": "Bregenz",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Bruck Leitha"
+            "FS_TeamName": "Bruck Leitha",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Deutschlandsberger"
+            "FS_TeamName": "Deutschlandsberger",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Dornbirn"
+            "FS_TeamName": "Dornbirn",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Dornbirner SV"
+            "FS_TeamName": "Dornbirner SV",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Drassburg"
+            "FS_TeamName": "Drassburg",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "FC Juniors"
+            "FS_TeamName": "FC Juniors",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Floridsdorfer AC"
+            "FS_TeamName": "Floridsdorfer AC",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Gleisdorf"
+            "FS_TeamName": "Gleisdorf",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Grazer"
+            "FS_TeamName": "Grazer",
+            "Proper": "Grazer AK",
+            "Sprite": "[](#sprite8-p483)"
         },
         {
-            "FS_TeamName": "Grodig"
+            "FS_TeamName": "Grodig",
+            "Proper": "SV Gr\u00f6dig",
+            "Sprite": "[](#sprite5-p292)"
         },
         {
-            "FS_TeamName": "Hall"
+            "FS_TeamName": "Hall",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Hartberg"
+            "FS_TeamName": "Hartberg",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Hohenems"
+            "FS_TeamName": "Hohenems",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Horn"
+            "FS_TeamName": "Horn",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Horn W"
+            "FS_TeamName": "Horn W",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Johann"
+            "FS_TeamName": "Johann",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Kalsdorf"
+            "FS_TeamName": "Kalsdorf",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Kapfenberg"
+            "FS_TeamName": "Kapfenberg",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Kitzbuhel"
+            "FS_TeamName": "Kitzbuhel",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Kuchl"
+            "FS_TeamName": "Kuchl",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Kufstein"
+            "FS_TeamName": "Kufstein",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "LASK"
+            "FS_TeamName": "LASK",
+            "Proper": "LASK Linz",
+            "Sprite": "[](#sprite4-p324)"
         },
         {
-            "FS_TeamName": "Lafnitz"
+            "FS_TeamName": "Lafnitz",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Landhaus W"
+            "FS_TeamName": "Landhaus W",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Langenegg"
+            "FS_TeamName": "Langenegg",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Lauterach"
+            "FS_TeamName": "Lauterach",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Leobendorf"
+            "FS_TeamName": "Leobendorf",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Liefering"
+            "FS_TeamName": "Liefering",
+            "Proper": "FC Liefering",
+            "Sprite": "[](#sprite4-p443)"
         },
         {
-            "FS_TeamName": "Marchfeld"
+            "FS_TeamName": "Marchfeld",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Mauerwerk"
+            "FS_TeamName": "Mauerwerk",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Neulengbach W"
+            "FS_TeamName": "Neulengbach W",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Neusiedl"
+            "FS_TeamName": "Neusiedl",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "RW Rankweil"
+            "FS_TeamName": "RW Rankweil",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Rapid Vienna"
+            "FS_TeamName": "Rapid Vienna",
+            "Proper": "Rapid Wien",
+            "Sprite": "[](#sprite1-p193)"
         },
         {
-            "FS_TeamName": "Reichenau"
+            "FS_TeamName": "Reichenau",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Ried"
+            "FS_TeamName": "Ried",
+            "Proper": "SV Ried",
+            "Sprite": "[](#sprite4-p166)"
         },
         {
-            "FS_TeamName": "Ried (Am)"
+            "FS_TeamName": "Ried (Am)",
+            "Proper": "SV Ried",
+            "Sprite": "[](#sprite4-p166)"
         },
         {
-            "FS_TeamName": "Rotenberg"
+            "FS_TeamName": "Rotenberg",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Rothis"
+            "FS_TeamName": "Rothis",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "SAK 1914"
+            "FS_TeamName": "SAK 1914",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "SC Imst"
+            "FS_TeamName": "SC Imst",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "SC Weiz"
+            "FS_TeamName": "SC Weiz",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "SK Rapid Vienna (Am)"
+            "FS_TeamName": "SK Rapid Vienna (Am)",
+            "Proper": "Rapid Wien",
+            "Sprite": "[](#sprite1-p193)"
         },
         {
-            "FS_TeamName": "SV Spittal"
+            "FS_TeamName": "SV Spittal",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "SV Worgl"
+            "FS_TeamName": "SV Worgl",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Saalfelden"
+            "FS_TeamName": "Saalfelden",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Salzburg"
+            "FS_TeamName": "Salzburg",
+            "Proper": "Red Bull Salzburg",
+            "Sprite": "[](#sprite1-p455)"
         },
         {
-            "FS_TeamName": "Schwaz"
+            "FS_TeamName": "Schwaz",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Seekirchen"
+            "FS_TeamName": "Seekirchen",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "St. Polten"
+            "FS_TeamName": "St. Polten",
+            "Proper": "St. P\u00f6lten",
+            "Sprite": "[](#sprite8-p190)"
         },
         {
-            "FS_TeamName": "St. Polten W"
+            "FS_TeamName": "St. Polten W",
+            "Proper": "St. P\u00f6lten",
+            "Sprite": "[](#sprite8-p190)"
         },
         {
-            "FS_TeamName": "Stadl Paura"
+            "FS_TeamName": "Stadl Paura",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Stripfing"
+            "FS_TeamName": "Stripfing",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Sturm Graz"
+            "FS_TeamName": "Sturm Graz",
+            "Proper": "Sturm Graz",
+            "Sprite": "[](#sprite1-p259)"
         },
         {
-            "FS_TeamName": "Sturm Graz (Am)"
+            "FS_TeamName": "Sturm Graz (Am)",
+            "Proper": "Sturm Graz",
+            "Sprite": "[](#sprite1-p259)"
         },
         {
-            "FS_TeamName": "Sturm Graz W"
+            "FS_TeamName": "Sturm Graz W",
+            "Proper": "Sturm Graz",
+            "Sprite": "[](#sprite1-p259)"
         },
         {
-            "FS_TeamName": "Sudburgenland W"
+            "FS_TeamName": "Sudburgenland W",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Telfs"
+            "FS_TeamName": "Telfs",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Tirol"
+            "FS_TeamName": "Tirol",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Tirol (Am)"
+            "FS_TeamName": "Tirol (Am)",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Traiskirchen"
+            "FS_TeamName": "Traiskirchen",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "USK Anif"
+            "FS_TeamName": "USK Anif",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Union Gurten"
+            "FS_TeamName": "Union Gurten",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Vocklamarkt"
+            "FS_TeamName": "Vocklamarkt",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Vorderland W"
+            "FS_TeamName": "Vorderland W",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Vorwarts Steyr"
+            "FS_TeamName": "Vorwarts Steyr",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "WSC Wels"
+            "FS_TeamName": "WSC Wels",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Wacker Innsbruck"
+            "FS_TeamName": "Wacker Innsbruck",
+            "Proper": "FC Wacker Innsbruck",
+            "Sprite": "[](#sprite2-p156)"
         },
         {
-            "FS_TeamName": "Wacker Innsbruck (Am)"
+            "FS_TeamName": "Wacker Innsbruck (Am)",
+            "Proper": "FC Wacker Innsbruck",
+            "Sprite": "[](#sprite2-p156)"
         },
         {
-            "FS_TeamName": "Wacker Innsbruck W"
+            "FS_TeamName": "Wacker Innsbruck W",
+            "Proper": "FC Wacker Innsbruck",
+            "Sprite": "[](#sprite2-p156)"
         },
         {
-            "FS_TeamName": "Wals-Grunau"
+            "FS_TeamName": "Wals-Grunau",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Weindorf St. Anna"
+            "FS_TeamName": "Weindorf St. Anna",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Wels"
+            "FS_TeamName": "Wels",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Wiener Linien"
+            "FS_TeamName": "Wiener Linien",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Wiener Neustadt"
+            "FS_TeamName": "Wiener Neustadt",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Wiener Sport-Club"
+            "FS_TeamName": "Wiener Sport-Club",
+            "Proper": "Wiener SK",
+            "Sprite": "[](#sprite4-p430)"
         },
         {
-            "FS_TeamName": "Wiener Viktoria"
+            "FS_TeamName": "Wiener Viktoria",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Wolfsberger AC"
+            "FS_TeamName": "Wolfsberger AC",
+            "Proper": "Wolfsberger AC",
+            "Sprite": "[](#sprite5-p294)"
         },
         {
-            "FS_TeamName": "Wolfurt"
+            "FS_TeamName": "Wolfurt",
+            "Sprite": null
         }
     ],
     "Azerbaijan": [
         {
-            "FS_TeamName": "Gabala"
+            "FS_TeamName": "Gabala",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Keshla"
+            "FS_TeamName": "Keshla",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Neftci Baku"
+            "FS_TeamName": "Neftci Baku",
+            "Proper": "Neft\u00e7i",
+            "Sprite": "[](#sprite5-p410)"
         },
         {
-            "FS_TeamName": "Qarabag"
+            "FS_TeamName": "Qarabag",
+            "Proper": "Qaraba\u011f",
+            "Sprite": "[](#sprite4-p342)"
         },
         {
-            "FS_TeamName": "Sabah Baku"
+            "FS_TeamName": "Sabah Baku",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Sabail"
+            "FS_TeamName": "Sabail",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Sumqayit"
+            "FS_TeamName": "Sumqayit",
+            "Proper": "Sumqayit",
+            "Sprite": "[](#sprite5-p408)"
         },
         {
-            "FS_TeamName": "Zira"
+            "FS_TeamName": "Zira",
+            "Proper": "Zir\u0259",
+            "Sprite": "[](#sprite5-p413)"
         }
     ],
     "Bahrain": [
         {
-            "FS_TeamName": "Al Riffa"
+            "FS_TeamName": "Al Riffa",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Al-Ahli Manama"
+            "FS_TeamName": "Al-Ahli Manama",
+            "Proper": "Al-Ahli Club",
+            "Sprite": "[](#sprite4-p51)"
         },
         {
-            "FS_TeamName": "Al-Budaiya"
+            "FS_TeamName": "Al-Budaiya",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Al-Hala"
+            "FS_TeamName": "Al-Hala",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Al-Hidd"
+            "FS_TeamName": "Al-Hidd",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Al-Ittifaq"
+            "FS_TeamName": "Al-Ittifaq",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Al-Ittihad"
+            "FS_TeamName": "Al-Ittihad",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Al-Muharraq"
+            "FS_TeamName": "Al-Muharraq",
+            "Proper": "Al-Muharraq",
+            "Sprite": "[](#sprite8-p257)"
         },
         {
-            "FS_TeamName": "Al-Najma"
+            "FS_TeamName": "Al-Najma",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Al-Shabbab"
+            "FS_TeamName": "Al-Shabbab",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Bahrain SC"
+            "FS_TeamName": "Bahrain SC",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Busaiteen"
+            "FS_TeamName": "Busaiteen",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "East Riffa"
+            "FS_TeamName": "East Riffa",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Isa Town"
+            "FS_TeamName": "Isa Town",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Malkia"
+            "FS_TeamName": "Malkia",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Manama Club"
+            "FS_TeamName": "Manama Club",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Qalali"
+            "FS_TeamName": "Qalali",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Sitra"
+            "FS_TeamName": "Sitra",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Tadamun Buri"
+            "FS_TeamName": "Tadamun Buri",
+            "Sprite": null
         }
     ],
     "Bangladesh": [
         {
-            "FS_TeamName": "Abahani Chittagong"
+            "FS_TeamName": "Abahani Chittagong",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Abahani Limited"
+            "FS_TeamName": "Abahani Limited",
+            "Proper": "Abahani Limited",
+            "Sprite": "[](#sprite5-p317)"
         },
         {
-            "FS_TeamName": "Arambagh"
+            "FS_TeamName": "Arambagh",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Bangladesh Police"
+            "FS_TeamName": "Bangladesh Police",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Baridhara"
+            "FS_TeamName": "Baridhara",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Bashundara Kings"
+            "FS_TeamName": "Bashundara Kings",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Brothers U."
+            "FS_TeamName": "Brothers U.",
+            "Proper": "Brothers Union",
+            "Sprite": "[](#sprite5-p318)"
         },
         {
-            "FS_TeamName": "Mohammedan"
+            "FS_TeamName": "Mohammedan",
+            "Proper": "Mohammedan Sporting Club",
+            "Sprite": "[](#sprite5-p316)"
         },
         {
-            "FS_TeamName": "Muktijoddha Sangsad"
+            "FS_TeamName": "Muktijoddha Sangsad",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Rahmatgonj MFS"
+            "FS_TeamName": "Rahmatgonj MFS",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Saif Sporting Club"
+            "FS_TeamName": "Saif Sporting Club",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Sheikh Jamal"
+            "FS_TeamName": "Sheikh Jamal",
+            "Proper": "Sheikh Jamal Dhanmondi Club",
+            "Sprite": "[](#sprite5-p315)"
         },
         {
-            "FS_TeamName": "Sheikh Russel"
+            "FS_TeamName": "Sheikh Russel",
+            "Proper": "Sheikh Russel KC",
+            "Sprite": "[](#sprite4-p206)"
         }
     ],
     "Belarus": [
         {
-            "FS_TeamName": "Arsenal Dzyarzhynsk"
+            "FS_TeamName": "Arsenal Dzyarzhynsk",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "BATE"
+            "FS_TeamName": "BATE",
+            "Proper": "BATE",
+            "Sprite": "[](#sprite4-p43)"
         },
         {
-            "FS_TeamName": "BATE 2"
+            "FS_TeamName": "BATE 2",
+            "Proper": "BATE",
+            "Sprite": "[](#sprite4-p43)"
         },
         {
-            "FS_TeamName": "BGU Minsk"
+            "FS_TeamName": "BGU Minsk",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Baranovici"
+            "FS_TeamName": "Baranovici",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Belarus U19 W"
+            "FS_TeamName": "Belarus U19 W",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Belshina"
+            "FS_TeamName": "Belshina",
+            "Proper": "Belshina Bobruisk",
+            "Sprite": "[](#sprite5-p364)"
         },
         {
-            "FS_TeamName": "Belshina 2"
+            "FS_TeamName": "Belshina 2",
+            "Proper": "Belshina Bobruisk 2",
+            "Sprite": "[](#sprite5-p364)"
         },
         {
-            "FS_TeamName": "Bobruichanka W"
+            "FS_TeamName": "Bobruichanka W",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Botsor Brest W"
+            "FS_TeamName": "Botsor Brest W",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Brest 2"
+            "FS_TeamName": "Brest 2",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Brest Malorita"
+            "FS_TeamName": "Brest Malorita",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "BumProm Gomel"
+            "FS_TeamName": "BumProm Gomel",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Chayka Zelva"
+            "FS_TeamName": "Chayka Zelva",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Chimik Svetlogorsk"
+            "FS_TeamName": "Chimik Svetlogorsk",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Din. Minsk"
+            "FS_TeamName": "Din. Minsk",
+            "Proper": "Dinamo Minsk",
+            "Sprite": "[](#sprite5-p243)"
         },
         {
-            "FS_TeamName": "Din. Minsk 2"
+            "FS_TeamName": "Din. Minsk 2",
+            "Proper": "Dinamo Minsk 2",
+            "Sprite": "[](#sprite5-p243)"
         },
         {
-            "FS_TeamName": "Din. Minsk W"
+            "FS_TeamName": "Din. Minsk W",
+            "Proper": "Dinamo Minsk",
+            "Sprite": "[](#sprite5-p243)"
         },
         {
-            "FS_TeamName": "Dnepr Mogilev"
+            "FS_TeamName": "Dnepr Mogilev",
+            "Proper": "Dnepr Mogilev",
+            "Sprite": "[](#sprite8-p422)"
         },
         {
-            "FS_TeamName": "Dnepr Mogilev W"
+            "FS_TeamName": "Dnepr Mogilev W",
+            "Proper": "Dnepr Mogilev",
+            "Sprite": "[](#sprite8-p422)"
         },
         {
-            "FS_TeamName": "Dnepr Rogachev"
+            "FS_TeamName": "Dnepr Rogachev",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Dynamo Brest"
+            "FS_TeamName": "Dynamo Brest",
+            "Proper": "Dinamo Brest",
+            "Sprite": "[](#sprite5-p366)"
         },
         {
-            "FS_TeamName": "Energetik-BGATU"
+            "FS_TeamName": "Energetik-BGATU",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Energetik-BGU"
+            "FS_TeamName": "Energetik-BGU",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Energetik-BGU 2"
+            "FS_TeamName": "Energetik-BGU 2",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "FC Gomel"
+            "FS_TeamName": "FC Gomel",
+            "Proper": "FC Gomel",
+            "Sprite": "[](#sprite5-p367)"
         },
         {
-            "FS_TeamName": "FC Minsk"
+            "FS_TeamName": "FC Minsk",
+            "Proper": "FC Minsk",
+            "Sprite": "[](#sprite5-p432)"
         },
         {
-            "FS_TeamName": "FC Slonim"
+            "FS_TeamName": "FC Slonim",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "FK Gorodeja 2"
+            "FS_TeamName": "FK Gorodeja 2",
+            "Proper": "Gorodeya",
+            "Sprite": "[](#sprite8-p8)"
         },
         {
-            "FS_TeamName": "Gorki"
+            "FS_TeamName": "Gorki",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Gorodeja"
+            "FS_TeamName": "Gorodeja",
+            "Proper": "Gorodeya",
+            "Sprite": "[](#sprite8-p8)"
         },
         {
-            "FS_TeamName": "Isloch"
+            "FS_TeamName": "Isloch",
+            "Proper": "Isloch",
+            "Sprite": "[](#sprite8-p6)"
         },
         {
-            "FS_TeamName": "Isloch 2"
+            "FS_TeamName": "Isloch 2",
+            "Proper": "Isloch",
+            "Sprite": "[](#sprite8-p6)"
         },
         {
-            "FS_TeamName": "Ivatsevichi"
+            "FS_TeamName": "Ivatsevichi",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Kronon Stolbtsy"
+            "FS_TeamName": "Kronon Stolbtsy",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Krumkachy"
+            "FS_TeamName": "Krumkachy",
+            "Proper": "Krumkachy",
+            "Sprite": "[](#sprite8-p7)"
         },
         {
-            "FS_TeamName": "Lida"
+            "FS_TeamName": "Lida",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Lokomotiv Gomel"
+            "FS_TeamName": "Lokomotiv Gomel",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Meliorator Zhitkovichi"
+            "FS_TeamName": "Meliorator Zhitkovichi",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Mikashevichi"
+            "FS_TeamName": "Mikashevichi",
+            "Proper": "Granit Mikashevichi",
+            "Sprite": "[](#sprite5-p430)"
         },
         {
-            "FS_TeamName": "Minsk 2"
+            "FS_TeamName": "Minsk 2",
+            "Proper": "FC Minsk",
+            "Sprite": "[](#sprite5-p432)"
         },
         {
-            "FS_TeamName": "Minsk FK W"
+            "FS_TeamName": "Minsk FK W",
+            "Proper": "FC Minsk",
+            "Sprite": "[](#sprite5-p432)"
         },
         {
-            "FS_TeamName": "Molodechno"
+            "FS_TeamName": "Molodechno",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Naftan"
+            "FS_TeamName": "Naftan",
+            "Proper": "Naftan Novopolotsk",
+            "Sprite": "[](#sprite5-p429)"
         },
         {
-            "FS_TeamName": "Neman"
+            "FS_TeamName": "Neman",
+            "Proper": "Neman Grodno",
+            "Sprite": "[](#sprite5-p428)"
         },
         {
-            "FS_TeamName": "Neman 2"
+            "FS_TeamName": "Neman 2",
+            "Proper": "Neman Grodno",
+            "Sprite": "[](#sprite5-p428)"
         },
         {
-            "FS_TeamName": "Neman W"
+            "FS_TeamName": "Neman W",
+            "Proper": "Neman Grodno",
+            "Sprite": "[](#sprite5-p428)"
         },
         {
-            "FS_TeamName": "Orsha"
+            "FS_TeamName": "Orsha",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Oshmyany"
+            "FS_TeamName": "Oshmyany",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Osipovichi"
+            "FS_TeamName": "Osipovichi",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Ostrovets"
+            "FS_TeamName": "Ostrovets",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Pershiy Region"
+            "FS_TeamName": "Pershiy Region",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Petrikov"
+            "FS_TeamName": "Petrikov",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Polotsk"
+            "FS_TeamName": "Polotsk",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Rukh Brest"
+            "FS_TeamName": "Rukh Brest",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Rukh Brest 2"
+            "FS_TeamName": "Rukh Brest 2",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "SMIavtotrans"
+            "FS_TeamName": "SMIavtotrans",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Sachter Soligorsk 2"
+            "FS_TeamName": "Sachter Soligorsk 2",
+            "Proper": "Shakhtyor Soligorsk",
+            "Sprite": "[](#sprite5-p365)"
         },
         {
-            "FS_TeamName": "Shakhtyor Soligorsk"
+            "FS_TeamName": "Shakhtyor Soligorsk",
+            "Proper": "Shakhtyor Soligorsk",
+            "Sprite": "[](#sprite5-p365)"
         },
         {
-            "FS_TeamName": "Slavia Mozyr"
+            "FS_TeamName": "Slavia Mozyr",
+            "Proper": "Slavia-Mozyr",
+            "Sprite": "[](#sprite5-p427)"
         },
         {
-            "FS_TeamName": "Slavia Mozyr 2"
+            "FS_TeamName": "Slavia Mozyr 2",
+            "Proper": "Slavia-Mozyr",
+            "Sprite": "[](#sprite5-p427)"
         },
         {
-            "FS_TeamName": "Slutsk"
+            "FS_TeamName": "Slutsk",
+            "Proper": "Slutsk",
+            "Sprite": "[](#sprite5-p426)"
         },
         {
-            "FS_TeamName": "Slutsk 2"
+            "FS_TeamName": "Slutsk 2",
+            "Proper": "Slutsk",
+            "Sprite": "[](#sprite5-p426)"
         },
         {
-            "FS_TeamName": "Smolevichi"
+            "FS_TeamName": "Smolevichi",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Smolevichi 2"
+            "FS_TeamName": "Smolevichi 2",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Smorgon"
+            "FS_TeamName": "Smorgon",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Sputnik"
+            "FS_TeamName": "Sputnik",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Stanles Pinsk"
+            "FS_TeamName": "Stanles Pinsk",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Viktoria Mar. Gorka"
+            "FS_TeamName": "Viktoria Mar. Gorka",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Vitebsk"
+            "FS_TeamName": "Vitebsk",
+            "Proper": "FC Vitebsk",
+            "Sprite": "[](#sprite5-p425)"
         },
         {
-            "FS_TeamName": "Vitebsk 2"
+            "FS_TeamName": "Vitebsk 2",
+            "Proper": "FC Vitebsk",
+            "Sprite": "[](#sprite5-p425)"
         },
         {
-            "FS_TeamName": "Volna Pinsk"
+            "FS_TeamName": "Volna Pinsk",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Zhlobin"
+            "FS_TeamName": "Zhlobin",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Zhodino"
+            "FS_TeamName": "Zhodino",
+            "Proper": "Torpedo-BelAZ Zhodino",
+            "Sprite": "[](#sprite5-p431)"
         },
         {
-            "FS_TeamName": "Zhodino 2"
+            "FS_TeamName": "Zhodino 2",
+            "Proper": "Torpedo-BelAZ Zhodino",
+            "Sprite": "[](#sprite5-p431)"
         },
         {
-            "FS_TeamName": "Zorka-BDU W"
+            "FS_TeamName": "Zorka-BDU W",
+            "Sprite": null
         }
     ],
     "Belgium": [
