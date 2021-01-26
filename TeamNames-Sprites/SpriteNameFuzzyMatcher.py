@@ -16,7 +16,7 @@ FSTN = 'FS_TeamName'
 def main():
     with open('./TeamNames-Sprites/soccerbot-TeamNameSprites.json', 'r', encoding='utf8') as rj:
         sBTNSDict = json.load(rj)
-    with open('./TeamNames-Sprites/TeamNames-Sprites.json', 'r', encoding='utf8') as rj:
+    with open('./TeamNames-Sprites/TeamNames-Sprites-V2.json', 'r', encoding='utf8') as rj:
         tNSDict = json.load(rj)
     for region in tNSDict:
         if region not in sBTNSDict.keys():
@@ -26,20 +26,21 @@ def main():
         else:
             teamNameList = list(sBTNSDict[region].keys())
         for item in tNSDict[region]:
-            if 'Sprite' not in item.keys():
-                fSTeamName = item['FS_TeamName']
+            if 'Sprite' not in tNSDict[region][item].keys():
+                fSTeamName = item
                 tNMatch = FuzzyMatcher(fSTeamName, teamNameList, region)
                 if tNMatch != None:
-                    item['Sprite'] = sBTNSDict[region][tNMatch]
-                    item['Proper'] = tNMatch
+                    tNSDict[region][item]['Sprite'] = sBTNSDict[region][tNMatch]
+                    tNSDict[region][item]['Proper'] = tNMatch
                 else:
-                    item['Sprite'] = None
-                with open('./TeamNames-Sprites/TeamNames-Sprites.json', 'w', encoding='utf8') as wf:
+                    tNSDict[region][item]['Proper'] = None
+                    tNSDict[region][item]['Sprite'] = None
+                with open('./TeamNames-Sprites/TeamNames-Sprites-V2.json', 'w', encoding='utf8') as wf:
                     json.dump(tNSDict, wf, indent=4, sort_keys=True)
     return
 
 def FuzzyMatcher(teamName, tNList, region):
-    for cutoff, resultsSize in [[.9, 3], [.7, 5], [.6, 5]]:
+    for cutoff, resultsSize in [[1, 3], [.9, 3], [.7, 5], [.6, 5]]:
         if (cutoff == .6):
             print(region, ':', teamName)
             print("Enter best approximation of team name or one of [s, skip] to skip.")
@@ -51,6 +52,9 @@ def FuzzyMatcher(teamName, tNList, region):
             fuzzyMatches = difflib.get_close_matches(teamName, tNList, cutoff=cutoff, n=resultsSize)
         if fuzzyMatches == []:
             continue
+        elif (cutoff == 1 and fuzzyMatches != [] and len(fuzzyMatches) == 1):
+            print(region, ':', teamName, '- Match:', fuzzyMatches[0])
+            return fuzzyMatches[0]
         print(region, ':', teamName)
         match = ResultsPrompt(fuzzyMatches)
         if match == None:
