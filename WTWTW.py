@@ -110,31 +110,13 @@ def competition_matches(region, competition):
 	href, competition_proper = acha_link_e_arranja_nome(region, competition)
 	driver.get(url + href + 'fixtures')
 	soup = BeautifulSoup(driver.page_source, 'html.parser')
-	checkedMatchesList = []
+	checkedMatchesListUnfiltered = []
 	checkedMatches = soup.find_all('div', class_='checked')
 	for match in checkedMatches:
-		checkedMatchesList.append(match.find_parent('div', class_='event__match'))
-	return checkedMatchesList, competition_proper
-	"""
-	results = requests.get(url + href + 'fixtures')
-	soup = BeautifulSoup(results.text, 'html.parser')
-	matches = soup.find('div', id='tournament-page-data-fixtures').contents
-	temp = str(matches[0]).split('~')[2:]
-	muitos_matches = []
-	for n in range(len(temp)):
-		if ('AE÷'  in temp[n]):
-			muitos_matches.append(temp[n])
-	for match in muitos_matches:
-		temp = {}
-		if (match != ''):
-			match = str(match).split('¬')
-			for item in match:
-				if (item != ''):
-					if str(item.split("÷")[0] + "÷") in ['ER÷', 'AE÷', 'AF÷', 'AM÷']:
-						temp[str(item.split("÷")[0] + "÷")] = str(item.split("÷")[1])				
-			gamelist.append(temp)
-	return gamelist, competition_proper
-"""
+		checkedMatchesListUnfiltered.append(match.find_parent('div', class_='event__match'))
+	checkedMatchesListFinal = list(filter(None, checkedMatchesListUnfiltered))
+	return checkedMatchesListFinal, competition_proper
+
 def acha_link_e_arranja_nome(region, competition):
 	region_proper = region
 	competition_proper = ''
@@ -166,10 +148,12 @@ def acha_round_e_aggregate(home, away, gamelist):
 		home_team = item.find('div', class_='event__participant--home').get_text()
 		away_team = item.find('div', class_='event__participant--away').get_text()
 		if (home_team == home and away_team == away):
-			round = home_team.find_previous_sibling('div', class_='event__round').get_text()
-			if ("Round " not in round and len(round) not in [7, 8]):
+			round = item.find_previous_sibling('div', class_='event__round').get_text()
+			if ("Round " not in round[:6] and len(round) not in [7, 8]):
 				if round in fs_round_translator.keys():
 					round = fs_round_translator[round]
+			else:
+				round = ''
 			"""
 			if ('AM÷' in item):
 				aggregate = item['AM÷']"""
