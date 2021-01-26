@@ -2,6 +2,8 @@ import difflib
 import time
 import csv
 from typing import OrderedDict
+import pprint
+import json
 
 def acha_close_matches(team, teamlist, resultsSize, cutoff):
     return difflib.get_close_matches(team, teamlist, n=resultsSize, cutoff=cutoff)
@@ -117,14 +119,14 @@ def spritesSheetCombinedwriter():
                 for val in value:
                     if val not in spriteTeamDict[key]:
                         spriteTeamDict[key].append(val)
-
+    """
     with open('./TeamNames-Sprites/sprites - combined.csv', 'w', encoding='utf8', newline='') as csvfile:
         writer = csv.writer(csvfile, delimiter=';')
         for key, value in spriteTeamDict.items():
             temp = [key]
             for val in value:
                 temp.append(val)
-            writer.writerow(temp)
+            writer.writerow(temp)"""
     return
 
 def spritesSheetCombinedReader():
@@ -142,5 +144,22 @@ def spritesSheetCombinedReader():
             returnTeamList.append(teamName)
     return returnSpriteTeamDict, returnTeamList
 
-spriteTeamDict, teamList = spritesSheetCombinedReader() 
-newff('Wuppertaler', "Place", teamList, spriteTeamDict)
+#spriteTeamDict, teamList = spritesSheetCombinedReader() 
+#newff('Wuppertaler', "Place", teamList, spriteTeamDict)
+tempDict = {}
+tempDict['Country'] = {}
+for n in range(3):
+    tempDict['Country']['Club ' + str(n)] = {}
+    tempDict['Country']['Club ' + str(n)]['Proper'] = 'Proper Name' + str(n)
+    tempDict['Country']['Club ' + str(n)]['Sprite'] = 'Sprite' + str(n)
+
+with open('./TeamNames-Sprites/TeamNames-Sprites-V2 copy.json', 'r', encoding='utf8') as rf:
+    tNSDict = json.load(rf)
+
+for country in tNSDict:
+    for club in tNSDict[country]:
+        clubKeys = list(tNSDict[country][club].keys())
+        if (('Proper' not in clubKeys) and ('Sprite' in clubKeys)):
+            tNSDict[country][club]['Proper'] = None
+"""with open('./TeamNames-Sprites/TeamNames-Sprites-V2 copy.json', 'w', encoding='utf8') as wf:
+    json.dump(tNSDict, wf, indent=4, sort_keys=True)"""
