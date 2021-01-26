@@ -24,8 +24,8 @@ def main():
     with open(TNSDICT_LOCATE, 'r', encoding='utf8') as rj:
         tNSDict = json.load(rj)
     for region in tNSDict:
-        if region in NAME_CORRECTER_DICT.keys():
-            sBRegion = NAME_CORRECTER_DICT[region]
+        if region in NAME_CORRECTOR_DICT.keys():
+            sBRegion = NAME_CORRECTOR_DICT[region]
         else:
             sBRegion = region
         if sBRegion not in sBTNSDict.keys():
