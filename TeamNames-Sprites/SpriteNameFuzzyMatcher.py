@@ -12,7 +12,7 @@ soccer wiki sprites https://www.reddit.com/r/soccerbot/wiki/index
 """
 
 TNSDICT_LOCATE = './TeamNames-Sprites/TeamNames-Sprites-V2.json'
-NAME_CORRECTER_DICT = {
+NAME_CORRECTOR_DICT = {
     'USA' : 'United States',
     'Bosnia and Herzegovina' : 'Bosnia-Herzegovina',
     'Macao' : 'Macau'
