@@ -10,39 +10,49 @@ Assumes you run this file from the "What-To-Watch-This-Week" folder
 
 soccer wiki sprites https://www.reddit.com/r/soccerbot/wiki/index
 """
-# Key used in TeamNames-Sprites.json... less to type
-FSTN = 'FS_TeamName'
+
+TNSDICT_LOCATE = './TeamNames-Sprites/TeamNames-Sprites-V2.json'
+NAME_CORRECTER_DICT = {
+    'USA' : 'United States',
+    'Bosnia and Herzegovina' : 'Bosnia-Herzegovina',
+    'Macao' : 'Macau'
+}
 
 def main():
     with open('./TeamNames-Sprites/soccerbot-TeamNameSprites.json', 'r', encoding='utf8') as rj:
         sBTNSDict = json.load(rj)
-    with open('./TeamNames-Sprites/TeamNames-Sprites-V2.json', 'r', encoding='utf8') as rj:
+    with open(TNSDICT_LOCATE, 'r', encoding='utf8') as rj:
         tNSDict = json.load(rj)
     for region in tNSDict:
-        if region not in sBTNSDict.keys():
+        if region in NAME_CORRECTER_DICT.keys():
+            sBRegion = NAME_CORRECTER_DICT[region]
+        else:
+            sBRegion = region
+        if sBRegion not in sBTNSDict.keys():
+            for item in tNSDict[region]:
+                TNSDictWriter(tNSDict, region, item, None, None)
             continue
-        if len(sBTNSDict[region]) == 0:
+        elif len(sBTNSDict[sBRegion]) == 0:
+            for item in tNSDict[region]:
+                TNSDictWriter(tNSDict, region, item, None, None)
             continue
         else:
-            teamNameList = list(sBTNSDict[region].keys())
+            teamNameList = list(sBTNSDict[sBRegion].keys())
         for item in tNSDict[region]:
             if 'Sprite' not in tNSDict[region][item].keys():
                 fSTeamName = item
                 tNMatch = FuzzyMatcher(fSTeamName, teamNameList, region)
                 if tNMatch != None:
-                    tNSDict[region][item]['Sprite'] = sBTNSDict[region][tNMatch]
-                    tNSDict[region][item]['Proper'] = tNMatch
+                    sprite = sBTNSDict[sBRegion][tNMatch]
                 else:
-                    tNSDict[region][item]['Proper'] = None
-                    tNSDict[region][item]['Sprite'] = None
-                with open('./TeamNames-Sprites/TeamNames-Sprites-V2.json', 'w', encoding='utf8') as wf:
-                    json.dump(tNSDict, wf, indent=4, sort_keys=True)
+                    sprite = None
+                TNSDictWriter(tNSDict, region, item, tNMatch, sprite)
     return
 
 def FuzzyMatcher(teamName, tNList, region):
-    for cutoff, resultsSize in [[1, 3], [.9, 3], [.7, 5], [.6, 5]]:
+    for cutoff, resultsSize in [[.9, 3], [.7, 5], [.6, 5]]:
         if (cutoff == .6):
-            print(region, ':', teamName)
+            print(region, ':', teamName, ':', cutoff)
             print("Enter best approximation of team name or one of [s, skip] to skip.")
             userinput = input("Team name: ")
             if userinput in ['s', 'skip']:
@@ -52,24 +62,26 @@ def FuzzyMatcher(teamName, tNList, region):
             fuzzyMatches = difflib.get_close_matches(teamName, tNList, cutoff=cutoff, n=resultsSize)
         if fuzzyMatches == []:
             continue
-        elif (cutoff == 1 and fuzzyMatches != [] and len(fuzzyMatches) == 1):
+        elif (cutoff == .9 and len(fuzzyMatches) == 1):
             print(region, ':', teamName, '- Match:', fuzzyMatches[0])
             return fuzzyMatches[0]
-        print(region, ':', teamName)
-        match = ResultsPrompt(fuzzyMatches)
+        print(region, ':', teamName, ':', cutoff)
+        match = ResultsPrompt(fuzzyMatches, teamName)
         if match == None:
             continue
         return match
     print('No matches found. Moving on to next team..')
     return None
 
-def ResultsPrompt(fMatchList):
+def ResultsPrompt(fMatchList, team):
     noList = ['no', 'n', 'none']
     numberList = []
     matchListLen = len(fMatchList)
     for n in range(matchListLen):
         numberList.append(str(n))
-        print(n, ':', fMatchList[n])
+        matchingTeam = fMatchList[n]
+        score = round(difflib.SequenceMatcher(None, fMatchList[n], team).ratio(), 4)
+        print(n, ':', matchingTeam, ':', score)
     while True:
         response = input('Select correct team. Type [n, no, none] if no matches. ')
         if (str(response).lower() in noList or response in numberList):
@@ -82,20 +94,12 @@ def ResultsPrompt(fMatchList):
         match = fMatchList[int(response)]
         return match
 
+def TNSDictWriter(dictIn, region, club, properName, sprite):
+    dictIn[region][club]['Proper'] = properName
+    dictIn[region][club]['Sprite'] = sprite
+
+    with open(TNSDICT_LOCATE, 'w', encoding='utf8') as wf:
+        json.dump(dictIn, wf, indent=4, sort_keys=True)
+    return
+
 main()
-
-"""
-For each team in json file:
-    Fuzzy match search in sprites - Sheet1
-    if results found present and prompt user to select
-        if none selected raise cutoff and fuzzy match search again. Repeat x times.
-        if result selected search in sprites - Sheet2 for matching sprite and prompt user to confirm.
-            if not confirmed same team add original selection to team dict in json
-            if confirmed same team add both to team dict in json
-        after x times prompt user to type team name or enter NA to skip this team and start with the next
-            search user input, prompt user to select from results
-    Repeat with fuzzy match search in sprites - SHeet 2
-             
-
-
-"""
