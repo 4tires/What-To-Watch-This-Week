@@ -2062,40 +2062,60 @@
     ],
     "Belgium": [
         {
-            "FS_TeamName": "Aalst"
+            "FS_TeamName": "Aalst",
+            "Proper": "Eendracht Aalst",
+            "Sprite": "[](#sprite4-p161)"
         },
         {
-            "FS_TeamName": "Aalst W"
+            "FS_TeamName": "Aalst W",
+            "Proper": "Eendracht Aalst",
+            "Sprite": "[](#sprite4-p161)"
         },
         {
-            "FS_TeamName": "Acren"
+            "FS_TeamName": "Acren",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Anderlecht"
+            "FS_TeamName": "Anderlecht",
+            "Proper": "Anderlecht",
+            "Sprite": "[](#sprite1-p157)"
         },
         {
-            "FS_TeamName": "Antwerp"
+            "FS_TeamName": "Antwerp",
+            "Proper": "Royal Antwerp",
+            "Sprite": "[](#sprite2-p45)"
         },
         {
-            "FS_TeamName": "Beerschot VA"
+            "FS_TeamName": "Beerschot VA",
+            "Proper": "KFCO Beerschot Wilrijk",
+            "Sprite": "[](#sprite5-p45)"
         },
         {
-            "FS_TeamName": "Bocholter"
+            "FS_TeamName": "Bocholter",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Boom"
+            "FS_TeamName": "Boom",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Cappellen"
+            "FS_TeamName": "Cappellen",
+            "Sprite": null
         },
         {
-            "FS_TeamName": "Cercle Brugge KSV"
+            "FS_TeamName": "Cercle Brugge KSV",
+            "Proper": "Cercle Brugge",
+            "Sprite": "[](#sprite2-p216)"
         },
         {
-            "FS_TeamName": "Charleroi"
+            "FS_TeamName": "Charleroi",
+            "Proper": "Charleroi",
+            "Sprite": "[](#sprite4-p280)"
         },
         {
-            "FS_TeamName": "Charleroi W"
+            "FS_TeamName": "Charleroi W",
+            "Proper": "Charleroi",
+            "Sprite": "[](#sprite4-p280)"
         },
         {
             "FS_TeamName": "Chastre W"
@@ -7176,9 +7196,6 @@
             "FS_TeamName": "Aston Villa W"
         },
         {
-            "FS_TeamName": "Ath Bilbao B"
-        },
-        {
             "FS_TeamName": "Atherton"
         },
         {
@@ -7207,9 +7224,6 @@
         },
         {
             "FS_TeamName": "Beaconsfield Town"
-        },
-        {
-            "FS_TeamName": "Benfica B"
         },
         {
             "FS_TeamName": "Biggleswade Town"
@@ -7446,12 +7460,6 @@
             "FS_TeamName": "FC Halifax"
         },
         {
-            "FS_TeamName": "FC Porto B"
-        },
-        {
-            "FS_TeamName": "FC Porto B"
-        },
-        {
             "FS_TeamName": "FC United"
         },
         {
@@ -7533,9 +7541,6 @@
             "FS_TeamName": "Hereford"
         },
         {
-            "FS_TeamName": "Hertha Berlin II"
-        },
-        {
             "FS_TeamName": "Hitchin"
         },
         {
@@ -7561,9 +7566,6 @@
         },
         {
             "FS_TeamName": "Jong Feyenoord"
-        },
-        {
-            "FS_TeamName": "Jong PSV"
         },
         {
             "FS_TeamName": "Kettering"
@@ -7680,19 +7682,10 @@
             "FS_TeamName": "Millwall"
         },
         {
-            "FS_TeamName": "Monaco II"
-        },
-        {
-            "FS_TeamName": "Monaco II"
-        },
-        {
             "FS_TeamName": "Morecambe"
         },
         {
             "FS_TeamName": "Morpeth"
-        },
-        {
-            "FS_TeamName": "NK Dinamo Zagreb 2"
         },
         {
             "FS_TeamName": "Nantwich"
@@ -7729,12 +7722,6 @@
         },
         {
             "FS_TeamName": "Oxford Utd"
-        },
-        {
-            "FS_TeamName": "Paris SG II"
-        },
-        {
-            "FS_TeamName": "Paris SG II"
         },
         {
             "FS_TeamName": "Peterborough"
@@ -7902,12 +7889,6 @@
             "FS_TeamName": "Truro"
         },
         {
-            "FS_TeamName": "Valencia B"
-        },
-        {
-            "FS_TeamName": "Villarreal B"
-        },
-        {
             "FS_TeamName": "Walsall"
         },
         {
@@ -7957,9 +7938,6 @@
         },
         {
             "FS_TeamName": "Woking"
-        },
-        {
-            "FS_TeamName": "Wolfsburg II"
         },
         {
             "FS_TeamName": "Wolves"
