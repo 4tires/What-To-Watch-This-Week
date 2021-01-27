@@ -41,18 +41,26 @@ def main():
         for item in tNSDict[region]:
             if 'Sprite' not in tNSDict[region][item].keys():
                 fSTeamName = item
+                #tNMatch = OnlyPt9orBetterFuzzyMatcher(fSTeamName, teamNameList)
                 tNMatch = FuzzyMatcher(fSTeamName, teamNameList, region)
                 if tNMatch != None:
                     sprite = sBTNSDict[sBRegion][tNMatch]
                 else:
                     sprite = None
+                    #continue
                 TNSDictWriter(tNSDict, region, item, tNMatch, sprite)
     return
+
+def OnlyPt9orBetterFuzzyMatcher(teamName, tNList):
+    fuzzyMatches = difflib.get_close_matches(teamName, tNList, cutoff=.901, n=2)
+    if len(fuzzyMatches) == 1:
+        return fuzzyMatches[0]
+    return None
 
 def FuzzyMatcher(teamName, tNList, region):
     for cutoff, resultsSize in [[.9, 3], [.7, 5], [.6, 5]]:
         if (cutoff == .6):
-            print(region, ':', teamName, ':', cutoff)
+            print('\n', region, ':', teamName, ':', cutoff)
             print("Enter best approximation of team name or one of [s, skip] to skip.")
             userinput = input("Team name: ")
             if userinput in ['s', 'skip']:
@@ -65,16 +73,15 @@ def FuzzyMatcher(teamName, tNList, region):
         elif (cutoff == .9 and len(fuzzyMatches) == 1):
             print(region, ':', teamName, '- Match:', fuzzyMatches[0])
             return fuzzyMatches[0]
-        print(region, ':', teamName, ':', cutoff)
+        print('\n', region, ':', teamName, ':', cutoff)
         match = ResultsPrompt(fuzzyMatches, teamName)
-        if match == None:
-            continue
-        return match
+        if match != None:
+            return match
     print('No matches found. Moving on to next team..')
     return None
 
 def ResultsPrompt(fMatchList, team):
-    noList = ['no', 'n', 'none']
+    noList = ['no', 'n', 'none', 's', 'skip']
     numberList = []
     matchListLen = len(fMatchList)
     for n in range(matchListLen):
@@ -87,7 +94,7 @@ def ResultsPrompt(fMatchList, team):
         if (str(response).lower() in noList or response in numberList):
             break
         else:
-            print('Invalid input. Enter correct match or [n, no, none].')
+            print('Invalid input. Enter correct match or [s, skip, n, no, none].')
     if response.lower() in noList:
         return None
     else:
