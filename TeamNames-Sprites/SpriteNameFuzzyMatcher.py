@@ -71,7 +71,7 @@ def SubstringFuzzyMatcher(teamName, tList):
                 wordMatch = difflib.get_close_matches(word, clubSplit, cutoff=.8, n=1)
             if len(wordMatch) != 0:
                 sSFuzzyMatches.append(clubFromtList)
-                continue
+                break
     return sSFuzzyMatches
 
 def FuzzyMatcher(teamName, tNList, region):
