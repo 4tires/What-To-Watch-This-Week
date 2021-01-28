@@ -10814,94 +10814,280 @@
             "Proper": "OGC Nice",
             "Sprite": "[](#sprite2-p71)"
         },
-        "Nimes": {},
-        "Nimes W": {},
-        "Niort": {},
-        "Orleans": {},
-        "Orleans W": {},
-        "Paris 13 Atl.": {},
-        "Paris FC": {},
-        "Paris FC W": {},
-        "Paris SG": {},
-        "Paris SG W": {},
+        "Nimes": {
+            "Proper": "N\u00eemes Olympique",
+            "Sprite": "[](#sprite5-p347)"
+        },
+        "Nimes W": {
+            "Proper": "N\u00eemes Olympique",
+            "Sprite": "[](#sprite5-p347)"
+        },
+        "Niort": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Orleans": {
+            "Proper": "US Orl\u00e9ans",
+            "Sprite": "[](#sprite8-p194)"
+        },
+        "Orleans W": {
+            "Proper": "US Orl\u00e9ans",
+            "Sprite": "[](#sprite8-p194)"
+        },
+        "Paris 13 Atl.": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Paris FC": {
+            "Proper": "Paris",
+            "Sprite": "[](#sprite4-p468)"
+        },
+        "Paris FC W": {
+            "Proper": "Paris",
+            "Sprite": "[](#sprite4-p468)"
+        },
+        "Paris SG": {
+            "Proper": "Paris Saint-Germain",
+            "Sprite": "[](#sprite1-p35)"
+        },
+        "Paris SG W": {
+            "Proper": "Paris Saint-Germain",
+            "Sprite": "[](#sprite1-p35)"
+        },
         "Pau FC": {
             "Proper": "Pau FC",
             "Sprite": "[](#sprite8-p433)"
         },
-        "Plabennec": {},
-        "Poissy": {},
-        "Quevilly Rouen": {},
+        "Plabennec": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Poissy": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Quevilly Rouen": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Red Star": {
             "Proper": "Red Star",
             "Sprite": "[](#sprite4-p446)"
         },
-        "Reims": {},
-        "Reims II": {},
-        "Reims W": {},
-        "Rennes": {},
-        "Rodez": {},
-        "Rodez AF W": {},
-        "Romorantin": {},
-        "Rouen": {},
-        "Saint Priest": {},
-        "Saint-Malo": {},
-        "Saint-Malo W": {},
-        "Saint-Maur W": {},
-        "Saint-Pryve": {},
-        "Sainte-Genevieve": {},
-        "Sannois": {},
-        "Schiltigheim": {},
+        "Reims": {
+            "Proper": "Stade Reims",
+            "Sprite": "[](#sprite2-p389)"
+        },
+        "Reims II": {
+            "Proper": "Stade Reims",
+            "Sprite": "[](#sprite2-p389)"
+        },
+        "Reims W": {
+            "Proper": "Stade Reims",
+            "Sprite": "[](#sprite2-p389)"
+        },
+        "Rennes": {
+            "Proper": "Stade Rennais",
+            "Sprite": "[](#sprite2-p13)"
+        },
+        "Rodez": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Rodez AF W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Romorantin": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Rouen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Saint Priest": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Saint-Malo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Saint-Malo W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Saint-Maur W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Saint-Pryve": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sainte-Genevieve": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sannois": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Schiltigheim": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Sedan": {
             "Proper": "Sedan",
             "Sprite": "[](#sprite4-p109)"
         },
-        "Sete": {},
+        "Sete": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Sochaux": {
             "Proper": "Sochaux",
             "Sprite": "[](#sprite2-p198)"
         },
-        "Soyaux W": {},
-        "Sporting Club Lyon": {},
-        "St Etienne": {},
-        "St Etienne W": {},
-        "St Quentin": {},
-        "Stade Briochin": {},
-        "Stade Montois": {},
-        "Strasbourg": {},
-        "Strasbourg W": {},
-        "Thonon Evian W": {},
-        "Toulon": {},
+        "Soyaux W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sporting Club Lyon": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "St Etienne": {
+            "Proper": "Saint-\u00c9tienne",
+            "Sprite": "[](#sprite1-p321)"
+        },
+        "St Etienne W": {
+            "Proper": "Saint-\u00c9tienne",
+            "Sprite": "[](#sprite1-p321)"
+        },
+        "St Quentin": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Stade Briochin": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Stade Montois": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Strasbourg": {
+            "Proper": "RC Strasbourg",
+            "Sprite": "[](#sprite4-p155)"
+        },
+        "Strasbourg W": {
+            "Proper": "RC Strasbourg",
+            "Sprite": "[](#sprite4-p155)"
+        },
+        "Thonon Evian W": {
+            "Proper": "Evian Thonon Gaillard",
+            "Sprite": "[](#sprite2-p292)"
+        },
+        "Toulon": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Toulouse": {
             "Proper": "Toulouse",
             "Sprite": "[](#sprite2-p108)"
         },
-        "Trelissac": {},
-        "Troyes": {},
+        "Trelissac": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Troyes": {
+            "Proper": "Troyes AC",
+            "Sprite": "[](#sprite4-p110)"
+        },
         "Valenciennes": {
             "Proper": "Valenciennes",
             "Sprite": "[](#sprite4-p106)"
         },
-        "Vannes": {},
-        "Vendenheim W": {},
-        "Versailles": {},
-        "Villefranche": {},
-        "Yzeure Allier W": {}
+        "Vannes": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Vendenheim W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Versailles": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Villefranche": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Yzeure Allier W": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "Gabon": {
-        "Akanda": {},
-        "Bitam": {},
-        "Bouenguidi": {},
-        "CF Mounana": {},
-        "Dikaki": {},
-        "FC Libreville": {},
-        "Lozo": {},
-        "Mangasport": {},
-        "Mberi Sportif": {},
-        "Missile": {},
-        "Oyem": {},
-        "Pelican": {},
-        "Stade Mandji": {},
-        "Stade Migoveen": {}
+        "Akanda": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bitam": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bouenguidi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "CF Mounana": {
+            "Proper": "Mounana",
+            "Sprite": "[](#sprite8-p412)"
+        },
+        "Dikaki": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "FC Libreville": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Lozo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Mangasport": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Mberi Sportif": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Missile": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oyem": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pelican": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Stade Mandji": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Stade Migoveen": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "Gambia": {
         "Armed Forces": {
@@ -10962,8 +11148,14 @@
         }
     },
     "Georgia": {
-        "Bolnisi": {},
-        "Chikhura": {},
+        "Bolnisi": {
+            "Proper": "Sioni Bolnisi",
+            "Sprite": "[](#sprite5-p358)"
+        },
+        "Chikhura": {
+            "Proper": "Chikhura Sachkhere",
+            "Sprite": "[](#sprite7-p123)"
+        },
         "Dila Gori": {
             "Proper": "Dila Gori",
             "Sprite": "[](#sprite5-p363)"
@@ -10976,38 +11168,80 @@
             "Proper": "Dinamo Tbilisi",
             "Sprite": "[](#sprite2-p140)"
         },
-        "Dusheti": {},
-        "Gagra": {},
-        "Loco. Tbilisi": {},
-        "Merani Martvili": {},
-        "Merani Tbilisi": {},
-        "Rustavi": {},
-        "Saburtalo Tbilisi": {},
-        "Samgurali": {},
+        "Dusheti": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gagra": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Loco. Tbilisi": {
+            "Proper": "Locomotive Tbilisi",
+            "Sprite": "[](#sprite7-p125)"
+        },
+        "Merani Martvili": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Merani Tbilisi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Rustavi": {
+            "Proper": "Metalurgi Rustavi",
+            "Sprite": "[](#sprite8-p498)"
+        },
+        "Saburtalo Tbilisi": {
+            "Proper": "FC Saburtalo",
+            "Sprite": "[](#sprite7-p129)"
+        },
+        "Samgurali": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Samtredia": {
             "Proper": "Samtredia",
             "Sprite": "[](#sprite5-p362)"
         },
-        "Shevardeni Tbilisi": {},
-        "Shukura": {},
-        "Telavi": {},
+        "Shevardeni Tbilisi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Shukura": {
+            "Proper": "Shukura Kobuleti",
+            "Sprite": "[](#sprite7-p122)"
+        },
+        "Telavi": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Torpedo Kutaisi": {
             "Proper": "Torpedo Kutaisi",
             "Sprite": "[](#sprite7-p121)"
         },
-        "WIT Georgia": {},
+        "WIT Georgia": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Zugdidi": {
             "Proper": "Zugdidi",
             "Sprite": "[](#sprite7-p128)"
         }
     },
     "Germany": {
-        "1.FC Monchengladbach": {},
+        "1.FC Monchengladbach": {
+            "Proper": null,
+            "Sprite": null
+        },
         "ASC 09 Dortmund": {
             "Proper": "ASC 09 Dortmund",
             "Sprite": "[](#sprite8-p487)"
         },
-        "ATSV": {},
+        "ATSV": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Aalen": {},
         "Abtswind": {},
         "Ahlen": {},
