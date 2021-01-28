@@ -2,6 +2,7 @@ import json
 import csv
 import difflib
 import time
+import re
 
 """
 Assumes you run this file from the "What-To-Watch-This-Week" folder
@@ -57,9 +58,27 @@ def OnlyPt9orBetterFuzzyMatcher(teamName, tNList):
         return fuzzyMatches[0]
     return None
 
+def SubstringFuzzyMatcher(teamName, tList):
+    sSFuzzyMatches = []
+    tNSplit = re.split(r"[. \-]+", teamName)
+    for clubFromtList in tList:
+        clubSplit = re.split(r"[. \-]+", clubFromtList)
+        for word in tNSplit:
+            wordMatch = []
+            if not (len(word) > 2):
+                continue
+            else:
+                wordMatch = difflib.get_close_matches(word, clubSplit, cutoff=.8, n=1)
+            if len(wordMatch) != 0:
+                sSFuzzyMatches.append(clubFromtList)
+                continue
+    return sSFuzzyMatches
+
 def FuzzyMatcher(teamName, tNList, region):
-    for cutoff, resultsSize in [[.9, 3], [.7, 5], [.6, 5]]:
-        if (cutoff == .6):
+    for cutoff, resultsSize in [[.85, 3], [.6, 5], [.8, 5], [.55, 5]]:
+        if (cutoff == .8):
+            fuzzyMatches = SubstringFuzzyMatcher(teamName, tNList)
+        elif (cutoff == .55):
             print('\n', region, ':', teamName, ':', cutoff)
             print("Enter best approximation of team name or one of [s, skip] to skip.")
             userinput = input("Team name: ")
@@ -75,13 +94,16 @@ def FuzzyMatcher(teamName, tNList, region):
             return fuzzyMatches[0]
         print('\n', region, ':', teamName, ':', cutoff)
         match = ResultsPrompt(fuzzyMatches, teamName)
-        if match != None:
+        if match == '--skip--':
+            break
+        elif match != None:
             return match
     print('No matches found. Moving on to next team..')
     return None
 
 def ResultsPrompt(fMatchList, team):
-    noList = ['no', 'n', 'none', 's', 'skip']
+    noList = ['no', 'n', 'none']
+    skipList = ['s', 'skip']
     numberList = []
     matchListLen = len(fMatchList)
     for n in range(matchListLen):
@@ -91,12 +113,15 @@ def ResultsPrompt(fMatchList, team):
         print(n, ':', matchingTeam, ':', score)
     while True:
         response = input('Select correct team. Type [n, no, none] if no matches. ')
-        if (str(response).lower() in noList or response in numberList):
+        strch = str(response).lower()
+        if (strch in noList or strch in skipList or response in numberList):
             break
         else:
             print('Invalid input. Enter correct match or [s, skip, n, no, none].')
     if response.lower() in noList:
         return None
+    elif response.lower() in skipList:
+        return '--skip--'
     else:
         match = fMatchList[int(response)]
         return match
