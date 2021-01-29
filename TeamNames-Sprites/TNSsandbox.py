@@ -72,7 +72,7 @@ def PieceMealFuzzyMatcher(teamName, tNList):
         for word in tNSplit:
             wordMatch = []
             if len(word) > 2:
-                wordMatch = difflib.get_close_matches(word, sBTeamSplit, cutoff=.6, n=3)
+                wordMatch = difflib.get_close_matches(word, sBTeamSplit, cutoff=.4, n=3)
             else:
                 continue
             for w in wordMatch:
@@ -80,11 +80,11 @@ def PieceMealFuzzyMatcher(teamName, tNList):
                 if score > returnFuzzyMatches[sBTeam]:
                     returnFuzzyMatches[sBTeam] = score
     # Figure out deleting the non-matching items in the return dict
-    for key, value in returnFuzzyMatches.items():
-        if value == 0:
-            del returnFuzzyMatches[key]
+    for i in list(returnFuzzyMatches):
+        if returnFuzzyMatches[i] == 0:
+            del returnFuzzyMatches[i]
     returnFuzzyMatches = dict(sorted(returnFuzzyMatches.items(), key=lambda item: item[1], reverse=True))
-    return returnFuzzyMatches
+    return list(returnFuzzyMatches.keys())[:5]
 
 teamNameList = list(estoniaSB.keys())
 for item in estoniaFS:
