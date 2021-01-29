@@ -11370,90 +11370,330 @@
             "Proper": "SV Babelsberg 03",
             "Sprite": "[](#sprite2-p433)"
         },
-        "Backnang": {},
-        "Bad Vilbel": {},
-        "Bahlinger": {},
-        "Balingen": {},
-        "Bamberg": {},
-        "Barmbek-Uhlenhorst": {},
-        "Baumberg": {},
-        "Baunatal": {},
+        "Backnang": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bad Vilbel": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bahlinger": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Balingen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bamberg": {
+            "Proper": "FC Eintracht Bamberg",
+            "Sprite": "[](#sprite4-p348)"
+        },
+        "Barmbek-Uhlenhorst": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Baumberg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Baunatal": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Bayer Leverkusen": {
             "Proper": "Bayer 04 Leverkusen",
             "Sprite": "[](#sprite1-p132)"
         },
-        "Bayer Leverkusen W": {},
-        "Bayern Hof": {},
-        "Bayern II": {},
-        "Bayern Munich": {},
-        "Bayern Munich 2 W": {},
-        "Bayern Munich W": {},
-        "Berghofen W": {},
-        "Bergisch Gladbach": {},
-        "Berliner AK 07": {},
-        "Bersenbruck": {},
-        "Betzdorf": {},
-        "Bischofswerdaer": {},
-        "Bissingen": {},
-        "Blau Weiss Berlin": {},
-        "Blau-Weiss Zorbau": {},
-        "Blumenthaler": {},
-        "Bocholt": {},
-        "Bochum": {},
-        "Bonner": {},
-        "Bordesholm": {},
-        "Borgfeld": {},
-        "Borussia Bocholt W": {},
-        "Bramfelder SV": {},
-        "Brandenburger": {},
-        "Braunschweig": {},
-        "Breinig": {},
-        "Bremer": {},
-        "Brinkumer": {},
-        "Bruchsal": {},
-        "Buchbach": {},
-        "Burghausen": {},
-        "CFC Hertha": {},
-        "Cham": {},
-        "Chemie Leipzig": {},
-        "Chemnitzer": {},
-        "Clarholz": {},
-        "Cronenberger": {},
-        "Curslack-Neuengamme": {},
-        "DJK Bamberg": {},
-        "DJK Rosenheim": {},
-        "DJK Teutonia St.Tonis": {},
-        "Dachau": {},
-        "Darmstadt": {},
-        "Dassendorf": {},
-        "Deisenhofen": {},
-        "Delmenhorst": {},
-        "Deutz": {},
-        "Diefflen": {},
-        "Donaustauf": {},
-        "Dorfmerkingen": {},
-        "Dornberg": {},
-        "Dornbreite Lubeck": {},
-        "Dortmund": {},
-        "Dortmund II": {},
-        "Drochtersen/Assel": {},
-        "Dudenhofen": {},
-        "Duisburg": {},
-        "Duisburg II": {},
-        "Duisburg W": {},
-        "Duren": {},
-        "Dusseldorf": {},
-        "Dusseldorf II": {},
-        "Dusseldorf-West": {},
-        "Eckernforder SV": {},
-        "Eddersheim": {},
-        "Egestorf-Langreder": {},
-        "Eichede": {},
-        "Eichstatt": {},
-        "Eilenburg": {},
-        "Eilendorf": {},
-        "Einheit Rudolstadt": {},
-        "Eintracht Celle": {},
+        "Bayer Leverkusen W": {
+            "Proper": "Bayer 04 Leverkusen",
+            "Sprite": "[](#sprite1-p132)"
+        },
+        "Bayern Hof": {
+            "Proper": "SpVgg Bayern Hof",
+            "Sprite": "[](#sprite5-p73)"
+        },
+        "Bayern II": {
+            "Proper": "Bayern M\u00fcnchen",
+            "Sprite": "[](#sprite1-p8)"
+        },
+        "Bayern Munich": {
+            "Proper": "Bayern M\u00fcnchen",
+            "Sprite": "[](#sprite1-p8)"
+        },
+        "Bayern Munich 2 W": {
+            "Proper": "Bayern M\u00fcnchen",
+            "Sprite": "[](#sprite1-p8)"
+        },
+        "Bayern Munich W": {
+            "Proper": "Bayern M\u00fcnchen",
+            "Sprite": "[](#sprite1-p8)"
+        },
+        "Berghofen W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bergisch Gladbach": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Berliner AK 07": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bersenbruck": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Betzdorf": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bischofswerdaer": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bissingen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Blau Weiss Berlin": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Blau-Weiss Zorbau": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Blumenthaler": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bocholt": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bochum": {
+            "Proper": "VfL Bochum",
+            "Sprite": "[](#sprite1-p317)"
+        },
+        "Bonner": {
+            "Proper": "Bonner SC",
+            "Sprite": "[](#sprite8-p476)"
+        },
+        "Bordesholm": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Borgfeld": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Borussia Bocholt W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bramfelder SV": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Brandenburger": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Braunschweig": {
+            "Proper": "Eintracht Braunschweig",
+            "Sprite": "[](#sprite1-p378)"
+        },
+        "Breinig": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bremer": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Brinkumer": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bruchsal": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Buchbach": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Burghausen": {
+            "Proper": "SV Wacker Burghausen",
+            "Sprite": "[](#sprite2-p349)"
+        },
+        "CFC Hertha": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Cham": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Chemie Leipzig": {
+            "Proper": "BSG Chemie Leipzig",
+            "Sprite": "[](#sprite2-p59)"
+        },
+        "Chemnitzer": {
+            "Proper": "Chemnitzer FC",
+            "Sprite": "[](#sprite4-p82)"
+        },
+        "Clarholz": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Cronenberger": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Curslack-Neuengamme": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "DJK Bamberg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "DJK Rosenheim": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "DJK Teutonia St.Tonis": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Dachau": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Darmstadt": {
+            "Proper": "SV Darmstadt 98",
+            "Sprite": "[](#sprite1-p489)"
+        },
+        "Dassendorf": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Deisenhofen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Delmenhorst": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Deutz": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Diefflen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Donaustauf": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Dorfmerkingen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Dornberg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Dornbreite Lubeck": {
+            "Proper": "VfB L\u00fcbeck",
+            "Sprite": "[](#sprite7-p216)"
+        },
+        "Dortmund": {
+            "Proper": "Borussia Dortmund",
+            "Sprite": "[](#sprite1-p12)"
+        },
+        "Dortmund II": {
+            "Proper": "Borussia Dortmund",
+            "Sprite": "[](#sprite1-p12)"
+        },
+        "Drochtersen/Assel": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Dudenhofen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Duisburg": {
+            "Proper": "MSV Duisburg",
+            "Sprite": "[](#sprite1-p367)"
+        },
+        "Duisburg II": {
+            "Proper": "MSV Duisburg",
+            "Sprite": "[](#sprite1-p367)"
+        },
+        "Duisburg W": {
+            "Proper": "MSV Duisburg",
+            "Sprite": "[](#sprite1-p367)"
+        },
+        "Duren": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Dusseldorf": {
+            "Proper": "Fortuna D\u00fcsseldorf",
+            "Sprite": "[](#sprite1-p203)"
+        },
+        "Dusseldorf II": {
+            "Proper": "Fortuna D\u00fcsseldorf",
+            "Sprite": "[](#sprite1-p203)"
+        },
+        "Dusseldorf-West": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Eckernforder SV": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Eddersheim": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Egestorf-Langreder": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Eichede": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Eichstatt": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Eilenburg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Eilendorf": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Einheit Rudolstadt": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Eintracht Celle": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Eintracht Frankfurt": {
             "Proper": "Eintracht Frankfurt",
             "Sprite": "[](#sprite1-p86)"
@@ -11466,8 +11706,14 @@
             "Proper": "Eintracht Frankfurt",
             "Sprite": "[](#sprite1-p86)"
         },
-        "Eintracht Northeim": {},
-        "Eintracht Rheine": {},
+        "Eintracht Northeim": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Eintracht Rheine": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Eintracht Trier": {
             "Proper": "Eintracht Trier",
             "Sprite": "[](#sprite4-p262)"
@@ -11476,30 +11722,90 @@
             "Proper": "Eintracht Trier",
             "Sprite": "[](#sprite4-p262)"
         },
-        "Eisbachtal": {},
-        "Eltersdorf": {},
-        "Elversberg": {},
-        "Elversberg II": {},
-        "Emden": {},
-        "Emmelshausen": {},
+        "Eisbachtal": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Eltersdorf": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Elversberg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Elversberg II": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Emden": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Emmelshausen": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Energie Cottbus": {
             "Proper": "FC Energie Cottbus",
             "Sprite": "[](#sprite2-p243)"
         },
-        "Engers": {},
-        "Ennepetal": {},
-        "Eppelborn": {},
-        "Erfurt": {},
-        "Erlangen": {},
-        "Erlensee": {},
-        "Erndtebruck": {},
-        "Eutin": {},
-        "FC 08 Homburg": {},
-        "FC Gutersloh": {},
-        "FC Koln": {},
-        "FC Merseburg": {},
-        "FC Monheim": {},
-        "FC Viktoria 08": {},
+        "Engers": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ennepetal": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Eppelborn": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Erfurt": {
+            "Proper": "Rot-Wei\u00df Erfurt",
+            "Sprite": "[](#sprite7-p187)"
+        },
+        "Erlangen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Erlensee": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Erndtebruck": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Eutin": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "FC 08 Homburg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "FC Gutersloh": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "FC Koln": {
+            "Proper": "1. FC K\u00f6ln",
+            "Sprite": "[](#sprite1-p125)"
+        },
+        "FC Merseburg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "FC Monheim": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "FC Viktoria 08": {
+            "Proper": null,
+            "Sprite": null
+        },
         "FFC Niederkirchen W": {},
         "FSV Duisburg": {
             "Proper": "MSV Duisburg",
