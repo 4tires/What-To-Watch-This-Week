@@ -58,26 +58,32 @@ def OnlyPt9orBetterFuzzyMatcher(teamName, tNList):
         return fuzzyMatches[0]
     return None
 
-def SubstringFuzzyMatcher(teamName, tList):
-    sSFuzzyMatches = []
+def SubstringFuzzyMatcher(teamName, tList, returnSize):
+    returnSSFuzzyMatches = {}
     tNSplit = re.split(r"[. \-]+", teamName)
     for clubFromtList in tList:
         clubSplit = re.split(r"[. \-]+", clubFromtList)
+        returnSSFuzzyMatches[clubFromtList] = 0
         for word in tNSplit:
             wordMatch = []
-            if not (len(word) > 2):
+            if (len(word) < 3):
                 continue
             else:
                 wordMatch = difflib.get_close_matches(word, clubSplit, cutoff=.8, n=1)
-            if len(wordMatch) != 0:
-                sSFuzzyMatches.append(clubFromtList)
-                break
-    return sSFuzzyMatches
+            for w in wordMatch:
+                score = difflib.SequenceMatcher(None, word, w).ratio()
+                if score > returnSSFuzzyMatches[clubFromtList]:
+                    returnSSFuzzyMatches[clubFromtList] = score
+    for i in list(returnSSFuzzyMatches):
+        if returnSSFuzzyMatches[i] == 0:
+            del returnSSFuzzyMatches[i]
+    returnSSFuzzyMatches = dict(sorted(returnSSFuzzyMatches.items(), key=lambda item: item[1], reverse=True))
+    return list(returnSSFuzzyMatches.keys())[:returnSize]
 
 def FuzzyMatcher(teamName, tNList, region):
     for cutoff, resultsSize in [[.85, 3], [.6, 5], [.8, 5], [.55, 5]]:
         if (cutoff == .8):
-            fuzzyMatches = SubstringFuzzyMatcher(teamName, tNList)
+            fuzzyMatches = SubstringFuzzyMatcher(teamName, tNList, resultsSize)
         elif (cutoff == .55):
             print('\n', region, ':', teamName, ':', cutoff)
             print("Enter best approximation of team name or one of [s, skip] to skip.")
