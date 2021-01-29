@@ -11806,7 +11806,10 @@
             "Proper": null,
             "Sprite": null
         },
-        "FFC Niederkirchen W": {},
+        "FFC Niederkirchen W": {
+            "Proper": null,
+            "Sprite": null
+        },
         "FSV Duisburg": {
             "Proper": "MSV Duisburg",
             "Sprite": "[](#sprite1-p367)"
@@ -11815,204 +11818,738 @@
             "Proper": "FSV Frankfurt",
             "Sprite": "[](#sprite4-p171)"
         },
-        "FT Braunschweig": {},
-        "Fernwald": {},
-        "Finnentrop/Bamenohl": {},
-        "Flensburg": {},
-        "Flieden": {},
+        "FT Braunschweig": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Fernwald": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Finnentrop/Bamenohl": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Flensburg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Flieden": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Fortuna Koln": {
             "Proper": "Fortuna K\u00f6ln",
             "Sprite": "[](#sprite8-p198)"
         },
-        "Fortuna Koln II": {},
-        "Frechen": {},
-        "Freialdenhoven": {},
-        "Freiberg": {},
-        "Freiburg": {},
-        "Freiburg II": {},
-        "Freiburg W": {},
-        "Freiburger": {},
-        "Friedberg": {},
-        "Friesdorf": {},
-        "Frisia Risum-Lindholm": {},
-        "Frohnlach": {},
-        "Fulda-Lehnerz": {},
-        "Furstenwalde": {},
-        "Furth II": {},
-        "Garching": {},
-        "Gebenbach": {},
-        "Geestemunde": {},
-        "Germania Ratingen": {},
-        "Gersthofen": {},
-        "Giessen": {},
-        "Gifhorn": {},
-        "Ginsheim": {},
-        "Glesch-Paffendorf": {},
-        "Gonsenheim": {},
-        "Goppinger SV": {},
-        "Greifswald": {},
-        "Greuther Furth": {},
-        "Grimma": {},
-        "Grossaspach": {},
-        "Grossbardorf": {},
-        "Gutersloh W": {},
-        "HEBC Hamburg": {},
-        "Habenhauser": {},
-        "Hadamar": {},
-        "Hagen/Uthlede": {},
-        "Halberstadt": {},
-        "Halle": {},
-        "Hallescher": {},
-        "Haltern": {},
+        "Fortuna Koln II": {
+            "Proper": "Fortuna K\u00f6ln",
+            "Sprite": "[](#sprite8-p198)"
+        },
+        "Frechen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Freialdenhoven": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Freiberg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Freiburg": {
+            "Proper": "SC Freiburg",
+            "Sprite": "[](#sprite1-p154)"
+        },
+        "Freiburg II": {
+            "Proper": "SC Freiburg",
+            "Sprite": "[](#sprite1-p154)"
+        },
+        "Freiburg W": {
+            "Proper": "SC Freiburg",
+            "Sprite": "[](#sprite1-p154)"
+        },
+        "Freiburger": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Friedberg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Friesdorf": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Frisia Risum-Lindholm": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Frohnlach": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Fulda-Lehnerz": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Furstenwalde": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Furth II": {
+            "Proper": "SpVgg Greuther F\u00fcrth",
+            "Sprite": "[](#sprite2-p43)"
+        },
+        "Garching": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gebenbach": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Geestemunde": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Germania Ratingen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gersthofen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Giessen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gifhorn": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ginsheim": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Glesch-Paffendorf": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gonsenheim": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Goppinger SV": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Greifswald": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Greuther Furth": {
+            "Proper": "SpVgg Greuther F\u00fcrth",
+            "Sprite": "[](#sprite2-p43)"
+        },
+        "Grimma": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Grossaspach": {
+            "Proper": "SG Sonnenhof Gro\u00dfaspach",
+            "Sprite": "[](#sprite8-p203)"
+        },
+        "Grossbardorf": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gutersloh W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "HEBC Hamburg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Habenhauser": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hadamar": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hagen/Uthlede": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Halberstadt": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Halle": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hallescher": {
+            "Proper": "Hallescher FC",
+            "Sprite": "[](#sprite4-p405)"
+        },
+        "Haltern": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Hamburger SV": {
             "Proper": "Hamburger SV",
             "Sprite": "[](#sprite1-p74)"
         },
-        "Hamburger SV II": {},
-        "Hamburger SV III": {},
-        "Hamm United": {},
-        "Hammer SpVgg.": {},
-        "Hanau": {},
-        "Hankofen-Hailing": {},
-        "Hannover": {},
-        "Hannover II": {},
-        "Hannoverscher SC": {},
+        "Hamburger SV II": {
+            "Proper": "Hamburger SV",
+            "Sprite": "[](#sprite1-p74)"
+        },
+        "Hamburger SV III": {
+            "Proper": "Hamburger SV",
+            "Sprite": "[](#sprite1-p74)"
+        },
+        "Hamm United": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hammer SpVgg.": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hanau": {
+            "Proper": "FC Hanau 93",
+            "Sprite": "[](#sprite2-p322)"
+        },
+        "Hankofen-Hailing": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hannover": {
+            "Proper": "Hannover 96",
+            "Sprite": "[](#sprite1-p177)"
+        },
+        "Hannover II": {
+            "Proper": "Hannover 96",
+            "Sprite": "[](#sprite1-p177)"
+        },
+        "Hannoverscher SC": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Hansa Rostock": {
             "Proper": "Hansa Rostock",
             "Sprite": "[](#sprite1-p304)"
         },
-        "Hansa Rostock II": {},
-        "Hassia Bingen": {},
-        "Hastedt": {},
-        "Hauenstein": {},
-        "Heeslinger": {},
-        "Heidenheim": {},
-        "Heider SV": {},
-        "Heimstetten": {},
-        "Hemelingen": {},
-        "Hennef": {},
-        "Hertha Berlin": {},
-        "Hertha Berlin II": {},
-        "Hertha Wiesbach": {},
-        "Hertha Zehlendorf": {},
-        "Hessen Dreieich": {},
-        "Hilden": {},
-        "Hildesheim": {},
-        "Hoffenheim": {},
-        "Hoffenheim 2 W": {},
-        "Hoffenheim II": {},
-        "Hoffenheim W": {},
+        "Hansa Rostock II": {
+            "Proper": "Hansa Rostock",
+            "Sprite": "[](#sprite1-p304)"
+        },
+        "Hassia Bingen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hastedt": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hauenstein": {
+            "Proper": "SC Hauenstein",
+            "Sprite": "[](#sprite8-p239)"
+        },
+        "Heeslinger": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Heidenheim": {
+            "Proper": "1. FC Heidenheim",
+            "Sprite": "[](#sprite4-p283)"
+        },
+        "Heider SV": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Heimstetten": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hemelingen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hennef": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hertha Berlin": {
+            "Proper": "Hertha BSC",
+            "Sprite": "[](#sprite1-p121)"
+        },
+        "Hertha Berlin II": {
+            "Proper": "Hertha BSC",
+            "Sprite": "[](#sprite1-p121)"
+        },
+        "Hertha Wiesbach": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hertha Zehlendorf": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hessen Dreieich": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hilden": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hildesheim": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hoffenheim": {
+            "Proper": "1899 Hoffenheim",
+            "Sprite": "[](#sprite1-p353)"
+        },
+        "Hoffenheim 2 W": {
+            "Proper": "1899 Hoffenheim",
+            "Sprite": "[](#sprite1-p353)"
+        },
+        "Hoffenheim II": {
+            "Proper": "1899 Hoffenheim",
+            "Sprite": "[](#sprite1-p353)"
+        },
+        "Hoffenheim W": {
+            "Proper": "1899 Hoffenheim",
+            "Sprite": "[](#sprite1-p353)"
+        },
         "Holstein Kiel": {
             "Proper": "Holstein Kiel",
             "Sprite": "[](#sprite2-p352)"
         },
-        "Holstein Kiel II": {},
-        "Holzwickeder SC": {},
-        "Homberg": {},
-        "Hunfelder": {},
-        "Hurth": {},
-        "Husumer": {},
-        "Illertissen": {},
-        "Ingolstadt": {},
-        "Ingolstadt II": {},
-        "Ingolstadt W": {},
-        "Inter Leipzig": {},
-        "Inter Turkspor Kiel": {},
-        "Ismaning": {},
-        "Jagersburg": {},
-        "Jahn Hiesfeld": {},
-        "Jeddeloh": {},
-        "Jena": {},
-        "Jena II": {},
-        "Jena W": {},
-        "Kaan-Marienborn": {},
-        "Kahl": {},
-        "Kaiserslautern": {},
-        "Kaiserslautern II": {},
-        "Karbach": {},
-        "Karlburg": {},
-        "Karlsruher": {},
-        "Kassel": {},
-        "Kirchanschoring": {},
-        "Kleve": {},
-        "Kollerbach": {},
-        "Koln II": {},
-        "Koln W": {},
-        "Komet Arsten": {},
-        "Kottern-St. Mang": {},
-        "Kray": {},
-        "Krieschow": {},
-        "Kronshagen": {},
-        "Landsberg": {},
-        "Leher": {},
-        "Lichtenberg": {},
-        "Linx": {},
-        "Lippstadt": {},
-        "Lohne": {},
+        "Holstein Kiel II": {
+            "Proper": "Holstein Kiel",
+            "Sprite": "[](#sprite2-p352)"
+        },
+        "Holzwickeder SC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Homberg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hunfelder": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hurth": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Husumer": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Illertissen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ingolstadt": {
+            "Proper": "FC Ingolstadt",
+            "Sprite": "[](#sprite4-p477)"
+        },
+        "Ingolstadt II": {
+            "Proper": "FC Ingolstadt",
+            "Sprite": "[](#sprite4-p477)"
+        },
+        "Ingolstadt W": {
+            "Proper": "FC Ingolstadt",
+            "Sprite": "[](#sprite4-p477)"
+        },
+        "Inter Leipzig": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Inter Turkspor Kiel": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ismaning": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Jagersburg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Jahn Hiesfeld": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Jeddeloh": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Jena": {
+            "Proper": "FC Carl Zeiss Jena",
+            "Sprite": "[](#sprite4-p265)"
+        },
+        "Jena II": {
+            "Proper": "FC Carl Zeiss Jena",
+            "Sprite": "[](#sprite4-p265)"
+        },
+        "Jena W": {
+            "Proper": "FC Carl Zeiss Jena",
+            "Sprite": "[](#sprite4-p265)"
+        },
+        "Kaan-Marienborn": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kahl": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kaiserslautern": {
+            "Proper": "1. FC Kaiserslautern",
+            "Sprite": "[](#sprite1-p178)"
+        },
+        "Kaiserslautern II": {
+            "Proper": "1. FC Kaiserslautern",
+            "Sprite": "[](#sprite1-p178)"
+        },
+        "Karbach": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Karlburg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Karlsruher": {
+            "Proper": "Karlsruher SC",
+            "Sprite": "[](#sprite1-p260)"
+        },
+        "Kassel": {
+            "Proper": "Hessen Kassel",
+            "Sprite": "[](#sprite5-p24)"
+        },
+        "Kirchanschoring": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kleve": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kollerbach": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Koln II": {
+            "Proper": "1. FC K\u00f6ln",
+            "Sprite": "[](#sprite1-p125)"
+        },
+        "Koln W": {
+            "Proper": "1. FC K\u00f6ln",
+            "Sprite": "[](#sprite1-p125)"
+        },
+        "Komet Arsten": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kottern-St. Mang": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kray": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Krieschow": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kronshagen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Landsberg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Leher": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Lichtenberg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Linx": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Lippstadt": {
+            "Proper": "SV Lippstadt 08",
+            "Sprite": "[](#sprite8-p489)"
+        },
+        "Lohne": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Lokomotive Leipzig": {
             "Proper": "Lokomotive Leipzig",
             "Sprite": "[](#sprite8-p254)"
         },
-        "Lorrach-Brombach": {},
-        "Lotte": {},
-        "Lubeck": {},
-        "Lubeck II": {},
-        "Luckenwalde": {},
-        "Ludwigsfelder": {},
-        "Luneburger Hansa": {},
-        "Lupo-Martini Wolfsburg": {},
-        "Magdeburg": {},
-        "Mainz": {},
-        "Mainz II": {},
-        "Mannheim": {},
-        "Martinroda": {},
-        "Mechtersheim": {},
-        "Meerbusch": {},
-        "Meiendorfer SV": {},
-        "Memmingen": {},
-        "Meppen": {},
-        "Meppen W": {},
-        "Meuselwitz": {},
-        "Munich 1860": {},
-        "Munich 1860 II": {},
-        "Neckarsulmer": {},
-        "Neuhof": {},
-        "Neumunster": {},
-        "Neunkirchen": {},
-        "Neustrelitz": {},
-        "Niederwenigern": {},
-        "Niendorfer TSV": {},
-        "Norderstedt": {},
-        "Nordhausen": {},
-        "Nordlingen": {},
-        "Nottingen": {},
-        "Nurnberg": {},
-        "Nurnberg II": {},
-        "OSC Bremerhaven": {},
-        "Oberachern": {},
-        "Oberhausen": {},
-        "Oberlausitz": {},
-        "Oberneuland": {},
-        "Offenbach": {},
-        "Oldenburg": {},
-        "Oldenburger": {},
-        "Paderborn": {},
-        "Paderborn II": {},
-        "Paloma": {},
-        "Pampow": {},
-        "Pansdorf": {},
-        "Pesch": {},
-        "Pfeddersheim": {},
-        "Pforzheim": {},
-        "Phonix Lubeck": {},
-        "Pipinsried": {},
-        "Pirmasens": {},
-        "Plauen": {},
-        "Potsdam W": {},
-        "Preussen Munster": {},
-        "Preussen Munster 2": {},
-        "Preussen Reinfeld": {},
-        "Pullach": {},
+        "Lorrach-Brombach": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Lotte": {
+            "Proper": "Sportfreunde Lotte",
+            "Sprite": "[](#sprite7-p424)"
+        },
+        "Lubeck": {
+            "Proper": "VfB L\u00fcbeck",
+            "Sprite": "[](#sprite7-p216)"
+        },
+        "Lubeck II": {
+            "Proper": "VfB L\u00fcbeck",
+            "Sprite": "[](#sprite7-p216)"
+        },
+        "Luckenwalde": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ludwigsfelder": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Luneburger Hansa": {
+            "Proper": "L\u00fcneburger SK Hansa",
+            "Sprite": "[](#sprite5-p125)"
+        },
+        "Lupo-Martini Wolfsburg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Magdeburg": {
+            "Proper": "1. FC Magdeburg",
+            "Sprite": "[](#sprite2-p383)"
+        },
+        "Mainz": {
+            "Proper": "1. FSV Mainz 05",
+            "Sprite": "[](#sprite1-p205)"
+        },
+        "Mainz II": {
+            "Proper": "1. FSV Mainz 05",
+            "Sprite": "[](#sprite1-p205)"
+        },
+        "Mannheim": {
+            "Proper": "SV Waldhof Mannheim",
+            "Sprite": "[](#sprite2-p172)"
+        },
+        "Martinroda": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Mechtersheim": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Meerbusch": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Meiendorfer SV": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Memmingen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Meppen": {
+            "Proper": "SV Meppen",
+            "Sprite": "[](#sprite8-p398)"
+        },
+        "Meppen W": {
+            "Proper": "SV Meppen",
+            "Sprite": "[](#sprite8-p398)"
+        },
+        "Meuselwitz": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Munich 1860": {
+            "Proper": "TSV 1860 M\u00fcnchen",
+            "Sprite": "[](#sprite1-p254)"
+        },
+        "Munich 1860 II": {
+            "Proper": "TSV 1860 M\u00fcnchen",
+            "Sprite": "[](#sprite1-p254)"
+        },
+        "Neckarsulmer": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Neuhof": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Neumunster": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Neunkirchen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Neustrelitz": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Niederwenigern": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Niendorfer TSV": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Norderstedt": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Nordhausen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Nordlingen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Nottingen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Nurnberg": {
+            "Proper": "1. FC N\u00fcrnberg",
+            "Sprite": "[](#sprite1-p176)"
+        },
+        "Nurnberg II": {
+            "Proper": "1. FC N\u00fcrnberg",
+            "Sprite": "[](#sprite1-p176)"
+        },
+        "OSC Bremerhaven": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oberachern": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oberhausen": {
+            "Proper": "Rot-Wei\u00df Oberhausen",
+            "Sprite": "[](#sprite5-p260)"
+        },
+        "Oberlausitz": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oberneuland": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Offenbach": {
+            "Proper": "Kickers Offenbach",
+            "Sprite": "[](#sprite2-p111)"
+        },
+        "Oldenburg": {
+            "Proper": "VfB Oldenburg",
+            "Sprite": "[](#sprite2-p414)"
+        },
+        "Oldenburger": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Paderborn": {
+            "Proper": "SC Paderborn 07",
+            "Sprite": "[](#sprite2-p231)"
+        },
+        "Paderborn II": {
+            "Proper": "SC Paderborn 07",
+            "Sprite": "[](#sprite2-p231)"
+        },
+        "Paloma": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pampow": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pansdorf": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pesch": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pfeddersheim": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pforzheim": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Phonix Lubeck": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pipinsried": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pirmasens": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Plauen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Potsdam W": {
+            "Proper": "1. FFC Turbine Potsdam",
+            "Sprite": "[](#sprite4-p89)"
+        },
+        "Preussen Munster": {
+            "Proper": "SC Preu\u00dfen M\u00fcnster",
+            "Sprite": "[](#sprite1-p467)"
+        },
+        "Preussen Munster 2": {
+            "Proper": "SC Preu\u00dfen M\u00fcnster",
+            "Sprite": "[](#sprite1-p467)"
+        },
+        "Preussen Reinfeld": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pullach": {
+            "Proper": null,
+            "Sprite": null
+        },
         "RB Leipzig": {
             "Proper": "RB Leipzig",
             "Sprite": "[](#sprite5-p14)"
@@ -12021,131 +12558,446 @@
             "Proper": "RB Leipzig",
             "Sprite": "[](#sprite5-p14)"
         },
-        "RSV Eintracht": {},
-        "RSV Meinerzhagen": {},
-        "RW Essen": {},
-        "RW Koblenz": {},
-        "RW Walldorf": {},
-        "Rain/Lech": {},
-        "Ramlingen-Ehlershausen": {},
-        "Rathenow": {},
-        "Ravensburg": {},
-        "Regensburg": {},
-        "Regensburg II": {},
-        "Reutlingen": {},
-        "Rielasingen-Arlen": {},
-        "Rochling": {},
-        "Rodinghausen": {},
-        "Rosenheim": {},
-        "Rossbach/Verscheid": {},
-        "Rostocker FC": {},
-        "Rotenburger": {},
-        "Rugenbergen": {},
-        "SC Velbert": {},
-        "SC Victoria Hamburg": {},
-        "SC Weiche-08": {},
-        "SC Weiche-08 II": {},
-        "SFL Bremerhaven": {},
-        "SG 2000 Mulheim-Karlich": {},
+        "RSV Eintracht": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "RSV Meinerzhagen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "RW Essen": {
+            "Proper": "Rot-Weiss Essen",
+            "Sprite": "[](#sprite2-p158)"
+        },
+        "RW Koblenz": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "RW Walldorf": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Rain/Lech": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ramlingen-Ehlershausen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Rathenow": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ravensburg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Regensburg": {
+            "Proper": "SSV Jahn Regensburg",
+            "Sprite": "[](#sprite4-p315)"
+        },
+        "Regensburg II": {
+            "Proper": "SSV Jahn Regensburg",
+            "Sprite": "[](#sprite4-p315)"
+        },
+        "Reutlingen": {
+            "Proper": "SSV Reutlingen 05",
+            "Sprite": "[](#sprite4-p221)"
+        },
+        "Rielasingen-Arlen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Rochling": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Rodinghausen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Rosenheim": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Rossbach/Verscheid": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Rostocker FC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Rotenburger": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Rugenbergen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "SC Velbert": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "SC Victoria Hamburg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "SC Weiche-08": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "SC Weiche-08 II": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "SFL Bremerhaven": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "SG 2000 Mulheim-Karlich": {
+            "Proper": null,
+            "Sprite": null
+        },
         "SG Dynamo Dresden": {
             "Proper": "Dynamo Dresden",
             "Sprite": "[](#sprite1-p398)"
         },
-        "SG Wattenscheid": {},
-        "SGS Essen W": {},
-        "SSVg Velbert": {},
-        "SV Steinbach": {},
-        "SVG Gottingen": {},
-        "SW Essen": {},
-        "Saarbrucken": {},
-        "Saarbrucken II": {},
-        "Saarbrucken W": {},
-        "Salmrohr": {},
-        "Sand": {},
-        "Sand W": {},
-        "Sandersdorf": {},
+        "SG Wattenscheid": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "SGS Essen W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "SSVg Velbert": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "SV Steinbach": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "SVG Gottingen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "SW Essen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Saarbrucken": {
+            "Proper": "1. FC Saarbr\u00fccken",
+            "Sprite": "[](#sprite2-p68)"
+        },
+        "Saarbrucken II": {
+            "Proper": "1. FC Saarbr\u00fccken",
+            "Sprite": "[](#sprite2-p68)"
+        },
+        "Saarbrucken W": {
+            "Proper": "1. FC Saarbr\u00fccken",
+            "Sprite": "[](#sprite2-p68)"
+        },
+        "Salmrohr": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sand": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sand W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sandersdorf": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Sandhausen": {
             "Proper": "Sandhausen",
             "Sprite": "[](#sprite4-p284)"
         },
-        "Sandhausen II": {},
-        "Sasel": {},
-        "Schalding": {},
-        "Schalke": {},
-        "Schalke II": {},
-        "Schermbeck": {},
-        "Schermbeck 2020": {},
-        "Schonnebeck": {},
-        "Schott Mainz": {},
-        "Schwaben Augsburg": {},
-        "Schwabmunchen": {},
-        "Schwachhausen": {},
-        "Schweinfurt": {},
-        "Seelow": {},
-        "Seligenporten": {},
-        "Siegburger": {},
-        "Siegen": {},
+        "Sandhausen II": {
+            "Proper": "Sandhausen",
+            "Sprite": "[](#sprite4-p284)"
+        },
+        "Sasel": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Schalding": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Schalke": {
+            "Proper": "Schalke 04",
+            "Sprite": "[](#sprite1-p79)"
+        },
+        "Schalke II": {
+            "Proper": "Schalke 04",
+            "Sprite": "[](#sprite1-p79)"
+        },
+        "Schermbeck": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Schermbeck 2020": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Schonnebeck": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Schott Mainz": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Schwaben Augsburg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Schwabmunchen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Schwachhausen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Schweinfurt": {
+            "Proper": "1. FC Schweinfurt 05",
+            "Sprite": "[](#sprite4-p289)"
+        },
+        "Seelow": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Seligenporten": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Siegburger": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Siegen": {
+            "Proper": null,
+            "Sprite": null
+        },
         "SpVgg Bayreuth": {
             "Proper": "SpVgg Bayreuth",
             "Sprite": "[](#sprite7-p366)"
         },
-        "SpVgg Sterkrade-Nord": {},
-        "Speldorf": {},
-        "Spelle-Venhaus": {},
-        "Speyer": {},
-        "Sprockhovel": {},
-        "Spvgg Ansbach 09": {},
-        "St. Pauli": {},
-        "St. Pauli II": {},
-        "Staaken": {},
-        "Stadtallendorf": {},
-        "Steinbach Haiger": {},
-        "Stendal": {},
-        "Stern": {},
-        "Straelen": {},
-        "Strausberg": {},
-        "Stutt. Kickers": {},
-        "Stuttgart": {},
-        "Stuttgart II": {},
-        "Suderelbe": {},
-        "TB Berlin": {},
-        "TSV 1880 Wasserburg": {},
-        "TSV Aindling": {},
-        "TSV Buchholz 08": {},
-        "TSV Havelse": {},
-        "TSV Ilshofen": {},
-        "TUS Dietkirchen": {},
-        "TVD Velbert": {},
+        "SpVgg Sterkrade-Nord": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Speldorf": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Spelle-Venhaus": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Speyer": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sprockhovel": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Spvgg Ansbach 09": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "St. Pauli": {
+            "Proper": "FC St. Pauli",
+            "Sprite": "[](#sprite1-p114)"
+        },
+        "St. Pauli II": {
+            "Proper": "FC St. Pauli",
+            "Sprite": "[](#sprite1-p114)"
+        },
+        "Staaken": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Stadtallendorf": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Steinbach Haiger": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Stendal": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Stern": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Straelen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Strausberg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Stutt. Kickers": {
+            "Proper": "Stuttgarter Kickers",
+            "Sprite": "[](#sprite2-p492)"
+        },
+        "Stuttgart": {
+            "Proper": "VfB Stuttgart",
+            "Sprite": "[](#sprite1-p68)"
+        },
+        "Stuttgart II": {
+            "Proper": "VfB Stuttgart",
+            "Sprite": "[](#sprite1-p68)"
+        },
+        "Suderelbe": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "TB Berlin": {
+            "Proper": "Tennis Borussia Berlin",
+            "Sprite": "[](#sprite9-p2)"
+        },
+        "TSV 1880 Wasserburg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "TSV Aindling": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "TSV Buchholz 08": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "TSV Havelse": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "TSV Ilshofen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "TUS Dietkirchen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "TVD Velbert": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Tasmania Berlin": {
             "Proper": "SV Tasmania Berlin",
             "Sprite": "[](#sprite4-p355)"
         },
-        "Teutonia Ottensen": {},
-        "Todesfelde": {},
-        "Torgelower Greif": {},
-        "Tornesch": {},
-        "TuRU Dusseldorf": {},
+        "Teutonia Ottensen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Todesfelde": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Torgelower Greif": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tornesch": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "TuRU Dusseldorf": {
+            "Proper": null,
+            "Sprite": null
+        },
         "TuS Koblenz": {
             "Proper": "TuS Koblenz",
             "Sprite": "[](#sprite5-p5)"
         },
-        "TuS Osdorf": {},
-        "Tundern": {},
-        "Turbine Potsdam 2 W": {},
-        "Turkgucu Munchen": {},
-        "Turkspor Augsburg": {},
-        "Uerdingen": {},
-        "Ulm": {},
-        "Union 60 Bremen": {},
-        "Union Berlin": {},
-        "Union Nettetal": {},
-        "Unterhaching": {},
-        "Unterhaching II": {},
-        "Uphusen": {},
-        "Vatan Bremen": {},
-        "Verl": {},
-        "VfB Huls": {},
-        "VfL Lohbrugge": {},
+        "TuS Osdorf": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tundern": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Turbine Potsdam 2 W": {
+            "Proper": "1. FFC Turbine Potsdam",
+            "Sprite": "[](#sprite4-p89)"
+        },
+        "Turkgucu Munchen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Turkspor Augsburg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Uerdingen": {
+            "Proper": "KFC Uerdingen 05",
+            "Sprite": "[](#sprite4-p335)"
+        },
+        "Ulm": {
+            "Proper": "SSV Ulm 1846",
+            "Sprite": "[](#sprite2-p333)"
+        },
+        "Union 60 Bremen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Union Berlin": {
+            "Proper": "1. FC Union Berlin",
+            "Sprite": "[](#sprite3-p23)"
+        },
+        "Union Nettetal": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Unterhaching": {
+            "Proper": "SpVgg Unterhaching",
+            "Sprite": "[](#sprite4-p406)"
+        },
+        "Unterhaching II": {
+            "Proper": "SpVgg Unterhaching",
+            "Sprite": "[](#sprite4-p406)"
+        },
+        "Uphusen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Vatan Bremen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Verl": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "VfB Huls": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "VfL Lohbrugge": {
+            "Proper": null,
+            "Sprite": null
+        },
         "VfL Oldenburg": {
             "Proper": "VfB Oldenburg",
             "Sprite": "[](#sprite2-p414)"
@@ -12154,279 +13006,852 @@
             "Proper": "VfL Osnabr\u00fcck",
             "Sprite": "[](#sprite4-p239)"
         },
-        "VfL Vichttal": {},
-        "Viktoria Berlin": {},
-        "Viktoria Griesheim": {},
+        "VfL Vichttal": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Viktoria Berlin": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Viktoria Griesheim": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Viktoria Koln": {
             "Proper": "Viktoria K\u00f6ln",
             "Sprite": "[](#sprite5-p483)"
         },
-        "Villingen": {},
-        "Vilzing": {},
-        "Vreden": {},
-        "Waldalgesheim": {},
-        "Waldgirmes": {},
-        "Walldorf": {},
-        "Walldorf II": {},
-        "Wandsbeker Concordia": {},
-        "Wegberg-Beeck": {},
-        "Wehen": {},
+        "Villingen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Vilzing": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Vreden": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Waldalgesheim": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Waldgirmes": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Walldorf": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Walldorf II": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Wandsbeker Concordia": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Wegberg-Beeck": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Wehen": {
+            "Proper": "SV Wehen Wiesbaden",
+            "Sprite": "[](#sprite2-p375)"
+        },
         "Werder Bremen": {
             "Proper": "Werder Bremen",
             "Sprite": "[](#sprite1-p64)"
         },
-        "Werder Bremen II": {},
-        "Werder Bremen III": {},
+        "Werder Bremen II": {
+            "Proper": "Werder Bremen",
+            "Sprite": "[](#sprite1-p64)"
+        },
+        "Werder Bremen III": {
+            "Proper": "Werder Bremen",
+            "Sprite": "[](#sprite1-p64)"
+        },
         "Werder Bremen W": {
             "Proper": "Werder Bremen",
             "Sprite": "[](#sprite1-p64)"
         },
-        "Wesseling-Urfeld": {},
+        "Wesseling-Urfeld": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Westfalia Herne": {
             "Proper": "Westfalia Herne",
             "Sprite": "[](#sprite4-p80)"
         },
-        "Westfalia Rhynern": {},
-        "Wiedenbruck": {},
-        "Wirges": {},
-        "Wolfenbuttel": {},
-        "Wolfsburg": {},
-        "Wolfsburg 2 W": {},
-        "Wolfsburg II": {},
-        "Wolfsburg W": {},
-        "Worms": {},
-        "Wuppertaler": {},
-        "Wurzburger FV": {},
+        "Westfalia Rhynern": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Wiedenbruck": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Wirges": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Wolfenbuttel": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Wolfsburg": {
+            "Proper": "VfL Wolfsburg",
+            "Sprite": "[](#sprite1-p427)"
+        },
+        "Wolfsburg 2 W": {
+            "Proper": "VfL Wolfsburg",
+            "Sprite": "[](#sprite1-p427)"
+        },
+        "Wolfsburg II": {
+            "Proper": "VfL Wolfsburg",
+            "Sprite": "[](#sprite1-p427)"
+        },
+        "Wolfsburg W": {
+            "Proper": "VfL Wolfsburg",
+            "Sprite": "[](#sprite1-p427)"
+        },
+        "Worms": {
+            "Proper": "Wormatia Worms",
+            "Sprite": "[](#sprite2-p170)"
+        },
+        "Wuppertaler": {
+            "Proper": "Wuppertaler SV",
+            "Sprite": "[](#sprite4-p336)"
+        },
+        "Wurzburger FV": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Wurzburger Kickers": {
             "Proper": "W\u00fcrzburger Kickers",
             "Sprite": "[](#sprite4-p417)"
         },
-        "Wurzburger Kickers W": {},
-        "Zeilsheim": {},
-        "Zweibrucken": {},
-        "Zwickau": {}
+        "Wurzburger Kickers W": {
+            "Proper": "W\u00fcrzburger Kickers",
+            "Sprite": "[](#sprite4-p417)"
+        },
+        "Zeilsheim": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Zweibrucken": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Zwickau": {
+            "Proper": "FSV Zwickau",
+            "Sprite": "[](#sprite8-p202)"
+        }
     },
     "Ghana": {
-        "Aduana Stars": {},
+        "Aduana Stars": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Asante Kotoko": {
             "Proper": "Asante Kotoko",
             "Sprite": "[](#sprite4-p15)"
         },
-        "Ashanti": {},
-        "Bechem United": {},
+        "Ashanti": {
+            "Proper": "Ashanti Gold",
+            "Sprite": "[](#sprite8-p214)"
+        },
+        "Bechem United": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Berekum Chelsea": {
             "Proper": "Berekum Chelsea",
             "Sprite": "[](#sprite2-p254)"
         },
-        "Dreams": {},
-        "Ebusua": {},
-        "Eleven Wonders": {},
-        "Elmina Sharks": {},
-        "Great Olympics": {},
+        "Dreams": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ebusua": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Eleven Wonders": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Elmina Sharks": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Great Olympics": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Hearts of Oak": {
             "Proper": "Hearts of Oak",
             "Sprite": "[](#sprite8-p343)"
         },
-        "Inter Allies": {},
-        "Karela": {},
-        "King Faisal": {},
-        "Legon Cities": {},
-        "Liberty": {},
-        "Medeama": {},
-        "WAFA": {}
+        "Inter Allies": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Karela": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "King Faisal": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Legon Cities": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Liberty": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Medeama": {
+            "Proper": "Medeama SC",
+            "Sprite": "[](#sprite8-p22)"
+        },
+        "WAFA": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "Gibraltar": {
-        "Boca Gibraltar": {},
-        "Britannia XI": {},
-        "College 1975 FC": {},
+        "Boca Gibraltar": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Britannia XI": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "College 1975 FC": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Europa FC": {
             "Proper": "Europa FC",
             "Sprite": "[](#sprite8-p87)"
         },
-        "Europa Point": {},
-        "Glacis United": {},
+        "Europa Point": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Glacis United": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Lincoln Red Imps": {
             "Proper": "Lincoln Red Imps",
             "Sprite": "[](#sprite8-p82)"
         },
-        "Lions Gibraltar": {},
-        "Lynx": {},
-        "Magpies": {},
-        "Manchester 62": {},
-        "Mons Calpe": {},
+        "Lions Gibraltar": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Lynx": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Magpies": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Manchester 62": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Mons Calpe": {
+            "Proper": null,
+            "Sprite": null
+        },
         "St Josephs": {
             "Proper": "St Joseph's",
             "Sprite": "[](#sprite8-p427)"
         }
     },
     "Greece": {
-        "A. Asteras": {},
-        "AE Neapolis": {},
-        "AEEK Inka": {},
-        "AEK Athens FC": {},
-        "AEL Larissa": {},
-        "AO Akratitos": {},
+        "A. Asteras": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "AE Neapolis": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "AEEK Inka": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "AEK Athens FC": {
+            "Proper": "AEK Athens",
+            "Sprite": "[](#sprite1-p284)"
+        },
+        "AEL Larissa": {
+            "Proper": "AEL",
+            "Sprite": "[](#sprite2-p279)"
+        },
+        "AO Akratitos": {
+            "Proper": null,
+            "Sprite": null
+        },
         "AO Trikala": {
             "Proper": "AO Trikala",
             "Sprite": "[](#sprite7-p207)"
         },
-        "AO Tsilivi": {},
-        "AS Giannitsa": {},
-        "Achaiki": {},
-        "Acheron Kanalaki": {},
-        "Aetos Loutron": {},
-        "Aetos Makrychoriou": {},
-        "Aetos Orfani": {},
-        "Aetos Varvaras": {},
-        "Agios Ierotheos": {},
-        "Agios Matthaios": {},
-        "Agios Nikolaos": {},
-        "Aias": {},
-        "Aias Gastounis": {},
-        "Aiolikos": {},
-        "Aittitos Spata": {},
-        "Alexandroypolis": {},
-        "Almopos": {},
-        "Almyros Gaziou": {},
-        "Ampelokipon": {},
-        "Amvrakikos Loutrou": {},
-        "Amvrysseas": {},
-        "Amyntaio": {},
-        "Anagennisi Arta": {},
-        "Anagennisi Thalassias": {},
-        "Ano Meras": {},
-        "Apollon Larissa": {},
-        "Apollon Paralimniou": {},
-        "Apollon Pontou": {},
+        "AO Tsilivi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "AS Giannitsa": {
+            "Proper": "PAS Giannina",
+            "Sprite": "[](#sprite5-p106)"
+        },
+        "Achaiki": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Acheron Kanalaki": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Aetos Loutron": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Aetos Makrychoriou": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Aetos Orfani": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Aetos Varvaras": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Agios Ierotheos": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Agios Matthaios": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Agios Nikolaos": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Aias": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Aias Gastounis": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Aiolikos": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Aittitos Spata": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Alexandroypolis": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Almopos": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Almyros Gaziou": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ampelokipon": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Amvrakikos Loutrou": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Amvrysseas": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Amyntaio": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Anagennisi Arta": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Anagennisi Thalassias": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ano Meras": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Apollon Larissa": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Apollon Paralimniou": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Apollon Pontou": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Aris": {
             "Proper": "Aris",
             "Sprite": "[](#sprite2-p303)"
         },
-        "Aris Avatou": {},
-        "Aris Rethymnou": {},
-        "Aris Skalas": {},
-        "Aris Soudas": {},
-        "Aspropyrgos Enosis": {},
-        "Asteras Kalirachis": {},
+        "Aris Avatou": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Aris Rethymnou": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Aris Skalas": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Aris Soudas": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Aspropyrgos Enosis": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Asteras Kalirachis": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Asteras Tripolis": {
             "Proper": "Asteras Tripolis",
             "Sprite": "[](#sprite2-p432)"
         },
-        "Asteras Vlachioti": {},
-        "Atalanti": {},
+        "Asteras Vlachioti": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Atalanti": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Atromitos": {
             "Proper": "Atromitos",
             "Sprite": "[](#sprite4-p72)"
         },
-        "Atromitos Chiliomodi": {},
-        "Atromitos Palamas": {},
-        "Atsalenios": {},
-        "Charavgiakos": {},
-        "Chrisoupolis": {},
-        "Damastas": {},
-        "Dia. Stefanovik": {},
-        "Diagoras": {},
-        "Diagoras Vrachneikon": {},
-        "Dias Diou": {},
-        "Diavolitsi": {},
-        "Didymoteicho": {},
-        "Dimitra Efxeinoupolis": {},
-        "Dramas": {},
-        "Edessaikos": {},
-        "Elassona": {},
-        "Elpida Sapes": {},
-        "Episkopi": {},
+        "Atromitos Chiliomodi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Atromitos Palamas": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Atsalenios": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Charavgiakos": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Chrisoupolis": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Damastas": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Dia. Stefanovik": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Diagoras": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Diagoras Vrachneikon": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Dias Diou": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Diavolitsi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Didymoteicho": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Dimitra Efxeinoupolis": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Dramas": {
+            "Proper": "Doxa Drama",
+            "Sprite": "[](#sprite4-p272)"
+        },
+        "Edessaikos": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Elassona": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Elpida Sapes": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Episkopi": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Ergotelis": {
             "Proper": "Ergotelis",
             "Sprite": "[](#sprite7-p476)"
         },
-        "Ermionidas-Ermis": {},
-        "Ermis Meligous": {},
-        "Ethnikos Giannitsa": {},
-        "Ethnikos Neou": {},
-        "Ethnikos Piraeus": {},
-        "Ethnikos Skoulikadou": {},
-        "Ethnikos Sochos": {},
-        "Evosmou": {},
-        "F.C. Pandramaikos": {},
-        "Fikis": {},
-        "Foinikas N. Epidavrou": {},
-        "Fokikos FC": {},
-        "Fostiras": {},
-        "GS Almyros": {},
-        "Giannina": {},
-        "Giouchtas": {},
-        "Ialisos": {},
-        "Ierapetra": {},
-        "Ilioupoli": {},
-        "Ionikos": {},
-        "Ipato": {},
+        "Ermionidas-Ermis": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ermis Meligous": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ethnikos Giannitsa": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ethnikos Neou": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ethnikos Piraeus": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ethnikos Skoulikadou": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ethnikos Sochos": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Evosmou": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "F.C. Pandramaikos": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Fikis": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Foinikas N. Epidavrou": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Fokikos FC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Fostiras": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "GS Almyros": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Giannina": {
+            "Proper": "PAS Giannina",
+            "Sprite": "[](#sprite5-p106)"
+        },
+        "Giouchtas": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ialisos": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ierapetra": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ilioupoli": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ionikos": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ipato": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Iraklis": {
             "Proper": "Iraklis",
             "Sprite": "[](#sprite5-p102)"
         },
-        "Iraklis Larissa": {},
-        "Irodotos": {},
-        "Kalamata": {},
-        "Kallithea": {},
-        "Karagiannion": {},
-        "Karaiskakis": {},
-        "Karavas": {},
-        "Karditsa": {},
-        "Karitsa": {},
-        "Kavala": {},
-        "Keratsini": {},
-        "Kerkyra": {},
-        "Kifisias": {},
-        "Koronida Koiladas": {},
-        "Kozani FC": {},
-        "Kyanos A. V.": {},
-        "Lamia": {},
-        "Lefkimmi": {},
+        "Iraklis Larissa": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Irodotos": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kalamata": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kallithea": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Karagiannion": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Karaiskakis": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Karavas": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Karditsa": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Karitsa": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kavala": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Keratsini": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kerkyra": {
+            "Proper": "AOK Kerkyra",
+            "Sprite": "[](#sprite8-p266)"
+        },
+        "Kifisias": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Koronida Koiladas": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kozani FC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kyanos A. V.": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Lamia": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Lefkimmi": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Levadiakos": {
             "Proper": "Levadiakos",
             "Sprite": "[](#sprite5-p109)"
         },
-        "M. Alexandros Kastorias": {},
-        "M. Alexandros Orfaniou": {},
-        "M. Alexandros Trikala": {},
-        "Makedonikos": {},
-        "Makedonikos Foufas": {},
-        "Marko": {},
-        "Mesolongi AE": {},
-        "Meteora": {},
-        "Mikrasiatiki": {},
-        "Molaikos": {},
-        "Moschato": {},
-        "Nafpaktiakos": {},
-        "Nafplio": {},
-        "Nea Artaki": {},
-        "Nea Kallikrateia": {},
-        "Neos Asteras Rethymno": {},
-        "Niki Agkathia": {},
-        "Niki Volos": {},
-        "O. Volos": {},
-        "O.F. Ierapetra": {},
-        "OFI Crete": {},
-        "Oikonomos": {},
-        "Olympiacos Piraeus": {},
-        "Opountios Martinou": {},
-        "Orfeas Xanthi": {},
-        "PAE Chania": {},
-        "PAE Egaleo": {},
-        "PAO Koufalion": {},
-        "PAO Varda": {},
+        "M. Alexandros Kastorias": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "M. Alexandros Orfaniou": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "M. Alexandros Trikala": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Makedonikos": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Makedonikos Foufas": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Marko": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Mesolongi AE": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Meteora": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Mikrasiatiki": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Molaikos": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Moschato": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Nafpaktiakos": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Nafplio": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Nea Artaki": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Nea Kallikrateia": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Neos Asteras Rethymno": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Niki Agkathia": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Niki Volos": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "O. Volos": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "O.F. Ierapetra": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "OFI Crete": {
+            "Proper": "OFI",
+            "Sprite": "[](#sprite4-p163)"
+        },
+        "Oikonomos": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Olympiacos Piraeus": {
+            "Proper": "Olympiacos",
+            "Sprite": "[](#sprite1-p139)"
+        },
+        "Opountios Martinou": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Orfeas Xanthi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "PAE Chania": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "PAE Egaleo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "PAO Koufalion": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "PAO Varda": {
+            "Proper": null,
+            "Sprite": null
+        },
         "PAOK": {
             "Proper": "PAOK",
             "Sprite": "[](#sprite1-p413)"
         },
-        "PAOK Alexandreia": {},
-        "PO Triglia": {},
-        "Palaiochora": {},
-        "Pallixouriakos": {},
-        "Pamisos": {},
-        "Panachaiki": {},
-        "Panagriniakos": {},
+        "PAOK Alexandreia": {
+            "Proper": "PAOK",
+            "Sprite": "[](#sprite1-p413)"
+        },
+        "PO Triglia": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Palaiochora": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pallixouriakos": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pamisos": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Panachaiki": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Panagriniakos": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Panarkadikos": {
             "Proper": "Panarkadikos",
             "Sprite": "[](#sprite8-p493)"
@@ -12435,72 +13860,222 @@
             "Proper": "Panathinaikos",
             "Sprite": "[](#sprite1-p183)"
         },
-        "Panegialios FC": {},
-        "Panelefsiniakos": {},
+        "Panegialios FC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Panelefsiniakos": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Panetolikos": {
             "Proper": "Panetolikos",
             "Sprite": "[](#sprite5-p108)"
         },
-        "Pangytheatikos": {},
+        "Pangytheatikos": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Panionios": {
             "Proper": "Panionios",
             "Sprite": "[](#sprite4-p175)"
         },
-        "Pannaxiakos": {},
-        "Panserraikos": {},
-        "Pierikos": {},
-        "Plagia": {},
-        "Platanias FC": {},
-        "Poros": {},
-        "Poseidonas Michanionas": {},
-        "Preveza": {},
-        "Proodeftiki": {},
-        "Psachna": {},
-        "Pyliou": {},
-        "Pythagoras Kontakaiikon": {},
-        "Rethymniakos": {},
-        "Rodos": {},
-        "Rouf FC": {},
-        "Santorini": {},
-        "Sellana": {},
-        "Sidirochori": {},
-        "Smyrnis": {},
-        "Thermaikos FC": {},
-        "Thesprotos": {},
-        "Thiseas Agria": {},
-        "Thyella D.": {},
-        "Thyella Katsikas": {},
-        "Thyella Monastirakiou": {},
-        "Thyella Patras": {},
-        "Thyella Sarakinoi": {},
-        "Tilikratis L.": {},
+        "Pannaxiakos": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Panserraikos": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pierikos": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Plagia": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Platanias FC": {
+            "Proper": "Platanias",
+            "Sprite": "[](#sprite5-p105)"
+        },
+        "Poros": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Poseidonas Michanionas": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Preveza": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Proodeftiki": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Psachna": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pyliou": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pythagoras Kontakaiikon": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Rethymniakos": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Rodos": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Rouf FC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Santorini": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sellana": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sidirochori": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Smyrnis": {
+            "Proper": "Apollon Smyrni",
+            "Sprite": "[](#sprite8-p375)"
+        },
+        "Thermaikos FC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Thesprotos": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Thiseas Agria": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Thyella D.": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Thyella Katsikas": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Thyella Monastirakiou": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Thyella Patras": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Thyella Sarakinoi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tilikratis L.": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Veria": {
             "Proper": "Veria",
             "Sprite": "[](#sprite5-p103)"
         },
-        "Volos": {},
-        "Xanthi FC": {},
-        "Zakynthos": {}
+        "Volos": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Xanthi FC": {
+            "Proper": "Xanthi",
+            "Sprite": "[](#sprite5-p104)"
+        },
+        "Zakynthos": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "Guinea": {
-        "ASFAG": {},
-        "Ashanti GB": {},
-        "Elephant Coleah": {},
-        "Fello Star": {},
-        "Flamme Olympique": {},
-        "Hafia": {},
-        "Horoya": {},
-        "Kaloum Star": {},
-        "Kamsar": {},
-        "Loubha": {},
-        "SOAR": {},
-        "Santoba": {},
-        "Satellite": {},
-        "Wakriya": {}
+        "ASFAG": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ashanti GB": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Elephant Coleah": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Fello Star": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Flamme Olympique": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hafia": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Horoya": {
+            "Proper": "Horoya AC",
+            "Sprite": "[](#sprite8-p411)"
+        },
+        "Kaloum Star": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kamsar": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Loubha": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "SOAR": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Santoba": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Satellite": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Wakriya": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "Hong Kong": {
-        "Eastern AA": {},
-        "Happy Valley": {},
+        "Eastern AA": {
+            "Proper": "Eastern Sports Club",
+            "Sprite": "[](#sprite5-p468)"
+        },
+        "Happy Valley": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Hong Kong Rangers": {
             "Proper": "Hong Kong Rangers",
             "Sprite": "[](#sprite5-p472)"
@@ -12509,155 +14084,506 @@
             "Proper": "Kitchee",
             "Sprite": "[](#sprite5-p471)"
         },
-        "Lee Man Warriors": {},
-        "Pegasus": {},
-        "Resources Capital": {},
-        "Southern District": {}
+        "Lee Man Warriors": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pegasus": {
+            "Proper": "Hong Kong Pegasus",
+            "Sprite": "[](#sprite5-p469)"
+        },
+        "Resources Capital": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Southern District": {
+            "Proper": "Southern District RSA",
+            "Sprite": "[](#sprite5-p474)"
+        }
     },
     "Hungary": {
-        "Ajka": {},
-        "Astra Hungary W": {},
-        "BKV Elore": {},
-        "BVSC-Zuglo": {},
-        "Balassagyarmat": {},
-        "Balatonfuredi": {},
-        "Bekescsaba 1912": {},
-        "Bicskei": {},
-        "Budafoki": {},
-        "Budaorsi SC": {},
-        "Cegledi": {},
-        "Csakvari": {},
-        "DVTK": {},
-        "DVTK II": {},
-        "DVTK W": {},
-        "Dabas-Gyon": {},
+        "Ajka": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Astra Hungary W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "BKV Elore": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "BVSC-Zuglo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Balassagyarmat": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Balatonfuredi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Balmazujvaros Sport": {
+            "Proper": "Balmaz\u00fajv\u00e1rosi FC",
+            "Sprite": "[](#sprite8-p441)"
+        },
+        "Balmazujvarosi": {
+            "Proper": "Balmaz\u00fajv\u00e1rosi FC",
+            "Sprite": "[](#sprite8-p441)"
+        },
+        "Bekescsaba 1912": {
+            "Proper": "B\u00e9k\u00e9scsaba 1912 El\u0151re SE",
+            "Sprite": "[](#sprite5-p265)"
+        },
+        "Bicskei": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Budafoki": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Budaorsi SC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Cegledi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Csakvari": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "DVTK": {
+            "Proper": "Di\u00f3sgy\u0151r",
+            "Sprite": "[](#sprite4-p216)"
+        },
+        "DVTK II": {
+            "Proper": "Di\u00f3sgy\u0151r",
+            "Sprite": "[](#sprite4-p216)"
+        },
+        "DVTK W": {
+            "Proper": "Di\u00f3sgy\u0151r",
+            "Sprite": "[](#sprite4-p216)"
+        },
+        "Dabas-Gyon": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Debrecen": {
             "Proper": "Debrecen",
             "Sprite": "[](#sprite2-p305)"
         },
-        "Debrecen II": {},
-        "Debreceni EAC": {},
-        "Dorogi": {},
-        "Duna Aszfalt": {},
-        "Dunaujvaros PASE": {},
+        "Debrecen II": {
+            "Proper": "Debrecen",
+            "Sprite": "[](#sprite2-p305)"
+        },
+        "Debreceni EAC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Dorogi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Duna Aszfalt": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Dunaujvaros PASE": {
+            "Proper": null,
+            "Sprite": null
+        },
         "ESMTK Budapest": {
             "Proper": "MTK Budapest",
             "Sprite": "[](#sprite2-p213)"
         },
-        "Eger SE": {},
-        "Erdi": {},
-        "FC Dabas": {},
+        "Eger SE": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Erdi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "FC Dabas": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Ferencvaros": {
             "Proper": "Ferencv\u00e1ros",
             "Sprite": "[](#sprite2-p146)"
         },
-        "Ferencvaros II": {},
-        "Ferencvaros W": {},
-        "Fuzesgyarmati SK": {},
-        "Gardony Varosi": {},
-        "Gyirmot": {},
-        "Gyongyosi": {},
-        "Gyor": {},
-        "Gyor W": {},
-        "Haladas": {},
-        "Haladas W": {},
-        "Hatvan": {},
-        "Hodmezovasarhely FC": {},
-        "Honved": {},
-        "Honved II": {},
-        "III. Keruleti TVE": {},
-        "Ivancsa": {},
-        "Jaszberenyi": {},
-        "Kaposvar": {},
-        "Kazincbarcikai": {},
-        "Kecskemeti TE": {},
-        "Kelen W": {},
-        "Kisvarda": {},
-        "Kisvarda II": {},
-        "Komaromi VSE": {},
-        "Korosladany MSK": {},
-        "Kozarmisleny SE": {},
-        "Lipot": {},
-        "MOL Fehervar": {},
-        "MOL Fehervar II": {},
+        "Ferencvaros II": {
+            "Proper": "Ferencv\u00e1ros",
+            "Sprite": "[](#sprite2-p146)"
+        },
+        "Ferencvaros W": {
+            "Proper": "Ferencv\u00e1ros",
+            "Sprite": "[](#sprite2-p146)"
+        },
+        "Fuzesgyarmati SK": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gardony Varosi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gyirmot": {
+            "Proper": "Gyirm\u00f3t FC Gy\u0151r",
+            "Sprite": "[](#sprite8-p169)"
+        },
+        "Gyongyosi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gyor": {
+            "Proper": "Gy\u0151r",
+            "Sprite": "[](#sprite4-p40)"
+        },
+        "Gyor W": {
+            "Proper": "Gy\u0151r",
+            "Sprite": "[](#sprite4-p40)"
+        },
+        "Haladas": {
+            "Proper": "Szombathelyi Halad\u00e1s",
+            "Sprite": "[](#sprite5-p262)"
+        },
+        "Haladas W": {
+            "Proper": "Szombathelyi Halad\u00e1s",
+            "Sprite": "[](#sprite5-p262)"
+        },
+        "Hatvan": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hodmezovasarhely FC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Honved": {
+            "Proper": "Honv\u00e9d",
+            "Sprite": "[](#sprite2-p396)"
+        },
+        "Honved II": {
+            "Proper": "Honv\u00e9d",
+            "Sprite": "[](#sprite2-p396)"
+        },
+        "III. Keruleti TVE": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ivancsa": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Jaszberenyi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kaposvar": {
+            "Proper": "Kaposv\u00e1r",
+            "Sprite": "[](#sprite2-p282)"
+        },
+        "Kazincbarcikai": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kecskemeti TE": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kelen W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kisvarda": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kisvarda II": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Komaromi VSE": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Korosladany MSK": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kozarmisleny SE": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Lipot": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "MOL Fehervar": {
+            "Proper": "Videoton",
+            "Sprite": "[](#sprite2-p128)"
+        },
+        "MOL Fehervar II": {
+            "Proper": "Videoton",
+            "Sprite": "[](#sprite2-p128)"
+        },
         "MTK Budapest": {
             "Proper": "MTK Budapest",
             "Sprite": "[](#sprite2-p213)"
         },
-        "MTK Hungaria W": {},
-        "Majosi": {},
-        "Menfocsanak": {},
-        "Mezokovesd-Zsory": {},
-        "Mezokovesd-Zsory II": {},
-        "Monori": {},
-        "Mosonmagyarovari TE": {},
-        "Nagyatadi": {},
-        "Nagykanizsa": {},
-        "Nyiregyhaza": {},
-        "Paks": {},
-        "Paks II": {},
-        "Papai Perutz": {},
-        "Pecsi MFC": {},
-        "Puskas Academy": {},
-        "Puskas Academy II": {},
-        "Putnok": {},
-        "Rakosmenti KSK": {},
-        "SBTC": {},
-        "SC Sopron": {},
-        "Sajobabony": {},
-        "Senyo Carnifex": {},
-        "Siofok": {},
-        "Soroksar": {},
-        "Szabadkikoto": {},
-        "Szeged": {},
-        "Szegedi": {},
-        "Szekszardi": {},
-        "Szent Mihaly W": {},
-        "Szentlorinc": {},
-        "Szolnoki MAV": {},
-        "Taksony": {},
-        "Tallya": {},
-        "Tatabanya": {},
-        "Tiszafuredi": {},
-        "Tiszaujvaros": {},
-        "Ujpest": {},
-        "Ujpest II": {},
-        "Vac": {},
+        "MTK Hungaria W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Majosi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Menfocsanak": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Mezokovesd-Zsory": {
+            "Proper": "Mez\u0151k\u00f6vesd-Zs\u00f3ry SE",
+            "Sprite": "[](#sprite8-p170)"
+        },
+        "Mezokovesd-Zsory II": {
+            "Proper": "Mez\u0151k\u00f6vesd-Zs\u00f3ry SE",
+            "Sprite": "[](#sprite8-p170)"
+        },
+        "Monori": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Mosonmagyarovari TE": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Nagyatadi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Nagykanizsa": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Nyiregyhaza": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Paks": {
+            "Proper": "Paksi SE",
+            "Sprite": "[](#sprite5-p264)"
+        },
+        "Paks II": {
+            "Proper": "Paksi SE",
+            "Sprite": "[](#sprite5-p264)"
+        },
+        "Papai Perutz": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pecsi MFC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Puskas Academy": {
+            "Proper": "Pusk\u00e1s Akad\u00e9mia",
+            "Sprite": "[](#sprite5-p263)"
+        },
+        "Puskas Academy II": {
+            "Proper": "Pusk\u00e1s Akad\u00e9mia",
+            "Sprite": "[](#sprite5-p263)"
+        },
+        "Putnok": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Rakosmenti KSK": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "SBTC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "SC Sopron": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sajobabony": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Senyo Carnifex": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Siofok": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Soproni VSE": {
+            "Proper": "Soproni VSE",
+            "Sprite": "[](#sprite8-p364)"
+        },
+        "Soroksar": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Szabadkikoto": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Szeged": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Szegedi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Szekszardi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Szent Mihaly W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Szentlorinc": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Szolnoki MAV": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Taksony": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tallya": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tatabanya": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tiszafuredi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tiszaujvaros": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ujpest": {
+            "Proper": "\u00dajpest",
+            "Sprite": "[](#sprite2-p304)"
+        },
+        "Ujpest II": {
+            "Proper": "\u00dajpest",
+            "Sprite": "[](#sprite2-p304)"
+        },
+        "Vac": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Vasas": {
             "Proper": "Vasas",
             "Sprite": "[](#sprite5-p266)"
         },
-        "Veszprem": {},
-        "Zalaegerszegi": {},
-        "Zalaegerszegi II": {}
+        "Veszprem": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Zalaegerszegi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Zalaegerszegi II": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "Iceland": {
         "Afturelding": {
             "Proper": "Afturelding",
             "Sprite": "[](#sprite4-p386)"
         },
-        "Akranes": {},
-        "Breidablik": {},
-        "Breidablik W": {},
-        "Dalvik/Reynir": {},
-        "Fjallabyggd": {},
-        "Fjardabyggd": {},
-        "Fjolnir": {},
-        "Fram": {},
+        "Akranes": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Breidablik": {
+            "Proper": "Brei\u00f0ablik",
+            "Sprite": "[](#sprite2-p125)"
+        },
+        "Breidablik W": {
+            "Proper": "Brei\u00f0ablik",
+            "Sprite": "[](#sprite2-p125)"
+        },
+        "Dalvik/Reynir": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Fjallabyggd": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Fjardabyggd": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Fjolnir": {
+            "Proper": "Fj\u00f6lnir",
+            "Sprite": "[](#sprite2-p368)"
+        },
+        "Fram": {
+            "Proper": "Fram Reykjav\u00edk",
+            "Sprite": "[](#sprite2-p261)"
+        },
         "Fylkir": {
             "Proper": "Fylkir",
             "Sprite": "[](#sprite2-p227)"
         },
-        "Fylkir W": {},
-        "Grindavik": {},
-        "Grotta": {},
-        "Hafnarfjordur": {},
-        "Hafnarfjordur W": {},
+        "Fylkir W": {
+            "Proper": "Fylkir",
+            "Sprite": "[](#sprite2-p227)"
+        },
+        "Grindavik": {
+            "Proper": "Grindav\u00edk",
+            "Sprite": "[](#sprite5-p141)"
+        },
+        "Grotta": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hafnarfjordur": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hafnarfjordur W": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Haukar": {
             "Proper": "Haukar",
             "Sprite": "[](#sprite4-p371)"
         },
-        "IBV Vestmannaeyjar W": {},
+        "IBV Vestmannaeyjar W": {
+            "Proper": "\u00cdBV Vestmannaeyjar",
+            "Sprite": "[](#sprite4-p411)"
+        },
         "IR Reykjavik": {},
         "KA Akureyri": {},
         "KR Reykjavik": {},
