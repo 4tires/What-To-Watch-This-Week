@@ -40,9 +40,9 @@ estoniaSB = {
 }
 '''for sBTeam in estoniaSB:
     sBTeamSplit = re.split(r"[. \-]+", sBTeam)
-    print(sBTeamSplit)'''
+    print(sBTeamSplit)
 print('Nomme', "N\u00f5mme")
-print(difflib.SequenceMatcher(None, 'Nomme', "N\u00f5mme").ratio())
+print(difflib.SequenceMatcher(None, 'Nomme', "N\u00f5mme").ratio())'''
 
 def FirstPieceMealFuzzyMatcher(teamName, tNList):
     matchDict = {}
@@ -63,18 +63,28 @@ def FirstPieceMealFuzzyMatcher(teamName, tNList):
     return None
 
 def PieceMealFuzzyMatcher(teamName, tNList):
-    fuzzymatches = []
+    returnFuzzyMatches = {}
     tNSplit = re.split(r"[. \-]+", teamName)
     for sBTeam in tNList:
+        fuzzymatches = []
         sBTeamSplit = re.split(r"[. \-]+", sBTeam)
-        wordMatch = []
+        returnFuzzyMatches[sBTeam] = 0
         for word in tNSplit:
+            wordMatch = []
             if len(word) > 2:
-                wordMatch = difflib.get_close_matches(word, sBTeamSplit, cutoff=.8, n=3)
-            if len(wordMatch) != 0:
-                fuzzymatches.append(sBTeam) 
-    
-    return fuzzymatches
+                wordMatch = difflib.get_close_matches(word, sBTeamSplit, cutoff=.6, n=3)
+            else:
+                continue
+            for w in wordMatch:
+                score = difflib.SequenceMatcher(None, word, w).ratio()
+                if score > returnFuzzyMatches[sBTeam]:
+                    returnFuzzyMatches[sBTeam] = score
+    # Figure out deleting the non-matching items in the return dict
+    for key, value in returnFuzzyMatches.items():
+        if value == 0:
+            del returnFuzzyMatches[key]
+    returnFuzzyMatches = dict(sorted(returnFuzzyMatches.items(), key=lambda item: item[1], reverse=True))
+    return returnFuzzyMatches
 
 teamNameList = list(estoniaSB.keys())
 for item in estoniaFS:
