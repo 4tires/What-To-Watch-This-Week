@@ -11242,9 +11242,18 @@
             "Proper": null,
             "Sprite": null
         },
-        "Aalen": {},
-        "Abtswind": {},
-        "Ahlen": {},
+        "Aalen": {
+            "Proper": "VfR Aalen",
+            "Sprite": "[](#sprite4-p476)"
+        },
+        "Abtswind": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ahlen": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Alemannia Aachen": {
             "Proper": "Alemannia Aachen",
             "Sprite": "[](#sprite1-p414)"
@@ -11253,14 +11262,38 @@
             "Proper": "Alemannia Aachen",
             "Sprite": "[](#sprite1-p414)"
         },
-        "Alfter": {},
-        "Altenholz": {},
-        "Altglienicke": {},
-        "Altona": {},
-        "Alzenau": {},
-        "Ammerthal": {},
-        "An der Fahner Hohe": {},
-        "Andernach W": {},
+        "Alfter": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Altenholz": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Altglienicke": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Altona": {
+            "Proper": "Altona 93",
+            "Sprite": "[](#sprite8-p471)"
+        },
+        "Alzenau": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ammerthal": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "An der Fahner Hohe": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Andernach W": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Arminia Bielefeld": {
             "Proper": "Arminia Bielefeld",
             "Sprite": "[](#sprite1-p290)"
@@ -11273,22 +11306,70 @@
             "Proper": "Arminia Bielefeld",
             "Sprite": "[](#sprite1-p290)"
         },
-        "Arminia Hannover": {},
-        "Arminia Ludwigshafen": {},
-        "Aschaffenburg": {},
-        "Aubstadt": {},
-        "Aue": {},
-        "Auerbach": {},
-        "Augsburg": {},
-        "Augsburg II": {},
-        "Aumund-Vegesack": {},
-        "B. Monchengladbach": {},
-        "B. Monchengladbach II": {},
-        "B. Monchengladbach W": {},
-        "BFC Dynamo": {},
-        "BSV Rehden": {},
-        "BTS Neustadt": {},
-        "Babelsberg": {},
+        "Arminia Hannover": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Arminia Ludwigshafen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Aschaffenburg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Aubstadt": {
+            "Proper": "FC 07 Albstadt",
+            "Sprite": "[](#sprite8-p340)"
+        },
+        "Aue": {
+            "Proper": "Erzgebirge Aue",
+            "Sprite": "[](#sprite2-p434)"
+        },
+        "Auerbach": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Augsburg": {
+            "Proper": "FC Augsburg",
+            "Sprite": "[](#sprite1-p291)"
+        },
+        "Augsburg II": {
+            "Proper": "FC Augsburg",
+            "Sprite": "[](#sprite1-p291)"
+        },
+        "Aumund-Vegesack": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "B. Monchengladbach": {
+            "Proper": "Borussia M\u00f6nchengladbach",
+            "Sprite": "[](#sprite1-p134)"
+        },
+        "B. Monchengladbach II": {
+            "Proper": "Borussia M\u00f6nchengladbach",
+            "Sprite": "[](#sprite1-p134)"
+        },
+        "B. Monchengladbach W": {
+            "Proper": "Borussia M\u00f6nchengladbach",
+            "Sprite": "[](#sprite1-p134)"
+        },
+        "BFC Dynamo": {
+            "Proper": "Berliner FC Dynamo",
+            "Sprite": "[](#sprite4-p325)"
+        },
+        "BSV Rehden": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "BTS Neustadt": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Babelsberg": {
+            "Proper": "SV Babelsberg 03",
+            "Sprite": "[](#sprite2-p433)"
+        },
         "Backnang": {},
         "Bad Vilbel": {},
         "Bahlinger": {},
