@@ -14521,8 +14521,8 @@
             "Sprite": "[](#sprite4-p386)"
         },
         "Akranes": {
-            "Proper": null,
-            "Sprite": null
+            "Proper": "\u00cdA",
+            "Sprite": "[](#sprite4-p330)"
         },
         "Breidablik": {
             "Proper": "Brei\u00f0ablik",
@@ -14584,93 +14584,252 @@
             "Proper": "\u00cdBV Vestmannaeyjar",
             "Sprite": "[](#sprite4-p411)"
         },
-        "IR Reykjavik": {},
-        "KA Akureyri": {},
-        "KR Reykjavik": {},
-        "KR Reykjavik W": {},
-        "Kari": {},
-        "Keflavik": {},
-        "Kopavogur": {},
-        "Kordrengir": {},
-        "Leiknir": {},
-        "Leiknir F.": {},
-        "Magni": {},
-        "Njardvik": {},
-        "Olafsvik": {},
-        "Selfoss": {},
-        "Selfoss W": {},
+        "IR Reykjavik": {
+            "Proper": "\u00cd\u00fer\u00f3ttaf\u00e9lag Reykjav\u00edkur",
+            "Sprite": "[](#sprite2-p399)"
+        },
+        "KA Akureyri": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "KR Reykjavik": {
+            "Proper": "KR",
+            "Sprite": "[](#sprite1-p449)"
+        },
+        "KR Reykjavik W": {
+            "Proper": "KR",
+            "Sprite": "[](#sprite1-p449)"
+        },
+        "Kari": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Keflavik": {
+            "Proper": "Keflav\u00edk",
+            "Sprite": "[](#sprite2-p219)"
+        },
+        "Kopavogur": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kordrengir": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Leiknir": {
+            "Proper": "Leiknir Reykjav\u00edk",
+            "Sprite": "[](#sprite2-p53)"
+        },
+        "Leiknir F.": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Magni": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Njardvik": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Olafsvik": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Selfoss": {
+            "Proper": "UMF Selfoss",
+            "Sprite": "[](#sprite5-p162)"
+        },
+        "Selfoss W": {
+            "Proper": "UMF Selfoss",
+            "Sprite": "[](#sprite5-p162)"
+        },
         "Stjarnan": {
             "Proper": "Stjarnan",
             "Sprite": "[](#sprite2-p115)"
         },
-        "Stjarnan W": {},
-        "Thor Akureyri": {},
-        "Thor/KA W": {},
-        "Throttur": {},
-        "Throttur Vogar": {},
-        "Throttur W": {},
+        "Stjarnan W": {
+            "Proper": "Stjarnan",
+            "Sprite": "[](#sprite2-p115)"
+        },
+        "Thor Akureyri": {
+            "Proper": "\u00de\u00f3r Akureyri",
+            "Sprite": "[](#sprite2-p3)"
+        },
+        "Thor/KA W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Throttur": {
+            "Proper": "\u00der\u00f3ttur Reykjav\u00edk",
+            "Sprite": "[](#sprite2-p196)"
+        },
+        "Throttur Vogar": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Throttur W": {
+            "Proper": "\u00der\u00f3ttur Reykjav\u00edk",
+            "Sprite": "[](#sprite2-p196)"
+        },
         "Valur": {
             "Proper": "Valur",
             "Sprite": "[](#sprite2-p11)"
         },
-        "Valur W": {},
-        "Vestmannaeyjar": {},
-        "Vestri": {},
-        "Vidir": {},
-        "Vikingur Reykjavik": {},
-        "Volsungur": {}
+        "Valur W": {
+            "Proper": "Valur",
+            "Sprite": "[](#sprite2-p11)"
+        },
+        "Vestmannaeyjar": {
+            "Proper": "\u00cdBV Vestmannaeyjar",
+            "Sprite": "[](#sprite4-p411)"
+        },
+        "Vestri": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Vidir": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Vikingur Reykjavik": {
+            "Proper": "V\u00edkingur",
+            "Sprite": "[](#sprite2-p114)"
+        },
+        "Volsungur": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "India": {
         "ATK": {
             "Proper": "ATK",
             "Sprite": "[](#sprite4-p358)"
         },
-        "ATK Mohun Bagan": {},
+        "ATK Mohun Bagan": {
+            "Proper": "Mohun Bagan",
+            "Sprite": "[](#sprite1-p454)"
+        },
         "Aizawl": {
             "Proper": "Aizawl",
             "Sprite": "[](#sprite7-p329)"
         },
-        "Army Green": {},
-        "Army Red": {},
-        "Aryan": {},
-        "BSS Sporting": {},
-        "Bengaluru": {},
-        "Bhawanipore": {},
-        "Calcutta Customs": {},
+        "Army Green": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Army Red": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Aryan": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "BSS Sporting": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bengaluru": {
+            "Proper": "Bengaluru FC",
+            "Sprite": "[](#sprite1-p495)"
+        },
+        "Bhawanipore": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Calcutta Customs": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Chennai City": {
             "Proper": "Chennai City",
             "Sprite": "[](#sprite8-p331)"
         },
-        "Chennaiyin": {},
+        "Chennaiyin": {
+            "Proper": "Chennaiyin FC",
+            "Sprite": "[](#sprite4-p359)"
+        },
         "Churchill Brothers": {
             "Proper": "Churchill Brothers",
             "Sprite": "[](#sprite4-p116)"
         },
-        "Delhi": {},
-        "East Bengal": {},
-        "George Telegrapher": {},
-        "Goa": {},
-        "Goa FT": {},
-        "Gokulam": {},
-        "Hyderabad": {},
-        "Indian Air Force": {},
+        "Delhi": {
+            "Proper": "Delhi Dynamos",
+            "Sprite": "[](#sprite1-p140)"
+        },
+        "East Bengal": {
+            "Proper": "East Bengal Club",
+            "Sprite": "[](#sprite2-p62)"
+        },
+        "George Telegrapher": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Goa": {
+            "Proper": "FC Goa",
+            "Sprite": "[](#sprite4-p360)"
+        },
+        "Goa FT": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gokulam": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hyderabad": {
+            "Proper": "Fateh Hyderabad",
+            "Sprite": "[](#sprite8-p373)"
+        },
+        "Indian Air Force": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Indian Arrows": {
             "Proper": "Indian Arrows",
             "Sprite": "[](#sprite4-p118)"
         },
-        "Indian Navy": {},
-        "Jamshedpur": {},
-        "Jharkhand": {},
-        "Kalighat": {},
-        "Karnataka": {},
+        "Indian Navy": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Jamshedpur": {
+            "Proper": "Jamshedpur FC",
+            "Sprite": "[](#sprite8-p461)"
+        },
+        "Jharkhand": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kalighat": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Karnataka": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Kerala Blasters": {
             "Proper": "Kerala Blasters",
             "Sprite": "[](#sprite4-p362)"
         },
-        "Kerala FC": {},
-        "Meghalaya": {},
-        "Mizoram": {},
-        "Mohammedan": {},
+        "Kerala FC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Meghalaya": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Mizoram": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Mohammedan": {
+            "Proper": "Mohammedan SC",
+            "Sprite": "[](#sprite4-p53)"
+        },
         "Mohun Bagan": {
             "Proper": "Mohun Bagan",
             "Sprite": "[](#sprite1-p454)"
@@ -14679,18 +14838,54 @@
             "Proper": "Mumbai City",
             "Sprite": "[](#sprite4-p363)"
         },
-        "Neroca FC": {},
-        "North East Utd": {},
-        "Odisha": {},
-        "Peerless": {},
-        "Punjab": {},
-        "Rainbow": {},
-        "Real Kashmir": {},
-        "Services": {},
-        "Southern Samity": {},
-        "Sudeva Delhi": {},
-        "TRAU FC": {},
-        "West Bengal": {}
+        "Neroca FC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "North East Utd": {
+            "Proper": "NorthEast United",
+            "Sprite": "[](#sprite4-p364)"
+        },
+        "Odisha": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Peerless": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Punjab": {
+            "Proper": "Minerva Punjab",
+            "Sprite": "[](#sprite8-p332)"
+        },
+        "Rainbow": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Real Kashmir": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Services": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Southern Samity": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sudeva Delhi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "TRAU FC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "West Bengal": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "Indonesia": {
         "Arema FC": {},
