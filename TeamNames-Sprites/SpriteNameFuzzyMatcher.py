@@ -52,6 +52,9 @@ def main():
                 TNSDictWriter(tNSDict, region, item, tNMatch, sprite)
     return
 
+# To be used with the 2 commented out lines in main function.
+# Will iterate through TNS json and fill in all matches above .901 cutoff (if there's only 1 match)
+# .901 cutoff is high. Returned matches should be the correct team. 
 def OnlyPt9orBetterFuzzyMatcher(teamName, tNList):
     fuzzyMatches = difflib.get_close_matches(teamName, tNList, cutoff=.901, n=2)
     if len(fuzzyMatches) == 1:
