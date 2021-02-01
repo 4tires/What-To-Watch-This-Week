@@ -17510,18 +17510,42 @@
             "Proper": "Al-Arabi SC",
             "Sprite": "[](#sprite4-p139)"
         },
-        "Al Kuwait": {},
-        "Al Naser": {},
-        "Al Qadisiya": {},
-        "Al Sahel": {},
-        "Al Salmiya": {},
-        "Al Shabab": {},
-        "Al-Fahaheel": {},
+        "Al Kuwait": {
+            "Proper": "Kuwait SC",
+            "Sprite": "[](#sprite4-p137)"
+        },
+        "Al Naser": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al Qadisiya": {
+            "Proper": "Qadsia SC",
+            "Sprite": "[](#sprite4-p46)"
+        },
+        "Al Sahel": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al Salmiya": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al Shabab": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al-Fahaheel": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Kazma SC": {
             "Proper": "Kazma SC",
             "Sprite": "[](#sprite4-p138)"
         },
-        "Khaitan": {}
+        "Khaitan": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "Kyrgyzstan": {
         "Abdish-Ata": {
@@ -17592,51 +17616,132 @@
         }
     },
     "Latvia": {
-        "Alberts JDFS": {},
-        "Auda": {},
+        "Alberts JDFS": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Auda": {
+            "Proper": null,
+            "Sprite": null
+        },
         "BFC Daugavpils": {
             "Proper": "BFC Daugavpils",
             "Sprite": "[](#sprite5-p455)"
         },
-        "Dinamo Riga": {},
-        "FK Liepaja": {},
-        "FK Smiltene": {},
-        "Grobina": {},
-        "Jelgava": {},
-        "Lokomotiv Daugavpils": {},
-        "Metta/LU": {},
-        "RFS": {},
-        "Rezekne": {},
+        "Dinamo Riga": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "FK Liepaja": {
+            "Proper": "FK Liep\u0101ja",
+            "Sprite": "[](#sprite5-p458)"
+        },
+        "FK Smiltene": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Grobina": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Jelgava": {
+            "Proper": "FK Jelgava",
+            "Sprite": "[](#sprite4-p499)"
+        },
+        "Lokomotiv Daugavpils": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Metta/LU": {
+            "Proper": "FS METTA",
+            "Sprite": "[](#sprite5-p454)"
+        },
+        "RFS": {
+            "Proper": "R\u012bgas Futbola skola",
+            "Sprite": "[](#sprite8-p303)"
+        },
+        "Rezekne": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Riga FC": {
             "Proper": "Riga FC",
             "Sprite": "[](#sprite8-p302)"
         },
-        "Saldus SS/Leevon": {},
-        "Spartaks": {},
-        "Super Nova": {},
-        "Tukums 2000": {},
-        "Valmiera": {},
+        "Saldus SS/Leevon": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Spartaks": {
+            "Proper": "Spartaks J\u016brmala",
+            "Sprite": "[](#sprite5-p456)"
+        },
+        "Super Nova": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tukums 2000": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Valmiera": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Ventspils": {
             "Proper": "Ventspils",
             "Sprite": "[](#sprite5-p457)"
         }
     },
     "Lebanon": {
-        "Al Ahed": {},
-        "Al Akhaa Al Ahli": {},
-        "Al Ansar": {},
-        "Al Ghazieh": {},
-        "Al Sahel": {},
-        "Bourj FC": {},
+        "Al Ahed": {
+            "Proper": "Al-Ahed",
+            "Sprite": "[](#sprite4-p271)"
+        },
+        "Al Akhaa Al Ahli": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al Ansar": {
+            "Proper": "Al-Ansar SC",
+            "Sprite": "[](#sprite4-p48)"
+        },
+        "Al Ghazieh": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al Sahel": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bourj FC": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Nejmeh SC": {
             "Proper": "Nejmeh SC",
             "Sprite": "[](#sprite4-p49)"
         },
-        "Safa": {},
-        "Salam Zgharta": {},
-        "Shabab El Bourj SC": {},
-        "Tadamon": {},
-        "Tripoli": {}
+        "Safa": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Salam Zgharta": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Shabab El Bourj SC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tadamon": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tripoli": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "Lesotho": {
         "Bantu": {
@@ -17705,93 +17810,304 @@
         }
     },
     "Liberia": {
-        "BEA Mountain": {},
-        "Freeport": {},
-        "LISCR FC": {},
-        "LPRC Oiler": {},
-        "MC Breweries": {},
-        "Mighty Barrolle": {},
-        "NPA Anchors": {},
-        "Nimba": {},
-        "Nimba FC": {},
-        "Nimba Kwado": {},
-        "Small Town": {},
-        "Watanga": {}
+        "BEA Mountain": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Freeport": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Invincible Eleven": {
+            "Proper": "Invincible Eleven",
+            "Sprite": "[](#sprite1-p444)"
+        },
+        "LISCR FC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "LPRC Oiler": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "MC Breweries": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Mighty Barrolle": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "NPA Anchors": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Nimba": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Nimba FC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Nimba Kwado": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Small Town": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Watanga": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "Libya": {
-        "Abu Salim": {},
+        "Abu Salim": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Al Ahly Benghazi": {
             "Proper": "Al Ahly (Benghazi)",
             "Sprite": "[](#sprite2-p408)"
         },
-        "Al Ahly Tripoli": {},
-        "Al Akhdar": {},
-        "Al Hilal": {},
-        "Al Madina": {},
-        "Al Nasr": {},
-        "Al Sadaqa": {},
-        "Al Shat": {},
-        "Al Taawun": {},
-        "Al Tahaddi": {},
-        "Al Wehda": {},
-        "Al-Anwar": {},
-        "Al-Athad": {},
+        "Al Ahly Tripoli": {
+            "Proper": "AlAhli SC",
+            "Sprite": "[](#sprite4-p64)"
+        },
+        "Al Akhdar": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al Hilal": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al Madina": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al Nasr": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al Sadaqa": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al Shat": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al Taawun": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al Tahaddi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al Wehda": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al-Anwar": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al-Athad": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Al-Ittihad": {
             "Proper": "Al-Ittihad",
             "Sprite": "[](#sprite5-p41)"
         },
-        "Al-Khmes": {},
-        "Asswehly": {},
-        "Darnes": {},
-        "Khaleej Sirte": {},
-        "Mahalla Tripoli": {},
-        "Ngom Ajdabiya": {},
-        "Olympic Azzaweya": {},
-        "Rafeeq": {},
-        "Shabaab Al Jabal": {}
+        "Al-Khmes": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Asswehly": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Darnes": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Khaleej Sirte": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Mahalla Tripoli": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ngom Ajdabiya": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Olympic Azzaweya": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Rafeeq": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Shabaab Al Jabal": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "Lithuania": {
-        "Atmosfera": {},
-        "BFA Vilnius": {},
-        "Banga": {},
-        "Dainava Alytus": {},
-        "Dziugas Telsiai": {},
-        "FK Minija": {},
-        "FK Panevezys": {},
-        "FK Panevezys 2": {},
-        "Hegelmann Litauen": {},
-        "Jonava": {},
-        "Kauno Zalgiris": {},
-        "Kauno Zalgiris 2": {},
-        "Nevezis Kedainiai": {},
-        "Riteriai": {},
-        "Riteriai 2": {},
-        "Siauliai FA": {},
-        "Suduva": {},
-        "Vilniaus Vytis": {},
-        "Zalgiris": {},
-        "Zalgiris 2": {}
+        "Atmosfera": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "BFA Vilnius": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Banga": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Dainava Alytus": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Dziugas Telsiai": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "FK Minija": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "FK Panevezys": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "FK Panevezys 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hegelmann Litauen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Jonava": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kauno Zalgiris": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kauno Zalgiris 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Nevezis Kedainiai": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Riteriai": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Riteriai 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Siauliai FA": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Suduva": {
+            "Proper": "S\u016bduva Marijampol\u0117",
+            "Sprite": "[](#sprite5-p465)"
+        },
+        "Vilniaus Vytis": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Zalgiris": {
+            "Proper": "\u017dalgiris Vilnius",
+            "Sprite": "[](#sprite5-p459)"
+        },
+        "Zalgiris 2": {
+            "Proper": "\u017dalgiris Vilnius",
+            "Sprite": "[](#sprite5-p459)"
+        }
     },
     "Luxembourg": {
-        "Benfica": {},
-        "Differdange": {},
-        "Dudelange": {},
-        "Ettelbruck": {},
-        "Fola": {},
-        "Hesperange": {},
-        "Hostert": {},
+        "Benfica": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Differdange": {
+            "Proper": "FC Differdange 03",
+            "Sprite": "[](#sprite7-p113)"
+        },
+        "Dudelange": {
+            "Proper": "F91 Dudelange",
+            "Sprite": "[](#sprite4-p354)"
+        },
+        "Ettelbruck": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Fola": {
+            "Proper": "Fola Esch",
+            "Sprite": "[](#sprite7-p114)"
+        },
+        "Hesperange": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hostert": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Jeunesse Esch": {
             "Proper": "Jeunesse Esch",
             "Sprite": "[](#sprite7-p115)"
         },
-        "Mondorf": {},
-        "Niedercorn": {},
-        "Racing Luxembourg": {},
-        "Rodange": {},
-        "UNA Strassen": {},
-        "Union Titus Petange": {},
-        "Victoria Rosport": {},
-        "Wiltz": {}
+        "Mondorf": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Niedercorn": {
+            "Proper": "Progr\u00e8s Niederkorn",
+            "Sprite": "[](#sprite7-p116)"
+        },
+        "Racing Luxembourg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Rodange": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "UNA Strassen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Union Titus Petange": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Victoria Rosport": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Wiltz": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "Macao": {
         "Benfica": {
@@ -17902,51 +18218,144 @@
         }
     },
     "Malaysia": {
-        "Felda Utd.": {},
-        "Johor DT": {},
-        "Johor DT II": {},
-        "Kedah": {},
+        "Felda Utd.": {
+            "Proper": "FELDA United",
+            "Sprite": "[](#sprite5-p283)"
+        },
+        "Johor DT": {
+            "Proper": "Johor Darul Ta'zim FC",
+            "Sprite": "[](#sprite2-p493)"
+        },
+        "Johor DT II": {
+            "Proper": "Johor Darul Ta'zim FC",
+            "Sprite": "[](#sprite2-p493)"
+        },
+        "Kedah": {
+            "Proper": "Kedah FA",
+            "Sprite": "[](#sprite4-p58)"
+        },
         "Kelantan": {
             "Proper": "Kelantan",
             "Sprite": "[](#sprite2-p351)"
         },
-        "Kelantan United": {},
-        "Kuala Lumpur": {},
-        "Kuching City FC": {},
-        "Melaka United SA": {},
-        "Negeri Sembilan": {},
-        "PDRM FA": {},
-        "Pahang": {},
+        "Kelantan United": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kuala Lumpur": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kuching City FC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Melaka United SA": {
+            "Proper": "Melaka United",
+            "Sprite": "[](#sprite8-p272)"
+        },
+        "Negeri Sembilan": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "PDRM FA": {
+            "Proper": "PDRM",
+            "Sprite": "[](#sprite5-p284)"
+        },
+        "Pahang": {
+            "Proper": "Pahang FA",
+            "Sprite": "[](#sprite4-p65)"
+        },
         "Penang": {
             "Proper": "Penang",
             "Sprite": "[](#sprite5-p285)"
         },
-        "Perak": {},
-        "Perak 2": {},
-        "Petaling Jaya CFC": {},
-        "Sabah": {},
-        "Sarawak Utd.": {},
-        "Selangor": {},
-        "Selangor 2": {},
-        "Terengganu": {},
-        "Terengganu 2": {},
-        "UKM": {},
-        "UiTM": {}
+        "Perak": {
+            "Proper": "Perak FA",
+            "Sprite": "[](#sprite4-p275)"
+        },
+        "Perak 2": {
+            "Proper": "Perak FA",
+            "Sprite": "[](#sprite4-p275)"
+        },
+        "Petaling Jaya CFC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sabah": {
+            "Proper": "Sabah FA",
+            "Sprite": "[](#sprite2-p324)"
+        },
+        "Sarawak Utd.": {
+            "Proper": "Sarawak",
+            "Sprite": "[](#sprite4-p351)"
+        },
+        "Selangor": {
+            "Proper": "Selangor FA",
+            "Sprite": "[](#sprite1-p452)"
+        },
+        "Selangor 2": {
+            "Proper": "Selangor FA",
+            "Sprite": "[](#sprite1-p452)"
+        },
+        "Terengganu": {
+            "Proper": "Terengganu FA",
+            "Sprite": "[](#sprite2-p343)"
+        },
+        "Terengganu 2": {
+            "Proper": "Terengganu FA",
+            "Sprite": "[](#sprite2-p343)"
+        },
+        "UKM": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "UiTM": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "Maldives": {
-        "Club Eagles": {},
-        "Da Grande": {},
-        "Green Streets": {},
-        "Maziya": {},
+        "Club Eagles": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Da Grande": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Green Streets": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Maziya": {
+            "Proper": null,
+            "Sprite": null
+        },
         "New Radiant": {
             "Proper": "New Radiant",
             "Sprite": "[](#sprite8-p491)"
         },
-        "Super United Sports": {},
-        "TC Sports Club": {},
-        "United Victory": {},
-        "Valencia": {},
-        "Victory": {}
+        "Super United Sports": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "TC Sports Club": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "United Victory": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Valencia": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Victory": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "Mali": {
         "AS Bamako": {
@@ -18043,46 +18452,130 @@
         }
     },
     "Malta": {
-        "Balzan": {},
+        "Balzan": {
+            "Proper": "Balzan FC",
+            "Sprite": "[](#sprite8-p84)"
+        },
         "Birkirkara": {
             "Proper": "Birkirkara",
             "Sprite": "[](#sprite5-p84)"
         },
-        "Fgura": {},
+        "Fgura": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Floriana": {
             "Proper": "Floriana",
             "Sprite": "[](#sprite8-p426)"
         },
-        "Gudja": {},
-        "Gzira": {},
-        "Hamrun": {},
-        "Hibernians": {},
-        "Lija Athletic": {},
-        "Marsa FC": {},
-        "Marsaxlokk": {},
-        "Mosta": {},
-        "Mqabba FC": {},
-        "Naxxar Lions": {},
-        "Pembroke": {},
+        "Gudja": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gzira": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hamrun": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hibernians": {
+            "Proper": "Hibernians FC",
+            "Sprite": "[](#sprite8-p92)"
+        },
+        "Lija Athletic": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Marsa FC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Marsaxlokk": {
+            "Proper": "Marsaxlokk FC",
+            "Sprite": "[](#sprite4-p372)"
+        },
+        "Mosta": {
+            "Proper": "Mosta FC",
+            "Sprite": "[](#sprite5-p37)"
+        },
+        "Mqabba FC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Naxxar Lions": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pembroke": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Pieta Hotspurs": {
             "Proper": "Piet\u00e0 Hotspurs",
             "Sprite": "[](#sprite7-p211)"
         },
-        "Qormi": {},
-        "Qrendi": {},
-        "San Gwann": {},
-        "Santa Lucia": {},
-        "Senglea Athletics": {},
-        "Sirens": {},
-        "Sliema": {},
-        "St. Andrews": {},
-        "St. George's FC": {},
-        "Swieqi": {},
-        "Tarxien": {},
-        "Valletta": {},
-        "Vittoriosa": {},
-        "Zebbug": {},
-        "Zejtun Corinthians": {}
+        "Qormi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Qrendi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "San Gwann": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Santa Lucia": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Senglea Athletics": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sirens": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sliema": {
+            "Proper": "Sliema Wanderers",
+            "Sprite": "[](#sprite4-p259)"
+        },
+        "St. Andrews": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "St. George's FC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Swieqi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tarxien": {
+            "Proper": "Tarxien Rainbows",
+            "Sprite": "[](#sprite4-p73)"
+        },
+        "Valletta": {
+            "Proper": "Valletta FC",
+            "Sprite": "[](#sprite4-p151)"
+        },
+        "Vittoriosa": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Zebbug": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Zejtun Corinthians": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "Mauritania": {
         "ASAC Concorde": {
@@ -18193,15 +18686,30 @@
         }
     },
     "Mexico": {
-        "Alacranes de Durango": {},
+        "Alacranes de Durango": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Alebrijes Oaxaca": {
             "Proper": "Alebrijes de Oaxaca",
             "Sprite": "[](#sprite5-p249)"
         },
-        "Atl. Morelia": {},
-        "Atl. San Luis": {},
-        "Atl. San Luis 2": {},
-        "Atl. San Luis W": {},
+        "Atl. Morelia": {
+            "Proper": "Monarcas Morelia",
+            "Sprite": "[](#sprite1-p257)"
+        },
+        "Atl. San Luis": {
+            "Proper": "Atl\u00e9tico de San Luis",
+            "Sprite": "[](#sprite5-p38)"
+        },
+        "Atl. San Luis 2": {
+            "Proper": "Atl\u00e9tico de San Luis",
+            "Sprite": "[](#sprite5-p38)"
+        },
+        "Atl. San Luis W": {
+            "Proper": "Atl\u00e9tico de San Luis",
+            "Sprite": "[](#sprite5-p38)"
+        },
         "Atlante": {
             "Proper": "Atlante",
             "Sprite": "[](#sprite2-p189)"
@@ -18210,21 +18718,54 @@
             "Proper": "Atlas",
             "Sprite": "[](#sprite1-p272)"
         },
-        "Atlas W": {},
-        "Azores de Hidalgo": {},
-        "Cafessa": {},
-        "Cafetaleros": {},
-        "Cafetaleros de Chiapas 2": {},
-        "Calor De San Pedro": {},
-        "Cancun": {},
-        "Canoneros Marina": {},
+        "Atlas W": {
+            "Proper": "Atlas",
+            "Sprite": "[](#sprite1-p272)"
+        },
+        "Azores de Hidalgo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Cafessa": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Cafetaleros": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Cafetaleros de Chiapas 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Calor De San Pedro": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Cancun": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Canoneros Marina": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Celaya": {
             "Proper": "Celaya",
             "Sprite": "[](#sprite5-p251)"
         },
-        "Chapulineros": {},
-        "Chimalhuacan": {},
-        "Ciervos": {},
+        "Chapulineros": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Chimalhuacan": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ciervos": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Cimarrones de Sonora": {
             "Proper": "Cimarrones de Sonora",
             "Sprite": "[](#sprite5-p254)"
@@ -18233,32 +18774,98 @@
             "Proper": "Cimarrones de Sonora",
             "Sprite": "[](#sprite5-p254)"
         },
-        "Club America": {},
-        "Club America W": {},
-        "Club Leon": {},
-        "Club Leon W": {},
-        "Club Tijuana": {},
-        "Club Tijuana W": {},
-        "Colima FC": {},
-        "Correcaminos": {},
+        "Club America": {
+            "Proper": "Am\u00e9rica",
+            "Sprite": "[](#sprite1-p61)"
+        },
+        "Club America W": {
+            "Proper": "Am\u00e9rica",
+            "Sprite": "[](#sprite1-p61)"
+        },
+        "Club Leon": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Club Leon W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Club Tijuana": {
+            "Proper": "Tijuana",
+            "Sprite": "[](#sprite1-p150)"
+        },
+        "Club Tijuana W": {
+            "Proper": "Tijuana",
+            "Sprite": "[](#sprite1-p150)"
+        },
+        "Colima FC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Correcaminos": {
+            "Proper": "Correcaminos UAT",
+            "Sprite": "[](#sprite2-p498)"
+        },
         "Cruz Azul": {
             "Proper": "Cruz Azul",
             "Sprite": "[](#sprite1-p111)"
         },
-        "Cruz Azul Hidalgo": {},
-        "Cruz Azul W": {},
-        "Cuautla": {},
-        "Dongu": {},
-        "Dorados de Sinaloa": {},
-        "Dorados de Sinaloa 2": {},
-        "Gavilanes de Matamoros": {},
-        "Guadalajara Chivas": {},
-        "Guadalajara Chivas W": {},
-        "Inter Playa Del Carmen": {},
-        "Irapuato": {},
-        "Juarez": {},
-        "Juarez W": {},
-        "La Paz": {},
+        "Cruz Azul Hidalgo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Cruz Azul W": {
+            "Proper": "Cruz Azul",
+            "Sprite": "[](#sprite1-p111)"
+        },
+        "Cuautla": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Dongu": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Dorados de Sinaloa": {
+            "Proper": "Dorados",
+            "Sprite": "[](#sprite4-p4)"
+        },
+        "Dorados de Sinaloa 2": {
+            "Proper": "Dorados",
+            "Sprite": "[](#sprite4-p4)"
+        },
+        "Gavilanes de Matamoros": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Guadalajara Chivas": {
+            "Proper": "Chivas",
+            "Sprite": "[](#sprite1-p47)"
+        },
+        "Guadalajara Chivas W": {
+            "Proper": "Chivas",
+            "Sprite": "[](#sprite1-p47)"
+        },
+        "Inter Playa Del Carmen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Irapuato": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Juarez": {
+            "Proper": "Ju\u00e1rez",
+            "Sprite": "[](#sprite5-p155)"
+        },
+        "Juarez W": {
+            "Proper": "Ju\u00e1rez",
+            "Sprite": "[](#sprite5-p155)"
+        },
+        "La Paz": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Leones Negros": {
             "Proper": "Leones Negros",
             "Sprite": "[](#sprite2-p268)"
@@ -18267,37 +18874,82 @@
             "Proper": "Leones Negros",
             "Sprite": "[](#sprite2-p268)"
         },
-        "Mazatlan FC": {},
-        "Mazatlan FC W": {},
-        "Mazorqueros": {},
-        "Mineros de Fresnillo": {},
+        "Mazatlan FC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Mazatlan FC W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Mazorqueros": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Mineros de Fresnillo": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Monterrey": {
             "Proper": "Monterrey",
             "Sprite": "[](#sprite1-p161)"
         },
-        "Monterrey W": {},
+        "Monterrey W": {
+            "Proper": "Monterrey",
+            "Sprite": "[](#sprite1-p161)"
+        },
         "Necaxa": {
             "Proper": "Necaxa",
             "Sprite": "[](#sprite2-p490)"
         },
-        "Necaxa W": {},
+        "Necaxa W": {
+            "Proper": "Necaxa",
+            "Sprite": "[](#sprite2-p490)"
+        },
         "Pachuca": {
             "Proper": "Pachuca",
             "Sprite": "[](#sprite2-p56)"
         },
-        "Pachuca W": {},
-        "Pioneros": {},
+        "Pachuca W": {
+            "Proper": "Pachuca",
+            "Sprite": "[](#sprite2-p56)"
+        },
+        "Pioneros": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Puebla": {
             "Proper": "Puebla",
             "Sprite": "[](#sprite2-p92)"
         },
-        "Puebla W": {},
-        "Pumas Tabasco": {},
-        "Queretaro": {},
-        "Queretaro W": {},
-        "Reboceros de La Piedad": {},
-        "Saltillo": {},
-        "San Francisco": {},
+        "Puebla W": {
+            "Proper": "Puebla",
+            "Sprite": "[](#sprite2-p92)"
+        },
+        "Pumas Tabasco": {
+            "Proper": "Pumas",
+            "Sprite": "[](#sprite1-p137)"
+        },
+        "Queretaro": {
+            "Proper": "Quer\u00e9taro",
+            "Sprite": "[](#sprite2-p65)"
+        },
+        "Queretaro W": {
+            "Proper": "Quer\u00e9taro",
+            "Sprite": "[](#sprite2-p65)"
+        },
+        "Reboceros de La Piedad": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Saltillo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "San Francisco": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Santos Laguna": {
             "Proper": "Santos Laguna",
             "Sprite": "[](#sprite1-p214)"
@@ -18310,50 +18962,116 @@
             "Proper": "Tampico Madero",
             "Sprite": "[](#sprite4-p60)"
         },
-        "Tapatio": {},
-        "Tecos FC": {},
-        "Tepatitlan de Morelos": {},
-        "Tlaxcala": {},
-        "Tlayacapan": {},
+        "Tapatio": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tecos FC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tepatitlan de Morelos": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tlaxcala": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tlayacapan": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Toluca": {
             "Proper": "Toluca",
             "Sprite": "[](#sprite1-p322)"
         },
-        "Toluca W": {},
-        "U.A.N.L.- Tigres": {},
-        "U.A.N.L.- Tigres W": {},
-        "U.N.A.M.- Pumas": {},
-        "U.N.A.M.- Pumas W": {},
-        "UA Zacatecas": {},
-        "UAEM Potros": {},
-        "Uruapan": {},
+        "Toluca W": {
+            "Proper": "Toluca",
+            "Sprite": "[](#sprite1-p322)"
+        },
+        "U.A.N.L.- Tigres": {
+            "Proper": "Tigres",
+            "Sprite": "[](#sprite1-p173)"
+        },
+        "U.A.N.L.- Tigres W": {
+            "Proper": "Tigres",
+            "Sprite": "[](#sprite1-p173)"
+        },
+        "U.N.A.M.- Pumas": {
+            "Proper": "Pumas",
+            "Sprite": "[](#sprite1-p137)"
+        },
+        "U.N.A.M.- Pumas W": {
+            "Proper": "Pumas",
+            "Sprite": "[](#sprite1-p137)"
+        },
+        "UA Zacatecas": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "UAEM Potros": {
+            "Proper": "Potros UAEM",
+            "Sprite": "[](#sprite8-p171)"
+        },
+        "Uruapan": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Venados": {
             "Proper": "Venados",
             "Sprite": "[](#sprite5-p253)"
         },
-        "Veracruz": {},
-        "Zacatecas 2": {},
-        "Zacatecas Mineros": {},
+        "Veracruz": {
+            "Proper": "Tiburones Rojos de Veracruz",
+            "Sprite": "[](#sprite2-p110)"
+        },
+        "Zacatecas 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Zacatecas Mineros": {
+            "Proper": "Mineros de Zacatecas",
+            "Sprite": "[](#sprite4-p321)"
+        },
         "Zacatepec": {
             "Proper": "Zacatepec",
             "Sprite": "[](#sprite5-p250)"
         },
-        "Zitacuaro": {}
+        "Zitacuaro": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "Moldova": {
-        "CSCA Buiucani": {},
-        "Codru Lozova": {},
+        "CSCA Buiucani": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Codru Lozova": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Dinamo-Auto": {
             "Proper": "inamo-Auto",
             "Sprite": "[](#sprite8-p309)"
         },
-        "Floresti": {},
+        "Floresti": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Milsami": {
             "Proper": "Milsami",
             "Sprite": "[](#sprite5-p94)"
         },
-        "Petrocub": {},
-        "Sf.Gheorghe": {},
+        "Petrocub": {
+            "Proper": "Petrocub H\u00eence\u0219ti",
+            "Sprite": "[](#sprite8-p308)"
+        },
+        "Sf.Gheorghe": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Sheriff Tiraspol": {
             "Proper": "Sheriff Tiraspol",
             "Sprite": "[](#sprite4-p395)"
@@ -18362,53 +19080,134 @@
             "Proper": "Speran\u021ba Nisporeni",
             "Sprite": "[](#sprite8-p305)"
         },
-        "Zimbru Chisinau": {}
+        "Zimbru Chisinau": {
+            "Proper": "Zimbru Chi\u0219in\u0103u",
+            "Sprite": "[](#sprite7-p15)"
+        }
     },
     "Mongolia": {
-        "Anduud City": {},
-        "Athletic 220": {},
-        "Deren": {},
+        "Anduud City": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Athletic 220": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Deren": {
+            "Proper": null,
+            "Sprite": null
+        },
         "FC Ulaanbaatar": {
             "Proper": "FC Ulaanbaatar",
             "Sprite": "[](#sprite5-p83)"
         },
-        "Falcons": {},
-        "Khaan Khuns-Erchim": {},
-        "Khangarid": {},
-        "Mazaalainuud": {},
-        "Sumida Gepro": {},
-        "Ulaanbaatar City": {}
+        "Falcons": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Khaan Khuns-Erchim": {
+            "Proper": "Erchim",
+            "Sprite": "[](#sprite4-p186)"
+        },
+        "Khangarid": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Mazaalainuud": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sumida Gepro": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ulaanbaatar City": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "Montenegro": {
-        "Arsenal Tivat": {},
-        "Berane": {},
+        "Arsenal Tivat": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Berane": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Bokelj": {
             "Proper": "Bokelj",
             "Sprite": "[](#sprite7-p18)"
         },
-        "Buducnost": {},
-        "Decic": {},
-        "Drezga": {},
-        "FK Podgorica": {},
+        "Buducnost": {
+            "Proper": "Budu\u0107nost Podgorica",
+            "Sprite": "[](#sprite7-p23)"
+        },
+        "Decic": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Drezga": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "FK Podgorica": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Grbalj": {
             "Proper": "Grbalj",
             "Sprite": "[](#sprite8-p314)"
         },
-        "Ibar": {},
-        "Igalo": {},
-        "Iskra": {},
-        "Jedinstvo": {},
-        "Jezero": {},
-        "Kom Podgorica": {},
-        "Mornar Bar": {},
-        "OFK Petrovac": {},
-        "Rudar": {},
+        "Ibar": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Igalo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Iskra": {
+            "Proper": "Iskra Danilovgrad",
+            "Sprite": "[](#sprite8-p313)"
+        },
+        "Jedinstvo": {
+            "Proper": "Jedinstvo Bijelo Polje",
+            "Sprite": "[](#sprite8-p316)"
+        },
+        "Jezero": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kom Podgorica": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Mornar Bar": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "OFK Petrovac": {
+            "Proper": "Petrovac",
+            "Sprite": "[](#sprite7-p17)"
+        },
+        "Rudar": {
+            "Proper": "Rudar Pljevlja",
+            "Sprite": "[](#sprite7-p19)"
+        },
         "Sutjeska": {
             "Proper": "Sutjeska",
             "Sprite": "[](#sprite7-p22)"
         },
-        "Titograd": {},
-        "Zeta": {}
+        "Titograd": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Zeta": {
+            "Proper": "Zeta Golubovci",
+            "Sprite": "[](#sprite7-p20)"
+        }
     },
     "Morocco": {
         "Berkane": {},
