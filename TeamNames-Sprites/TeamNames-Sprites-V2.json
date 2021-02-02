@@ -21704,32 +21704,110 @@
             "Proper": "Arka Gdynia",
             "Sprite": "[](#sprite4-p153)"
         },
-        "Avia Swidnik": {},
-        "B. Gdynia": {},
-        "Baltyk Koszalin": {},
-        "Biala Piska": {},
-        "Biala Podlaska": {},
-        "Biedrzychowice W": {},
-        "Bielsko-Biala": {},
-        "Blekitni Stargard": {},
-        "Blonianka Blonie": {},
-        "Bron Radom": {},
-        "Brzeg": {},
-        "Bydgoszcz W": {},
-        "Bytovia Bytow": {},
-        "Chelmianka Chelm": {},
-        "Chemik Police": {},
-        "Chojniczanka": {},
-        "Chrobry Glogow": {},
-        "Concordia Elblag": {},
-        "Cracovia": {},
-        "Cracovia 2": {},
-        "Czarni Sosnowiec W": {},
-        "Elana Torun": {},
-        "Elblag": {},
-        "Foto-Higiena Gac": {},
-        "GKS Belchatow": {},
-        "GKS Jastrzebie": {},
+        "Avia Swidnik": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "B. Gdynia": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Baltyk Koszalin": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Biala Piska": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Biala Podlaska": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Biedrzychowice W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bielsko-Biala": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Blekitni Stargard": {
+            "Proper": "B\u0142\u0119kitni Stargard",
+            "Sprite": "[](#sprite9-p5)"
+        },
+        "Blonianka Blonie": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bron Radom": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Brzeg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bydgoszcz W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bytovia Bytow": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Chelmianka Chelm": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Chemik Police": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Chojniczanka": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Chrobry Glogow": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Concordia Elblag": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Cracovia": {
+            "Proper": "KS Cracovia",
+            "Sprite": "[](#sprite2-p485)"
+        },
+        "Cracovia 2": {
+            "Proper": "KS Cracovia",
+            "Sprite": "[](#sprite2-p485)"
+        },
+        "Czarni Sosnowiec W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Elana Torun": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Elblag": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Foto-Higiena Gac": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "GKS Belchatow": {
+            "Proper": "GKS Be\u0142chat\u00f3w",
+            "Sprite": "[](#sprite4-p393)"
+        },
+        "GKS Jastrzebie": {
+            "Proper": null,
+            "Sprite": null
+        },
         "GKS Katowice": {
             "Proper": "GKS Katowice",
             "Sprite": "[](#sprite2-p168)"
@@ -21738,27 +21816,90 @@
             "Proper": "GKS Katowice",
             "Sprite": "[](#sprite2-p168)"
         },
-        "Garbarnia": {},
-        "Gdansk W": {},
-        "Goczalkowice Zdroj": {},
-        "Gornik Konin": {},
-        "Gornik Z.": {},
-        "Gornik Z. 2": {},
-        "Grodzisk M.": {},
-        "Gryf Wejherowo": {},
-        "Gwardia Koszalin": {},
-        "Gwarek Tarnowskie Gory": {},
-        "Hetman Zamosc": {},
-        "Huragan Morag": {},
-        "Hutnik Krakow": {},
-        "Jagiellonia": {},
-        "Jagiellonia II": {},
-        "Jarocin": {},
-        "Jutrzenka Giebultow": {},
-        "KKS Kalisz": {},
-        "KS Kutno": {},
-        "Kleczew": {},
-        "Kluczbork": {},
+        "Garbarnia": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gdansk W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Goczalkowice Zdroj": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gornik Konin": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gornik Z.": {
+            "Proper": "G\u00f3rnik Zabrze",
+            "Sprite": "[](#sprite2-p283)"
+        },
+        "Gornik Z. 2": {
+            "Proper": "G\u00f3rnik Zabrze",
+            "Sprite": "[](#sprite2-p283)"
+        },
+        "Grodzisk M.": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gryf Wejherowo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gwardia Koszalin": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gwarek Tarnowskie Gory": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hetman Zamosc": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Huragan Morag": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hutnik Krakow": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Jagiellonia": {
+            "Proper": "Jagiellonia Bia\u0142ystok",
+            "Sprite": "[](#sprite2-p44)"
+        },
+        "Jagiellonia II": {
+            "Proper": "Jagiellonia Bia\u0142ystok",
+            "Sprite": "[](#sprite2-p44)"
+        },
+        "Jarocin": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Jutrzenka Giebultow": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "KKS Kalisz": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "KS Kutno": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kleczew": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kluczbork": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Korona Kielce": {
             "Proper": "Korona Kielce",
             "Sprite": "[](#sprite2-p345)"
@@ -21767,159 +21908,456 @@
             "Proper": "Korona Kielce",
             "Sprite": "[](#sprite2-p345)"
         },
-        "Kotwica Kolobrzeg": {},
-        "LKS Lagow": {},
-        "LKS Lodz": {},
+        "Kotwica Kolobrzeg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "LKS Lagow": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "LKS Lodz": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Lech Poznan": {
             "Proper": "Lech Pozna\u0144",
             "Sprite": "[](#sprite1-p323)"
         },
-        "Lech Poznan 2": {},
+        "Lech Poznan 2": {
+            "Proper": "Lech Pozna\u0144",
+            "Sprite": "[](#sprite1-p323)"
+        },
         "Lechia Gdansk": {
             "Proper": "Lechia Gda\u0144sk",
             "Sprite": "[](#sprite2-p332)"
         },
-        "Leczna": {},
-        "Leczna W": {},
-        "Legia": {},
-        "Legia II": {},
-        "Legionowo": {},
-        "Legnica": {},
-        "Legnica 2": {},
-        "Lewart Lubartow": {},
-        "Lublin": {},
-        "Medyk Konin W": {},
-        "Mieszko": {},
-        "Nielba Wagrowiec": {},
-        "Nysa": {},
+        "Leczna": {
+            "Proper": "G\u00f3rnik \u0141\u0119czna",
+            "Sprite": "[](#sprite5-p44)"
+        },
+        "Leczna W": {
+            "Proper": "G\u00f3rnik \u0141\u0119czna",
+            "Sprite": "[](#sprite5-p44)"
+        },
+        "Legia": {
+            "Proper": "Legia Warszawa",
+            "Sprite": "[](#sprite1-p230)"
+        },
+        "Legia II": {
+            "Proper": "Legia Warszawa",
+            "Sprite": "[](#sprite1-p230)"
+        },
+        "Legionowo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Legnica": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Legnica 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Lewart Lubartow": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Lublin": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Medyk Konin W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Mieszko": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Nielba Wagrowiec": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Nysa": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Odra Opole": {
             "Proper": "Odra Opole",
             "Sprite": "[](#sprite8-p336)"
         },
-        "Ol. Grudziadz": {},
-        "Olimpia Szczecin W": {},
-        "Orleta Radzyn": {},
-        "Ostroda": {},
-        "Ostrowiec Swietokrzyski": {},
-        "Pawlowice": {},
-        "Pelikan": {},
+        "Ol. Grudziadz": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Olimpia Szczecin W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Orleta Radzyn": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ostroda": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ostrowiec Swietokrzyski": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pawlowice": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pelikan": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Piast Gliwice": {
             "Proper": "Piast Gliwice",
             "Sprite": "[](#sprite5-p43)"
         },
-        "Piast Zmigrod": {},
+        "Piast Zmigrod": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Podbeskidzie": {
             "Proper": "Podbeskidzie",
             "Sprite": "[](#sprite4-p54)"
         },
-        "Podhale Nowy Targ": {},
-        "Pogon Siedlce": {},
+        "Podhale Nowy Targ": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pogon Siedlce": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Pogon Szczecin": {
             "Proper": "Pogo\u0144 Szczecin",
             "Sprite": "[](#sprite2-p484)"
         },
-        "Pogon Szczecin II": {},
-        "Polkowice": {},
-        "Polonia Bytom": {},
-        "Polonia Swidnica": {},
+        "Pogon Szczecin II": {
+            "Proper": "Pogo\u0144 Szczecin",
+            "Sprite": "[](#sprite2-p484)"
+        },
+        "Polkowice": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Polonia Bytom": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Polonia Swidnica": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Polonia Warszawa": {
             "Proper": "Polonia Warszawa",
             "Sprite": "[](#sprite2-p271)"
         },
-        "Pomorzanin Torun": {},
-        "Pruszkow": {},
-        "Przodkowo": {},
-        "Puszcza": {},
-        "R. Rzeszow": {},
-        "ROW Rybnik": {},
-        "ROW Rybnik W": {},
+        "Pomorzanin Torun": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pruszkow": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Przodkowo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Puszcza": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "R. Rzeszow": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "ROW Rybnik": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "ROW Rybnik W": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Radomiak Radom": {
             "Proper": "Radomiak Radom",
             "Sprite": "[](#sprite4-p316)"
         },
-        "Radomsko": {},
-        "Rakow": {},
+        "Radomsko": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Rakow": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Ruch Chorzow": {
             "Proper": "Ruch Chorz\u00f3w",
             "Sprite": "[](#sprite4-p158)"
         },
-        "S. Rzeszow": {},
-        "S. Wola": {},
-        "Sandecja Nowy S.": {},
-        "Sandomierz": {},
-        "Siarka Tarnobrzeg": {},
-        "Skierniewice": {},
-        "Skra": {},
-        "Slask Wroclaw": {},
-        "Slask Wroclaw 2": {},
-        "Slask Wroclaw W": {},
-        "Sleza Wroclaw": {},
-        "Sokol Aleksandrow L.": {},
-        "Sokol Sieniawa": {},
-        "Sroda": {},
-        "Stal Krasnik": {},
+        "S. Rzeszow": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "S. Wola": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sandecja Nowy S.": {
+            "Proper": "Sandecja Nowy S\u0105cz",
+            "Sprite": "[](#sprite8-p438)"
+        },
+        "Sandomierz": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Siarka Tarnobrzeg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Skierniewice": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Skra": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Slask Wroclaw": {
+            "Proper": "\u015al\u0105sk Wroc\u0142aw",
+            "Sprite": "[](#sprite2-p50)"
+        },
+        "Slask Wroclaw 2": {
+            "Proper": "\u015al\u0105sk Wroc\u0142aw",
+            "Sprite": "[](#sprite2-p50)"
+        },
+        "Slask Wroclaw W": {
+            "Proper": "\u015al\u0105sk Wroc\u0142aw",
+            "Sprite": "[](#sprite2-p50)"
+        },
+        "Sleza Wroclaw": {
+            "Proper": "\u015al\u0119za Wroc\u0142aw",
+            "Sprite": "[](#sprite7-p306)"
+        },
+        "Sokol Aleksandrow L.": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sokol Sieniawa": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sroda": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Stal Krasnik": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Stal Mielec": {
             "Proper": "Stal Mielec",
             "Sprite": "[](#sprite8-p104)"
         },
-        "Starogard Gdanski": {},
-        "Stezyca": {},
-        "Stomil Olsztyn": {},
-        "Suwalki": {},
-        "Swinoujscie": {},
-        "Swit": {},
-        "Swit Skolwin": {},
-        "T. Mazowiecki": {},
-        "Termalica B-B.": {},
-        "Tychy": {},
-        "UJ Krakow W": {},
-        "UKS SMS Lodz W": {},
-        "Unia Janikowo": {},
-        "Unia Swarzedz": {},
-        "Ursus Warszawa": {},
-        "W. Mazowieckie": {},
-        "Warta Gorzow": {},
-        "Warta Poznan": {},
-        "Wasilkow": {},
-        "Wiazownica": {},
-        "Widzew Lodz": {},
-        "Wikielec": {},
-        "Wisla": {},
-        "Wisla Plock": {},
-        "Wisla Pulawy": {},
-        "Wisloka Debica": {},
-        "Wolka Pelkinska": {},
-        "Zaglebie": {},
-        "Zaglebie 2": {},
-        "Zaglebie Sosnowiec": {},
-        "Zambrow": {},
-        "Zielona Gora": {}
+        "Starogard Gdanski": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Stezyca": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Stomil Olsztyn": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Suwalki": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Swinoujscie": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Swit": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Swit Skolwin": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "T. Mazowiecki": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Termalica B-B.": {
+            "Proper": "Termalica Bruk-Bet",
+            "Sprite": "[](#sprite5-p42)"
+        },
+        "Tychy": {
+            "Proper": "GKS Tychy",
+            "Sprite": "[](#sprite8-p376)"
+        },
+        "UJ Krakow W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "UKS SMS Lodz W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Unia Janikowo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Unia Swarzedz": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ursus Warszawa": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "W. Mazowieckie": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Warta Gorzow": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Warta Poznan": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Wasilkow": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Wiazownica": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Widzew Lodz": {
+            "Proper": "Widzew \u0141\u00f3d\u017a",
+            "Sprite": "[](#sprite2-p26)"
+        },
+        "Wikielec": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Wisla": {
+            "Proper": "Wis\u0142a Krak\u00f3w",
+            "Sprite": "[](#sprite1-p280)"
+        },
+        "Wisla Plock": {
+            "Proper": "Wis\u0142a P\u0142ock",
+            "Sprite": "[](#sprite8-p166)"
+        },
+        "Wisla Pulawy": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Wisloka Debica": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Wolka Pelkinska": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Zaglebie": {
+            "Proper": "Zag\u0142\u0119bie Lubin",
+            "Sprite": "[](#sprite2-p410)"
+        },
+        "Zaglebie 2": {
+            "Proper": "Zag\u0142\u0119bie Lubin",
+            "Sprite": "[](#sprite2-p410)"
+        },
+        "Zaglebie Sosnowiec": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Zambrow": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Zielona Gora": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "Portugal": {
-        "1\u00ba Dezembro": {},
+        "1\u00ba Dezembro": {
+            "Proper": null,
+            "Sprite": null
+        },
         "AD Fafe": {
             "Proper": "AD Fafe",
             "Sprite": "[](#sprite7-p433)"
         },
-        "Academica": {},
-        "Academico Viseu": {},
-        "Agueda": {},
-        "Aguia Vimioso": {},
-        "Albergaria/Durit W": {},
-        "Alcains": {},
-        "Aljustrelense": {},
+        "Academica": {
+            "Proper": "Acad\u00e9mica de Coimbra",
+            "Sprite": "[](#sprite1-p385)"
+        },
+        "Academico Viseu": {
+            "Proper": "Acad\u00e9mico de Viseu",
+            "Sprite": "[](#sprite7-p189)"
+        },
+        "Agueda": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Aguia Vimioso": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Albergaria/Durit W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Alcains": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Aljustrelense": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Alverca": {
             "Proper": "Alverca",
             "Sprite": "[](#sprite8-p338)"
         },
-        "Amarante": {},
-        "Amora": {},
-        "Anadia": {},
+        "Amarante": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Amora": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Anadia": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Arouca": {
             "Proper": "Arouca",
             "Sprite": "[](#sprite4-p493)"
         },
-        "Beira Mar": {},
+        "Beira Mar": {
+            "Proper": "Beira-Mar",
+            "Sprite": "[](#sprite2-p122)"
+        },
         "Belenenses": {
             "Proper": "Belenenses",
             "Sprite": "[](#sprite2-p201)"
@@ -21932,372 +22370,1158 @@
             "Proper": "Benfica",
             "Sprite": "[](#sprite1-p26)"
         },
-        "Benfica B": {},
-        "Berco": {},
+        "Benfica B": {
+            "Proper": "Benfica",
+            "Sprite": "[](#sprite1-p26)"
+        },
+        "Berco": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Boavista": {
             "Proper": "Boavista",
             "Sprite": "[](#sprite2-p160)"
         },
-        "Braga": {},
-        "Braga B": {},
-        "Braga W": {},
-        "Brito": {},
+        "Braga": {
+            "Proper": "SC Braga",
+            "Sprite": "[](#sprite1-p342)"
+        },
+        "Braga B": {
+            "Proper": "SC Braga",
+            "Sprite": "[](#sprite1-p342)"
+        },
+        "Braga W": {
+            "Proper": "SC Braga",
+            "Sprite": "[](#sprite1-p342)"
+        },
+        "Brito": {
+            "Proper": null,
+            "Sprite": null
+        },
         "CD Cova da Piedade": {
             "Proper": "Cova da Piedade",
             "Sprite": "[](#sprite8-p403)"
         },
-        "CD Rabo Peixe": {},
-        "CDC Montalegre": {},
-        "Caldas": {},
-        "Canelas 2010": {},
-        "Carapinheirense": {},
-        "Casa Pia": {},
-        "Castro Daire": {},
-        "Cerveira": {},
-        "Chaves": {},
-        "Coimbroes": {},
-        "Condeixa": {},
-        "Condeixa W": {},
-        "Covilha": {},
-        "Esperanca de Lagos": {},
+        "CD Rabo Peixe": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "CDC Montalegre": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Caldas": {
+            "Proper": "Caldas Sport Clube",
+            "Sprite": "[](#sprite5-p129)"
+        },
+        "Canelas 2010": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Carapinheirense": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Casa Pia": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Castro Daire": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Cerveira": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Chaves": {
+            "Proper": "GD Chaves",
+            "Sprite": "[](#sprite4-p7)"
+        },
+        "Coimbroes": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Condeixa": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Condeixa W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Covilha": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Esperanca de Lagos": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Estoril": {
             "Proper": "Estoril",
             "Sprite": "[](#sprite4-p489)"
         },
-        "Estrela": {},
+        "Estrela": {
+            "Proper": null,
+            "Sprite": null
+        },
         "FC Porto": {
             "Proper": "FC Porto",
             "Sprite": "[](#sprite1-p37)"
         },
-        "FC Porto B": {},
-        "Fabril do Barreiro": {},
-        "Famalicao": {},
-        "Famalicao W": {},
+        "FC Porto B": {
+            "Proper": "FC Porto",
+            "Sprite": "[](#sprite1-p37)"
+        },
+        "Fabril do Barreiro": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Famalicao": {
+            "Proper": "Famalic\u00e3o",
+            "Sprite": "[](#sprite8-p345)"
+        },
+        "Famalicao W": {
+            "Proper": "Famalic\u00e3o",
+            "Sprite": "[](#sprite8-p345)"
+        },
         "Feirense": {
             "Proper": "Feirense",
             "Sprite": "[](#sprite4-p211)"
         },
-        "Felgueiras": {},
-        "Ferreira": {},
-        "Fontinhas": {},
-        "GD Braganca": {},
-        "GRAP": {},
+        "Felgueiras": {
+            "Proper": "FC Felgueiras 1932",
+            "Sprite": "[](#sprite9-p4)"
+        },
+        "Ferreira": {
+            "Proper": "Pa\u00e7os de Ferreira",
+            "Sprite": "[](#sprite4-p277)"
+        },
+        "Fontinhas": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "GD Braganca": {
+            "Proper": "Bragan\u00e7a",
+            "Sprite": "[](#sprite8-p468)"
+        },
+        "GRAP": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Gil Vicente": {
             "Proper": "Gil Vicente",
             "Sprite": "[](#sprite4-p490)"
         },
-        "Gondomar": {},
-        "Juv. Evora": {},
-        "Leca": {},
-        "Leiria": {},
-        "Leixoes": {},
-        "Louletano": {},
-        "Loures": {},
-        "Lourinhanense": {},
-        "Lusitania FC": {},
-        "Lusitano FCV": {},
-        "Lusitano GC": {},
-        "Mafra": {},
-        "Maria de Fonte": {},
-        "Marinhense": {},
-        "Maritimo": {},
-        "Maritimo B": {},
-        "Maritimo W": {},
-        "Merelinense": {},
-        "Moncarapachense": {},
-        "Mondinense": {},
-        "Montijo": {},
+        "Gondomar": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Juv. Evora": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Leca": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Leiria": {
+            "Proper": "Uni\u00e3o de Leiria",
+            "Sprite": "[](#sprite8-p466)"
+        },
+        "Leixoes": {
+            "Proper": "Leix\u00f5es",
+            "Sprite": "[](#sprite8-p481)"
+        },
+        "Louletano": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Loures": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Lourinhanense": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Lusitania FC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Lusitano FCV": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Lusitano GC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Mafra": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Maria de Fonte": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Marinhense": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Maritimo": {
+            "Proper": "Mar\u00edtimo",
+            "Sprite": "[](#sprite2-p245)"
+        },
+        "Maritimo B": {
+            "Proper": "Mar\u00edtimo",
+            "Sprite": "[](#sprite2-p245)"
+        },
+        "Maritimo W": {
+            "Proper": "Mar\u00edtimo",
+            "Sprite": "[](#sprite2-p245)"
+        },
+        "Merelinense": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Moncarapachense": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Mondinense": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Montijo": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Moreirense": {
             "Proper": "Moreirense",
             "Sprite": "[](#sprite3-p13)"
         },
-        "Mortagua": {},
-        "Moura AC": {},
+        "Mortagua": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Moura AC": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Nacional": {
             "Proper": "Nacional",
             "Sprite": "[](#sprite2-p494)"
         },
-        "Oleiros": {},
-        "Olhanense": {},
-        "Oliveira Hospital": {},
-        "Oliveirense": {},
-        "Oriental": {},
-        "Oriental Dragon": {},
-        "Paredes": {},
-        "Pedras Rubras": {},
-        "Pedras Salgadas": {},
+        "Oleiros": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Olhanense": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oliveira Hospital": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oliveirense": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oriental": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oriental Dragon": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Paredes": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pedras Rubras": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pedras Salgadas": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Penafiel": {
             "Proper": "Penafiel",
             "Sprite": "[](#sprite4-p235)"
         },
-        "Pero Pinheiro": {},
-        "Pevidem": {},
-        "Pinhalnovense": {},
+        "Pero Pinheiro": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pevidem": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pinhalnovense": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Portimonense": {
             "Proper": "Portimonense",
             "Sprite": "[](#sprite8-p469)"
         },
-        "Real SC": {},
+        "Real SC": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Rio Ave": {
             "Proper": "Rio Ave",
             "Sprite": "[](#sprite2-p496)"
         },
-        "Rio Ave B": {},
-        "SB Castelo Branco": {},
-        "SC Espinho": {},
-        "SC Farense": {},
-        "SC Mirandela": {},
+        "Rio Ave B": {
+            "Proper": "Rio Ave",
+            "Sprite": "[](#sprite2-p496)"
+        },
+        "SB Castelo Branco": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "SC Espinho": {
+            "Proper": "Espinho",
+            "Sprite": "[](#sprite8-p378)"
+        },
+        "SC Farense": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "SC Mirandela": {
+            "Proper": null,
+            "Sprite": null
+        },
         "SC Praiense": {
             "Proper": "SC Praiense",
             "Sprite": "[](#sprite8-p435)"
         },
-        "SC Vianense": {},
-        "SC Vila Real": {},
-        "SL Benfica W": {},
-        "Sacavenense": {},
+        "SC Vianense": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "SC Vila Real": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "SL Benfica W": {
+            "Proper": "Benfica",
+            "Sprite": "[](#sprite1-p26)"
+        },
+        "Sacavenense": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Salgueiros": {
             "Proper": "Salgueiros",
             "Sprite": "[](#sprite8-p359)"
         },
-        "Sanjoanense": {},
+        "Sanjoanense": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Santa Clara": {
             "Proper": "Santa Clara",
             "Sprite": "[](#sprite4-p91)"
         },
-        "Santarem": {},
-        "Sao Joao Ver": {},
-        "Sao Martinho": {},
-        "Sertanense": {},
-        "Sintrense": {},
-        "Sporting": {},
-        "Sporting B": {},
-        "Sporting Ideal": {},
-        "Sporting W": {},
-        "Tirsense": {},
-        "Tondela": {},
+        "Santarem": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sao Joao Ver": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sao Martinho": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sertanense": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sintrense": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sporting": {
+            "Proper": "Sporting Clube de Portugal",
+            "Sprite": "[](#sprite1-p52)"
+        },
+        "Sporting B": {
+            "Proper": "Sporting Clube de Portugal",
+            "Sprite": "[](#sprite1-p52)"
+        },
+        "Sporting Ideal": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sporting W": {
+            "Proper": "Sporting Clube de Portugal",
+            "Sprite": "[](#sprite1-p52)"
+        },
+        "Tirsense": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tondela": {
+            "Proper": "CD Tondela",
+            "Sprite": "[](#sprite5-p15)"
+        },
         "Torreense": {
             "Proper": "Torreense",
             "Sprite": "[](#sprite4-p292)"
         },
-        "Torreense W": {},
-        "Trofense": {},
-        "Uniao Almeirim": {},
-        "Valadares Gaia": {},
+        "Torreense W": {
+            "Proper": "Torreense",
+            "Sprite": "[](#sprite4-p292)"
+        },
+        "Trofense": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Uniao Almeirim": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Valadares Gaia": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Varzim": {
             "Proper": "Varzim",
             "Sprite": "[](#sprite8-p434)"
         },
-        "Vidago": {},
-        "Vila Cortez": {},
-        "Vilafranquense": {},
-        "Vilaverdense": {},
-        "Vitoria Guimaraes": {},
-        "Vitoria Guimaraes B": {},
-        "Vitoria Sernache": {},
-        "Vitoria Setubal": {},
-        "Vizela": {}
+        "Vidago": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Vila Cortez": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Vilafranquense": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Vilaverdense": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Vitoria Guimaraes": {
+            "Proper": "Vit\u00f3ria de Guimar\u00e3es",
+            "Sprite": "[](#sprite2-p99)"
+        },
+        "Vitoria Guimaraes B": {
+            "Proper": "Vit\u00f3ria de Guimar\u00e3es",
+            "Sprite": "[](#sprite2-p99)"
+        },
+        "Vitoria Sernache": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Vitoria Setubal": {
+            "Proper": "Vit\u00f3ria de Set\u00fabal",
+            "Sprite": "[](#sprite2-p477)"
+        },
+        "Vizela": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "Qatar": {
-        "Al Ahli Doha": {},
-        "Al Arabi": {},
-        "Al Bidda": {},
-        "Al Khor": {},
-        "Al Markhiya": {},
-        "Al Mesaimeer": {},
-        "Al Muaidar": {},
-        "Al Rayyan": {},
-        "Al Sailiya": {},
-        "Al Wakra": {},
-        "Al-Duhail": {},
-        "Al-Gharafa": {},
-        "Al-Kharitiyath": {},
-        "Al-Sadd": {},
-        "Al-Shahaniya": {},
-        "Al-Waab": {},
-        "Lusail": {},
+        "Al Ahli Doha": {
+            "Proper": "Al-Ahli SC",
+            "Sprite": "[](#sprite5-p144)"
+        },
+        "Al Arabi": {
+            "Proper": "Al-Arabi SC",
+            "Sprite": "[](#sprite5-p145)"
+        },
+        "Al Bidda": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al Khor": {
+            "Proper": "Al-Khor SC",
+            "Sprite": "[](#sprite5-p148)"
+        },
+        "Al Markhiya": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al Mesaimeer": {
+            "Proper": "Al-Mesaimeer SC",
+            "Sprite": "[](#sprite5-p152)"
+        },
+        "Al Muaidar": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al Rayyan": {
+            "Proper": "Al-Rayyan SC",
+            "Sprite": "[](#sprite5-p149)"
+        },
+        "Al Sailiya": {
+            "Proper": "Al-Sailiya SC",
+            "Sprite": "[](#sprite5-p150)"
+        },
+        "Al Wakra": {
+            "Proper": "Al-Wakrah SC",
+            "Sprite": "[](#sprite5-p151)"
+        },
+        "Al-Duhail": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al-Gharafa": {
+            "Proper": "Al-Gharafa SC",
+            "Sprite": "[](#sprite5-p146)"
+        },
+        "Al-Kharitiyath": {
+            "Proper": "Al-Kharaitiyat SC",
+            "Sprite": "[](#sprite5-p147)"
+        },
+        "Al-Sadd": {
+            "Proper": "Al-Sadd Club",
+            "Sprite": "[](#sprite4-p99)"
+        },
+        "Al-Shahaniya": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al-Waab": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Lusail": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Qatar SC": {
             "Proper": "Qatar SC",
             "Sprite": "[](#sprite5-p153)"
         },
-        "Shamal": {},
-        "Umm-Salal": {}
+        "Shamal": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Umm-Salal": {
+            "Proper": "Umm-Salal SC",
+            "Sprite": "[](#sprite5-p154)"
+        }
     },
     "Romania": {
-        "1910 Oradea": {},
-        "AFC Hermannstadt 2": {},
-        "ASU Poli Timisoara": {},
-        "Academica Clinceni": {},
-        "Academica Clinceni 2": {},
-        "Aerostar": {},
-        "Afumati": {},
-        "Agricola Borcea": {},
-        "Alba Iulia": {},
-        "Alexandria": {},
-        "Ariesul Turda": {},
-        "Astra": {},
-        "Astra 2": {},
-        "Avantul Periam": {},
-        "Avantul Valea Marului": {},
-        "Axiopolis Cernavoda": {},
-        "Baia Mare": {},
-        "Baia Mare W": {},
-        "Balotesti": {},
-        "Banat W": {},
-        "Bistrita": {},
-        "Bradu Borca": {},
-        "Braila": {},
-        "Bucovina Radauti": {},
+        "1910 Oradea": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "AFC Hermannstadt 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "ASU Poli Timisoara": {
+            "Proper": "ACS Poli Timi\u0219oara",
+            "Sprite": "[](#sprite5-p216)"
+        },
+        "Academica Clinceni": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Academica Clinceni 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Aerostar": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Afumati": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Agricola Borcea": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Alba Iulia": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Alexandria": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ariesul Turda": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Astra": {
+            "Proper": "Astra Giurgiu",
+            "Sprite": "[](#sprite5-p88)"
+        },
+        "Astra 2": {
+            "Proper": "Astra Giurgiu",
+            "Sprite": "[](#sprite5-p88)"
+        },
+        "Avantul Periam": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Avantul Valea Marului": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Axiopolis Cernavoda": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Baia Mare": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Baia Mare W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Balotesti": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Banat W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bistrita": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bradu Borca": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Braila": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bucovina Radauti": {
+            "Proper": null,
+            "Sprite": null
+        },
         "CFR Cluj": {
             "Proper": "CFR Cluj",
             "Sprite": "[](#sprite2-p94)"
         },
-        "CS Blejoi": {},
-        "CS Hunedoara": {},
-        "CSM Bacau": {},
-        "CSM Deva": {},
-        "CSM Focsani": {},
-        "CSM Resita": {},
-        "CSM Satu Mare": {},
-        "CSM Slatina": {},
-        "CSS Targoviste W": {},
-        "Calarasi": {},
-        "Carmen Bucuresti W": {},
-        "Ceahlaul": {},
-        "Cetate Rasnov": {},
-        "Chindia Targoviste": {},
-        "Chiscani": {},
-        "Comuna Recea": {},
-        "Concordia": {},
-        "Concordia 2": {},
-        "Corona Brasov": {},
-        "Crisul Chisineu Cris": {},
-        "Csikszereda M. Ciuc": {},
-        "Cugir": {},
-        "Daesti": {},
-        "Dante Botosani": {},
-        "Din. Bucuresti": {},
-        "Din. Bucuresti 2": {},
-        "Dumbravita": {},
-        "F. Constanta": {},
-        "FC Arges": {},
+        "CS Blejoi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "CS Hunedoara": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "CSM Bacau": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "CSM Deva": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "CSM Focsani": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "CSM Resita": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "CSM Satu Mare": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "CSM Slatina": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "CSS Targoviste W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Calarasi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Carmen Bucuresti W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ceahlaul": {
+            "Proper": "Ceahl\u0103ul Piatra Neam\u021b",
+            "Sprite": "[](#sprite2-p372)"
+        },
+        "Cetate Rasnov": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Chindia Targoviste": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Chiscani": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Comuna Recea": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Concordia": {
+            "Proper": "Concordia Chiajna",
+            "Sprite": "[](#sprite5-p217)"
+        },
+        "Concordia 2": {
+            "Proper": "Concordia Chiajna",
+            "Sprite": "[](#sprite5-p217)"
+        },
+        "Corona Brasov": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Crisul Chisineu Cris": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Csikszereda M. Ciuc": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Cugir": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Daesti": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Dante Botosani": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Din. Bucuresti": {
+            "Proper": "Dinamo Bucure\u015fti",
+            "Sprite": "[](#sprite1-p281)"
+        },
+        "Din. Bucuresti 2": {
+            "Proper": "Dinamo Bucure\u015fti",
+            "Sprite": "[](#sprite1-p281)"
+        },
+        "Dumbravita": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "F. Constanta": {
+            "Proper": "Farul Constan\u021ba",
+            "Sprite": "[](#sprite2-p427)"
+        },
+        "FC Arges": {
+            "Proper": null,
+            "Sprite": null
+        },
         "FC Botosani": {
             "Proper": "FC Boto\u0219ani",
             "Sprite": "[](#sprite5-p218)"
         },
-        "FC Hermannstadt": {},
-        "FC Pucioasa": {},
-        "FC Rapid Bucuresti": {},
-        "FC Viitorul 2": {},
+        "FC Hermannstadt": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "FC Pucioasa": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "FC Rapid Bucuresti": {
+            "Proper": "Rapid Bucure\u0219ti",
+            "Sprite": "[](#sprite1-p347)"
+        },
+        "FC Viitorul 2": {
+            "Proper": "Viitorul Constan\u021ba",
+            "Sprite": "[](#sprite2-p419)"
+        },
         "FC Voluntari": {
             "Proper": "FC Voluntari",
             "Sprite": "[](#sprite5-p219)"
         },
-        "FCSB": {},
-        "FCSB 2": {},
-        "Fairplay Bucuresti W": {},
-        "Faurei": {},
-        "Filiasi": {},
-        "Foresta Suceava": {},
-        "Fortuna Becicherecu Mic": {},
-        "Fortuna Becicherecu Mic W": {},
+        "FCSB": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "FCSB 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Fairplay Bucuresti W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Faurei": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Filiasi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Foresta Suceava": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Fortuna Becicherecu Mic": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Fortuna Becicherecu Mic W": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Gaz Metan Medias": {
             "Proper": "Gaz Metan Media\u0219",
             "Sprite": "[](#sprite4-p427)"
         },
-        "Gaz Metan Medias 2": {},
-        "Ghiroda": {},
-        "Gloria Albesti": {},
-        "Gloria Buzau": {},
-        "Heniu Prundu Bargaului W": {},
-        "Horezu": {},
-        "Husana Husi": {},
-        "Inainte Modelu": {},
-        "Industria Galda": {},
-        "Jiul Petrosani": {},
-        "Kids Tampa Brasov": {},
-        "Liesti": {},
-        "Luceafarul Filiasi W": {},
-        "Luceafarul Oradea": {},
-        "Magura Cisnadie": {},
-        "Metaloglobus Bucharest": {},
-        "Metalul Buzau": {},
-        "Minerul Costesti": {},
-        "Mioveni": {},
-        "Miroslava": {},
-        "Moreni": {},
-        "Ocna Mures": {},
-        "Odorheiu": {},
-        "Ol. Cluj W": {},
-        "Oltenita": {},
-        "Otelul": {},
+        "Gaz Metan Medias 2": {
+            "Proper": "Gaz Metan Media\u0219",
+            "Sprite": "[](#sprite4-p427)"
+        },
+        "Ghiroda": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gloria Albesti": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gloria Buzau": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Heniu Prundu Bargaului W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Horezu": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Husana Husi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Inainte Modelu": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Industria Galda": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Jiul Petrosani": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kids Tampa Brasov": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Liesti": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Luceafarul Filiasi W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Luceafarul Oradea": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Magura Cisnadie": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Metaloglobus Bucharest": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Metalul Buzau": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Minerul Costesti": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Mioveni": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Miroslava": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Moreni": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ocna Mures": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Odorheiu": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ol. Cluj W": {
+            "Proper": "Universitatea Cluj",
+            "Sprite": "[](#sprite8-p149)"
+        },
+        "Oltenita": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Otelul": {
+            "Proper": "O\u021belul Gala\u021bi",
+            "Sprite": "[](#sprite4-p132)"
+        },
         "Pandurii": {
             "Proper": "Pandurii",
             "Sprite": "[](#sprite5-p179)"
         },
-        "Pascani": {},
-        "Petrolul": {},
-        "Petrolul Potcoava": {},
-        "Piros Security W": {},
-        "Plopeni": {},
-        "Poli Iasi": {},
-        "Poli Timisoara": {},
-        "Popesti Leordeni": {},
-        "Progresul Ezeris": {},
-        "Progresul Pecica": {},
-        "Progresul Spartac": {},
-        "Ramnicu Sarat": {},
-        "Rapid Bucuresti 2": {},
-        "Recolta Gh. Doja": {},
-        "Reghin": {},
-        "Ripensia Timisoara": {},
-        "SN Constanta W": {},
-        "SR Brasov": {},
-        "Sanatatea Cluj": {},
-        "Sanmartin": {},
-        "Sepsi Sf. Gheorghe": {},
-        "Sepsi Sf. Gheorghe 2": {},
-        "Simleul Silvaniei": {},
-        "Soimii Lipova": {},
-        "Somcuta Mare": {},
-        "Somesul Dej": {},
-        "Somuz Falticeni": {},
-        "Sporting Rosiori": {},
+        "Pascani": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Petrolul": {
+            "Proper": "Petrolul Ploie\u0219ti",
+            "Sprite": "[](#sprite2-p426)"
+        },
+        "Petrolul Potcoava": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Piros Security W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Plopeni": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Poli Iasi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Poli Timisoara": {
+            "Proper": "ACS Poli Timi\u0219oara",
+            "Sprite": "[](#sprite5-p216)"
+        },
+        "Popesti Leordeni": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Progresul Ezeris": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Progresul Pecica": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Progresul Spartac": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ramnicu Sarat": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Rapid Bucuresti 2": {
+            "Proper": "Rapid Bucure\u0219ti",
+            "Sprite": "[](#sprite1-p347)"
+        },
+        "Recolta Gh. Doja": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Reghin": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ripensia Timisoara": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "SN Constanta W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "SR Brasov": {
+            "Proper": "SR Bra\u0219ov",
+            "Sprite": "[](#sprite2-p451)"
+        },
+        "Sanatatea Cluj": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sanmartin": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sepsi Sf. Gheorghe": {
+            "Proper": "Sepsi Sf\u00e2ntu Gheorghe",
+            "Sprite": "[](#sprite8-p442)"
+        },
+        "Sepsi Sf. Gheorghe 2": {
+            "Proper": "Sepsi Sf\u00e2ntu Gheorghe",
+            "Sprite": "[](#sprite8-p442)"
+        },
+        "Simleul Silvaniei": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Soimii Lipova": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Somcuta Mare": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Somesul Dej": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Somuz Falticeni": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sporting Rosiori": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Steaua Bucuresti": {
             "Proper": "Steaua Bucure\u015fti",
             "Sprite": "[](#sprite1-p133)"
         },
-        "Targu Carbunesti": {},
-        "Targu Secuiesc": {},
-        "Teuz Cermei": {},
-        "Tunari": {},
-        "Turnu Magurele": {},
-        "U Craiova": {},
-        "U Craiova 1948": {},
-        "U Craiova CS 2": {},
-        "U. Cluj": {},
+        "Targu Carbunesti": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Targu Secuiesc": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Teuz Cermei": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tunari": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Turnu Magurele": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "U Craiova": {
+            "Proper": "CS Universitatea Craiova",
+            "Sprite": "[](#sprite5-p220)"
+        },
+        "U Craiova 1948": {
+            "Proper": "Universitatea Craiova",
+            "Sprite": "[](#sprite2-p82)"
+        },
+        "U Craiova CS 2": {
+            "Proper": "CS Universitatea Craiova",
+            "Sprite": "[](#sprite5-p220)"
+        },
+        "U. Cluj": {
+            "Proper": "Universitatea Cluj",
+            "Sprite": "[](#sprite8-p149)"
+        },
         "UTA Arad": {
             "Proper": "UTA Arad",
             "Sprite": "[](#sprite8-p392)"
         },
-        "Ulmu": {},
-        "Unirea Bascov": {},
-        "Unirea Dej": {},
-        "Unirea Slobozia": {},
-        "Unirea Ungheni": {},
-        "Universitatea Alexandria W": {},
-        "Universitatea Galati W": {},
-        "Vasas Odorhei W": {},
-        "Vaslui": {},
-        "Vedita Colonesti": {},
+        "Ulmu": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Unirea Bascov": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Unirea Dej": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Unirea Slobozia": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Unirea Ungheni": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Universitatea Alexandria W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Universitatea Galati W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Vasas Odorhei W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Vaslui": {
+            "Proper": "FC Vaslui",
+            "Sprite": "[](#sprite4-p134)"
+        },
+        "Vedita Colonesti": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Viitorul Constanta": {
             "Proper": "Viitorul Constan\u021ba",
             "Sprite": "[](#sprite2-p419)"
         },
-        "Viitorul Ianca": {},
-        "Viitorul Selimbar": {},
-        "Viitorul Tg. Jiu": {},
-        "Voluntari 2": {},
-        "Zalau": {}
+        "Viitorul Ianca": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Viitorul Selimbar": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Viitorul Tg. Jiu": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Voluntari 2": {
+            "Proper": "FC Voluntari",
+            "Sprite": "[](#sprite5-p219)"
+        },
+        "Zalau": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "Russia": {
         "Akhmat Grozny": {},
