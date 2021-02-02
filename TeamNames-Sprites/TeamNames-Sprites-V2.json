@@ -15319,8 +15319,8 @@
             "Sprite": "[](#sprite1-p234)"
         },
         "Derry City": {
-            "Proper": null,
-            "Sprite": null
+            "Proper": "Derry City",
+            "Sprite": "[](#sprite1-p362)"
         },
         "Drogheda": {
             "Proper": "Drogheda United",
@@ -19210,28 +19210,70 @@
         }
     },
     "Morocco": {
-        "Berkane": {},
-        "Chabab Atlas Khenifra": {},
-        "Chabab Benguerir": {},
-        "Chabab Mohammedia": {},
-        "Dcheira": {},
-        "Difaa El Jadidi": {},
-        "FAR Rabat": {},
-        "FUS Rabat": {},
+        "Berkane": {
+            "Proper": "Renaissance de Berkane",
+            "Sprite": "[](#sprite7-p434)"
+        },
+        "Chabab Atlas Khenifra": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Chabab Benguerir": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Chabab Mohammedia": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Dcheira": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Difaa El Jadidi": {
+            "Proper": "Difa\u00e2 d'El-Jadida",
+            "Sprite": "[](#sprite7-p435)"
+        },
+        "FAR Rabat": {
+            "Proper": "AS FAR",
+            "Sprite": "[](#sprite4-p124)"
+        },
+        "FUS Rabat": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Hassania Agadir": {
             "Proper": "Hassania Agadir",
             "Sprite": "[](#sprite4-p127)"
         },
-        "IR Tanger": {},
-        "Ittihad Khemisset": {},
-        "KAC Kenitra": {},
+        "IR Tanger": {
+            "Proper": "Ittihad Tanger",
+            "Sprite": "[](#sprite7-p54)"
+        },
+        "Ittihad Khemisset": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "KAC Kenitra": {
+            "Proper": "KAC de K\u00e9nitra",
+            "Sprite": "[](#sprite4-p125)"
+        },
         "Kawkab Marrakech": {
             "Proper": "Kawkab de Marrakech",
             "Sprite": "[](#sprite7-p56)"
         },
-        "Maghreb Fez": {},
-        "Moghreb Tetouan": {},
-        "Mouloudia Oujda": {},
+        "Maghreb Fez": {
+            "Proper": "Maghrib de F\u00e8s",
+            "Sprite": "[](#sprite4-p126)"
+        },
+        "Moghreb Tetouan": {
+            "Proper": "Moghreb Atl\u00e9tico Tetu\u00e1n",
+            "Sprite": "[](#sprite2-p405)"
+        },
+        "Mouloudia Oujda": {
+            "Proper": "MC Oujda",
+            "Sprite": "[](#sprite7-p436)"
+        },
         "Olympique Khouribga": {
             "Proper": "Olympique de Khouribga",
             "Sprite": "[](#sprite4-p288)"
@@ -19240,50 +19282,170 @@
             "Proper": "Olympique de Safi",
             "Sprite": "[](#sprite7-p57)"
         },
-        "RAC Casablanca": {},
-        "Raja Beni Mellal": {},
-        "Raja Casablanca": {},
-        "Rapide Oued Zem": {},
-        "Renaissance Zemamra": {},
-        "Sale": {},
-        "Salmi": {},
-        "Stade Marocain": {},
-        "TAS Casablanca": {},
-        "Union Touarga": {},
-        "Widad Temara": {},
-        "Wydad": {},
-        "Wydad Fes": {},
-        "Youssoufia Berrechid": {}
+        "RAC Casablanca": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Raja Beni Mellal": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Raja Casablanca": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Rapide Oued Zem": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Renaissance Zemamra": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sale": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Salmi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Stade Marocain": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "TAS Casablanca": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Union Touarga": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Widad Temara": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Wydad": {
+            "Proper": "Wydad AC",
+            "Sprite": "[](#sprite2-p93)"
+        },
+        "Wydad Fes": {
+            "Proper": "Wydad de F\u00e8s",
+            "Sprite": "[](#sprite4-p129)"
+        },
+        "Youssoufia Berrechid": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "Mozambique": {
-        "Black Bulls": {},
-        "Costa do Sol": {},
-        "Desportivo Maputo": {},
-        "ENH Vilankulo": {},
-        "Ferroviario Beira": {},
-        "Ferroviario Lichinga": {},
-        "Ferroviario Maputo": {},
-        "Ferroviario Nacala": {},
-        "Ferroviario Nampula": {},
-        "Incomati Xinavane": {},
-        "LD Maputo": {},
-        "Matchedje Mocuba": {},
-        "Textafrica": {},
-        "UD Songo": {}
+        "Black Bulls": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Costa do Sol": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Desportivo Maputo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "ENH Vilankulo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ferroviario Beira": {
+            "Proper": "Ferrovi\u00e1rio da Beira",
+            "Sprite": "[](#sprite8-p409)"
+        },
+        "Ferroviario Lichinga": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ferroviario Maputo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ferroviario Nacala": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ferroviario Nampula": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Incomati Xinavane": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "LD Maputo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Matchedje Mocuba": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Textafrica": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "UD Songo": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "Myanmar": {
-        "Ayeyawady": {},
-        "Chin United": {},
-        "Hantharwady Utd": {},
-        "Ispe FC": {},
-        "Magwe": {},
-        "Rakhine United": {},
-        "Sagaing": {},
-        "Shan Utd": {},
-        "Southern Myanmar": {},
-        "Yadanarbon": {},
-        "Yangon Utd": {},
-        "Zwekapin Utd": {}
+        "Ayeyawady": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Chin United": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hantharwady Utd": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ispe FC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Magwe": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Rakhine United": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sagaing": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Shan Utd": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Southern Myanmar": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Yadanarbon": {
+            "Proper": "Yadanarbon FC",
+            "Sprite": "[](#sprite4-p475)"
+        },
+        "Yangon Utd": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Zwekapin Utd": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "Namibia": {
         "African Stars": {
@@ -19340,10 +19502,22 @@
         }
     },
     "Netherlands": {
-        "ACV Assen": {},
-        "ADO 20 Heemskerk": {},
-        "AFC": {},
-        "ASWH": {},
+        "ACV Assen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "ADO 20 Heemskerk": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "AFC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "ASWH": {
+            "Proper": null,
+            "Sprite": null
+        },
         "AZ Alkmaar": {
             "Proper": "AZ Alkmaar",
             "Sprite": "[](#sprite3-p2)"
@@ -19352,26 +19526,74 @@
             "Proper": "Ajax",
             "Sprite": "[](#sprite1-p22)"
         },
-        "Ajax (Am)": {},
-        "Ajax W": {},
+        "Ajax (Am)": {
+            "Proper": "Ajax",
+            "Sprite": "[](#sprite1-p22)"
+        },
+        "Ajax W": {
+            "Proper": "Ajax",
+            "Sprite": "[](#sprite1-p22)"
+        },
         "Almere City": {
             "Proper": "Almere City",
             "Sprite": "[](#sprite4-p436)"
         },
-        "Barendrecht": {},
-        "Blauw Geel": {},
-        "Breda": {},
-        "Cambuur": {},
-        "DEM": {},
-        "DVS '33 Ermelo": {},
-        "De Treffers": {},
-        "Den Bosch": {},
-        "Den Haag": {},
-        "Den Haag W": {},
-        "Dongen": {},
-        "Dordrecht": {},
-        "EVV": {},
-        "Eindhoven FC": {},
+        "Barendrecht": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Blauw Geel": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Breda": {
+            "Proper": "NAC Breda",
+            "Sprite": "[](#sprite2-p42)"
+        },
+        "Cambuur": {
+            "Proper": "SC Cambuur",
+            "Sprite": "[](#sprite1-p473)"
+        },
+        "DEM": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "DVS '33 Ermelo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "De Treffers": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Den Bosch": {
+            "Proper": "FC Den Bosch",
+            "Sprite": "[](#sprite4-p47)"
+        },
+        "Den Haag": {
+            "Proper": "ADO Den Haag",
+            "Sprite": "[](#sprite1-p373)"
+        },
+        "Den Haag W": {
+            "Proper": "ADO Den Haag",
+            "Sprite": "[](#sprite1-p373)"
+        },
+        "Dongen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Dordrecht": {
+            "Proper": "FC Dordrecht",
+            "Sprite": "[](#sprite4-p208)"
+        },
+        "EVV": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Eindhoven FC": {
+            "Proper": "FC Eindhoven",
+            "Sprite": "[](#sprite7-p238)"
+        },
         "Excelsior": {
             "Proper": "Excelsior",
             "Sprite": "[](#sprite2-p398)"
@@ -19380,8 +19602,14 @@
             "Proper": "Excelsior '31",
             "Sprite": "[](#sprite3-p30)"
         },
-        "Excelsior Maassluis": {},
-        "Excelsior W": {},
+        "Excelsior Maassluis": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Excelsior W": {
+            "Proper": "Excelsior",
+            "Sprite": "[](#sprite2-p398)"
+        },
         "FC Emmen": {
             "Proper": "FC Emmen",
             "Sprite": "[](#sprite8-p210)"
@@ -19394,129 +19622,360 @@
             "Proper": "Feyenoord",
             "Sprite": "[](#sprite1-p65)"
         },
-        "G.A. Eagles": {},
-        "GOES": {},
-        "GVV Unitas": {},
-        "GVVV": {},
-        "Gemert": {},
-        "Graafschap": {},
-        "Groene Ster": {},
-        "Groningen": {},
-        "HFC": {},
-        "HHC": {},
-        "HSC '21": {},
-        "HV & CV Quick": {},
-        "HVV Hollandia": {},
+        "G.A. Eagles": {
+            "Proper": "Go Ahead Eagles",
+            "Sprite": "[](#sprite2-p127)"
+        },
+        "GOES": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "GVV Unitas": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "GVVV": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gemert": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Graafschap": {
+            "Proper": "De Graafschap",
+            "Sprite": "[](#sprite2-p76)"
+        },
+        "Groene Ster": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Groningen": {
+            "Proper": "FC Groningen",
+            "Sprite": "[](#sprite1-p279)"
+        },
+        "HFC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "HHC": {
+            "Proper": "HHC Hardenberg",
+            "Sprite": "[](#sprite9-p1)"
+        },
+        "HSC '21": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "HV & CV Quick": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "HVV Hollandia": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Harkemase Boys": {
             "Proper": "Harkemase Boys",
             "Sprite": "[](#sprite5-p1)"
         },
-        "Heerenveen": {},
-        "Heerenveen W": {},
-        "Helmond": {},
-        "Heracles": {},
-        "Hoek": {},
-        "Hoogland": {},
+        "Heerenveen": {
+            "Proper": "SC Heerenveen",
+            "Sprite": "[](#sprite1-p311)"
+        },
+        "Heerenveen W": {
+            "Proper": "SC Heerenveen",
+            "Sprite": "[](#sprite1-p311)"
+        },
+        "Helmond": {
+            "Proper": "Helmond Sport",
+            "Sprite": "[](#sprite2-p159)"
+        },
+        "Heracles": {
+            "Proper": "Heracles Almelo",
+            "Sprite": "[](#sprite4-p12)"
+        },
+        "Hoek": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hoogland": {
+            "Proper": null,
+            "Sprite": null
+        },
         "IJsselmeervogels": {
             "Proper": "IJsselmeervogels",
             "Sprite": "[](#sprite8-p494)"
         },
-        "Jong AZ": {},
-        "Jong Ajax": {},
-        "Jong Almere City": {},
-        "Jong Den Haag": {},
-        "Jong FC Twente/Heracles": {},
-        "Jong Feyenoord": {},
-        "Jong Groningen": {},
-        "Jong Heerenveen": {},
-        "Jong NAC Breda": {},
-        "Jong Nijmegen": {},
-        "Jong PSV": {},
-        "Jong Sparta Rotterdam": {},
-        "Jong Utrecht": {},
-        "Jong Volendam": {},
-        "Katwijk": {},
+        "Jong AZ": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Jong Ajax": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Jong Almere City": {
+            "Proper": "Almere City",
+            "Sprite": "[](#sprite4-p436)"
+        },
+        "Jong Den Haag": {
+            "Proper": "ADO Den Haag",
+            "Sprite": "[](#sprite1-p373)"
+        },
+        "Jong FC Twente/Heracles": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Jong Feyenoord": {
+            "Proper": "Feyenoord",
+            "Sprite": "[](#sprite1-p65)"
+        },
+        "Jong Groningen": {
+            "Proper": "FC Groningen",
+            "Sprite": "[](#sprite1-p279)"
+        },
+        "Jong Heerenveen": {
+            "Proper": "SC Heerenveen",
+            "Sprite": "[](#sprite1-p311)"
+        },
+        "Jong NAC Breda": {
+            "Proper": "NAC Breda",
+            "Sprite": "[](#sprite2-p42)"
+        },
+        "Jong Nijmegen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Jong PSV": {
+            "Proper": "PSV Eindhoven",
+            "Sprite": "[](#sprite1-p120)"
+        },
+        "Jong Sparta Rotterdam": {
+            "Proper": "Sparta Rotterdam",
+            "Sprite": "[](#sprite2-p5)"
+        },
+        "Jong Utrecht": {
+            "Proper": "Utrecht",
+            "Sprite": "[](#sprite1-p240)"
+        },
+        "Jong Volendam": {
+            "Proper": "FC Volendam",
+            "Sprite": "[](#sprite4-p14)"
+        },
+        "Katwijk": {
+            "Proper": "VV Katwijk",
+            "Sprite": "[](#sprite7-p226)"
+        },
         "Kozakken Boys": {
             "Proper": "Kozakken Boys",
             "Sprite": "[](#sprite5-p482)"
         },
-        "Lisse": {},
-        "Maastricht": {},
-        "Nijmegen": {},
-        "Noordwijk": {},
-        "ODIN '59": {},
-        "OSS '20": {},
-        "Oostzaan": {},
-        "Oss": {},
+        "Lisse": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Maastricht": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Nijmegen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Noordwijk": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "ODIN '59": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "OSS '20": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oostzaan": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oss": {
+            "Proper": "FC Oss",
+            "Sprite": "[](#sprite8-p211)"
+        },
         "PEC Zwolle W": {
             "Proper": "PEC Zwolle",
             "Sprite": "[](#sprite1-p445)"
         },
-        "PSV": {},
-        "PSV W": {},
-        "Quick Boys": {},
-        "Rijnsburgse Boys": {},
-        "Roda": {},
-        "Scheveningen": {},
-        "Sittard": {},
-        "Spakenburg": {},
-        "Sparta Nijkerk": {},
+        "PSV": {
+            "Proper": "PSV Eindhoven",
+            "Sprite": "[](#sprite1-p120)"
+        },
+        "PSV W": {
+            "Proper": "PSV Eindhoven",
+            "Sprite": "[](#sprite1-p120)"
+        },
+        "Quick Boys": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Rijnsburgse Boys": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Roda": {
+            "Proper": "Roda JC",
+            "Sprite": "[](#sprite2-p191)"
+        },
+        "Scheveningen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sittard": {
+            "Proper": "Fortuna Sittard",
+            "Sprite": "[](#sprite2-p316)"
+        },
+        "Spakenburg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sparta Nijkerk": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Sparta Rotterdam": {
             "Proper": "Sparta Rotterdam",
             "Sprite": "[](#sprite2-p5)"
         },
-        "Sportlust": {},
-        "Staphorst": {},
-        "SteDoCo": {},
-        "TEC": {},
+        "Sportlust": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Staphorst": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "SteDoCo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "TEC": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Telstar": {
             "Proper": "Telstar",
             "Sprite": "[](#sprite4-p445)"
         },
-        "Ter Leede": {},
-        "Twente": {},
-        "Twente W": {},
-        "UNA": {},
-        "USV Hercules": {},
+        "Ter Leede": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Twente": {
+            "Proper": "FC Twente",
+            "Sprite": "[](#sprite1-p162)"
+        },
+        "Twente W": {
+            "Proper": "FC Twente",
+            "Sprite": "[](#sprite1-p162)"
+        },
+        "UNA": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "USV Hercules": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Utrecht": {
             "Proper": "Utrecht",
             "Sprite": "[](#sprite1-p240)"
         },
-        "VV Alkmaar W": {},
-        "VV DOVO": {},
-        "VVOG": {},
-        "VVSB": {},
-        "Venlo": {},
+        "VV Alkmaar W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "VV DOVO": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "VVOG": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "VVSB": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Venlo": {
+            "Proper": "VVV-Venlo",
+            "Sprite": "[](#sprite2-p139)"
+        },
         "Vitesse": {
             "Proper": "Vitesse",
             "Sprite": "[](#sprite1-p339)"
         },
-        "Waalwijk": {},
-        "Watergraafsmeer": {},
-        "Westlandia": {},
+        "Waalwijk": {
+            "Proper": "RKC Waalwijk",
+            "Sprite": "[](#sprite4-p140)"
+        },
+        "Watergraafsmeer": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Westlandia": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Willem II": {
             "Proper": "Willem II",
             "Sprite": "[](#sprite4-p79)"
         },
-        "Zwolle": {}
+        "Zwolle": {
+            "Proper": "PEC Zwolle",
+            "Sprite": "[](#sprite1-p445)"
+        }
     },
     "New Zealand": {
         "Auckland City": {
             "Proper": "Auckland City",
             "Sprite": "[](#sprite5-p142)"
         },
-        "Auckland W": {},
-        "Canterbury": {},
+        "Auckland W": {
+            "Proper": "Auckland City",
+            "Sprite": "[](#sprite5-p142)"
+        },
+        "Canterbury": {
+            "Proper": "Canterbury United",
+            "Sprite": "[](#sprite5-p300)"
+        },
         "Canterbury United W": {
             "Proper": "Canterbury United",
             "Sprite": "[](#sprite5-p300)"
         },
-        "Capital Football W": {},
-        "Central Football W": {},
-        "Eastern Suburbs": {},
-        "Hamilton": {},
-        "Hawke's Bay": {},
-        "Northern Football W": {},
+        "Capital Football W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Central Football W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Eastern Suburbs": {
+            "Proper": "Eastern Suburbs AFC",
+            "Sprite": "[](#sprite8-p140)"
+        },
+        "Hamilton": {
+            "Proper": "Hamilton Wanderers",
+            "Sprite": "[](#sprite8-p320)"
+        },
+        "Hawke's Bay": {
+            "Proper": "Hawke's Bay United",
+            "Sprite": "[](#sprite5-p22)"
+        },
+        "Northern Football W": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Southern United W": {
             "Proper": "Southern United",
             "Sprite": "[](#sprite5-p301)"
@@ -19525,27 +19984,64 @@
             "Proper": "Team Wellington",
             "Sprite": "[](#sprite5-p302)"
         },
-        "WaiBOP W": {},
+        "WaiBOP W": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Waitakere United": {
             "Proper": "Waitakere United",
             "Sprite": "[](#sprite5-p304)"
         },
-        "Wellington Phoenix Res 2": {}
+        "Wellington Phoenix": {
+            "Proper": "Wellington Phoenix",
+            "Sprite": "[](#sprite1-p124)"
+        },
+        "Wellington Phoenix Res 2": {
+            "Proper": "Wellington Phoenix",
+            "Sprite": "[](#sprite1-p124)"
+        }
     },
     "Nicaragua": {
-        "CD Junior": {},
-        "Chinandega": {},
-        "Diriangen": {},
-        "Esteli": {},
-        "Ferretti": {},
-        "Jalapa": {},
-        "Juventus Managua": {},
+        "CD Junior": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Chinandega": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Diriangen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Esteli": {
+            "Proper": "Real Estel\u00ed",
+            "Sprite": "[](#sprite8-p207)"
+        },
+        "Ferretti": {
+            "Proper": "Deportivo Walter Ferretti",
+            "Sprite": "[](#sprite4-p268)"
+        },
+        "Jalapa": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Juventus Managua": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Managua FC": {
             "Proper": "Managua FC",
             "Sprite": "[](#sprite8-p432)"
         },
-        "Ocotal": {},
-        "Real Madriz": {}
+        "Ocotal": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Real Madriz": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "Niger": {
         "ASFAN": {
@@ -19606,29 +20102,74 @@
         }
     },
     "Nigeria": {
-        "ABS": {},
-        "Abia Comets": {},
+        "ABS": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Abia Comets": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Abia Warriors": {
             "Proper": "Abia Warriors",
             "Sprite": "[](#sprite7-p260)"
         },
-        "Adamawa Utd": {},
-        "Aklosendi": {},
+        "Adamawa Utd": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Aklosendi": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Akwa United": {
             "Proper": "Akwa United",
             "Sprite": "[](#sprite7-p266)"
         },
-        "Apex Krane": {},
-        "Bayelsa": {},
-        "Bendel": {},
-        "CHAN Eagles": {},
-        "Crown FC": {},
-        "DMD": {},
-        "Dakkada FC": {},
-        "Dynamite Force": {},
-        "EFCC": {},
-        "Ekiti United": {},
-        "El Kanemi": {},
+        "Apex Krane": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bayelsa": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bendel": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "CHAN Eagles": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Crown FC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "DMD": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Dakkada FC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Dynamite Force": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "EFCC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ekiti United": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "El Kanemi": {
+            "Proper": "El-Kanemi Warriors",
+            "Sprite": "[](#sprite7-p271)"
+        },
         "Enugu Rangers": {
             "Proper": "Enugu Rangers",
             "Sprite": "[](#sprite7-p7)"
@@ -19637,67 +20178,166 @@
             "Proper": "Enyimba",
             "Sprite": "[](#sprite2-p402)"
         },
-        "FC Zamfara": {},
-        "Gateway Utd.": {},
-        "Giant Brillars": {},
-        "Go-Round": {},
-        "Gombe": {},
-        "Green Beret": {},
-        "Heartland": {},
-        "Ibom Youths": {},
+        "FC Zamfara": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gateway Utd.": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Giant Brillars": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Go-Round": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gombe": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Green Beret": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Heartland": {
+            "Proper": "Heartland FC",
+            "Sprite": "[](#sprite4-p473)"
+        },
+        "Ibom Youths": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Ifeanyi Ubah": {
             "Proper": "Ifeanyi Ubah",
             "Sprite": "[](#sprite7-p261)"
         },
-        "J'Atete": {},
-        "Jigawa Golden Stars": {},
-        "Joy Cometh": {},
-        "Kada City": {},
+        "J'Atete": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Jigawa Golden Stars": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Joy Cometh": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kada City": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Kano Pillars": {
             "Proper": "Kano Pillars",
             "Sprite": "[](#sprite2-p403)"
         },
-        "Katsina Utd": {},
-        "Kebbi": {},
-        "Kogi": {},
-        "Kwara": {},
-        "Lamray UTD": {},
+        "Katsina Utd": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kebbi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kogi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kwara": {
+            "Proper": "Kwara United",
+            "Sprite": "[](#sprite7-p275)"
+        },
+        "Lamray UTD": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Lobi Stars": {
             "Proper": "Lobi Stars",
             "Sprite": "[](#sprite7-p262)"
         },
-        "MFM FC": {},
-        "Malunfashi": {},
-        "Mighty Jets": {},
-        "Nasarawa": {},
+        "MFM FC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Malunfashi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Mighty Jets": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Nasarawa": {
+            "Proper": "Nasarawa United",
+            "Sprite": "[](#sprite7-p272)"
+        },
         "Niger Tornadoes": {
             "Proper": "Niger Tornadoes",
             "Sprite": "[](#sprite7-p270)"
         },
-        "Nigeria Airforce FC": {},
-        "Nilayo": {},
-        "Osun": {},
-        "Oyah Sports": {},
+        "Nigeria Airforce FC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Nilayo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Osun": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oyah Sports": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Plateau United": {
             "Proper": "Plateau United",
             "Sprite": "[](#sprite7-p267)"
         },
-        "Rarara": {},
-        "Remo Stars": {},
+        "Rarara": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Remo Stars": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Rivers United": {
             "Proper": "Rivers United",
             "Sprite": "[](#sprite7-p8)"
         },
-        "Road Safety": {},
-        "Rovers FC": {},
-        "Shooting": {},
-        "Sokoto": {},
-        "Stationery Stores": {},
+        "Road Safety": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Rovers FC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Shooting": {
+            "Proper": "Shooting Stars",
+            "Sprite": "[](#sprite2-p150)"
+        },
+        "Sokoto": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Stationery Stores": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Sunshine Stars": {
             "Proper": "Sunshine Stars",
             "Sprite": "[](#sprite7-p268)"
         },
-        "Vandrezzer": {},
+        "Vandrezzer": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Warri Wolves": {
             "Proper": "Warri Wolves",
             "Sprite": "[](#sprite7-p265)"
@@ -19706,7 +20346,10 @@
             "Proper": "Wikki Tourists",
             "Sprite": "[](#sprite7-p263)"
         },
-        "Yobe Stars": {}
+        "Yobe Stars": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "North Macedonia": {
         "Akademija Pandev": {
@@ -19839,11 +20482,26 @@
         }
     },
     "Northern Ireland": {
-        "Annagh": {},
-        "Ards": {},
-        "Ballinamallard": {},
-        "Ballyclare": {},
-        "Ballymena": {},
+        "Annagh": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ards": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ballinamallard": {
+            "Proper": "Ballinamallard United",
+            "Sprite": "[](#sprite5-p297)"
+        },
+        "Ballyclare": {
+            "Proper": "Ballyclare Comrades",
+            "Sprite": "[](#sprite4-p347)"
+        },
+        "Ballymena": {
+            "Proper": "Ballymena United",
+            "Sprite": "[](#sprite5-p295)"
+        },
         "Carrick Rangers": {
             "Proper": "Carrick Rangers",
             "Sprite": "[](#sprite5-p296)"
@@ -19864,14 +20522,26 @@
             "Proper": "Crusaders",
             "Sprite": "[](#sprite2-p221)"
         },
-        "Crusaders W": {},
-        "Dergview": {},
+        "Crusaders W": {
+            "Proper": "Crusaders",
+            "Sprite": "[](#sprite2-p221)"
+        },
+        "Dergview": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Derry City W": {
             "Proper": "Derry City",
             "Sprite": "[](#sprite1-p362)"
         },
-        "Dundela": {},
-        "Dungannon": {},
+        "Dundela": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Dungannon": {
+            "Proper": "Dungannon Swifts",
+            "Sprite": "[](#sprite5-p298)"
+        },
         "Glenavon": {
             "Proper": "Glenavon",
             "Sprite": "[](#sprite5-p17)"
@@ -19880,10 +20550,22 @@
             "Proper": "Glentoran",
             "Sprite": "[](#sprite2-p35)"
         },
-        "Glentoran W": {},
-        "H&W Welders": {},
-        "Institute": {},
-        "Knockbreda": {},
+        "Glentoran W": {
+            "Proper": "Glentoran",
+            "Sprite": "[](#sprite2-p35)"
+        },
+        "H&W Welders": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Institute": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Knockbreda": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Larne": {
             "Proper": "Larne",
             "Sprite": "[](#sprite2-p341)"
@@ -19892,60 +20574,180 @@
             "Proper": "Linfield",
             "Sprite": "[](#sprite2-p132)"
         },
-        "Linfield W": {},
-        "Loughgall": {},
-        "Newry City": {},
+        "Linfield W": {
+            "Proper": "Linfield",
+            "Sprite": "[](#sprite2-p132)"
+        },
+        "Loughgall": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Newry City": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Portadown": {
             "Proper": "Portadown",
             "Sprite": "[](#sprite2-p455)"
         },
-        "Queens Univ.": {},
-        "Sion Swifts W": {},
-        "Warrenpoint": {}
+        "Queens Univ.": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sion Swifts W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Warrenpoint": {
+            "Proper": "Warrenpoint Town",
+            "Sprite": "[](#sprite5-p299)"
+        }
     },
     "Norway": {
-        "Aalesund": {},
-        "Aalesund 2": {},
-        "Akra": {},
+        "Aalesund": {
+            "Proper": "Aalesunds FK",
+            "Sprite": "[](#sprite1-p465)"
+        },
+        "Aalesund 2": {
+            "Proper": "Aalesunds FK",
+            "Sprite": "[](#sprite1-p465)"
+        },
+        "Akra": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Alta": {
             "Proper": "Alta",
             "Sprite": "[](#sprite8-p402)"
         },
-        "Ardal": {},
-        "Arendal": {},
-        "Arna-Bjornar W": {},
-        "Asane": {},
+        "Ardal": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Arendal": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Arna-Bjornar W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Asane": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Asker": {
             "Proper": "Asker",
             "Sprite": "[](#sprite7-p311)"
         },
-        "Assiden": {},
-        "Avaldsnes W": {},
-        "Baerum Sportsklubb": {},
-        "Bjarg": {},
-        "Bodo/Glimt": {},
-        "Bodo/Glimt 2": {},
-        "Brann": {},
-        "Brann 2": {},
-        "Brattvag": {},
-        "Brodd": {},
-        "Brumunddal": {},
-        "Bryne": {},
-        "Byasen": {},
-        "Djerv 1919": {},
-        "Donn": {},
-        "Egersunds": {},
-        "Eidsvold": {},
-        "Elverum": {},
-        "Fana": {},
-        "Finnsnes": {},
-        "Fjora": {},
-        "Flekkeroy": {},
-        "Flint": {},
-        "Floro": {},
-        "Floya": {},
-        "Follo": {},
-        "Fram": {},
+        "Assiden": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Avaldsnes W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Baerum Sportsklubb": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bjarg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bodo/Glimt": {
+            "Proper": "Bod\u00f8/Glimt",
+            "Sprite": "[](#sprite1-p423)"
+        },
+        "Bodo/Glimt 2": {
+            "Proper": "Bod\u00f8/Glimt",
+            "Sprite": "[](#sprite1-p423)"
+        },
+        "Brann": {
+            "Proper": "SK Brann",
+            "Sprite": "[](#sprite3-p3)"
+        },
+        "Brann 2": {
+            "Proper": "SK Brann",
+            "Sprite": "[](#sprite3-p3)"
+        },
+        "Brattvag": {
+            "Proper": "Brattv\u00e5g IL",
+            "Sprite": "[](#sprite7-p397)"
+        },
+        "Brodd": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Brumunddal": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bryne": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Byasen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Djerv 1919": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Donn": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Egersunds": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Eidsvold": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Elverum": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Fana": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Finnsnes": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Fjora": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Flekkeroy": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Flint": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Floro": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Floya": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Follo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Fram": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Fredrikstad": {
             "Proper": "Fredrikstad",
             "Sprite": "[](#sprite2-p113)"
@@ -19954,15 +20756,42 @@
             "Proper": "Fredrikstad",
             "Sprite": "[](#sprite2-p113)"
         },
-        "Frigg": {},
-        "Funnefoss/Vormsund": {},
-        "Fyllingsdalen": {},
-        "Gjellerasen": {},
-        "Gjovik-Lyn": {},
-        "Grorud": {},
-        "Grorud 2": {},
-        "Halden": {},
-        "Halsen": {},
+        "Frigg": {
+            "Proper": "Frigg Oslo FK",
+            "Sprite": "[](#sprite5-p132)"
+        },
+        "Funnefoss/Vormsund": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Fyllingsdalen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gjellerasen": {
+            "Proper": "Gjeller\u00e5sen IF",
+            "Sprite": "[](#sprite7-p363)"
+        },
+        "Gjovik-Lyn": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Grorud": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Grorud 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Halden": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Halsen": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Ham-Kam": {
             "Proper": "HamKam",
             "Sprite": "[](#sprite2-p417)"
@@ -19971,17 +20800,50 @@
             "Proper": "Haugesund",
             "Sprite": "[](#sprite3-p82)"
         },
-        "Hinna": {},
-        "Hodd": {},
-        "Honefoss": {},
-        "IL Express": {},
-        "Jerv": {},
-        "Junkeren": {},
-        "KFUM Oslo": {},
-        "Kjelsas": {},
-        "Klepp W": {},
-        "Kolbotn W": {},
-        "Kolstad": {},
+        "Hinna": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hodd": {
+            "Proper": "H\u00f8dd",
+            "Sprite": "[](#sprite8-p397)"
+        },
+        "Honefoss": {
+            "Proper": "H\u00f8nefoss",
+            "Sprite": "[](#sprite2-p416)"
+        },
+        "IL Express": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Jerv": {
+            "Proper": "FK Jerv",
+            "Sprite": "[](#sprite4-p458)"
+        },
+        "Junkeren": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "KFUM Oslo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kjelsas": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Klepp W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kolbotn W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kolstad": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Kongsvinger": {
             "Proper": "Kongsvinger",
             "Sprite": "[](#sprite7-p269)"
@@ -19990,69 +20852,202 @@
             "Proper": "Kongsvinger",
             "Sprite": "[](#sprite7-p269)"
         },
-        "Krakeroy": {},
-        "Kristiansund": {},
-        "LSK Kvinner W": {},
-        "Levanger": {},
-        "Lillestrom": {},
-        "Lillestrom 2": {},
-        "Lokomotiv Oslo": {},
-        "Lorenskog": {},
-        "Lyn": {},
-        "Lyn W": {},
-        "Lysekloster": {},
-        "Madla IL": {},
+        "Krakeroy": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kristiansund": {
+            "Proper": "Kristiansund BK",
+            "Sprite": "[](#sprite7-p224)"
+        },
+        "LSK Kvinner W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Levanger": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Lillestrom": {
+            "Proper": "Lillestr\u00f8m",
+            "Sprite": "[](#sprite2-p148)"
+        },
+        "Lillestrom 2": {
+            "Proper": "Lillestr\u00f8m",
+            "Sprite": "[](#sprite2-p148)"
+        },
+        "Lokomotiv Oslo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Lorenskog": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Lyn": {
+            "Proper": "SFK Lyn",
+            "Sprite": "[](#sprite2-p249)"
+        },
+        "Lyn W": {
+            "Proper": "SFK Lyn",
+            "Sprite": "[](#sprite2-p249)"
+        },
+        "Lysekloster": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Madla IL": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Mandalskameratene": {
             "Proper": "Mandalskameratene",
             "Sprite": "[](#sprite9-p14)"
         },
-        "Melbo": {},
-        "Melhus": {},
-        "Mjolner": {},
-        "Mjondalen": {},
-        "Mjondalen 2": {},
-        "Molde": {},
-        "Molde 2": {},
+        "Melbo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Melhus": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Mjolner": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Mjondalen": {
+            "Proper": "Mj\u00f8ndalen",
+            "Sprite": "[](#sprite5-p31)"
+        },
+        "Mjondalen 2": {
+            "Proper": "Mj\u00f8ndalen",
+            "Sprite": "[](#sprite5-p31)"
+        },
+        "Molde": {
+            "Proper": "Molde FK",
+            "Sprite": "[](#sprite1-p381)"
+        },
+        "Molde 2": {
+            "Proper": "Molde FK",
+            "Sprite": "[](#sprite1-p381)"
+        },
         "Moss": {
             "Proper": "Moss",
             "Sprite": "[](#sprite4-p258)"
         },
-        "Nardo": {},
-        "Nordstrand": {},
-        "Notodden": {},
-        "Ntnui": {},
-        "Nybergsund": {},
-        "OS TF": {},
+        "Nardo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Nest-Sotra": {
+            "Proper": "Nest-Sotra",
+            "Sprite": "[](#sprite5-p259)"
+        },
+        "Nordstrand": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Notodden": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ntnui": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Nybergsund": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "OS TF": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Odd": {
             "Proper": "Odd",
             "Sprite": "[](#sprite2-p123)"
         },
-        "Odd 2": {},
-        "Oppsal": {},
-        "Orkla": {},
-        "Orn": {},
-        "Oygarden": {},
-        "Pors Grenland": {},
-        "Rana": {},
-        "Ranheim": {},
-        "Ranheim 2": {},
-        "Raufoss": {},
-        "Raufoss 2": {},
-        "Ready": {},
-        "Rommen SK": {},
+        "Odd 2": {
+            "Proper": "Odd",
+            "Sprite": "[](#sprite2-p123)"
+        },
+        "Oppsal": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Orkla": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Orn": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oygarden": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pors Grenland": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Rana": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ranheim": {
+            "Proper": "Ranheim Fotball",
+            "Sprite": "[](#sprite3-p76)"
+        },
+        "Ranheim 2": {
+            "Proper": "Ranheim Fotball",
+            "Sprite": "[](#sprite3-p76)"
+        },
+        "Raufoss": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Raufoss 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ready": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Rommen SK": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Rosenborg": {
             "Proper": "Rosenborg",
             "Sprite": "[](#sprite3-p15)"
         },
-        "Rosenborg 2": {},
-        "Rosenborg W": {},
+        "Rosenborg 2": {
+            "Proper": "Rosenborg",
+            "Sprite": "[](#sprite3-p15)"
+        },
+        "Rosenborg W": {
+            "Proper": "Rosenborg",
+            "Sprite": "[](#sprite3-p15)"
+        },
         "Sandefjord": {
             "Proper": "Sandefjord",
             "Sprite": "[](#sprite5-p353)"
         },
-        "Sandnes": {},
-        "Sandviken": {},
-        "Sandviken W": {},
+        "Sandnes": {
+            "Proper": "Sandnes Ulf",
+            "Sprite": "[](#sprite2-p257)"
+        },
+        "Sandviken": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sandviken W": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Sarpsborg 08": {
             "Proper": "Sarpsborg 08",
             "Sprite": "[](#sprite4-p210)"
@@ -20061,57 +21056,174 @@
             "Proper": "Sarpsborg 08",
             "Sprite": "[](#sprite4-p210)"
         },
-        "Senja": {},
-        "Skanland": {},
+        "Senja": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Skanland": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Skeid": {
             "Proper": "Skeid",
             "Sprite": "[](#sprite3-p9)"
         },
-        "Skeid 2": {},
-        "Skjervoy": {},
+        "Skeid 2": {
+            "Proper": "Skeid",
+            "Sprite": "[](#sprite3-p9)"
+        },
+        "Skjervoy": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Sogndal": {
             "Proper": "Sogndal",
             "Sprite": "[](#sprite2-p442)"
         },
-        "Sogndal 2": {},
-        "Sola": {},
-        "Sotra": {},
-        "Spjelkavik": {},
-        "Staal Jorpeland": {},
-        "Stabaek": {},
-        "Stabaek 2": {},
-        "Stabaek W": {},
-        "Start": {},
-        "Start 2": {},
-        "Stjordals Blink": {},
-        "Stord": {},
-        "Strindheim": {},
-        "Strommen": {},
+        "Sogndal 2": {
+            "Proper": "Sogndal",
+            "Sprite": "[](#sprite2-p442)"
+        },
+        "Sola": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sotra": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Spjelkavik": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Staal Jorpeland": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Stabaek": {
+            "Proper": "Stab\u00e6k",
+            "Sprite": "[](#sprite1-p474)"
+        },
+        "Stabaek 2": {
+            "Proper": "Stab\u00e6k",
+            "Sprite": "[](#sprite1-p474)"
+        },
+        "Stabaek W": {
+            "Proper": "Stab\u00e6k",
+            "Sprite": "[](#sprite1-p474)"
+        },
+        "Start": {
+            "Proper": "IK Start",
+            "Sprite": "[](#sprite2-p440)"
+        },
+        "Start 2": {
+            "Proper": "IK Start",
+            "Sprite": "[](#sprite2-p440)"
+        },
+        "Stjordals Blink": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Stord": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Strindheim": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Strommen": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Stromsgodset": {
             "Proper": "Str\u00f8msgodset",
             "Sprite": "[](#sprite1-p277)"
         },
-        "Stromsgodset 2": {},
-        "Tiller": {},
-        "Tonsberg": {},
-        "Toten": {},
-        "Traeff": {},
-        "Tromsdalen": {},
-        "Tromso": {},
-        "Tromso 2": {},
-        "Tynset": {},
-        "Ull/Kisa": {},
-        "Ull/Kisa 2": {},
-        "Ullern": {},
-        "V. Haugesund": {},
-        "Valerenga": {},
-        "Valerenga 2": {},
-        "Valerenga W": {},
-        "Vidar": {},
-        "Viking": {},
-        "Viking 2": {},
-        "Vindbjart": {},
-        "Volda TI": {}
+        "Stromsgodset 2": {
+            "Proper": "Str\u00f8msgodset",
+            "Sprite": "[](#sprite1-p277)"
+        },
+        "Tiller": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tonsberg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Toten": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Traeff": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tromsdalen": {
+            "Proper": "Tromsdalen UIL",
+            "Sprite": "[](#sprite4-p169)"
+        },
+        "Tromso": {
+            "Proper": "Troms\u00f8",
+            "Sprite": "[](#sprite1-p340)"
+        },
+        "Tromso 2": {
+            "Proper": "Troms\u00f8",
+            "Sprite": "[](#sprite1-p340)"
+        },
+        "Tynset": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ull/Kisa": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ull/Kisa 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ullern": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "V. Haugesund": {
+            "Proper": "Haugesund",
+            "Sprite": "[](#sprite3-p82)"
+        },
+        "Valerenga": {
+            "Proper": "V\u00e5lerenga IF",
+            "Sprite": "[](#sprite1-p301)"
+        },
+        "Valerenga 2": {
+            "Proper": "V\u00e5lerenga IF",
+            "Sprite": "[](#sprite1-p301)"
+        },
+        "Valerenga W": {
+            "Proper": "V\u00e5lerenga IF",
+            "Sprite": "[](#sprite1-p301)"
+        },
+        "Vidar": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Viking": {
+            "Proper": "Viking FK",
+            "Sprite": "[](#sprite1-p273)"
+        },
+        "Viking 2": {
+            "Proper": "Viking FK",
+            "Sprite": "[](#sprite1-p273)"
+        },
+        "Vindbjart": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Volda TI": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "Oman": {
         "Al Nahda": {
@@ -20292,11 +21404,26 @@
             "Proper": "\u00c1rabe Unido",
             "Sprite": "[](#sprite5-p168)"
         },
-        "Chiriqui": {},
-        "Costa del Este": {},
-        "Deportivo Universitario": {},
-        "Independiente": {},
-        "Miguelito": {},
+        "Chiriqui": {
+            "Proper": "Atl\u00e9tico Chiriqu\u00ed",
+            "Sprite": "[](#sprite7-p141)"
+        },
+        "Costa del Este": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Deportivo Universitario": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Independiente": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Miguelito": {
+            "Proper": "Sporting San Miguelito",
+            "Sprite": "[](#sprite7-p145)"
+        },
         "Plaza Amador": {
             "Proper": "Plaza Amador",
             "Sprite": "[](#sprite7-p138)"
@@ -20311,41 +21438,116 @@
         }
     },
     "Paraguay": {
-        "12 de Octubre": {},
-        "2 de Mayo": {},
-        "3 de Febrero": {},
-        "Atyra": {},
+        "12 de Octubre": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "2 de Mayo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "3 de Febrero": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Atyra": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Cerro Porteno": {
             "Proper": "Cerro Porte\u00f1o",
             "Sprite": "[](#sprite2-p228)"
         },
-        "Deportivo Caaguazu": {},
-        "Fernando de la Mora": {},
-        "Fulgencio Yegros": {},
-        "General Caballero JLM": {},
-        "Guairena FC": {},
-        "Guarani": {},
-        "Independiente FBC": {},
-        "Libertad Asuncion": {},
-        "Nacional Asuncion": {},
-        "Olimpia Asuncion": {},
-        "Ovetense FC": {},
-        "RI 3 Corrales": {},
-        "Resistencia": {},
-        "River Plate": {},
-        "Rubio Nu": {},
+        "Deportivo Caaguazu": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Fernando de la Mora": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Fulgencio Yegros": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "General Caballero JLM": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Guairena FC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Guarani": {
+            "Proper": "Guaran\u00ed",
+            "Sprite": "[](#sprite7-p33)"
+        },
+        "Independiente FBC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Libertad Asuncion": {
+            "Proper": "Libertad",
+            "Sprite": "[](#sprite4-p63)"
+        },
+        "Nacional Asuncion": {
+            "Proper": "Nacional",
+            "Sprite": "[](#sprite4-p141)"
+        },
+        "Olimpia Asuncion": {
+            "Proper": "Olimpia",
+            "Sprite": "[](#sprite1-p326)"
+        },
+        "Ovetense FC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "RI 3 Corrales": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Resistencia": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "River Plate": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Rubio Nu": {
+            "Proper": "Club Rubio \u00d1u",
+            "Sprite": "[](#sprite7-p26)"
+        },
         "Sol de America": {
             "Proper": "Sol de Am\u00e9rica",
             "Sprite": "[](#sprite7-p32)"
         },
-        "Sp. Luqueno": {},
-        "Sportivo Iteno": {},
-        "Sportivo Trinidense": {}
+        "Sp. Luqueno": {
+            "Proper": "Sportivo Luque\u00f1o",
+            "Sprite": "[](#sprite7-p27)"
+        },
+        "Sportivo Iteno": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sportivo Trinidense": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "Peru": {
-        "AD Cantolao": {},
-        "Alianza Atl.": {},
-        "Alianza Huanuco": {},
+        "AD Cantolao": {
+            "Proper": "Academia Deportiva Cantolao",
+            "Sprite": "[](#sprite8-p406)"
+        },
+        "Alianza Atl.": {
+            "Proper": "Alianza Atl\u00e9tico",
+            "Sprite": "[](#sprite5-p486)"
+        },
+        "Alianza Huanuco": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Alianza Lima": {
             "Proper": "Alianza Lima",
             "Sprite": "[](#sprite1-p341)"
@@ -20354,11 +21556,26 @@
             "Proper": "Ayacucho",
             "Sprite": "[](#sprite5-p495)"
         },
-        "Binacional": {},
-        "Cajamarca": {},
-        "Carlos Mannucci": {},
-        "Carlos Stein": {},
-        "Cesar Vallejo": {},
+        "Binacional": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Cajamarca": {
+            "Proper": "Universidad T\u00e9cnica de Cajamarca",
+            "Sprite": "[](#sprite5-p498)"
+        },
+        "Carlos Mannucci": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Carlos Stein": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Cesar Vallejo": {
+            "Proper": "Universidad C\u00e9sar Vallejo",
+            "Sprite": "[](#sprite5-p489)"
+        },
         "Cienciano": {
             "Proper": "Cienciano",
             "Sprite": "[](#sprite2-p270)"
@@ -20367,22 +21584,58 @@
             "Proper": "Comerciantes Unidos",
             "Sprite": "[](#sprite8-p74)"
         },
-        "Cusco": {},
-        "Dep. Municipal": {},
-        "Deportivo Coopsol": {},
-        "FBC Melgar": {},
-        "Grau": {},
-        "Huaral": {},
+        "Cusco": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Dep. Municipal": {
+            "Proper": "Deportivo Municipal",
+            "Sprite": "[](#sprite5-p492)"
+        },
+        "Deportivo Coopsol": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "FBC Melgar": {
+            "Proper": "Melgar",
+            "Sprite": "[](#sprite5-p493)"
+        },
+        "Grau": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Huaral": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Juan Aurich": {
             "Proper": "Juan Aurich",
             "Sprite": "[](#sprite5-p488)"
         },
-        "Llacuabamba": {},
-        "Los Caimanes": {},
-        "Molinos El Pirata": {},
-        "Santa Rosa": {},
-        "Santos FC": {},
-        "Sport Boys": {},
+        "Llacuabamba": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Los Caimanes": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Molinos El Pirata": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Santa Rosa": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Santos FC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sport Boys": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Sport Huancayo": {
             "Proper": "Sport Huancayo",
             "Sprite": "[](#sprite5-p487)"
@@ -20391,30 +21644,60 @@
             "Proper": "Sport Loreto",
             "Sprite": "[](#sprite5-p497)"
         },
-        "Sport Victoria": {},
+        "Sport Victoria": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Sporting Cristal": {
             "Proper": "Sporting Cristal",
             "Sprite": "[](#sprite1-p417)"
         },
-        "U. San Martin": {},
-        "U. de Deportes": {},
+        "U. San Martin": {
+            "Proper": "Universidad de San Mart\u00edn de Porres",
+            "Sprite": "[](#sprite5-p494)"
+        },
+        "U. de Deportes": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Union Comercio": {
             "Proper": "Uni\u00f3n Comercio",
             "Sprite": "[](#sprite5-p490)"
         }
     },
     "Philippines": {
-        "Azkals": {},
-        "Green Archers": {},
+        "Azkals": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Green Archers": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Kaya": {
             "Proper": "Kaya",
             "Sprite": "[](#sprite4-p466)"
         },
-        "Maharlika": {},
-        "Mendiola FC 1991": {},
-        "Philippine Air Force": {},
-        "Stallion": {},
-        "United City": {}
+        "Maharlika": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Mendiola FC 1991": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Philippine Air Force": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Stallion": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "United City": {
+            "Proper": "Ceres\u2013Negros",
+            "Sprite": "[](#sprite8-p94)"
+        }
     },
     "Poland": {
         "Arka Gdynia": {
