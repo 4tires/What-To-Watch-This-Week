@@ -23524,8 +23524,14 @@
         }
     },
     "Russia": {
-        "Akhmat Grozny": {},
-        "Akron Togliatti": {},
+        "Akhmat Grozny": {
+            "Proper": "Terek Grozniy",
+            "Sprite": "[](#sprite2-p391)"
+        },
+        "Akron Togliatti": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Alania Vladikavkaz": {
             "Proper": "Alania Vladikavkaz",
             "Sprite": "[](#sprite2-p415)"
@@ -23534,150 +23540,438 @@
             "Proper": "Arsenal Tula",
             "Sprite": "[](#sprite4-p214)"
         },
-        "Baltika": {},
-        "Biolog": {},
-        "CSKA Moscow": {},
-        "CSKA Moscow W": {},
-        "Chelyabinsk": {},
-        "Chernomorets Novorossijsk": {},
-        "Chertanovo M.": {},
-        "Chertanovo M. W": {},
-        "Chita": {},
-        "D. Bryansk": {},
-        "Dynamo Barnaul": {},
-        "Dynamo Moscow": {},
-        "Dynamo Moscow 2": {},
-        "Dynamo Stavropol": {},
-        "F. Voronezh": {},
-        "F. Voronezh 2": {},
-        "FK Anzi Makhackala": {},
-        "FK Chayka": {},
-        "FK Krylya Sovetov Samara": {},
-        "FK Makhachkala": {},
-        "FK Novosibirsk": {},
-        "FK Rostov": {},
-        "FK Strogino Moscow": {},
-        "FK Yenisey W": {},
-        "Forte Taganrog": {},
-        "Inter Cherkessk": {},
-        "Kaluga": {},
-        "Kamaz": {},
-        "Khimik-Arsenal": {},
+        "Baltika": {
+            "Proper": "Baltika Kaliningrad",
+            "Sprite": "[](#sprite8-p187)"
+        },
+        "Biolog": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "CSKA Moscow": {
+            "Proper": "CSKA Moskva",
+            "Sprite": "[](#sprite1-p220)"
+        },
+        "CSKA Moscow W": {
+            "Proper": "CSKA Moskva",
+            "Sprite": "[](#sprite1-p220)"
+        },
+        "Chelyabinsk": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Chernomorets Novorossijsk": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Chertanovo M.": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Chertanovo M. W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Chita": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "D. Bryansk": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Dynamo Barnaul": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Dynamo Moscow": {
+            "Proper": "Dinamo Moskva",
+            "Sprite": "[](#sprite2-p134)"
+        },
+        "Dynamo Moscow 2": {
+            "Proper": "Dinamo Moskva",
+            "Sprite": "[](#sprite2-p134)"
+        },
+        "Dynamo Stavropol": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "F. Voronezh": {
+            "Proper": "Fakel Voronezh",
+            "Sprite": "[](#sprite8-p188)"
+        },
+        "F. Voronezh 2": {
+            "Proper": "Fakel Voronezh",
+            "Sprite": "[](#sprite8-p188)"
+        },
+        "FK Anzi Makhackala": {
+            "Proper": "FC Anzhi Makhachkala",
+            "Sprite": "[](#sprite2-p40)"
+        },
+        "FK Chayka": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "FK Krylya Sovetov Samara": {
+            "Proper": "Krylia Sovetov",
+            "Sprite": "[](#sprite4-p114)"
+        },
+        "FK Makhachkala": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "FK Novosibirsk": {
+            "Proper": "FC Sibir Novosibirsk",
+            "Sprite": "[](#sprite8-p154)"
+        },
+        "FK Rostov": {
+            "Proper": "Rostov",
+            "Sprite": "[](#sprite2-p192)"
+        },
+        "FK Strogino Moscow": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "FK Yenisey W": {
+            "Proper": "Yenisey",
+            "Sprite": "[](#sprite4-p469)"
+        },
+        "Forte Taganrog": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Inter Cherkessk": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kaluga": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kamaz": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Khimik-Arsenal": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Khimki": {
             "Proper": "Khimki",
             "Sprite": "[](#sprite8-p189)"
         },
-        "Khimki 2": {},
-        "Kholding": {},
-        "Kolomna": {},
+        "Khimki 2": {
+            "Proper": "Khimki",
+            "Sprite": "[](#sprite8-p189)"
+        },
+        "Kholding": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kolomna": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Krasnodar": {
             "Proper": "Krasnodar",
             "Sprite": "[](#sprite4-p113)"
         },
-        "Krasnodar 2": {},
-        "Krasnodar 3": {},
-        "Krasnodar W": {},
-        "Krasnyy SGAFKST": {},
-        "Krylya Sovetov Samara 2": {},
+        "Krasnodar 2": {
+            "Proper": "Krasnodar",
+            "Sprite": "[](#sprite4-p113)"
+        },
+        "Krasnodar 3": {
+            "Proper": "Krasnodar",
+            "Sprite": "[](#sprite4-p113)"
+        },
+        "Krasnodar W": {
+            "Proper": "Krasnodar",
+            "Sprite": "[](#sprite4-p113)"
+        },
+        "Krasnyy SGAFKST": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Krylya Sovetov Samara 2": {
+            "Proper": "Krylia Sovetov",
+            "Sprite": "[](#sprite4-p114)"
+        },
         "Kuban": {
             "Proper": "Kuban",
             "Sprite": "[](#sprite4-p115)"
         },
-        "Kursk": {},
-        "Kvant": {},
-        "Lada Dimitrovgrad": {},
-        "Lada Togliatti": {},
-        "Legion Dynamo": {},
-        "Leningradets": {},
-        "Lipetsk": {},
-        "Lokomotiv Moscow": {},
-        "Lokomotiv Moscow W": {},
-        "Lokomotiv-Kazanka": {},
-        "Luki-Energiya": {},
-        "M. Saransk": {},
-        "Mashuk": {},
-        "Maykop": {},
-        "Murom": {},
-        "Neftekhimik": {},
-        "Nizhny Novgorod": {},
-        "Nosta": {},
-        "Olimp-Dolgoprudny": {},
-        "Omsk": {},
+        "Kursk": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kvant": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Lada Dimitrovgrad": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Lada Togliatti": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Legion Dynamo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Leningradets": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Lipetsk": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Lokomotiv Moscow": {
+            "Proper": "Lokomotiv Moskva",
+            "Sprite": "[](#sprite2-p72)"
+        },
+        "Lokomotiv Moscow W": {
+            "Proper": "Lokomotiv Moskva",
+            "Sprite": "[](#sprite2-p72)"
+        },
+        "Lokomotiv-Kazanka": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Luki-Energiya": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "M. Saransk": {
+            "Proper": "Mordovia Saransk",
+            "Sprite": "[](#sprite5-p111)"
+        },
+        "Mashuk": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Maykop": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Murom": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Neftekhimik": {
+            "Proper": "Neftekhimik Nizhnekamsk",
+            "Sprite": "[](#sprite8-p181)"
+        },
+        "Nizhny Novgorod": {
+            "Proper": "FC Volga Nizhny Novgorod",
+            "Sprite": "[](#sprite4-p34)"
+        },
+        "Nosta": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Olimp-Dolgoprudny": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Omsk": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Orenburg": {
             "Proper": "Orenburg",
             "Sprite": "[](#sprite8-p200)"
         },
-        "Orenburg 2": {},
-        "R. Volgograd": {},
-        "Riga FC": {},
-        "Rodina Moscow": {},
+        "Orenburg 2": {
+            "Proper": "Orenburg",
+            "Sprite": "[](#sprite8-p200)"
+        },
+        "R. Volgograd": {
+            "Proper": "Rotor Volgograd",
+            "Sprite": "[](#sprite4-p177)"
+        },
+        "Riga FC": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Rodina Moscow": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Rubin Kazan": {
             "Proper": "Rubin Kazan",
             "Sprite": "[](#sprite2-p272)"
         },
-        "Ryazan": {},
-        "Ryazan W": {},
+        "Ryazan": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ryazan W": {
+            "Proper": null,
+            "Sprite": null
+        },
         "SKA Khabarovsk": {
             "Proper": "SKA-Khabarovsk",
             "Sprite": "[](#sprite4-p263)"
         },
-        "SKA Rostov": {},
-        "Sakhalin": {},
-        "Salyut-Belgorod": {},
-        "Saratov": {},
-        "Saturn Ramenskoye": {},
+        "SKA Rostov": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sakhalin": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Salyut-Belgorod": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Saratov": {
+            "Proper": "Sokol Saratov",
+            "Sprite": "[](#sprite8-p186)"
+        },
+        "Saturn Ramenskoye": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Shinnik Yaroslavl": {
             "Proper": "Shinnik Yaroslavl",
             "Sprite": "[](#sprite8-p185)"
         },
-        "Smolensk": {},
-        "Sochi": {},
-        "Spartak Moscow": {},
-        "Spartak Moscow 2": {},
-        "Spartak Nalchik": {},
-        "T. Moscow": {},
+        "Smolensk": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sochi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Spartak Moscow": {
+            "Proper": "Spartak Moskva",
+            "Sprite": "[](#sprite1-p247)"
+        },
+        "Spartak Moscow 2": {
+            "Proper": "Spartak Moskva",
+            "Sprite": "[](#sprite1-p247)"
+        },
+        "Spartak Nalchik": {
+            "Proper": "PFC Spartak Nalchik",
+            "Sprite": "[](#sprite2-p390)"
+        },
+        "T. Moscow": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Tambov": {
             "Proper": "Tambov",
             "Sprite": "[](#sprite8-p182)"
         },
-        "Tekstilshtik": {},
-        "Tomsk": {},
-        "Tuapse": {},
-        "Tver": {},
+        "Tekstilshtik": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tomsk": {
+            "Proper": "Tom Tomsk",
+            "Sprite": "[](#sprite2-p212)"
+        },
+        "Tuapse": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tver": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Tyumen": {
             "Proper": "Tyumen",
             "Sprite": "[](#sprite7-p236)"
         },
-        "Ufa": {},
-        "Ulyanovsk": {},
-        "Ural": {},
-        "Ural 2": {},
-        "Veles Moscow": {},
-        "Vidnoe": {},
-        "Vladimir": {},
+        "Ufa": {
+            "Proper": "FC Ufa",
+            "Sprite": "[](#sprite5-p112)"
+        },
+        "Ulyanovsk": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ural": {
+            "Proper": "Ural Sverdlovsk Oblast",
+            "Sprite": "[](#sprite4-p269)"
+        },
+        "Ural 2": {
+            "Proper": "Ural Sverdlovsk Oblast",
+            "Sprite": "[](#sprite4-p269)"
+        },
+        "Veles Moscow": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Vidnoe": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Vladimir": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Volgar-Astrakhan": {
             "Proper": "Volgar Astrakhan",
             "Sprite": "[](#sprite8-p184)"
         },
-        "Volna Nizhegorodskaya": {},
+        "Volna Nizhegorodskaya": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Yenisey": {
             "Proper": "Yenisey",
             "Sprite": "[](#sprite4-p469)"
         },
-        "Yessentuki": {},
+        "Yessentuki": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Zenit": {
             "Proper": "Zenit",
             "Sprite": "[](#sprite3-p11)"
         },
-        "Zenit 2": {},
-        "Zenit Irkutsk": {},
-        "Zenit W": {},
-        "Zenit-Izhevsk": {},
-        "Znamya Noginsk": {},
-        "Znamya Truda": {},
-        "Zvezda 2005 W": {},
-        "Zvezda Perm": {},
-        "Zvezda St. Peterburg": {}
+        "Zenit 2": {
+            "Proper": "Zenit",
+            "Sprite": "[](#sprite3-p11)"
+        },
+        "Zenit Irkutsk": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Zenit W": {
+            "Proper": "Zenit",
+            "Sprite": "[](#sprite3-p11)"
+        },
+        "Zenit-Izhevsk": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Znamya Noginsk": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Znamya Truda": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Zvezda 2005 W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Zvezda Perm": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Zvezda St. Peterburg": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "Rwanda": {
         "APR": {
@@ -23804,46 +24098,136 @@
         }
     },
     "San Marino": {
-        "Cailungo": {},
-        "Cosmos": {},
-        "Domagnano": {},
-        "Faetano": {},
-        "Fiorentino": {},
-        "Folgore": {},
-        "Juvenes/Dogana": {},
+        "Cailungo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Cosmos": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Domagnano": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Faetano": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Fiorentino": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Folgore": {
+            "Proper": "SS Folgore Falciano Calcio",
+            "Sprite": "[](#sprite8-p89)"
+        },
+        "Juvenes/Dogana": {
+            "Proper": null,
+            "Sprite": null
+        },
         "La Fiorita": {
             "Proper": "La Fiorita",
             "Sprite": "[](#sprite8-p93)"
         },
-        "Libertas": {},
-        "Murata": {},
-        "Pennarossa": {},
-        "San Giovanni": {},
-        "Tre Fiori": {},
+        "Libertas": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Murata": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pennarossa": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "San Giovanni": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tre Fiori": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Tre Penne": {
             "Proper": "Tre Penne",
             "Sprite": "[](#sprite8-p83)"
         },
-        "Virtus": {}
+        "Virtus": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "Saudi Arabia": {
-        "Abha": {},
-        "Al Adalh": {},
-        "Al Ahli SC": {},
-        "Al Ain": {},
-        "Al Batin": {},
-        "Al Bukayriyah": {},
-        "Al Draih": {},
-        "Al Feiha": {},
-        "Al Jabalain": {},
-        "Al Jeel": {},
-        "Al Khaleej": {},
-        "Al Najoom": {},
-        "Al Qadisiya": {},
-        "Al Taee": {},
-        "Al Thuqbah": {},
-        "Al Wehda": {},
-        "Al-Ettifaq": {},
+        "Abha": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al Adalh": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al Ahli SC": {
+            "Proper": "Al-Ahli SFC",
+            "Sprite": "[](#sprite4-p62)"
+        },
+        "Al Ain": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al Batin": {
+            "Proper": "Al-Batin",
+            "Sprite": "[](#sprite8-p230)"
+        },
+        "Al Bukayriyah": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al Draih": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al Feiha": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al Jabalain": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al Jeel": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al Khaleej": {
+            "Proper": "Khaleej Club",
+            "Sprite": "[](#sprite8-p227)"
+        },
+        "Al Najoom": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al Qadisiya": {
+            "Proper": "Al-Qadisiyah",
+            "Sprite": "[](#sprite8-p232)"
+        },
+        "Al Taee": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al Thuqbah": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al Wehda": {
+            "Proper": "Al-Wehda Club",
+            "Sprite": "[](#sprite8-p225)"
+        },
+        "Al-Ettifaq": {
+            "Proper": "Ettifaq FC",
+            "Sprite": "[](#sprite8-p229)"
+        },
         "Al-Faisaly": {
             "Proper": "Al-Faisaly",
             "Sprite": "[](#sprite8-p224)"
@@ -23852,14 +24236,26 @@
             "Proper": "Al-Fateh",
             "Sprite": "[](#sprite8-p226)"
         },
-        "Al-Hazem": {},
+        "Al-Hazem": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Al-Hilal": {
             "Proper": "Al-Hilal",
             "Sprite": "[](#sprite2-p57)"
         },
-        "Al-Ittihad FC": {},
-        "Al-Kawkab": {},
-        "Al-Nahda": {},
+        "Al-Ittihad FC": {
+            "Proper": "Al-Ittihad",
+            "Sprite": "[](#sprite1-p475)"
+        },
+        "Al-Kawkab": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Al-Nahda": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Al-Nassr": {
             "Proper": "Al-Nassr",
             "Sprite": "[](#sprite2-p499)"
@@ -23868,29 +24264,56 @@
             "Proper": "Al-Raed",
             "Sprite": "[](#sprite8-p231)"
         },
-        "Al-Sahel": {},
+        "Al-Sahel": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Al-Shabab": {
             "Proper": "Al-Shabab",
             "Sprite": "[](#sprite5-p237)"
         },
-        "Al-Shoalah": {},
+        "Al-Shoalah": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Al-Taawon": {
             "Proper": "Al-Taawoun",
             "Sprite": "[](#sprite8-p228)"
         },
-        "Arar": {},
-        "Damac": {},
-        "Hajer": {},
-        "Jeddah": {},
-        "Najran": {},
-        "Ohod": {}
+        "Arar": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Damac": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hajer": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Jeddah": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Najran": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ohod": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "Scotland": {
         "Aberdeen": {
             "Proper": "Aberdeen",
             "Sprite": "[](#sprite1-p128)"
         },
-        "Aberdeen W": {},
+        "Aberdeen W": {
+            "Proper": "Aberdeen",
+            "Sprite": "[](#sprite1-p128)"
+        },
         "Airdrieonians": {
             "Proper": "Airdrieonians",
             "Sprite": "[](#sprite2-p454)"
@@ -23899,35 +24322,74 @@
             "Proper": "Albion Rovers",
             "Sprite": "[](#sprite5-p52)"
         },
-        "Alloa": {},
-        "Annan": {},
+        "Alloa": {
+            "Proper": "Alloa Athletic",
+            "Sprite": "[](#sprite2-p476)"
+        },
+        "Annan": {
+            "Proper": "Annan Athletic",
+            "Sprite": "[](#sprite5-p53)"
+        },
         "Arbroath": {
             "Proper": "Arbroath",
             "Sprite": "[](#sprite2-p237)"
         },
-        "Ayr": {},
-        "BSC Glasgow": {},
-        "Berwick": {},
+        "Ayr": {
+            "Proper": "Ayr United",
+            "Sprite": "[](#sprite1-p412)"
+        },
+        "BSC Glasgow": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Berwick": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Bo'ness United": {
             "Proper": "Bo'ness United",
             "Sprite": "[](#sprite8-p221)"
         },
-        "Bonnyrigg Rose": {},
-        "Boroughmuir W": {},
-        "Brechin": {},
-        "Brora Rangers": {},
+        "Bonnyrigg Rose": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Boroughmuir W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Brechin": {
+            "Proper": "Brechin City",
+            "Sprite": "[](#sprite4-p383)"
+        },
+        "Brora Rangers": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Buckie Thistle": {
             "Proper": "Buckie Thistle",
             "Sprite": "[](#sprite8-p447)"
         },
-        "Caledonian Braves": {},
+        "Caledonian Braves": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Celtic": {
             "Proper": "Celtic",
             "Sprite": "[](#sprite1-p18)"
         },
-        "Celtic W": {},
-        "Civil Service Strollers": {},
-        "Clachnacuddin": {},
+        "Celtic W": {
+            "Proper": "Celtic",
+            "Sprite": "[](#sprite1-p18)"
+        },
+        "Civil Service Strollers": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Clachnacuddin": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Clyde": {
             "Proper": "Clyde",
             "Sprite": "[](#sprite2-p313)"
@@ -23940,17 +24402,38 @@
             "Proper": "Cowdenbeath",
             "Sprite": "[](#sprite5-p54)"
         },
-        "Cumbernauld Colts": {},
-        "Dalbeattie Star": {},
-        "Deveronvale": {},
+        "Cumbernauld Colts": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Dalbeattie Star": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Deveronvale": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Dumbarton": {
             "Proper": "Dumbarton",
             "Sprite": "[](#sprite4-p442)"
         },
-        "Dundee FC": {},
-        "Dundee Utd": {},
-        "Dundee Utd W": {},
-        "Dunfermline": {},
+        "Dundee FC": {
+            "Proper": "Dundee",
+            "Sprite": "[](#sprite1-p314)"
+        },
+        "Dundee Utd": {
+            "Proper": "Dundee United",
+            "Sprite": "[](#sprite1-p163)"
+        },
+        "Dundee Utd W": {
+            "Proper": "Dundee United",
+            "Sprite": "[](#sprite1-p163)"
+        },
+        "Dunfermline": {
+            "Proper": "Dunfermline Athletic",
+            "Sprite": "[](#sprite1-p300)"
+        },
         "East Fife": {
             "Proper": "East Fife",
             "Sprite": "[](#sprite2-p273)"
@@ -23959,12 +24442,18 @@
             "Proper": "East Kilbride",
             "Sprite": "[](#sprite5-p79)"
         },
-        "East Stirlingshire": {},
+        "East Stirlingshire": {
+            "Proper": "East Stirling",
+            "Sprite": "[](#sprite5-p55)"
+        },
         "Edinburgh City": {
             "Proper": "Edinburgh City",
             "Sprite": "[](#sprite8-p180)"
         },
-        "Edinburgh University": {},
+        "Edinburgh University": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Elgin City": {
             "Proper": "Elgin City",
             "Sprite": "[](#sprite2-p141)"
@@ -23977,31 +24466,82 @@
             "Proper": "Forfar Athletic",
             "Sprite": "[](#sprite4-p66)"
         },
-        "Forfar Farmington W": {},
-        "Formartine Utd": {},
+        "Forfar Farmington W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Formartine Utd": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Fort William": {
             "Proper": "Fort William",
             "Sprite": "[](#sprite7-p214)"
         },
-        "Fraserburgh": {},
-        "Gala Fairydean": {},
-        "Glasgow City W": {},
-        "Glasgow Girls W": {},
-        "Gretna 2008": {},
-        "Hamilton": {},
-        "Hamilton W": {},
-        "Hearts": {},
-        "Hearts W": {},
+        "Fraserburgh": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gala Fairydean": {
+            "Proper": "Gala Fairydean Rovers",
+            "Sprite": "[](#sprite7-p309)"
+        },
+        "Glasgow City W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Glasgow Girls W": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gretna 2008": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hamilton": {
+            "Proper": "Hamilton Academical",
+            "Sprite": "[](#sprite2-p437)"
+        },
+        "Hamilton W": {
+            "Proper": "Hamilton Academical",
+            "Sprite": "[](#sprite2-p437)"
+        },
+        "Hearts": {
+            "Proper": "Heart of Midlothian",
+            "Sprite": "[](#sprite1-p123)"
+        },
+        "Hearts W": {
+            "Proper": "Heart of Midlothian",
+            "Sprite": "[](#sprite1-p123)"
+        },
         "Hibernian": {
             "Proper": "Hibernian",
             "Sprite": "[](#sprite1-p164)"
         },
-        "Hibernian W": {},
-        "Huntly": {},
-        "Inverness": {},
-        "Inverurie Loco Works": {},
-        "Keith": {},
-        "Kelty Hearts": {},
+        "Hibernian W": {
+            "Proper": "Hibernian",
+            "Sprite": "[](#sprite1-p164)"
+        },
+        "Huntly": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Inverness": {
+            "Proper": "Inverness Caledonian Thistle",
+            "Sprite": "[](#sprite1-p343)"
+        },
+        "Inverurie Loco Works": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Keith": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kelty Hearts": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Kilmarnock": {
             "Proper": "Kilmarnock",
             "Sprite": "[](#sprite1-p356)"
@@ -24014,12 +24554,18 @@
             "Proper": "Livingston",
             "Sprite": "[](#sprite4-p422)"
         },
-        "Lossiemouth": {},
+        "Lossiemouth": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Montrose": {
             "Proper": "Montrose",
             "Sprite": "[](#sprite5-p56)"
         },
-        "Morton": {},
+        "Morton": {
+            "Proper": "Greenock Morton",
+            "Sprite": "[](#sprite1-p297)"
+        },
         "Motherwell": {
             "Proper": "Motherwell",
             "Sprite": "[](#sprite1-p248)"
@@ -24028,7 +24574,10 @@
             "Proper": "Motherwell",
             "Sprite": "[](#sprite1-p248)"
         },
-        "Nairn County": {},
+        "Nairn County": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Partick Thistle": {
             "Proper": "Partick Thistle",
             "Sprite": "[](#sprite1-p327)"
@@ -24041,7 +24590,10 @@
             "Proper": "Peterhead",
             "Sprite": "[](#sprite5-p57)"
         },
-        "Queen of South": {},
+        "Queen of South": {
+            "Proper": "Queen of the South",
+            "Sprite": "[](#sprite2-p470)"
+        },
         "Queen's Park": {
             "Proper": "Queen's Park",
             "Sprite": "[](#sprite2-p331)"
@@ -24050,19 +24602,34 @@
             "Proper": "Queen's Park",
             "Sprite": "[](#sprite2-p331)"
         },
-        "Raith": {},
+        "Raith": {
+            "Proper": "Raith Rovers",
+            "Sprite": "[](#sprite2-p471)"
+        },
         "Rangers": {
             "Proper": "Rangers",
             "Sprite": "[](#sprite1-p40)"
         },
-        "Rangers W": {},
+        "Rangers W": {
+            "Proper": "Rangers",
+            "Sprite": "[](#sprite1-p40)"
+        },
         "Ross County": {
             "Proper": "Ross County",
             "Sprite": "[](#sprite1-p472)"
         },
-        "Rothes": {},
-        "Spartans": {},
-        "Spartans W": {},
+        "Rothes": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Spartans": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Spartans W": {
+            "Proper": null,
+            "Sprite": null
+        },
         "St Johnstone": {
             "Proper": "St Johnstone",
             "Sprite": "[](#sprite1-p293)"
@@ -24079,16 +24646,34 @@
             "Proper": "Stenhousemuir",
             "Sprite": "[](#sprite5-p58)"
         },
-        "Stirling": {},
-        "Stirling University": {},
-        "Stirling University W": {},
+        "Stirling": {
+            "Proper": "Stirling Albion",
+            "Sprite": "[](#sprite5-p59)"
+        },
+        "Stirling University": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Stirling University W": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Stranraer": {
             "Proper": "Stranraer",
             "Sprite": "[](#sprite2-p495)"
         },
-        "Strathspey Thistle": {},
-        "Turriff Utd": {},
-        "Vale Of Leithen": {},
+        "Strathspey Thistle": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Turriff Utd": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Vale Of Leithen": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Wick Academy": {
             "Proper": "Wick Academy",
             "Sprite": "[](#sprite4-p302)"
@@ -24153,63 +24738,222 @@
         }
     },
     "Serbia": {
-        "1. Maj Ruma": {},
-        "BASK": {},
-        "BSK Borca": {},
-        "Backa": {},
-        "Backa 1901": {},
-        "Bane Raska": {},
-        "Batajnica": {},
-        "Becej": {},
-        "Borac 1926": {},
-        "Borac Sakule": {},
-        "Brodarac": {},
-        "Buducnost Arilje": {},
-        "Buducnost Dobanovci": {},
-        "Buducnost Krusik": {},
-        "Buducnost Popovac": {},
-        "Car Konstantin": {},
-        "Crvena Zvezda MML": {},
-        "Cukaricki": {},
-        "Din. Vranje": {},
-        "Dinamo Pancevo": {},
-        "Dubocica": {},
-        "Dunav Prahovo": {},
-        "FK Crvena zvezda": {},
-        "FK Indjija": {},
-        "FK Vozdovac": {},
-        "Feniks 1995": {},
-        "Graficar Beograd": {},
-        "Gruza": {},
-        "Hajduk 1912": {},
-        "IMT Novi Beograd": {},
+        "1. Maj Ruma": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "BASK": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "BSK Borca": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Backa": {
+            "Proper": "Ba\u010dka Ba\u010dka Palanka",
+            "Sprite": "[](#sprite8-p177)"
+        },
+        "Backa 1901": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bane Raska": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Batajnica": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Becej": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Borac 1926": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Borac Sakule": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Brodarac": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Buducnost Arilje": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Buducnost Dobanovci": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Buducnost Krusik": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Buducnost Popovac": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Car Konstantin": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Crvena Zvezda MML": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Cukaricki": {
+            "Proper": "\u010cukari\u010dki",
+            "Sprite": "[](#sprite5-p64)"
+        },
+        "Din. Vranje": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Dinamo Pancevo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Dubocica": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Dunav Prahovo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "FK Crvena zvezda": {
+            "Proper": "Crvena Zvezda",
+            "Sprite": "[](#sprite1-p165)"
+        },
+        "FK Indjija": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "FK Vozdovac": {
+            "Proper": "Vo\u017edovac",
+            "Sprite": "[](#sprite5-p310)"
+        },
+        "Feniks 1995": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Graficar Beograd": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gruza": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hajduk 1912": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "IMT Novi Beograd": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Jagodina": {
             "Proper": "Jagodina",
             "Sprite": "[](#sprite5-p307)"
         },
-        "Javor": {},
-        "Jedinstvo SP": {},
-        "Jedinstvo Surcin": {},
-        "Jedinstvo U.": {},
-        "Josanica": {},
-        "Kabel Novi Sad": {},
-        "Kablovi": {},
-        "Kolubara": {},
-        "Kozara BVS": {},
-        "Lestane": {},
-        "Lokomotiva Beograd": {},
-        "Loznica": {},
-        "Macva": {},
-        "Macva Bogatic": {},
-        "Medosevac": {},
-        "Metalac": {},
-        "Mladenovac": {},
-        "Mladi Radnik": {},
-        "Mladost": {},
-        "Mladost GAT": {},
-        "Morava Vladicin Han": {},
-        "Moravac": {},
-        "Napredak": {},
+        "Javor": {
+            "Proper": "Javor Ivanjica",
+            "Sprite": "[](#sprite5-p314)"
+        },
+        "Jedinstvo SP": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Jedinstvo Surcin": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Jedinstvo U.": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Josanica": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kabel Novi Sad": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kablovi": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kolubara": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kozara BVS": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Lestane": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Lokomotiva Beograd": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Loznica": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Macva": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Macva Bogatic": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Medosevac": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Metalac": {
+            "Proper": "Metalac Gornji Milanovac",
+            "Sprite": "[](#sprite5-p311)"
+        },
+        "Mladenovac": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Mladi Radnik": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Mladost": {
+            "Proper": "Mladost Lu\u010dani",
+            "Sprite": "[](#sprite5-p309)"
+        },
+        "Mladost GAT": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Morava Vladicin Han": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Moravac": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Napredak": {
+            "Proper": "Napredak Kru\u0161evac",
+            "Sprite": "[](#sprite8-p178)"
+        },
         "Novi Pazar": {
             "Proper": "Novi Pazar",
             "Sprite": "[](#sprite5-p308)"
@@ -24218,72 +24962,246 @@
             "Proper": "OFK Beograd",
             "Sprite": "[](#sprite4-p81)"
         },
-        "Omladinac NB": {},
-        "Paracin": {},
+        "Omladinac NB": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Paracin": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Partizan": {
             "Proper": "Partizan",
             "Sprite": "[](#sprite1-p215)"
         },
-        "Pcinja": {},
-        "Polet Dorcol": {},
-        "Proleter": {},
-        "Rad Beograd": {},
-        "Radan Lebane": {},
-        "Radnicki 1923": {},
-        "Radnicki Beograd": {},
-        "Radnicki Nis": {},
-        "Radnicki Obrenovac": {},
-        "Radnicki Pirot": {},
-        "Radnicki S.": {},
-        "Radnicki Sombor": {},
-        "Radnicki Zrenjanin": {},
-        "Radnik": {},
-        "Rembas": {},
-        "SFS Borac": {},
-        "Sindelic": {},
-        "Sindjelic Beograd": {},
-        "Sloboda": {},
-        "Sloboda NK": {},
-        "Sloga Conoplja": {},
-        "Sloga Kraljevo": {},
-        "Sloga Petrovac": {},
-        "Sloga Pozega": {},
-        "Smederevo": {},
-        "Sp. Subotica": {},
-        "Sremcica": {},
-        "Sremska Mitrovica": {},
-        "Stari Banovci": {},
-        "Stari Grad": {},
-        "Stepojevac Vaga": {},
-        "Studentski Grad": {},
-        "Sumadija Arandjelovac": {},
-        "Susica": {},
-        "TEK Sloga": {},
-        "TSC Backa Topola": {},
-        "Takovo": {},
-        "Teleoptik": {},
-        "Timocanin": {},
-        "Timok Zajecar": {},
-        "Tisa Adorjan": {},
-        "Toplicanin": {},
-        "Trayal Krusevac": {},
-        "Trepca": {},
-        "Trstenik": {},
-        "Tutin": {},
-        "Vlasina": {},
+        "Pcinja": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Polet Dorcol": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Proleter": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Rad Beograd": {
+            "Proper": "Rad",
+            "Sprite": "[](#sprite5-p312)"
+        },
+        "Radan Lebane": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Radnicki 1923": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Radnicki Beograd": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Radnicki Nis": {
+            "Proper": "Radni\u010dki Ni\u0161",
+            "Sprite": "[](#sprite4-p428)"
+        },
+        "Radnicki Obrenovac": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Radnicki Pirot": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Radnicki S.": {
+            "Proper": "Radnik Surdulica",
+            "Sprite": "[](#sprite5-p306)"
+        },
+        "Radnicki Sombor": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Radnicki Zrenjanin": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Radnik": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Rembas": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "SFS Borac": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sindelic": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sindjelic Beograd": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sloboda": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sloboda NK": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sloga Conoplja": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sloga Kraljevo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sloga Petrovac": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sloga Pozega": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Smederevo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sp. Subotica": {
+            "Proper": "Spartak Subotica",
+            "Sprite": "[](#sprite5-p305)"
+        },
+        "Sremcica": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sremska Mitrovica": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Stari Banovci": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Stari Grad": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Stepojevac Vaga": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Studentski Grad": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sumadija Arandjelovac": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Susica": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "TEK Sloga": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "TSC Backa Topola": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Takovo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Teleoptik": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Timocanin": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Timok Zajecar": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tisa Adorjan": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Toplicanin": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Trayal Krusevac": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Trepca": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Trstenik": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tutin": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Vlasina": {
+            "Proper": null,
+            "Sprite": null
+        },
         "Vojvodina": {
             "Proper": "Vojvodina",
             "Sprite": "[](#sprite2-p193)"
         },
-        "Vojvodina Perlez": {},
-        "Vrsac": {},
-        "Zarkovo": {},
-        "Zeleznicar Lajkovac": {},
-        "Zeleznicar Pancevo": {},
-        "Zemun": {},
-        "Zlatibor Cajetina": {},
-        "Zupa": {},
-        "Zvezdara": {}
+        "Vojvodina Perlez": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Vrsac": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Zarkovo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Zeleznicar Lajkovac": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Zeleznicar Pancevo": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Zemun": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Zlatibor Cajetina": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Zupa": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Zvezdara": {
+            "Proper": null,
+            "Sprite": null
+        }
     },
     "Seychelles": {
         "Anse Reunion": {
