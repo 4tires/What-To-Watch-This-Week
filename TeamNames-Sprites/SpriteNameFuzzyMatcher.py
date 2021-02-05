@@ -3,6 +3,7 @@ import csv
 import difflib
 import time
 import re
+from typing import NoReturn
 
 """
 Assumes you run this file from the "What-To-Watch-This-Week" folder
@@ -20,6 +21,111 @@ NAME_CORRECTOR_DICT = {
 }
 
 def main():
+    noList = ['n', 'no', 'none']
+    print('Select from options below.')
+    functionOptions = {
+    '1' : 'Cycle through entire dictionary, stopping at empty entries.',
+    '2' : 'Find entries with duplicate data in each region',
+    '3' : 'Enter data for a specific club in a specific region'
+    }
+    numberList = []
+    for key in functionOptions.keys():
+        print(key, ':', functionOptions[key])
+        numberList.append(key)
+    while True:
+        response = input('Select option: ')
+        strch = str(response).lower()
+        if (strch in noList):
+            return
+        elif response in numberList:
+            break
+        else:
+            print('Invalid input. Enter desired option or [n, no, none].')
+    if response == '1':
+        CompleteMissingFieldsMain()
+    elif response == '2':
+        FindDuplicateEntriesMain()
+    elif response == '3':
+        print("Function in work. Restart script and make another selection")
+    return
+
+def FindDuplicateEntriesMain():
+    with open('./TeamNames-Sprites/soccerbot-TeamNameSprites.json', 'r', encoding='utf8') as rj:
+        sBTNSDict = json.load(rj)
+    with open(TNSDICT_LOCATE, 'r', encoding='utf8') as rj:
+        tNSDict = json.load(rj)
+    for region in sBTNSDict:
+        if len(sBTNSDict[region]) == 0:
+            continue
+        tNSRegion = region
+        for key, value in NAME_CORRECTOR_DICT.items():
+            if value == region:
+                tNSRegion = key
+        for club in sBTNSDict[region]:
+            duplicates = []
+            sprite = sBTNSDict[region][club]
+            if tNSRegion not in tNSDict.keys():
+                continue
+            for key, value in tNSDict[tNSRegion].items():
+                if sprite == value['Sprite']:
+                    duplicates.append(key)
+            if len(duplicates) > 1:
+                print('\n', tNSRegion)
+                print('Duplicates', duplicates)
+                input("enter to continue..")
+            if len(duplicates) == 0:
+                skipList = ['n', 'no', 'none', 's', 'skip', '\n']
+                print('\n', tNSRegion)
+                response = input(club +  ' not used. Enter FS team name or skip [n, no, none, s, skip]: ')
+                if response in skipList:
+                    continue
+                else:
+                    while True:
+                        newFSClubName = response
+                        if newFSClubName in tNSDict[tNSRegion]:
+                            print('That club already exists in the json file')
+                            break
+                        else:
+                            break
+
+                    tNSDict[tNSRegion][newFSClubName] = {}
+                    tNSDict[tNSRegion][newFSClubName]['Proper'] = club
+                    tNSDict[tNSRegion][newFSClubName]['Sprite'] = sBTNSDict[region][club]
+                    with open(TNSDICT_LOCATE, 'w', encoding='utf8') as wf:
+                        json.dump(tNSDict, wf, indent=4, sort_keys=True)
+
+
+
+
+
+        
+    """
+    quitList = ['q', 'quit']
+    print("\nSelect whether to cycle through entire json or select specific region.")
+    functionOptions = {
+        '1' : 'Cycle through entire json',
+        '2' : 'Search through specific region in json'
+    }
+    numberList = []
+    for key in functionOptions.keys():
+        print(key, ':', functionOptions[key])
+        numberList.append(key)
+    while True:
+        response = input('Select option: ')
+        if str(response) in quitList:
+            return
+        elif response in numberList:
+            break
+        else:
+            print('Invalid input. Entire deired option or [q, quit].')
+    if response == 1:
+        return
+    elif response == 2:
+        return
+    """
+    return
+
+def CompleteMissingFieldsMain():
     with open('./TeamNames-Sprites/soccerbot-TeamNameSprites.json', 'r', encoding='utf8') as rj:
         sBTNSDict = json.load(rj)
     with open(TNSDICT_LOCATE, 'r', encoding='utf8') as rj:
