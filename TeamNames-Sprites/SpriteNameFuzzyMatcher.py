@@ -7,8 +7,8 @@ from typing import NoReturn
 
 """
 Assumes you run this file from the "What-To-Watch-This-Week" folder
-
-
+Panama
+n
 
 soccer wiki sprites https://www.reddit.com/r/soccerbot/wiki/index
 """

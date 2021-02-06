@@ -19896,6 +19896,10 @@
         }
     },
     "Moldova": {
+        "Academia Chisinau": {
+            "Proper": "Academia Chi\u0219in\u0103u",
+            "Sprite": "[](#sprite8-p307)"
+        },
         "CSCA Buiucani": {
             "Proper": null,
             "Sprite": null
@@ -19904,9 +19908,17 @@
             "Proper": null,
             "Sprite": null
         },
+        "Dacia Chisinau": {
+            "Proper": "Dacia Chi\u0219in\u0103u",
+            "Sprite": "[](#sprite7-p16)"
+        },
         "Dinamo-Auto": {
             "Proper": "inamo-Auto",
             "Sprite": "[](#sprite8-p309)"
+        },
+        "FC Ungheni": {
+            "Proper": "Ungheni",
+            "Sprite": "[](#sprite8-p310)"
         },
         "Floresti": {
             "Proper": null,
@@ -19916,9 +19928,17 @@
             "Proper": "Milsami",
             "Sprite": "[](#sprite5-p94)"
         },
+        "Otaci": {
+            "Proper": "Nistru Otaci",
+            "Sprite": "[](#sprite7-p13)"
+        },
         "Petrocub": {
             "Proper": "Petrocub H\u00eence\u0219ti",
             "Sprite": "[](#sprite8-p308)"
+        },
+        "Saxan Gagauz Yeri": {
+            "Proper": "Saxan Gagauz Yeri",
+            "Sprite": "[](#sprite8-p311)"
         },
         "Sf.Gheorghe": {
             "Proper": null,
@@ -19931,6 +19951,10 @@
         "Speranta Nisporeni": {
             "Proper": "Speran\u021ba Nisporeni",
             "Sprite": "[](#sprite8-p305)"
+        },
+        "Zaria Balti": {
+            "Proper": "Zaria B\u0103l\u021bi",
+            "Sprite": "[](#sprite7-p12)"
         },
         "Zimbru Chisinau": {
             "Proper": "Zimbru Chi\u0219in\u0103u",
@@ -19997,8 +20021,8 @@
             "Sprite": "[](#sprite7-p23)"
         },
         "Decic": {
-            "Proper": null,
-            "Sprite": null
+            "Proper": "De\u010di\u0107 Tuzi",
+            "Sprite": "[](#sprite7-p24)"
         },
         "Drezga": {
             "Proper": null,
@@ -20036,9 +20060,21 @@
             "Proper": null,
             "Sprite": null
         },
+        "Lovcen": {
+            "Proper": "Lov\u0107en Cetinje",
+            "Sprite": "[](#sprite8-p315)"
+        },
+        "Mogren": {
+            "Proper": "Mogren Budva",
+            "Sprite": "[](#sprite7-p21)"
+        },
         "Mornar Bar": {
             "Proper": null,
             "Sprite": null
+        },
+        "OFK Bar": {
+            "Proper": "OFK Bar",
+            "Sprite": "[](#sprite4-p92)"
         },
         "OFK Petrovac": {
             "Proper": "Petrovac",
@@ -20091,12 +20127,16 @@
             "Sprite": "[](#sprite4-p124)"
         },
         "FUS Rabat": {
-            "Proper": null,
-            "Sprite": null
+            "Proper": "Fath Union Sport",
+            "Sprite": "[](#sprite4-p41)"
         },
         "Hassania Agadir": {
             "Proper": "Hassania Agadir",
             "Sprite": "[](#sprite4-p127)"
+        },
+        "Hoceima": {
+            "Proper": "Chabab Rif Al Hoceima",
+            "Sprite": "[](#sprite7-p55)"
         },
         "IR Tanger": {
             "Proper": "Ittihad Tanger",
@@ -20143,8 +20183,8 @@
             "Sprite": null
         },
         "Raja Casablanca": {
-            "Proper": null,
-            "Sprite": null
+            "Proper": "Raja Club Athletic",
+            "Sprite": "[](#sprite2-p202)"
         },
         "Rapide Oued Zem": {
             "Proper": null,
@@ -20374,6 +20414,10 @@
             "Proper": "AZ Alkmaar",
             "Sprite": "[](#sprite3-p2)"
         },
+        "Achilles 29": {
+            "Proper": "Achilles '29",
+            "Sprite": "[](#sprite8-p212)"
+        },
         "Ajax": {
             "Proper": "Ajax",
             "Sprite": "[](#sprite1-p22)"
@@ -20410,9 +20454,17 @@
             "Proper": null,
             "Sprite": null
         },
+        "DOS Kampen": {
+            "Proper": "DOS Kampen",
+            "Sprite": "[](#sprite2-p269)"
+        },
         "DVS '33 Ermelo": {
             "Proper": null,
             "Sprite": null
+        },
+        "De Meern": {
+            "Proper": "VV De Meern",
+            "Sprite": "[](#sprite9-p16)"
         },
         "De Treffers": {
             "Proper": null,
@@ -20559,12 +20611,12 @@
             "Sprite": "[](#sprite8-p494)"
         },
         "Jong AZ": {
-            "Proper": null,
-            "Sprite": null
+            "Proper": "AZ Alkmaar",
+            "Sprite": "[](#sprite3-p2)"
         },
         "Jong Ajax": {
-            "Proper": null,
-            "Sprite": null
+            "Proper": "Ajax",
+            "Sprite": "[](#sprite1-p22)"
         },
         "Jong Almere City": {
             "Proper": "Almere City",
@@ -20595,8 +20647,8 @@
             "Sprite": "[](#sprite2-p42)"
         },
         "Jong Nijmegen": {
-            "Proper": null,
-            "Sprite": null
+            "Proper": "NEC",
+            "Sprite": "[](#sprite1-p366)"
         },
         "Jong PSV": {
             "Proper": "PSV Eindhoven",
@@ -20627,12 +20679,12 @@
             "Sprite": null
         },
         "Maastricht": {
-            "Proper": null,
-            "Sprite": null
+            "Proper": "MVV",
+            "Sprite": "[](#sprite2-p497)"
         },
         "Nijmegen": {
-            "Proper": null,
-            "Sprite": null
+            "Proper": "NEC",
+            "Sprite": "[](#sprite1-p366)"
         },
         "Noordwijk": {
             "Proper": null,
@@ -20665,6 +20717,10 @@
         "PSV W": {
             "Proper": "PSV Eindhoven",
             "Sprite": "[](#sprite1-p120)"
+        },
+        "Putten": {
+            "Proper": "SDC Putten",
+            "Sprite": "[](#sprite7-p237)"
         },
         "Quick Boys": {
             "Proper": null,
@@ -20831,6 +20887,10 @@
         "Southern United W": {
             "Proper": "Southern United",
             "Sprite": "[](#sprite5-p301)"
+        },
+        "Tasman United": {
+            "Proper": "Tasman United",
+            "Sprite": "[](#sprite8-p141)"
         },
         "Team Wellington": {
             "Proper": "Team Wellington",
@@ -21042,6 +21102,10 @@
             "Proper": null,
             "Sprite": null
         },
+        "Giwa": {
+            "Proper": "Giwa",
+            "Sprite": "[](#sprite3-p33)"
+        },
         "Go-Round": {
             "Proper": null,
             "Sprite": null
@@ -21065,6 +21129,10 @@
         "Ifeanyi Ubah": {
             "Proper": "Ifeanyi Ubah",
             "Sprite": "[](#sprite7-p261)"
+        },
+        "Ikorodu United": {
+            "Proper": "Ikorodu United",
+            "Sprite": "[](#sprite7-p273)"
         },
         "J'Atete": {
             "Proper": null,
@@ -21354,6 +21422,14 @@
             "Proper": "Ballymena United",
             "Sprite": "[](#sprite5-p295)"
         },
+        "Bangor FC": {
+            "Proper": "Bangor FC",
+            "Sprite": "[](#sprite2-p379)"
+        },
+        "Camlough": {
+            "Proper": "Camlough Rovers",
+            "Sprite": "[](#sprite8-p237)"
+        },
         "Carrick Rangers": {
             "Proper": "Carrick Rangers",
             "Sprite": "[](#sprite5-p296)"
@@ -21429,6 +21505,10 @@
         "Linfield W": {
             "Proper": "Linfield",
             "Sprite": "[](#sprite2-p132)"
+        },
+        "Lisburn": {
+            "Proper": "Lisburn Distillery",
+            "Sprite": "[](#sprite2-p133)"
         },
         "Loughgall": {
             "Proper": null,
@@ -21648,6 +21728,14 @@
             "Proper": "HamKam",
             "Sprite": "[](#sprite2-p417)"
         },
+        "Hammerfest": {
+            "Proper": "Hammerfest",
+            "Sprite": "[](#sprite4-p352)"
+        },
+        "Harstad": {
+            "Proper": "Harstad IL",
+            "Sprite": "[](#sprite7-p362)"
+        },
         "Haugesund": {
             "Proper": "Haugesund",
             "Sprite": "[](#sprite3-p82)"
@@ -21776,6 +21864,10 @@
             "Proper": "Mj\u00f8ndalen",
             "Sprite": "[](#sprite5-p31)"
         },
+        "Mo IL": {
+            "Proper": "Mo",
+            "Sprite": "[](#sprite4-p309)"
+        },
         "Molde": {
             "Proper": "Molde FK",
             "Sprite": "[](#sprite1-p381)"
@@ -21891,6 +21983,10 @@
         "Sandnes": {
             "Proper": "Sandnes Ulf",
             "Sprite": "[](#sprite2-p257)"
+        },
+        "Sandnessjoen": {
+            "Proper": "Sandnessj\u00f8en IL",
+            "Sprite": "[](#sprite2-p326)"
         },
         "Sandviken": {
             "Proper": null,
@@ -22041,8 +22137,8 @@
             "Sprite": null
         },
         "V. Haugesund": {
-            "Proper": "Haugesund",
-            "Sprite": "[](#sprite3-p82)"
+            "Proper": null,
+            "Sprite": null
         },
         "Valerenga": {
             "Proper": "V\u00e5lerenga IF",
@@ -22055,6 +22151,10 @@
         "Valerenga W": {
             "Proper": "V\u00e5lerenga IF",
             "Sprite": "[](#sprite1-p301)"
+        },
+        "Varegg": {
+            "Proper": "Varegg",
+            "Sprite": "[](#sprite9-p18)"
         },
         "Vidar": {
             "Proper": null,
