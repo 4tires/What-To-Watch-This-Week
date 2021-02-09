@@ -9425,8 +9425,8 @@
             "Sprite": "[](#sprite2-p359)"
         },
         "Cardiff": {
-            "Proper": null,
-            "Sprite": null
+            "Proper": "Cardiff City",
+            "Sprite": "[](#sprite1-p80)"
         },
         "Carlisle": {
             "Proper": "Carlisle United",
@@ -28485,8 +28485,8 @@
             "Sprite": null
         },
         "Huelva W": {
-            "Proper": "Recreativo Huelva",
-            "Sprite": "[](#sprite4-p174)"
+            "Proper": null,
+            "Sprite": null
         },
         "Huercal-Overa": {
             "Proper": null,
@@ -30685,8 +30685,8 @@
             "Sprite": null
         },
         "FF Lugano 1976 W": {
-            "Proper": "FC Lugano",
-            "Sprite": "[](#sprite5-p127)"
+            "Proper": null,
+            "Sprite": null
         },
         "Goldau": {
             "Proper": null,
@@ -31575,12 +31575,12 @@
     },
     "Turkey": {
         "1922 Konyaspor": {
-            "Proper": "Konyaspor",
-            "Sprite": "[](#sprite2-p369)"
+            "Proper": null,
+            "Sprite": null
         },
         "1928 Bucaspor": {
-            "Proper": "Bursaspor",
-            "Sprite": "[](#sprite2-p199)"
+            "Proper": null,
+            "Sprite": null
         },
         "24 Erzincanspor": {
             "Proper": null,
