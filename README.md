@@ -61,7 +61,6 @@
 - Rearranged functions in file to make it easier to read. 
 - Updated webdriver initator arguments
 - Removed sleep after webdriver initiates and replaced with keyboard input. Allows user to to select different starting day.
-- Added logic in parser to detect if dynamic data has loaded. Retries up to 5 times if not loaded. Could be improved? Issues using WebDriverWait
 - Created "days" variable in fetcher to use throughout function instead of hardcoded integers.
 - Added logic to filter round info. Only returns results for cups (Round of 16, Quarter-finals, etc). Same few lines also translates web site's round names to the more commonly referred names using a hard-coded dictionary. Not yet tested for competitions with group stages.
 - Separated some logic from WTWTW function into it's own function to clean up the code.
@@ -69,17 +68,18 @@
 - WTWTW() function now returns the dictionary of the checked matches. For use in future functions or scripts.
 - Added encoding argument in listas writer to work with less common letters such as ç
 - TeamNames-Sprites folder added. Dictionary for automatic team name correction. Added function automating team name correction and to fetch team sprites and addes to WTWTW's returned dictionary for later use. Should complete backlog items to add more flairs and creating automatic name correction.
-- WTWTW no longer uses requests/BeautifulSoup combo to retrieve round info. The code is less cryptic now, but aggregate score info was lost as a result. To be added again in the future. Backlog item unchecked.
+- Added function to fetch aggregate scores
+- Created WTWTW_Post.py to write reddit post. Asks user for which matches to bold. It imports and calls on WTWTW.py functions.
 
 ## Backlog
 
 - [x] Create python dictionary to remove manual correction of team and league names (Linguistic differences as stated in v9) maybe use pickle for performance reasons
-- [ ] Add automatic leg score
+- [x] Add automatic leg score
 - [ ] Install Grid (needs Docker) to use python in spreadsheets easily
 - [x] (Hard) Automate round and group letter of the competition (e.g. "Semi-Final"; "Group B") as stated in v9. (Not tested for Group Stage)
-- [ ] Maybe ditch the spreadsheets (probably hard because of bold matches)
+- [x] Maybe ditch the spreadsheets (probably hard because of bold matches)
 - [x] Add more flairs (maybe use https://www.reddit.com/r/soccer/comments/f8z3sc/what_to_watch_this_week_241_march/fioh87b/). https://www.reddit.com/r/soccerbot/wiki/index has a good collection of flairs. Used to create TeamNames-Sprites json.
-- [ ] Waits could potentially be improved with #https://selenium-python.readthedocs.io/waits.html potentially better wait logic
+- [ ] Work competition sprites into script.
 
 ## Technology Stack
 
