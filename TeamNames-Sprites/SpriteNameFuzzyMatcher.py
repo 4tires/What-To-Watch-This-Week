@@ -91,36 +91,6 @@ def FindDuplicateEntriesMain():
                     tNSDict[tNSRegion][newFSClubName]['Sprite'] = sBTNSDict[region][club]
                     with open(TNSDICT_LOCATE, 'w', encoding='utf8') as wf:
                         json.dump(tNSDict, wf, indent=4, sort_keys=True)
-
-
-
-
-
-        
-    """
-    quitList = ['q', 'quit']
-    print("\nSelect whether to cycle through entire json or select specific region.")
-    functionOptions = {
-        '1' : 'Cycle through entire json',
-        '2' : 'Search through specific region in json'
-    }
-    numberList = []
-    for key in functionOptions.keys():
-        print(key, ':', functionOptions[key])
-        numberList.append(key)
-    while True:
-        response = input('Select option: ')
-        if str(response) in quitList:
-            return
-        elif response in numberList:
-            break
-        else:
-            print('Invalid input. Entire deired option or [q, quit].')
-    if response == 1:
-        return
-    elif response == 2:
-        return
-    """
     return
 
 def CompleteMissingFieldsMain():
