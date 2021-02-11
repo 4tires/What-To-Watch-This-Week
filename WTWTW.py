@@ -48,19 +48,7 @@ with open ('listas.csv', 'w', newline='') as listas:
 def parser(competitions_dict):
 	checked_matches = []
 	soup = BeautifulSoup(driver.page_source, 'html.parser')
-
-	n = 0
-	while n < 5:
-		if soup.find('div', class_='sportName soccer'):
-			break
-		else:
-			soup = BeautifulSoup(driver.page_source, 'html.parser')
-			n += 1
-		if n >= 5:
-			print("failure to acquire match info.")
-			break
-		time.sleep(0.5)
-
+	wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'event__header')))
 	date = soup.find('div', class_='calendar__datepicker').get_text()#.split(' ')[0].replace('/', '.')
 	matches = soup.find_all('div', class_='checked')
 	list_of_matches = []
@@ -113,6 +101,7 @@ def match_details(competitions_dict, WTWTWmatches):
 	print('Fetching match round and aggregate score.')
 	for region in competitions_dict:
 		for competition in competitions_dict[region]:
+			isCup = 0
 			gamelist, compProperName, regionProperName = competition_matches(region, competition)
 			for date in WTWTWmatches:
 				for match in WTWTWmatches[date]:
@@ -121,6 +110,8 @@ def match_details(competitions_dict, WTWTWmatches):
 						match['Competition'] = compProperName
 						round = AchaRound(match['Home'], match['Away'], gamelist)
 						match['Round'] = round
+						if round != None:
+							isCup = 1
 						if regionProperName in continentList:
 							nameSpriteDict = NameAndSprite(match, 1)
 						else:
@@ -129,6 +120,16 @@ def match_details(competitions_dict, WTWTWmatches):
 						match['Away'] = nameSpriteDict['A Name'] if nameSpriteDict['A Name'] != None else match['Away']
 						match['H Sprite'] = nameSpriteDict['H Sprite']
 						match['A Sprite'] = nameSpriteDict['A Sprite']
+			if isCup == 1:
+				driver.find_element_by_id('li1').click()
+				wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'event__participant')))
+				for date in WTWTWmatches:
+					for match in WTWTWmatches[date]:
+						if match['Region'] == regionProperName and match['Competition'] == compProperName:
+							if match['Round'] != None:
+								aggregate = AchaAggregate(match['Home'], match['Away'], match['Round'])
+								match['H FL Score'] = aggregate[1]
+								match['A FL Score'] = aggregate[0]
 	return WTWTWmatches
 
 def competition_matches(region, competition):
@@ -139,8 +140,8 @@ def competition_matches(region, competition):
 	checkedMatches = soup.find_all('div', class_='checked')
 	for match in checkedMatches:
 		checkedMatchesListUnfiltered.append(match.find_parent('div', class_='event__match'))
-	checkedMatchesListFinal = list(filter(None, checkedMatchesListUnfiltered))
-	return checkedMatchesListFinal, competition_proper, region_proper
+	returnCheckedMatchesList = list(filter(None, checkedMatchesListUnfiltered))
+	return returnCheckedMatchesList, competition_proper, region_proper
 
 def AchaLinkEArranjaCompNome(region, competition):
 	region_proper = region
@@ -165,7 +166,7 @@ def AchaLinkEArranjaCompNome(region, competition):
 
 def AchaRound(home, away, gamelist):
 	fs_round_translator = {'1/32-finals':'Round of 64','1/16-finals':'Round of 32', '1/8-finals':'Round of 16'}
-	round = ''
+	round = None
 	for item in gamelist:
 		home_team = item.find('div', class_='event__participant--home').get_text()
 		away_team = item.find('div', class_='event__participant--away').get_text()
@@ -175,10 +176,31 @@ def AchaRound(home, away, gamelist):
 				if round in fs_round_translator.keys():
 					round = fs_round_translator[round]
 			else:
-				round = ''
+				round = None
 			return round
 	print("No results for " + home + " vs " + away + " round.")
-	return "no-round-data"
+	return round
+
+def AchaAggregate(homeTeam, awayTeam, roundName):
+	soup = BeautifulSoup(driver.page_source, 'html.parser')
+	tableRoundHeader = soup.find('div', text=roundName)
+	fLScoreHome = None
+	fLScoreAway = None
+	if tableRoundHeader != None:
+		row = tableRoundHeader
+		while True:
+			row = row.next_sibling
+			if 'event__round' == row['class'][0]:
+				break
+			else:
+				fLHome = row.find('div', class_='event__participant--home').get_text()
+				fLAway = row.find('div', class_='event__participant--away').get_text()
+				if ((fLHome == awayTeam) and (fLAway == homeTeam)):
+					fLScore = row.find('div', class_='event__scores').find_all('span')
+					fLScoreHome = fLScore[0].get_text()
+					fLScoreAway = fLScore[1].get_text()
+					break
+	return [fLScoreHome, fLScoreAway]
 
 def NameAndSprite(matchDict, intlGame):
 	region = matchDict['Region']
@@ -276,6 +298,34 @@ def WTWTW():
 			writer.writerow([])
 	print("Finished running WTWTW")
 	return WTWTWmatches
-
+"""
 input('Press Enter to Continue...')
 WTWTW()
+"""
+"""
+Current state of WTWTWmatches dictionary:
+WTWTWmatches = {
+	day : [
+		{
+			'Time' : # timestamp,
+			'id' : # game id used by FS,
+			'Home' : # Home team,
+			'Away' : # Away team,
+			'Region' : # Region of match. Usually country (Portugal) or continent (Europe). Sometimes other (World, Australia & Oceania),
+			'Competition' : # Name of competition,
+			'Round' : # round name of match (Round of 32, Semi-finals, etc),
+			'H Sprite' : # sprite for the home team,
+			'A Sprite' : # sprite for the away team,
+			'H FL Score' : # The match home team's score in the first leg,
+			'A FL Score' : # THe match away team's score in the first leg
+		},
+		{
+			# repeat above dictionary for each match on this day
+		}
+	]
+	next day : [
+		# repeat for matches on the next day
+	],
+	# repeats for 7 days total
+}
+"""
