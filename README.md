@@ -58,6 +58,7 @@
 
 ### v11
 
+- Rearranged functions in file to make it easier to read. 
 - Updated webdriver initator arguments
 - Removed sleep after webdriver initiates and replaced with keyboard input. Allows user to to select different starting day.
 - Added logic in parser to detect if dynamic data has loaded. Retries up to 5 times if not loaded. Could be improved? Issues using WebDriverWait
