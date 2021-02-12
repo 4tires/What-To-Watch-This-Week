@@ -48,35 +48,39 @@
 
 ### v10
 
-- Used BeautifulSoup to create a json file of links to each competition. Organized by regiong - country for domestic competitions, continent/region for international competitions. The json file is used to retrieve round and aggregate score for each match in WTWTW.py.
+- Used BeautifulSoup to create a json file of links to each competition for use in WTWTW.py. File located in FSJSON folder.
 - imported requests and json->load
 - created new function WTWTW to run entire script
-- parser now returns data instead of writes to csv. Parser also retrieves date and region for later use. Returns date and checked matches for that day
-- Created WTWTWmatches and competitions_dict dictionaries. WTWTWdict is used to store checked match data. competitions_dict tracks each region/competition from checked matches for later use.
-- After WTWTW runs fetcher it iterates through competitions_dict for each league, and retrieves the round and aggregate for each match in that competition in WTWTWmatches using competition_matches and acha_round functions. competition_matches returns a list of all the fixtures for that specific competition and a cleaned up competition name. acha_round parses through list for the match and returns round and aggregate. WTWTW adds round and aggregate to WTWTWmatches, and replaces the competition name with the cleaned up version. WTWTW function then writes data to csv. 
-- The competition name originally scraped from the website includes additional info. For example "Copa Diego Maradona - Losers Stage". The cleaned up competition name removes the " - Losers Stage" part.
+- parser now returns data instead of writes to csv. Parser also retrieves date and region for later use. Returns date and checked matches for that day.
+- Created WTWTWmatches and competitions_dict dictionaries. WTWTWmatches is used to store checked match data. competitions_dict tracks each region/competition from checked matches for later use.
+- WTWTW fetches checked matches and uses competitions_dict to retrieve the round and aggregate for each match in that competition in WTWTWmatches using competition_matches and acha_round functions and add to WTWTWmatches. Also returns correct competition name (sometimes includes string such as " - Losers Stage". That gets removed.) acha_round parses through list for the match and returns round and aggregate. WTWTW function writes data to csv at end. Uses requests and BeautifulSoup
 - This version completes the two checked boxes in Backlog. Not tested for competitions with group stages yet.
 
 ### v11
 
+- Rearranged functions in file to make it easier to read. 
 - Updated webdriver initator arguments
 - Removed sleep after webdriver initiates and replaced with keyboard input. Allows user to to select different starting day.
-- Added logic in parser to detect if dynamic data has loaded. Retries up to 5 times if not loaded.
 - Created "days" variable in fetcher to use throughout function instead of hardcoded integers.
 - Added logic to filter round info. Only returns results for cups (Round of 16, Quarter-finals, etc). Same few lines also translates web site's round names to the more commonly referred names using a hard-coded dictionary. Not yet tested for competitions with group stages.
 - Separated some logic from WTWTW function into it's own function to clean up the code.
 - Used sorted to print each day's matches ordered by time in csv
 - WTWTW() function now returns the dictionary of the checked matches. For use in future functions or scripts.
 - Added encoding argument in listas writer to work with less common letters such as ç
+- TeamNames-Sprites folder added. Dictionary for automatic team name correction. Added function automating team name correction and to fetch team sprites and addes to WTWTW's returned dictionary for later use. Should complete backlog items to add more flairs and creating automatic name correction.
+- Added function to fetch aggregate scores
+- Created WTWTW_Post.py to write reddit post. Asks user for which matches to bold. It imports and calls on WTWTW.py functions.
+- Added CompNames-Sprites.json into TeamNames-Sprites folder. Incorporated into WTWTW.
 
 ## Backlog
 
-- [ ] Create python dictionary to remove manual correction of team and league names (Linguistic differences as stated in v9) maybe use pickle for performance reasons
+- [x] Create python dictionary to remove manual correction of team and league names (Linguistic differences as stated in v9) maybe use pickle for performance reasons
 - [x] Add automatic leg score
 - [ ] Install Grid (needs Docker) to use python in spreadsheets easily
-- [x] (Hard) Automate round and group letter of the competition (e.g. "Semi-Final"; "Group B") as stated in v9
-- [ ] Maybe ditch the spreadsheets (probably hard because of bold matches)
-- [ ] Add more flairs (maybe use https://www.reddit.com/r/soccer/comments/f8z3sc/what_to_watch_this_week_241_march/fioh87b/)
+- [x] (Hard) Automate round and group letter of the competition (e.g. "Semi-Final"; "Group B") as stated in v9. (Not tested for Group Stage)
+- [x] Maybe ditch the spreadsheets (probably hard because of bold matches)
+- [x] Add more flairs (maybe use https://www.reddit.com/r/soccer/comments/f8z3sc/what_to_watch_this_week_241_march/fioh87b/). https://www.reddit.com/r/soccerbot/wiki/index has a good collection of flairs. Used to create TeamNames-Sprites json.
+- [x] Work competition sprites into script.
 
 ## Technology Stack
 

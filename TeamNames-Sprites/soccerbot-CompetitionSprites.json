@@ -1,0 +1,592 @@
+{
+    "Afghanistan": {},
+    "Africa": {
+        "Africa Cup of Nations": "[](#sprite8-p39)",
+        "Africa Cup of Nations Qualification": "[](#sprite8-p39)",
+        "African Nations Championship": "[](#sprite8-p40)",
+        "CAF Champions League": "[](#sprite7-p405)",
+        "CAF Confederation Cup": "[](#sprite8-p23)",
+        "CAF Super Cup": "[](#sprite8-p38)",
+        "CECAFA Cup": "[](#sprite8-p41)",
+        "WC Qualification Africa": "[](#sprite7-p401)"
+    },
+    "Albania": {},
+    "Algeria": {
+        "Algerian Ligue Professionnelle 1": "[](#sprite7-p477)",
+        "Algerian Ligue Professionnelle 2": "[](#sprite7-p478)",
+        "Coupe d'Alg\u00e9rie": "[](#sprite7-p480)",
+        "Super Coupe d'Alg\u00e9rie": null
+    },
+    "American Samoa": {},
+    "Andorra": {},
+    "Angola": {},
+    "Anguilla": {},
+    "Antigua and Barbuda": {},
+    "Argentina": {
+        "Copa Argentina": "[](#sprite3-p50)",
+        "Primera B Nacional": null,
+        "Supercopa Argentina": "[](#sprite8-p55)",
+        "Superliga Argentina": "[](#sprite7-p348)",
+        "Torneos de Verano": null
+    },
+    "Armenia": {},
+    "Aruba": {},
+    "Asia": {
+        "AFC Asian Cup": "[](#sprite3-p40)",
+        "AFC Champions League": "[](#sprite7-p404)",
+        "AFC Cup": "[](#sprite7-p409)",
+        "AFC U19 Championship": "[](#sprite8-p128)",
+        "ASEAN Football Championship": "[](#sprite8-p136)",
+        "Asian Cup Qualification": "[](#sprite3-p40)",
+        "EAFF East Asian Cup": "[](#sprite8-p44)",
+        "Gulf Cup of Nations": null,
+        "South Asian Football Federation Cup": "[](#sprite8-p296)",
+        "WC Qualification Asia": "[](#sprite7-p401)"
+    },
+    "Australasia": {
+        "OFC Champions League": "[](#sprite7-p407)",
+        "OFC Nations Cup": "[](#sprite8-p135)",
+        "WC Qualification Oceania": "[](#sprite7-p401)"
+    },
+    "Australia": {
+        "A-League": "[](#sprite7-p351)",
+        "FFA Cup": "[](#sprite7-p446)"
+    },
+    "Austria": {
+        "Austrian Football Bundesliga": "[](#sprite7-p391)",
+        "\u00d6FB-Cup": "[](#sprite8-p65)"
+    },
+    "Azerbaijan": {},
+    "Bahamas": {},
+    "Bahrain": {
+        "Bahraini Premier League": "[](#sprite8-p113)",
+        "King's Cup": null
+    },
+    "Bangladesh": {},
+    "Barbados": {},
+    "Belarus": {
+        "Belarus Cup": "[](#sprite8-p68)",
+        "Belarusian Super Cup": null,
+        "Vysheyshaya Liga": "[](#sprite8-p69)"
+    },
+    "Belgium": {
+        "Belgian Pro League": "[](#sprite7-p375)",
+        "Belgische Super Cup": null,
+        "Coupe de Belgique": "[](#sprite8-p64)"
+    },
+    "Belize": {},
+    "Benin": {},
+    "Bermuda": {},
+    "Bhutan": {},
+    "Bolivia": {
+        "Liga de F\u00fatbol Profesional Boliviano": "[](#sprite3-p58)"
+    },
+    "Bosnia-Herzegovina": {
+        "Kup Bosne i Hercegovine": null,
+        "Premijer liga Bosne i Hercegovine": "[](#sprite7-p419)"
+    },
+    "Botswana": {},
+    "Brazil": {
+        "Baiano 1": "[](#sprite7-p461)",
+        "Brasileiro S\u00e9rie A": "[](#sprite7-p349)",
+        "Brasileiro S\u00e9rie B": "[](#sprite7-p350)",
+        "Carioca 1": "[](#sprite3-p51)",
+        "Copa Ga\u00facha": "[](#sprite7-p462)",
+        "Copa Paulista": "[](#sprite7-p463)",
+        "Copa Rio": "[](#sprite3-p51)",
+        "Copa Verde": "[](#sprite3-p52)",
+        "Copa do Brasil": "[](#sprite7-p429)",
+        "Copa do Nordeste": "[](#sprite7-p465)",
+        "Gaucho 1": "[](#sprite7-p462)",
+        "Mineiro 1": "[](#sprite7-p460)",
+        "Paulista A1": "[](#sprite7-p463)",
+        "Primeira Liga": "[](#sprite7-p459)"
+    },
+    "British Virgin Islands": {},
+    "Brunei Darussalam": {},
+    "Bulgaria": {},
+    "Burkina Faso": {},
+    "Burundi": {},
+    "Cambodia": {},
+    "Cameroon": {},
+    "Canada": {
+        "Canadian Championship": "[](#sprite8-p120)"
+    },
+    "Cape Verde": {},
+    "Catalonia": {},
+    "Cayman Islands": {},
+    "Central African Republic": {},
+    "Chad": {},
+    "Chile": {
+        "Campeonato Nacional": "[](#sprite7-p359)",
+        "Copa Chile": "[](#sprite3-p53)",
+        "Supercopa de Chile": "[](#sprite7-p466)"
+    },
+    "China": {
+        "Chinese FA Cup": "[](#sprite8-p132)",
+        "Chinese FA Super Cup": "[](#sprite8-p131)",
+        "Chinese Super League": "[](#sprite3-p34)"
+    },
+    "Chinese Taipei": {},
+    "Colombia": {
+        "Copa Colombia": "[](#sprite7-p467)",
+        "Liga \u00c1guila": "[](#sprite7-p357)",
+        "Superliga Colombiana": "[](#sprite7-p468)",
+        "Torneo \u00c1guila": "[](#sprite8-p29)"
+    },
+    "Comoros": {},
+    "Congo": {},
+    "Cook Islands": {},
+    "Costa Rica": {},
+    "Croatia": {
+        "1. HNL": "[](#sprite3-p71)",
+        "2. HNL": null,
+        "Hrvatski kup": null,
+        "Hrvatski superkup": null
+    },
+    "Cuba": {},
+    "Cura\u00e7ao": {},
+    "Cyprus": {},
+    "Czech Republic": {
+        "Czech Liga": "[](#sprite7-p445)",
+        "Poh\u00e1r FA\u010cR": "[](#sprite8-p63)",
+        "\u010cesk\u00fd Superpoh\u00e1r": null
+    },
+    "C\u00f4te d'Ivoire": {},
+    "DR Congo": {},
+    "Denmark": {
+        "DBU Pokalen": "[](#sprite8-p130)",
+        "Danish Superliga": "[](#sprite7-p385)"
+    },
+    "Djibouti": {},
+    "Dominica": {},
+    "Dominican Republic": {},
+    "Ecuador": {
+        "Primera A": "[](#sprite7-p469)"
+    },
+    "Egypt": {
+        "Egypt Cup": "[](#sprite1-p328)",
+        "Egyptian Premier League": "[](#sprite8-p179)"
+    },
+    "El Salvador": {},
+    "England": {
+        "EFL Cup": "[](#sprite8-p79)",
+        "EFL Trophy": "[](#sprite8-p103)",
+        "FA Community Shield": "[](#sprite8-p61)",
+        "FA Cup": "[](#sprite7-p368)",
+        "FA WSL": "[](#sprite8-p145)",
+        "FA Youth Cup": "[](#sprite8-p73)",
+        "Football League Championship": "[](#sprite8-p102)",
+        "Football League One": "[](#sprite8-p101)",
+        "Football League Two": "[](#sprite8-p100)",
+        "National League": "[](#sprite8-p217)",
+        "Premier League": "[](#sprite7-p327)"
+    },
+    "Equatorial Guinea": {},
+    "Eritrea": {},
+    "Estonia": {},
+    "Ethiopia": {},
+    "Europe": {
+        "European Championship": "[](#sprite7-p361)",
+        "European Championship Qualification": "[](#sprite8-p253)",
+        "UEFA Champions League": "[](#sprite7-p403)",
+        "UEFA Europa League": "[](#sprite7-p408)",
+        "UEFA Super Cup": "[](#sprite8-p57)",
+        "UEFA U17 Championship": "[](#sprite8-p124)",
+        "UEFA U19 Championship": "[](#sprite8-p125)",
+        "UEFA U21 Championship": "[](#sprite8-p126)",
+        "UEFA Women's Champions League": "[](#sprite8-p144)",
+        "UEFA Youth League": "[](#sprite8-p127)",
+        "WC Qualification Europe": "[](#sprite8-p253)"
+    },
+    "FYR Macedonia": {},
+    "Faroe Islands": {},
+    "Fiji": {},
+    "Finland": {
+        "Veikkausliiga": "[](#sprite7-p387)"
+    },
+    "France": {
+        "Championnat National": "[](#sprite8-p142)",
+        "Coupe de France": "[](#sprite7-p413)",
+        "Coupe de la Ligue": "[](#sprite8-p37)",
+        "Ligue 1": "[](#sprite7-p377)",
+        "Ligue 2": "[](#sprite7-p378)",
+        "Troph\u00e9e des Champions": "[](#sprite8-p47)"
+    },
+    "French Guiana": {},
+    "Gabon": {},
+    "Gambia": {},
+    "Georgia": {},
+    "Germany": {
+        "2. Bundesliga": "[](#sprite8-p460)",
+        "3. Liga": "[](#sprite7-p412)",
+        "Bundesliga": "[](#sprite7-p328)",
+        "DFB Pokal": "[](#sprite7-p411)",
+        "DFL-Supercup": "[](#sprite8-p51)"
+    },
+    "Ghana": {
+        "Ghana Premier League": null
+    },
+    "Gibraltar": {},
+    "Greece": {
+        "Greek Cup": null,
+        "Super League Greece": "[](#sprite7-p380)"
+    },
+    "Greenland": {},
+    "Grenada": {},
+    "Guam": {},
+    "Guatemala": {},
+    "Guernsey": {},
+    "Guinea": {},
+    "Guinea-Bissau": {},
+    "Guyana": {},
+    "Haiti": {},
+    "Honduras": {
+        "Liga Nacional de F\u00fatbol Profesional de Honduras": null
+    },
+    "Hong Kong": {
+        "AFC Cup Play-off": "[](#sprite7-p409)",
+        "Hong Kong FA Cup": null,
+        "Hong Kong Premier League": "[](#sprite7-p481)",
+        "Hong Kong Senior Challenge Shield": null
+    },
+    "Hungary": {
+        "Nemzeti Bajnoks\u00e1g I": null
+    },
+    "Iceland": {},
+    "India": {
+        "Federation Cup": null,
+        "I-League": "[](#sprite3-p35)",
+        "I-League 2nd Division": "[](#sprite3-p73)",
+        "Indian Super League": "[](#sprite7-p330)",
+        "Santosh Trophy": "[](#sprite8-p121)"
+    },
+    "Indonesia": {
+        "Indonesia Soccer Championship A": "[](#sprite3-p60)",
+        "Piala Presiden": "[](#sprite7-p482)"
+    },
+    "Iran": {},
+    "Iraq": {
+        "Iraqi Premier League": "[](#sprite7-p483)"
+    },
+    "Ireland": {
+        "FAI Cup": null,
+        "League of Ireland Cup": null,
+        "League of Ireland First Division": "[](#sprite3-p49)",
+        "League of Ireland Premier Division": "[](#sprite3-p49)",
+        "President's Cup": null
+    },
+    "Israel": {
+        "Ligat ha-Al": "[](#sprite7-p389)"
+    },
+    "Italy": {
+        "Coppa Italia": "[](#sprite7-p414)",
+        "Coppa Italia Lega Pro": "[](#sprite8-p36)",
+        "Lega Pro": "[](#sprite8-p35)",
+        "Serie A": "[](#sprite7-p370)",
+        "Serie B": "[](#sprite7-p371)",
+        "Supercoppa Italiana": "[](#sprite8-p52)"
+    },
+    "Jamaica": {},
+    "Japan": {
+        "Emperor's Cup": "[](#sprite7-p440)",
+        "J-League Cup": "[](#sprite7-p430)",
+        "J1 League": "[](#sprite3-p45)",
+        "J2 League": "[](#sprite3-p46)",
+        "Japanese Super Cup": "[](#sprite8-p60)"
+    },
+    "Jersey": {},
+    "Jordan": {
+        "Al-Manaseer Jordanian Pro League": "[](#sprite7-p484)",
+        "Jordan FA Cup": null,
+        "Jordan Super Cup": null
+    },
+    "Kazakhstan": {},
+    "Kenya": {
+        "Kenyan Premier League": "[](#sprite8-p112)"
+    },
+    "Kiribati": {},
+    "Kosovo": {},
+    "Kuwait": {
+        "Kuwait Crown Prince Cup": null,
+        "Kuwait Emir Cup": null,
+        "Kuwait Federation Cup": null,
+        "Kuwait Premier League": "[](#sprite8-p1)",
+        "Kuwait Super Cup": null
+    },
+    "Kyrgyzstan": {},
+    "Laos": {},
+    "Latvia": {
+        "Latvian Higher League": "[](#sprite8-p304)"
+    },
+    "Lebanon": {
+        "Lebanese Elite Cup": null,
+        "Lebanese FA Cup": null,
+        "Lebanese Premier League": "[](#sprite8-p111)",
+        "Lebanese Super Cup": null
+    },
+    "Lesotho": {},
+    "Liberia": {},
+    "Libya": {},
+    "Liechtenstein": {},
+    "Lithuania": {},
+    "Luxembourg": {},
+    "Macau": {},
+    "Madagascar": {},
+    "Malawi": {},
+    "Malaysia": {
+        "Malaysia Super League": "[](#sprite7-p464)",
+        "Piala FA Malaysia": "[](#sprite8-p110)",
+        "Piala Malaysia": null
+    },
+    "Maldives": {},
+    "Mali": {},
+    "Malta": {},
+    "Martinique": {},
+    "Mauritania": {},
+    "Mauritius": {},
+    "Mexico": {
+        "Ascenso MX": "[](#sprite3-p44)",
+        "Copa MX": "[](#sprite7-p416)",
+        "Liga MX": "[](#sprite3-p43)",
+        "Supercopa MX": "[](#sprite8-p33)"
+    },
+    "Micronesia": {},
+    "Moldova": {
+        "Moldovan National Division": "[](#sprite8-p306)"
+    },
+    "Mongolia": {},
+    "Montenegro": {
+        "Montenegrin First League": "[](#sprite8-p312)"
+    },
+    "Montserrat": {},
+    "Morocco": {
+        "Botola 2": "[](#sprite7-p437)",
+        "Botola Pro": "[](#sprite7-p437)",
+        "Coupe du Tr\u00f4ne": null
+    },
+    "Mozambique": {},
+    "Myanmar": {},
+    "Namibia": {},
+    "Nepal": {},
+    "Netherlands": {
+        "Derde Divisie": null,
+        "Eerste Divisie": "[](#sprite7-p373)",
+        "Eredivisie": "[](#sprite7-p372)",
+        "Johan Cruijff Schaal": "[](#sprite8-p48)",
+        "KNVB Beker": "[](#sprite8-p49)"
+    },
+    "New Caledonia": {},
+    "New Zealand": {
+        "New Zealand Football Championship": "[](#sprite8-p139)"
+    },
+    "Nicaragua": {},
+    "Niger": {},
+    "Nigeria": {
+        "Nigeria Premier League": "[](#sprite7-p470)"
+    },
+    "North & Central America": {
+        "CFU Club Championship": "[](#sprite8-p42)",
+        "CONCACAF Champions League": "[](#sprite7-p406)",
+        "CONCACAF Confederations Cup Play-off": "[](#sprite7-p410)",
+        "CONCACAF Gold Cup": "[](#sprite7-p335)",
+        "CONCACAF U20": "[](#sprite7-p335)",
+        "Caribbean Cup": "[](#sprite8-p43)",
+        "Copa Centroamericana": "[](#sprite8-p31)",
+        "Olympic Qualifying CONCACAF": "[](#sprite7-p402)",
+        "WC Qualification CONCACAF": "[](#sprite7-p401)"
+    },
+    "North Korea": {},
+    "Northern Ireland": {},
+    "Norway": {
+        "1. divisjon": null,
+        "Eliteserien": "[](#sprite8-p383)",
+        "NM Cupen": "[](#sprite8-p116)"
+    },
+    "Oman": {},
+    "Pakistan": {},
+    "Palestine": {},
+    "Panama": {
+        "Liga Paname\u00f1a de F\u00fatbol": "[](#sprite8-p317)"
+    },
+    "Papua New Guinea": {},
+    "Paraguay": {},
+    "Peru": {
+        "Peruvian Primera Divisi\u00f3n": "[](#sprite3-p55)"
+    },
+    "Philippines": {},
+    "Poland": {
+        "Ekstraklasa": "[](#sprite7-p381)",
+        "Puchar Polski": "[](#sprite8-p66)",
+        "SuperPuchar Polski": "[](#sprite8-p71)"
+    },
+    "Portugal": {
+        "Primeira Liga": "[](#sprite7-p374)",
+        "Superta\u00e7a C\u00e2ndido de Oliveira": "[](#sprite8-p53)",
+        "Ta\u00e7a da Liga": "[](#sprite8-p75)",
+        "Ta\u00e7a de Portugal": "[](#sprite7-p417)"
+    },
+    "Puerto Rico": {},
+    "Qatar": {},
+    "Romania": {
+        "Cupa Ligii": "[](#sprite8-p76)",
+        "Cupa Rom\u00e2niei": "[](#sprite8-p62)",
+        "Liga I": "[](#sprite7-p393)",
+        "Supercupa Rom\u00e2niei": null
+    },
+    "Russia": {
+        "Football National League": "[](#sprite8-p58)",
+        "Russian Cup": null,
+        "Russian Premier League": "[](#sprite7-p365)",
+        "Russian Super Cup": null
+    },
+    "Rwanda": {},
+    "Saint Kitts and Nevis": {},
+    "Saint Lucia": {},
+    "Saint Vincent and the Grenadines": {},
+    "Samoa": {},
+    "San Marino": {},
+    "Saudi Arabia": {
+        "Crown Prince Cup": null,
+        "Kings Cup": null,
+        "Saudi First Division": null,
+        "Saudi Pro League": "[](#sprite8-p106)",
+        "Saudi Super Cup": null
+    },
+    "Scotland": {
+        "Scottish Challenge Cup": "[](#sprite3-p67)",
+        "Scottish Championship": "[](#sprite3-p66)",
+        "Scottish Cup": "[](#sprite3-p65)",
+        "Scottish League Cup": "[](#sprite3-p64)",
+        "Scottish League One": "[](#sprite3-p62)",
+        "Scottish League Two": "[](#sprite3-p63)",
+        "Scottish Premiership": "[](#sprite3-p48)"
+    },
+    "Senegal": {},
+    "Serbia": {
+        "Kup Srbije": "[](#sprite8-p70)",
+        "Prva liga Srbije": "[](#sprite8-p108)",
+        "Super liga Srbije": "[](#sprite8-p107)"
+    },
+    "Seychelles": {},
+    "Sierra Leone": {},
+    "Singapore": {
+        "S.League": "[](#sprite3-p68)",
+        "Singapore Cup": "[](#sprite3-p72)",
+        "Singapore League Cup": "[](#sprite8-p114)"
+    },
+    "Slovakia": {},
+    "Slovenia": {
+        "2. SNL": "[](#sprite8-p117)",
+        "Pokal Nogometne zveze Slovenije": "[](#sprite8-p109)",
+        "Slovenian PrvaLiga": "[](#sprite8-p45)",
+        "Slovenski superpokal": null
+    },
+    "Solomon Islands": {},
+    "Somalia": {},
+    "South Africa": {
+        "MTN 8": "[](#sprite3-p57)",
+        "National First Division": "[](#sprite7-p473)",
+        "Nedbank Cup": "[](#sprite7-p474)",
+        "Premier Soccer League": "[](#sprite7-p471)",
+        "Telkom Knockout": "[](#sprite7-p475)"
+    },
+    "South America": {
+        "Copa Am\u00e9rica": "[](#sprite7-p400)",
+        "Copa Libertadores": "[](#sprite7-p360)",
+        "Copa Sudamericana": "[](#sprite8-p386)",
+        "Recopa Sudamericana": "[](#sprite8-p56)",
+        "Sudamericano U20": "[](#sprite7-p336)",
+        "WC Qualification South America": "[](#sprite7-p401)"
+    },
+    "South Korea": {
+        "K League Challenge": "[](#sprite7-p355)",
+        "K League Classic": "[](#sprite7-p354)",
+        "Korean FA Cup": "[](#sprite8-p72)"
+    },
+    "South Sudan": {},
+    "Spain": {
+        "Copa del Rey": "[](#sprite7-p415)",
+        "La Liga": "[](#sprite7-p369)",
+        "Segunda Divisi\u00f3n": "[](#sprite7-p369)",
+        "Supercopa de Espa\u00f1a": "[](#sprite8-p50)"
+    },
+    "Sri Lanka": {},
+    "Sudan": {},
+    "Suriname": {},
+    "Swaziland": {},
+    "Sweden": {
+        "Allsvenskan": "[](#sprite7-p384)",
+        "Svenska Cupen": "[](#sprite8-p129)",
+        "Svenska Supercupen": null
+    },
+    "Switzerland": {
+        "Schweizer Cup": "[](#sprite3-p75)",
+        "Swiss Challenge League": "[](#sprite8-p158)",
+        "Swiss Super League": "[](#sprite7-p383)"
+    },
+    "Syria": {},
+    "S\u00e3o Tom\u00e9 and Pr\u00edncipe": {},
+    "Tahiti": {},
+    "Tajikistan": {},
+    "Tanzania": {
+        "Ligi kuu Bara": "[](#sprite8-p77)"
+    },
+    "Thailand": {
+        "Thai FA Cup": "[](#sprite9-p11)",
+        "Thai League": "[](#sprite3-p69)",
+        "Thai League Cup": "[](#sprite8-p115)"
+    },
+    "Tibet": {},
+    "Timor-Leste": {},
+    "Togo": {},
+    "Tonga": {},
+    "Trinidad and Tobago": {},
+    "Tunisia": {
+        "Coupe de Tunisie": "[](#sprite3-p59)",
+        "Tunisian Ligue Professionnelle 1": "[](#sprite3-p56)"
+    },
+    "Turkey": {
+        "S\u00fcper Lig": "[](#sprite7-p379)",
+        "TFF First League": "[](#sprite8-p59)",
+        "T\u00fcrkiye Kupas\u0131": "[](#sprite8-p54)",
+        "T\u00fcrkiye S\u00fcper Kupas\u0131": "[](#sprite3-p61)"
+    },
+    "Turkmenistan": {},
+    "Turks and Caicos Islands": {},
+    "Tuvalu": {},
+    "US Virgin Islands": {},
+    "Uganda": {},
+    "Ukraine": {
+        "Ukrainian Cup": "[](#sprite7-p439)",
+        "Ukrainian Premier League": "[](#sprite7-p438)",
+        "Ukrainian Super Cup": "[](#sprite8-p159)"
+    },
+    "United Arab Emirates": {
+        "Arabian Gulf Cup": "[](#sprite3-p70)",
+        "Arabian Gulf League": "[](#sprite8-p105)",
+        "Arabian Gulf Super Cup": null,
+        "Presidents Cup": null
+    },
+    "United States": {
+        "Major League Soccer": "[](#sprite7-p345)",
+        "National Women's Soccer League": "[](#sprite8-p143)",
+        "North American Soccer League": "[](#sprite7-p346)",
+        "Premier Development League": "[](#sprite7-p347)",
+        "US Open Cup": "[](#sprite7-p418)",
+        "United Soccer League": "[](#sprite3-p42)"
+    },
+    "Uruguay": {
+        "Primera Divisi\u00f3n de Uruguay": "[](#sprite7-p356)"
+    },
+    "Uzbekistan": {},
+    "Vanuatu": {},
+    "Vatican City": {},
+    "Venezuela": {},
+    "Vietnam": {},
+    "Wales": {},
+    "Yemen": {},
+    "Zambia": {},
+    "Zanzibar": {},
+    "Zimbabwe": {}
+}

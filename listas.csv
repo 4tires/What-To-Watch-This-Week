@@ -1,45 +1,31 @@
-0700;Nurnberg;Hamburger SV;2. Bundesliga;;
-0700;St. Pauli;Holstein Kiel;2. Bundesliga;;
-0800;Sevilla;Real Sociedad;LaLiga;;
-0930;Union Berlin;Wolfsburg;Bundesliga;;
-1015;Atl. Madrid;Ath Bilbao;LaLiga;;
-1200;Moreirense;Vitoria Guimaraes;Primeira Liga;;
-1230;RB Leipzig;Dortmund;Bundesliga;;
-1230;Granada CF;Barcelona;LaLiga;;
-1230;Arsenal;Newcastle;FA Cup;Round of 64;
-1500;Rennes;Lyon;Ligue 1;;
-1500;Manchester Utd;Watford;FA Cup;Round of 64;
+0730;Leicester City;Liverpool;Premier League;
+0930;Borussia Dortmund;1899 Hoffenheim;Bundesliga;
+1100;Paris Saint-Germain;OGC Nice;Ligue 1;
 
-0615;Sparta Rotterdam;Feyenoord;Eredivisie;;
-0630;AS Roma;Inter;Serie A;;
-0800;Leganes;Almeria;LaLiga2;;
-1000;Aberdeen;Rangers;Premiership;;
-1045;Ajax;PSV;Eredivisie;;
-1400;Sao Paulo;Santos;Serie A;;
-1445;Juventus;Sassuolo;Serie A;;
+0700;Southampton;Wolves;Premier League;
+0900;West Bromwich Albion;Manchester United;Premier League;
+1500;Bordeaux;Olympique de Marseille;Ligue 1;
 
-0600FRO;Belenenses B;SC Praiense;Campeonato de Portugal;;
-1445;Spezia;Sampdoria;Serie A;;
-1500;Huesca;Betis;LaLiga;;
-1615;Maritimo;Sporting;Taça de Portugal;Round of 16;
+0825;Saham;Al Seeb;Sultan Cup;Quarter-finals
+1115;Al-Msnaa;Dhofar;Sultan Cup;Quarter-finals
+1430;Bayern München;Arminia Bielefeld;Bundesliga;
+1515;Sporting Clube de Portugal;Paços de Ferreira;Primeira Liga;
 
-1300;Nacional;FC Porto;Taça de Portugal;Round of 16;
-1300;Levante W;EDF Logrono W;Super Cup Women;Semi-finals;
-1445;Bayer Leverkusen;Eintracht Frankfurt;DFB Pokal;Round of 32;
-1445;AC Milan;Torino;Coppa Italia;Round of 16;
-1515;Burnley;Manchester Utd;Premier League;;
-1515;Wolves;Everton;Premier League;;
-1530;Atl. Madrid;Sevilla;LaLiga;;
-1615;Estrela;Benfica;Taça de Portugal;Round of 16;
+1500;Barcelona;Paris Saint-Germain;UEFA Champions League;Round of 16
+1500;RB Leipzig;Liverpool;UEFA Champions League;Round of 16
 
-1515;Aston Villa;Tottenham;Premier League;;
-1930;Corinthians;Fluminense;Serie A;;
+1500;FC Porto;Juventus;UEFA Champions League;Round of 16
+1500;Sevilla;Borussia Dortmund;UEFA Champions League;Round of 16
+1515;Everton;Manchester City;Premier League;
 
-1400;Twente;Ajax;Eredivisie;;
-1500;Arsenal;Crystal Palace;Premier League;;
+1255;SC Braga;AS Roma;UEFA Europa League;Round of 32
+1255;Real Sociedad;Manchester United;UEFA Europa League;Round of 32
+1255;Wolfsberger AC;Tottenham Hotspur;UEFA Europa League;Round of 32
+1500;Red Bull Salzburg;Villarreal;UEFA Europa League;Round of 32
 
-1330;Sporting;Rio Ave;Primeira Liga;;
-1430;Union Berlin;Bayer Leverkusen;Bundesliga;;
-1500;Montpellier;Monaco;Ligue 1;;
-1600;FC Porto;Benfica;Primeira Liga;;
+0305;Adelaide United;Central Coast Mariners;A-League;
+1445;KV Mechelen;KAA Gent;Belgian Pro League;
+1500;Wolves;Leeds United;Premier League;
+1500;Stade Brestois 29;Olympique Lyonnais;Ligue 1;
+1930;São Paulo;Palmeiras;Brasileiro Série A;
 

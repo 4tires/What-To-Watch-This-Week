@@ -1,0 +1,4464 @@
+{
+    "Africa": {
+        "Africa Cup of Nations": {
+            "Proper": "Africa Cup of Nations",
+            "Sprite": "[](#sprite8-p39)"
+        },
+        "Africa Cup of Nations U17": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Africa Cup of Nations U20": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Africa Cup of Nations U23": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "African Championship Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "African Nations Championship": {
+            "Proper": "African Nations Championship",
+            "Sprite": "[](#sprite8-p40)"
+        },
+        "CAF Champions League": {
+            "Proper": "CAF Champions League",
+            "Sprite": "[](#sprite7-p405)"
+        },
+        "CAF Confederations Cup": {
+            "Proper": "CAF Confederation Cup",
+            "Sprite": "[](#sprite8-p23)"
+        },
+        "CAF Super Cup": {
+            "Proper": "CAF Super Cup",
+            "Sprite": "[](#sprite8-p38)"
+        },
+        "CECAFA Championship": {
+            "Proper": "CECAFA Cup",
+            "Sprite": "[](#sprite8-p41)"
+        },
+        "CECAFA Clubs Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "COSAFA Championship U20": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "COSAFA Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "WAFU Cup of Nations": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Albania": {
+        "Albanian Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "First Division": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Superliga": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Algeria": {
+        "Algeria Cup": {
+            "Proper": "Coupe d'Alg\u00e9rie",
+            "Sprite": "[](#sprite7-p480)"
+        },
+        "Ligue 1": {
+            "Proper": "Algerian Ligue Professionnelle 1",
+            "Sprite": "[](#sprite7-p477)"
+        },
+        "Ligue 2": {
+            "Proper": "Coupe d'Alg\u00e9rie",
+            "Sprite": "[](#sprite7-p480)"
+        },
+        "Super Cup": {
+            "Proper": "Super Coupe d'Alg\u00e9rie",
+            "Sprite": null
+        },
+        "U21 League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Andorra": {
+        "Andorra Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Primera Divisi\u00f3": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Angola": {
+        "Girabola": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Argentina": {
+        "Copa Argentina": {
+            "Proper": "Copa Argentina",
+            "Sprite": "[](#sprite3-p50)"
+        },
+        "Copa Diego Maradona": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Copa de la Superliga": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Liga Profesional": {
+            "Proper": "Superliga Argentina",
+            "Sprite": "[](#sprite7-p348)"
+        },
+        "Primera B": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Primera C": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Primera D": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Primera Nacional": {
+            "Proper": "Primera B Nacional",
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": "Supercopa Argentina",
+            "Sprite": "[](#sprite8-p55)"
+        },
+        "Torneo Federal": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Torneos De Verano": {
+            "Proper": "Torneos de Verano",
+            "Sprite": null
+        },
+        "Trofeo de Campeones": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Armenia": {
+        "Armenian Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "First League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Premier League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Aruba": {
+        "Division di Honor": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Asia": {
+        "AFC Champions League": {
+            "Proper": "AFC Champions League",
+            "Sprite": "[](#sprite7-p404)"
+        },
+        "AFC Championship U16": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "AFC Championship U19": {
+            "Proper": "AFC U19 Championship",
+            "Sprite": "[](#sprite8-p128)"
+        },
+        "AFC Championship U23": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "AFC Championship Women U16": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "AFC Championship Women U19": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "AFC Cup": {
+            "Proper": "AFC Cup",
+            "Sprite": "[](#sprite7-p409)"
+        },
+        "AFC Solidarity Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "AFF Championship U19": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "AFF Championship U22": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "AFF Suzuki Cup": {
+            "Proper": "South Asian Football Federation Cup",
+            "Sprite": "[](#sprite8-p296)"
+        },
+        "Asian Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Asian Cup Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Asian Games": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Asian Games Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "CAFA Championship Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "EAFF E-1 Football Championship": {
+            "Proper": "EAFF East Asian Cup",
+            "Sprite": "[](#sprite8-p44)"
+        },
+        "EAFF E-1 Football Championship Women": {
+            "Proper": "EAFF East Asian Cup Women",
+            "Sprite": "[](#sprite8-p44)"
+        },
+        "East Asian Games Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Guangdong - Hong Kong Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gulf Clubs Championship": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gulf Cup of Nations": {
+            "Proper": "Gulf Cup of Nations",
+            "Sprite": null
+        },
+        "SAFF Championship": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "SAFF Championship Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Southeast Asian Games": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Southeast Asian Games Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "WAFF Championship": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Australia": {
+        "A-League": {
+            "Proper": "A-League",
+            "Sprite": "[](#sprite7-p351)"
+        },
+        "Brisbane Premier League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "FFA Cup": {
+            "Proper": "FFA Cup",
+            "Sprite": "[](#sprite7-p446)"
+        },
+        "NPL ACT": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "NPL Finals Series": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "NPL NSW": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "NPL Northern NSW": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "NPL Queensland": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "NPL South Australian": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "NPL Tasmania": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "NPL Victoria": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "NPL Western Australia": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "W-League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Y-League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Australia & Oceania": {
+        "OFC Champions League": {
+            "Proper": "OFC Champions League",
+            "Sprite": "[](#sprite7-p407)"
+        },
+        "OFC Championship U16": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "OFC Championship U16 Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "OFC Championship U19": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "OFC Championship U19 Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "OFC Championship U23": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "OFC Nations Cup": {
+            "Proper": "OFC Nations Cup",
+            "Sprite": "[](#sprite8-p135)"
+        },
+        "OFC Nations Cup Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pacific Games": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pacific Games Women": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Austria": {
+        "2. Liga": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bundesliga Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "OFB Cup": {
+            "Proper": "\u00d6FB-Cup",
+            "Sprite": "[](#sprite8-p65)"
+        },
+        "Regionalliga Central": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Regionalliga East": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Regionalliga West": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Regionalliga West - Promotion Group": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Regionalliga West - Salzburg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Regionalliga West - Tyrol": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Regionalliga West - Vorarlberg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tipico Bundesliga": {
+            "Proper": "Austrian Football Bundesliga",
+            "Sprite": "[](#sprite7-p391)"
+        }
+    },
+    "Azerbaijan": {
+        "Azerbaijan Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Premier League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Bahrain": {
+        "Bahrain Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "King's Cup": {
+            "Proper": "King's Cup",
+            "Sprite": null
+        },
+        "Premier League": {
+            "Proper": "Bahraini Premier League",
+            "Sprite": "[](#sprite8-p113)"
+        }
+    },
+    "Bangladesh": {
+        "Federation Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Premier League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Belarus": {
+        "Belarusian Cup": {
+            "Proper": "Belarus Cup",
+            "Sprite": "[](#sprite8-p68)"
+        },
+        "Division 2 - Group A": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division 2 - Group B": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division 2 - Play Offs": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division 2 - Promotion Group": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pershaya Liga": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": "Belarusian Super Cup",
+            "Sprite": null
+        },
+        "Vysshaya Liga": {
+            "Proper": "Vysheyshaya Liga",
+            "Sprite": "[](#sprite8-p69)"
+        },
+        "Vysshaya Liga Reserve": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Vysshaya Liga Women": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Belgium": {
+        "1st National Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Belgian Cup": {
+            "Proper": "Coupe de Belgique",
+            "Sprite": "[](#sprite8-p64)"
+        },
+        "Belgian Cup Women": {
+            "Proper": "Coupe de Belgique Women",
+            "Sprite": "[](#sprite8-p64)"
+        },
+        "Jupiler League": {
+            "Proper": "Belgian Pro League",
+            "Sprite": "[](#sprite7-p375)"
+        },
+        "National Division 1": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pro League U21": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Proximus League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Second Amateur Division Group ACFF": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Second Amateur Division Group VFV A": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Second Amateur Division Group VFV B": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Second Amateur Division Play Offs": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": "Belgische Super Cup",
+            "Sprite": null
+        },
+        "Super League Women": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Benin": {
+        "Ligue 1": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Bermuda": {
+        "Premier League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Bolivia": {
+        "Division Profesional": {
+            "Proper": "Liga de F\u00fatbol Profesional Boliviano",
+            "Sprite": "[](#sprite3-p58)"
+        },
+        "Nacional B": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Bosnia and Herzegovina": {
+        "Bosnia and Herzegovina Cup": {
+            "Proper": "Kup Bosne i Hercegovine",
+            "Sprite": null
+        },
+        "Premier League": {
+            "Proper": "Premijer liga Bosne i Hercegovine",
+            "Sprite": "[](#sprite7-p419)"
+        },
+        "Prva Liga - FBiH": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Prva Liga - RS": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Botswana": {
+        "Premier League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Brazil": {
+        "Brasileiro A2 Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Brasileiro U20": {
+            "Proper": "Brasileiro Sub-20",
+            "Sprite": "[](#sprite7-p349)"
+        },
+        "Brasileiro U23": {
+            "Proper": "Brasileiro Sub-23",
+            "Sprite": "[](#sprite7-p349)"
+        },
+        "Brasileiro Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Campeonato Acreano": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Campeonato Alagoano": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Campeonato Amapaense": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Campeonato Amazonense": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Campeonato Baiano": {
+            "Proper": "Baiano 1",
+            "Sprite": "[](#sprite7-p461)"
+        },
+        "Campeonato Brasiliense": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Campeonato Capixaba": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Campeonato Carioca": {
+            "Proper": "Carioca 1",
+            "Sprite": "[](#sprite3-p51)"
+        },
+        "Campeonato Carioca B1": {
+            "Proper": "Carioca B1",
+            "Sprite": "[](#sprite3-p51)"
+        },
+        "Campeonato Catarinense": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Campeonato Cearense": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Campeonato Gaucho": {
+            "Proper": "Gaucho 1",
+            "Sprite": "[](#sprite7-p462)"
+        },
+        "Campeonato Gaucho 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Campeonato Goiano": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Campeonato Maranhense": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Campeonato Matogrossense": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Campeonato Mineiro": {
+            "Proper": "Mineiro 1",
+            "Sprite": "[](#sprite7-p460)"
+        },
+        "Campeonato Mineiro 2": {
+            "Proper": "Mineiro 2",
+            "Sprite": "[](#sprite7-p460)"
+        },
+        "Campeonato Paraense": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Campeonato Paraibano": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Campeonato Paranaense": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Campeonato Paulista": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Campeonato Paulista A2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Campeonato Pernambucano": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Campeonato Piauiense": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Campeonato Potiguar": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Campeonato Rondoniense": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Campeonato Roraimense": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Campeonato Sergipano": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Campeonato Sul-Matogrossense": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Campeonato Tocantinense": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Copa Paulista": {
+            "Proper": "Paulista A1",
+            "Sprite": "[](#sprite7-p463)"
+        },
+        "Copa Sao Paulo de juniores": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Copa Verde": {
+            "Proper": "Copa Verde",
+            "Sprite": "[](#sprite3-p52)"
+        },
+        "Copa do Brasil": {
+            "Proper": "Copa do Brasil",
+            "Sprite": "[](#sprite7-p429)"
+        },
+        "Copa do Brasil U20": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Copa do Nordeste": {
+            "Proper": "Copa do Nordeste",
+            "Sprite": "[](#sprite7-p465)"
+        },
+        "Primeira Liga": {
+            "Proper": "Primeira Liga",
+            "Sprite": "[](#sprite7-p459)"
+        },
+        "Serie A": {
+            "Proper": "Brasileiro S\u00e9rie A",
+            "Sprite": "[](#sprite7-p349)"
+        },
+        "Serie B": {
+            "Proper": "Brasileiro S\u00e9rie B",
+            "Sprite": "[](#sprite7-p350)"
+        },
+        "Serie C": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Serie D": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Supercopa do Brasil": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Bulgaria": {
+        "Bulgarian Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Parva liga": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Third League - North-East": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Third League - North-West": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Third League - South-East": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Third League - South-West": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Vtora liga": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Burkina Faso": {
+        "Premier League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Burundi": {
+        "Coupe du President": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Primus League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Coupe": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Cambodia": {
+        "C-League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Cameroon": {
+        "Elite One": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Elite Two": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Canada": {
+        "CSL": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Canadian Premier League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Championship": {
+            "Proper": "Canadian Championship",
+            "Sprite": "[](#sprite8-p120)"
+        },
+        "U Sports": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Cape Verde": {
+        "Campeonato Nacional": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Chile": {
+        "Chilean Cup": {
+            "Proper": "Copa Chile",
+            "Sprite": "[](#sprite3-p53)"
+        },
+        "Primera B": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Primera Division": {
+            "Proper": "Campeonato Nacional",
+            "Sprite": "[](#sprite7-p359)"
+        },
+        "Segunda Division": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": "Supercopa de Chile",
+            "Sprite": "[](#sprite7-p466)"
+        }
+    },
+    "China": {
+        "FA Cup": {
+            "Proper": "Chinese FA Cup",
+            "Sprite": "[](#sprite8-p132)"
+        },
+        "Jia League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": "Chinese FA Super Cup",
+            "Sprite": "[](#sprite8-p131)"
+        },
+        "Super League": {
+            "Proper": "Chinese Super League",
+            "Sprite": "[](#sprite3-p34)"
+        },
+        "Super League Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Yi League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Colombia": {
+        "Copa Colombia": {
+            "Proper": "Copa Colombia",
+            "Sprite": "[](#sprite7-p467)"
+        },
+        "Liga Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Primera A": {
+            "Proper": "Liga \u00c1guila",
+            "Sprite": "[](#sprite7-p357)"
+        },
+        "Primera B": {
+            "Proper": "Torneo \u00c1guila",
+            "Sprite": "[](#sprite8-p29)"
+        },
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Costa Rica": {
+        "Liga de Ascenso": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Primera Division": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Croatia": {
+        "1. HNL": {
+            "Proper": "1. HNL",
+            "Sprite": "[](#sprite3-p71)"
+        },
+        "2. HNL": {
+            "Proper": "2. HNL",
+            "Sprite": null
+        },
+        "3. HNL Center": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "3. HNL East": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "3. HNL North": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "3. HNL South": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "3. HNL West": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Croatian Cup": {
+            "Proper": "Hrvatski kup",
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": "Hrvatski superkup",
+            "Sprite": null
+        }
+    },
+    "Cura\u00e7ao": {
+        "Prom\u00e9 Divishon": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Cyprus": {
+        "Cyprus Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "First Division": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Czech Republic": {
+        "1. Liga": {
+            "Proper": "Czech Liga",
+            "Sprite": "[](#sprite7-p445)"
+        },
+        "1. Liga Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "2. Liga Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "CFL": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "CFL - Group A": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "CFL - Group B": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Czech Cup Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division A": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division B": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division C": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division D": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division E": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division F": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Jihocesky KP": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Jihomoravsky KP": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Karlovarsky KP": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kralovehradecky KP": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Liberecky KP": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "MOL Cup": {
+            "Proper": "Poh\u00e1r FA\u010cR",
+            "Sprite": "[](#sprite8-p63)"
+        },
+        "MSFL": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Moravskoslezsky KP": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Olomoucky KP": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pardubicky KP": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Plzensky KP": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Prazsky prebor": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Stredocesky KP": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": "\u010cesk\u00fd Superpoh\u00e1r",
+            "Sprite": null
+        },
+        "Tipsport liga": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "U19 League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ustecky KP": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Vysocina KP": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Youth League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Zlinsky KP": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "DR Congo": {
+        "Ligue 1": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Denmark": {
+        "1st Division": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "2nd Division - Group 1": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "2nd Division - Group 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "2nd Division - Group 3": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "2nd Division - Promotion Group": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "2nd Division - Relegation Group": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Danish Cup Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Elitedivisionen Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Landspokal Cup": {
+            "Proper": "DBU Pokalen",
+            "Sprite": "[](#sprite8-p130)"
+        },
+        "Superliga": {
+            "Proper": "Danish Superliga",
+            "Sprite": "[](#sprite7-p385)"
+        }
+    },
+    "Djibouti": {
+        "Division 1": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Dominican Republic": {
+        "LDF": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Ecuador": {
+        "Copa Ecuador": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Liga Pro": {
+            "Proper": "Primera A",
+            "Sprite": "[](#sprite7-p469)"
+        },
+        "Serie B": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Egypt": {
+        "Egypt Cup": {
+            "Proper": "Egypt Cup",
+            "Sprite": "[](#sprite1-p328)"
+        },
+        "Premier League": {
+            "Proper": "Egyptian Premier League",
+            "Sprite": "[](#sprite8-p179)"
+        },
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "El Salvador": {
+        "Primera Division": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "England": {
+        "Championship": {
+            "Proper": "Football League Championship",
+            "Sprite": "[](#sprite8-p102)"
+        },
+        "EFL Cup": {
+            "Proper": "EFL Cup",
+            "Sprite": "[](#sprite8-p79)"
+        },
+        "EFL Trophy": {
+            "Proper": "EFL Trophy",
+            "Sprite": "[](#sprite8-p103)"
+        },
+        "FA Community Shield": {
+            "Proper": "FA Community Shield",
+            "Sprite": "[](#sprite8-p61)"
+        },
+        "FA Cup": {
+            "Proper": "FA Cup",
+            "Sprite": "[](#sprite7-p368)"
+        },
+        "FA Trophy": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "FA Youth Cup": {
+            "Proper": "FA Youth Cup",
+            "Sprite": "[](#sprite8-p73)"
+        },
+        "Isthmian League Premier Division": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "League One": {
+            "Proper": "Football League One",
+            "Sprite": "[](#sprite8-p101)"
+        },
+        "League Two": {
+            "Proper": "Football League Two",
+            "Sprite": "[](#sprite8-p100)"
+        },
+        "NPL Premier Division": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "National League": {
+            "Proper": "National League",
+            "Sprite": "[](#sprite8-p217)"
+        },
+        "National League North": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "National League South": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Non League Premier - Play Offs": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Premier League": {
+            "Proper": "Premier League",
+            "Sprite": "[](#sprite7-p327)"
+        },
+        "Premier League 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Premier League Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Premier League International Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Premier League U18": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Professional Development League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Southern League Central Division": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Southern League South Division": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Women's FA Community Shield": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Women's League Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Women\u2019s Championship": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Women\u2019s FA Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Women\u2019s Super League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Estonia": {
+        "Esiliiga": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Estonian Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Meistriliiga": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Eswatini": {
+        "Swazi MTN Premier League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Ethiopia": {
+        "Premier League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Europe": {
+        "Atlantic Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Baltic Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Baltic Cup U21": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Champions League": {
+            "Proper": "UEFA Champions League",
+            "Sprite": "[](#sprite7-p403)"
+        },
+        "Champions League Women": {
+            "Proper": "UEFA Women's Champions League",
+            "Sprite": "[](#sprite8-p144)"
+        },
+        "Czech-Slovak Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Elite League U20": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Emirates Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Euro": {
+            "Proper": "European Championship",
+            "Sprite": "[](#sprite7-p361)"
+        },
+        "Euro U17": {
+            "Proper": "UEFA U17 Championship",
+            "Sprite": "[](#sprite8-p124)"
+        },
+        "Euro U17 Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Euro U19": {
+            "Proper": "UEFA U19 Championship",
+            "Sprite": "[](#sprite8-p125)"
+        },
+        "Euro U19 Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Euro U21": {
+            "Proper": "UEFA U21 Championship",
+            "Sprite": "[](#sprite8-p126)"
+        },
+        "Euro Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Europa League": {
+            "Proper": "UEFA Europa League",
+            "Sprite": "[](#sprite7-p408)"
+        },
+        "Marbella Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Premier League (Crimea)": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "UEFA Nations League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "UEFA Regions' Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "UEFA Super Cup": {
+            "Proper": "UEFA Super Cup",
+            "Sprite": "[](#sprite8-p57)"
+        },
+        "UEFA Youth League": {
+            "Proper": "UEFA Youth League",
+            "Sprite": "[](#sprite8-p127)"
+        },
+        "Uhren Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Faroe Islands": {
+        "Faroe Islands Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Premier League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Fiji": {
+        "Premier League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Finland": {
+        "Kakkonen Group A": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kakkonen Group B": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kakkonen Group C": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kakkonen Play Offs": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kakkosen Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kansallinen Liiga Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Suomen Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Suomen Cup Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Veikkausliiga": {
+            "Proper": "Veikkausliiga",
+            "Sprite": "[](#sprite7-p387)"
+        },
+        "Ykkonen": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "France": {
+        "Coupe de France": {
+            "Proper": "Coupe de France",
+            "Sprite": "[](#sprite7-p413)"
+        },
+        "Coupe de France Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Coupe de la Ligue": {
+            "Proper": "Coupe de la Ligue",
+            "Sprite": "[](#sprite8-p37)"
+        },
+        "Division 1 Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division 2 Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ligue 1": {
+            "Proper": "Ligue 1",
+            "Sprite": "[](#sprite7-p377)"
+        },
+        "Ligue 2": {
+            "Proper": "Ligue 2",
+            "Sprite": "[](#sprite7-p378)"
+        },
+        "National": {
+            "Proper": "Championnat National",
+            "Sprite": "[](#sprite8-p142)"
+        },
+        "National 2 - Group A": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "National 2 - Group B": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "National 2 - Group C": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "National 2 - Group D": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": "Troph\u00e9e des Champions",
+            "Sprite": "[](#sprite8-p47)"
+        },
+        "Super Cup Women": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Gabon": {
+        "Championnat D1": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Gambia": {
+        "GFA League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Georgia": {
+        "Crystalbet Erovnuli Liga": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Crystalbet Erovnuli Liga 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Georgian Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Germany": {
+        "2. Bundesliga": {
+            "Proper": "2. Bundesliga",
+            "Sprite": "[](#sprite8-p460)"
+        },
+        "2. Bundesliga Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "3. Liga": {
+            "Proper": "3. Liga",
+            "Sprite": "[](#sprite7-p412)"
+        },
+        "Bundesliga": {
+            "Proper": "Bundesliga",
+            "Sprite": "[](#sprite7-p328)"
+        },
+        "Bundesliga Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "DFB Junioren Pokal": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "DFB Pokal": {
+            "Proper": "DFB Pokal",
+            "Sprite": "[](#sprite7-p411)"
+        },
+        "DFB Pokal Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Junioren Bundesliga North": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Junioren Bundesliga Play Offs": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Junioren Bundesliga South": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Junioren Bundesliga West": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oberliga Baden-W\u00fcrttemberg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oberliga Bayern": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oberliga Bayern - Relegation": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oberliga Bayern Nord": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oberliga Bayern S\u00fcd": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oberliga Bremen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oberliga Hamburg": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oberliga Hessen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oberliga Mittelrhein": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oberliga NOFV - Relegation": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oberliga NOFV- Sud": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oberliga NOFV-Nord": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oberliga NRW": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oberliga Niederrhein": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oberliga Niedersachsen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oberliga Play Offs": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oberliga Rheinland-Pfalz/Saar": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oberliga Schleswig-Holstein": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oberliga Sudwest": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Oberliga Westfalen": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Regionalliga Bayern": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Regionalliga Nordost": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Regionalliga North": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Regionalliga Play Offs": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Regionalliga Sudwest": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Regionalliga West": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": "DFL-Supercup",
+            "Sprite": "[](#sprite8-p51)"
+        },
+        "Telekom Cup - winter": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Ghana": {
+        "Premier League": {
+            "Proper": "Ghana Premier League",
+            "Sprite": null
+        },
+        "Special Competition": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Gibraltar": {
+        "Gibraltar Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "League Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "National League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Greece": {
+        "Football League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gamma Ethniki - Group 1": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gamma Ethniki - Group 10": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gamma Ethniki - Group 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gamma Ethniki - Group 3": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gamma Ethniki - Group 4": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gamma Ethniki - Group 5": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gamma Ethniki - Group 6": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gamma Ethniki - Group 7": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gamma Ethniki - Group 8": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gamma Ethniki - Group 9": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Gamma Ethniki - Promotion Play-offs": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Greek Cup": {
+            "Proper": "Greek Cup",
+            "Sprite": null
+        },
+        "Super League": {
+            "Proper": "Super League Greece",
+            "Sprite": "[](#sprite7-p380)"
+        },
+        "Super League 2": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Guatemala": {
+        "Liga Nacional": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Guinea": {
+        "Ligue 1": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Haiti": {
+        "Championnat National": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Honduras": {
+        "Liga Nacional": {
+            "Proper": "Liga Nacional de F\u00fatbol Profesional de Honduras",
+            "Sprite": null
+        }
+    },
+    "Hong Kong": {
+        "FA Cup": {
+            "Proper": "Hong Kong FA Cup",
+            "Sprite": null
+        },
+        "Premier League": {
+            "Proper": "Hong Kong Premier League",
+            "Sprite": "[](#sprite7-p481)"
+        },
+        "Senior Shield": {
+            "Proper": "Hong Kong Senior Challenge Shield",
+            "Sprite": null
+        }
+    },
+    "Hungary": {
+        "Hungarian Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Merkantil Bank Liga": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "NB I Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "NB III - Centre": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "NB III - East": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "NB III - West": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "OTP Bank Liga": {
+            "Proper": "Nemzeti Bajnoks\u00e1g I",
+            "Sprite": null
+        }
+    },
+    "Iceland": {
+        "Division 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Fotbolti.net Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Icelandic Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Icelandic Cup Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Inkasso-deildin": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "League Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pepsideild": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Reykjavik Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Urvalsdeild Women": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "India": {
+        "Calcutta Football League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Durand Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hero Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "I-League": {
+            "Proper": "I-League",
+            "Sprite": "[](#sprite3-p35)"
+        },
+        "ISL": {
+            "Proper": "Indian Super League",
+            "Sprite": "[](#sprite7-p330)"
+        },
+        "Santosh Trophy": {
+            "Proper": "Santosh Trophy",
+            "Sprite": "[](#sprite8-p121)"
+        }
+    },
+    "Indonesia": {
+        "Liga 1": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Liga 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Piala Indonesia": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "President Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Iran": {
+        "Division 1": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Hazfi Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Persian Gulf Pro League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Iraq": {
+        "Super League": {
+            "Proper": "Iraqi Premier League",
+            "Sprite": "[](#sprite7-p483)"
+        }
+    },
+    "Ireland": {
+        "Division 1": {
+            "Proper": "League of Ireland First Division",
+            "Sprite": "[](#sprite3-p49)"
+        },
+        "FAI Cup": {
+            "Proper": "FAI Cup",
+            "Sprite": null
+        },
+        "League Cup": {
+            "Proper": "League of Ireland Cup",
+            "Sprite": null
+        },
+        "National League Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Premier Division": {
+            "Proper": "League of Ireland Premier Division",
+            "Sprite": "[](#sprite3-p49)"
+        },
+        "Super Cup": {
+            "Proper": "President's Cup",
+            "Sprite": null
+        }
+    },
+    "Israel": {
+        "Leumit League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Liga Alef - Promotion Play Offs": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Liga Alef - Relegation": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Liga Alef North": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Liga Alef South": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ligat ha'Al": {
+            "Proper": "Ligat ha-Al",
+            "Sprite": "[](#sprite7-p389)"
+        },
+        "State Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Toto Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Italy": {
+        "Coppa Italia": {
+            "Proper": "Coppa Italia",
+            "Sprite": "[](#sprite7-p414)"
+        },
+        "Coppa Italia Primavera": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Coppa Italia Serie C": {
+            "Proper": "Coppa Italia Lega Pro",
+            "Sprite": "[](#sprite8-p36)"
+        },
+        "Coppa Italia Serie D": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Coppa Italia Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Primavera 1": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Primavera 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Serie A": {
+            "Proper": "Serie A",
+            "Sprite": "[](#sprite7-p370)"
+        },
+        "Serie A Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Serie B": {
+            "Proper": "Serie B",
+            "Sprite": "[](#sprite7-p371)"
+        },
+        "Serie B Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Serie C - Group A": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Serie C - Group B": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Serie C - Group C": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Serie C - Play Out": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Serie C - Promotion - Play Offs": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Serie D - Group A": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Serie D - Group B": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Serie D - Group C": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Serie D - Group D": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Serie D - Group E": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Serie D - Group F": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Serie D - Group G": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Serie D - Group H": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Serie D - Group I": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Serie D - Play Offs": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Serie D - Play Out": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Serie D - Winners stage": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": "Supercoppa Italiana",
+            "Sprite": "[](#sprite8-p52)"
+        },
+        "Super Cup (Serie C)": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Supercoppa Primavera": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Ivory Coast": {
+        "Ligue 1": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Jamaica": {
+        "Premier League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Japan": {
+        "Emperors Cup": {
+            "Proper": "Emperor's Cup",
+            "Sprite": "[](#sprite7-p440)"
+        },
+        "Empress's Cup Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "J Youth Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "J1 League": {
+            "Proper": "J1 League",
+            "Sprite": "[](#sprite3-p45)"
+        },
+        "J2 League": {
+            "Proper": "J2 League",
+            "Sprite": "[](#sprite3-p46)"
+        },
+        "J3 League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Nadeshiko League Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": "Japanese Super Cup",
+            "Sprite": "[](#sprite8-p60)"
+        },
+        "YBC Levain Cup": {
+            "Proper": "J-League Cup",
+            "Sprite": "[](#sprite7-p430)"
+        }
+    },
+    "Jordan": {
+        "Jordan Cup": {
+            "Proper": "Jordan FA Cup",
+            "Sprite": null
+        },
+        "Premier League": {
+            "Proper": "Al-Manaseer Jordanian Pro League",
+            "Sprite": "[](#sprite7-p484)"
+        },
+        "Shield Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": "Jordan Super Cup",
+            "Sprite": null
+        }
+    },
+    "Kazakhstan": {
+        "First Division": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kazakhstan Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Premier League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Kenya": {
+        "Premier League": {
+            "Proper": "Kenyan Premier League",
+            "Sprite": "[](#sprite8-p112)"
+        }
+    },
+    "Kosovo": {
+        "Kosovar Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Superliga": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Kuwait": {
+        "Crown Prince Cup": {
+            "Proper": "Kuwait Crown Prince Cup",
+            "Sprite": null
+        },
+        "Emir Cup": {
+            "Proper": "Kuwait Emir Cup",
+            "Sprite": null
+        },
+        "Premier League": {
+            "Proper": "Kuwait Premier League",
+            "Sprite": "[](#sprite8-p1)"
+        },
+        "Super Cup": {
+            "Proper": "Kuwait Super Cup",
+            "Sprite": null
+        }
+    },
+    "Kyrgyzstan": {
+        "Premier Liga": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Laos": {
+        "Lao League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Latvia": {
+        "1. Liga": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Latvian Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "League Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Optibet Virsliga": {
+            "Proper": "Latvian Higher League",
+            "Sprite": "[](#sprite8-p304)"
+        }
+    },
+    "Lebanon": {
+        "Premier League": {
+            "Proper": "Lebanese Premier League",
+            "Sprite": "[](#sprite8-p111)"
+        },
+        "Super Cup": {
+            "Proper": "Lebanese Super Cup",
+            "Sprite": null
+        }
+    },
+    "Lesotho": {
+        "Premier League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Liberia": {
+        "LFA First Division": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Libya": {
+        "Premier League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Liechtenstein": {
+        "Liechtenstein Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Lithuania": {
+        "A Lyga": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "I Lyga": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Lithuanian Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Luxembourg": {
+        "Luxembourg Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "National Division": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Macao": {
+        "Elite League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Malawi": {
+        "Super League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Malaysia": {
+        "FA Cup": {
+            "Proper": "Piala FA Malaysia",
+            "Sprite": "[](#sprite8-p110)"
+        },
+        "Malaysia Cup": {
+            "Proper": "Piala Malaysia",
+            "Sprite": null
+        },
+        "Piala Sumbangsih": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Premier League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super League": {
+            "Proper": "Malaysia Super League",
+            "Sprite": "[](#sprite7-p464)"
+        }
+    },
+    "Maldives": {
+        "Dhivehi Premier League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Male League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Mali": {
+        "Premiere Division": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Malta": {
+        "Division 1": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "FA Trophy": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Premier League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Summer Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Mauritania": {
+        "Ligue 1": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Mauritius": {
+        "Mauritian League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Mexico": {
+        "Campe\u00f3n de Campeones": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Copa Mexico": {
+            "Proper": "Copa MX",
+            "Sprite": "[](#sprite7-p416)"
+        },
+        "Copa por Mexico": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Liga MX": {
+            "Proper": "Liga MX",
+            "Sprite": "[](#sprite3-p43)"
+        },
+        "Liga MX Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Liga Premier Serie A": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Liga Premier Serie B": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Liga de Expansion MX": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Moldova": {
+        "Divizia Nationala": {
+            "Proper": "Moldovan National Division",
+            "Sprite": "[](#sprite8-p306)"
+        },
+        "Moldovan Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Mongolia": {
+        "Premier League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Montenegro": {
+        "Druga Liga": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Montenegrin Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Prva Crnogorska Liga": {
+            "Proper": "Montenegrin First League",
+            "Sprite": "[](#sprite8-p312)"
+        }
+    },
+    "Morocco": {
+        "Botola 2": {
+            "Proper": "Botola 2",
+            "Sprite": "[](#sprite7-p437)"
+        },
+        "Botola Pro": {
+            "Proper": "Botola Pro",
+            "Sprite": "[](#sprite7-p437)"
+        },
+        "Coupe du Trone": {
+            "Proper": "Coupe du Tr\u00f4ne",
+            "Sprite": null
+        }
+    },
+    "Mozambique": {
+        "Mocambola": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Myanmar": {
+        "National League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Namibia": {
+        "MTC Premiership": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Netherlands": {
+        "Derde Divisie": {
+            "Proper": "Derde Divisie",
+            "Sprite": null
+        },
+        "Divisie 1 U18": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Divisie 1 U21": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Eerste Divisie": {
+            "Proper": "Eerste Divisie",
+            "Sprite": "[](#sprite7-p373)"
+        },
+        "Eredivisie": {
+            "Proper": "Eredivisie",
+            "Sprite": "[](#sprite7-p372)"
+        },
+        "Eredivisie Cup Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Eredivisie Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "KNVB Beker": {
+            "Proper": "KNVB Beker",
+            "Sprite": "[](#sprite8-p49)"
+        },
+        "KNVB Beker Women": {
+            "Proper": "KNVB Beker",
+            "Sprite": "[](#sprite8-p49)"
+        },
+        "Super Cup": {
+            "Proper": "Johan Cruijff Schaal",
+            "Sprite": "[](#sprite8-p48)"
+        },
+        "Tweede Divisie": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "New Zealand": {
+        "Football Championship": {
+            "Proper": "New Zealand Football Championship",
+            "Sprite": "[](#sprite8-p139)"
+        },
+        "National League Women": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Nicaragua": {
+        "Liga Primera": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Liga Primera U20": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Niger": {
+        "Ligue 1": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Nigeria": {
+        "Aiteo Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "NNL": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "NPFL": {
+            "Proper": "Nigeria Premier League",
+            "Sprite": "[](#sprite7-p470)"
+        },
+        "NPFL Pre-season": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "North & Central America": {
+        "CONCACAF Champions League": {
+            "Proper": "CONCACAF Champions League",
+            "Sprite": "[](#sprite7-p406)"
+        },
+        "CONCACAF Championship U17": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "CONCACAF Championship U20": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "CONCACAF Championship Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "CONCACAF Championship Women U17": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "CONCACAF Championship Women U20": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "CONCACAF Cup": {
+            "Proper": "CONCACAF Gold Cup",
+            "Sprite": "[](#sprite7-p335)"
+        },
+        "CONCACAF League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "CONCACAF Nations League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Campeones Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Caribbean Club Championship": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Caribbean Club Shield": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Caribbean Cup": {
+            "Proper": "Caribbean Cup",
+            "Sprite": "[](#sprite8-p43)"
+        },
+        "Central American & Caribbean Games": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Central American & Caribbean Games Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Copa Centroamericana": {
+            "Proper": "Copa Centroamericana",
+            "Sprite": "[](#sprite8-p31)"
+        },
+        "Gold Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Leagues Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "North Macedonia": {
+        "1. MFL": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "2. MFL": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Macedonian Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Northern Ireland": {
+        "Charity Shield": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Irish Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Irish League Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "NIFL Championship": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "NIFL Premiership": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Premiership Women": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Norway": {
+        "Division 2 - Group 1": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division 2 - Group 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division 3 - Group 1": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division 3 - Group 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division 3 - Group 3": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division 3 - Group 4": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division 3 - Group 5": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division 3 - Group 6": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Eliteserien": {
+            "Proper": "Eliteserien",
+            "Sprite": "[](#sprite8-p383)"
+        },
+        "Junior Elite Tournament": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Junior U19": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "NM Cup": {
+            "Proper": "NM Cupen",
+            "Sprite": "[](#sprite8-p116)"
+        },
+        "Norway Cup Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "OBOS-ligaen": {
+            "Proper": "1. divisjon",
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Toppserien Women": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Oman": {
+        "Professional League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sultan Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Pakistan": {
+        "Premier League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Palestine": {
+        "West Bank League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Panama": {
+        "LPF": {
+            "Proper": "Liga Paname\u00f1a de F\u00fatbol",
+            "Sprite": "[](#sprite8-p317)"
+        }
+    },
+    "Paraguay": {
+        "Copa Paraguay": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division Intermedia": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Primera Division": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Peru": {
+        "Copa Bicentenario": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Copa Peru": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Liga 1": {
+            "Proper": "Peruvian Primera Divisi\u00f3n",
+            "Sprite": "[](#sprite3-p55)"
+        },
+        "Liga 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Supercopa Peruana": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Philippines": {
+        "Copa Paulino Alcantara": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "PFL": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Poland": {
+        "Central Youth League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division 1": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ekstraklasa": {
+            "Proper": "Ekstraklasa",
+            "Sprite": "[](#sprite7-p381)"
+        },
+        "Ekstraliga Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "III Liga - Group I": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "III Liga - Group II": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "III Liga - Group III": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "III Liga - Group IV": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Polish Cup": {
+            "Proper": "Puchar Polski",
+            "Sprite": "[](#sprite8-p66)"
+        },
+        "Polish Cup Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": "SuperPuchar Polski",
+            "Sprite": "[](#sprite8-p71)"
+        }
+    },
+    "Portugal": {
+        "Campeonato de Portugal": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "League Cup": {
+            "Proper": "Ta\u00e7a da Liga",
+            "Sprite": "[](#sprite8-p75)"
+        },
+        "Liga BPI Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Liga Portugal 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Liga Revelacao U23": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Primeira Liga": {
+            "Proper": "Primeira Liga",
+            "Sprite": "[](#sprite7-p374)"
+        },
+        "Super Cup": {
+            "Proper": "Superta\u00e7a C\u00e2ndido de Oliveira",
+            "Sprite": "[](#sprite8-p53)"
+        },
+        "Super Cup Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ta\u00e7a da Liga Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ta\u00e7a de Portugal": {
+            "Proper": "Ta\u00e7a de Portugal",
+            "Sprite": "[](#sprite7-p417)"
+        },
+        "Ta\u00e7a de Portugal Women": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Qatar": {
+        "Crown Prince Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "QSL": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "QSL Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Sheikh Jassim Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Republic of the Congo": {
+        "Ligue 1": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Romania": {
+        "Liga 1": {
+            "Proper": "Liga I",
+            "Sprite": "[](#sprite7-p393)"
+        },
+        "Liga 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Liga 3 - Seria 1": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Liga 3 - Seria 10": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Liga 3 - Seria 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Liga 3 - Seria 3": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Liga 3 - Seria 4": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Liga 3 - Seria 5": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Liga 3 - Seria 6": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Liga 3 - Seria 7": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Liga 3 - Seria 8": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Liga 3 - Seria 9": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Romanian Cup": {
+            "Proper": "Cupa Rom\u00e2niei",
+            "Sprite": "[](#sprite8-p62)"
+        },
+        "Romanian Cup Women": {
+            "Proper": "Cupa Rom\u00e2niei Fotbal Feminin",
+            "Sprite": "[](#sprite8-p62)"
+        },
+        "Super Cup": {
+            "Proper": "Supercupa Rom\u00e2niei",
+            "Sprite": null
+        },
+        "Superliga Women": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Russia": {
+        "FNL": {
+            "Proper": "Football National League",
+            "Sprite": "[](#sprite8-p58)"
+        },
+        "FNL Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "PFL - Group 1": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "PFL - Group 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "PFL - Group 3": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "PFL - Group 4": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Premier League": {
+            "Proper": "Russian Premier League",
+            "Sprite": "[](#sprite7-p365)"
+        },
+        "Russian Cup": {
+            "Proper": "Russian Cup",
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": "Russian Super Cup",
+            "Sprite": null
+        },
+        "Supreme Division Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Youth League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Rwanda": {
+        "Premier League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "R\u00e9union": {
+        "Regionale 1": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "San Marino": {
+        "Campionato Sammarinese": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Coppa Titano": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Saudi Arabia": {
+        "Division 1": {
+            "Proper": "Saudi First Division",
+            "Sprite": null
+        },
+        "King Cup": {
+            "Proper": "Kings Cup",
+            "Sprite": null
+        },
+        "Saudi Professional League": {
+            "Proper": "Saudi Pro League",
+            "Sprite": "[](#sprite8-p106)"
+        },
+        "Super Cup": {
+            "Proper": "Saudi Super Cup",
+            "Sprite": null
+        }
+    },
+    "Scotland": {
+        "Challenge Cup": {
+            "Proper": "Scottish Challenge Cup",
+            "Sprite": "[](#sprite3-p67)"
+        },
+        "Championship": {
+            "Proper": "Scottish Championship",
+            "Sprite": "[](#sprite3-p66)"
+        },
+        "Highland League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "League Cup": {
+            "Proper": "Scottish League Cup",
+            "Sprite": "[](#sprite3-p64)"
+        },
+        "League One": {
+            "Proper": "Scottish League One",
+            "Sprite": "[](#sprite3-p62)"
+        },
+        "League Two": {
+            "Proper": "Scottish League Two",
+            "Sprite": "[](#sprite3-p63)"
+        },
+        "Lowland League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Premiership": {
+            "Proper": "Scottish Premiership",
+            "Sprite": "[](#sprite3-p48)"
+        },
+        "SWPL 1 Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "SWPL Cup Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Scottish Cup": {
+            "Proper": "Scottish Cup",
+            "Sprite": "[](#sprite3-p65)"
+        },
+        "Scottish Cup Women": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Senegal": {
+        "Ligue 1": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Serbia": {
+        "Prva Liga": {
+            "Proper": "Prva liga Srbije",
+            "Sprite": "[](#sprite8-p108)"
+        },
+        "Serbian Cup": {
+            "Proper": "Kup Srbije",
+            "Sprite": "[](#sprite8-p70)"
+        },
+        "Srpska Liga - Belgrade": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Srpska Liga - East": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Srpska Liga - Vojvodina": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Srpska Liga - West": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Liga": {
+            "Proper": "Super liga Srbije",
+            "Sprite": "[](#sprite8-p107)"
+        }
+    },
+    "Seychelles": {
+        "First Division League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Special Competition": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Sierra Leone": {
+        "Premier League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Singapore": {
+        "Premier League": {
+            "Proper": "S.League",
+            "Sprite": "[](#sprite3-p68)"
+        },
+        "Singapore Community Shield": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Singapore Cup": {
+            "Proper": "Singapore Cup",
+            "Sprite": "[](#sprite3-p72)"
+        }
+    },
+    "Slovakia": {
+        "1. Liga Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "2. liga": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Divison C Bratislava": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Divison C Central": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Divison C East": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Divison C West": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Fortuna liga": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Slovak Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Slovenia": {
+        "1. SZNL Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "2. SNL": {
+            "Proper": "2. SNL",
+            "Sprite": "[](#sprite8-p117)"
+        },
+        "3. SNL - East": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "3. SNL - West": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Prva liga": {
+            "Proper": "Slovenian PrvaLiga",
+            "Sprite": "[](#sprite8-p45)"
+        },
+        "Slovenian Cup": {
+            "Proper": "Pokal Nogometne zveze Slovenije",
+            "Sprite": "[](#sprite8-p109)"
+        },
+        "Super Cup": {
+            "Proper": "Slovenski superpokal",
+            "Sprite": null
+        }
+    },
+    "Somalia": {
+        "Nation Link Telecom Championship": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "South Africa": {
+        "Diski Challenge": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "GladAfrica Championship": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "MTN 8 Cup": {
+            "Proper": "MTN 8",
+            "Sprite": "[](#sprite3-p57)"
+        },
+        "Multichoice Diski Shield": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Nedbank Cup": {
+            "Proper": "Nedbank Cup",
+            "Sprite": "[](#sprite7-p474)"
+        },
+        "Premier League": {
+            "Proper": "Premier Soccer League",
+            "Sprite": "[](#sprite7-p471)"
+        },
+        "Telkom Knockout": {
+            "Proper": "Telkom Knockout",
+            "Sprite": "[](#sprite7-p475)"
+        }
+    },
+    "South America": {
+        "Copa Am\u00e9rica": {
+            "Proper": "Copa Am\u00e9rica",
+            "Sprite": "[](#sprite7-p400)"
+        },
+        "Copa Am\u00e9rica Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Copa Antel": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Copa Libertadores": {
+            "Proper": "Copa Libertadores",
+            "Sprite": "[](#sprite7-p360)"
+        },
+        "Copa Libertadores Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Copa Sudamericana": {
+            "Proper": "Copa Sudamericana",
+            "Sprite": "[](#sprite8-p386)"
+        },
+        "Recopa Sudamericana": {
+            "Proper": "Recopa Sudamericana",
+            "Sprite": "[](#sprite8-p56)"
+        },
+        "South American Championship U17": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "South American Championship U20": {
+            "Proper": "Sudamericano U20",
+            "Sprite": "[](#sprite7-p336)"
+        },
+        "South American Championship Women U17": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "South American Championship Women U20": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "South Korea": {
+        "K League 1": {
+            "Proper": "K League Classic",
+            "Sprite": "[](#sprite7-p354)"
+        },
+        "K League 2": {
+            "Proper": "K League Challenge",
+            "Sprite": "[](#sprite7-p355)"
+        },
+        "K3 League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Korean Cup": {
+            "Proper": "Korean FA Cup",
+            "Sprite": "[](#sprite8-p72)"
+        },
+        "League Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "WK League Women": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Spain": {
+        "Copa Federacion": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Copa de la Reina Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Copa del Rey": {
+            "Proper": "Copa del Rey",
+            "Sprite": "[](#sprite7-p415)"
+        },
+        "LaLiga": {
+            "Proper": "La Liga",
+            "Sprite": "[](#sprite7-p369)"
+        },
+        "LaLiga2": {
+            "Proper": "Segunda Divisi\u00f3n",
+            "Sprite": "[](#sprite7-p369)"
+        },
+        "Primera Division Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Segunda Division B - Group 1": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Segunda Division B - Group 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Segunda Division B - Group 3": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Segunda Division B - Group 4": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Segunda Division B - Group 5": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Segunda Division B Losers Play Offs": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Segunda Division B Play Offs": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Segunda Division B Play Out": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Segunda Division B Winners Play Offs": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": "Supercopa de Espa\u00f1a",
+            "Sprite": "[](#sprite8-p50)"
+        },
+        "Super Cup Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tercera Division - Group 1": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tercera Division - Group 10": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tercera Division - Group 11": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tercera Division - Group 12": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tercera Division - Group 13": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tercera Division - Group 14": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tercera Division - Group 15": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tercera Division - Group 16": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tercera Division - Group 17": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tercera Division - Group 18": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tercera Division - Group 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tercera Division - Group 3": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tercera Division - Group 4": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tercera Division - Group 5": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tercera Division - Group 6": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tercera Division - Group 7": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tercera Division - Group 8": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tercera Division - Group 9": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tercera Division - Play Offs": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tercera Division - Promotion Play Offs": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Sri Lanka": {
+        "Champions League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Sudan": {
+        "Premier League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Sweden": {
+        "Allsvenskan": {
+            "Proper": "Allsvenskan",
+            "Sprite": "[](#sprite7-p384)"
+        },
+        "Allsvenskan Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division 1 - Norra": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division 1 - Relegation": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division 1 - S\u00f6dra": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division 2 - Norra G\u00f6taland": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division 2 - Norra Svealand": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division 2 - Norrland": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division 2 - Promotion Group": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division 2 - S\u00f6dra Svealand": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division 2 - V\u00e4stra G\u00f6taland": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division 2 - \u00d6stra G\u00f6taland": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division 2 - \u00d6stra Svealand": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Elitettan Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": "Svenska Supercupen",
+            "Sprite": null
+        },
+        "Super Cup Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Superettan": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Svenska Cupen": {
+            "Proper": "Svenska Cupen",
+            "Sprite": "[](#sprite8-p129)"
+        },
+        "Svenska Cupen Women": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Switzerland": {
+        "1.Liga Classic Group 1": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "1.Liga Classic Group 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "1.Liga Classic Group 3": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "1.Liga Classic Play Offs": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Challenge League": {
+            "Proper": "Swiss Challenge League",
+            "Sprite": "[](#sprite8-p158)"
+        },
+        "Nationalliga A Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Promotion League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super League": {
+            "Proper": "Swiss Super League",
+            "Sprite": "[](#sprite7-p383)"
+        },
+        "Swiss Cup": {
+            "Proper": "Schweizer Cup",
+            "Sprite": "[](#sprite3-p75)"
+        }
+    },
+    "Syria": {
+        "Premier League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Syria Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Taiwan": {
+        "Mulan Football League Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Premier League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Tajikistan": {
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Vysshaya Liga": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Tanzania": {
+        "Ligi Kuu Bara": {
+            "Proper": "Ligi kuu Bara",
+            "Sprite": "[](#sprite8-p77)"
+        }
+    },
+    "Thailand": {
+        "Champions Cup": {
+            "Proper": "Thai League Cup",
+            "Sprite": "[](#sprite8-p115)"
+        },
+        "Thai FA Cup": {
+            "Proper": "Thai FA Cup",
+            "Sprite": "[](#sprite9-p11)"
+        },
+        "Thai League 1": {
+            "Proper": "Thai League",
+            "Sprite": "[](#sprite3-p69)"
+        },
+        "Thai League 2": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Togo": {
+        "Championnat National": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Trinidad and Tobago": {
+        "Pro League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Tunisia": {
+        "Ligue 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Ligue Professionnelle 1": {
+            "Proper": "Tunisian Ligue Professionnelle 1",
+            "Sprite": "[](#sprite3-p56)"
+        },
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tunisia Cup": {
+            "Proper": "Coupe de Tunisie",
+            "Sprite": "[](#sprite3-p59)"
+        }
+    },
+    "Turkey": {
+        "1. Lig": {
+            "Proper": "TFF First League",
+            "Sprite": "[](#sprite8-p59)"
+        },
+        "2. Lig Play Offs": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "2. Lig Red Group": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "2. Lig White Group": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "3. Lig Group 1": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "3. Lig Group 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "3. Lig Group 3": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "3. Lig Group 4": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": "T\u00fcrkiye S\u00fcper Kupas\u0131",
+            "Sprite": "[](#sprite3-p61)"
+        },
+        "Super Lig": {
+            "Proper": "S\u00fcper Lig",
+            "Sprite": "[](#sprite7-p379)"
+        },
+        "TFF 3. Lig Play Offs": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Turkish Cup": {
+            "Proper": "T\u00fcrkiye Kupas\u0131",
+            "Sprite": "[](#sprite8-p54)"
+        }
+    },
+    "Turkmenistan": {
+        "Yokary Liga": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Youth League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "USA": {
+        "Carolina Challenge Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "MLS": {
+            "Proper": "Major League Soccer",
+            "Sprite": "[](#sprite7-p345)"
+        },
+        "MLS is Back": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "NISA": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "NWSL Challenge Cup Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "NWSL Women": {
+            "Proper": "National Women's Soccer League",
+            "Sprite": "[](#sprite8-p143)"
+        },
+        "US Open Cup": {
+            "Proper": "US Open Cup",
+            "Sprite": "[](#sprite7-p418)"
+        },
+        "USL Championship": {
+            "Proper": "United Soccer League",
+            "Sprite": "[](#sprite3-p42)"
+        },
+        "USL League One": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "USL League Two": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Uganda": {
+        "Premier League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Ukraine": {
+        "Druha Liga": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Persha Liga": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Premier League": {
+            "Proper": "Ukrainian Premier League",
+            "Sprite": "[](#sprite7-p438)"
+        },
+        "Super Cup": {
+            "Proper": "Ukrainian Super Cup",
+            "Sprite": "[](#sprite8-p159)"
+        },
+        "Ukrainian Cup": {
+            "Proper": "Ukrainian Cup",
+            "Sprite": "[](#sprite7-p439)"
+        },
+        "Youth League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "United Arab Emirates": {
+        "Arabian Gulf Cup": {
+            "Proper": "Arabian Gulf Cup",
+            "Sprite": "[](#sprite3-p70)"
+        },
+        "Division 1": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Presidents Cup": {
+            "Proper": "Presidents Cup",
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": "Arabian Gulf Super Cup",
+            "Sprite": null
+        },
+        "UAE League": {
+            "Proper": "Arabian Gulf League",
+            "Sprite": "[](#sprite8-p105)"
+        }
+    },
+    "Uruguay": {
+        "Primera Division": {
+            "Proper": "Primera Divisi\u00f3n de Uruguay",
+            "Sprite": "[](#sprite7-p356)"
+        },
+        "Segunda Division": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Uzbekistan": {
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super League": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Uzbekistan Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Venezuela": {
+        "Copa Bicentenaria": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Copa Venezuela": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Primera Division": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Segunda Division": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Vietnam": {
+        "National League Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Super Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "V.League 1": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "V.League 2": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Vietnamese Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Vietnamese Cup Women": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Wales": {
+        "Cymru Alliance": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Cymru North": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Cymru Premier": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Cymru South": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Division 1": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "FA Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "League Cup": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "World": {
+        "Algarve Cup Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Arab Club Champions Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Arab Cup of Nations": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Audi Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Bangabandhu Gold Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "CEE Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "COTIF Tournament": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "China Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Club Friendly": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Club Friendly Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "FIFA Club World Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "FIFA Confederations Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Friendly International": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Friendly International Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "International Champions Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "International Champions Cup Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "International Tournament (Cyprus) Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Islamic Solidarity Games": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Istria Cup Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "J.League Cup / Copa Sudamericana": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kings Cup (Thailand)": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Kirin Cup (Japan)": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "La Manga Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Mediterranean Games": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Nordic Tournament U17": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Olympic Games": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Olympic Games Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pan American Games": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Pan American Games Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Premier League Asia Trophy": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "SheBelieves Cup Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Slovakia Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Toulon Tournament": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tournament of Nations Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Tournoi de France Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Trofeo Colombino": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Universiade": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Universiade Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Valentin Granatkin Memorial": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Viareggio Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "Visit Tucson Sun Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "World Cup": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "World Cup U17": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "World Cup U20": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "World Cup Women": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "World Cup Women U17": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "World Cup Women U20": {
+            "Proper": null,
+            "Sprite": null
+        },
+        "World Medical Football Championship": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Yemen": {
+        "Division 1": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Zambia": {
+        "Super League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    },
+    "Zimbabwe": {
+        "Premier Soccer League": {
+            "Proper": null,
+            "Sprite": null
+        }
+    }
+}

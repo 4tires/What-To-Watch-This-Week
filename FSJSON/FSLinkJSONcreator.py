@@ -20,7 +20,7 @@ def country_parser():
             country_name = country.find('a',href=True).get_text()
             country_href = country.find('a', href=True)['href']
             json_dict['Competitions'].update(league_parser(country_href, country_name))
-    with open('FSJSON\\fslinks.json','w') as fslinks:
+    with open('./FSJSON/fslinks.json','w') as fslinks:
         json.dump(json_dict, fslinks, indent=4, sort_keys=True)
 
 def league_parser(href, country):
