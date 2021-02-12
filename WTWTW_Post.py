@@ -1,5 +1,4 @@
-import calendar
-from datetime import datetime, timezone
+from datetime import datetime, timedelta
 import WTWTW
 """
 WTWTWmatches = {
@@ -32,18 +31,18 @@ WTWTWmatches = {
         {'Time': '1255', 'id': 'g_1_QeeljIqU', 'Home': 'Wolfsberger AC', 'Away': 'Tottenham Hotspur', 'Region': 'Europe', 'Competition': 'Europa League', 'Round': 'Round of 32', 'H Sprite': '[](#sprite5-p294)', 'A Sprite': '[](#sprite1-p5)', 'H FL Score': None, 'A FL Score': None},
         {'Time': '1500', 'id': 'g_1_vykXgL12', 'Home': 'Red Bull Salzburg', 'Away': 'Villarreal', 'Region': 'Europe', 'Competition': 'Europa League', 'Round': 'Round of 32', 'H Sprite': '[](#sprite1-p455)', 'A Sprite': '[](#sprite1-p270)', 'H FL Score': None, 'A FL Score': None}]
     }
-
+"""
 
 WTWTWmatches2 = {
     '28/02 Su': [
-        {'Time': '0730', 'id': 'g_1_YDUBJOHU', 'Home': 'Leicester City', 'Away': 'Liverpool', 'Region': 'England', 'Competition': 'Premier League', 'Round': None, 'H Sprite': '[](#sprite1-p87)', 'A Sprite': '[](#sprite1-p3)'}, 
-        {'Time': '1100', 'id': 'g_1_W8jdixKS', 'Home': 'Paris Saint-Germain', 'Away': 'OGC Nice', 'Region': 'France', 'Competition': 'Ligue 1', 'Round': None, 'H Sprite': '[](#sprite1-p35)', 'A Sprite': '[](#sprite2-p71)'},
-        {'Time': '0930', 'id': 'g_1_U57jhlXF', 'Home': 'Borussia Dortmund', 'Away': '1899 Hoffenheim', 'Region': 'Germany', 'Competition': 'Bundesliga', 'Round': None, 'H Sprite': '[](#sprite1-p12)', 'A Sprite': '[](#sprite1-p353)'}],
+        {'Time': '0730','C Sprite' : None, 'id': 'g_1_YDUBJOHU', 'Home': 'Leicester City', 'Away': 'Liverpool', 'Region': 'England', 'Competition': 'Premier League', 'Round': None, 'H Sprite': '[](#sprite1-p87)', 'A Sprite': '[](#sprite1-p3)'}, 
+        {'Time': '1100','C Sprite' : None, 'id': 'g_1_W8jdixKS', 'Home': 'Paris Saint-Germain', 'Away': 'OGC Nice', 'Region': 'France', 'Competition': 'Ligue 1', 'Round': None, 'H Sprite': '[](#sprite1-p35)', 'A Sprite': '[](#sprite2-p71)'},
+        {'Time': '0930','C Sprite' : None, 'id': 'g_1_U57jhlXF', 'Home': 'Borussia Dortmund', 'Away': '1899 Hoffenheim', 'Region': 'Germany', 'Competition': 'Bundesliga', 'Round': None, 'H Sprite': '[](#sprite1-p12)', 'A Sprite': '[](#sprite1-p353)'}],
     '01/03 Mo': [
-        {'Time': '1430', 'id': 'g_1_CUdei8nM', 'Home': 'RB Leipzig', 'Away': 'FC Augsburg', 'Region': 'Germany', 'Competition': 'Bundesliga', 'Round': None, 'H Sprite': '[](#sprite5-p14)', 'A Sprite': '[](#sprite1-p291)'}, 
-        {'Time': '1530', 'id': 'g_1_4Qrd1u9r', 'Home': 'Famalicão', 'Away': 'Belenenses', 'Region': 'Portugal', 'Competition': 'Primeira Liga', 'Round': None, 'H Sprite': '[](#sprite8-p345)', 'A Sprite': '[](#sprite2-p201)'},
-        {'Time': '1115', 'id': 'g_1_8Qg0W2OI', 'Home': 'Al-Msnaa', 'Away': 'Dhofar', 'Region': 'Oman', 'Competition': 'Sultan Cup', 'Round': 'Quarter-finals', 'H Sprite': None, 'A Sprite': None, 'H FL Score': '0', 'A FL Score': '2'}]
-}"""
+        {'Time': '1430','C Sprite' : None, 'id': 'g_1_CUdei8nM', 'Home': 'RB Leipzig', 'Away': 'FC Augsburg', 'Region': 'Germany', 'Competition': 'Bundesliga', 'Round': None, 'H Sprite': '[](#sprite5-p14)', 'A Sprite': '[](#sprite1-p291)'}, 
+        {'Time': '1530','C Sprite' : None, 'id': 'g_1_4Qrd1u9r', 'Home': 'Famalicão', 'Away': 'Belenenses', 'Region': 'Portugal', 'Competition': 'Primeira Liga', 'Round': None, 'H Sprite': '[](#sprite8-p345)', 'A Sprite': '[](#sprite2-p201)'},
+        {'Time': '1115', 'C Sprite' : None, 'id': 'g_1_8Qg0W2OI', 'Home': 'Al-Msnaa', 'Away': 'Dhofar', 'Region': 'Oman', 'Competition': 'Sultan Cup', 'Round': 'Quarter-finals', 'H Sprite': None, 'A Sprite': None, 'H FL Score': '0', 'A FL Score': '2'}]
+}
 
 dayOfWeek = {
     'Mo' : 'Monday',
@@ -90,16 +89,21 @@ def WTWTW_main():
 def WTWTW_Post(writeReadyMatchDict):
     intro = "These posts are as much for me as they are for you. So please feel free to reply with your suggestions for what to watch, and make a case for any game to be considered 'must watch', in which case I will bold it. The time zone used to sort games was LIS (Lisbon) time zone, so no, the game is not on a wrong date.\n\n---\n\n"
     tableHeader = ' Time (LIS / LIS -5) | Match | Competition | Round \n --------------|-----|-----------|-----|--- \n'
-    # 20:00 / 15:00 | [](#sprite1-p76) Atlético Madrid vs Celta Vigo [](#sprite1-p408) | [](#sprite7-p369) La Liga |  | 
-    # **19:45 / 14:45** | **[](#sprite1-p17) Juventus (2) vs (1) Internazionale [](#sprite1-p25)** | [](#sprite7-p414) **Coppa Italia** | **Semi-finals*
     with open('./WTWTW_post.txt', 'w', encoding='utf8') as wf:
         wf.write(intro)
-
         for dateday in writeReadyMatchDict:
             day = dateday.split(' ')[1]
             wf.write('\n***' + dayOfWeek[day] + '***\n\n')
             wf.write(tableHeader)
             for match in writeReadyMatchDict[dateday]:
+                if len(match['Time']) == 4:
+                    timestamp = datetime.strptime(match['Time'], '%H%M')
+                    tSMinus5 = timestamp - timedelta(hours=5)
+                    timestamp = timestamp.strftime("%H:%M")
+                    tSMinus5 = tSMinus5.strftime("%H:%M")
+                    timestamp = timestamp + ' / ' + tSMinus5                 
+                else:
+                    timestamp = match['Time']
                 matchCell = ' vs '
                 try:
                     if match['H FL Score'] != None or match['A FL Score'] != None:
@@ -114,10 +118,14 @@ def WTWTW_Post(writeReadyMatchDict):
                     matchCell = matchCell + match['Away'] + ' ' + match['A Sprite']
                 except (KeyError, TypeError) as e:
                     matchCell = matchCell + match['Away']
+                if match['C Sprite'] != None:
+                    compCell = match['C Sprite'] + ' ' + match['Competition']
+                else:
+                    compCell = match['Competition']
                 temp = {
-                    'time' : match['Time'],
+                    'time' : timestamp,
                     'match' : matchCell,
-                    'comp' : match['Competition'],
+                    'comp' : compCell,
                     'round' : match['Round']
                 }
                 
