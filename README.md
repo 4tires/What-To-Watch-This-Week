@@ -70,6 +70,7 @@
 - TeamNames-Sprites folder added. Dictionary for automatic team name correction. Added function automating team name correction and to fetch team sprites and addes to WTWTW's returned dictionary for later use. Should complete backlog items to add more flairs and creating automatic name correction.
 - Added function to fetch aggregate scores
 - Created WTWTW_Post.py to write reddit post. Asks user for which matches to bold. It imports and calls on WTWTW.py functions.
+- Added CompNames-Sprites.json into TeamNames-Sprites folder. Incorporated into WTWTW.
 
 ## Backlog
 
@@ -79,7 +80,7 @@
 - [x] (Hard) Automate round and group letter of the competition (e.g. "Semi-Final"; "Group B") as stated in v9. (Not tested for Group Stage)
 - [x] Maybe ditch the spreadsheets (probably hard because of bold matches)
 - [x] Add more flairs (maybe use https://www.reddit.com/r/soccer/comments/f8z3sc/what_to_watch_this_week_241_march/fioh87b/). https://www.reddit.com/r/soccerbot/wiki/index has a good collection of flairs. Used to create TeamNames-Sprites json.
-- [ ] Work competition sprites into script.
+- [x] Work competition sprites into script.
 
 ## Technology Stack
 
