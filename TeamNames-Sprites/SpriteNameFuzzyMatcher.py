@@ -15,16 +15,17 @@ TNSDICT_LOCATE = './TeamNames-Sprites/TeamNames-Sprites-V2.json'
 NAME_CORRECTOR_DICT = {
     'USA' : 'United States',
     'Bosnia and Herzegovina' : 'Bosnia-Herzegovina',
-    'Macao' : 'Macau'
+    'Macao' : 'Macau',
+    'Australia & Oceania' : 'Australasia'
 }
 
 def main():
     noList = ['n', 'no', 'none']
     print('Select from options below.')
     functionOptions = {
-    '1' : 'Cycle through entire dictionary, stopping at empty entries.',
-    '2' : 'Find entries with duplicate data in each region',
-    '3' : 'Enter data for a specific club in a specific region'
+    '1' : 'Clubs: Cycle through entire dictionary, stopping at empty entries.',
+    '2' : 'Clubs: Find entries with duplicate data in each region',
+    '3' : 'Competitions: Cycle through entire dictionary, stopping at empty entries'
     }
     numberList = []
     for key in functionOptions.keys():
@@ -44,7 +45,7 @@ def main():
     elif response == '2':
         FindDuplicateEntriesMain()
     elif response == '3':
-        print("Function in work. Restart script and make another selection")
+        CompleteMissingCompNames()
     return
 
 def FindDuplicateEntriesMain():
@@ -216,5 +217,62 @@ def TNSDictWriter(dictIn, region, club, properName, sprite):
     with open(TNSDICT_LOCATE, 'w', encoding='utf8') as wf:
         json.dump(dictIn, wf, indent=4, sort_keys=True)
     return
+
+def CompleteMissingCompNames():
+    with open('./TeamNames-Sprites/soccerbot-CompetitionSprites.json', 'r', encoding='utf8') as rf:
+        sBCSDict = json.load(rf)
+    with open('./TeamNames-Sprites/CompNames-Sprites.json', 'r', encoding='utf8') as rf:
+       cNSDict = json.load(rf)
+    for region in cNSDict:
+        regionSB = region
+        if regionSB in list(NAME_CORRECTOR_DICT.keys()):
+            regionSB = NAME_CORRECTOR_DICT[region]
+        if regionSB not in list(sBCSDict.keys()):
+            for competition in cNSDict[region]:
+                cNSDict[region][competition]['Proper'] = None
+                cNSDict[region][competition]['Sprite'] = None
+            continue
+        if len(sBCSDict[regionSB]) == 0:
+            for competition in cNSDict[region]:
+                cNSDict[region][competition]['Proper'] = None
+                cNSDict[region][competition]['Sprite'] = None
+            continue
+        for competition in cNSDict[region]:
+            if 'Sprite' not in cNSDict[region][competition].keys():
+                compNameProper, compSprite = CompResultsPrompt(competition, region, sBCSDict[regionSB])
+                if compNameProper == None:
+                    cNSDict[region][competition]['Proper'] = None
+                    cNSDict[region][competition]['Sprite'] = None
+                else:
+                    cNSDict[region][competition]['Proper'] = compNameProper
+                    cNSDict[region][competition]['Sprite'] = compSprite
+                with open('./TeamNames-Sprites/CompNames-Sprites.json', 'w', encoding='utf8') as wf:
+                    json.dump(cNSDict, wf, indent=4, sort_keys=True)
+
+
+def CompResultsPrompt(compName, region, compSpriteDict):
+    compNameList = list(compSpriteDict.keys())
+    noList = ['n', 'no', 'none', 's']
+    print('\n', region, ' : ', compName)
+    numberList = []
+    for n in range(len(compNameList)):
+        numberList.append(str(n))
+        print(n, ' : ', compNameList[n])
+    while True:
+        print('select matching competition name or [n, no, none] if no matches')
+        response = input('Make selection: ')
+        if (response in noList):
+            return None, None
+        elif (response in numberList):
+            print(compNameList[int(response)], compSpriteDict[compNameList[int(response)]])
+            return compNameList[int(response)], compSpriteDict[compNameList[int(response)]]
+        else:
+            print('Invalid input. Enter matching number or [n, no, none].')
+    
+
+
+
+
+
 
 main()
