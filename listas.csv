@@ -1,6 +1,3 @@
-1430;RB Leipzig;FC Augsburg;Bundesliga;
-1530;Famalicão;Belenenses;Primeira Liga;
-
 0730;Leicester City;Liverpool;Premier League;
 0930;Borussia Dortmund;1899 Hoffenheim;Bundesliga;
 1100;Paris Saint-Germain;OGC Nice;Ligue 1;
@@ -14,15 +11,21 @@
 1430;Bayern München;Arminia Bielefeld;Bundesliga;
 1515;Sporting Clube de Portugal;Paços de Ferreira;Primeira Liga;
 
-1500;Barcelona;Paris Saint-Germain;Champions League;Round of 16
-1500;RB Leipzig;Liverpool;Champions League;Round of 16
+1500;Barcelona;Paris Saint-Germain;UEFA Champions League;Round of 16
+1500;RB Leipzig;Liverpool;UEFA Champions League;Round of 16
 
-1500;FC Porto;Juventus;Champions League;Round of 16
-1500;Sevilla;Borussia Dortmund;Champions League;Round of 16
+1500;FC Porto;Juventus;UEFA Champions League;Round of 16
+1500;Sevilla;Borussia Dortmund;UEFA Champions League;Round of 16
 1515;Everton;Manchester City;Premier League;
 
-1255;SC Braga;AS Roma;Europa League;Round of 32
-1255;Real Sociedad;Manchester United;Europa League;Round of 32
-1255;Wolfsberger AC;Tottenham Hotspur;Europa League;Round of 32
-1500;Red Bull Salzburg;Villarreal;Europa League;Round of 32
+1255;SC Braga;AS Roma;UEFA Europa League;Round of 32
+1255;Real Sociedad;Manchester United;UEFA Europa League;Round of 32
+1255;Wolfsberger AC;Tottenham Hotspur;UEFA Europa League;Round of 32
+1500;Red Bull Salzburg;Villarreal;UEFA Europa League;Round of 32
+
+0305;Adelaide United;Central Coast Mariners;A-League;
+1445;KV Mechelen;KAA Gent;Belgian Pro League;
+1500;Wolves;Leeds United;Premier League;
+1500;Stade Brestois 29;Olympique Lyonnais;Ligue 1;
+1930;São Paulo;Palmeiras;Brasileiro Série A;
 
