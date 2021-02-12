@@ -7,9 +7,7 @@ from bs4 import BeautifulSoup
 import time
 import csv
 from login_credentials import username_credential, password_credential
-import requests
 from json import load
-import re
 
 url = "https://www.flashscore.com/"
 
@@ -90,15 +88,16 @@ def fetcher():
 		date, checked_matches = parser(competitions_dict)
 		WTWTWdict[date] = checked_matches
 		if n == (days - 1):
-			#driver.quit()
 			print("Completed all parsers")
 			return WTWTWdict, competitions_dict
 		driver.find_element_by_class_name('calendar__direction--tomorrow').click()
-		time.sleep(1)
+		time.sleep(2)
 
 def match_details(competitions_dict, WTWTWmatches):
 	continentList = ['Asia', 'Africa', 'Europe', 'North & Central America', 'South America', 'Australia & Oceania']
 	print('Fetching match round and aggregate score.')
+	with open('./TeamNames-Sprites/CompNames-Sprites.json', 'r', encoding='utf8') as rf:
+		cNSDict = load(rf)
 	for region in competitions_dict:
 		for competition in competitions_dict[region]:
 			isCup = 0
@@ -108,6 +107,12 @@ def match_details(competitions_dict, WTWTWmatches):
 					if (match['Region'] == region and match['Competition'] == competition):
 						match['Region'] = regionProperName
 						match['Competition'] = compProperName
+						if compProperName in list(cNSDict[regionProperName].keys()):
+							match['C Sprite'] = cNSDict[regionProperName][compProperName]['Sprite']
+							tempCompProperName = cNSDict[regionProperName][compProperName]['Proper']
+							match['Competition'] = (tempCompProperName if tempCompProperName != None else compProperName)
+						else:
+							match['C Sprite'] = None
 						round = AchaRound(match['Home'], match['Away'], gamelist)
 						match['Round'] = round
 						if round != None:
@@ -171,12 +176,14 @@ def AchaRound(home, away, gamelist):
 		home_team = item.find('div', class_='event__participant--home').get_text()
 		away_team = item.find('div', class_='event__participant--away').get_text()
 		if (home_team == home and away_team == away):
-			round = item.find_previous_sibling('div', class_='event__round').get_text()
-			if ("Round " not in round[:6] and len(round) not in [7, 8]):
-				if round in fs_round_translator.keys():
-					round = fs_round_translator[round]
-			else:
-				round = None
+			round = item.find_previous_sibling('div', class_='event__round')
+			round = (round.get_text() if round != None else None)
+			if round != None:
+				if ("Round " not in round[:6] and len(round) not in [7, 8]):
+					if round in fs_round_translator.keys():
+						round = fs_round_translator[round]
+				else:
+					round = None
 			return round
 	print("No results for " + home + " vs " + away + " round.")
 	return round
@@ -316,6 +323,7 @@ WTWTWmatches = {
 			'Round' : # round name of match (Round of 32, Semi-finals, etc),
 			'H Sprite' : # sprite for the home team,
 			'A Sprite' : # sprite for the away team,
+			'C Sprite' : # sprite for competition,
 			'H FL Score' : # The match home team's score in the first leg,
 			'A FL Score' : # THe match away team's score in the first leg
 		},
