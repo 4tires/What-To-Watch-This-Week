@@ -81,7 +81,9 @@ def WTWTW_main():
             matchesToBold = response.split(' ')
             for n in matchesToBold:
                 WTWTWmatches[date][int(n)]['Bold'] = 1
+    print('Writing reddit post.')
     WTWTW_Post(WTWTWmatches)
+    print('Completed.')
         
 
 
