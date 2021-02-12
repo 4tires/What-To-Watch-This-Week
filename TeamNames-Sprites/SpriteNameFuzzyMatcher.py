@@ -236,6 +236,9 @@ def CompleteMissingCompNames():
             for competition in cNSDict[region]:
                 cNSDict[region][competition]['Proper'] = None
                 cNSDict[region][competition]['Sprite'] = None
+                with open('./TeamNames-Sprites/CompNames-Sprites.json', 'w', encoding='utf8') as wf:
+                    json.dump(cNSDict, wf, indent=4, sort_keys=True)
+
             continue
         for competition in cNSDict[region]:
             if 'Sprite' not in cNSDict[region][competition].keys():
