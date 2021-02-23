@@ -90,7 +90,7 @@ def fetcher():
 		time.sleep(2)
 
 def match_details(competitions_dict, WTWTWmatches):
-	continentList = ['Asia', 'Africa', 'Europe', 'North & Central America', 'South America', 'Australia & Oceania']
+	continentList = ['Asia', 'Africa', 'Europe', 'North & Central America', 'South America', 'Australia & Oceania', 'World']
 	print('Fetching match round and aggregate score.')
 	with open('./TeamNames-Sprites/CompNames-Sprites.json', 'r', encoding='utf8') as rf:
 		cNSDict = load(rf)
@@ -107,6 +107,11 @@ def match_details(competitions_dict, WTWTWmatches):
 							isCup = 1
 			if isCup == 1:
 				driver.find_element_by_id('li1').click()
+				'''
+				potential methods of waiting for matches or "No match found" to show on page:
+				https://stackoverflow.com/questions/60496204/webdriverwait-for-multiple-conditions-or-logical-evaluation
+				class for no match found: nmf__title
+				'''
 				wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'event__participant')))
 				for date in WTWTWmatches:
 					for match in WTWTWmatches[date]:
@@ -171,11 +176,13 @@ def AchaLinkEArranjaCompNome(region, competition):
 			if competition_proper in list(fsjson['Competitions'][region_proper].keys()):
 				href = fsjson['Competitions'][region_proper][competition_proper]
 				return href, competition_proper, region_proper
+	elif competition_proper in list(fsjson['Competitions'][region_proper].keys()):
+		href = fsjson['Competitions'][region_proper][competition_proper]
+		return href, competition_proper, region_proper
 	else:
-		if competition_proper in list(fsjson['Competitions'][region_proper].keys()):
-			href = fsjson['Competitions'][region_proper][competition_proper]
-			return href, competition_proper, region_proper
-	print("MISSING COMPETITION! No href found for", competition_proper, "in", region_proper)
+		print("MISSING COMPETITION! No href found for", competition_proper, "in", region_proper)
+		return None, competition_proper, region_proper
+	print("Error: No matching competition found for", competition_proper, "in", region_proper)
 	return None, competition_proper, region_proper
 
 def AchaRound(home, away, gamelist):
