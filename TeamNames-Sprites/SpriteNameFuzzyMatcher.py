@@ -25,7 +25,8 @@ def main():
     functionOptions = {
     '1' : 'Clubs: Cycle through entire dictionary, stopping at empty entries.',
     '2' : 'Clubs: Find entries with duplicate data in each region',
-    '3' : 'Competitions: Cycle through entire dictionary, stopping at empty entries'
+    '3' : 'Competitions: Cycle through entire dictionary, stopping at empty entries',
+    '4' : 'International teams: Cycle through the entire Soccerbot dictionary and enter the fs team name'
     }
     numberList = []
     for key in functionOptions.keys():
@@ -46,6 +47,8 @@ def main():
         FindDuplicateEntriesMain()
     elif response == '3':
         CompleteMissingCompNames()
+    elif response == '4':
+        IntlTeamNames()
     return
 
 def FindDuplicateEntriesMain():
@@ -272,10 +275,37 @@ def CompResultsPrompt(compName, region, compSpriteDict):
         else:
             print('Invalid input. Enter matching number or [n, no, none].')
     
-
-
-
-
-
+def IntlTeamNames():
+    with open(TNSDICT_LOCATE, 'r', encoding='utf8') as rf:
+        tNSDict = json.load(rf)
+    with open('./TeamNames-Sprites/soccerbot-TeamNameSprites.json', 'r', encoding='utf8') as rf:
+        sBTNSDict = json.load(rf)
+    for region, intlTeams in sBTNSDict['National Teams'].items():
+        region = 'Australia & Oceania' if region == 'Australasia' else region
+        if region not in tNSDict.keys():
+            tNSDict[region] = {}
+        for intlTeam, sprite in intlTeams.items():
+            alreadyThere = 0
+            for tDict in tNSDict[region].values():
+                if intlTeam == tDict['Proper']:
+                    alreadyThere = 1
+                    break
+            if alreadyThere == 1:
+                continue
+            print(intlTeam, ':', sprite)
+            response = input("Is the team name the same in FS? [y or n] ")
+            if response == "y":
+                tNSDict[region][intlTeam] = {}
+                tNSDict[region][intlTeam]['Proper'] = intlTeam
+                tNSDict[region][intlTeam]['Sprite'] = sprite
+            else:
+                fSTeamName = input("Enter FS team name: ")
+                tNSDict[region][fSTeamName] = {}
+                tNSDict[region][fSTeamName]['Proper'] = intlTeam
+                tNSDict[region][fSTeamName]['Sprite'] = sprite
+            with open(TNSDICT_LOCATE, 'w', encoding='utf8') as wf:
+                json.dump(tNSDict, wf, indent=4, sort_keys=True)
+    return
+    
 
 main()
