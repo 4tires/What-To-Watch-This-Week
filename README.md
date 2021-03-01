@@ -76,13 +76,11 @@
 
 ## Backlog
 
-- [x] Create python dictionary to remove manual correction of team and league names (Linguistic differences as stated in v9) maybe use pickle for performance reasons
-- [x] Add automatic leg score
 - [ ] Install Grid (needs Docker) to use python in spreadsheets easily
 - [x] (Hard) Automate round and group letter of the competition (e.g. "Semi-Final"; "Group B") as stated in v9. (Not tested for Group Stage)
 - [x] Maybe ditch the spreadsheets (probably hard because of bold matches)
 - [x] Add more flairs (maybe use https://www.reddit.com/r/soccer/comments/f8z3sc/what_to_watch_this_week_241_march/fioh87b/). https://www.reddit.com/r/soccerbot/wiki/index has a good collection of flairs. Used to create TeamNames-Sprites json.
-- [x] Work competition sprites into script.
+- [ ] Add code to allow script to continue if competition doesn't exist in fslinks.json. Competition can change name or be created. Maybe prompt user for Competition name and link for competition.
 
 ## Technology Stack
 
