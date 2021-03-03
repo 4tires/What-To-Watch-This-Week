@@ -81,6 +81,7 @@
 - [x] Maybe ditch the spreadsheets (probably hard because of bold matches)
 - [x] Add more flairs (maybe use https://www.reddit.com/r/soccer/comments/f8z3sc/what_to_watch_this_week_241_march/fioh87b/). https://www.reddit.com/r/soccerbot/wiki/index has a good collection of flairs. Used to create TeamNames-Sprites json.
 - [ ] Add code to allow script to continue if competition doesn't exist in fslinks.json. Competition can change name or be created. Maybe prompt user for Competition name and link for competition.
+- [ ] GUI for a more visual process. https://wiki.python.org/moin/GuiProgramming
 
 ## Technology Stack
 
