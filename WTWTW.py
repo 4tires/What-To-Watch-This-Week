@@ -322,7 +322,8 @@ def WTWTW():
 """
 input('Press Enter to Continue...')
 WTWTW()
-
+"""
+"""
 Current state of WTWTWmatches dictionary:
 WTWTWmatches = {
 	day : [
@@ -338,7 +339,7 @@ WTWTWmatches = {
 			'A Sprite' : # sprite for the away team,
 			'C Sprite' : # sprite for competition,
 			'H FL Score' : # The match home team's score in the first leg,
-			'A FL Score' : # THe match away team's score in the first leg
+			'A FL Score' : # The match away team's score in the first leg
 		},
 		{
 			# repeat above dictionary for each match on this day
@@ -349,4 +350,36 @@ WTWTWmatches = {
 	],
 	# repeats for 7 days total
 }
+
+Current state of CompetitionsDict/competitions_dict
+CompetitionsDict = {
+	region1 : [competition1, competition2, etc],
+	region2 : [competiton3, competition4, etc],
+	etc
+}
+"""
+
+"""
+FUNCTION DESCRIPTIONS
+
+WTWTW:
+Main function.
+Calls fetcher, calls match_details, quits chromedriver.
+writes listas.csv one row at a time. The line with the lambda function ensures the listas file is written in chronological order
+
+fetcher:
+days variable is there to allow for troubleshooting. For example, programmer can easily change days to 1 if they want to focus on a specific day/match that is causing errors.
+Creates the two dictionaries to eventually return.
+For loop calls parser and clicks button on website for next day until complete.
+time.sleep(2) is 2 second sleep. Shorter time, 1 second for example, sometimes created an issue where matches would be the same for multiple days.
+	It seems that the parser function would be called and pull data before the website started to load the next day's data. 
+
+parser:
+Each time parser is called the website has a new day of the checked matches. It creates a list of the checked matches and what the date is to return.
+The wait is there to allow the data to load. 'event__titleBox' was a div element that reloads each time the page loaded.
+competitions_dict collects each of the competitions that are checked when WTWTW is run. Reason why is explained in match_details description.
+
+match_details:
+
+
 """
