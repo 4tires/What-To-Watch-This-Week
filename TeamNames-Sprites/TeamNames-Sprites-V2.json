@@ -1,4 +1,226 @@
 {
+    "Africa": {
+        "Algeria": {
+            "Proper": "Algeria",
+            "Sprite": "[](#sprite1-p393)"
+        },
+        "Angola": {
+            "Proper": "Angola",
+            "Sprite": "[](#sprite2-p353)"
+        },
+        "Benin": {
+            "Proper": "Benin",
+            "Sprite": "[](#sprite5-p188)"
+        },
+        "Botswana": {
+            "Proper": "Botswana",
+            "Sprite": "[](#sprite2-p325)"
+        },
+        "Burkina Faso": {
+            "Proper": "Burkina Faso",
+            "Sprite": "[](#sprite3-p8)"
+        },
+        "Burundi": {
+            "Proper": "Burundi",
+            "Sprite": "[](#sprite5-p189)"
+        },
+        "Cameroon": {
+            "Proper": "Cameroon",
+            "Sprite": "[](#sprite1-p451)"
+        },
+        "Cape Verde": {
+            "Proper": "Cape Verde",
+            "Sprite": "[](#sprite3-p6)"
+        },
+        "Central African Republic": {
+            "Proper": "Central African Republic",
+            "Sprite": "[](#sprite5-p186)"
+        },
+        "Chad": {
+            "Proper": "Chad",
+            "Sprite": "[](#sprite5-p187)"
+        },
+        "Comoros": {
+            "Proper": "Comoros",
+            "Sprite": "[](#sprite5-p203)"
+        },
+        "Congo": {
+            "Proper": "Congo",
+            "Sprite": "[](#sprite5-p196)"
+        },
+        "D.R. Congo": {
+            "Proper": "DR Congo",
+            "Sprite": "[](#sprite4-p76)"
+        },
+        "Djibouti": {
+            "Proper": "Djibouti",
+            "Sprite": "[](#sprite5-p202)"
+        },
+        "Egypt": {
+            "Proper": "Egypt",
+            "Sprite": "[](#sprite1-p328)"
+        },
+        "Equatorial Guinea": {
+            "Proper": "Equatorial Guinea",
+            "Sprite": "[](#sprite5-p197)"
+        },
+        "Eritrea": {
+            "Proper": "Eritrea",
+            "Sprite": "[](#sprite5-p204)"
+        },
+        "Eswatini": {
+            "Proper": "Swaziland",
+            "Sprite": "[](#sprite5-p209)"
+        },
+        "Ethiopia": {
+            "Proper": "Ethiopia",
+            "Sprite": "[](#sprite2-p252)"
+        },
+        "Gabon": {
+            "Proper": "Gabon",
+            "Sprite": "[](#sprite2-p406)"
+        },
+        "Gambia": {
+            "Proper": "Gambia",
+            "Sprite": "[](#sprite5-p193)"
+        },
+        "Ghana": {
+            "Proper": "Ghana",
+            "Sprite": "[](#sprite1-p303)"
+        },
+        "Guinea": {
+            "Proper": "Guinea",
+            "Sprite": "[](#sprite5-p198)"
+        },
+        "Guinea Bissau": {
+            "Proper": "Guinea-Bissau",
+            "Sprite": "[](#sprite5-p199)"
+        },
+        "Ivory Coast": {
+            "Proper": "C\u00f4te d'Ivoire",
+            "Sprite": "[](#sprite1-p479)"
+        },
+        "Kenya": {
+            "Proper": "Kenya",
+            "Sprite": "[](#sprite2-p173)"
+        },
+        "Lesotho": {
+            "Proper": "Lesotho",
+            "Sprite": "[](#sprite5-p206)"
+        },
+        "Liberia": {
+            "Proper": "Liberia",
+            "Sprite": "[](#sprite2-p236)"
+        },
+        "Libya": {
+            "Proper": "Libya",
+            "Sprite": "[](#sprite2-p336)"
+        },
+        "Madagascar": {
+            "Proper": "Madagascar",
+            "Sprite": "[](#sprite5-p194)"
+        },
+        "Malawi": {
+            "Proper": "Malawi",
+            "Sprite": "[](#sprite5-p195)"
+        },
+        "Mali": {
+            "Proper": "Mali",
+            "Sprite": "[](#sprite2-p422)"
+        },
+        "Mauritania": {
+            "Proper": "Mauritania",
+            "Sprite": "[](#sprite5-p207)"
+        },
+        "Mauritius": {
+            "Proper": "Mauritius",
+            "Sprite": "[](#sprite5-p200)"
+        },
+        "Morocco": {
+            "Proper": "Morocco",
+            "Sprite": "[](#sprite1-p361)"
+        },
+        "Mozambique": {
+            "Proper": "Mozambique",
+            "Sprite": "[](#sprite5-p201)"
+        },
+        "Namibia": {
+            "Proper": "Namibia",
+            "Sprite": "[](#sprite5-p192)"
+        },
+        "Niger": {
+            "Proper": "Niger",
+            "Sprite": "[](#sprite2-p251)"
+        },
+        "Nigeria": {
+            "Proper": "Nigeria",
+            "Sprite": "[](#sprite1-p391)"
+        },
+        "Rwanda": {
+            "Proper": "Rwanda",
+            "Sprite": "[](#sprite5-p78)"
+        },
+        "Sao Tome and Principe": {
+            "Proper": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+            "Sprite": "[](#sprite5-p205)"
+        },
+        "Senegal": {
+            "Proper": "Senegal",
+            "Sprite": "[](#sprite2-p461)"
+        },
+        "Seychelles": {
+            "Proper": "Seychelles",
+            "Sprite": "[](#sprite5-p208)"
+        },
+        "Sierra Leone": {
+            "Proper": "Sierra Leone",
+            "Sprite": "[](#sprite2-p469)"
+        },
+        "Somalia": {
+            "Proper": "Somalia",
+            "Sprite": "[](#sprite4-p185)"
+        },
+        "South Africa": {
+            "Proper": "South Africa",
+            "Sprite": "[](#sprite1-p432)"
+        },
+        "South Sudan": {
+            "Proper": "South Sudan",
+            "Sprite": "[](#sprite4-p400)"
+        },
+        "Sudan": {
+            "Proper": "Sudan",
+            "Sprite": "[](#sprite4-p304)"
+        },
+        "Tanzania": {
+            "Proper": "Tanzania",
+            "Sprite": "[](#sprite4-p184)"
+        },
+        "Togo": {
+            "Proper": "Togo",
+            "Sprite": "[](#sprite2-p423)"
+        },
+        "Tunisia": {
+            "Proper": "Tunisia",
+            "Sprite": "[](#sprite2-p225)"
+        },
+        "Uganda": {
+            "Proper": "Uganda",
+            "Sprite": "[](#sprite4-p183)"
+        },
+        "Zambia": {
+            "Proper": "Zambia",
+            "Sprite": "[](#sprite2-p250)"
+        },
+        "Zanzibar": {
+            "Proper": "Zanzibar",
+            "Sprite": "[](#sprite7-p364)"
+        },
+        "Zimbabwe": {
+            "Proper": "Zimbabwe",
+            "Sprite": "[](#sprite4-p189)"
+        }
+    },
     "Albania": {
         "Apolonia Fier": {
             "Proper": null,
@@ -733,6 +955,188 @@
             "Sprite": null
         }
     },
+    "Asia": {
+        "Afghanistan": {
+            "Proper": "Afghanistan",
+            "Sprite": "[](#sprite2-p475)"
+        },
+        "Bahrain": {
+            "Proper": "Bahrain",
+            "Sprite": "[](#sprite2-p223)"
+        },
+        "Bangladesh": {
+            "Proper": "Bangladesh",
+            "Sprite": "[](#sprite2-p429)"
+        },
+        "Bhutan": {
+            "Proper": "Bhutan",
+            "Sprite": "[](#sprite4-p311)"
+        },
+        "Brunei": {
+            "Proper": "Brunei Darussalam",
+            "Sprite": "[](#sprite2-p411)"
+        },
+        "Cambodia": {
+            "Proper": "Cambodia",
+            "Sprite": "[](#sprite5-p174)"
+        },
+        "China": {
+            "Proper": "China",
+            "Sprite": "[](#sprite1-p448)"
+        },
+        "Chinese Taipei": {
+            "Proper": "Chinese Taipei",
+            "Sprite": "[](#sprite4-p188)"
+        },
+        "East Timor": {
+            "Proper": "Timor-Leste",
+            "Sprite": "[](#sprite5-p121)"
+        },
+        "Hong Kong": {
+            "Proper": "Hong Kong",
+            "Sprite": "[](#sprite2-p260)"
+        },
+        "India": {
+            "Proper": "India",
+            "Sprite": "[](#sprite1-p275)"
+        },
+        "Indonesia": {
+            "Proper": "Indonesia",
+            "Sprite": "[](#sprite1-p330)"
+        },
+        "Iran": {
+            "Proper": "Iran",
+            "Sprite": "[](#sprite1-p216)"
+        },
+        "Iraq": {
+            "Proper": "Iraq",
+            "Sprite": "[](#sprite1-p420)"
+        },
+        "Japan": {
+            "Proper": "Japan",
+            "Sprite": "[](#sprite1-p126)"
+        },
+        "Jordan": {
+            "Proper": "Jordan",
+            "Sprite": "[](#sprite2-p151)"
+        },
+        "Kuwait": {
+            "Proper": "Kuwait",
+            "Sprite": "[](#sprite2-p319)"
+        },
+        "Kyrgyzstan": {
+            "Proper": "Kyrgyzstan",
+            "Sprite": "[](#sprite5-p175)"
+        },
+        "Laos": {
+            "Proper": "Laos",
+            "Sprite": "[](#sprite5-p176)"
+        },
+        "Lebanon": {
+            "Proper": "Lebanon",
+            "Sprite": "[](#sprite1-p392)"
+        },
+        "Macao": {
+            "Proper": "Macau",
+            "Sprite": "[](#sprite5-p247)"
+        },
+        "Malaysia": {
+            "Proper": "Malaysia",
+            "Sprite": "[](#sprite1-p383)"
+        },
+        "Maldives": {
+            "Proper": "Maldives",
+            "Sprite": "[](#sprite4-p152)"
+        },
+        "Mongolia": {
+            "Proper": "Mongolia",
+            "Sprite": "[](#sprite3-p7)"
+        },
+        "Myanmar": {
+            "Proper": "Myanmar",
+            "Sprite": "[](#sprite2-p344)"
+        },
+        "Nepal": {
+            "Proper": "Nepal",
+            "Sprite": "[](#sprite1-p210)"
+        },
+        "North Korea": {
+            "Proper": "North Korea",
+            "Sprite": "[](#sprite1-p379)"
+        },
+        "Oman": {
+            "Proper": "Oman",
+            "Sprite": "[](#sprite2-p409)"
+        },
+        "Pakistan": {
+            "Proper": "Pakistan",
+            "Sprite": "[](#sprite1-p382)"
+        },
+        "Palestine": {
+            "Proper": "Palestine",
+            "Sprite": "[](#sprite1-p460)"
+        },
+        "Philippines": {
+            "Proper": "Philippines",
+            "Sprite": "[](#sprite1-p227)"
+        },
+        "Qatar": {
+            "Proper": "Qatar",
+            "Sprite": "[](#sprite1-p439)"
+        },
+        "Saudi Arabia": {
+            "Proper": "Saudi Arabia",
+            "Sprite": "[](#sprite2-p152)"
+        },
+        "Singapore": {
+            "Proper": "Singapore",
+            "Sprite": "[](#sprite1-p262)"
+        },
+        "South Korea": {
+            "Proper": "South Korea",
+            "Sprite": "[](#sprite1-p122)"
+        },
+        "Sri Lanka": {
+            "Proper": "Sri Lanka",
+            "Sprite": "[](#sprite2-p460)"
+        },
+        "Syria": {
+            "Proper": "Syria",
+            "Sprite": "[](#sprite2-p491)"
+        },
+        "Tajikistan": {
+            "Proper": "Tajikistan",
+            "Sprite": "[](#sprite5-p47)"
+        },
+        "Thailand": {
+            "Proper": "Thailand",
+            "Sprite": "[](#sprite2-p157)"
+        },
+        "Tibet": {
+            "Proper": "Tibet",
+            "Sprite": "[](#sprite2-p262)"
+        },
+        "Turkmenistan": {
+            "Proper": "Turkmenistan",
+            "Sprite": "[](#sprite4-p298)"
+        },
+        "United Arab Emirates": {
+            "Proper": "United Arab Emirates",
+            "Sprite": "[](#sprite2-p318)"
+        },
+        "Uzbekistan": {
+            "Proper": "Uzbekistan",
+            "Sprite": "[](#sprite2-p350)"
+        },
+        "Vietnam": {
+            "Proper": "Vietnam",
+            "Sprite": "[](#sprite4-p187)"
+        },
+        "Yemen": {
+            "Proper": "Yemen",
+            "Sprite": "[](#sprite5-p35)"
+        }
+    },
     "Australia": {
         "APIA Tigers": {
             "Proper": null,
@@ -1221,6 +1625,72 @@
         "Wollongong Wolves": {
             "Proper": "Wollongong Wolves",
             "Sprite": "[](#sprite7-p399)"
+        }
+    },
+    "Australia & Oceania": {
+        "American Samoa": {
+            "Proper": "American Samoa",
+            "Sprite": "[](#sprite5-p39)"
+        },
+        "Australia": {
+            "Proper": "Australia",
+            "Sprite": "[](#sprite1-p99)"
+        },
+        "Cook Islands": {
+            "Proper": "Cook Islands",
+            "Sprite": "[](#sprite5-p181)"
+        },
+        "Fiji": {
+            "Proper": "Fiji",
+            "Sprite": "[](#sprite5-p182)"
+        },
+        "Guam": {
+            "Proper": "Guam",
+            "Sprite": "[](#sprite5-p156)"
+        },
+        "Kiribati": {
+            "Proper": "Kiribati",
+            "Sprite": "[](#sprite5-p185)"
+        },
+        "Micronesia": {
+            "Proper": "Micronesia",
+            "Sprite": "[](#sprite5-p33)"
+        },
+        "New Caledonia": {
+            "Proper": "New Caledonia",
+            "Sprite": "[](#sprite2-p235)"
+        },
+        "New Zealand": {
+            "Proper": "New Zealand",
+            "Sprite": "[](#sprite1-p151)"
+        },
+        "Papua New Guinea": {
+            "Proper": "Papua New Guinea",
+            "Sprite": "[](#sprite4-p190)"
+        },
+        "Samoa": {
+            "Proper": "Samoa",
+            "Sprite": "[](#sprite3-p27)"
+        },
+        "Solomon Islands": {
+            "Proper": "Solomon Islands",
+            "Sprite": "[](#sprite5-p183)"
+        },
+        "Tahiti": {
+            "Proper": "Tahiti",
+            "Sprite": "[](#sprite1-p175)"
+        },
+        "Tonga": {
+            "Proper": "Tonga",
+            "Sprite": "[](#sprite5-p77)"
+        },
+        "Tuvalu": {
+            "Proper": "Tuvalu",
+            "Sprite": "[](#sprite5-p215)"
+        },
+        "Vanuatu": {
+            "Proper": "Vanuatu",
+            "Sprite": "[](#sprite5-p184)"
         }
     },
     "Austria": {
@@ -10617,6 +11087,244 @@
         "Wolkite Kenema": {
             "Proper": null,
             "Sprite": null
+        }
+    },
+    "Europe": {
+        "Albania": {
+            "Proper": "Albania",
+            "Sprite": "[](#sprite1-p453)"
+        },
+        "Andorra": {
+            "Proper": "Andorra",
+            "Sprite": "[](#sprite5-p10)"
+        },
+        "Armenia": {
+            "Proper": "Armenia",
+            "Sprite": "[](#sprite1-p263)"
+        },
+        "Austria": {
+            "Proper": "Austria",
+            "Sprite": "[](#sprite3-p4)"
+        },
+        "Azerbaijan": {
+            "Proper": "Azerbaijan",
+            "Sprite": "[](#sprite2-p346)"
+        },
+        "Belarus": {
+            "Proper": "Belarus",
+            "Sprite": "[](#sprite2-p112)"
+        },
+        "Belgium": {
+            "Proper": "Belgium",
+            "Sprite": "[](#sprite1-p59)"
+        },
+        "Bosnia & Herzegovina": {
+            "Proper": "Bosnia-Herzegovina",
+            "Sprite": "[](#sprite1-p127)"
+        },
+        "Bulgaria": {
+            "Proper": "Bulgaria",
+            "Sprite": "[](#sprite1-p419)"
+        },
+        "Catalonia Selection": {
+            "Proper": "Catalonia",
+            "Sprite": "[](#sprite2-p8)"
+        },
+        "Croatia": {
+            "Proper": "Croatia",
+            "Sprite": "[](#sprite1-p63)"
+        },
+        "Cyprus": {
+            "Proper": "Cyprus",
+            "Sprite": "[](#sprite2-p224)"
+        },
+        "Czech Republic": {
+            "Proper": "Czech Republic",
+            "Sprite": "[](#sprite1-p329)"
+        },
+        "Denmark": {
+            "Proper": "Denmark",
+            "Sprite": "[](#sprite1-p84)"
+        },
+        "England": {
+            "Proper": "England",
+            "Sprite": "[](#sprite1-p23)"
+        },
+        "Estonia": {
+            "Proper": "Estonia",
+            "Sprite": "[](#sprite1-p309)"
+        },
+        "Faroe Islands": {
+            "Proper": "The Faroe Islands",
+            "Sprite": "[](#sprite2-p64)"
+        },
+        "Finland": {
+            "Proper": "Finland",
+            "Sprite": "[](#sprite1-p181)"
+        },
+        "France": {
+            "Proper": "France",
+            "Sprite": "[](#sprite1-p62)"
+        },
+        "Georgia": {
+            "Proper": "Georgia",
+            "Sprite": "[](#sprite2-p321)"
+        },
+        "Germany": {
+            "Proper": "Germany",
+            "Sprite": "[](#sprite1-p16)"
+        },
+        "Gibraltar": {
+            "Proper": "Gibraltar",
+            "Sprite": "[](#sprite1-p418)"
+        },
+        "Greece": {
+            "Proper": "Greece",
+            "Sprite": "[](#sprite1-p144)"
+        },
+        "Greenland": {
+            "Proper": "Greenland",
+            "Sprite": "[](#sprite4-p203)"
+        },
+        "Hungary": {
+            "Proper": "Hungary",
+            "Sprite": "[](#sprite1-p434)"
+        },
+        "Iceland": {
+            "Proper": "Iceland",
+            "Sprite": "[](#sprite1-p224)"
+        },
+        "Ireland": {
+            "Proper": "Republic of Ireland",
+            "Sprite": "[](#sprite1-p33)"
+        },
+        "Israel": {
+            "Proper": "Israel",
+            "Sprite": "[](#sprite2-p136)"
+        },
+        "Italy": {
+            "Proper": "Italy",
+            "Sprite": "[](#sprite1-p43)"
+        },
+        "Jersey": {
+            "Proper": "Jersey",
+            "Sprite": "[](#sprite7-p190)"
+        },
+        "Kazakhstan": {
+            "Proper": "Kazakhstan",
+            "Sprite": "[](#sprite2-p449)"
+        },
+        "Kosovo": {
+            "Proper": "Kosovo",
+            "Sprite": "[](#sprite4-p195)"
+        },
+        "Latvia": {
+            "Proper": "Latvia",
+            "Sprite": "[](#sprite2-p155)"
+        },
+        "Liechtenstein": {
+            "Proper": "Liechtenstein",
+            "Sprite": "[](#sprite4-p201)"
+        },
+        "Lithuania": {
+            "Proper": "Lithuania",
+            "Sprite": "[](#sprite1-p487)"
+        },
+        "Luxembourg": {
+            "Proper": "Luxembourg",
+            "Sprite": "[](#sprite2-p117)"
+        },
+        "Malta": {
+            "Proper": "Malta",
+            "Sprite": "[](#sprite2-p239)"
+        },
+        "Moldova": {
+            "Proper": "Moldova",
+            "Sprite": "[](#sprite4-p394)"
+        },
+        "Montenegro": {
+            "Proper": "Montenegro",
+            "Sprite": "[](#sprite2-p97)"
+        },
+        "Netherlands": {
+            "Proper": "The Netherlands",
+            "Sprite": "[](#sprite1-p24)"
+        },
+        "North Macedonia": {
+            "Proper": "FYR Macedonia",
+            "Sprite": "[](#sprite1-p394)"
+        },
+        "Northern Ireland": {
+            "Proper": "Northern Ireland",
+            "Sprite": "[](#sprite1-p253)"
+        },
+        "Norway": {
+            "Proper": "Norway",
+            "Sprite": "[](#sprite1-p276)"
+        },
+        "Poland": {
+            "Proper": "Poland",
+            "Sprite": "[](#sprite1-p58)"
+        },
+        "Portugal": {
+            "Proper": "Portugal",
+            "Sprite": "[](#sprite1-p51)"
+        },
+        "Romania": {
+            "Proper": "Romania",
+            "Sprite": "[](#sprite1-p282)"
+        },
+        "Russia": {
+            "Proper": "Russia",
+            "Sprite": "[](#sprite1-p152)"
+        },
+        "San Marino": {
+            "Proper": "San Marino",
+            "Sprite": "[](#sprite2-p126)"
+        },
+        "Scotland": {
+            "Proper": "Scotland",
+            "Sprite": "[](#sprite1-p169)"
+        },
+        "Serbia": {
+            "Proper": "Serbia",
+            "Sprite": "[](#sprite1-p324)"
+        },
+        "Slovakia": {
+            "Proper": "Slovakia",
+            "Sprite": "[](#sprite2-p312)"
+        },
+        "Slovenia": {
+            "Proper": "Slovenia",
+            "Sprite": "[](#sprite1-p480)"
+        },
+        "Spain": {
+            "Proper": "Spain",
+            "Sprite": "[](#sprite1-p49)"
+        },
+        "Sweden": {
+            "Proper": "Sweden",
+            "Sprite": "[](#sprite1-p71)"
+        },
+        "Switzerland": {
+            "Proper": "Switzerland",
+            "Sprite": "[](#sprite1-p238)"
+        },
+        "Turkey": {
+            "Proper": "Turkey",
+            "Sprite": "[](#sprite1-p456)"
+        },
+        "Ukraine": {
+            "Proper": "Ukraine",
+            "Sprite": "[](#sprite1-p138)"
+        },
+        "Vatican City": {
+            "Proper": "Vatican City",
+            "Sprite": "[](#sprite7-p431)"
+        },
+        "Wales": {
+            "Proper": "Wales",
+            "Sprite": "[](#sprite1-p241)"
         }
     },
     "Faroe Islands": {
@@ -21271,6 +21979,144 @@
             "Sprite": null
         }
     },
+    "North & Central America": {
+        "Anguilla": {
+            "Proper": "Anguilla",
+            "Sprite": "[](#sprite5-p211)"
+        },
+        "Antigua and Barbuda": {
+            "Proper": "Antigua and Barbuda",
+            "Sprite": "[](#sprite4-p182)"
+        },
+        "Aruba": {
+            "Proper": "Aruba",
+            "Sprite": "[](#sprite3-p80)"
+        },
+        "Bahamas": {
+            "Proper": "Bahamas",
+            "Sprite": "[](#sprite5-p164)"
+        },
+        "Barbados": {
+            "Proper": "Barbados",
+            "Sprite": "[](#sprite5-p165)"
+        },
+        "Belize": {
+            "Proper": "Belize",
+            "Sprite": "[](#sprite4-p344)"
+        },
+        "Bermuda": {
+            "Proper": "Bermuda",
+            "Sprite": "[](#sprite2-p371)"
+        },
+        "British Virgin Islands": {
+            "Proper": "British Virgin Islands",
+            "Sprite": "[](#sprite5-p212)"
+        },
+        "Canada": {
+            "Proper": "Canada",
+            "Sprite": "[](#sprite1-p97)"
+        },
+        "Cayman Islands": {
+            "Proper": "Cayman Islands",
+            "Sprite": "[](#sprite5-p213)"
+        },
+        "Costa Rica": {
+            "Proper": "Costa Rica",
+            "Sprite": "[](#sprite1-p221)"
+        },
+        "Cuba": {
+            "Proper": "Cuba",
+            "Sprite": "[](#sprite4-p192)"
+        },
+        "Curacao": {
+            "Proper": "Curacao",
+            "Sprite": "[](#sprite5-p355)"
+        },
+        "Dominica": {
+            "Proper": "Dominica",
+            "Sprite": "[](#sprite4-p451)"
+        },
+        "Dominican Republic": {
+            "Proper": "Dominican Republic",
+            "Sprite": "[](#sprite4-p191)"
+        },
+        "El Salvador": {
+            "Proper": "El Salvador",
+            "Sprite": "[](#sprite1-p288)"
+        },
+        "Grenada": {
+            "Proper": "Grenada",
+            "Sprite": "[](#sprite3-p19)"
+        },
+        "Guatemala": {
+            "Proper": "Guatemala",
+            "Sprite": "[](#sprite1-p458)"
+        },
+        "Haiti": {
+            "Proper": "Haiti",
+            "Sprite": "[](#sprite1-p491)"
+        },
+        "Honduras": {
+            "Proper": "Honduras",
+            "Sprite": "[](#sprite1-p213)"
+        },
+        "Jamaica": {
+            "Proper": "Jamaica",
+            "Sprite": "[](#sprite1-p390)"
+        },
+        "Martinique": {
+            "Proper": "Martinique",
+            "Sprite": "[](#sprite8-p431)"
+        },
+        "Mexico": {
+            "Proper": "Mexico",
+            "Sprite": "[](#sprite1-p30)"
+        },
+        "Montserrat": {
+            "Proper": "Montserrat",
+            "Sprite": "[](#sprite5-p214)"
+        },
+        "Nicaragua": {
+            "Proper": "Nicaragua",
+            "Sprite": "[](#sprite4-p267)"
+        },
+        "Panama": {
+            "Proper": "Panama",
+            "Sprite": "[](#sprite1-p298)"
+        },
+        "Puerto Rico": {
+            "Proper": "Puerto Rico",
+            "Sprite": "[](#sprite4-p343)"
+        },
+        "Saint Kitts and Nevis": {
+            "Proper": "Saint Kitts and Nevis",
+            "Sprite": "[](#sprite5-p191)"
+        },
+        "Saint Lucia": {
+            "Proper": "Saint Lucia",
+            "Sprite": "[](#sprite5-p190)"
+        },
+        "Saint Vincent and the Grenadines": {
+            "Proper": "Saint Vincent and the Grenadines",
+            "Sprite": "[](#sprite4-p193)"
+        },
+        "Trinidad & Tobago": {
+            "Proper": "Trinidad and Tobago",
+            "Sprite": "[](#sprite1-p498)"
+        },
+        "Turks and Caicos Islands": {
+            "Proper": "Turks and Caicos Islands",
+            "Sprite": "[](#sprite3-p28)"
+        },
+        "USA": {
+            "Proper": "United States",
+            "Sprite": "[](#sprite1-p7)"
+        },
+        "United States Virgin Islands": {
+            "Proper": "US Virgin Islands",
+            "Sprite": "[](#sprite5-p210)"
+        }
+    },
     "North Macedonia": {
         "Akademija Pandev": {
             "Proper": null,
@@ -27307,6 +28153,60 @@
         "Uthongathi": {
             "Proper": null,
             "Sprite": null
+        }
+    },
+    "South America": {
+        "Argentina": {
+            "Proper": "Argentina",
+            "Sprite": "[](#sprite1-p60)"
+        },
+        "Bolivia": {
+            "Proper": "Bolivia",
+            "Sprite": "[](#sprite1-p440)"
+        },
+        "Brazil": {
+            "Proper": "Brazil",
+            "Sprite": "[](#sprite1-p72)"
+        },
+        "Chile": {
+            "Proper": "Chile",
+            "Sprite": "[](#sprite1-p135)"
+        },
+        "Colombia": {
+            "Proper": "Colombia",
+            "Sprite": "[](#sprite1-p109)"
+        },
+        "Ecuador": {
+            "Proper": "Ecuador",
+            "Sprite": "[](#sprite1-p225)"
+        },
+        "French Guiana": {
+            "Proper": "French Guiana",
+            "Sprite": "[](#sprite8-p430)"
+        },
+        "Guyana": {
+            "Proper": "Guyana",
+            "Sprite": "[](#sprite5-p173)"
+        },
+        "Paraguay": {
+            "Proper": "Paraguay",
+            "Sprite": "[](#sprite2-p226)"
+        },
+        "Peru": {
+            "Proper": "Peru",
+            "Sprite": "[](#sprite1-p223)"
+        },
+        "Suriname": {
+            "Proper": "Suriname",
+            "Sprite": "[](#sprite5-p81)"
+        },
+        "Uruguay": {
+            "Proper": "Uruguay",
+            "Sprite": "[](#sprite1-p143)"
+        },
+        "Venezuela": {
+            "Proper": "Venezuela",
+            "Sprite": "[](#sprite1-p202)"
         }
     },
     "South Korea": {
