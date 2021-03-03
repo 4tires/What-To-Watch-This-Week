@@ -95,7 +95,7 @@ def WTWTW_Post(writeReadyMatchDict):
             day = dateday.split(' ')[1]
             wf.write('\n***' + dayOfWeek[day] + '***\n\n')
             wf.write(tableHeader)
-            for match in writeReadyMatchDict[dateday]:
+            for match in sorted(writeReadyMatchDict[dateday], key=lambda i: i['Time']):
                 if len(match['Time']) == 4:
                     timestamp = datetime.strptime(match['Time'], '%H%M')
                     tSMinus5 = timestamp - timedelta(hours=5)
