@@ -72,7 +72,6 @@
 - Created WTWTW_Post.py to write reddit post. Asks user for which matches to bold. It imports and calls on WTWTW.py functions.
 - Added CompNames-Sprites.json into TeamNames-Sprites folder. Incorporated into WTWTW.
 - Added international teams to TeamNames-Sprites-V2.json
-- IN WORK: The results tab for a competition (so far only cup games such as Copa Libertadores) can show "No Match found." Probably during the beginning of the competition. The script is waiting for a table to load at this point. Since nothing loads the wait times out and script ends. Working a fix.
 
 ## Backlog
 
