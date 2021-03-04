@@ -3,21 +3,72 @@ These posts are as much for me as they are for you. So please feel free to reply
 ---
 
 
-***Thursday***
-
- Time (LIS / LIS -5) | Match | Competition | Round 
- --------------|-----|-----------|-----|--- 
-05:00 / 00:00 | Lori vs Noah | Premier League |  
-14:45 / 09:45 | [](#sprite1-p430) Parma vs Internazionale [](#sprite1-p25) | [](#sprite7-p370) Serie A |  
-**15:15 / 10:15** | **[](#sprite1-p3) Liverpool vs Chelsea [](#sprite1-p4)** | **[](#sprite7-p327) Premier League** |  
-
 ***Friday***
 
  Time (LIS / LIS -5) | Match | Competition | Round 
  --------------|-----|-----------|-----|--- 
-05:00 / 00:00 | [](#sprite5-p424) Pyunik vs Alashkert [](#sprite5-p361) | Premier League |  
-14:00 / 09:00 | [](#sprite8-p210) FC Emmen vs Sparta Rotterdam [](#sprite2-p5) | [](#sprite7-p372) Eredivisie |  
+**03:30 / 22:30** | **[](#sprite4-p413) Melbourne Knights vs Dandenong Thunder** | **NPL Victoria** |  
+09:00 / 04:00 | [](#sprite7-p60) CS Constantine vs NA Hussein Dey [](#sprite4-p120) | [](#sprite7-p477) Algerian Ligue Professionnelle 1 |  
+**14:00 / 09:00** | **[](#sprite2-p115) Stjarnan vs Keflavík [](#sprite2-p219)** | **League Cup** |  
+14:45 / 09:45 | [](#sprite4-p280) Charleroi vs Sint-Truiden [](#sprite4-p198) | [](#sprite7-p375) Belgian Pro League |  
 15:00 / 10:00 | [](#sprite1-p107) Valencia vs Villarreal [](#sprite1-p270) | [](#sprite7-p369) La Liga |  
-**15:45 / 10:45** | **[](#sprite1-p52) Sporting Clube de Portugal vs Santa Clara [](#sprite4-p91)** | **[](#sprite7-p374) Primeira Liga** |  
+15:45 / 10:45 | [](#sprite1-p52) Sporting Clube de Portugal vs Santa Clara [](#sprite4-p91) | [](#sprite7-p374) Primeira Liga |  
+**17:15 / 12:15** | **[](#sprite1-p441) Newell's Old Boys vs Independiente [](#sprite1-p425)** | **Copa de la Liga Profesional** |  
+
+***Saturday***
+
+ Time (LIS / LIS -5) | Match | Competition | Round 
+ --------------|-----|-----------|-----|--- 
+**12:30 / 07:30** | **[](#sprite1-p19) Aston Villa vs Wolves [](#sprite1-p70)** | **[](#sprite7-p327) Premier League** |  
+12:30 / 07:30 | [](#sprite1-p8) Bayern München vs Borussia Dortmund [](#sprite1-p12) | [](#sprite7-p328) Bundesliga |  
+**12:45 / 07:45** | **[](#sprite1-p162) FC Twente vs Willem II [](#sprite4-p79)** | **[](#sprite7-p372) Eredivisie** |  
+14:45 / 09:45 | [](#sprite1-p17) Juventus vs Lazio [](#sprite1-p189) | [](#sprite7-p370) Serie A |  
+
+***Sunday***
+
+ Time (LIS / LIS -5) | Match | Competition | Round 
+ --------------|-----|-----------|-----|--- 
+**07:30 / 02:30** | **[](#sprite4-p215) Royal Excel Mouscron vs Standard Liège [](#sprite1-p351)** | **Belgian Pro League** |  
+**10:00 / 05:00** | **[](#sprite4-p408) Partizani Tiranë vs Skënderbeu Korçë [](#sprite4-p320)** | **Superliga** |  
+**11:30 / 06:30** | **[](#sprite1-p10) Manchester City vs Manchester United [](#sprite1-p2)** | **[](#sprite7-p327) Premier League** |  
+
+***Monday***
+
+ Time (LIS / LIS -5) | Match | Competition | Round 
+ --------------|-----|-----------|-----|--- 
+07:30 / 02:30 | [](#sprite7-p291) Petrojet vs FC Coca Cola | [](#sprite1-p328) Egypt Cup |  
+**13:00 / 08:00** | **[](#sprite1-p4) Chelsea vs Everton [](#sprite1-p15)** | **[](#sprite7-p327) Premier League** |  
+**14:45 / 09:45** | **[](#sprite1-p25) Internazionale vs Atalanta [](#sprite2-p182)** | **[](#sprite7-p370) Serie A** |  
+
+***Tuesday***
+
+ Time (LIS / LIS -5) | Match | Competition | Round 
+ --------------|-----|-----------|-----|--- 
+10:00 / 05:00 | [](#sprite5-p232) Bohemians 1905 vs Sigma Olomouc [](#sprite2-p381) | [](#sprite8-p63) Pohár FAČR | Round of 16 
+**15:00 / 10:00** | **[](#sprite1-p12) Borussia Dortmund (3) vs (2) Sevilla [](#sprite1-p229)** | **[](#sprite7-p403) UEFA Champions League** | **Round of 16** 
+**15:00 / 10:00** | **[](#sprite1-p17) Juventus (1) vs (2) FC Porto [](#sprite1-p37)** | **UEFA Champions League** | **Round of 16** 
+
+***Wednesday***
+
+ Time (LIS / LIS -5) | Match | Competition | Round 
+ --------------|-----|-----------|-----|--- 
+08:00 / 03:00 | Telavi vs Samgurali | Crystalbet Erovnuli Liga |  
+**15:00 / 10:00** | **[](#sprite1-p3) Liverpool (2) vs (0) RB Leipzig [](#sprite5-p14)** | **UEFA Champions League** | **Round of 16** 
+**15:00 / 10:00** | **[](#sprite1-p35) Paris Saint-Germain (4) vs (1) Barcelona [](#sprite1-p6)** | **UEFA Champions League** | **Round of 16** 
+15:10 / 10:10 | [](#sprite4-p87) Banfield vs Club A. Guemes | [](#sprite3-p50) Copa Argentina | Round of 64 
+
+***Thursday***
+
+ Time (LIS / LIS -5) | Match | Competition | Round 
+ --------------|-----|-----------|-----|--- 
+05:00 / 00:00 | West Armenia vs Ararat Yerevan [](#sprite5-p360) | Armenian Cup | Quarter-finals 
+06:30 / 01:30 | [](#sprite7-p245) Zob Ahan vs Shahr Khodrou | Hazfi Cup | Round of 32 
+10:30 / 05:30 | [](#sprite4-p261) SønderjyskE (2) vs (1) Fremad Amager [](#sprite8-p363) | [](#sprite8-p130) DBU Pokalen | Quarter-finals 
+12:00 / 07:00 | [](#sprite1-p449) KR vs FH [](#sprite2-p7) | League Cup |  
+12:55 / 07:55 | [](#sprite1-p22) Ajax vs Young Boys [](#sprite1-p258) | [](#sprite7-p408) UEFA Europa League | Round of 16 
+**12:55 / 07:55** | **[](#sprite1-p2) Manchester United vs AC Milan [](#sprite1-p13)** | **UEFA Europa League** | **Round of 16** 
+13:00 / 08:00 | [](#sprite2-p101) Nõmme Kalju vs Viljandi Tulevik [](#sprite5-p395) | Estonian Cup | Quarter-finals 
+15:00 / 10:00 | [](#sprite1-p36) AS Roma vs Shakhtar Donetsk [](#sprite1-p294) | UEFA Europa League | Round of 16 
+**15:00 / 10:00** | **[](#sprite1-p5) Tottenham Hotspur vs Dinamo Zagreb [](#sprite1-p197)** | **UEFA Europa League** | **Round of 16** 
 
 r/WhatToWatchThisWeek
