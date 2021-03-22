@@ -14,7 +14,8 @@
             "CECAFA Clubs Cup": "/football/africa/cecafa-clubs-cup/",
             "COSAFA Championship U20": "/football/africa/cosafa-championship-u20/",
             "COSAFA Cup": "/football/africa/cosafa-cup/",
-            "WAFU Cup of Nations": "/football/africa/wafu-cup-of-nations/"
+            "WAFU Cup of Nations": "/football/africa/wafu-cup-of-nations/",
+            "World Cup": "/football/africa/world-cup/"
         },
         "Albania": {
             "Albanian Cup": "/football/albania/albanian-cup/",
@@ -88,7 +89,8 @@
             "SAFF Championship Women": "/football/asia/saff-championship-women/",
             "Southeast Asian Games": "/football/asia/southeast-asian-games/",
             "Southeast Asian Games Women": "/football/asia/southeast-asian-games-women/",
-            "WAFF Championship": "/football/asia/waff-championship/"
+            "WAFF Championship": "/football/asia/waff-championship/",
+            "World Cup": "/football/asia/world-cup/"
         },
         "Australia": {
             "A-League": "/football/australia/a-league/",
@@ -116,7 +118,8 @@
             "OFC Nations Cup": "/football/australia-oceania/ofc-nations-cup/",
             "OFC Nations Cup Women": "/football/australia-oceania/ofc-nations-cup-women/",
             "Pacific Games": "/football/australia-oceania/pacific-games/",
-            "Pacific Games Women": "/football/australia-oceania/pacific-games-women/"
+            "Pacific Games Women": "/football/australia-oceania/pacific-games-women/",
+            "World Cup": "/football/australia-oceania/world-cup/"
         },
         "Austria": {
             "2. Liga": "/football/austria/2-liga/",
@@ -457,7 +460,8 @@
             "UEFA Regions' Cup": "/football/europe/uefa-regions-cup/",
             "UEFA Super Cup": "/football/europe/uefa-super-cup/",
             "UEFA Youth League": "/football/europe/uefa-youth-league/",
-            "Uhren Cup": "/football/europe/uhren-cup/"
+            "Uhren Cup": "/football/europe/uhren-cup/",
+            "World Cup": "/football/europe/world-cup/"
         },
         "Faroe Islands": {
             "Faroe Islands Cup": "/football/faroe-islands/faroe-islands-cup/",
@@ -889,7 +893,8 @@
             "Central American & Caribbean Games Women": "/football/north-central-america/central-american-caribbean-games-women/",
             "Copa Centroamericana": "/football/north-central-america/copa-centroamericana/",
             "Gold Cup": "/football/north-central-america/gold-cup/",
-            "Leagues Cup": "/football/north-central-america/leagues-cup/"
+            "Leagues Cup": "/football/north-central-america/leagues-cup/",
+            "World Cup": "/football/north-central-america/world-cup/"
         },
         "North Macedonia": {
             "1. MFL": "/football/north-macedonia/1-mfl/",
@@ -1119,7 +1124,8 @@
             "South American Championship U17": "/football/south-america/south-american-championship-u17/",
             "South American Championship U20": "/football/south-america/south-american-championship-u20/",
             "South American Championship Women U17": "/football/south-america/south-american-championship-women-u17/",
-            "South American Championship Women U20": "/football/south-america/south-american-championship-women-u20/"
+            "South American Championship Women U20": "/football/south-america/south-american-championship-women-u20/",
+            "World Cup": "/football/south-america/world-cup/"
         },
         "South Korea": {
             "K League 1": "/football/south-korea/k-league-1/",
