@@ -107,12 +107,7 @@ def match_details(competitions_dict, WTWTWmatches):
 							isCup = 1
 			if isCup == 1:
 				driver.find_element_by_id('li1').click()
-				'''
-				potential methods of waiting for matches or "No match found" to show on page:
-				https://stackoverflow.com/questions/60496204/webdriverwait-for-multiple-conditions-or-logical-evaluation
-				class for no match found: nmf__title
-				'''
-				wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'event__participant')))
+				wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".nmf__title, .event__participant")))
 				for date in WTWTWmatches:
 					for match in WTWTWmatches[date]:
 						if match['Region'] == region and match['Competition'] == competition:

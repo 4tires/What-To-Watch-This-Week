@@ -1,5 +1,11 @@
 from datetime import datetime, timedelta
-import WTWTW
+import platform
+ostype = platform.system()
+if ostype == 'Windows':
+    import WTWTW
+else:
+    import WTWTW_inwork_mac
+
 """
 WTWTWmatches = {
     '12/02 Fr': [
@@ -55,7 +61,10 @@ dayOfWeek = {
 }
 def WTWTW_main():
     input('Press Enter to Continue...')
-    WTWTWmatches = WTWTW.WTWTW()
+    if ostype == 'Windows':
+        WTWTWmatches = WTWTW.WTWTW()
+    else:
+        WTWTWmatches = WTWTW_inwork_mac.WTWTW()
     for date in WTWTWmatches:
         noList = ['n', 'no', 'none']
         numberList = []

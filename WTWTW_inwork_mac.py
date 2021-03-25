@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 import time
 import csv
-from login_credentials import username_credential, password_credential
+from login_credentials import username_credential, password_credential, chromedriver_path
 from json import load
 
 url = "https://www.flashscore.com/"
@@ -15,7 +15,7 @@ options = webdriver.ChromeOptions()
 options.add_argument('--ignore-certificate-errors')
 options.add_argument('--ignore-ssl-errors')
 
-driver = webdriver.Chrome(executable_path='chromedriver', options=options)
+driver = webdriver.Chrome(executable_path=chromedriver_path, options=options)
 driver.implicitly_wait(30)
 driver.get(url)
 wait = WebDriverWait(driver, 10)
@@ -27,7 +27,7 @@ try:
 finally:
 	driver.find_element_by_id('onetrust-accept-btn-handler').click()
 time.sleep(1)
-driver.find_element_by_id('onetrust-accept-btn-handler').click()
+#driver.find_element_by_id('onetrust-accept-btn-handler').click()
 
 driver.find_element_by_id('signIn').click()
 
@@ -48,15 +48,11 @@ password.clear()
 password.send_keys(password_credential)
 
 driver.find_element_by_id('login').click()
-"""
-with open ('listas.csv', 'w', newline='') as listas:
-	pass
-"""
+
 def parser(competitions_dict):
 	checked_matches = []
-	wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'event__header')))
+	wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'event__titleBox')))
 	soup = BeautifulSoup(driver.page_source, 'html.parser')
-
 	date = soup.find('div', class_='calendar__datepicker').get_text()#.split(' ')[0].replace('/', '.')
 	matches = soup.find_all('div', class_='checked')
 	list_of_matches = []
@@ -104,8 +100,8 @@ def fetcher():
 		time.sleep(2)
 
 def match_details(competitions_dict, WTWTWmatches):
-	print('Adding rounds and aggregate scores')
-	continentList = ['Asia', 'Africa', 'Europe', 'North & Central America', 'South America', 'Australia & Oceania']
+	continentList = ['Asia', 'Africa', 'Europe', 'North & Central America', 'South America', 'Australia & Oceania', 'World']
+	print('Fetching match round and aggregate score.')
 	with open('./TeamNames-Sprites/CompNames-Sprites.json', 'r', encoding='utf8') as rf:
 		cNSDict = load(rf)
 	for region in competitions_dict:
@@ -115,18 +111,35 @@ def match_details(competitions_dict, WTWTWmatches):
 			for date in WTWTWmatches:
 				for match in WTWTWmatches[date]:
 					if (match['Region'] == region and match['Competition'] == competition):
+						round = AchaRound(match['Home'], match['Away'], gamelist) if gamelist != None else None
+						match['Round'] = round
+						if round != None:
+							isCup = 1
+			if isCup == 1:
+				driver.find_element_by_id('li1').click()
+				wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".nmf__title, .event__participant")))
+				for date in WTWTWmatches:
+					for match in WTWTWmatches[date]:
+						if match['Region'] == region and match['Competition'] == competition:
+							if match['Round'] != None:
+								aggregate = AchaAggregate(match['Home'], match['Away'], match['Round'])
+								match['H FL Score'] = aggregate[1]
+								match['A FL Score'] = aggregate[0]
+				driver.find_element_by_id('li2').click()
+				wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'event__participant')))
+			for date in WTWTWmatches:
+				for match in WTWTWmatches[date]:
+					if (match['Region'] == region and match['Competition'] == competition):
 						match['Region'] = regionProperName
 						match['Competition'] = compProperName
 						if compProperName in list(cNSDict[regionProperName].keys()):
 							match['C Sprite'] = cNSDict[regionProperName][compProperName]['Sprite']
 							tempCompProperName = cNSDict[regionProperName][compProperName]['Proper']
 							match['Competition'] = (tempCompProperName if tempCompProperName != None else compProperName)
+							compProperName = (tempCompProperName if tempCompProperName != None else compProperName)
 						else:
 							match['C Sprite'] = None
-						round = AchaRound(match['Home'], match['Away'], gamelist)
-						match['Round'] = round
-						if round != None:
-							isCup = 1
+
 						if regionProperName in continentList:
 							nameSpriteDict = NameAndSprite(match, 1)
 						else:
@@ -135,28 +148,22 @@ def match_details(competitions_dict, WTWTWmatches):
 						match['Away'] = nameSpriteDict['A Name'] if nameSpriteDict['A Name'] != None else match['Away']
 						match['H Sprite'] = nameSpriteDict['H Sprite']
 						match['A Sprite'] = nameSpriteDict['A Sprite']
-			if isCup == 1:
-				driver.find_element_by_id('li1').click()
-				wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'event__participant')))
-				for date in WTWTWmatches:
-					for match in WTWTWmatches[date]:
-						if match['Region'] == regionProperName and match['Competition'] == compProperName:
-							if match['Round'] != None:
-								aggregate = AchaAggregate(match['Home'], match['Away'], match['Round'])
-								match['H FL Score'] = aggregate[1]
-								match['A FL Score'] = aggregate[0]
+
 	return WTWTWmatches
 
 def competition_matches(region, competition):
 	href, competition_proper, region_proper = AchaLinkEArranjaCompNome(region, competition)
-	driver.get(url + href + 'fixtures')
-	soup = BeautifulSoup(driver.page_source, 'html.parser')
-	checkedMatchesListUnfiltered = []
-	checkedMatches = soup.find_all('div', class_='checked')
-	for match in checkedMatches:
-		checkedMatchesListUnfiltered.append(match.find_parent('div', class_='event__match'))
-	returnCheckedMatchesList = list(filter(None, checkedMatchesListUnfiltered))
-	return returnCheckedMatchesList, competition_proper, region_proper
+	if href != None:
+		driver.get(url + href + 'fixtures')
+		soup = BeautifulSoup(driver.page_source, 'html.parser')
+		checkedMatchesListUnfiltered = []
+		checkedMatches = soup.find_all('div', class_='checked')
+		for match in checkedMatches:
+			checkedMatchesListUnfiltered.append(match.find_parent('div', class_='event__match'))
+		returnCheckedMatchesList = list(filter(None, checkedMatchesListUnfiltered))
+		return returnCheckedMatchesList, competition_proper, region_proper
+	else:
+		return None, competition_proper, region_proper
 
 def AchaLinkEArranjaCompNome(region, competition):
 	region_proper = region
@@ -171,16 +178,20 @@ def AchaLinkEArranjaCompNome(region, competition):
 		competition_name_split = competition.split(' - ')
 		for n in range(len(competition_name_split)):
 			competition_proper = ' - '.join(competition_name_split[:n+1])
-			for key in fsjson['Competitions'][region_proper]:
-				if (competition_proper == key):
-					href = fsjson['Competitions'][region_proper][competition_proper]
-					return href, competition_proper, region_proper
-	else:
+			if competition_proper in list(fsjson['Competitions'][region_proper].keys()):
+				href = fsjson['Competitions'][region_proper][competition_proper]
+				return href, competition_proper, region_proper
+	elif competition_proper in list(fsjson['Competitions'][region_proper].keys()):
 		href = fsjson['Competitions'][region_proper][competition_proper]
 		return href, competition_proper, region_proper
-		
+	else:
+		print("MISSING COMPETITION! No href found for", competition_proper, "in", region_proper)
+		return None, competition_proper, region_proper
+	print("Error: No matching competition found for", competition_proper, "in", region_proper)
+	return None, competition_proper, region_proper
+
 def AchaRound(home, away, gamelist):
-	fs_round_translator = {'1/32-finals':'Round of 64','1/16-finals':'Round of 32', '1/8-finals':'Round of 16'}
+	#fs_round_translator = {'1/32-finals':'Round of 64','1/16-finals':'Round of 32', '1/8-finals':'Round of 16'}
 	round = None
 	for item in gamelist:
 		home_team = item.find('div', class_='event__participant--home').get_text()
@@ -189,10 +200,7 @@ def AchaRound(home, away, gamelist):
 			round = item.find_previous_sibling('div', class_='event__round')
 			round = (round.get_text() if round != None else None)
 			if round != None:
-				if ("Round " not in round[:6] and len(round) not in [7, 8]):
-					if round in fs_round_translator.keys():
-						round = fs_round_translator[round]
-				else:
+				if ("Round " in round[:6] and len(round) in [7, 8]):
 					round = None
 			return round
 	print("No results for " + home + " vs " + away + " round.")
@@ -207,15 +215,22 @@ def AchaAggregate(homeTeam, awayTeam, roundName):
 		row = tableRoundHeader
 		while True:
 			row = row.next_sibling
-			if 'event__round' == row['class'][0]:
+			if row == None:
+				break
+			elif any(item in ['event__round', 'event__header'] for item in row['class']):
 				break
 			else:
 				fLHome = row.find('div', class_='event__participant--home').get_text()
 				fLAway = row.find('div', class_='event__participant--away').get_text()
 				if ((fLHome == awayTeam) and (fLAway == homeTeam)):
-					fLScore = row.find('div', class_='event__scores').find_all('span')
-					fLScoreHome = fLScore[0].get_text()
-					fLScoreAway = fLScore[1].get_text()
+					fLScore = row.find('div', class_='event__scores')#.find_all('span')
+					if fLScore != None:
+						fLScore = fLScore.find_all('span')
+						fLScoreHome = fLScore[0].get_text()
+						fLScoreAway = fLScore[1].get_text()
+					else:
+						fLScoreHome = row.find('div', class_='event__score--Home').get_text()
+						fLScoreAway = row.find('div', class_='event__score--Away').get_text()
 					break
 	return [fLScoreHome, fLScoreAway]
 
@@ -298,8 +313,9 @@ def NameAndSprite(matchDict, intlGame):
 		return returnDict
 
 def WTWTW():
-	WTWTWmatches, competitions_dict = fetcher()
-	match_details(competitions_dict, WTWTWmatches)
+	fs_round_translator = {'1/32-finals':'Round of 64','1/16-finals':'Round of 32', '1/8-finals':'Round of 16'}
+	WTWTWmatches, competitionsDict = fetcher()
+	WTWTWmatches = match_details(competitionsDict, WTWTWmatches)
 	driver.quit()
 
 	print("Writing listas.csv")
@@ -307,14 +323,73 @@ def WTWTW():
 		writer = csv.writer(listas, delimiter=';')
 		for date in WTWTWmatches:
 			for match in sorted(WTWTWmatches[date], key=lambda i: i['Time']):
-				"""
-				removing aggregate for now
-				writer.writerow([match['Time'], match['Home'], match['Away'], match['Competition'], match['Round'], match['Aggregate']])
-				"""
+				if match['Round'] in fs_round_translator:
+					match['Round'] = fs_round_translator[match['Round']]
 				writer.writerow([match['Time'], match['Home'], match['Away'], match['Competition'], match['Round']])
 			writer.writerow([])
 	print("Finished running WTWTW")
 	return WTWTWmatches
-
+"""
 input('Press Enter to Continue...')
 WTWTW()
+"""
+"""
+Current state of WTWTWmatches dictionary:
+WTWTWmatches = {
+	day : [
+		{
+			'Time' : # timestamp,
+			'id' : # game id used by FS,
+			'Home' : # Home team,
+			'Away' : # Away team,
+			'Region' : # Region of match. Usually country (Portugal) or continent (Europe). Sometimes other (World, Australia & Oceania),
+			'Competition' : # Name of competition,
+			'Round' : # round name of match (Round of 32, Semi-finals, etc),
+			'H Sprite' : # sprite for the home team,
+			'A Sprite' : # sprite for the away team,
+			'C Sprite' : # sprite for competition,
+			'H FL Score' : # The match home team's score in the first leg,
+			'A FL Score' : # The match away team's score in the first leg
+		},
+		{
+			# repeat above dictionary for each match on this day
+		}
+	]
+	next day : [
+		# repeat for matches on the next day
+	],
+	# repeats for 7 days total
+}
+
+Current state of CompetitionsDict/competitions_dict
+CompetitionsDict = {
+	region1 : [competition1, competition2, etc],
+	region2 : [competiton3, competition4, etc],
+	etc
+}
+"""
+
+"""
+FUNCTION DESCRIPTIONS
+
+WTWTW:
+Main function.
+Calls fetcher, calls match_details, quits chromedriver.
+writes listas.csv one row at a time. The line with the lambda function ensures the listas file is written in chronological order
+
+fetcher:
+days variable is there to allow for troubleshooting. For example, programmer can easily change days to 1 if they want to focus on a specific day/match that is causing errors.
+Creates the two dictionaries to eventually return.
+For loop calls parser and clicks button on website for next day until complete.
+time.sleep(2) is 2 second sleep. Shorter time, 1 second for example, sometimes created an issue where matches would be the same for multiple days.
+	It seems that the parser function would be called and pull data before the website started to load the next day's data. 
+
+parser:
+Each time parser is called the website has a new day of the checked matches. It creates a list of the checked matches and what the date is to return.
+The wait is there to allow the data to load. 'event__titleBox' was a div element that reloads each time the page loaded.
+competitions_dict collects each of the competitions that are checked when WTWTW is run. Reason why is explained in match_details description.
+
+match_details:
+
+
+"""
