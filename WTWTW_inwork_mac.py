@@ -168,6 +168,7 @@ def competition_matches(region, competition):
 def AchaLinkEArranjaCompNome(region, competition):
 	region_proper = region
 	competition_proper = competition
+	qual = "- Qualification"
 	with open('FSJSON/fslinks.json','r') as fs:
 		fsjson = load(fs)
 	for key in fsjson['Competitions']:
@@ -180,12 +181,20 @@ def AchaLinkEArranjaCompNome(region, competition):
 			competition_proper = ' - '.join(competition_name_split[:n+1])
 			if competition_proper in list(fsjson['Competitions'][region_proper].keys()):
 				href = fsjson['Competitions'][region_proper][competition_proper]
-				return href, competition_proper, region_proper
+				if qual in competition:
+					competition = competition[:competition.index(qual) + len(qual)]
+					return href, competition, region_proper
+				else:
+					return href, competition_proper, region_proper
 	elif competition_proper in list(fsjson['Competitions'][region_proper].keys()):
 		href = fsjson['Competitions'][region_proper][competition_proper]
-		return href, competition_proper, region_proper
+		if qual in competition:
+			competition = competition[:competition.index(qual) + len(qual)]
+			return href, competition, region_proper
+		else:
+			return href, competition_proper, region_proper
 	else:
-		print("MISSING COMPETITION! No href found for", competition_proper, "in", region_proper)
+		print("Missing competition! No href found for", competition_proper, "in", region_proper)
 		return None, competition_proper, region_proper
 	print("Error: No matching competition found for", competition_proper, "in", region_proper)
 	return None, competition_proper, region_proper

@@ -3,49 +3,67 @@ These posts are as much for me as they are for you. So please feel free to reply
 ---
 
 
-***Monday***
-
- Time (LIS / LIS -5) | Match | Competition | Round 
- --------------|-----|-----------|-----|--- 
-**16:00 / 11:00** | **[](#sprite1-p70) Wolves vs Liverpool [](#sprite1-p3)** | **[](#sprite7-p327) Premier League** |  
-18:15 / 13:15 | [](#sprite7-p193) Atlético Tucumán vs Patronato [](#sprite7-p192) | Copa de la Liga Profesional |  
-
-***Tuesday***
-
- Time (LIS / LIS -5) | Match | Competition | Round 
- --------------|-----|-----------|-----|--- 
-16:00 / 11:00 | [](#sprite1-p10) Manchester City (2) vs (0) Borussia Mönchengladbach [](#sprite1-p134) | [](#sprite7-p403) UEFA Champions League | Round of 16 
-**16:00 / 11:00** | **[](#sprite1-p9) Real Madrid (1) vs (0) Atalanta [](#sprite2-p182)** | **UEFA Champions League** | **Round of 16** 
-
-***Wednesday***
-
- Time (LIS / LIS -5) | Match | Competition | Round 
- --------------|-----|-----------|-----|--- 
-16:00 / 11:00 | [](#sprite1-p8) Bayern München (4) vs (1) Lazio [](#sprite1-p189) | UEFA Champions League | Round of 16 
-**16:00 / 11:00** | **[](#sprite1-p4) Chelsea (1) vs (0) Atlético Madrid [](#sprite1-p76)** | **UEFA Champions League** | **Round of 16** 
-
-***Thursday***
-
- Time (LIS / LIS -5) | Match | Competition | Round 
- --------------|-----|-----------|-----|--- 
-**13:55 / 08:55** | **[](#sprite1-p1) Arsenal (3) vs (1) Olympiacos [](#sprite1-p139)** | **[](#sprite7-p408) UEFA Europa League** | **Round of 16** 
-
 ***Friday***
 
  Time (LIS / LIS -5) | Match | Competition | Round 
  --------------|-----|-----------|-----|--- 
-**16:00 / 11:00** | **[](#sprite1-p321) Saint-Étienne vs Monaco [](#sprite1-p186)** | **[](#sprite7-p377) Ligue 1** |  
+09:00 / 04:00 | [](#sprite5-p189) Burundi vs Central Africa | Africa Cup of Nations - Qualification |  
+**12:00 / 07:00** | **[](#sprite5-p196) Congo vs Senegal [](#sprite2-p461)** | **Africa Cup of Nations - Qualification** |  
+No time | [](#sprite1-p60) Argentina vs Uruguay [](#sprite1-p143) | World Cup - Qualification |  
 
 ***Saturday***
 
  Time (LIS / LIS -5) | Match | Competition | Round 
  --------------|-----|-----------|-----|--- 
-**16:00 / 11:00** | **[](#sprite1-p103) Brighton & Hove Albion vs Newcastle United [](#sprite1-p11)** | **[](#sprite7-p327) Premier League** |  
+01:00 / 20:00 | [](#sprite8-p2) Bucheon 1995 vs Gimhae Jaemics | [](#sprite8-p72) Korean FA Cup | Round of 64 
+**09:00 / 04:00** | **[](#sprite5-p206) Lesotho vs Sierra Leone [](#sprite2-p469)** | **Africa Cup of Nations - Qualification** |  
+**10:00 / 05:00** | **[](#sprite2-p97) Montenegro vs Gibraltar [](#sprite1-p418)** | **World Cup - Qualification** |  
+**10:00 / 05:00** | **[](#sprite1-p152) Russia vs Slovenia [](#sprite1-p480)** | **World Cup - Qualification** |  
+13:00 / 08:00 | [](#sprite1-p63) Croatia vs Cyprus [](#sprite2-p224) | World Cup - Qualification |  
+15:45 / 10:45 | [](#sprite1-p324) Serbia vs Portugal [](#sprite1-p51) | World Cup - Qualification |  
+16:30 / 11:30 | [](#sprite3-p28) Turks and Caicos Islands vs Nicaragua [](#sprite4-p267) | World Cup - Qualification |  
+20:00 / 15:00 | [](#sprite3-p80) Aruba vs Suriname | World Cup - Qualification |  
 
 ***Sunday***
 
  Time (LIS / LIS -5) | Match | Competition | Round 
  --------------|-----|-----------|-----|--- 
-**15:30 / 10:30** | **[](#sprite1-p19) Aston Villa vs Tottenham Hotspur [](#sprite1-p5)** | **[](#sprite7-p327) Premier League** |  
+09:00 / 04:00 | [](#sprite4-p184) Tanzania vs Libya [](#sprite2-p336) | Africa Cup of Nations - Qualification |  
+09:00 / 04:00 | [](#sprite2-p225) Tunisia vs Equatorial Guinea [](#sprite5-p197) | Africa Cup of Nations - Qualification |  
+**09:00 / 04:00** | **[](#sprite2-p449) Kazakhstan vs France [](#sprite1-p62)** | **World Cup - Qualification** |  
+**14:45 / 09:45** | **[](#sprite1-p394) FYR Macedonia vs Liechtenstein [](#sprite4-p201)** | **World Cup - Qualification** |  
+**17:00 / 12:00** | **[](#sprite4-p192) Cuba vs Curacao [](#sprite5-p355)** | **World Cup - Qualification** |  
+
+***Monday***
+
+ Time (LIS / LIS -5) | Match | Competition | Round 
+ --------------|-----|-----------|-----|--- 
+**12:00 / 07:00** | **[](#sprite3-p8) Burkina Faso vs South Sudan [](#sprite4-p400)** | **Africa Cup of Nations - Qualification** |  
+
+***Tuesday***
+
+ Time (LIS / LIS -5) | Match | Competition | Round 
+ --------------|-----|-----------|-----|--- 
+06:00 / 01:00 | [](#sprite1-p210) Nepal vs Australia | World Cup - Qualification |  
+06:30 / 01:30 | [](#sprite3-p7) Mongolia vs Japan [](#sprite1-p126) | World Cup - Qualification |  
+14:45 / 09:45 | [](#sprite1-p63) Croatia vs Malta [](#sprite2-p239) | World Cup - Qualification |  
+14:45 / 09:45 | [](#sprite2-p117) Luxembourg vs Portugal [](#sprite1-p51) | World Cup - Qualification |  
+19:00 / 14:00 | [](#sprite3-p19) Grenada vs US Virgin Islands [](#sprite5-p210) | World Cup - Qualification |  
+19:30 / 14:30 | [](#sprite5-p165) Barbados vs Anguilla [](#sprite5-p211) | World Cup - Qualification |  
+**No time** | **[](#sprite1-p143) Uruguay vs Bolivia [](#sprite1-p440)** | **World Cup - Qualification** |  
+**No time** | **[](#sprite2-p226) Paraguay vs Colombia [](#sprite1-p109)** | **World Cup - Qualification** |  
+**No time** | **[](#sprite1-p72) Brazil vs Argentina [](#sprite1-p60)** | **World Cup - Qualification** |  
+
+***Wednesday***
+
+ Time (LIS / LIS -5) | Match | Competition | Round 
+ --------------|-----|-----------|-----|--- 
+**14:45 / 09:45** | **[](#sprite1-p23) England vs Poland [](#sprite1-p58)** | **World Cup - Qualification** |  
+
+***Thursday***
+
+ Time (LIS / LIS -5) | Match | Competition | Round 
+ --------------|-----|-----------|-----|--- 
+**07:15 / 02:15** | **Andijan vs Mashal Muborak** | **Super League** |  
 
 r/WhatToWatchThisWeek
