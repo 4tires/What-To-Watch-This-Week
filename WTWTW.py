@@ -44,7 +44,7 @@ def parser(competitions_dict):
 	wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'event__titleBox')))
 	soup = BeautifulSoup(driver.page_source, 'html.parser')
 	date = soup.find('div', class_='calendar__datepicker').get_text()#.split(' ')[0].replace('/', '.')
-	matches = soup.find_all('div', class_='checked')
+	matches = soup.find_all('svg', class_='active___3hdtOBF')
 	list_of_matches = []
 	for match in matches:
 		list_of_matches.append(match.find_parent('div', class_='event__match'))
