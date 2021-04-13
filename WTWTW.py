@@ -147,7 +147,7 @@ def competition_matches(region, competition):
 		driver.get(url + href + 'fixtures')
 		soup = BeautifulSoup(driver.page_source, 'html.parser')
 		checkedMatchesListUnfiltered = []
-		checkedMatches = soup.find_all('div', class_='checked')
+		checkedMatches = soup.find_all('svg', class_='active___3hdtOBF')
 		for match in checkedMatches:
 			checkedMatchesListUnfiltered.append(match.find_parent('div', class_='event__match'))
 		returnCheckedMatchesList = list(filter(None, checkedMatchesListUnfiltered))
