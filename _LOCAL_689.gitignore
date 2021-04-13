@@ -125,9 +125,4 @@ dmypy.json
 login_credentials.py
 chromedriver.exe
 notes.txt
-sandbox.py
-Pipfile
-pipfile.lock
-.vscode/
 listas.csv
-WTWTW_post.txt
