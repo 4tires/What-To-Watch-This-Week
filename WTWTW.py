@@ -134,6 +134,8 @@ def match_details(competitions_dict, WTWTWmatches):
 							nameSpriteDict = NameAndSprite(match, 1)
 						else:
 							nameSpriteDict = NameAndSprite(match, 0)
+						if (round == None) and (nameSpriteDict['Group'] != None):
+							match['Round'] = nameSpriteDict['Group']
 						match['Home'] = nameSpriteDict['H Name'] if nameSpriteDict['H Name'] != None else match['Home']
 						match['Away'] = nameSpriteDict['A Name'] if nameSpriteDict['A Name'] != None else match['Away']
 						for side in ['Home', 'Away']:
@@ -241,7 +243,8 @@ def NameAndSprite(matchDict, intlGame):
 		'H Name' : None,
 		'H Sprite' : None,
 		'A Name' : None,
-		'A Sprite' : None
+		'A Sprite' : None,
+		'Group' : None
 	}
 	# 1 if international competition. 0 if not.
 	with open('./TeamNames-Sprites/TeamNames-Sprites-V2.json', 'r', encoding='utf8') as rf:
@@ -273,11 +276,11 @@ def NameAndSprite(matchDict, intlGame):
 		driver.find_element_by_link_text('H2H').click()
 		wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'h2h___1pnzCTL'))) # Previously (By.CLASS_NAME, 'h2h-wrapper')
 		h2hSoup = BeautifulSoup(driver.page_source, 'html.parser')
-		h2hSoup = h2hSoup.find_all('div', class_='section___1a1N7yN')
+		h2hSection = h2hSoup.find_all('div', class_='section___1a1N7yN')
 
 		for side in list(nameSpriteDict.keys()):
 			teamName = nameSpriteDict[side]['Name']
-			for table in h2hSoup:
+			for table in h2hSection:
 				table_title = table.find('div', class_='title___3_goVIi')
 				if 'Head-to-head' in table_title.contents[0]:
 					continue
@@ -307,6 +310,24 @@ def NameAndSprite(matchDict, intlGame):
 		returnDict['H Sprite'] = nameSpriteDict['Home']['Sprite']
 		returnDict['A Name'] = nameSpriteDict['Away']['Proper']
 		returnDict['A Sprite'] = nameSpriteDict['Away']['Sprite']
+
+		tabs = h2hSoup.find_all('a', class_='tabs__tab')
+		for tab in tabs:
+			if tab.contents[0] != "Standings":
+				continue
+			else:
+				driver.find_element_by_link_text('Standings').click()
+				wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'table___21hYPOu')))
+				h2hSoup = BeautifulSoup(driver.page_source, 'html.parser')
+				standingTables = h2hSoup.find_all('div', class_='headerCellParticipant___2sCAohv')
+				for table in standingTables:
+					tableHeader = table.contents[0]
+					if 'Group ' in tableHeader:
+						returnDict['Group'] = tableHeader
+						break
+					else:
+						continue
+
 		driver.close()
 		driver.switch_to.window(originalWindow)
 		return returnDict
