@@ -134,8 +134,13 @@ def match_details(competitions_dict, WTWTWmatches):
 							nameSpriteDict = NameAndSprite(match, 1)
 						else:
 							nameSpriteDict = NameAndSprite(match, 0)
+						if (round == None) and (nameSpriteDict['Group'] != None):
+							match['Round'] = nameSpriteDict['Group']
 						match['Home'] = nameSpriteDict['H Name'] if nameSpriteDict['H Name'] != None else match['Home']
 						match['Away'] = nameSpriteDict['A Name'] if nameSpriteDict['A Name'] != None else match['Away']
+						for side in ['Home', 'Away']:
+							if ' (' in match[side] and ' (Am)' not in match[side]:
+								match[side] = match[side][0:match[side].find(' (')]
 						match['H Sprite'] = nameSpriteDict['H Sprite']
 						match['A Sprite'] = nameSpriteDict['A Sprite']
 
@@ -238,12 +243,13 @@ def NameAndSprite(matchDict, intlGame):
 		'H Name' : None,
 		'H Sprite' : None,
 		'A Name' : None,
-		'A Sprite' : None
+		'A Sprite' : None,
+		'Group' : None
 	}
 	# 1 if international competition. 0 if not.
 	with open('./TeamNames-Sprites/TeamNames-Sprites-V2.json', 'r', encoding='utf8') as rf:
 		tNSDict = load(rf)
-	if intlGame == 0:
+	if not intlGame:
 		for side in list(nameSpriteDict.keys()):
 			teamName = nameSpriteDict[side]['Name']
 			try:
@@ -266,33 +272,62 @@ def NameAndSprite(matchDict, intlGame):
 			if window_handle != originalWindow:
 				driver.switch_to.window(window_handle)
 				break
-		wait.until(EC.presence_of_element_located((By.ID, 'a-match-head-2-head')))
-		driver.find_element_by_id('a-match-head-2-head').click()
-		wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'h2h-wrapper')))
+		wait.until(EC.presence_of_element_located((By.LINK_TEXT, 'H2H'))) #Previously (By.ID, 'a-match-head-2-head')
+		driver.find_element_by_link_text('H2H').click()
+		wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'h2h___1pnzCTL'))) # Previously (By.CLASS_NAME, 'h2h-wrapper')
 		h2hSoup = BeautifulSoup(driver.page_source, 'html.parser')
+		h2hSection = h2hSoup.find_all('div', class_='section___1a1N7yN')
 
 		for side in list(nameSpriteDict.keys()):
 			teamName = nameSpriteDict[side]['Name']
-			h2hMatches = h2hSoup.find('table', class_=nameSpriteDict[side]['h2h'])	
-			h2hFlags = h2hMatches.find_all('td', class_='flag_td')
-			h2hRegions = []
-			for flag in h2hFlags:
-				flagTitle = flag['title']
-				flagTitle = flagTitle[flagTitle.find('(')+1:flagTitle.find(')')]
-				if flagTitle not in h2hRegions:
-					h2hRegions.append(flagTitle)
-			for region in h2hRegions:
-				try:
-					tNSDict[region][teamName]
-					nameSpriteDict[side]['Proper'] = tNSDict[region][teamName]['Proper']
-					nameSpriteDict[side]['Sprite'] = tNSDict[region][teamName]['Sprite']
-					break		
-				except KeyError:
+			for table in h2hSection:
+				table_title = table.find('div', class_='title___3_goVIi')
+				if 'Head-to-head' in table_title.contents[0]:
 					continue
+				else:
+					table_team = table.find('span', class_='highlighted___nwocTCH').contents[0]
+					if table_team in nameSpriteDict[side]['Name']:
+						if '(' in teamName:
+							teamName = table_team
+						h2hFlags = table.find_all('span', class_='flag___38-7xEI')
+						h2hRegions =[]
+						for flag in h2hFlags:
+							flagTitle = flag['title']
+							flagTitle = flagTitle[flagTitle.find('(')+1:flagTitle.find(')')]
+							if flagTitle not in h2hRegions:
+								h2hRegions.append(flagTitle)
+						for region in h2hRegions:
+							try:
+								tNSDict[region][teamName]
+								nameSpriteDict[side]['Proper'] = tNSDict[region][teamName]['Proper']
+								nameSpriteDict[side]['Sprite'] = tNSDict[region][teamName]['Sprite']
+								break		
+							except KeyError:
+								continue
+					else:
+						continue
 		returnDict['H Name'] = nameSpriteDict['Home']['Proper']
 		returnDict['H Sprite'] = nameSpriteDict['Home']['Sprite']
 		returnDict['A Name'] = nameSpriteDict['Away']['Proper']
 		returnDict['A Sprite'] = nameSpriteDict['Away']['Sprite']
+
+		tabs = h2hSoup.find_all('a', class_='tabs__tab')
+		for tab in tabs:
+			if tab.contents[0] != "Standings":
+				continue
+			else:
+				driver.find_element_by_link_text('Standings').click()
+				wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'table___21hYPOu')))
+				h2hSoup = BeautifulSoup(driver.page_source, 'html.parser')
+				standingTables = h2hSoup.find_all('div', class_='headerCellParticipant___2sCAohv')
+				for table in standingTables:
+					tableHeader = table.contents[0]
+					if 'Group ' in tableHeader:
+						returnDict['Group'] = tableHeader
+						break
+					else:
+						continue
+
 		driver.close()
 		driver.switch_to.window(originalWindow)
 		return returnDict
