@@ -28,7 +28,7 @@
             "Proper": "CAF Champions League",
             "Sprite": "[](#sprite7-p405)"
         },
-        "CAF Confederations Cup": {
+        "CAF Confederation Cup": {
             "Proper": "CAF Confederation Cup",
             "Sprite": "[](#sprite8-p23)"
         },
@@ -1501,6 +1501,10 @@
         "Europa League": {
             "Proper": "UEFA Europa League",
             "Sprite": "[](#sprite7-p408)"
+        },
+        "Europa Conference League": {
+            "Proper": "UEFA Conference League",
+            "Sprite": null
         },
         "Marbella Cup": {
             "Proper": null,
