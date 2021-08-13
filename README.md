@@ -73,6 +73,16 @@
 - Added CompNames-Sprites.json into TeamNames-Sprites folder. Incorporated into WTWTW.
 - Added international teams to TeamNames-Sprites-V2.json
 
+### v12
+
+- Renamed variables and functions throughout WTWTW.py and WTWTW_Post.py with more consistent formatting (lowercase, underscores)
+- Rearranged functions to flow top to down in order (first function called shows up at top of file)
+- Created wtwtw_matches and competitions_dict as global variables since the two dictionaries are used throughout the script.
+- Created enumerated classes for competition types and league types to reduce vague voding (For example, Competition_type.DOMESTIC is used in find_name_and_sprite function instead of 0 for domestic games)
+- WTWTW.py and WTWTW_Post.py relationship has been changed. WTWTW now imports WTWTW_Post and calls the scripts, previously it was reversed.
+- Removed AchaLinkEArranjaCompNome function and replaced with competition_and_region_proper_names that reduced scope. The removed logic was added into match_details function.
+-  
+
 ## Backlog
 
 - [ ] Install Grid (needs Docker) to use python in spreadsheets easily
