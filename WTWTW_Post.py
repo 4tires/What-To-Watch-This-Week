@@ -1,13 +1,112 @@
 from datetime import datetime, timedelta
-import platform
-ostype = platform.system()
-if ostype == 'Windows':
-    import WTWTW
-else:
-    import WTWTW_inwork_mac
+
+DAY_OF_WEEK = {
+    'Mo' : 'Monday',
+    'Tu' : 'Tuesday',
+    'We' : 'Wednesday',
+    'Th' : 'Thursday',
+    'Fr' : 'Friday',
+    'Sa' : 'Saturday',
+    'Su' : 'Sunday'
+}
+def WTWTW_bold_prompt(wtwtw_matches):
+    for date in wtwtw_matches:
+        no_list = ['n', 'no', 'none']
+        number_list = []
+        for n in range(len(wtwtw_matches[date])):
+            wtwtw_matches[date][n]['Bold'] = 0
+            prompt_text = ''
+            for item in [wtwtw_matches[date][n]['Home'], 'vs', wtwtw_matches[date][n]['Away'], 'in', wtwtw_matches[date][n]['Competition']]:
+                prompt_text = prompt_text + item + ' '
+            number_list.append(str(n))
+            print(str(n) + ' : ' + prompt_text)
+        while True:
+            print('Select which matches to bold. Separate numbers with a space. For example: "1 2 3 4". Or enter [n, no, none] to bold none of the matches')
+            response = input('Make selection: ')
+            if (response.lower() in no_list):
+                break
+            check = all(item in number_list for item in response.split(' '))
+            if check:
+                break
+            else:
+                print('\nInvalid input in match selection.')
+        if response.lower() not in no_list:
+            matches_to_bold = response.split(' ')
+            for n in matches_to_bold:
+                wtwtw_matches[date][int(n)]['Bold'] = 1
+    return wtwtw_matches
+
+def WTWTW_post_writer(write_ready_match_dict):
+    global DAY_OF_WEEK
+    intro = "These posts are as much for me as they are for you. So please feel free to reply with your suggestions for what to watch, and make a case for any game to be considered 'must watch', in which case I will bold it. The time zone used to sort games was LIS (Lisbon) time zone, so no, the game is not on a wrong date.\n\n---\n\n"
+    table_header = ' Time (LIS / LIS -5) | Match | Competition | Round \n --------------|-----|-----------|-----|--- \n'
+    with open('./WTWTW_post.txt', 'w', encoding='utf8') as writer:
+        writer.write(intro)
+        for date_day in write_ready_match_dict:
+            day = date_day.split(' ')[1]
+            writer.write('\n***' + DAY_OF_WEEK[day] + '***\n\n')
+            writer.write(table_header)
+            for match in sorted(write_ready_match_dict[date_day], key=lambda i: i['Time']):
+                if len(match['Time']) == 4:
+                    timestamp = datetime.strptime(match['Time'], '%H%M')
+                    timestamp_minus_5 = timestamp - timedelta(hours=5)
+                    timestamp = timestamp.strftime("%H:%M")
+                    timestamp_minus_5 = timestamp_minus_5.strftime("%H:%M")
+                    timestamp = timestamp + ' / ' + timestamp_minus_5                 
+                else:
+                    timestamp = match['Time']
+                match_cell = ' vs '
+                try:
+                    if match['H FL Score'] != None or match['A FL Score'] != None:
+                        match_cell = ' (' + match['H FL Score'] + ')' + match_cell + '(' + match['A FL Score'] + ') '
+                except (KeyError, TypeError) as e:
+                    pass
+                try:
+                    match_cell = match['H Sprite'] + ' ' + match['Home'] + match_cell
+                except (KeyError, TypeError) as e:
+                    match_cell = match['Home'] + match_cell
+                try:
+                    match_cell = match_cell + match['Away'] + ' ' + match['A Sprite']
+                except (KeyError, TypeError) as e:
+                    match_cell = match_cell + match['Away']
+                if match['C Sprite'] != None:
+                    comp_cell = match['C Sprite'] + ' ' + match['Competition']
+                else:
+                    comp_cell = match['Competition']
+                temp = {
+                    'time' : timestamp,
+                    'match' : match_cell,
+                    'comp' : comp_cell,
+                    'round' : match['Round']
+                }
+                
+                row = ''
+                if match['Bold'] == 0:
+                    for cell in temp:
+                        cell_data = temp[cell]
+                        if cell_data != None:
+                            row = row + temp[cell] + ' | '
+                        else:
+                            row = row + '' + ' | '
+                    row = row[:-2]
+                    writer.write(row + '\n')
+                else:
+                    for cell in temp:
+                        cell_data = temp[cell]
+                        if cell_data != None:
+                            row = row + '**' + temp[cell] + '** | '
+                        else:
+                            row = row + '' + " | "
+                    row = row[:-2]
+                    writer.write(row + '\n')
+                    
+        writer.write('\nr/WhatToWatchThisWeek')
+
 
 """
-WTWTWmatches = {
+example wtwtw_matches dictionary
+
+wtwtw_matches = {
     '12/02 Fr': [
         {'Time': '1430', 'id': 'g_1_CUdei8nM', 'Home': 'RB Leipzig', 'Away': 'FC Augsburg', 'Region': 'Germany', 'Competition': 'Bundesliga', 'Round': None, 'H Sprite': '[](#sprite5-p14)', 'A Sprite': '[](#sprite1-p291)'}, 
         {'Time': '1530', 'id': 'g_1_4Qrd1u9r', 'Home': 'Famalicão', 'Away': 'Belenenses', 'Region': 'Portugal', 'Competition': 'Primeira Liga', 'Round': None, 'H Sprite': '[](#sprite8-p345)', 'A Sprite': '[](#sprite2-p201)'}],
@@ -38,125 +137,3 @@ WTWTWmatches = {
         {'Time': '1500', 'id': 'g_1_vykXgL12', 'Home': 'Red Bull Salzburg', 'Away': 'Villarreal', 'Region': 'Europe', 'Competition': 'Europa League', 'Round': 'Round of 32', 'H Sprite': '[](#sprite1-p455)', 'A Sprite': '[](#sprite1-p270)', 'H FL Score': None, 'A FL Score': None}]
     }
 """
-
-WTWTWmatches2 = {
-    '28/02 Su': [
-        {'Time': '0730','C Sprite' : None, 'id': 'g_1_YDUBJOHU', 'Home': 'Leicester City', 'Away': 'Liverpool', 'Region': 'England', 'Competition': 'Premier League', 'Round': None, 'H Sprite': '[](#sprite1-p87)', 'A Sprite': '[](#sprite1-p3)'}, 
-        {'Time': '1100','C Sprite' : None, 'id': 'g_1_W8jdixKS', 'Home': 'Paris Saint-Germain', 'Away': 'OGC Nice', 'Region': 'France', 'Competition': 'Ligue 1', 'Round': None, 'H Sprite': '[](#sprite1-p35)', 'A Sprite': '[](#sprite2-p71)'},
-        {'Time': '0930','C Sprite' : None, 'id': 'g_1_U57jhlXF', 'Home': 'Borussia Dortmund', 'Away': '1899 Hoffenheim', 'Region': 'Germany', 'Competition': 'Bundesliga', 'Round': None, 'H Sprite': '[](#sprite1-p12)', 'A Sprite': '[](#sprite1-p353)'}],
-    '01/03 Mo': [
-        {'Time': '1430','C Sprite' : None, 'id': 'g_1_CUdei8nM', 'Home': 'RB Leipzig', 'Away': 'FC Augsburg', 'Region': 'Germany', 'Competition': 'Bundesliga', 'Round': None, 'H Sprite': '[](#sprite5-p14)', 'A Sprite': '[](#sprite1-p291)'}, 
-        {'Time': '1530','C Sprite' : None, 'id': 'g_1_4Qrd1u9r', 'Home': 'Famalicão', 'Away': 'Belenenses', 'Region': 'Portugal', 'Competition': 'Primeira Liga', 'Round': None, 'H Sprite': '[](#sprite8-p345)', 'A Sprite': '[](#sprite2-p201)'},
-        {'Time': '1115', 'C Sprite' : None, 'id': 'g_1_8Qg0W2OI', 'Home': 'Al-Msnaa', 'Away': 'Dhofar', 'Region': 'Oman', 'Competition': 'Sultan Cup', 'Round': 'Quarter-finals', 'H Sprite': None, 'A Sprite': None, 'H FL Score': '0', 'A FL Score': '2'}]
-}
-
-dayOfWeek = {
-    'Mo' : 'Monday',
-    'Tu' : 'Tuesday',
-    'We' : 'Wednesday',
-    'Th' : 'Thursday',
-    'Fr' : 'Friday',
-    'Sa' : 'Saturday',
-    'Su' : 'Sunday'
-}
-def WTWTW_main():
-    input('Press Enter to Continue...')
-    if ostype == 'Windows':
-        WTWTWmatches = WTWTW.WTWTW()
-    else:
-        WTWTWmatches = WTWTW_inwork_mac.WTWTW()
-    for date in WTWTWmatches:
-        noList = ['n', 'no', 'none']
-        numberList = []
-        for n in range(len(WTWTWmatches[date])):
-            WTWTWmatches[date][n]['Bold'] = 0
-            promptText = ''
-            for item in [WTWTWmatches[date][n]['Home'], 'vs', WTWTWmatches[date][n]['Away'], 'in', WTWTWmatches[date][n]['Competition']]:
-                promptText = promptText + item + ' '
-            numberList.append(str(n))
-            print(str(n) + ' : ' + promptText)
-        while True:
-            print('Select which matches to bold. Separate numbers with a space. For example: "1 2 3 4". Or enter [n, no, none] to bold none of the matches')
-            response = input('Make selection: ')
-            if (response.lower() in noList):
-                break
-            check = all(item in numberList for item in response.split(' '))
-            if check:
-                break
-            else:
-                print('\nInvalid input in match selection.')
-        if response.lower() not in noList:
-            matchesToBold = response.split(' ')
-            for n in matchesToBold:
-                WTWTWmatches[date][int(n)]['Bold'] = 1
-    print('Writing reddit post.')
-    WTWTW_Post(WTWTWmatches)
-    print('Completed.')
-        
-
-
-def WTWTW_Post(writeReadyMatchDict):
-    intro = "These posts are as much for me as they are for you. So please feel free to reply with your suggestions for what to watch, and make a case for any game to be considered 'must watch', in which case I will bold it. The time zone used to sort games was LIS (Lisbon) time zone, so no, the game is not on a wrong date.\n\n---\n\n"
-    tableHeader = ' Time (LIS / LIS -5) | Match | Competition | Round \n --------------|-----|-----------|-----|--- \n'
-    with open('./WTWTW_post.txt', 'w', encoding='utf8') as wf:
-        wf.write(intro)
-        for dateday in writeReadyMatchDict:
-            day = dateday.split(' ')[1]
-            wf.write('\n***' + dayOfWeek[day] + '***\n\n')
-            wf.write(tableHeader)
-            for match in sorted(writeReadyMatchDict[dateday], key=lambda i: i['Time']):
-                if len(match['Time']) == 4:
-                    timestamp = datetime.strptime(match['Time'], '%H%M')
-                    tSMinus5 = timestamp - timedelta(hours=5)
-                    timestamp = timestamp.strftime("%H:%M")
-                    tSMinus5 = tSMinus5.strftime("%H:%M")
-                    timestamp = timestamp + ' / ' + tSMinus5                 
-                else:
-                    timestamp = match['Time']
-                matchCell = ' vs '
-                try:
-                    if match['H FL Score'] != None or match['A FL Score'] != None:
-                        matchCell = ' (' + match['H FL Score'] + ')' + matchCell + '(' + match['A FL Score'] + ') '
-                except (KeyError, TypeError) as e:
-                    pass
-                try:
-                    matchCell = match['H Sprite'] + ' ' + match['Home'] + matchCell
-                except (KeyError, TypeError) as e:
-                    matchCell = match['Home'] + matchCell
-                try:
-                    matchCell = matchCell + match['Away'] + ' ' + match['A Sprite']
-                except (KeyError, TypeError) as e:
-                    matchCell = matchCell + match['Away']
-                if match['C Sprite'] != None:
-                    compCell = match['C Sprite'] + ' ' + match['Competition']
-                else:
-                    compCell = match['Competition']
-                temp = {
-                    'time' : timestamp,
-                    'match' : matchCell,
-                    'comp' : compCell,
-                    'round' : match['Round']
-                }
-                
-                row = ''
-                if match['Bold'] == 0:
-                    for cell in temp:
-                        celldata = temp[cell]
-                        if celldata != None:
-                            row = row + temp[cell] + ' | '
-                        else:
-                            row = row + '' + ' | '
-                    row = row[:-2]
-                    wf.write(row + '\n')
-                else:
-                    for cell in temp:
-                        celldata = temp[cell]
-                        if celldata != None:
-                            row = row + '**' + temp[cell] + '** | '
-                        else:
-                            row = row + '' + " | "
-                    row = row[:-2]
-                    wf.write(row + '\n')
-                    
-        wf.write('\nr/WhatToWatchThisWeek')
-WTWTW_main()
