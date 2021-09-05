@@ -101,7 +101,7 @@ def parser():
 	for match in list_of_matches:
 		temp = {}
 		try:
-			time = match.find('div', class_='event__time').get_text().replace(":", "")
+			time = match.find('div', class_='event__time').get_text().replace(":", "").replace("FRO","")
 		except:
 			time = "No time"
 		home_team = match.find('div', class_='event__participant--home').get_text()
@@ -151,18 +151,22 @@ def match_details():
 						if round != None:
 							league_type = League_Type.CUP
 			if league_type == League_Type.CUP:
-				driver.find_element_by_id('li1').click()
-				wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".nmf__title, .event__participant")))
-				for date in wtwtw_matches:
-					for match in wtwtw_matches[date]:
-						if match['Region'] == region and match['Competition'] == competition:
-							if match['Round'] != None:
-								aggregate = find_aggregate(match['Home'], match['Away'], match['Round'])
-								match['H FL Score'] = aggregate[1]
-								match['A FL Score'] = aggregate[0]
-								if match['Round'] in fs_round_translator:
-									match['Round'] = fs_round_translator[match['Round']]
-				driver.find_element_by_id('li2').click()
+				try:
+					driver.get(URL + href + 'results')
+					wait.until(EC.presence_of_element_located((By.XPATH, \
+						"//div[contains(@class,'nmf__title') or contains(@class, 'event__participant')]")))
+					for date in wtwtw_matches:
+						for match in wtwtw_matches[date]:
+							if match['Region'] == region and match['Competition'] == competition:
+								if match['Round'] != None:
+									aggregate = find_aggregate(match['Home'], match['Away'], match['Round'])
+									match['H FL Score'] = aggregate[1]
+									match['A FL Score'] = aggregate[0]
+									if match['Round'] in fs_round_translator:
+										match['Round'] = fs_round_translator[match['Round']]
+				except: 
+					print("Error: Results page not found or other error in retrieving round info and aggregate score")
+				driver.get(URL + href + 'fixtures')
 				wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'event__participant')))
 			for date in wtwtw_matches:
 				for match in wtwtw_matches[date]:
@@ -306,9 +310,9 @@ def find_name_and_sprite(match_dict, competition_type):
 			if window_handle != original_window:
 				driver.switch_to.window(window_handle)
 				break
-		wait.until(EC.presence_of_element_located((By.LINK_TEXT, 'H2H'))) #Previously (By.ID, 'a-match-head-2-head')
+		wait.until(EC.presence_of_element_located((By.LINK_TEXT, 'H2H'))) 
 		driver.find_element_by_link_text('H2H').click()
-		wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'h2h___1pnzCTL'))) # Previously (By.CLASS_NAME, 'h2h-wrapper')
+		wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'h2h___1pnzCTL')))
 		h2h_soup = BeautifulSoup(driver.page_source, 'html.parser')
 		h2h_section = h2h_soup.find_all('div', class_='section___1a1N7yN')
 
@@ -350,10 +354,14 @@ def find_name_and_sprite(match_dict, competition_type):
 			if tab.contents[0] != "Standings":
 				continue
 			else:
-				driver.find_element_by_link_text('Standings').click()
-				wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'table___21hYPOu')))
+				try:
+					driver.find_element_by_link_text('Standings').click()
+					wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'tableWrapper')))
+				except:
+					print("Error: Unable to find table in Standings tab.")
+					break
 				h2h_soup = BeautifulSoup(driver.page_source, 'html.parser')
-				standing_tables = h2h_soup.find_all('div', class_='headerCellParticipant___2sCAohv')
+				standing_tables = h2h_soup.find_all('div', class_='table__headerCell--participant')
 				for table in standing_tables:
 					table_header = table.contents[0]
 					if 'Group ' in table_header:
