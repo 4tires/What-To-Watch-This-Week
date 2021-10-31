@@ -92,7 +92,7 @@ def parser():
 	wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'event__titleBox')))
 	soup = BeautifulSoup(driver.page_source, 'html.parser')
 	date = soup.find('div', class_='calendar__datepicker').get_text()
-	matches = soup.find_all('svg', class_='active___3hdtOBF')
+	matches = soup.find_all('svg', class_='eventStar--active')
 
 	list_of_matches = []
 	for match in matches:
@@ -312,7 +312,7 @@ def find_name_and_sprite(match_dict, competition_type):
 				break
 		wait.until(EC.presence_of_element_located((By.LINK_TEXT, 'H2H'))) 
 		driver.find_element_by_link_text('H2H').click()
-		wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'h2h___1pnzCTL')))
+		wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'h2h__participantInner')))
 		h2h_soup = BeautifulSoup(driver.page_source, 'html.parser')
 		h2h_section = h2h_soup.find_all('div', class_='section___1a1N7yN')
 
