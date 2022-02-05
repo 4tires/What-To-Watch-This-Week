@@ -22,11 +22,11 @@ driver.implicitly_wait(30)
 driver.get(URL)
 wait = WebDriverWait(driver, 10)
 
-driver.find_element_by_id('signIn').click()
+driver.find_element_by_id('user-menu').click()
 
 try:
     element = wait.until(
-        EC.presence_of_element_located((By.ID, "login-content"))
+        EC.presence_of_element_located((By.ID, "user-menu-window"))
     )
 finally:
     print("Login")
@@ -82,7 +82,7 @@ def fetcher():
 		if n == (days - 1):
 			print("Completed all parsers")
 			return
-		driver.find_element_by_class_name('calendar__direction--tomorrow').click()
+		driver.find_element_by_class_name('calendar__navigation--tomorrow').click()
 		time.sleep(2)
 
 def parser():
