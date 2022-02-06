@@ -9,7 +9,7 @@ import csv
 import requests
 import json
 import re
-
+from login_credentials import chromedriver_path
 
 """
 Assumes you run script from What-To-What-This-Week folder.
@@ -32,7 +32,7 @@ def acha_team_names(url):
     options.add_argument('--ignore-ssl-errors')
     #options.add_argument('--headless')
 
-    driver = webdriver.Chrome(executable_path='C:\\Users\micha\Documents\VSCode\What-To-Watch-This-Week\chromedriver.exe', options=options)
+    driver = webdriver.Chrome(executable_path=chromedriver_path, options=options)
     driver.implicitly_wait(30)
     driver.get(url)
     #driver.find_element_by_id('onetrust-button-group-parent').click()
