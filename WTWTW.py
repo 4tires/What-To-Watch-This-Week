@@ -217,7 +217,7 @@ def competition_matches(href):
 
 	driver.get(URL + href + 'fixtures')
 	soup = BeautifulSoup(driver.page_source, 'html.parser')
-	checked_matches_star = soup.find_all('svg', class_='active___3hdtOBF')
+	checked_matches_star = soup.find_all('svg', class_='eventStar--active')
 	for match in checked_matches_star:
 		checked_matches_list.append(match.find_parent('div', class_='event__match'))
 	checked_matches_list = list(filter(None, checked_matches_list))
