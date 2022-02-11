@@ -35,7 +35,7 @@
 
 - Removed italic
 - Tried to change to excel (dropdown list search was bad even with add-in)
-- Created a new spreadsheet to have all days of the week and tidy the sheets / formula to improve workflow								
+- Created a new spreadsheet to have all days of the week and tidy the sheets / formula to improve workflow                                
 
 ### v8
 
@@ -81,16 +81,13 @@
 - Created enumerated classes for competition types and league types to reduce vague voding (For example, Competition_type.DOMESTIC is used in find_name_and_sprite function instead of 0 for domestic games)
 - WTWTW.py and WTWTW_Post.py relationship has been changed. WTWTW now imports WTWTW_Post and calls the scripts, previously it was reversed.
 - Removed AchaLinkEArranjaCompNome function and replaced with competition_and_region_proper_names that reduced scope. The removed logic was added into match_details function.
--  
 
 ## Backlog
 
-- [ ] Install Grid (needs Docker) to use python in spreadsheets easily
-- [x] (Hard) Automate round and group letter of the competition (e.g. "Semi-Final"; "Group B") as stated in v9. (Not tested for Group Stage)
-- [x] Maybe ditch the spreadsheets (probably hard because of bold matches)
-- [x] Add more flairs (maybe use https://www.reddit.com/r/soccer/comments/f8z3sc/what_to_watch_this_week_241_march/fioh87b/). https://www.reddit.com/r/soccerbot/wiki/index has a good collection of flairs. Used to create TeamNames-Sprites json.
-- [ ] Add code to allow script to continue if competition doesn't exist in fslinks.json. Competition can change name or be created. Maybe prompt user for Competition name and link for competition.
-- [ ] GUI for a more visual process. https://wiki.python.org/moin/GuiProgramming
+- [ ] Format code with [Black](https://github.com/psf/black)
+- [ ] Insert prints to alert to lack of flairs
+- [ ] Comment code
+- [ ] Insert prints to debug faster
 
 ## Technology Stack
 
