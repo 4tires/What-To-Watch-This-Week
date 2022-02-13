@@ -88,6 +88,8 @@
 - [ ] Insert prints to alert to lack of flairs
 - [ ] Comment code
 - [ ] Insert prints to debug faster
+- [ ] Flairs missing in Champions League, Europa League and Conference League
+- [ ] Copy all the text at the end of the script to clipboard
 
 ## Technology Stack
 
