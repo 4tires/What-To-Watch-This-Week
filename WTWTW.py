@@ -164,7 +164,7 @@ def match_details():
 									match['A FL Score'] = aggregate[0]
 									if match['Round'] in fs_round_translator:
 										match['Round'] = fs_round_translator[match['Round']]
-				except: 
+				except NameError as error:
 					print("Error: Results page not found or other error in retrieving round info and aggregate score")
 				driver.get(URL + href + 'fixtures')
 				wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'event__participant')))
@@ -256,9 +256,9 @@ def find_aggregate(second_leg_home_team, second_leg_away_team, round_name):
 				first_leg_home_team = row.find('div', class_='event__participant--home').get_text()
 				first_leg_away_team = row.find('div', class_='event__participant--away').get_text()
 				if ((first_leg_home_team == second_leg_away_team) and (first_leg_away_team == second_leg_home_team)):
-					first_leg_score = row.find('div', class_='event__scores').find_all('span')
-					first_leg_score_home = first_leg_score[0].get_text()
-					first_leg_score_away = first_leg_score[1].get_text()
+					# first_leg_score = row.find('div', class_='event__scores').find_all('span')
+					first_leg_score_home = row.find('div', class_='event__score--home').get_text()
+					first_leg_score_away = row.find('div', class_='event__score--away').get_text()
 					break
 	return [first_leg_score_home, first_leg_score_away]
 
@@ -296,6 +296,7 @@ def find_name_and_sprite(match_dict, competition_type):
 				name_and_sprite_Dict[side]['Sprite'] = team_name_and_sprite_dict[region][team_name]['Sprite']
 				continue
 			except KeyError:
+				print('Error: Unable to find sprite for ' + team_name)
 				continue
 		return_dict['H Name'] = name_and_sprite_Dict['Home']['Proper']
 		return_dict['H Sprite'] = name_and_sprite_Dict['Home']['Sprite']
@@ -341,6 +342,7 @@ def find_name_and_sprite(match_dict, competition_type):
 								name_and_sprite_Dict[side]['Sprite'] = team_name_and_sprite_dict[region][team_name]['Sprite']
 								break		
 							except KeyError:
+								print('Error: Unable to find sprite for ' + team_name)
 								continue
 					else:
 						continue

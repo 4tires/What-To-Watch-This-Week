@@ -26740,10 +26740,6 @@
             "Proper": null,
             "Sprite": null
         },
-        "Crvena Zvezda MML": {
-            "Proper": null,
-            "Sprite": null
-        },
         "Cukaricki": {
             "Proper": "\u010cukari\u010dki",
             "Sprite": "[](#sprite5-p64)"
@@ -26764,7 +26760,7 @@
             "Proper": null,
             "Sprite": null
         },
-        "FK Crvena zvezda": {
+        "Crvena zvezda": {
             "Proper": "Crvena Zvezda",
             "Sprite": "[](#sprite1-p165)"
         },
