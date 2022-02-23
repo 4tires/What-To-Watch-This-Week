@@ -25,11 +25,11 @@ wait = WebDriverWait(driver, 10)
 driver.find_element_by_id('user-menu').click()
 
 try:
-    element = wait.until(
-        EC.presence_of_element_located((By.ID, "user-menu-window"))
-    )
+	element = wait.until(
+		EC.presence_of_element_located((By.ID, "user-menu-window"))
+	)
 finally:
-    print("Login")
+	print("Login")
 
 time.sleep(3)
 username = driver.find_element_by_id("email")
@@ -315,37 +315,34 @@ def find_name_and_sprite(match_dict, competition_type):
 		driver.find_element_by_link_text('H2H').click()
 		wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'h2h__participantInner')))
 		h2h_soup = BeautifulSoup(driver.page_source, 'html.parser')
-		h2h_section = h2h_soup.find_all('div', class_='section___1a1N7yN')
+		h2h_section = h2h_soup.find_all('div', class_='h2h__section')
 
 		for side in list(name_and_sprite_Dict.keys()):
 			team_name = name_and_sprite_Dict[side]['Name']
+            # Team name must know if there is (Country) in team name
+            # South American competitions have always, example: Millonarios (Col)
+			if '(' in team_name:
+				team_name = team_name[:team_name.find('(')-1]
 			for table in h2h_section:
-				table_title = table.find('div', class_='title___3_goVIi')
-				if 'Head-to-head' in table_title.contents[0]:
+				table_title = table.find('div', class_='section__title')
+				if team_name in table_title.get_text():
+					h2h_flags = table.find_all('span', class_='h2h__flag')
+					h2h_regions = []
+					for flag in h2h_flags:
+						flag_title = flag.find('span').get('title')
+						flag_title = flag_title[flag_title.find('(')+1:flag_title.find(')')]
+						if flag_title not in h2h_regions:
+							h2h_regions.append(flag_title)
+			for region in h2h_regions:
+				try:
+					team_name_and_sprite_dict[region][team_name]
+					name_and_sprite_Dict[side]['Proper'] = team_name_and_sprite_dict[region][team_name]['Proper']
+					name_and_sprite_Dict[side]['Sprite'] = team_name_and_sprite_dict[region][team_name]['Sprite']
+					break		
+				except KeyError:
+					print('Error: Unable to find sprite for ' + team_name)
 					continue
-				else:
-					table_team = table.find('span', class_='highlighted___nwocTCH').contents[0]
-					if table_team in name_and_sprite_Dict[side]['Name']:
-						if '(' in team_name:
-							team_name = table_team
-						h2h_flags = table.find_all('span', class_='flag___38-7xEI')
-						h2h_regions =[]
-						for flag in h2h_flags:
-							flag_title = flag['title']
-							flag_title = flag_title[flag_title.find('(')+1:flag_title.find(')')]
-							if flag_title not in h2h_regions:
-								h2h_regions.append(flag_title)
-						for region in h2h_regions:
-							try:
-								team_name_and_sprite_dict[region][team_name]
-								name_and_sprite_Dict[side]['Proper'] = team_name_and_sprite_dict[region][team_name]['Proper']
-								name_and_sprite_Dict[side]['Sprite'] = team_name_and_sprite_dict[region][team_name]['Sprite']
-								break		
-							except KeyError:
-								print('Error: Unable to find sprite for ' + team_name)
-								continue
-					else:
-						continue
+
 		return_dict['H Name'] = name_and_sprite_Dict['Home']['Proper']
 		return_dict['H Sprite'] = name_and_sprite_Dict['Home']['Sprite']
 		return_dict['A Name'] = name_and_sprite_Dict['Away']['Proper']
