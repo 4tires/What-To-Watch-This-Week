@@ -10,6 +10,8 @@ from login_credentials import username_credential, password_credential, chromedr
 from json import load
 from enum import Enum
 import WTWTW_Post
+import pyperclip
+
 
 URL = "https://www.flashscore.com/"
 
@@ -70,6 +72,8 @@ def WTWTW():
 	print("Writing Reddit post.")
 	WTWTW_Post.WTWTW_post_writer(wtwtw_matches)
 	print("Completed.")
+	with open(r'C:\Users\paulo\OneDrive\Documentos\Programação\Projectos\What To Watch This Week\What-To-Watch-This-Week\WTWTW_post.txt', 'r', encoding='utf-8') as f:
+		pyperclip.copy(f.read())
 	print("Finished running WTWTW")
 	return
 
@@ -319,8 +323,8 @@ def find_name_and_sprite(match_dict, competition_type):
 
 		for side in list(name_and_sprite_Dict.keys()):
 			team_name = name_and_sprite_Dict[side]['Name']
-            # Team name must know if there is (Country) in team name
-            # South American competitions have always, example: Millonarios (Col)
+			# Team name must know if there is (Country) in team name
+			# South American competitions have always, example: Millonarios (Col)
 			if '(' in team_name:
 				team_name = team_name[:team_name.find('(')-1]
 			for table in h2h_section:

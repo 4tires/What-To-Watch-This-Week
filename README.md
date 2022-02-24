@@ -84,9 +84,7 @@
 
 ## Backlog
 
-- [X] Insert prints to alert to lack of flairs (only works for national competitions)
-- [ ] Flairs missing in Champions League, Europa League, Conference League and other international club competitions
-- [ ] Copy all the text at the end of the script to clipboard
+
 
 ## Technology Stack
 
