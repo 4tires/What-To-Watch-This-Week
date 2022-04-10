@@ -6,7 +6,11 @@ from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 import time
 import csv
-from login_credentials import username_credential, password_credential, chromedriver_path
+from login_credentials import (
+    username_credential,
+    password_credential,
+    chromedriver_path,
+)
 from json import load
 from enum import Enum
 import WTWTW_Post
@@ -16,23 +20,20 @@ import pyperclip
 URL = "https://www.flashscore.com/"
 
 options = webdriver.ChromeOptions()
-options.add_argument('--ignore-certificate-errors')
-options.add_argument('--ignore-ssl-errors')
+options.add_argument("--ignore-certificate-errors")
+options.add_argument("--ignore-ssl-errors")
 
 driver = webdriver.Chrome(executable_path=chromedriver_path, options=options)
 driver.implicitly_wait(30)
 driver.get(URL)
 wait = WebDriverWait(driver, 10)
 
-driver.find_element_by_id('user-menu').click()
+driver.find_element_by_id("user-menu").click()
 
 try:
-	element = wait.until(
-		EC.presence_of_element_located((By.ID, "user-menu-window"))
-	)
+    element = wait.until(EC.presence_of_element_located((By.ID, "user-menu-window")))
 finally:
-	print("Login")
-
+    print("Login")
 time.sleep(3)
 username = driver.find_element_by_id("email")
 username.clear()
@@ -41,23 +42,28 @@ username.send_keys(username_credential)
 password = driver.find_element_by_name("password")
 password.clear()
 password.send_keys(password_credential)
-driver.find_element_by_id('login').click()
+driver.find_element_by_id("login").click()
 
 competitions_dict = {}
 wtwtw_matches = {}
+
+
 class Competition_Type(Enum):
-	DOMESTIC = 0
-	INTERNATIONAL = 1
+    DOMESTIC = 0
+    INTERNATIONAL = 1
+
+
 class League_Type(Enum):
-	CUP = 0
-	LEAGUE = 1
+    CUP = 0
+    LEAGUE = 1
+
 
 def WTWTW():
-	global wtwtw_matches
-	fetcher()
-	match_details()
-	driver.quit()
-	"""
+    global wtwtw_matches
+    fetcher()
+    match_details()
+    driver.quit()
+    """
 	print("Writing listas.csv")
 	with open('listas.csv', 'w', newline='', encoding='utf8') as listas:
 		writer = csv.writer(listas, delimiter=';')
@@ -68,316 +74,436 @@ def WTWTW():
 				writer.writerow([match['Time'], match['Home'], match['Away'], match['Competition'], match['Round']])
 			writer.writerow([])
 	"""
-	wtwtw_matches = WTWTW_Post.WTWTW_bold_prompt(wtwtw_matches)
-	print("Writing Reddit post.")
-	WTWTW_Post.WTWTW_post_writer(wtwtw_matches)
-	print("Completed.")
-	with open(r'C:\Users\paulo\OneDrive\Documentos\Programação\Projectos\What To Watch This Week\What-To-Watch-This-Week\WTWTW_post.txt', 'r', encoding='utf-8') as f:
-		pyperclip.copy(f.read())
-	print("Finished running WTWTW")
-	return
+    wtwtw_matches = WTWTW_Post.WTWTW_bold_prompt(wtwtw_matches)
+    print("Writing Reddit post.")
+    WTWTW_Post.WTWTW_post_writer(wtwtw_matches)
+    print("Completed.")
+    with open(
+        r"C:\Users\paulo\OneDrive\Documentos\Programação\Projectos\What To Watch This Week\What-To-Watch-This-Week\WTWTW_post.txt",
+        "r",
+        encoding="utf-8",
+    ) as f:
+        pyperclip.copy(f.read())
+    print("Finished running WTWTW")
+    return
+
 
 def fetcher():
-	global wtwtw_matches
-	days = 7
-	for n in range(days):
-		date, checked_matches = parser()
-		wtwtw_matches[date] = checked_matches
-		if n == (days - 1):
-			print("Completed all parsers")
-			return
-		driver.find_element_by_class_name('calendar__navigation--tomorrow').click()
-		time.sleep(2)
+    global wtwtw_matches
+    days = 7
+    for n in range(days):
+        date, checked_matches = parser()
+        wtwtw_matches[date] = checked_matches
+        if n == (days - 1):
+            print("Completed all parsers")
+            return
+        driver.find_element_by_class_name("calendar__navigation--tomorrow").click()
+        time.sleep(2)
+
 
 def parser():
-	global competition_dict
-	checked_matches = []
+    global competition_dict
+    checked_matches = []
 
-	wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'event__titleBox')))
-	soup = BeautifulSoup(driver.page_source, 'html.parser')
-	date = soup.find('div', class_='calendar__datepicker').get_text()
-	matches = soup.find_all('svg', class_='eventStar--active')
+    wait.until(EC.presence_of_element_located((By.CLASS_NAME, "event__titleBox")))
+    soup = BeautifulSoup(driver.page_source, "html.parser")
+    date = soup.find("div", class_="calendar__datepicker").get_text()
+    matches = soup.find_all("svg", class_="eventStar--active")
 
-	list_of_matches = []
-	for match in matches:
-		list_of_matches.append(match.find_parent('div', class_='event__match'))
-	list_of_matches = list(filter(None, list_of_matches))
-	for match in list_of_matches:
-		temp = {}
-		try:
-			time = match.find('div', class_='event__time').get_text().replace(":", "").replace("FRO","")
-		except:
-			time = "No time"
-		home_team = match.find('div', class_='event__participant--home').get_text()
-		away_team = match.find('div', class_='event__participant--away').get_text()
-		competition = match.find_previous_sibling('div', class_ = "event__header").find('span', class_ = "event__title--name").get_text()
-		region = match.find_previous_sibling('div', class_ = "event__header").find('span', class_ = "event__title--type").get_text()
-		if (region in competitions_dict):
-			if (competition in competitions_dict[region]):
-				pass
-			else:
-				competitions_dict[region].append(competition)
-		else:
-			competitions_dict[region] = [competition]		
-		temp['Time'] = time
-		temp['id'] = match['id']
-		temp['Home'] = home_team
-		temp['Away'] = away_team
-		temp['Region'] = region
-		temp['Competition'] = competition
-		checked_matches.append(temp)
-	print("Completed day")
-	return date, checked_matches
+    list_of_matches = []
+    for match in matches:
+        list_of_matches.append(match.find_parent("div", class_="event__match"))
+    list_of_matches = list(filter(None, list_of_matches))
+    for match in list_of_matches:
+        temp = {}
+        try:
+            time = (
+                match.find("div", class_="event__time")
+                .get_text()
+                .replace(":", "")
+                .replace("FRO", "")
+            )
+        except:
+            time = "No time"
+        home_team = match.find("div", class_="event__participant--home").get_text()
+        away_team = match.find("div", class_="event__participant--away").get_text()
+        competition = (
+            match.find_previous_sibling("div", class_="event__header")
+            .find("span", class_="event__title--name")
+            .get_text()
+        )
+        region = (
+            match.find_previous_sibling("div", class_="event__header")
+            .find("span", class_="event__title--type")
+            .get_text()
+        )
+        if region in competitions_dict:
+            if competition in competitions_dict[region]:
+                pass
+            else:
+                competitions_dict[region].append(competition)
+        else:
+            competitions_dict[region] = [competition]
+        temp["Time"] = time
+        temp["id"] = match["id"]
+        temp["Home"] = home_team
+        temp["Away"] = away_team
+        temp["Region"] = region
+        temp["Competition"] = competition
+        checked_matches.append(temp)
+    print("Completed day")
+    return date, checked_matches
+
 
 def match_details():
-	print('Fetching match round and aggregate score.')
-	fs_round_translator = {'1/32-finals':'Round of 64','1/16-finals':'Round of 32', '1/8-finals':'Round of 16'}
-	global wtwtw_matches, competitions_dict
-	continent_list = ['Asia', 'Africa', 'Europe', 'North & Central America', 'South America', 'Australia & Oceania', 'World']
-	with open('./TeamNames-Sprites/CompNames-Sprites.json', 'r', encoding='utf8') as rf:
-		competition_sprite_json = load(rf)
-	with open('FSJSON/fslinks.json','r') as fs:
-		fs_json = load(fs)
+    print("Fetching match round and aggregate score.")
+    fs_round_translator = {
+        "1/32-finals": "Round of 64",
+        "1/16-finals": "Round of 32",
+        "1/8-finals": "Round of 16",
+    }
+    global wtwtw_matches, competitions_dict
+    continent_list = [
+        "Asia",
+        "Africa",
+        "Europe",
+        "North & Central America",
+        "South America",
+        "Australia & Oceania",
+        "World",
+    ]
+    with open("./TeamNames-Sprites/CompNames-Sprites.json", "r", encoding="utf8") as rf:
+        competition_sprite_json = load(rf)
+    with open("FSJSON/fslinks.json", "r") as fs:
+        fs_json = load(fs)
+    for region in competitions_dict:
+        for competition in competitions_dict[region]:
+            league_type = League_Type.LEAGUE
+            href = None
+            competition_proper, region_proper = competition_and_region_proper_names(
+                competition, region, fs_json
+            )
+            if competition_proper in list(
+                fs_json["Competitions"][region_proper].keys()
+            ):
+                href = fs_json["Competitions"][region_proper][competition_proper]
+            gamelist = competition_matches(href) if href != None else None
+            for date in wtwtw_matches:
+                for match in wtwtw_matches[date]:
+                    if (
+                        match["Region"] == region
+                        and match["Competition"] == competition
+                    ):
+                        round = (
+                            find_round(match["Home"], match["Away"], gamelist)
+                            if gamelist != None
+                            else None
+                        )
+                        match["Round"] = round
+                        if round != None:
+                            league_type = League_Type.CUP
+            if league_type == League_Type.CUP:
+                try:
+                    driver.get(URL + href + "results")
+                    wait.until(
+                        EC.presence_of_element_located(
+                            (
+                                By.XPATH,
+                                "//div[contains(@class,'nmf__title') or contains(@class, 'event__participant')]",
+                            )
+                        )
+                    )
+                    for date in wtwtw_matches:
+                        for match in wtwtw_matches[date]:
+                            if (
+                                match["Region"] == region
+                                and match["Competition"] == competition
+                            ):
+                                if match["Round"] != None:
+                                    aggregate = find_aggregate(
+                                        match["Home"], match["Away"], match["Round"]
+                                    )
+                                    match["H FL Score"] = aggregate[1]
+                                    match["A FL Score"] = aggregate[0]
+                                    if match["Round"] in fs_round_translator:
+                                        match["Round"] = fs_round_translator[
+                                            match["Round"]
+                                        ]
+                except NameError as error:
+                    print(
+                        "Error: Results page not found or other error in retrieving round info and aggregate score"
+                    )
+                driver.get(URL + href + "fixtures")
+                wait.until(
+                    EC.presence_of_element_located(
+                        (By.CLASS_NAME, "event__participant")
+                    )
+                )
+            for date in wtwtw_matches:
+                for match in wtwtw_matches[date]:
+                    if (
+                        match["Region"] == region
+                        and match["Competition"] == competition
+                    ):
+                        match["Region"] = region_proper
+                        match["Competition"] = competition_proper
+                        if competition_proper in list(
+                            competition_sprite_json[region_proper].keys()
+                        ):
+                            match["C Sprite"] = competition_sprite_json[region_proper][
+                                competition_proper
+                            ]["Sprite"]
+                            temp_comp_proper = competition_sprite_json[region_proper][
+                                competition_proper
+                            ]["Proper"]
+                            match["Competition"] = (
+                                temp_comp_proper
+                                if temp_comp_proper != None
+                                else competition_proper
+                            )
+                        else:
+                            match["C Sprite"] = None
+                        if region_proper in continent_list:
+                            name_sprite_dict = find_name_and_sprite(
+                                match, Competition_Type.INTERNATIONAL
+                            )
+                        else:
+                            name_sprite_dict = find_name_and_sprite(
+                                match, Competition_Type.DOMESTIC
+                            )
+                        if (round == None) and (name_sprite_dict["Group"] != None):
+                            match["Round"] = name_sprite_dict["Group"]
+                        match["Home"] = (
+                            name_sprite_dict["H Name"]
+                            if name_sprite_dict["H Name"] != None
+                            else match["Home"]
+                        )
+                        match["Away"] = (
+                            name_sprite_dict["A Name"]
+                            if name_sprite_dict["A Name"] != None
+                            else match["Away"]
+                        )
+                        for side in ["Home", "Away"]:
+                            if " (" in match[side] and " (Am)" not in match[side]:
+                                match[side] = match[side][0 : match[side].find(" (")]
+                        match["H Sprite"] = name_sprite_dict["H Sprite"]
+                        match["A Sprite"] = name_sprite_dict["A Sprite"]
 
-	for region in competitions_dict:
-		for competition in competitions_dict[region]:
-			league_type = League_Type.LEAGUE
-			href = None
-			competition_proper, region_proper = competition_and_region_proper_names(competition, region, fs_json)
-			if competition_proper in list(fs_json['Competitions'][region_proper].keys()):
-				href = fs_json['Competitions'][region_proper][competition_proper]
-			gamelist = competition_matches(href) if href != None else None
-			for date in wtwtw_matches:
-				for match in wtwtw_matches[date]:
-					if (match['Region'] == region and match['Competition'] == competition):
-						round = find_round(match['Home'], match['Away'], gamelist) if gamelist != None else None
-						match['Round'] = round
-						if round != None:
-							league_type = League_Type.CUP
-			if league_type == League_Type.CUP:
-				try:
-					driver.get(URL + href + 'results')
-					wait.until(EC.presence_of_element_located((By.XPATH, \
-						"//div[contains(@class,'nmf__title') or contains(@class, 'event__participant')]")))
-					for date in wtwtw_matches:
-						for match in wtwtw_matches[date]:
-							if match['Region'] == region and match['Competition'] == competition:
-								if match['Round'] != None:
-									aggregate = find_aggregate(match['Home'], match['Away'], match['Round'])
-									match['H FL Score'] = aggregate[1]
-									match['A FL Score'] = aggregate[0]
-									if match['Round'] in fs_round_translator:
-										match['Round'] = fs_round_translator[match['Round']]
-				except NameError as error:
-					print("Error: Results page not found or other error in retrieving round info and aggregate score")
-				driver.get(URL + href + 'fixtures')
-				wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'event__participant')))
-			for date in wtwtw_matches:
-				for match in wtwtw_matches[date]:
-					if (match['Region'] == region and match['Competition'] == competition):
-						match['Region'] = region_proper
-						match['Competition'] = competition_proper
-						if competition_proper in list(competition_sprite_json[region_proper].keys()):
-							match['C Sprite'] = competition_sprite_json[region_proper][competition_proper]['Sprite']
-							temp_comp_proper = competition_sprite_json[region_proper][competition_proper]['Proper']
-							match['Competition'] = (temp_comp_proper if temp_comp_proper != None else competition_proper)
-						else:
-							match['C Sprite'] = None
-						if region_proper in continent_list:
-							name_sprite_dict = find_name_and_sprite(match, Competition_Type.INTERNATIONAL)
-						else:
-							name_sprite_dict = find_name_and_sprite(match, Competition_Type.DOMESTIC)
-						if (round == None) and (name_sprite_dict['Group'] != None):
-							match['Round'] = name_sprite_dict['Group']
-						match['Home'] = name_sprite_dict['H Name'] if name_sprite_dict['H Name'] != None else match['Home']
-						match['Away'] = name_sprite_dict['A Name'] if name_sprite_dict['A Name'] != None else match['Away']
-						for side in ['Home', 'Away']:
-							if ' (' in match[side] and ' (Am)' not in match[side]:
-								match[side] = match[side][0:match[side].find(' (')]
-						match['H Sprite'] = name_sprite_dict['H Sprite']
-						match['A Sprite'] = name_sprite_dict['A Sprite']
 
 def competition_and_region_proper_names(competition, region, fs_json_file):
-	for key in fs_json_file['Competitions']:
-		if region.lower() == key.lower():
-			region = key
-			break
-	if competition in list(fs_json_file['Competitions'][region].keys()):
-		return competition, region
-	elif ('-' in competition):
-		competition_name_split = competition.split(' - ')
-		for n in range(len(competition_name_split)):
-			competition_temp = ' - '.join(competition_name_split[:n+1])
-			if competition_temp in list(fs_json_file['Competitions'][region].keys()):
-				return competition_temp, region
-		print("Error: No matching competition found for ", competition, " in ", region)
-		return competition, region
-	else:
-		print("Error: No matching competition found for ", competition, " in ", region)
-		return competition, region
+    for key in fs_json_file["Competitions"]:
+        if region.lower() == key.lower():
+            region = key
+            break
+    if competition in list(fs_json_file["Competitions"][region].keys()):
+        return competition, region
+    elif "-" in competition:
+        competition_name_split = competition.split(" - ")
+        for n in range(len(competition_name_split)):
+            competition_temp = " - ".join(competition_name_split[: n + 1])
+            if competition_temp in list(fs_json_file["Competitions"][region].keys()):
+                return competition_temp, region
+        print("Error: No matching competition found for ", competition, " in ", region)
+        return competition, region
+    else:
+        print("Error: No matching competition found for ", competition, " in ", region)
+        return competition, region
+
 
 def competition_matches(href):
-	checked_matches_list = []
+    checked_matches_list = []
 
-	driver.get(URL + href + 'fixtures')
-	soup = BeautifulSoup(driver.page_source, 'html.parser')
-	checked_matches_star = soup.find_all('svg', class_='eventStar--active')
-	for match in checked_matches_star:
-		checked_matches_list.append(match.find_parent('div', class_='event__match'))
-	checked_matches_list = list(filter(None, checked_matches_list))
-	return checked_matches_list
+    driver.get(URL + href + "fixtures")
+    soup = BeautifulSoup(driver.page_source, "html.parser")
+    checked_matches_star = soup.find_all("svg", class_="eventStar--active")
+    for match in checked_matches_star:
+        checked_matches_list.append(match.find_parent("div", class_="event__match"))
+    checked_matches_list = list(filter(None, checked_matches_list))
+    return checked_matches_list
+
 
 def find_round(home, away, gamelist):
-	#fs_round_translator = {'1/32-finals':'Round of 64','1/16-finals':'Round of 32', '1/8-finals':'Round of 16'}
-	round = None
-	for item in gamelist:
-		home_team = item.find('div', class_='event__participant--home').get_text()
-		away_team = item.find('div', class_='event__participant--away').get_text()
-		if (home_team == home and away_team == away):
-			round = item.find_previous_sibling('div', class_='event__round')
-			round = round.get_text() if round != None else None
-			if round != None:
-				if ("Round " in round[:6] and len(round) in [7, 8]):
-					round = None
-			return round
-	print("No results for " + home + " vs " + away + " round.")
-	return round
+    # fs_round_translator = {'1/32-finals':'Round of 64','1/16-finals':'Round of 32', '1/8-finals':'Round of 16'}
+    round = None
+    for item in gamelist:
+        home_team = item.find("div", class_="event__participant--home").get_text()
+        away_team = item.find("div", class_="event__participant--away").get_text()
+        if home_team == home and away_team == away:
+            round = item.find_previous_sibling("div", class_="event__round")
+            round = round.get_text() if round != None else None
+            if round != None:
+                if "Round " in round[:6] and len(round) in [7, 8]:
+                    round = None
+            return round
+    print("No results for " + home + " vs " + away + " round.")
+    return round
+
 
 def find_aggregate(second_leg_home_team, second_leg_away_team, round_name):
-	soup = BeautifulSoup(driver.page_source, 'html.parser')
-	table_round_header = soup.find('div', text=round_name)
-	first_leg_score_home = None
-	first_leg_score_away = None
-	if table_round_header != None:
-		row = table_round_header
-		while True:
-			row = row.next_sibling
-			if row == None:
-				break
-			elif any(item in ['event__round', 'event__header'] for item in row['class']):
-				break
-			else:
-				first_leg_home_team = row.find('div', class_='event__participant--home').get_text()
-				first_leg_away_team = row.find('div', class_='event__participant--away').get_text()
-				if ((first_leg_home_team == second_leg_away_team) and (first_leg_away_team == second_leg_home_team)):
-					# first_leg_score = row.find('div', class_='event__scores').find_all('span')
-					first_leg_score_home = row.find('div', class_='event__score--home').get_text()
-					first_leg_score_away = row.find('div', class_='event__score--away').get_text()
-					break
-	return [first_leg_score_home, first_leg_score_away]
+    soup = BeautifulSoup(driver.page_source, "html.parser")
+    table_round_header = soup.find("div", text=round_name)
+    first_leg_score_home = None
+    first_leg_score_away = None
+    if table_round_header != None:
+        row = table_round_header
+        while True:
+            row = row.next_sibling
+            if row == None:
+                break
+            elif any(
+                item in ["event__round", "event__header"] for item in row["class"]
+            ):
+                break
+            else:
+                first_leg_home_team = row.find(
+                    "div", class_="event__participant--home"
+                ).get_text()
+                first_leg_away_team = row.find(
+                    "div", class_="event__participant--away"
+                ).get_text()
+                if (first_leg_home_team == second_leg_away_team) and (
+                    first_leg_away_team == second_leg_home_team
+                ):
+                    # first_leg_score = row.find('div', class_='event__scores').find_all('span')
+                    first_leg_score_home = row.find(
+                        "div", class_="event__score--home"
+                    ).get_text()
+                    first_leg_score_away = row.find(
+                        "div", class_="event__score--away"
+                    ).get_text()
+                    break
+    return [first_leg_score_home, first_leg_score_away]
+
 
 def find_name_and_sprite(match_dict, competition_type):
-	region = match_dict['Region']
-	name_and_sprite_Dict = {}
-	name_and_sprite_Dict['Home'] = {
-		'Name' : match_dict['Home'],
-		'Proper' : None,
-		'Sprite' : None,
-		'h2h' : 'h2h_home'
-	}
-	name_and_sprite_Dict['Away'] = {
-		'Name' : match_dict['Away'],
-		'Proper' : None,
-		'Sprite' : None,
-		'h2h' : 'h2h_away'
-	}
-	return_dict = {
-		'H Name' : None,
-		'H Sprite' : None,
-		'A Name' : None,
-		'A Sprite' : None,
-		'Group' : None
-	}
+    region = match_dict["Region"]
+    name_and_sprite_Dict = {}
+    name_and_sprite_Dict["Home"] = {
+        "Name": match_dict["Home"],
+        "Proper": None,
+        "Sprite": None,
+        "h2h": "h2h_home",
+    }
+    name_and_sprite_Dict["Away"] = {
+        "Name": match_dict["Away"],
+        "Proper": None,
+        "Sprite": None,
+        "h2h": "h2h_away",
+    }
+    return_dict = {
+        "H Name": None,
+        "H Sprite": None,
+        "A Name": None,
+        "A Sprite": None,
+        "Group": None,
+    }
 
-	with open('./TeamNames-Sprites/TeamNames-Sprites-V2.json', 'r', encoding='utf8') as rf:
-		team_name_and_sprite_dict = load(rf)
-	if competition_type == Competition_Type.DOMESTIC:
-		for side in list(name_and_sprite_Dict.keys()):
-			team_name = name_and_sprite_Dict[side]['Name']
-			try:
-				team_name_and_sprite_dict[region][team_name]
-				name_and_sprite_Dict[side]['Proper'] = team_name_and_sprite_dict[region][team_name]['Proper']
-				name_and_sprite_Dict[side]['Sprite'] = team_name_and_sprite_dict[region][team_name]['Sprite']
-				continue
-			except KeyError:
-				print('Error: Unable to find sprite for ' + team_name)
-				continue
-		return_dict['H Name'] = name_and_sprite_Dict['Home']['Proper']
-		return_dict['H Sprite'] = name_and_sprite_Dict['Home']['Sprite']
-		return_dict['A Name'] = name_and_sprite_Dict['Away']['Proper']
-		return_dict['A Sprite'] = name_and_sprite_Dict['Away']['Sprite']
-		return return_dict
-	else:
-		original_window = driver.current_window_handle
-		driver.find_element_by_id(match_dict['id']).click()
-		wait.until(EC.number_of_windows_to_be(2))
-		for window_handle in driver.window_handles:
-			if window_handle != original_window:
-				driver.switch_to.window(window_handle)
-				break
-		wait.until(EC.presence_of_element_located((By.LINK_TEXT, 'H2H'))) 
-		driver.find_element_by_link_text('H2H').click()
-		wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'h2h__participantInner')))
-		h2h_soup = BeautifulSoup(driver.page_source, 'html.parser')
-		h2h_section = h2h_soup.find_all('div', class_='h2h__section')
+    with open(
+        "./TeamNames-Sprites/TeamNames-Sprites-V2.json", "r", encoding="utf8"
+    ) as rf:
+        team_name_and_sprite_dict = load(rf)
+    if competition_type == Competition_Type.DOMESTIC:
+        for side in list(name_and_sprite_Dict.keys()):
+            team_name = name_and_sprite_Dict[side]["Name"]
+            try:
+                team_name_and_sprite_dict[region][team_name]
+                name_and_sprite_Dict[side]["Proper"] = team_name_and_sprite_dict[
+                    region
+                ][team_name]["Proper"]
+                name_and_sprite_Dict[side]["Sprite"] = team_name_and_sprite_dict[
+                    region
+                ][team_name]["Sprite"]
+                continue
+            except KeyError:
+                print("Error: Unable to find sprite for " + team_name)
+                continue
+        return_dict["H Name"] = name_and_sprite_Dict["Home"]["Proper"]
+        return_dict["H Sprite"] = name_and_sprite_Dict["Home"]["Sprite"]
+        return_dict["A Name"] = name_and_sprite_Dict["Away"]["Proper"]
+        return_dict["A Sprite"] = name_and_sprite_Dict["Away"]["Sprite"]
+        return return_dict
+    else:
+        original_window = driver.current_window_handle
+        driver.find_element_by_id(match_dict["id"]).click()
+        wait.until(EC.number_of_windows_to_be(2))
+        for window_handle in driver.window_handles:
+            if window_handle != original_window:
+                driver.switch_to.window(window_handle)
+                break
+        wait.until(EC.presence_of_element_located((By.LINK_TEXT, "H2H")))
+        driver.find_element_by_link_text("H2H").click()
+        wait.until(
+            EC.presence_of_element_located((By.CLASS_NAME, "h2h__participantInner"))
+        )
+        h2h_soup = BeautifulSoup(driver.page_source, "html.parser")
+        h2h_section = h2h_soup.find_all("div", class_="h2h__section")
 
-		for side in list(name_and_sprite_Dict.keys()):
-			team_name = name_and_sprite_Dict[side]['Name']
-			# Team name must know if there is (Country) in team name
-			# South American competitions have always, example: Millonarios (Col)
-			if '(' in team_name:
-				team_name = team_name[:team_name.find('(')-1]
-			for table in h2h_section:
-				table_title = table.find('div', class_='section__title')
-				if team_name in table_title.get_text():
-					h2h_flags = table.find_all('span', class_='h2h__flag')
-					h2h_regions = []
-					for flag in h2h_flags:
-						flag_title = flag.find('span').get('title')
-						flag_title = flag_title[flag_title.find('(')+1:flag_title.find(')')]
-						if flag_title not in h2h_regions:
-							h2h_regions.append(flag_title)
-			for region in h2h_regions:
-				try:
-					team_name_and_sprite_dict[region][team_name]
-					name_and_sprite_Dict[side]['Proper'] = team_name_and_sprite_dict[region][team_name]['Proper']
-					name_and_sprite_Dict[side]['Sprite'] = team_name_and_sprite_dict[region][team_name]['Sprite']
-					break		
-				except KeyError:
-					print('Error: Unable to find sprite for ' + team_name)
-					continue
+        for side in list(name_and_sprite_Dict.keys()):
+            team_name = name_and_sprite_Dict[side]["Name"]
+            # Team name must know if there is (Country) in team name
+            # South American competitions have always, example: Millonarios (Col)
+            if "(" in team_name:
+                team_name = team_name[: team_name.find("(") - 1]
+            for table in h2h_section:
+                table_title = table.find("div", class_="section__title")
+                if team_name in table_title.get_text():
+                    h2h_flags = table.find_all("span", class_="h2h__flag")
+                    h2h_regions = []
+                    for flag in h2h_flags:
+                        flag_title = flag.find("span").get("title")
+                        flag_title = flag_title[
+                            flag_title.find("(") + 1 : flag_title.find(")")
+                        ]
+                        if flag_title not in h2h_regions or flag_title != "Europe":
+                            h2h_regions.append(flag_title)
+            for region in h2h_regions:
+                try:
+                    team_name_and_sprite_dict[region][team_name]
+                    name_and_sprite_Dict[side]["Proper"] = team_name_and_sprite_dict[
+                        region
+                    ][team_name]["Proper"]
+                    name_and_sprite_Dict[side]["Sprite"] = team_name_and_sprite_dict[
+                        region
+                    ][team_name]["Sprite"]
+                    break
+                except KeyError:
+                    print("Error: Unable to find sprite for " + team_name)
+                    continue
+        return_dict["H Name"] = name_and_sprite_Dict["Home"]["Proper"]
+        return_dict["H Sprite"] = name_and_sprite_Dict["Home"]["Sprite"]
+        return_dict["A Name"] = name_and_sprite_Dict["Away"]["Proper"]
+        return_dict["A Sprite"] = name_and_sprite_Dict["Away"]["Sprite"]
 
-		return_dict['H Name'] = name_and_sprite_Dict['Home']['Proper']
-		return_dict['H Sprite'] = name_and_sprite_Dict['Home']['Sprite']
-		return_dict['A Name'] = name_and_sprite_Dict['Away']['Proper']
-		return_dict['A Sprite'] = name_and_sprite_Dict['Away']['Sprite']
+        tabs = h2h_soup.find_all("a", class_="tabs__tab")
+        for tab in tabs:
+            if tab.contents[0] != "Standings":
+                continue
+            else:
+                try:
+                    driver.find_element_by_link_text("Standings").click()
+                    wait.until(
+                        EC.presence_of_element_located((By.CLASS_NAME, "tableWrapper"))
+                    )
+                except:
+                    print("Error: Unable to find table in Standings tab.")
+                    break
+                h2h_soup = BeautifulSoup(driver.page_source, "html.parser")
+                standing_tables = h2h_soup.find_all(
+                    "div", class_="table__headerCell--participant"
+                )
+                for table in standing_tables:
+                    table_header = table.contents[0]
+                    if "Group " in table_header:
+                        return_dict["Group"] = table_header
+                        break
+                    else:
+                        continue
+        driver.close()
+        driver.switch_to.window(original_window)
+        return return_dict
 
-		tabs = h2h_soup.find_all('a', class_='tabs__tab')
-		for tab in tabs:
-			if tab.contents[0] != "Standings":
-				continue
-			else:
-				try:
-					driver.find_element_by_link_text('Standings').click()
-					wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'tableWrapper')))
-				except:
-					print("Error: Unable to find table in Standings tab.")
-					break
-				h2h_soup = BeautifulSoup(driver.page_source, 'html.parser')
-				standing_tables = h2h_soup.find_all('div', class_='table__headerCell--participant')
-				for table in standing_tables:
-					table_header = table.contents[0]
-					if 'Group ' in table_header:
-						return_dict['Group'] = table_header
-						break
-					else:
-						continue
 
-		driver.close()
-		driver.switch_to.window(original_window)
-		return return_dict
-
-input('Press Enter to Continue...')
+input("Press Enter to Continue...")
 WTWTW()
 
 """
