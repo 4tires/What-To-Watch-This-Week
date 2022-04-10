@@ -454,7 +454,10 @@ def find_name_and_sprite(match_dict, competition_type):
                         flag_title = flag_title[
                             flag_title.find("(") + 1 : flag_title.find(")")
                         ]
-                        if flag_title not in h2h_regions or flag_title != "Europe":
+                        if flag_title not in h2h_regions and flag_title not in [
+                            "Europe",
+                            "South America",
+                        ]:
                             h2h_regions.append(flag_title)
             for region in h2h_regions:
                 try:
