@@ -483,7 +483,7 @@ def find_name_and_sprite(match_dict, competition_type):
                 continue
             else:
                 try:
-                    driver.find_element_by_link_text("Standings").click()
+                    driver.find_element_by_link_text("STANDINGS").click()
                     wait.until(
                         EC.presence_of_element_located((By.CLASS_NAME, "tableWrapper"))
                     )
