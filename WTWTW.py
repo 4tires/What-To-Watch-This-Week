@@ -31,7 +31,7 @@ wait = WebDriverWait(driver, 10)
 driver.find_element_by_id("user-menu").click()
 
 try:
-    element = wait.until(EC.presence_of_element_located((By.ID, "user-menu-window")))
+    element = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "loginWindow")))
 finally:
     print("Login")
 time.sleep(3)
@@ -42,7 +42,7 @@ username.send_keys(username_credential)
 password = driver.find_element_by_name("password")
 password.clear()
 password.send_keys(password_credential)
-driver.find_element_by_id("login").click()
+driver.find_element_by_class_name("loginWindow__button--login").click()
 
 competitions_dict = {}
 wtwtw_matches = {}
