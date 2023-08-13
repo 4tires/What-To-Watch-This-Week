@@ -84,7 +84,10 @@
 
 ## Backlog
 
-
+- Add 1st leg result again
+- Replace preliminary rounds "Semi-Finals" and similar for "Play-Offs"
+- Remove supercup round "Final"
+- Create a solution for the unable to find sprite for team X (sometimes last 5 matches are friendlies which are included in the "World" region)
 
 ## Technology Stack
 
