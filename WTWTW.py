@@ -28,7 +28,10 @@ driver.implicitly_wait(30)
 driver.get(URL)
 wait = WebDriverWait(driver, 10)
 
+driver.find_element_by_id("onetrust-accept-btn-handler").click()
 driver.find_element_by_id("user-menu").click()
+driver.find_element_by_class_name("email").click()
+
 
 try:
     element = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "lsidDialog")))
@@ -367,20 +370,20 @@ def find_aggregate(second_leg_home_team, second_leg_away_team, round_name):
                     ).get_text()
                 except:
                     break
-                    first_leg_away_team = row.find(
-                        "div", class_="event__participant--away"
+                first_leg_away_team = row.find(
+                    "div", class_="event__participant--away"
+                ).get_text()
+                if (first_leg_home_team == second_leg_away_team) and (
+                    first_leg_away_team == second_leg_home_team
+                ):
+                    # first_leg_score = row.find('div', class_='event__scores').find_all('span')
+                    first_leg_score_home = row.find(
+                        "div", class_="event__score--home"
                     ).get_text()
-                    if (first_leg_home_team == second_leg_away_team) and (
-                        first_leg_away_team == second_leg_home_team
-                    ):
-                        # first_leg_score = row.find('div', class_='event__scores').find_all('span')
-                        first_leg_score_home = row.find(
-                            "div", class_="event__score--home"
-                        ).get_text()
-                        first_leg_score_away = row.find(
-                            "div", class_="event__score--away"
-                        ).get_text()
-                        break
+                    first_leg_score_away = row.find(
+                        "div", class_="event__score--away"
+                    ).get_text()
+                    break
     return [first_leg_score_home, first_leg_score_away]
 
 
