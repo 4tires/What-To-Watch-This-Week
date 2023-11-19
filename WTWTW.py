@@ -64,16 +64,16 @@ def WTWTW():
     match_details()
     driver.quit()
     """
-	print("Writing listas.csv")
-	with open('listas.csv', 'w', newline='', encoding='utf8') as listas:
-		writer = csv.writer(listas, delimiter=';')
-		for date in wtwtw_matches:
-			for match in sorted(wtwtw_matches[date], key=lambda i: i['Time']):
-				if match['Round'] in fs_round_translator:
-					match['Round'] = fs_round_translator[match['Round']]
-				writer.writerow([match['Time'], match['Home'], match['Away'], match['Competition'], match['Round']])
-			writer.writerow([])
-	"""
+    print("Writing listas.csv")
+    with open('listas.csv', 'w', newline='', encoding='utf8') as listas:
+        writer = csv.writer(listas, delimiter=';')
+        for date in wtwtw_matches:
+            for match in sorted(wtwtw_matches[date], key=lambda i: i['Time']):
+                if match['Round'] in fs_round_translator:
+                    match['Round'] = fs_round_translator[match['Round']]
+                writer.writerow([match['Time'], match['Home'], match['Away'], match['Competition'], match['Round']])
+            writer.writerow([])
+    """
     wtwtw_matches = WTWTW_Post.WTWTW_bold_prompt(wtwtw_matches)
     print("Writing Reddit post.")
     WTWTW_Post.WTWTW_post_writer(wtwtw_matches)
@@ -194,11 +194,12 @@ def match_details():
                         match["Region"] == region
                         and match["Competition"] == competition
                     ):
-                        round = (
-                            find_round(match["Home"], match["Away"], gamelist)
-                            if gamelist != None
-                            else None
-                        )
+                        if "Qualification" in competition:
+                            round = "Qualification"
+                        elif gamelist != None:
+                            round = find_round(match["Home"], match["Away"], gamelist)
+                        else:
+                            round = None
                         match["Round"] = round
                         if round != None:
                             league_type = League_Type.CUP
@@ -329,6 +330,11 @@ def find_round(home, away, gamelist):
         home_team = item.find("div", class_="event__participant--home").get_text()
         away_team = item.find("div", class_="event__participant--away").get_text()
         if home_team == home and away_team == away:
+            # Line 198 makes this unnecessary, but if it doesn't work for everything, might be usefull to use code below
+            # superior_round = item.find_previous_sibling("div", class_="event__header").get_text()
+            # if "Qualification" in superior_round:
+            #     round = "Qualification"
+            #     return round
             round = item.find_previous_sibling("div", class_="event__round")
             round = round.get_text() if round != None else None
             if round != None:
@@ -341,7 +347,7 @@ def find_round(home, away, gamelist):
 
 def find_aggregate(second_leg_home_team, second_leg_away_team, round_name):
     soup = BeautifulSoup(driver.page_source, "html.parser")
-    table_round_header = soup.find("div", text=round_name)
+    table_round_header = soup.find("div", string=round_name)
     first_leg_score_home = None
     first_leg_score_away = None
     if table_round_header != None:
@@ -463,18 +469,21 @@ def find_name_and_sprite(match_dict, competition_type):
                         ]:
                             h2h_regions.append(flag_title)
             for region in h2h_regions:
-                try:
-                    team_name_and_sprite_dict[region][team_name]
-                    name_and_sprite_Dict[side]["Proper"] = team_name_and_sprite_dict[
-                        region
-                    ][team_name]["Proper"]
-                    name_and_sprite_Dict[side]["Sprite"] = team_name_and_sprite_dict[
-                        region
-                    ][team_name]["Sprite"]
-                    break
-                except KeyError:
-                    print("Error: Unable to find sprite for " + team_name)
-                    continue
+                if region == "World":
+                    region = flag_title
+                else:
+                    try:
+                        team_name_and_sprite_dict[region][team_name]
+                        name_and_sprite_Dict[side]["Proper"] = team_name_and_sprite_dict[
+                            region
+                        ][team_name]["Proper"]
+                        name_and_sprite_Dict[side]["Sprite"] = team_name_and_sprite_dict[
+                            region
+                        ][team_name]["Sprite"]
+                        break
+                    except KeyError:
+                        print("Error: Unable to find sprite for " + team_name)
+                        continue
         return_dict["H Name"] = name_and_sprite_Dict["Home"]["Proper"]
         return_dict["H Sprite"] = name_and_sprite_Dict["Home"]["Sprite"]
         return_dict["A Name"] = name_and_sprite_Dict["Away"]["Proper"]
@@ -515,36 +524,36 @@ WTWTW()
 """
 Current state of WTWTWmatches dictionary:
 WTWTWmatches = {
-	day : [
-		{
-			'Time' : # timestamp,
-			'id' : # game id used by FS,
-			'Home' : # Home team,
-			'Away' : # Away team,
-			'Region' : # Region of match. Usually country (Portugal) or continent (Europe). Sometimes other (World, Australia & Oceania),
-			'Competition' : # Name of competition,
-			'Round' : # round name of match (Round of 32, Semi-finals, etc),
-			'H Sprite' : # sprite for the home team,
-			'A Sprite' : # sprite for the away team,
-			'C Sprite' : # sprite for competition,
-			'H FL Score' : # The match home team's score in the first leg,
-			'A FL Score' : # The match away team's score in the first leg
-		},
-		{
-			# repeat above dictionary for each match on this day
-		}
-	]
-	next day : [
-		# repeat for matches on the next day
-	],
-	# repeats for 7 days total
+    day : [
+        {
+            'Time' : # timestamp,
+            'id' : # game id used by FS,
+            'Home' : # Home team,
+            'Away' : # Away team,
+            'Region' : # Region of match. Usually country (Portugal) or continent (Europe). Sometimes other (World, Australia & Oceania),
+            'Competition' : # Name of competition,
+            'Round' : # round name of match (Round of 32, Semi-finals, etc),
+            'H Sprite' : # sprite for the home team,
+            'A Sprite' : # sprite for the away team,
+            'C Sprite' : # sprite for competition,
+            'H FL Score' : # The match home team's score in the first leg,
+            'A FL Score' : # The match away team's score in the first leg
+        },
+        {
+            # repeat above dictionary for each match on this day
+        }
+    ]
+    next day : [
+        # repeat for matches on the next day
+    ],
+    # repeats for 7 days total
 }
 
 Current state of CompetitionsDict/competitions_dict
 CompetitionsDict = {
-	region1 : [competition1, competition2, etc],
-	region2 : [competiton3, competition4, etc],
-	etc
+    region1 : [competition1, competition2, etc],
+    region2 : [competiton3, competition4, etc],
+    etc
 }
 """
 
@@ -562,7 +571,7 @@ fetcher:
 Days variable is there to allow for troubleshooting. For example, programmer can easily change days to 1 if they want to focus on a specific day/match that is causing errors.
 For loop calls parser and clicks button on website for next day until complete.
 time.sleep(2) is 2 second sleep. Shorter time, 1 second for example, sometimes created an issue where matches would be the same for multiple days.
-	- It seems that the parser function is called and pulls data before the website started to load the next day's data. 
+    - It seems that the parser function is called and pulls data before the website started to load the next day's data. 
 
 parser:
 Each time parser is called the website has a new day of the checked matches. It creates a list of the checked matches and what the date is to return.
