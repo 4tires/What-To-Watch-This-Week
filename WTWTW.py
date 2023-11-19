@@ -19,11 +19,11 @@ import pyperclip
 
 URL = "https://www.flashscore.com/"
 
-options = webdriver.ChromeOptions()
+options = webdriver.FirefoxOptions()
 options.add_argument("--ignore-certificate-errors")
 options.add_argument("--ignore-ssl-errors")
 
-driver = webdriver.Chrome(executable_path=chromedriver_path, options=options)
+driver = webdriver.Firefox(executable_path=chromedriver_path, options=options)
 driver.implicitly_wait(30)
 driver.get(URL)
 wait = WebDriverWait(driver, 10)
@@ -31,7 +31,7 @@ wait = WebDriverWait(driver, 10)
 driver.find_element_by_id("user-menu").click()
 
 try:
-    element = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "loginWindow")))
+    element = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "lsidDialog")))
 finally:
     print("Login")
 time.sleep(3)
@@ -42,7 +42,7 @@ username.send_keys(username_credential)
 password = driver.find_element_by_name("password")
 password.clear()
 password.send_keys(password_credential)
-driver.find_element_by_class_name("loginWindow__button--login").click()
+driver.find_element_by_class_name("lsidDialog__button").click()
 
 competitions_dict = {}
 wtwtw_matches = {}
@@ -98,7 +98,7 @@ def fetcher():
             print("Completed all parsers")
             return
         driver.find_element_by_class_name("calendar__navigation--tomorrow").click()
-        time.sleep(2)
+        time.sleep(5)
 
 
 def parser():
@@ -107,7 +107,7 @@ def parser():
 
     wait.until(EC.presence_of_element_located((By.CLASS_NAME, "event__titleBox")))
     soup = BeautifulSoup(driver.page_source, "html.parser")
-    date = soup.find("div", class_="calendar__datepicker").get_text()
+    date = soup.find("button", class_="calendar__datepicker").get_text()
     matches = soup.find_all("svg", class_="eventStar--active")
 
     list_of_matches = []
@@ -355,23 +355,26 @@ def find_aggregate(second_leg_home_team, second_leg_away_team, round_name):
             ):
                 break
             else:
-                first_leg_home_team = row.find(
-                    "div", class_="event__participant--home"
-                ).get_text()
-                first_leg_away_team = row.find(
-                    "div", class_="event__participant--away"
-                ).get_text()
-                if (first_leg_home_team == second_leg_away_team) and (
-                    first_leg_away_team == second_leg_home_team
-                ):
-                    # first_leg_score = row.find('div', class_='event__scores').find_all('span')
-                    first_leg_score_home = row.find(
-                        "div", class_="event__score--home"
+                try:
+                    first_leg_home_team = row.find(
+                        "div", class_="event__participant--home"
                     ).get_text()
-                    first_leg_score_away = row.find(
-                        "div", class_="event__score--away"
-                    ).get_text()
+                except:
                     break
+                    first_leg_away_team = row.find(
+                        "div", class_="event__participant--away"
+                    ).get_text()
+                    if (first_leg_home_team == second_leg_away_team) and (
+                        first_leg_away_team == second_leg_home_team
+                    ):
+                        # first_leg_score = row.find('div', class_='event__scores').find_all('span')
+                        first_leg_score_home = row.find(
+                            "div", class_="event__score--home"
+                        ).get_text()
+                        first_leg_score_away = row.find(
+                            "div", class_="event__score--away"
+                        ).get_text()
+                        break
     return [first_leg_score_home, first_leg_score_away]
 
 
