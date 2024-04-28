@@ -3,6 +3,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.firefox.service import Service
 from bs4 import BeautifulSoup
 import time
 import csv
@@ -23,29 +24,32 @@ options = webdriver.FirefoxOptions()
 options.add_argument("--ignore-certificate-errors")
 options.add_argument("--ignore-ssl-errors")
 
-driver = webdriver.Firefox(executable_path=chromedriver_path, options=options)
+service = Service(executable_path=chromedriver_path)
+driver = webdriver.Firefox(service=service, options=options)
 driver.implicitly_wait(30)
 driver.get(URL)
 wait = WebDriverWait(driver, 10)
 
-driver.find_element_by_id("onetrust-accept-btn-handler").click()
-driver.find_element_by_id("user-menu").click()
-driver.find_element_by_class_name("email").click()
+driver.find_element(By.ID, "onetrust-accept-btn-handler").click()
+driver.find_element(By.ID, "user-menu").click()
+driver.find_element(By.CLASS_NAME, "email").click()
 
 
 try:
-    element = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "lsidDialog")))
+    element = wait.until(
+        EC.presence_of_element_located((By.CLASS_NAME, "lsidDialog"))
+    )
 finally:
     print("Login")
 time.sleep(3)
-username = driver.find_element_by_id("email")
+username = driver.find_element(By.ID, "email")
 username.clear()
 username.send_keys(username_credential)
 
-password = driver.find_element_by_name("password")
+password = driver.find_element(By.NAME, "password")
 password.clear()
 password.send_keys(password_credential)
-driver.find_element_by_class_name("lsidDialog__button").click()
+driver.find_element(By.CLASS_NAME, "lsidDialog__button").click()
 
 competitions_dict = {}
 wtwtw_matches = {}
@@ -100,7 +104,9 @@ def fetcher():
         if n == (days - 1):
             print("Completed all parsers")
             return
-        driver.find_element_by_class_name("calendar__navigation--tomorrow").click()
+        driver.find_element(
+            By.CLASS_NAME, "calendar__navigation--tomorrow"
+        ).click()
         time.sleep(5)
 
 
@@ -108,7 +114,9 @@ def parser():
     global competition_dict
     checked_matches = []
 
-    wait.until(EC.presence_of_element_located((By.CLASS_NAME, "event__titleBox")))
+    wait.until(
+        EC.presence_of_element_located((By.CLASS_NAME, "event__titleBox"))
+    )
     soup = BeautifulSoup(driver.page_source, "html.parser")
     date = soup.find("button", class_="calendar__datepicker").get_text()
     matches = soup.find_all("svg", class_="eventStar--active")
@@ -128,16 +136,20 @@ def parser():
             )
         except:
             time = "No time"
-        home_team = match.find("div", class_="event__participant--home").get_text()
-        away_team = match.find("div", class_="event__participant--away").get_text()
+        home_team = match.find(
+            "div", class_="event__participant--home"
+        ).get_text()
+        away_team = match.find(
+            "div", class_="event__participant--away"
+        ).get_text()
         competition = (
-            match.find_previous_sibling("div", class_="event__header")
-            .find("span", class_="event__title--name")
+            match.find_previous_sibling("div", class_="wclLeagueHeader")
+            .find("a", class_="wclLeagueHeader__textColor")
             .get_text()
         )
         region = (
-            match.find_previous_sibling("div", class_="event__header")
-            .find("span", class_="event__title--type")
+            match.find_previous_sibling("div", class_="wclLeagueHeader")
+            .find("span", class_="wclLeagueHeader__textColor")
             .get_text()
         )
         if region in competitions_dict:
@@ -175,7 +187,9 @@ def match_details():
         "Australia & Oceania",
         "World",
     ]
-    with open("./TeamNames-Sprites/CompNames-Sprites.json", "r", encoding="utf8") as rf:
+    with open(
+        "./TeamNames-Sprites/CompNames-Sprites.json", "r", encoding="utf8"
+    ) as rf:
         competition_sprite_json = load(rf)
     with open("FSJSON/fslinks.json", "r") as fs:
         fs_json = load(fs)
@@ -183,13 +197,18 @@ def match_details():
         for competition in competitions_dict[region]:
             league_type = League_Type.LEAGUE
             href = None
-            competition_proper, region_proper = competition_and_region_proper_names(
+            (
+                competition_proper,
+                region_proper,
+            ) = competition_and_region_proper_names(
                 competition, region, fs_json
             )
             if competition_proper in list(
                 fs_json["Competitions"][region_proper].keys()
             ):
-                href = fs_json["Competitions"][region_proper][competition_proper]
+                href = fs_json["Competitions"][region_proper][
+                    competition_proper
+                ]
             gamelist = competition_matches(href) if href != None else None
             for date in wtwtw_matches:
                 for match in wtwtw_matches[date]:
@@ -200,7 +219,9 @@ def match_details():
                         if "Qualification" in competition:
                             round = "Qualification"
                         elif gamelist != None:
-                            round = find_round(match["Home"], match["Away"], gamelist)
+                            round = find_round(
+                                match["Home"], match["Away"], gamelist
+                            )
                         else:
                             round = None
                         match["Round"] = round
@@ -225,7 +246,9 @@ def match_details():
                             ):
                                 if match["Round"] != None:
                                     aggregate = find_aggregate(
-                                        match["Home"], match["Away"], match["Round"]
+                                        match["Home"],
+                                        match["Away"],
+                                        match["Round"],
                                     )
                                     match["H FL Score"] = aggregate[1]
                                     match["A FL Score"] = aggregate[0]
@@ -254,12 +277,12 @@ def match_details():
                         if competition_proper in list(
                             competition_sprite_json[region_proper].keys()
                         ):
-                            match["C Sprite"] = competition_sprite_json[region_proper][
-                                competition_proper
-                            ]["Sprite"]
-                            temp_comp_proper = competition_sprite_json[region_proper][
-                                competition_proper
-                            ]["Proper"]
+                            match["C Sprite"] = competition_sprite_json[
+                                region_proper
+                            ][competition_proper]["Sprite"]
+                            temp_comp_proper = competition_sprite_json[
+                                region_proper
+                            ][competition_proper]["Proper"]
                             match["Competition"] = (
                                 temp_comp_proper
                                 if temp_comp_proper != None
@@ -275,7 +298,9 @@ def match_details():
                             name_sprite_dict = find_name_and_sprite(
                                 match, Competition_Type.DOMESTIC
                             )
-                        if (round == None) and (name_sprite_dict["Group"] != None):
+                        if (round == None) and (
+                            name_sprite_dict["Group"] != None
+                        ):
                             match["Round"] = name_sprite_dict["Group"]
                         match["Home"] = (
                             name_sprite_dict["H Name"]
@@ -288,8 +313,13 @@ def match_details():
                             else match["Away"]
                         )
                         for side in ["Home", "Away"]:
-                            if " (" in match[side] and " (Am)" not in match[side]:
-                                match[side] = match[side][0 : match[side].find(" (")]
+                            if (
+                                " (" in match[side]
+                                and " (Am)" not in match[side]
+                            ):
+                                match[side] = match[side][
+                                    0 : match[side].find(" (")
+                                ]
                         match["H Sprite"] = name_sprite_dict["H Sprite"]
                         match["A Sprite"] = name_sprite_dict["A Sprite"]
 
@@ -305,12 +335,24 @@ def competition_and_region_proper_names(competition, region, fs_json_file):
         competition_name_split = competition.split(" - ")
         for n in range(len(competition_name_split)):
             competition_temp = " - ".join(competition_name_split[: n + 1])
-            if competition_temp in list(fs_json_file["Competitions"][region].keys()):
+            if competition_temp in list(
+                fs_json_file["Competitions"][region].keys()
+            ):
                 return competition_temp, region
-        print("Error: No matching competition found for ", competition, " in ", region)
+        print(
+            "Error: No matching competition found for ",
+            competition,
+            " in ",
+            region,
+        )
         return competition, region
     else:
-        print("Error: No matching competition found for ", competition, " in ", region)
+        print(
+            "Error: No matching competition found for ",
+            competition,
+            " in ",
+            region,
+        )
         return competition, region
 
 
@@ -321,7 +363,9 @@ def competition_matches(href):
     soup = BeautifulSoup(driver.page_source, "html.parser")
     checked_matches_star = soup.find_all("svg", class_="eventStar--active")
     for match in checked_matches_star:
-        checked_matches_list.append(match.find_parent("div", class_="event__match"))
+        checked_matches_list.append(
+            match.find_parent("div", class_="event__match")
+        )
     checked_matches_list = list(filter(None, checked_matches_list))
     return checked_matches_list
 
@@ -330,8 +374,12 @@ def find_round(home, away, gamelist):
     # fs_round_translator = {'1/32-finals':'Round of 64','1/16-finals':'Round of 32', '1/8-finals':'Round of 16'}
     round = None
     for item in gamelist:
-        home_team = item.find("div", class_="event__participant--home").get_text()
-        away_team = item.find("div", class_="event__participant--away").get_text()
+        home_team = item.find(
+            "div", class_="event__participant--home"
+        ).get_text()
+        away_team = item.find(
+            "div", class_="event__participant--away"
+        ).get_text()
         if home_team == home and away_team == away:
             # Line 198 makes this unnecessary, but if it doesn't work for everything, might be usefull to use code below
             # superior_round = item.find_previous_sibling("div", class_="event__header").get_text()
@@ -360,7 +408,8 @@ def find_aggregate(second_leg_home_team, second_leg_away_team, round_name):
             if row == None:
                 break
             elif any(
-                item in ["event__round", "event__header"] for item in row["class"]
+                item in ["event__round", "wclLeagueHeader"]
+                for item in row["class"]
             ):
                 break
             else:
@@ -419,12 +468,12 @@ def find_name_and_sprite(match_dict, competition_type):
             team_name = name_and_sprite_Dict[side]["Name"]
             try:
                 team_name_and_sprite_dict[region][team_name]
-                name_and_sprite_Dict[side]["Proper"] = team_name_and_sprite_dict[
-                    region
-                ][team_name]["Proper"]
-                name_and_sprite_Dict[side]["Sprite"] = team_name_and_sprite_dict[
-                    region
-                ][team_name]["Sprite"]
+                name_and_sprite_Dict[side]["Proper"] = (
+                    team_name_and_sprite_dict[region][team_name]["Proper"]
+                )
+                name_and_sprite_Dict[side]["Sprite"] = (
+                    team_name_and_sprite_dict[region][team_name]["Sprite"]
+                )
                 continue
             except KeyError:
                 print("Error: Unable to find sprite for " + team_name)
@@ -436,16 +485,18 @@ def find_name_and_sprite(match_dict, competition_type):
         return return_dict
     else:
         original_window = driver.current_window_handle
-        driver.find_element_by_id(match_dict["id"]).click()
+        driver.find_element(By.ID, match_dict["id"]).click()
         wait.until(EC.number_of_windows_to_be(2))
         for window_handle in driver.window_handles:
             if window_handle != original_window:
                 driver.switch_to.window(window_handle)
                 break
         wait.until(EC.presence_of_element_located((By.LINK_TEXT, "H2H")))
-        driver.find_element_by_link_text("H2H").click()
+        driver.find_element(By.LINK_TEXT, "H2H").click()
         wait.until(
-            EC.presence_of_element_located((By.CLASS_NAME, "h2h__participantInner"))
+            EC.presence_of_element_located(
+                (By.CLASS_NAME, "h2h__participantInner")
+            )
         )
         h2h_soup = BeautifulSoup(driver.page_source, "html.parser")
         h2h_section = h2h_soup.find_all("div", class_="h2h__section")
@@ -466,10 +517,14 @@ def find_name_and_sprite(match_dict, competition_type):
                         flag_title = flag_title[
                             flag_title.find("(") + 1 : flag_title.find(")")
                         ]
-                        if flag_title not in h2h_regions and flag_title not in [
-                            "Europe",
-                            "South America",
-                        ]:
+                        if (
+                            flag_title not in h2h_regions
+                            and flag_title
+                            not in [
+                                "Europe",
+                                "South America",
+                            ]
+                        ):
                             h2h_regions.append(flag_title)
             for region in h2h_regions:
                 if region == "World":
@@ -477,12 +532,16 @@ def find_name_and_sprite(match_dict, competition_type):
                 else:
                     try:
                         team_name_and_sprite_dict[region][team_name]
-                        name_and_sprite_Dict[side]["Proper"] = team_name_and_sprite_dict[
-                            region
-                        ][team_name]["Proper"]
-                        name_and_sprite_Dict[side]["Sprite"] = team_name_and_sprite_dict[
-                            region
-                        ][team_name]["Sprite"]
+                        name_and_sprite_Dict[side]["Proper"] = (
+                            team_name_and_sprite_dict[region][team_name][
+                                "Proper"
+                            ]
+                        )
+                        name_and_sprite_Dict[side]["Sprite"] = (
+                            team_name_and_sprite_dict[region][team_name][
+                                "Sprite"
+                            ]
+                        )
                         break
                     except KeyError:
                         print("Error: Unable to find sprite for " + team_name)
@@ -498,9 +557,11 @@ def find_name_and_sprite(match_dict, competition_type):
                 continue
             else:
                 try:
-                    driver.find_element_by_link_text("STANDINGS").click()
+                    driver.find_element(By.LINK_TEXT, "STANDINGS").click()
                     wait.until(
-                        EC.presence_of_element_located((By.CLASS_NAME, "tableWrapper"))
+                        EC.presence_of_element_located(
+                            (By.CLASS_NAME, "tableWrapper")
+                        )
                     )
                 except:
                     print("Error: Unable to find table in Standings tab.")

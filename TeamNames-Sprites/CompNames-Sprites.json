@@ -996,7 +996,7 @@
         }
     },
     "Croatia": {
-        "1. HNL": {
+        "HNL": {
             "Proper": "1. HNL",
             "Sprite": "[](#sprite3-p71)"
         },
@@ -1058,7 +1058,7 @@
         }
     },
     "Czech Republic": {
-        "1. Liga": {
+        "FORTUNA:LIGA": {
             "Proper": "Czech Liga",
             "Sprite": "[](#sprite7-p445)"
         },
@@ -2800,8 +2800,8 @@
         }
     },
     "North & Central America": {
-        "CONCACAF Champions League": {
-            "Proper": "CONCACAF Champions League",
+        "CONCACAF Champions Cup": {
+            "Proper": "CONCACAF Champions Cup",
             "Sprite": "[](#sprite7-p406)"
         },
         "CONCACAF Championship U17": {
