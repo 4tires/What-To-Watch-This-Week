@@ -564,7 +564,7 @@ def find_name_and_sprite(match_dict, competition_type):
         return_dict["A Name"] = name_and_sprite_Dict["Away"]["Proper"]
         return_dict["A Sprite"] = name_and_sprite_Dict["Away"]["Sprite"]
 
-        tabs = h2h_soup.find_all("a", class_="tabs__tab")
+        tabs = h2h_soup.find_all("button", attrs={"role": "tab"})
         for tab in tabs:
             if tab.contents[0] != "Standings":
                 continue
