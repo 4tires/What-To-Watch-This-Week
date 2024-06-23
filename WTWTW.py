@@ -137,10 +137,10 @@ def parser():
         except:
             time = "No time"
         home_team = match.find(
-            "div", class_="event__participant--home"
+            "div", class_="event__homeParticipant"
         ).get_text()
         away_team = match.find(
-            "div", class_="event__participant--away"
+            "div", class_="event__awayParticipant"
         ).get_text()
         competition = (
             match.find_previous_sibling("div", class_="wclLeagueHeader")
@@ -234,7 +234,7 @@ def match_details():
                         EC.presence_of_element_located(
                             (
                                 By.XPATH,
-                                "//div[contains(@class,'nmf__title') or contains(@class, 'event__participant')]",
+                                "//div[contains(@class,'event__titleBox') or contains(@class, 'event__homeParticipant')]",
                             )
                         )
                     )
@@ -263,7 +263,7 @@ def match_details():
                 driver.get(URL + href + "fixtures")
                 wait.until(
                     EC.presence_of_element_located(
-                        (By.CLASS_NAME, "event__participant")
+                        (By.CLASS_NAME, "event__homeParticipant")
                     )
                 )
             for date in wtwtw_matches:
@@ -375,10 +375,10 @@ def find_round(home, away, gamelist):
     round = None
     for item in gamelist:
         home_team = item.find(
-            "div", class_="event__participant--home"
+            "div", class_="event__homeParticipant"
         ).get_text()
         away_team = item.find(
-            "div", class_="event__participant--away"
+            "div", class_="event__awayParticipant"
         ).get_text()
         if home_team == home and away_team == away:
             # Line 198 makes this unnecessary, but if it doesn't work for everything, might be usefull to use code below
@@ -415,12 +415,12 @@ def find_aggregate(second_leg_home_team, second_leg_away_team, round_name):
             else:
                 try:
                     first_leg_home_team = row.find(
-                        "div", class_="event__participant--home"
+                        "div", class_="event__homeParticipant"
                     ).get_text()
                 except:
                     break
                 first_leg_away_team = row.find(
-                    "div", class_="event__participant--away"
+                    "div", class_="event__awayParticipant"
                 ).get_text()
                 if (first_leg_home_team == second_leg_away_team) and (
                     first_leg_away_team == second_leg_home_team
@@ -503,29 +503,42 @@ def find_name_and_sprite(match_dict, competition_type):
 
         for side in list(name_and_sprite_Dict.keys()):
             team_name = name_and_sprite_Dict[side]["Name"]
-            # Team name must know if there is (Country) in team name
-            # South American competitions have always, example: Millonarios (Col)
-            if "(" in team_name:
-                team_name = team_name[: team_name.find("(") - 1]
-            for table in h2h_section:
-                table_title = table.find("div", class_="section__title")
-                if team_name in table_title.get_text():
-                    h2h_flags = table.find_all("span", class_="h2h__flag")
-                    h2h_regions = []
-                    for flag in h2h_flags:
-                        flag_title = flag.find("span").get("title")
-                        flag_title = flag_title[
-                            flag_title.find("(") + 1 : flag_title.find(")")
-                        ]
-                        if (
-                            flag_title not in h2h_regions
-                            and flag_title
-                            not in [
-                                "Europe",
-                                "South America",
+            # Euros and Copa America share the same header region as Champions League, Libertadores, etc.
+            # Best to check these competitions here and skip code to region
+            # Take into account that below the flag title doesn't add to h2h_regions if it's Europe or South America
+            competition = (
+                h2h_soup.find("span", class_="tournamentHeader__country")
+                .find("a")
+                .text.rsplit(" -", 1)[0]
+            )
+            if competition == "Euro":
+                h2h_regions = ["Europe"]
+            elif competition == "Copa América":
+                h2h_regions = ["South America", "North & Central America"]
+            else:
+                # Team name must know if there is (Country) in team name
+                # South American competitions have always, example: Millonarios (Col)
+                if "(" in team_name:
+                    team_name = team_name[: team_name.find("(") - 1]
+                for table in h2h_section:
+                    table_title = table.find("div", class_="section__title")
+                    if team_name in table_title.get_text():
+                        h2h_flags = table.find_all("span", class_="h2h__flag")
+                        h2h_regions = []
+                        for flag in h2h_flags:
+                            flag_title = flag.find("span").get("title")
+                            flag_title = flag_title[
+                                flag_title.find("(") + 1 : flag_title.find(")")
                             ]
-                        ):
-                            h2h_regions.append(flag_title)
+                            if (
+                                flag_title not in h2h_regions
+                                and flag_title
+                                not in [
+                                    "Europe",
+                                    "South America",
+                                ]
+                            ):
+                                h2h_regions.append(flag_title)
             for region in h2h_regions:
                 if region == "World":
                     region = flag_title
