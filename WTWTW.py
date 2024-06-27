@@ -509,7 +509,7 @@ def find_name_and_sprite(match_dict, competition_type):
             competition = (
                 h2h_soup.find("span", class_="tournamentHeader__country")
                 .find("a")
-                .text.rsplit(" -", 1)[0]
+                .text.rsplit(" -", -1)[0]
             )
             if competition == "Euro":
                 h2h_regions = ["Europe"]
