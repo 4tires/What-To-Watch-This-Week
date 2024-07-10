@@ -1,0 +1,133 @@
+{
+    "ARGENTINA": [
+        ["Boca Juniors", "River Plate"],
+        ["Independiente", "Racing Club"],
+        ["Newells Old Boys", "Rosario Central"]
+    ],
+    "AUSTRALIA": [
+        ["Melbourne City", "Melbourne Victory"],
+        ["Melbourne Victory", "Sydney FC"],
+        ["Sydney FC", "WS Wanderers"]
+    ],
+    "AUSTRIA": [
+        ["Austria Vienna", "SK Rapid"]
+    ],
+    "BELGIUM": [
+        ["Anderlecht", "Club Brugge KV"],
+        ["Anderlecht", "St. Liege"]
+    ],
+    "BRAZIL": [
+        ["Atletico-MG", "Cruzeiro"],
+        ["Corinthians", "Palmeiras"],
+        ["Flamengo RJ", "Fluminense"],
+        ["Flamengo RJ", "Vasco"],
+        ["Gremio", "Internacional"],        
+        ["Santos", "Sao Paulo"]
+    ],
+    "BULGARIA": [
+        ["CSKA Sofia", "Ludogorets"]
+    ],
+    "CHILE": [
+        ["Colo Colo", "U. Catolica"],
+        ["Colo Colo", "U. De Chile"],
+        ["U. Catolica", "U. De Chile"]
+    ],
+    "COLOMBIA": [
+        ["America De Cali", "Atl. Nacional"],
+        ["America De Cali", "Millonarios"],
+        ["Atl. Nacional", "Millonarios"],
+        ["Dep. Cali", "Millonarios"],
+        ["Millonarios", "Santa Fe"]
+    ],
+    "CROATIA": [     
+        ["D. Zagreb", "Hajduk Split"],
+        ["Hajduk Split", "Rijeka"]        
+    ],
+    "CYPRUS": [
+        ["APOEL", "Omonia"]
+    ],
+    "CZECH REPUBLIC": [
+        ["Slavia Prague", "Sparta Prague"]
+    ],
+    "DENMARK": [
+        ["Brondby", "FC Copenhagen"]
+    ],
+    "ECUADOR": [
+        ["Barcelona SC", "Emelec"]
+    ],
+    "GREECE": [
+        ["AEK Athens FC", "Olympiacos Piraeus"],
+        ["AEK Athens FC", "Panathinaikos"],
+        ["AEK Athens FC", "PAOK"],
+        ["Aris", "PAOK"],
+        ["Olympiacos Piraeus", "Panathinaikos"],
+        ["Olympiacos Piraeus", "PAOK"],
+        ["Panathinaikos", "PAOK"],
+    ],
+    "IRELAND": [
+        ["Bohemians", "Shamrock Rovers"]
+    ],
+    "ISRAEL": [
+        ["Maccabi Haifa", "Maccabi Tel Aviv"]
+    ],
+    "JAPAN": [
+        ["FC Tokyo", "Verdy"],
+        ["Gamba Osaka", "Urawa Reds"]
+    ],
+    "MEXICO": [
+        ["Atlas", "Guadalajara Chivas"],
+        ["Club America", "Cruz Azul"],
+        ["Club America", "Guadalajara Chivas"],
+        ["Club America", "U.N.A.M.- Pumas"],
+        ["Monterrey", "U.A.N.L.- Tigres"]
+    ],    
+    "NORWAY": [
+        ["Brann", "Rosenborg"],
+        ["Molde", "Rosenborg"]
+    ],
+    "PARAGUAY": [
+        ["Cerro Porteno", "Olimpia Asuncion"]
+    ],
+    "PERU": [
+        ["Alianza Lima", "U. de Deportes"]
+    ],
+    "POLAND": [
+        ["Legia", "Lech Poznan"]
+    ],
+    "PORTUGAL": [
+        ["Benfica", "Braga"],
+        ["Benfica", "FC Porto"],
+        ["Benfica", "Sporting CP"],
+        ["Boavista", "FC Porto"],
+        ["Braga", "FC Porto"],
+        ["Braga", "Sporting CP"],
+        ["Braga", "Vitoria Guimaraes"],
+        ["FC Porto", "Sporting CP"],
+        ["Maritimo", "Nacional"],
+        ["Portimonense", "SC Farense"]
+    ],
+    "SOUTH AFRICA": [
+        ["Kaizer Chiefs", "Orlando Pirates"]
+    ],
+    "SOUTH KOREA": [
+        ["Pohang", "Ulsan HD"],
+        ["Seoul", "Suwon FC"]
+    ],   
+    "SWEDEN": [
+        ["AIK", "Djurgarden"],
+        ["AIK", "Goteborg"],
+        ["AIK", "Hammarby"],
+        ["Goteborg", "Malmo FF"],
+        ["Hammarby", "Malmo FF"]        
+    ],
+    "URUGUAY": [
+        ["Nacional", "Penarol"]
+    ],
+    "USA": [
+        ["CF Montreal", "Toronto FC"],
+        ["Columbus Crew", "FC Cincinnati"],
+        ["Los Angeles FC", "Los Angeles Galaxy"],
+        ["New York City", "New York Red Bulls"],
+        ["Portland Timbers", "Seattle Sounders"]       
+    ]
+}
