@@ -62,7 +62,7 @@
         ["Aris", "PAOK"],
         ["Olympiacos Piraeus", "Panathinaikos"],
         ["Olympiacos Piraeus", "PAOK"],
-        ["Panathinaikos", "PAOK"],
+        ["Panathinaikos", "PAOK"]
     ],
     "IRELAND": [
         ["Bohemians", "Shamrock Rovers"]
@@ -106,6 +106,19 @@
         ["Maritimo", "Nacional"],
         ["Portimonense", "SC Farense"]
     ],
+    "SCOTLAND": [
+        ["Celtic", "Rangers"],
+        ["Hearts", "Hibernian"]
+    ],
+    "SERBIA": [
+        ["Crvena zvezda", "Partizan"]
+    ],
+    "SLOVAKIA": [
+        ["Slovan Bratislava", "Trnava"]
+    ],
+    "SLOVENIA": [
+        ["Maribor", "O. Ljubljana"]
+    ],
     "SOUTH AFRICA": [
         ["Kaizer Chiefs", "Orlando Pirates"]
     ],
@@ -119,6 +132,12 @@
         ["AIK", "Hammarby"],
         ["Goteborg", "Malmo FF"],
         ["Hammarby", "Malmo FF"]        
+    ],
+    "TURKEY": [
+        ["Besiktas", "Fenerbahce"],
+        ["Besiktas", "Galatasaray"],
+        ["Fenerbahce", "Galatasaray"],
+        ["Fenerbahce", "Trabzonspor"]
     ],
     "URUGUAY": [
         ["Nacional", "Penarol"]
