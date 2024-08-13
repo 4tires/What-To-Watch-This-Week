@@ -227,7 +227,10 @@ def match_details():
                         match["Round"] = round
                         if round != None:
                             league_type = League_Type.CUP
-            if league_type == League_Type.CUP:
+            if (
+                league_type == League_Type.CUP
+                and "Super Cup" not in competition
+            ):
                 try:
                     driver.get(URL + href + "results")
                     wait.until(
@@ -256,9 +259,10 @@ def match_details():
                                         match["Round"] = fs_round_translator[
                                             match["Round"]
                                         ]
-                except NameError as error:
+                except:
                     print(
-                        "Error: Results page not found or other error in retrieving round info and aggregate score"
+                        "Error: Results page not found or other error in retrieving round info and aggregate score in ",
+                        competition,
                     )
                 driver.get(URL + href + "fixtures")
                 wait.until(

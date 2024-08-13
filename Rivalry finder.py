@@ -66,7 +66,7 @@ def check_json():
 
     # Check countries are in the right order
     if sorted(countries) == countries:
-        print("Countries are sorted correctly")
+        pass
     else:
         print(
             "Attention!! Countries are not sorted in the correct order. Modify the file to this order:",
@@ -90,7 +90,7 @@ def check_json():
 
         # Check if rivalries are sorted
         if sorted(countries_rivalries) == countries_rivalries:
-            print("Teams are sorted correctly")
+            pass
         else:
             print(
                 "Attention!! Teams are not sorted in the correct order. Modify the file to this order:",

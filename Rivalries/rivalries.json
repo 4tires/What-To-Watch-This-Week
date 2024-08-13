@@ -57,12 +57,12 @@
     ],
     "GREECE": [
         ["AEK Athens FC", "Olympiacos Piraeus"],
-        ["AEK Athens FC", "Panathinaikos"],
         ["AEK Athens FC", "PAOK"],
+        ["AEK Athens FC", "Panathinaikos"],
         ["Aris", "PAOK"],
-        ["Olympiacos Piraeus", "Panathinaikos"],
         ["Olympiacos Piraeus", "PAOK"],
-        ["Panathinaikos", "PAOK"]
+        ["Olympiacos Piraeus", "Panathinaikos"],
+        ["PAOK", "Panathinaikos"]
     ],
     "IRELAND": [
         ["Bohemians", "Shamrock Rovers"]
@@ -92,7 +92,7 @@
         ["Alianza Lima", "U. de Deportes"]
     ],
     "POLAND": [
-        ["Legia", "Lech Poznan"]
+        ["Lech Poznan", "Legia"]
     ],
     "PORTUGAL": [
         ["Benfica", "Braga"],
@@ -138,6 +138,9 @@
         ["Besiktas", "Galatasaray"],
         ["Fenerbahce", "Galatasaray"],
         ["Fenerbahce", "Trabzonspor"]
+    ],
+    "UKRAINE": [
+        ["Dyn. Kyiv", "Shakhtar Donetsk"]
     ],
     "URUGUAY": [
         ["Nacional", "Penarol"]
