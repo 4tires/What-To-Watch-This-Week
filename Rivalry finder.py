@@ -216,3 +216,4 @@ def star_matches(matches_to_star):
 
 input("Press Enter to Continue...")
 fetcher()
+driver.close()

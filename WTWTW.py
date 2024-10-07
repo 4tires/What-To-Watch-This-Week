@@ -1,4 +1,9 @@
 from selenium import webdriver
+from selenium.webdriver.common.alert import Alert
+from selenium.common.exceptions import (
+    UnexpectedAlertPresentException,
+    TimeoutException,
+)
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -23,6 +28,7 @@ URL = "https://www.flashscore.com/"
 options = webdriver.FirefoxOptions()
 options.add_argument("--ignore-certificate-errors")
 options.add_argument("--ignore-ssl-errors")
+options.set_capability("unhandledPromptBehavior", "dismiss")
 
 service = Service(executable_path=chromedriver_path)
 driver = webdriver.Firefox(service=service, options=options)
