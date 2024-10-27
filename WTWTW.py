@@ -125,7 +125,9 @@ def parser():
     )
     soup = BeautifulSoup(driver.page_source, "html.parser")
     date = soup.find("button", class_="calendar__datepicker").get_text()
-    matches = soup.find_all("svg", class_="eventStar--active")
+    matches = soup.find_all(
+        "button", attrs={"data-testid": "wcl-favorite-active"}
+    )
 
     list_of_matches = []
     for match in matches:

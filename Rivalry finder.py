@@ -166,8 +166,10 @@ def matches_finder():
                 )
                 teams_tuple = tuple(sorted((home_team, away_team)))
                 is_starred = (
-                    "eventSubscriber__star--active"
-                    in current_match.find("div").get("class")
+                    current_match.find(
+                        "button", {"data-testid": "wcl-favorite-active"}
+                    )
+                    is not None
                 )  # Boolean
 
                 temp["id"] = current_match["id"]
@@ -210,7 +212,7 @@ def star_matches(matches_to_star):
         else:
             print(fixture["Home"], "vs", fixture["Away"])
             driver.find_element(By.ID, fixture["id"]).find_element(
-                By.CLASS_NAME, "eventSubscriber"
+                By.CSS_SELECTOR, "button[data-testid='wcl-favorite-inactive']"
             ).click()
 
 
