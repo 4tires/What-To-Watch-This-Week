@@ -497,7 +497,13 @@ def find_name_and_sprite(match_dict, competition_type):
         return return_dict
     else:
         original_window = driver.current_window_handle
-        driver.find_element(By.ID, match_dict["id"]).click()
+        temp_match_link = (
+            driver.find_element(By.ID, match_dict["id"])
+            .find_element(By.CLASS_NAME, "eventRowLink")
+            .get_attribute("href")
+        )
+        driver.switch_to.new_window("window")
+        driver.get(temp_match_link)
         wait.until(EC.number_of_windows_to_be(2))
         for window_handle in driver.window_handles:
             if window_handle != original_window:
