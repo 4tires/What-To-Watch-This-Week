@@ -45,7 +45,7 @@ username.send_keys(username_credential)
 password = driver.find_element(By.NAME, "password")
 password.clear()
 password.send_keys(password_credential)
-driver.find_element(By.CLASS_NAME, "lsidDialog__button").click()
+driver.find_element(By.CLASS_NAME, "wcl-button_zhVPM").click()
 
 
 with open("Rivalries/rivalries.json", "r", encoding="utf8") as rf:

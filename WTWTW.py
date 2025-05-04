@@ -55,7 +55,7 @@ username.send_keys(username_credential)
 password = driver.find_element(By.NAME, "password")
 password.clear()
 password.send_keys(password_credential)
-driver.find_element(By.CLASS_NAME, "lsidDialog__button").click()
+driver.find_element(By.CLASS_NAME, "wcl-button_zhVPM").click()
 
 competitions_dict = {}
 wtwtw_matches = {}
@@ -519,8 +519,8 @@ def find_name_and_sprite(match_dict, competition_type):
             # Best to check these competitions here and skip code to region
             # Take into account that below the flag title doesn't add to h2h_regions if it's Europe or South America
             competition = (
-                h2h_soup.find("span", class_="tournamentHeader__country")
-                .find("a")
+                h2h_soup.find("a", class_="wcl-breadcrumbItemLabel_ogiBc")
+                .find("span")
                 .text.rsplit(" -", -1)[0]
             )
             if competition == "Euro":
@@ -533,7 +533,7 @@ def find_name_and_sprite(match_dict, competition_type):
                 if "(" in team_name:
                     team_name = team_name[: team_name.find("(") - 1]
                 for table in h2h_section:
-                    table_title = table.find("div", class_="section__title")
+                    table_title = table.find("div")
                     if team_name in table_title.get_text():
                         h2h_flags = table.find_all("span", class_="h2h__flag")
                         h2h_regions = []
