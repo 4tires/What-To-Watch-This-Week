@@ -55,7 +55,7 @@ username.send_keys(username_credential)
 password = driver.find_element(By.NAME, "password")
 password.clear()
 password.send_keys(password_credential)
-driver.find_element(By.CLASS_NAME, "wcl-button_zhVPM").click()
+driver.find_element(By.CLASS_NAME, "wcl-button_eGaDi").click()
 
 competitions_dict = {}
 wtwtw_matches = {}
@@ -111,7 +111,7 @@ def fetcher():
             print("Completed all parsers")
             return
         driver.find_element(
-            By.CLASS_NAME, "calendar__navigation--tomorrow"
+            By.CSS_SELECTOR, "button[data-day-picker-arrow='next']"
         ).click()
         time.sleep(5)
 
@@ -124,7 +124,7 @@ def parser():
         EC.presence_of_element_located((By.CLASS_NAME, "event__titleBox"))
     )
     soup = BeautifulSoup(driver.page_source, "html.parser")
-    date = soup.find("button", class_="calendar__datepicker").get_text()
+    date = soup.find("button", class_="wcl-button_mrGAO").get_text()
     matches = soup.find_all(
         "button", attrs={"data-testid": "wcl-favorite-active"}
     )
@@ -152,12 +152,13 @@ def parser():
         ).get_text()
         competition = (
             match.find_previous_sibling("div", class_="wclLeagueHeader")
-            .find("a", class_="wclLeagueHeader__textColor")
+            .find("a", class_="wclLeagueHeader__link")
+            .find("strong")
             .get_text()
         )
         region = (
             match.find_previous_sibling("div", class_="wclLeagueHeader")
-            .find("span", class_="wclLeagueHeader__textColor")
+            .find("span", class_="wclLeagueHeader__countryName")
             .get_text()
         )
         if region in competitions_dict:
@@ -525,10 +526,12 @@ def find_name_and_sprite(match_dict, competition_type):
             # Best to check these competitions here and skip code to region
             # Take into account that below the flag title doesn't add to h2h_regions if it's Europe or South America
             competition = (
-                h2h_soup.find("a", class_="wcl-breadcrumbItemLabel_ogiBc")
+                h2h_soup.find("a", class_="wcl-breadcrumbItemLabel_2QT1M")
                 .find("span")
                 .text.rsplit(" -", -1)[0]
             )
+            h2h_regions = []
+
             if competition == "Euro":
                 h2h_regions = ["Europe"]
             elif competition == "Copa América":

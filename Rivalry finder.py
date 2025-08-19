@@ -45,7 +45,7 @@ username.send_keys(username_credential)
 password = driver.find_element(By.NAME, "password")
 password.clear()
 password.send_keys(password_credential)
-driver.find_element(By.CLASS_NAME, "wcl-button_zhVPM").click()
+driver.find_element(By.CLASS_NAME, "wcl-button_eGaDi").click()
 
 
 with open("Rivalries/rivalries.json", "r", encoding="utf8") as rf:
@@ -112,7 +112,8 @@ def fetcher():
             print("Completed all days")
             return
         driver.find_element(
-            By.CLASS_NAME, "calendar__navigation--tomorrow"
+            By.CSS_SELECTOR,
+            "button[data-day-picker-arrow='next']",  # Calendar button for next day
         ).click()
         time.sleep(5)
 
@@ -128,7 +129,7 @@ def matches_finder():
         matches[country] = []
         try:
             league_section = soup.find(
-                "span", class_="wclLeagueHeader__overline", string=country
+                "span", class_="wclLeagueHeader__countryName", string=country
             ).find_parent("div", class_="wclLeagueHeader")
         except:  # In this case there are no matches for that country and the loop should continue
             continue
@@ -141,7 +142,7 @@ def matches_finder():
             current_match
             and "wclLeagueHeader" in current_match.get("class")
             and current_match.find(
-                "span", class_="wclLeagueHeader__overline"
+                "span", class_="wclLeagueHeader__countryName"
             ).get_text()
             == country
             # Check if it's an event match div element
@@ -214,6 +215,193 @@ def star_matches(matches_to_star):
             driver.find_element(By.ID, fixture["id"]).find_element(
                 By.CSS_SELECTOR, "button[data-testid='wcl-favorite-inactive']"
             ).click()
+
+
+def debug_page_content():
+    """Save the current page source to debug what's actually being loaded"""
+    with open("debug_page_source.html", "w", encoding="utf-8") as f:
+        f.write(driver.page_source)
+    print("Page source saved to debug_page_source.html")
+
+
+def debug_find_elements():
+    """Check if the expected elements exist on the page"""
+    soup = BeautifulSoup(driver.page_source, "html.parser")
+
+    # Check for match containers
+    event_titlebox = soup.find_all(class_="event__titleBox")
+    print(f"Found {len(event_titlebox)} elements with class 'event__titleBox'")
+
+    # Check for league headers
+    league_headers = soup.find_all(
+        "span", class_="wclLeagueHeader__countryName"
+    )
+    print(f"Found {len(league_headers)} league headers")
+
+    if league_headers:
+        print(
+            "League header texts:",
+            [header.get_text() for header in league_headers[:5]],
+        )
+
+    # Check for match events
+    match_events = soup.find_all(class_="event__match")
+    print(f"Found {len(match_events)} match events")
+
+    # Check what countries are available
+    countries_found = set()
+    for header in league_headers:
+        countries_found.add(header.get_text().strip())
+
+    print("Countries found on page:", sorted(list(countries_found)))
+    print("Countries in your rivalries JSON:", sorted(list(rivalries.keys())))
+
+
+def matches_finder_debug():
+    """Enhanced version with debugging"""
+    matches = {}
+    countries = list(rivalries.keys())
+
+    # Add explicit wait and debugging
+    try:
+        wait.until(
+            EC.presence_of_element_located((By.CLASS_NAME, "event__titleBox"))
+        )
+        print("✓ Found event__titleBox elements")
+    except:
+        print("✗ Could not find event__titleBox elements")
+        # Try alternative selectors
+        alternative_selectors = ["event__match", "match", "fixture", "game"]
+        for selector in alternative_selectors:
+            elements = driver.find_elements(By.CLASS_NAME, selector)
+            if elements:
+                print(
+                    f"Found {len(elements)} elements with class '{selector}'"
+                )
+
+    soup = BeautifulSoup(driver.page_source, "html.parser")
+
+    # Debug the parsing
+    debug_find_elements()
+
+    for country in countries:
+        matches[country] = []
+        print(f"\nLooking for matches in: {country}")
+
+        try:
+            league_section = soup.find(
+                "span", class_="wclLeagueHeader__countryName", string=country
+            ).find_parent("div", class_="wclLeagueHeader")
+            print(f"✓ Found league section for {country}")
+        except Exception as e:
+            print(f"✗ Could not find league section for {country}: {e}")
+            continue
+
+        # Continue with your existing logic but add more debugging
+        current_match = league_section
+        match_count = 0
+
+        while (
+            current_match
+            and "wclLeagueHeader" in current_match.get("class", [])
+            and current_match.find(
+                "span", class_="wclLeagueHeader__countryName"
+            ).get_text()
+            == country
+        ) or (
+            current_match
+            and current_match.get("class")
+            and "event__match" in current_match.get("class", [])
+        ):
+            if "wclLeagueHeader" in current_match.get("class", []):
+                print(
+                    f"  Found league header: {current_match.find('span', class_='wclLeagueHeader__countryName').get_text()}"
+                )
+            else:
+                match_count += 1
+                try:
+                    temp = {}
+                    home_team = (
+                        current_match.find(
+                            "div", class_="event__homeParticipant"
+                        )
+                        .get_text()
+                        .strip()
+                    )
+                    away_team = (
+                        current_match.find(
+                            "div", class_="event__awayParticipant"
+                        )
+                        .get_text()
+                        .strip()
+                    )
+                    print(f"  Match {match_count}: {home_team} vs {away_team}")
+
+                    teams_tuple = tuple(sorted((home_team, away_team)))
+                    is_starred = (
+                        current_match.find(
+                            "button", {"data-testid": "wcl-favorite-active"}
+                        )
+                        is not None
+                    )
+
+                    temp["id"] = current_match["id"]
+                    temp["Home"] = home_team
+                    temp["Away"] = away_team
+                    temp["Teams"] = teams_tuple
+                    temp["star"] = is_starred
+
+                    matches[country].append(temp)
+
+                except Exception as e:
+                    print(f"  ✗ Error parsing match: {e}")
+
+            current_match = current_match.find_next_sibling("div")
+
+        print(f"Found {len(matches[country])} matches for {country}")
+
+    return matches
+
+
+# Replace your fetcher function with this debug version
+def fetcher_debug():
+    days = 7
+    print("Starting script ...")
+
+    # Debug the first day thoroughly
+    print("\n=== DEBUGGING FIRST DAY ===")
+    debug_page_content()
+    daily_matches = matches_finder_debug()
+
+    print(
+        f"\nTotal matches found: {sum(len(matches) for matches in daily_matches.values())}"
+    )
+
+    matches_to_star = rivalries_finder(daily_matches)
+    print(f"Rivalry matches to star: {len(matches_to_star)}")
+
+    for match in matches_to_star:
+        print(f"  - {match['Home']} vs {match['Away']}")
+
+    # Ask user if they want to continue with all days
+    continue_all = input("Continue with all 7 days? (y/n): ").lower() == "y"
+
+    if not continue_all:
+        return
+
+    # Continue with remaining days (less verbose)
+    for n in range(1, days):
+        daily_matches = matches_finder()
+        matches_to_star = rivalries_finder(daily_matches)
+        star_matches(matches_to_star)
+        if n == (days - 1):
+            print("Completed all days")
+            return
+        driver.find_element(
+            By.CSS_SELECTOR,
+            "button[data-day-picker-arrow='next']",
+        ).click()
+        time.sleep(5)
 
 
 input("Press Enter to Continue...")
