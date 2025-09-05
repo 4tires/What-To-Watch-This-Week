@@ -120,13 +120,13 @@ def parser():
     global competition_dict
     checked_matches = []
 
-    wait.until(
-        EC.presence_of_element_located((By.CLASS_NAME, "event__titleBox"))
-    )
+    wait.until(EC.presence_of_element_located((By.CLASS_NAME, "event__match")))
     soup = BeautifulSoup(driver.page_source, "html.parser")
     date = soup.find("button", class_="wcl-button_mrGAO").get_text()
     matches = soup.find_all(
-        "button", attrs={"data-testid": "wcl-favorite-active"}
+        "button",
+        attrs={"data-testid": "wcl-favorite-active"},
+        class_="eventSubscriber__star--event",
     )
 
     list_of_matches = []
@@ -151,14 +151,14 @@ def parser():
             "div", class_="event__awayParticipant"
         ).get_text()
         competition = (
-            match.find_previous_sibling("div", class_="wclLeagueHeader")
-            .find("a", class_="wclLeagueHeader__link")
+            match.find_previous_sibling("div", class_="headerLeague__wrapper")
+            .find("div", class_="headerLeague__body")
             .find("strong")
             .get_text()
         )
         region = (
-            match.find_previous_sibling("div", class_="wclLeagueHeader")
-            .find("span", class_="wclLeagueHeader__countryName")
+            match.find_previous_sibling("div", class_="headerLeague__wrapper")
+            .find("span", class_="headerLeague__category-text")
             .get_text()
         )
         if region in competitions_dict:
@@ -246,7 +246,7 @@ def match_details():
                         EC.presence_of_element_located(
                             (
                                 By.XPATH,
-                                "//div[contains(@class,'event__titleBox') or contains(@class, 'event__homeParticipant')]",
+                                "//div[contains(@class,'event__match') or contains(@class, 'event__homeParticipant')]",
                             )
                         )
                     )

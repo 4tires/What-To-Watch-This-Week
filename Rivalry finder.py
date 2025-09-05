@@ -120,9 +120,7 @@ def fetcher():
 def matches_finder():
     matches = {}
     countries = list(rivalries.keys())
-    wait.until(
-        EC.presence_of_element_located((By.CLASS_NAME, "event__titleBox"))
-    )
+    wait.until(EC.presence_of_element_located((By.CLASS_NAME, "event__match")))
     soup = BeautifulSoup(driver.page_source, "html.parser")
     for country in countries:
         matches[country] = []
