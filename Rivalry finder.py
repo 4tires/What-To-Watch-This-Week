@@ -126,8 +126,8 @@ def matches_finder():
         matches[country] = []
         try:
             league_section = soup.find(
-                "span", class_="wclLeagueHeader__countryName", string=country
-            ).find_parent("div", class_="wclLeagueHeader")
+                "span", class_="headerLeague__category-text", string=country
+            ).find_parent("div", class_="headerLeague__wrapper")
         except:  # In this case there are no matches for that country and the loop should continue
             continue
         current_match = league_section
@@ -137,9 +137,9 @@ def matches_finder():
         while (
             # Check if it's league div element (it will be passed on the if statement)
             current_match
-            and "wclLeagueHeader" in current_match.get("class")
+            and "headerLeague__wrapper" in current_match.get("class")
             and current_match.find(
-                "span", class_="wclLeagueHeader__countryName"
+                "span", class_="headerLeague__category-text"
             ).get_text()
             == country
             # Check if it's an event match div element
@@ -148,7 +148,7 @@ def matches_finder():
             and current_match.get("class")
             and "event__match" in current_match.get("class")
         ):
-            if "wclLeagueHeader" in current_match.get("class"):
+            if "headerLeague__wrapper" in current_match.get("class"):
                 pass
             else:
                 temp = {}

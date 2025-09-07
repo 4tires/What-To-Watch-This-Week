@@ -74,4 +74,3 @@ def fetcher_debug():
 
 input("Press Enter to Continue...")
 fetcher_debug()
-driver.close()
