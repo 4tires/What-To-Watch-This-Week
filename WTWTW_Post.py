@@ -102,7 +102,6 @@ def WTWTW_post_writer(write_ready_match_dict):
                     
         writer.write('\nr/WhatToWatchThisWeek')
 
-        writer.write('\n \n Want to be alerted next time a WTWTW thread is up? Click here to join the [FIXTURE-GUIDE](https://reddit.com/message/compose?to=2soccer2bot&subject=Subscribe%20to%20a%20group&message=addtogroup%20FIXTURE-GUIDE) group (beware this group is not exclusive to this thread)')
 
 
 
