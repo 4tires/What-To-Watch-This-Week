@@ -55,6 +55,38 @@
     "ECUADOR": [
         ["Barcelona SC", "Emelec"]
     ],
+    "ENGLAND": [
+        ["Arsenal", "Chelsea"],
+        ["Arsenal", "Tottenham"],
+        ["Aston Villa", "Birmingham"],
+        ["Chelsea", "Tottenham"],
+        ["Everton", "Liverpool"],
+        ["Liverpool", "Manchester Utd"],
+        ["Millwall", "West Ham"],
+        ["Newcastle", "Sunderland"],
+        ["Sheffield Utd", "Sheffield Wed"],
+        ["West Brom", "Wolves"]
+    ],
+    "FRANCE": [
+        ["Lens", "Lille"],
+        ["Lyon", "Marseille"],
+        ["Lyon", "St Etienne"],
+        ["Marseille", "Nice"],
+        ["Marseille", "PSG"],
+        ["Monaco", "Nice"]
+    ],
+    "GERMANY": [
+        ["B. Monchengladbach", "Bayern Munich"],
+        ["B. Monchengladbach", "FC Koln"],
+        ["Bayern Munich", "Dortmund"],
+        ["Bayern Munich", "Munich 1860"],
+        ["Braunschweig", "Hannover"],
+        ["Dortmund", "Schalke"],
+        ["Hamburger SV", "St. Pauli"],
+        ["Hamburger SV", "Werder Bremen"],
+        ["Hertha Berlin", "Union Berlin"],
+        ["Karlsruher SC", "Stuttgart"]
+    ],
     "GREECE": [
         ["AEK Athens FC", "Olympiacos Piraeus"],
         ["AEK Athens FC", "PAOK"],
@@ -69,6 +101,15 @@
     ],
     "ISRAEL": [
         ["Maccabi Haifa", "Maccabi Tel Aviv"]
+    ],
+    "ITALY": [
+        ["AC Milan", "Inter"],
+        ["AS Roma", "Lazio"],
+        ["AS Roma", "Napoli"],
+        ["Bologna", "Fiorentina"],
+        ["Genoa", "Sampdoria"],
+        ["Juventus", "Napoli"],
+        ["Juventus", "Torino"]
     ],
     "JAPAN": [
         ["FC Tokyo", "Verdy"],
@@ -125,7 +166,18 @@
     "SOUTH KOREA": [
         ["Pohang", "Ulsan HD"],
         ["Seoul", "Suwon FC"]
-    ],   
+    ],
+    "SPAIN": [
+        ["Ath Bilbao", "Real Sociedad"],
+        ["Atl. Madrid", "Real Madrid"],
+        ["Barcelona", "Espanyol"],
+        ["Barcelona", "Real Madrid"],
+        ["Betis", "Sevilla"],
+        ["Celta Vigo", "Dep. La Coruna"],
+        ["Gijon", "Oviedo"],
+        ["Rayo Vallecano", "Real Madrid"],
+        ["Valencia", "Villarreal"]
+    ],
     "SWEDEN": [
         ["AIK", "Djurgarden"],
         ["AIK", "Goteborg"],
