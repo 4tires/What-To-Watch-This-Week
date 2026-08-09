@@ -3113,7 +3113,7 @@
   },
   "Southampton": {
     "Proper": null,
-    "Sprite": null
+    "Sprite": "[](#sprite1-p38)"
   },
   "St. Georges Colts": {
     "Proper": null,
@@ -7143,7 +7143,7 @@
     "Proper": null,
     "Sprite": null
   },
-  "Paphos": {
+  "Pafos": {
     "Proper": "Pafos FC",
     "Sprite": "[](#sprite5-p161)"
   },
@@ -14451,7 +14451,7 @@
     "Proper": null,
     "Sprite": null
   },
-  "AEK Athens FC": {
+  "AEK Athens": {
     "Proper": "AEK Athens",
     "Sprite": "[](#sprite1-p284)"
   },
@@ -21828,8 +21828,8 @@
     "Sprite": null
   },
   "Shkendija": {
-    "Proper": null,
-    "Sprite": null
+    "Proper": "Shkëndija",
+    "Sprite": "[](#sprite5-p348)"
   },
   "Shkupi": {
     "Proper": null,
