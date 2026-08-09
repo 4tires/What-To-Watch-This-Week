@@ -4418,8 +4418,8 @@
             "Proper": null,
             "Sprite": null
         },
-        "World Cup": {
-            "Proper": null,
+        "World Championship": {
+            "Proper": "World Cup",
             "Sprite": null
         },
         "World Cup U17": {
