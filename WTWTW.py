@@ -116,7 +116,6 @@ def WTWTW():
     bolded_matches = bold_prompt(matches_with_all_sprites)
     print("Writing Reddit post.")
     post_text = post_writer(bolded_matches)
-    print(repr(post_text[:500]))  # inspect raw sprite chars survive this far
     pyperclip.copy(post_text)
     print("Completed.")
     print("Finished running WTWTW")
