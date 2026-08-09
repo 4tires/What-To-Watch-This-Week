@@ -21,6 +21,10 @@ from json import load
 from enum import Enum
 import WTWTW_Post
 import pyperclip
+from dataclasses import dataclass
+from typing import Optional
+
+### SELENIUM INITIATION
 
 URL = "https://www.flashscore.com/"
 
@@ -45,7 +49,7 @@ try:
         EC.presence_of_element_located((By.CLASS_NAME, "lsidDialog"))
     )
 finally:
-    print("Login")
+    print("Login finished")
 time.sleep(3)
 username = driver.find_element(By.ID, "email")
 username.clear()
@@ -56,36 +60,44 @@ password.clear()
 password.send_keys(password_credential)
 driver.find_element(By.CLASS_NAME, "wcl-button_eGaDi").click()
 
-competitions_dict = {}
-wtwtw_matches = {}
+### CLASS DEFINING AND DICTIONARIES
 
 
-class Competition_Type(Enum):
-    DOMESTIC = 0
-    INTERNATIONAL = 1
+@dataclass
+class Match:
+    time: str
+    match_id: str
+    home: str
+    away: str
+    region: str
+    competition: str
+    round_name: Optional[str] = None
+    home_sprite: Optional[str] = None
+    away_sprite: Optional[str] = None
+    competition_sprite: Optional[str] = None
+    home_fl_score: Optional[str] = None
+    away_fl_score: Optional[str] = None
 
 
-class League_Type(Enum):
-    CUP = 0
-    LEAGUE = 1
+# These round keywords will trigger opening the link of each match that belongs to a competition with the following text, so that we can fetch the round
+ROUND_KEYWORDS = [
+    "qualification",
+    "play offs",
+    "play-offs",
+    "relegation",
+    "promotion",
+    "copa",
+    "cup",
+]
+
+### SELENIUM FETCHING
 
 
 def WTWTW():
-    global wtwtw_matches
+    global wtwtw_matches  # REMOVE
     fetcher()
     match_details()
     driver.quit()
-    """
-    print("Writing listas.csv")
-    with open('listas.csv', 'w', newline='', encoding='utf8') as listas:
-        writer = csv.writer(listas, delimiter=';')
-        for date in wtwtw_matches:
-            for match in sorted(wtwtw_matches[date], key=lambda i: i['Time']):
-                if match['Round'] in fs_round_translator:
-                    match['Round'] = fs_round_translator[match['Round']]
-                writer.writerow([match['Time'], match['Home'], match['Away'], match['Competition'], match['Round']])
-            writer.writerow([])
-    """
     wtwtw_matches = WTWTW_Post.WTWTW_bold_prompt(wtwtw_matches)
     print("Writing Reddit post.")
     WTWTW_Post.WTWTW_post_writer(wtwtw_matches)
@@ -101,7 +113,7 @@ def WTWTW():
 
 
 def fetcher():
-    global wtwtw_matches
+    global wtwtw_matches  # REMOVE
     days = 7
     for n in range(days):
         date, checked_matches = parser()
@@ -115,25 +127,108 @@ def fetcher():
         time.sleep(5)
 
 
-def parser():
-    global competition_dict
-    checked_matches = []
+def get_competition_for_match(match_div, soup):
+    # Walk backwards through all preceding elements to find nearest league header
+    header = match_div.find_previous("a", class_="headerLeague__title")
+    if header is None:
+        raise RuntimeError(
+            f"No competition header found for match {match_div.get('id')}"
+        )
+    return header.get_text(strip=True)
 
+
+def needs_round_fetch(competition_name: str) -> bool:
+    name_lower = competition_name.lower()
+    return any(keyword in name_lower for keyword in ROUND_KEYWORDS)
+
+
+def fetch_competition_with_round(match_div, main_window):
+    link_el = match_div.find("a", class_="eventRowLink")
+    if link_el is None or not link_el.get("href"):
+        raise RuntimeError(
+            f"No detail link found for match {match_div.get('id')}"
+        )
+
+    detail_url = link_el["href"]
+
+    driver.execute_script("window.open(arguments[0]);", detail_url)
+    driver.switch_to.window(driver.window_handles[-1])
+
+    wait.until(
+        EC.presence_of_element_located(
+            (By.CSS_SELECTOR, '[data-testid="wcl-breadcrumbsItem"]')
+        )
+    )
+    detail_soup = BeautifulSoup(driver.page_source, "html.parser")
+
+    breadcrumb_items = detail_soup.select(
+        'li[data-testid="wcl-breadcrumbsItem"] span[data-testid="wcl-scores-overline-03"]'
+    )
+    if not breadcrumb_items:
+        raise RuntimeError(
+            f"No breadcrumb found on match detail page: {detail_url}"
+        )
+
+    competition_name = breadcrumb_items[-1].get_text(strip=True)
+
+    driver.close()
+    driver.switch_to.window(main_window)
+
+    return competition_name
+
+
+def get_favourite_matches():
     wait.until(EC.presence_of_element_located((By.CLASS_NAME, "event__match")))
     soup = BeautifulSoup(driver.page_source, "html.parser")
-    date = soup.find("button", class_="wcl-button_mrGAO").get_text()
-    matches = soup.find_all(
+
+    date_el = soup.find("button", attrs={"data-testid": "wcl-dayPickerButton"})
+    date = date_el.get("aria-label") if date_el else None
+
+    star_buttons = soup.find_all(
         "button",
         attrs={"data-testid": "wcl-favorite-active"},
         class_="eventSubscriber__star--event",
     )
 
-    list_of_matches = []
-    for match_ in matches:
-        list_of_matches.append(
-            match_.find_parent("div", class_="event__match")
+    list_of_matches = [
+        btn.find_parent("div", class_="event__match") for btn in star_buttons
+    ]
+
+    """
+    To debug the next error in case any star match doesn't have a parent':
+        for i, btn in enumerate(star_buttons):
+            parent = btn.find_parent("div", class_="event__match")
+            if parent is None:
+                print(f"Button #{i} failed. HTML context:")
+                print(btn.prettify())
+                print(btn.find_parent("div"))
+    """
+
+    if any(m is None for m in list_of_matches):
+        raise RuntimeError(
+            "A favorited star button had no event__match ancestor — page structure may have changed."
         )
-    list_of_matches = list(filter(None, list_of_matches))
+
+    # Get the competition
+    main_window = driver.current_window_handle
+
+    for match_div in list_of_matches:
+        competition_name = get_competition_for_match(match_div, soup)
+
+        if needs_round_fetch(competition_name):
+            competition_name = fetch_competition_with_round(
+                match_div, main_window
+            )
+
+        match_div["data-competition-name"] = competition_name
+
+    return date, list_of_matches
+
+
+# TRANSFORMATION LOGIC
+def parser():
+    checked_matches = get_favourite_matches()
+
     for match_ in list_of_matches:
         temp = {}
         try:
