@@ -540,8 +540,8 @@
             "Proper": "Coupe de Belgique Women",
             "Sprite": "[](#sprite8-p64)"
         },
-        "Jupiler League": {
-            "Proper": "Belgian Pro League",
+        "Jupiler Pro League": {
+            "Proper": "Jupiler Pro League",
             "Sprite": "[](#sprite7-p375)"
         },
         "National Division 1": {
@@ -1058,7 +1058,7 @@
         }
     },
     "Czech Republic": {
-        "FORTUNA:LIGA": {
+        "Chance Liga": {
             "Proper": "Czech Liga",
             "Sprite": "[](#sprite7-p445)"
         },
@@ -4152,8 +4152,8 @@
         }
     },
     "Uruguay": {
-        "Primera Division": {
-            "Proper": "Primera Divisi\u00f3n de Uruguay",
+        "Liga AUF Uruguaya": {
+            "Proper": "Liga AUF Uruguaya",
             "Sprite": "[](#sprite7-p356)"
         },
         "Segunda Division": {
