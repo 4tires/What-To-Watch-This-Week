@@ -179,7 +179,7 @@ def fetch_competition_with_round(match_div, main_window):
     detail_soup = BeautifulSoup(driver.page_source, "html.parser")
 
     breadcrumb_items = detail_soup.select(
-        'li[data-testid="wcl-breadcrumbsItem"] span[data-testid="wcl-scores-overline-03"]'
+        'li[data-testid="wcl-breadcrumbsItem"] span[itemprop="name"]'
     )
     if not breadcrumb_items:
         raise RuntimeError(
